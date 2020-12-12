@@ -1,0 +1,147 @@
+DisplayTypeName:
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORTITLE:SBWX.sct
+Airports:SBSN:name
+Airports:SBSN:symbol
+Airports:SDWQ:name
+Airports:SDWQ:symbol
+Airports:SNCJ:name
+Airports:SNCJ:symbol
+Airports:SNSH:name
+Airports:SNSH:symbol
+ARTCC boundary:SBWX_APP:
+ARTCC high boundary:SBAZ-ZIDA:
+ARTCC high boundary:SBAZ01:
+ARTCC high boundary:SBAZ02:
+ARTCC high boundary:SBAZ03:
+ARTCC high boundary:SBAZ04:
+ARTCC high boundary:SBAZ05:
+ARTCC high boundary:SBAZ06:
+ARTCC high boundary:SBAZ07:
+ARTCC high boundary:SBAZ08:
+ARTCC high boundary:SBAZ09:
+ARTCC high boundary:SBAZ10:
+ARTCC high boundary:SBAZ11:
+ARTCC high boundary:SBAZ12:
+ARTCC high boundary:SBAZ13:
+ARTCC high boundary:SBAZ14:
+ARTCC high boundary:SBAZ15:
+ARTCC high boundary:SBAZ_CTR:
+ARTCC low boundary:SBSN_TWR:
+ARTCC low boundary:SBTS R_TWR:
+Free Text:AMA-SBAZ\10:freetext
+Free Text:AMA-SBAZ\10:freetext
+Free Text:AMA-SBAZ\102:freetext
+Free Text:AMA-SBAZ\102:freetext
+Free Text:AMA-SBAZ\11:freetext
+Free Text:AMA-SBAZ\11:freetext
+Free Text:AMA-SBAZ\11:freetext
+Free Text:AMA-SBAZ\13:freetext
+Free Text:AMA-SBAZ\16:freetext
+Free Text:AMA-SBAZ\17:freetext
+Free Text:AMA-SBAZ\20:freetext
+Free Text:AMA-SBAZ\20:freetext
+Free Text:AMA-SBAZ\21:freetext
+Free Text:AMA-SBAZ\21:freetext
+Free Text:AMA-SBAZ\23:freetext
+Free Text:AMA-SBAZ\25:freetext
+Free Text:AMA-SBAZ\26:freetext
+Free Text:AMA-SBAZ\27:freetext
+Free Text:AMA-SBAZ\28:freetext
+Free Text:AMA-SBAZ\28:freetext
+Free Text:AMA-SBAZ\29:freetext
+Free Text:AMA-SBAZ\31:freetext
+Free Text:AMA-SBAZ\32:freetext
+Free Text:AMA-SBAZ\34:freetext
+Free Text:AMA-SBAZ\36:freetext
+Free Text:AMA-SBAZ\37:freetext
+Free Text:AMA-SBAZ\39:freetext
+Free Text:AMA-SBAZ\40:freetext
+Free Text:AMA-SBAZ\44:freetext
+Free Text:AMA-SBAZ\44:freetext
+Free Text:AMA-SBAZ\71:freetext
+Free Text:ESTADOS-CENTRO-OESTE\MATO GROSSO:freetext
+Free Text:ESTADOS-NORDESTE\MARANH�O:freetext
+Free Text:ESTADOS-NORTE\ACRE:freetext
+Free Text:ESTADOS-NORTE\AMAP�:freetext
+Free Text:ESTADOS-NORTE\AMAZONAS:freetext
+Free Text:ESTADOS-NORTE\PAR�:freetext
+Free Text:ESTADOS-NORTE\ROND�NIA:freetext
+Free Text:ESTADOS-NORTE\RORAIMA:freetext
+Free Text:ESTADOS-NORTE\TOCANTINS:freetext
+Free Text:FIR-FSS\AMAZONIC-EAST:freetext
+Free Text:FIR-FSS\AMAZONIC-WEST:freetext
+Free Text:FIR-FSS\ATLANTIC-WEST:freetext
+Free Text:FIR-FSS\BOGOTA SKED:freetext
+Free Text:FIR-FSS\BRASILIA-NORTH:freetext
+Free Text:FIR-FSS\CAYENNE GOOO:freetext
+Free Text:FIR-FSS\CURITIBA-NORTH:freetext
+Free Text:FIR-FSS\GEORGETOWN SYGC:freetext
+Free Text:FIR-FSS\LA PAZ SLLF:freetext
+Free Text:FIR-FSS\LIMA SPIM:freetext
+Free Text:FIR-FSS\MAIQUETIA SVZM:freetext
+Free Text:FIR-FSS\PARAMARIBO SMPM:freetext
+Free Text:FIR-FSS\RECIFE-NORTH:freetext
+Free Text:FIR-FSS\RECIFE-SOUTH:freetext
+Free Text:MILITARY-FIR\GOLIAS GOL:freetext
+Free Text:MILITARY-FIR\POSEIDON POS:freetext
+Free Text:MILITARY-FIR\SANSAO SAN:freetext
+Free Text:MILITARY-FIR\THOR :freetext
+Free Text:MILITARY-FIR\ZEUS ZEU:freetext
+Free Text:PAISES\BOLIVIA:freetext
+Free Text:PAISES\COLOMBIA:freetext
+Free Text:PAISES\EQUADOR:freetext
+Free Text:PAISES\GUIANA:freetext
+Free Text:PAISES\GUIANA FRANCESA:freetext
+Free Text:PAISES\PERU:freetext
+Free Text:PAISES\SURINAME:freetext
+Free Text:PAISES\VENEZUELA:freetext
+Free Text:SBSN-Park\1:freetext
+Free Text:SBSN-Park\10:freetext
+Free Text:SBSN-Park\11:freetext
+Free Text:SBSN-Park\2:freetext
+Free Text:SBSN-Park\3:freetext
+Free Text:SBSN-Park\4:freetext
+Free Text:SBSN-Park\5:freetext
+Free Text:SBSN-Park\6:freetext
+Free Text:SBSN-Park\7:freetext
+Free Text:SBSN-Park\8:freetext
+Free Text:SBSN-Park\9:freetext
+Free Text:SBSN-Patio\P1:freetext
+Free Text:SBSN-Patio\P2:freetext
+Free Text:SBSN-Taxi\A:freetext
+Free Text:SBSN-Taxi\B:freetext
+Free Text:SBSN-Taxi\C:freetext
+Free Text:SBSN-Terminal\PAX:freetext
+Free Text:SETORES-SBAZ\S-01:freetext
+Free Text:SETORES-SBAZ\S-02:freetext
+Free Text:SETORES-SBAZ\S-03:freetext
+Free Text:SETORES-SBAZ\S-04:freetext
+Free Text:SETORES-SBAZ\S-05:freetext
+Free Text:SETORES-SBAZ\S-06:freetext
+Free Text:SETORES-SBAZ\S-07:freetext
+Free Text:SETORES-SBAZ\S-08:freetext
+Free Text:SETORES-SBAZ\S-09:freetext
+Free Text:SETORES-SBAZ\S-10:freetext
+Free Text:SETORES-SBAZ\S-11:freetext
+Free Text:SETORES-SBAZ\S-12:freetext
+Free Text:SETORES-SBAZ\S-13:freetext
+Free Text:SETORES-SBAZ\S-14:freetext
+Free Text:SETORES-SBAZ\S-15:freetext
+Geo:GEO:
+Geo:SBSN_GND:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-2.431286:-54.806397:-2.412987:-54.773176

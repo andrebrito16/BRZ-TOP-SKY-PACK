@@ -1,0 +1,217 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\FIR RECIFE\TMA Fortaleza\Controle Fortaleza\..\..\..\Data\Sector Files\SBRE\SBWZ - Fortaleza\SBWZ.sct
+SECTORTITLE:SBWZ.sct
+Airports:SBFZ:name
+Airports:SBFZ:symbol
+Airports:SJCM:name
+Airports:SJCM:symbol
+Airports:SJDS:name
+Airports:SJDS:symbol
+Airports:SJND:name
+Airports:SJND:symbol
+Airports:SNFF:name
+Airports:SNFF:symbol
+Airports:SNJC:name
+Airports:SNJC:symbol
+ARTCC boundary:SBWZ_TMA:
+ARTCC low boundary:SBAC_R_TWR:
+ARTCC low boundary:SBFZ_TWR:
+Free Text:SBFZ-GATE\1:freetext
+Free Text:SBFZ-GATE\10:freetext
+Free Text:SBFZ-GATE\2:freetext
+Free Text:SBFZ-GATE\3:freetext
+Free Text:SBFZ-GATE\3:freetext
+Free Text:SBFZ-GATE\3A:freetext
+Free Text:SBFZ-GATE\4:freetext
+Free Text:SBFZ-GATE\4:freetext
+Free Text:SBFZ-GATE\4A:freetext
+Free Text:SBFZ-GATE\5:freetext
+Free Text:SBFZ-GATE\5:freetext
+Free Text:SBFZ-GATE\6:freetext
+Free Text:SBFZ-GATE\6:freetext
+Free Text:SBFZ-GATE\7:freetext
+Free Text:SBFZ-GATE\7:freetext
+Free Text:SBFZ-GATE\7A:freetext
+Free Text:SBFZ-GATE\8:freetext
+Free Text:SBFZ-GATE\8:freetext
+Free Text:SBFZ-GATE\9:freetext
+Free Text:SBFZ-GATE\9A:freetext
+Free Text:SBFZ-GATE\9B:freetext
+Free Text:SBFZ-GATE\9C:freetext
+Free Text:SBFZ-GATE\R17:freetext
+Free Text:SBFZ-GATE\R18:freetext
+Free Text:SBFZ-GATE\R19:freetext
+Free Text:SBFZ-GATE\R21:freetext
+Free Text:SBFZ-GATE\R22:freetext
+Free Text:SBFZ-PATIO\AVIAÇÃO GERAL:freetext
+Free Text:SBFZ-PATIO\PATIO 1:freetext
+Free Text:SBFZ-PATIO\PATIO 2:freetext
+Free Text:SBFZ-PATIO\PATIO 3:freetext
+Free Text:SBFZ-PATIO\PATIO 4:freetext
+Free Text:SBFZ-PATIO\TERMINAL PAX:freetext
+Free Text:SBFZ-TAXI\A:freetext
+Free Text:SBFZ-TAXI\A:freetext
+Free Text:SBFZ-TAXI\B:freetext
+Free Text:SBFZ-TAXI\C:freetext
+Free Text:SBFZ-TAXI\D:freetext
+Free Text:SBFZ-TAXI\E:freetext
+Free Text:SBFZ-TAXI\F:freetext
+Free Text:SBFZ-TAXI\G:freetext
+Free Text:SBFZ-TAXI\H:freetext
+Free Text:SBFZ-TAXI\I:freetext
+Free Text:SBFZ-TAXI\J:freetext
+Free Text:SBFZ-TAXI\J:freetext
+Free Text:SBFZ-TAXI\J:freetext
+Free Text:SBFZ-TAXI\J:freetext
+Free Text:SBFZ-TAXI\K:freetext
+Free Text:SBFZ-TAXI\L:freetext
+Free Text:SBFZ-TAXI\M:freetext
+Free Text:SBFZ-TAXI\N:freetext
+Geo:GEO:
+Geo:SBFZ_GND:
+Regions:SBFZ:polygon
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:centerline
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:name
+Runways:SJCM AQUIRAZ 13-31:centerline
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right vectoring
+Runways:SJCM AQUIRAZ 13-31:name
+Runways:SJDS EUSÉBIO 13-31:centerline
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right vectoring
+Runways:SJDS EUSÉBIO 13-31:name
+Runways:SJND DARINHA 11-29:centerline
+Runways:SJND DARINHA 11-29:extended centerline 1
+Runways:SJND DARINHA 11-29:extended centerline 1 left base
+Runways:SJND DARINHA 11-29:extended centerline 1 left ticks
+Runways:SJND DARINHA 11-29:extended centerline 1 left vectoring
+Runways:SJND DARINHA 11-29:extended centerline 1 right base
+Runways:SJND DARINHA 11-29:extended centerline 1 right ticks
+Runways:SJND DARINHA 11-29:extended centerline 1 right vectoring
+Runways:SJND DARINHA 11-29:extended centerline 2
+Runways:SJND DARINHA 11-29:extended centerline 2 left base
+Runways:SJND DARINHA 11-29:extended centerline 2 left ticks
+Runways:SJND DARINHA 11-29:extended centerline 2 left vectoring
+Runways:SJND DARINHA 11-29:extended centerline 2 right base
+Runways:SJND DARINHA 11-29:extended centerline 2 right ticks
+Runways:SJND DARINHA 11-29:extended centerline 2 right vectoring
+Runways:SJND DARINHA 11-29:name
+Runways:SNFF FEIJO 13-31:centerline
+Runways:SNFF FEIJO 13-31:extended centerline 1
+Runways:SNFF FEIJO 13-31:extended centerline 1 left base
+Runways:SNFF FEIJO 13-31:extended centerline 1 left ticks
+Runways:SNFF FEIJO 13-31:extended centerline 1 left vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 1 right base
+Runways:SNFF FEIJO 13-31:extended centerline 1 right ticks
+Runways:SNFF FEIJO 13-31:extended centerline 1 right vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 2
+Runways:SNFF FEIJO 13-31:extended centerline 2 left base
+Runways:SNFF FEIJO 13-31:extended centerline 2 left ticks
+Runways:SNFF FEIJO 13-31:extended centerline 2 left vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 2 right base
+Runways:SNFF FEIJO 13-31:extended centerline 2 right ticks
+Runways:SNFF FEIJO 13-31:extended centerline 2 right vectoring
+Runways:SNFF FEIJO 13-31:name
+Runways:SNJC UMIRIM 09-27:centerline
+Runways:SNJC UMIRIM 09-27:extended centerline 1
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left base
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right base
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 2
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left base
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right base
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right vectoring
+Runways:SNJC UMIRIM 09-27:name
+VORs:FLZ:frequency
+VORs:FLZ:name
+VORs:FLZ:symbol
+VORs:MSS:frequency
+VORs:MSS:name
+VORs:MSS:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-3.782716:-38.546769:-3.765188:-38.514908
+PLUGIN:vSMR:ActiveProfile:Default
+PLUGIN:vSMR:Afterglow:1
+PLUGIN:vSMR:Airport:SBFZ
+PLUGIN:vSMR:AppTrailsDots:4
+PLUGIN:vSMR:FontSize:1
+PLUGIN:vSMR:GndTrailsDots:4
+PLUGIN:vSMR:PredictedLine:0
+PLUGIN:vSMR:SRW1BottomRightX:600
+PLUGIN:vSMR:SRW1BottomRightY:500
+PLUGIN:vSMR:SRW1Display:0
+PLUGIN:vSMR:SRW1Filter:5500
+PLUGIN:vSMR:SRW1OffsetX:0
+PLUGIN:vSMR:SRW1OffsetY:0
+PLUGIN:vSMR:SRW1Rotation:0
+PLUGIN:vSMR:SRW1Scale:15
+PLUGIN:vSMR:SRW1TopLeftX:200
+PLUGIN:vSMR:SRW1TopLeftY:200
+PLUGIN:vSMR:SRW2BottomRightX:600
+PLUGIN:vSMR:SRW2BottomRightY:500
+PLUGIN:vSMR:SRW2Display:0
+PLUGIN:vSMR:SRW2Filter:5500
+PLUGIN:vSMR:SRW2OffsetX:0
+PLUGIN:vSMR:SRW2OffsetY:0
+PLUGIN:vSMR:SRW2Rotation:0
+PLUGIN:vSMR:SRW2Scale:15
+PLUGIN:vSMR:SRW2TopLeftX:200
+PLUGIN:vSMR:SRW2TopLeftY:200

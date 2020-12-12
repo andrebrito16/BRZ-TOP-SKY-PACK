@@ -1,0 +1,776 @@
+;========================================VIRTUAL AIR TRAFFIC SIMULATION NETWORK - BRAZIL================================;
+;Lista Oficial de Posições de Controle Brasileiras - POF - Fevereiro 2020
+;Position File Oficial  Vatsim Brasil - February 2020
+;========================================CHANGE HISTORY / HISTÓRICO DE MUDANÇAS=========================================;
+;Original VATBRZ POF file created by Wills Damasio;                                            
+;FIR Curitiba V1.4 01/10/04 by Guilherme Utz, Fernando Francesconi and Geraldo Velásquez;
+;FIR Brasilia by David Hendleman, Mike Evans;
+;FIR Recife by Eduardo Andrade , Wills Damasio and Ragazzi;
+;FIR Amazônica V1.0 29/04/2005 por José Hélio Possebon and Alan Zeidan;
+;Updated to 3.0 on 20/05/07 by Fernando Francesconi;
+;Updated to 3.1 on 25/10/07 by Gabriel Dálio and Fernando Francesconi;
+;Updated to V4 on 11/05/2012 by Jose Olyntho (816398) and Marcelo Duran (1176670);
+;Updated to V6 on Dec/2012 by Jose Olyntho (816398), Marcelo Duran (1176670) e Roberto Tonin;
+;Updated to V8 on jul/2013 by Jose Olyntho (816398);
+;Updated to AIRAC 1401 on jan/2014 by Marcos Pereira (963126) and Jose Olyntho (816398);
+;Updated to AIRAC 1808 on jul/2018 by Otávio França (1086430).
+;Updated to AIRAC 1812 on dez/2018 by Otávio França (1086430).
+;Updated FEB/2020 by Otávio França (1086430).
+;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
+; Updated by Sectorgraph to AIRAC 2012
+;========================================UPDATES / ATUALIZAÇÕES==========================================================;
+;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;========================================DATA STRUCTURE / ESTRUTURA DE DADOS=============================================;
+; 1- POF - NAME|RNAME|FREQ|SECID|ARTSTAG|CALLPREFIX|CALLSUFFIX|LINE1|LINE2|LSQUAWK|HSQUAWK|<optional VISIBILITY>
+; 2- AIRSPACE; 5- FREE TEXT; 6-SIDSSTARS; 
+;========================================"SECID" DEVELOPMENT RATIONALE / LEI DE FORMAÇÃO "SECID"=========================;
+; ATIS = A + <xx FINAL ICAO>,
+; GND  = G + <xx FINAL ICAO>,
+; TWR  = T + <xx FINAL ICAO>,
+; MIL  = COD.CHAMADA <xxx ou xxxx> ou M + <xx FINAL ICAO> e 
+; APP e CTR = <xx FINAL ICAO DA TMA> + x <DESIGNADOR DE SETOR>
+;========================================POSITIONS/POSIÇÕES==============================================================;
+[POSITIONS]
+;FIR ATLANTICO SBAO
+Atlantico Center:Atlantico Center:133.500:AO::SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Atlantico Air Defense :POSEIDON Atlantico Air Defense:133.850:POS:M:SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Ascension Island Military Radio:WIDEAWAKE Ascension Island Military Radio:126.200:WID:M:FHAW:TWR:::0120:0137:
+;FIR AMAZONICA SBAZ
+Almeirim Radio:Monte Dourado Radio:125.700:TMD:R:SBMD:TWR:::0601:0677:
+Alta Floresta Radio:Floresta Radio:126.600:TAT:R:SBAT:TWR:::0601:0677:
+Altamira Radio:Altamira Radio:125.850:THT:R:SBHT:TWR:::0601:0677:
+Amazonica Approach:Amazonica Approach:119.250:WA::SBWA:APP:::6101:6140:
+Amazonic Center:Amazonic Center:133.700:AZ::SBAZ:CTR:::6001:6077:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Belem Approach:Belem Approach:119.050:WB::SBWB:APP:::6140:6177:
+Belem ATIS:Belem ATIS:127.600:ABE::SBBE:ATIS:::::
+Belem Ground:Belem Ground:121.900:GBE::SBBE:GND:::6640:6657:
+Belem Tower:Belem Tower:118.700:TBE::SBBE:TWR:::6140:6177:
+Belem Military Approach:BABE Belem Military Approach:122.500:MWB:M:SBWB:APP:::0140:0157:
+Belem Military Ground:Belem Military Ground:121.950:MGE:M:SBBE:GND:::0101:0117:
+Belem Military Tower:Belem Military Tower:121.500:MBE:M:SBBE:TWR:::0120:0137:
+Boa Vista Approach:Boa Vista Approach:120.100:WQ::SBWQ:APP:::6201:6237:
+Boa Vista Ground:Boa Vista Ground:121.700:GBV::SBBV:GND:::6660:6677:
+Boa Vista Tower:Boa Vista Tower:118.100:TBV::SBBV:TWR:::6201:6237:
+Boa Vista Military Approach:Boa Vista Military Approach:122.500:MWQ:M:SBWQ:APP:::0140:0157:
+Boa Vista Military Ground:Boa Vista Military Ground:121.950:MGB:M:SBBV:GND:::0101:0117:
+Boa Vista Military Tower:Boa Vista Military Tower:121.500:MBV:M:SBBV:TWR:::0120:0137:
+Cachimbo Military Radio:Cachimbo Military Radio:125.900:CCM:M:SBCC:TWR:::0120:0137:
+Carajas Radio:Carajas Radio:131.700:TCJ:R:SBCJ:TWR:::0601:0677:
+Carolina Radio:Carolina Radio:126.600:TCI:R:SBCI:TWR:::0601:0677:
+Coari Radio:Urucu Radio:131.850:TUY:R:SBUY:TWR:::0601:0677:
+Conceição do Araguaia Radio:Conceicao Radio:125.700:TAA:R:SBAA:TWR:::0601:0677:
+Cruzeiro do Sul Radio:Cruzeiro Radio:125.700:TCZ:R:SBCZ:TWR:::0601:0677:
+Cuiaba Approach:Cuiaba Approach:119.400:WY::SBWY:APP:::6240:6277:
+Cuiaba ATIS:Cuiaba ATIS:127.850:ACY::SBCY:ATIS:::::
+Cuiaba Ground:Cuiaba Ground:121.900:GCY::SBCY:GND:::6701:6717:
+Cuiaba Tower:Cuiaba Tower:118.100:TCY::SBCY:TWR:::6240:6277:
+Guajara Mirim Radio:Guajara Mirim Radio:125.900:TGM:R:SBGM:TWR:::0601:0677:
+Imperatriz Radio:Imperatriz Radio:125.650:TIZ:R:SBIZ:TWR:::0601:0677:
+Itacoatiara Radio:Itacoatiara Radio:126.600:TIC:R:SBIC:TWR:::0601:0677:
+Itaituba Radio:Itaituba Radio:125.500:TIH:R:SBIH:TWR:::0601:0677:
+Jacareacanga Radio:Jacareacanga Radio:125.900:TEK:R:SBEK:TWR:::0601:0677:
+JiParana Radio:JiParana Radio:131.750:TJI:R:SBJI:TWR:::0601:0677:
+Julio Cesar Tower:Julio Cesar Tower:118.300:TJC::SBJC:TWR:::6760:6766:
+Macapa Approach:Macapa Approach:119.000:XK::SBXK:APP:::6301:6337:
+Macapa Tower:Macapa Tower:118.000:TMQ::SBMQ:TWR:::6301:6337:
+Manaus Approach:Manaus Approach:119.250:WN::SBWN:APP:::6340:6377:
+Manaus Eduardo Gomes ATIS:Manaus Eduardo Gomes ATIS:127.650:AEG::SBEG:ATIS:::::
+Manaus Eduardo Gomes Ground:Manaus Eduardo Gomes Ground:121.900:GEG::SBEG:GND:::6720:6737:
+Manaus Eduardo Gomes Tower:Manaus Eduardo Gomes Tower:118.300:TEG::SBEG:TWR:::6340:6377:
+Manaus Ponta Pelada Tower:Manaus Ponta Pelada Tower:118.100:TMN::SBMN:TWR:::6720:6737:
+Manaus Air Defense:GOLIAS Manaus Air Defense :132.500:GOL:M:SBAZ:CTR:::0160:0177:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Manaus Military Approach:TUCANO Manaus Military Approach:122.800:TUC:M:SBWN:APP:::0140:0157:
+Manaus Ponta Pelada Military Tower:TAPIRI Manaus Military Tower:118.100:TAP:M:SBEG:TWR:::0120:0137:
+Manicore Radio:Manicore Radio:125.9000:TMY:R:SBMY:TWR:::0601:0677:
+Maraba Approach:Maraba Approach:119.200:XJ::SBXJ:APP:::6401:6437:
+Maraba Tower:Maraba Tower:125.900:TMA::SBMA:TWR:::6401:6437:
+Oiapoque Radio:Oiapoque Radio:125.900:TOI:R:SBOI:TWR:::0601:0677:
+Porto Velho Approach:Porto Velho Approach:120.250:WV::SBWV:APP:::6440:6477:
+Porto Velho Tower:Porto Velho Tower:118.200:TPV::SBPV:TWR:::6440:6477:
+Porto Velho Military Tower:BALANIS  Porto Velho Military Tower:122.500:PVM:M:SBPV:TWR:::0120:0137:
+Rio Branco Approach:Rio Branco Approach:119.900:XB::SBXB:APP:::6501:6537:
+Rio Branco Tower:Rio Branco Tower:118.700:TRB::SBRB:TWR:::6501:6537:
+Rondonopolis Radio:Rondonopolis Radio:130.700:TRD:R:SBRD:TWR:::0601:0677:
+Santarem Approach:Santarem Approach:119.300:WX::SBWX:APP:::6540:6577:
+Santarem Tower:Santarem Tower:118.100:TSN::SBSN:TWR:::6540:6577:
+Sao Gabriel da Cachoeira Radio:Gabriel Radio:125.700:TUA:R:SBUA:TWR:::0601:0677:
+Sao Luiz Approach:Sao Luiz Approach:119.100:WS::SBWS:APP:::6601:6637:
+Sao Luiz Tower:Sao Luiz Tower:118.900:TSL::SBSL:TWR:::6601:6637:
+Sinop Radio:Sinop Radio:130.175:TSI:R:SWSI:TWR:::0601:0677:
+Sorriso Radio:Sorriso Radio:130.350:TSO:R:SBSO:TWR:::0601:0677:
+Tabatinga Tower:Tabatinga Tower:125.900:TTT::SBTT:TWR:::6740:6757:
+Tarauaca Radio:Tarauaca Radio:125.900:TTK:R:SBTK:TWR:::0601:0677:
+Tefe Radio:Tefe Radio:125.600:TTF:R:SBTF:TWR:::0601:0677:
+Tirios Radio:Tirios Radio:128.100:TTS:R:SBTS:TWR:::0601:0677:
+Trombetas Radio:Trombetas Radio:131.600:TTB:R:SBTB:TWR:::0601:0677:
+Tucurui Radio:Tucurui Radio:128.100:TTU:R:SBTU:TWR:::0601:0677:
+Vilhena Radio:Vilhena Radio:125.900:TVH:R:SBVH:TWR:::0601:0677:
+;FIR BRASILIA SBBS
+Academia Approach:Academia Approach:120.100:XQ::SBXQ:APP:::4101:4137:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia ATIS:Academia ATIS:127.700:AYS::SBYS:ATIS:::::
+Academia Ground:Academia Ground:121.900:GYS::SBYS:GND:::4140:4157:
+Academia Tower:Academia Tower:118.300:TYS::SBYS:TWR:::4101:4137:
+Academia Military Approach:POLARIS Academia Military Approach:122.400:POL:M:SBXQ:APP:::0140:0157:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia Military Ground:CANOPUS Academia Military Ground:121.850:CAN:M:SBYS:GND:::0101:0117:
+Academia Military Tower:CAPELA Academia Military Tower:126.300:CAP:M:SBYS:TWR:::0120:0137:
+Americana Tower:Americana Tower:135.025:TAI::SDAI:TWR:::4701:4737:
+Anapolis Approach:Anapolis Approach:120.550:XN::SBXN:APP:::4201:4237:
+Anapolis Military Approach:Anapolis Military Approach:133.000:XNM:M:SBXN:APP:::0140:0157:
+Anapolis Military Ground:Anapolis Military Ground:121.900:GAM:M:SBAN:GND:::0101:0117:
+Anapolis Military Tower:Anapolis Military Tower:118.300:TAM:M:SBAN:TWR:::0120:0137:
+Araraquara Tower:Araraquara Tower:131.600:TAQ::SBAQ:TWR:::4160:4177:
+Araxa Radio:Araxa Radio:130.350:TAX:R:SBAX:TWR:::4740:4777:
+Barra do Garcas Radio:Barra do Garcas Radio:125.900:TBW:R:SBBW:TWR:::4740:4777:
+Belo Horizonte Approach:Belo Horizonte Approach:129.100:WH::SBWH:APP:::4301:4337:
+Belo Horizonte Carlos Prates ATIS:Carlos Prates ATIS:127.850:APR::SBPR:ATIS:::::
+Belo Horizonte Carlos Prates Tower:Carlos Prates Tower:125.850:TPR::SBPR:TWR:::4260:4277:
+Belo Horizonte Pampulha ATIS:Pampulha ATIS:127.450:ABH::SBBH:ATIS:::::
+Belo Horizonte Pampulha Clearance Delivery:Pampulha Clearence Delivery:121.100:CBH::SBBH:DEL:::4301:4377:
+Belo Horizonte Pampulha Ground:Pampulha Ground:121.600:GBH::SBBH:GND:::4360:4377:
+Belo Horizonte Pampulha Tower:Pampulha Tower:118.000:TBH::SBBH:TWR:::4301:4337:
+Belo Horizonte Tancredo Neves ATIS:Confins ATIS:127.850:ACF::SBCF:ATIS:::::
+Belo Horizonte Tancredo Neves Clearance:Confins Clearance:121.000:CCF::SBCF:DEL:::4301:4377:
+Belo Horizonte Tancredo Neves Ground:Confins Ground:121.900:GCF::SBCF:GND:::4340:4357:
+Belo Horizonte Tancredo Neves Tower:Confins Tower:118.200:TCF::SBCF:TWR:::4301:4337:
+Braganca Paulista:Braganca Paulista:125.700:TBP::SBBP:TWR:::4701:4737:
+Brasilia Approach:Brasilia Approach:119.200:WR::SBWR:APP:::4401:4437:
+Brasilia ATIS:Brasilia ATIS:127.800:ABR::SBBR:ATIS:::::
+Brasilia Clearence Delivery:Brasilia Clearence Delivery:121.000:CBR::SBBR:DEL:::4401:4477:
+Brasilia Ground:Brasilia Ground:121.800:GBR::SBBR:GND:::4440:4457:
+Brasilia Tower:Brasilia Tower:118.100:TBR::SBBR:TWR:::4401:4437:
+Brasilia Center:Brasilia Center:134.000:BS::SBBS:CTR:::4001:4077:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Air Defense:ZEUS Brasilia Air Defense:133.100:ZEU:M:SBBS:CTR:::0160:0177:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Military Approach:SIGMA Brasilia Military Approach:134.550:SIG:M:SBWR:APP:::0140:0157:
+Brasilia Military Ground:CERRADO Brasilia Military Ground:121.950:CRR:M:SBBR:GND:::0101:0117:
+Brasilia Military Tower:PLANALTO Brasilia Military Tower:129.000:PNT:M:SBBR:TWR:::0120:0137:
+Caldas Novas Radio:Caldas Novas Radio:130.050:TCN:R:SBCN:TWR:::4740:4777:
+Campinas ATIS:Campinas ATIS:127.825:AKP::SBKP:ATIS:::::
+Campinas Clearence Delivery:Campinas Clearence Delivery:121.100:CKP::SBKP:DEL:::4701:4737:
+Campinas Ground:Campinas Ground:121.900:GKP::SBKP:GND:::4701:4737:
+Campinas Tower:Campinas Tower:118.250:TKP::SBKP:TWR:::4701:4737:
+Gaviao Peixoto Tower:Gaviao Peixoto Tower:118.950:TGP::SBGP:TWR:::4160:4177:
+Gaviao Peixoto Ground:Gaviao Peixoto Ground:121.800:GGP::SBGP:GND:::4160:4177:
+Goiania ATIS:Goiania ATIS:127.675:AGO::SBGO:ATIS:::::
+Goiania Clearence Delivery:Goiania Clearence Delivery:121,050:CGO::SBGO:DEL:::4201:4277:
+Goiania Ground:Goiania Ground:121.700:GGO::SBGO:GND:::4240:4257:
+Goiania Tower:Goiania Tower:118.700:TGO::SBGO:TWR:::4201:4237:
+Ipatinga Radio:Ipatinga Radio:130.000:TIP:R:SBIP:TWR:::4740:4777:
+Itumbiara Radio:Itumbiara Radio:130.300:TIT:R:SBIT:TWR:::4740:4777:
+Jundiai Ground:Jundiai Ground:121.650:GJD::SBJD:GND:::4760:4777:
+Jundiai Tower:Jundiai Tower:118.750:TJD::SBJD:TWR:::4760:4777:
+Lagoa Santa Tower:Lagoa Santa Tower:122.800:TLS::SBLS:TWR:::4260:4277:
+Montes Claros Radio:Montes Claros Radio:131.700:TMK:R:SBMK:TWR:::4740:4777:
+Palmas Approach:Palmas Approach:119.000:XD::SBXD:APP:::4501:4537:
+Palmas Tower:Palmas Tower:118.000:TPJ::SBPJ:TWR:::4501:4537:
+Pocos de Caldas Radio:Pocos de Caldas Radio:126.600:TPC:R:SBPC:TWR:::4740:4777:
+Ribeirao Preto ATIS:Ribeirao ATIS:127.425:ARP::SBRP:ATIS:::::
+Ribeirao Preto Ground:Ribeirao Ground:121.600:GRP::SBRP:GND:::4140:4157:
+Ribeirao Preto Tower:Ribeirao Tower:118.000:TRP::SBRP:TWR:::4140:4157:
+Sao Jose dos Campos Atis:Sao Jose dos Campos Atis:127.925:ASJ::SBSJ:ATIS:::::
+Sao Jose dos Campos Clearence Delivery:Sao Jose dos Campos Clearence Delivery:122.500:CSJ::SBSJ:DEL:::4640:4677:
+Sao Jose dos Campos Ground:Sao Jose dos Campos Ground:121.950:GSJ::SBSJ:GND:::4640:4677:
+Sao Jose dos Campos Tower:Sao Jose dos Campos Tower:118.500:TSJ::SBSJ:TWR:::4640:4677:
+Sao Jose do Rio Preto Radio:Rio Preto Radio:130.850:TSR:R:SBSR:TWR:::4740:4777:
+Uberaba Approach:Uberaba Approach:120.800:XU::SBXU:APP:::4540:4577:
+Uberaba Tower:Uberaba Tower:118.500:TUR::SBUR:TWR:::4540:4577:
+Uberlandia Approach:Uberlandia Approach:122.850:XW::SBXW:APP:::4601:4637:
+Uberlandia Tower:Uberlandia Tower:118.800:TUL::SBUL:TWR:::4601:4637:
+Varginha Radio:Varginha Radio:130.800:TVG:R:SBVG:TWR:::4740:4777:
+;FIR CURITIBA SBCW
+Afonsos Military Ground:Afonsos Military Ground:121.850:GAF:M:SBAF:GND:::0101:0117:
+Afonsos Military Tower:BUTANTÃ Afonsos Military Tower:118.900:BUT:M:SBAF:TWR:::0120:0137:
+Albacora Helicopter ATIS:Albacora Helicopter ATIS:131.975:ALB:H:SBLB:ATIS:::::
+Albacora Helicopter Radio:Albacora Helicopter Radio:131.975:TLB:H:SBLB:TWR:::0201:0237:
+Aldeia Approach:Aldeia Military Approach:119.450:ALC:M:SBES:APP:::0140:0157:
+Aldeia Military Ground:Aldeia Military Ground:121.900:ALG:M:SBES:GND:::0101:0117:
+Aldeia Military Tower:Aldeia Military Tower:122.800:ALM:M:SBES:TWR:::0120:0137:
+Aracatuba Radio:Aracatuba Radio:118.300:TAU:R:SBAU:TWR:::0240:0277:
+Bacacheri ATIS:Bacacheri ATIS:132.325:ABI::SBBI:ATIS:::::
+Bacacheri Ground:Bacacheri Ground:121.800:GBI::SBBI:GND:::3301:3337:
+Bacacheri Tower:Bacacheri Tower:118.900:TBI::SBBI:TWR:::3301:3337:
+Barbacena Radio:Barbacena Radio:125.900:TBQ:R:SBBQ:TWR:::0240:0277:
+Bagé Radio:Bagé Radio:125.850:TBG:R:SBBG:TWR:::0240:0277:
+Bauru Approach:Bauru Approach:121.300:WU::SBWU:APP:::3101:3137:
+Bauru ATIS:Bauru ATIS:127.850:ABU::SBBU:ATIS:::::
+Bauru Tower:Bauru Tower:121.300:TBU::SBBU:TWR:::3101:3137:
+Bauru Arealva Radio:Arealva Radio:131.850:TAE:R:SBAE:TWR:::3101:3137:
+Bonito Radio:Bonito Radio:130.600:TDB:R:SBDB:TWR:::0240:0277:
+Cabo Frio Tower:Cabo Frio Tower:132.150:TCB::SBCB:TWR:::3640:3677:
+Cacador Radio:Cacador Radio:130.050:TCD:R:SBCD:TWR:::0240:0277:
+Campo Grande Approach:Campo Grande Approach:119.350:WG::SBWG:APP:::3140:3177:
+Campo Grande ATIS:Campo Grande ATIS:127.600:ACG::SBCG:ATIS:::::
+Campo Grande Ground:Campo Grande Ground:121.900:GCG::SBCG:GND:::3140:3177:
+Campo Grande Tower:Campo Grande Tower:118.100:TCG::SBCG:TWR:::3140:3177:
+Campo Grande Military Approach:BANDEIRANTE Campo Grande Military Approach:122.500:BAN:M:SBWG:APP:::0140:0157:
+Campo Grande Military Ground:Campo Grande Military Ground:121.950:MGG:M:SBCG:GND:::0101:0117:
+Campo Grande Military Tower:Campo Grande Military Tower:121.500:MCG:M:SBCG:TWR:::0120:0137:
+Farol de São Tomé Helicopter Tower:Farol de São Tomé Helicopter Tower:131.300:TFS:H:SBFS:TWR:::0201:0237:
+Campos dos Goitacazes Tower:Campos dos Goitacazes Tower:125.700:TCP::SBCP:TWR:::3440:3477:
+Canoas Mil Ground:Canoas Mil Ground:121.700:PAR:M:SBCO:GND:::0101:0117:
+Canoas Mil Tower:CORUJA  Canoas Mil Tower:118.500:COR:M:SBCO:TWR:::0120:0137:
+Cascavel Radio:Cascavel Radio:131.850:TCA:R:SBCA:TWR:::0240:0277:
+Caxias do Sul Tower:Caxias do Sul Tower:131.600:TCX::SBCX:TWR:::3501:3537:
+Chapeco Radio:Chapeco Radio:130.850:TCH:R:SBCH:TWR:::0240:0277:
+Corumba Approach:Corumba Approach:119.500:WC::SBWC:APP:::3201:3237:
+Corumba Tower:Corumba Tower:119.200:TCR::SBCR:TWR:::3201:3237:
+Criciuma Radio:Criciuma Radio:131.950:TCM:R:SBCM:TWR:::0240:0277:
+Curitiba Approach:Curitiba Approach:119.950:WT::SBWT:APP:::3301:3337:S025.45.40.270:W049.06.22.919
+Curitiba ATIS:Curitiba ATIS:127.800:ACT::SBCT:ATIS:::::
+Curitiba Ground:Curitiba Ground:121.900:GCT::SBCT:GND:::3301:3337:
+Curitiba Tower:Curitiba Tower:118.150:TCT::SBCT:TWR:::3301:3337:
+Curitiba Center:Curitiba Center:126.750:CW::SBCW:CTR:::3001:3077:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Curitiba Air Defense:THOR Curitiba Air Defense:133.600:THR:M:SBCW:CTR:::0160:0177:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Dourados Radio:Dourados Radio:130.100:TDO:R:SBDO:TWR:::0240:0257:
+Enchova Helicopter Radio:Enchova Helicopter Radio:130.300:TEC:H:SBEC:TWR:::0201:0237:
+Florianopolis Approach:Florianopolis Approach:119.650:XF::SBXF:APP:::3340:3377:S027.18.11.293:W048.32.21.920
+Florianopolis ATIS:Florianopolis ATIS:127.450:AFL::SBFL:ATIS:::::
+Florianopolis Ground:Florianopolis Ground:121.700:GFL::SBFL:GND:::3340:3377:
+Florianopolis Tower:Florianopolis Tower:118.700:TFL::SBFL:TWR:::3340:3377:
+Florianopolis Military Approach:Florianopolis Military Approach:119.650:MXF:M:SBXF:APP:::0140:0157:
+Florianopolis Military Ground:Florianopolis Military Ground:121.700:MGF:M:SBFL:GND:::0101:0117:
+Florianopolis Military Tower:Florianopolis Military Tower:118.700:MFL:M:SBFL:TWR:::0120:0137:
+Foz do Iguacu Approach:Foz do Iguacu Approach:120.300:WI::SBWI:APP:::3240:3277:
+Foz do Iguacu Tower:Foz do Iguacu Tower:118.800:TFI::SBFI:TWR:::3240:3277:
+Galeao ATIS:Galeao ATIS:127.600:AGL::SBGL:ATIS:::::
+Galeao Clearence Delivery:Galeao Clearence Delivery:121.000:CGL::SBGL:DEL:::3601:3637:
+Galeao Ground:Galeao Ground:121.650:GGL::SBGL:GND:::3601:3637:
+Galeao Tower:Galeao Tower:118.200:TGL::SBGL:TWR:::3601:3637:
+Guarapuava Radio:Guarapuava Radio:130.750:TGU:R:SBGU:TWR:::0240:0277:
+Guaratingueta Military Approach:Guaratingueta Military Approach:120.150:AGW:M:SBGW:APP:::0140:0157:
+Guaratingueta Military Tower:Guaratingueta Military Tower:118.150:TGW:M:SBGW:TWR:::0120:0137:
+Guarulhos ATIS:Guarulhos ATIS:127.750:AGR::SBGR:ATIS:::::
+Guarulhos Clearence Delivery:Guarulhos Clearence Delivery:121.000:CGR::SBGR:DEL:::3701:3777:
+Guarulhos Ground:Guarulhos Ground:121.700:GGR::SBGR:GND:::3701:3777:
+Guarulhos Tower:Guarulhos Tower:132.750:TGR::SBGR:TWR:::3701:3777:
+Jacarepagua Ground:Jacarepagua Ground:121.600:GJR::SBJR:GND:::3640:3677:
+Jacarepagua Tower:Jacarepagua Tower:118.400:TJR::SBJR:TWR:::3640:3677:
+Joinville Tower:Joinville Tower:118.000:TJV::SBJV:TWR:::3360:3377:
+Juiz de Fora Radio:Juiz de Fora Radio:128.100:TJF:R:SBJF:TWR:::0240:0277:
+Juiz de Fora:Juiz de Fora:130.100:TZM:R:SBZM:TWR:::0240:0277:
+Lajes Radio:Lajes Radio:132.150:TLJ:R:SBLJ:TWR:::0240:0277:
+Paso de Los Libres Approach:Paso de Los Libres Approach:120.300:XL::SBXL:APP:::3201:3237:
+Londrina Approach:Londrina Approach:129.700:XO::SBXO:APP:::3401:3437:
+Londrina ATIS:Londrina ATIS:127.650:ALO::SBLO:ATIS:::::
+Londrina Tower:Londrina Tower:118.400:TLO::SBLO:TWR:::3401:3437:
+Macae Helicopter Approach:Macae Helicopter Approach:120.000:WEH:H:SBWE:APP:::0201:0237:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae Approach:Macae Approach:119.200:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae ATIS:Macae ATIS:127.775:AME::SBME:ATIS:::::
+Macae Ground:Macae Ground:121.700:GME::SBME:GND:::3440:3477:
+Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
+Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
+Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
+Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
+Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
+Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
+Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
+Navegantes ATIS:Navegantes ATIS:127.625:ANF::SBNF:ATIS:::::
+Navegantes Tower:Navegantes Tower:118.200:TNF::SBNF:TWR:::3340:3377:
+Passo Fundo Radio:Passo Fundo Radio:131.250:TPF:R:SBPF:TWR:::0240:0277:
+Pelotas Radio:Pelotas Radio:125.900:TPK:R:SBPK:TWR:::0240:0277:
+Ponta Pora Radio:Ponta Pora Radio:125.900:TPP:R:SBPP:TWR:::0240:0277:
+Porto Alegre Approach:Porto Alegre Approach:120.100:WP::SBWP:APP:::3501:3537:S029.39.39.449:W051.08.49.348
+Porto Alegre ATIS:Porto Alegre ATIS:127.850:APA::SBPA:ATIS:::::
+Porto Alegre Clearence Delivery:Porto Alegre Clearence Delivery:122.150:CPA::SBPA:DEL:::3501:0157:
+Porto Alegre Ground:Porto Alegre Ground:121.900:GPA::SBPA:GND:::3501:3537:
+Porto Alegre Tower:Porto Alegre Tower:118.100:TPA::SBPA:TWR:::3501:3537:
+Porto Alegre Military Approach:TABA  Porto Alegre Military Approach:122.500:TAB:M:SBWP:APP:::0140:0157:
+Presidente Prudente Approach:Presidente Prudente Approach:118.450:XG::SBXG:APP:::3540:3577:
+Presidente Prudente Tower:Presidente Prudente Tower:118.500:TDN::SBDN:TWR:::3540:3577:
+Rio de Janeiro Approach:Rio de Janeiro Approach:119.000:WJ::SBWJ:APP:::3601:3677:
+Rio de Janeiro Final Approach:Rio de Janeiro Final Approach:119.350:WJF:F:SBWJ:APP:::3601:3677:
+Rio de Janeiro Helicopter Approach:Rio de Janeiro Helicopter Approach:123.900:WJH:H:SBWJ:APP:::0201:0237:
+Rio de Janeiro Visual Approach :Rio de Janeiro Visual Approach :121.350:WJV:V:SBWJ:APP:::0201:0217:
+Santa Cruz Military Approach:Santa Cruz Military Approach:132.500:SCR:M:SBSC:APP:::0140:0157:
+Santa Cruz Military Atis:Santa Cruz Military Atis:127.600:ASC:M:SBSC:ATIS:::::
+Santa Cruz Military Ground:ZEPELIN Santa Cruz Military Ground:121.800:ZEP:M:SBSC:GND:::0101:0117:
+Santa Cruz Military Tower:PRIMAV Santa Cruz Military Tower:118.800:PRI:M:SBSC:TWR:::0120:0137:
+Santa Maria Approach:Santa Maria Approach:119.350:WM::SBWM:APP:::3540:3577:
+Santa Maria ATIS:Santa Maria ATIS:127.750:ASM::SBSM:ATIS:::::
+Santa Maria Tower:Santa Maria Tower:118.300:TSM::SBSM:TWR:::3540:3577:
+Santa Maria Military Tower:Santa Maria Military Tower:122.800:MSM:M:SBSM:TWR:::0120:0137:
+Santo Angelo Radio:Santo Angelo Radio:131.650:TNM:R:SBNM:TWR:::0240:0277:
+Santos Dumont ATIS:Santos Dumont ATIS:132.650:ARJ::SBRJ:ATIS:::::
+Santos Dumont Clearence Delivery:Rio Clearence Delivery:121.050:CRJ::SBRJ:DEL:::3640:3677:
+Santos Dumont Ground:Santos Dumont Ground:121.700:GRJ::SBRJ:GND:::3640:3677:
+Santos Dumont Tower:Santos Dumont Tower:118.700:TRJ::SBRJ:TWR:::3640:3677:
+Santos Military Tower:Santos Military Tower:118.300:TST:M:SBST:TWR:::0120:0137:
+Sao Paulo Approach:Sao Paulo Approach:134.900:XP::SBXP:APP:::3701:3777:
+Sao Paulo Approach:Sao Paulo Final Approach:119.600:XPF:F:SBXP:APP:::3701:3777:
+Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:APP:::0201:0237:
+Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
+Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
+Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
+Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
+Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
+Toledo Radio:Toledo Radio:131.050:TTD:R:SBTD:TWR:::0240:0277:
+Torres Radio:Torres Radio:130.250:TTR:R:SBTR:TWR:::0240:0277:
+Uruguaiana Tower:Uruguaiana Tower:125.900:TUG::SBUG:TWR:::3201:3237:
+;FIR RECIFE SBRE
+Aracaju Approach:Aracaju Approach:120.300:XA::SBXA:APP:::5101:5137:
+Aracaju Tower:Aracaju Tower:118.800:TAR::SBAR:TWR:::5101:5137:
+Aracati Radio:Aracati Radio:131.250:TAC:R:SBAC:TWR:::5701:5777:
+Campina Grande Radio:Campina Grande Radio:125.500:TKG:R:SBKG:TWR:::5701:5777:
+Cruz Jericoacoara Radio:Cruz Jericoacoara Radio:131.050:TJE:R:SBJE:TWR:::5701:5777:
+Fortaleza Approach:Fortaleza Approach:133.000:WZ::SBWZ:APP:::5201:5237:
+Fortaleza ATIS:Fortaleza ATIS:127.700:AFZ::SBFZ:ATIS:::::
+Fortaleza Ground:Fortaleza Ground:121.950:GFZ::SBFZ:GND:::5201:5237:
+Fortaleza Tower:Fortaleza Tower:129.000:TFZ::SBFZ:TWR:::5201:5237:
+Fortaleza Military Approach:FLAUTA Fortaleza Military Approach:134.550:FLA:M:SBWZ:APP:::0140:0157:
+Fortaleza Military Ground:PÍFARO Fortaleza Military Ground:121.850:PIF:M:SBFZ:GND:::0101:0117:
+Fortaleza Military Tower:GAITA Fortaleza Military Tower:122.400:GAI:M:SBFZ:TWR:::0120:0137:
+Governador Valadares Radio:Valadares Radio:132.050:TGV:R:SBGV:TWR:::5701:5777:
+Ilheus Approach:Ilheus Approach:120.100:WL::SBWL:APP:::5140:5177:
+Ilheus Radio:Ilheus Radio:120.100:TIL:R:SBIL:TWR:::5140:5177:
+Joao Pessoa Tower:Joao Pessoa Tower:118.300:TJP::SBJP:TWR:::5440:5477:
+Juazeiro Radio:Juazeiro Radio:131.750:TJU:R:SBJU:TWR:::5701:5777:
+Lapa Radio:Lapa Radio:125.900:TLP:R:SBLP:TWR:::5701:5777:
+Lencois Radio:Lencois Radio:131.750:TLE:R:SBLE:TWR:::5701:5777:
+Maceio Approach:Maceio Approach:119.250:XM::SBXM:APP:::5240:5277:
+Maceio Tower:Maceio Tower:118.250:TMO::SBMO:TWR:::5240:5277:
+Mossoro Radio:Mossoro Radio:125.800:TMS:R:SBMS:TWR:::5701:5777:
+Natal Approach:Natal Approach:119.300:XT::SBXT:APP:::5301:5337:
+Natal Sao Gonçalo do Amarante ATIS:Natal Sao Gonçalo do Amarante ATIS:127.600:ASG::SBSG:ATIS:::::
+Natal Sao Gonçalo do Amarante Ground:Natal Sao Gonçalo do Amarante Ground:121.700:GSG::SBSG:GND:::5301:5337:
+Natal Sao Gonçalo do Amarante Tower:Natal Sao Gonçalo do Amarante Tower:118.200:TSG::SBSG:TWR:::5301:5337:
+Natal Military Approach:TUPÃ Natal Military Approach:120.650:TUP:M:SBXT:APP:::0140:0157:
+Natal Military ATIS:Natal  Military ATIS:132.650:ANT:M:SBNT:ATIS:::::
+Natal Military Ground:PAJÉ Natal Military Ground:121.900:PAJ:M:SBNT:GND:::0101:0117:
+Natal Military Tower:CACIQUE Natal Military Tower:122.800:CAC:M:SBNT:TWR:::0120:0137:
+Noronha Radio:Noronha Radio:125.900:TFN:R:SBFN:TWR:::5701:5777:
+Parnaiba Radio:Parnaiba Radio:126.600:TPB:R:SBPB:TWR:::5701:5777:
+Paulo Afonso Radio:Paulo Afonso Radio:125.850:TUF:R:SBUF:TWR:::5701:5777:
+Petrolina Radio:Petrolina Radio:125.700:TPL:R:SBPL:TWR:::5701:5777:
+Porto Seguro Approach:Porto Seguro Approach:120.900:WK::SBWK:APP:::5340:5377:
+Porto Seguro Tower:Porto Seguro Tower:118.850:TPS::SBPS:TWR:::5340:5377:
+Terravista Tower:Terravista Tower:131.400:TTV::SBTV:TWR:::5340:5377:
+Recife Approach:Recife Approach:119.500:WF::SBWF:APP:::5401:5477:
+Recife ATIS:Recife ATIS:127.650:ARF::SBRF:ATIS:::::
+Recife Ground:Recife Ground:121.850:GRF::SBRF:GND:::5401:5477:
+Recife Tower:Recife Tower:118.350:TRF::SBRF:TWR:::5401:5477:
+Recife Center:Recife Center:128.700:RE::SBRE:CTR:::5001:5077:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Recife Air Defense:SANSÃO Recife Air Defense:126.350:SAN:M:SBRE:CTR:::0160:0177:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Salvador Approach:Salvador Approach:119.350:XS::SBXS:APP:::5501:5577:
+Salvador ATIS:Salvador ATIS:127.750:ASV::SBSV:ATIS:::::
+Salvador Clearance Delivery:Salvador Clearance Delivery:121.100:CSV::SBSV:DEL:::5501:5577:
+Salvador Ground:Salvador Ground:121.900:GSV::SBSV:GND:::5501:5577:
+Salvador Tower:Salvador Tower:118.300:TSV::SBSV:TWR:::5501:5577:
+Teresina Approach:Teresina Approach:119.600:XE::SBXE:APP:::5601:5637:
+Teresina ATIS:Teresina ATIS:127.800:ATE::SBTE:ATIS:::::
+Teresina Tower:Teresina Tower:118.800:TTE::SBTE:TWR:::5601:5637:
+Una Tower:Comandatuba Tower:130.250:TTC::SBTC:TWR:::5601:5637:
+Vitoria Approach:Vitoria Approach:119.850:XR::SBXR:APP:::5640:5677:
+Vitoria ATIS:Vitoria ATIS:127.575:AVT::SBVT:ATIS:::::
+Vitoria Ground:Vitoria Ground:121.950:GVT::SBVT:GND:::5640:5677:
+Vitoria Tower:Vitoria Tower:118.100:TVT::SBVT:TWR:::5640:5677:
+Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TQV:R:SBQV:TWR:::5701:5777:
+;INTERNACIONAIS
+Assuncion Center:Assuncion Center:128.400:AC::SGFA:CTR:::::
+Bogota Center:Bogota Center:128.600:ED::SKED:CTR:::::
+Dakar Control:Dakar Control:120.500:OO::GOOO:CTR:::::
+Georgetown Center:Georgetown Center:128.600:GC::SYGC:CTR:::::
+Johannesburg Center:Johannesburg Center:126.700:JC::FAJO:CTR:::::
+La Paz Center:La Paz Center:128.200:LP::SLLF:CTR:::::
+Lima Center:Lima Center:128.800:PM::SPIM:CTR:::::
+Luanda Center:Luanda Center:129.300:LU::FNAN:CTR:::::
+Maiquetia Center:Maiquetia Center:128.500:ZM::SVZM:CTR:::::
+Montevideo Center:Montevideo Center:128.500:MC::SUEO:CTR:::::
+Montevideo Oceanic:Montevideo Oceanic:126.300:MO::SUEO:FSS:::::
+Paramaribo Center:Paramaribo:123.900:PR::SMPM:CTR:::::
+Resistencia Center:Resistencia Centro:124.300:REC::SARR:CTR:::::
+Rochambeau Center:Rochambeau Center:126.900:RC::SOOO:CTR:::::
+;RESERVADAS
+Reservada 01:Reservada 01:135.000::1:ICAO:POS:::::
+Reservada 02:Reservada 02:135.100::2:ICAO:POS:::::
+Reservada 03:Reservada 03:135.200::3:ICAO:POS:::::
+Reservada 04:Reservada 04:135.300::4:ICAO:POS:::::
+Reservada 05:Reservada 05:135.400::5:ICAO:POS:::::
+Reservada 06:Reservada 06:135.500::6:ICAO:POS:::::
+Reservada 07:Reservada 07:135.600::7:ICAO:POS:::::
+Reservada 08:Reservada 08:135.700::8:ICAO:POS:::::
+Reservada 09:Reservada 09:135.800::9:ICAO:POS:::::
+Reservada 10:Reservada 10:135.900::10:ICAO:POS:::::
+Reservada 11:Reservada 11:136.000::11:ICAO:POS:::::
+Reservada 12:Reservada 12:136.100::12:ICAO:POS:::::
+Reservada 13:Reservada 13:136.200::13:ICAO:POS:::::
+Reservada 14:Reservada 14:136.300::14:ICAO:POS:::::
+Reservada 15:Reservada 15:136.400::15:ICAO:POS:::::
+Reservada 16:Reservada 16:136.500::16:ICAO:POS:::::
+Reservada 17:Reservada 17:136.600::17:ICAO:POS:::::
+Reservada 18:Reservada 18:136.700::18:ICAO:POS:::::
+Reservada 19:Reservada 19:136.800::19:ICAO:POS:::::
+Reservada 20:Reservada 20:136.900::20:ICAO:POS:::::
+;========================================POSITIONS/POSIÇÕES==============================================================;
+;========================================FIR ATLANTICO SBAO 2018 (AIRSPACE)============================================;
+[AIRSPACE]
+;FHAW MILITARY REMOTE TOWER 2018 (WIDEAWAKE) 
+SECTORLINE:FHAW_M_TWR
+DISPLAY:FHAW_M_TWR:FHAW_M_TWR:SBAO
+DISPLAY:SBAO:SBAO:FHAW_M_TWR
+DISPLAY:GOOO:FHAW_M_TWR:GOOO
+DISPLAY:FAJO:FHAW_M_TWR:FAJO
+COORD:S007.08.36.745:W014.32.42.664
+COORD:S007.08.30.072:W014.14.40.126
+COORD:S007.15.07.409:W013.57.29.813
+COORD:S007.26.25.331:W013.43.39.004
+COORD:S007.41.41.409:W013.35.31.252
+COORD:S007.58.23.809:W013.32.27.724
+COORD:S008.15.29.910:W013.35.21.279
+COORD:S008.30.08.535:W013.43.54.798
+COORD:S008.41.06.063:W013.57.55.006
+COORD:S008.47.39.334:W014.14.49.791
+COORD:S008.47.19.291:W014.33.31.040
+COORD:S008.41.35.386:W014.49.23.930
+COORD:S008.30.36.805:W015.02.53.026
+COORD:S008.15.10.573:W015.11.47.058
+COORD:S007.58.25.394:W015.15.19.866
+COORD:S007.40.25.013:W015.11.51.324
+COORD:S007.25.28.012:W015.02.28.673
+COORD:S007.14.55.268:W014.50.11.445
+COORD:S007.08.36.745:W014.32.42.664
+SECTOR:FHAW_M_TWR:0:14500
+OWNER:WID:POS
+BORDER:FHAW_M_TWR
+
+;SBFN R-TWR 2018 (FERNANDO DE NORONHA)
+SECTORLINE:SBFN_R_TWR
+DISPLAY:SBFN_R_TWR:SBFN_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBFN_R_TWR
+DISPLAY:SBAO:SBFN_R_TWR:SBAO
+COORD:S003.33.58.022:W032.04.42.011
+COORD:S003.42.00.312:W031.59.58.387
+COORD:S003.51.23.867:W031.58.17.700
+COORD:S004.00.36.467:W031.59.58.893
+COORD:S004.08.33.113:W032.04.38.847
+COORD:S004.14.37.348:W032.11.58.189
+COORD:S004.17.55.686:W032.20.54.749
+COORD:S004.17.51.245:W032.30.29.849
+COORD:S004.14.42.966:W032.39.23.633
+COORD:S004.08.38.250:W032.46.46.720
+COORD:S004.00.32.466:W032.51.30.062
+COORD:S003.51.18.219:W032.53.08.647
+COORD:S003.42.04.474:W032.51.33.074
+COORD:S003.33.55.584:W032.46.47.842
+COORD:S003.27.53.389:W032.39.29.381
+COORD:S003.24.41.732:W032.30.28.364 
+COORD:S003.24.42.679:W032.20.52.980
+COORD:S003.27.52.998:W032.12.00.076
+COORD:S003.33.58.022:W032.04.42.011
+SECTOR:SBFN_R_TWR:0:14500
+OWNER:TFN
+BORDER:SBFN_R_TWR
+;========================================FIR ATLANTICO SBAO 2018 (AIRSPACE)============================================;
+;========================================AIRSPACE HIGH FIR ATLANTICO SBAO 2018=========================================;
+[AIRSPACE]
+;SBAO 2018
+SECTORLINE:SBAZ-SBAO
+DISPLAY:SBAZ:SBAZ:SBAO
+DISPLAY:SBAO:SBAZ:SBAO
+COORD:N000.55.39.000:W040.46.45.000
+COORD:N001.03.48.635:W041.01.13.149
+COORD:N005.00.00.000:W048.00.00.000
+SECTOR:SBAZ:0:60000
+OWNER:AZ:GOL
+
+;SBAO 2018
+SECTORLINE:SBAO-SOOO
+DISPLAY:SBAO:SBAO:SOOO
+COORD:N005.00.00.000:W048.00.00.000
+COORD:N005.00.00.000:W040.00.00.000
+COORD:N005.44.24.302:W038.36.24.959 
+COORD:N006.25.00.001:W037.19.59.998
+COORD:N006.35.17.998:W037.04.36.001
+COORD:N007.40.00.001:W035.00.00.000
+SECTOR:SOOO:0:60000
+OWNER:RC
+
+;SBAO 2018 (FRONTEIRA DAKAR) SBAO-ESTE GOOO-FSS
+SECTORLINE:SBAO-GOOO
+DISPLAY:SBAO:SBAO:GOOO
+COORD:S012.00.02.000:W009.59.56.000
+COORD:S006.21.59.000:W009.59.56.000  
+COORD:S006.21.59.000:W015.59.51.000
+COORD:S005.49.46.000:W016.44.04.000
+COORD:S003.07.15.000:W020.24.14.000
+COORD:S001.36.48.000:W022.26.17.000
+COORD:S000.17.14.956:W024.13.04.876
+COORD:N001.12.21.000:W026.13.11.000
+COORD:N002.09.09.751:W027.29.27.915
+COORD:N003.07.53.000:W028.48.18.000
+COORD:N003.24.40.000:W029.11.13.000
+COORD:N004.00.11.000:W029.59.23.000
+COORD:N004.35.45.047:W030.47.32.890
+COORD:N004.36.06.600:W030.48.01.800
+COORD:N005.13.10.000:W031.38.02.000
+COORD:N005.44.01.120:W032.20.15.789
+COORD:N006.20.33.000:W033.10.16.000
+COORD:N007.01.02.376:W034.06.11.498
+COORD:N007.40.00.001:W035.00.00.000
+;SBAO 2018 (FSS DAKAR) GOOO-FSS
+SECTORLINE:GOOO
+COORD:N007.40.00.001:W035.00.00.000
+COORD:N013.30.21.000:w037.30.09.000
+COORD:N017.00.27.000:W037.30.13.000
+COORD:N014.48.59.000:W028.29.11.000
+COORD:N013.40.37.000:W024.25.17.000
+COORD:N012.58.00.000:W021.21.58.000
+COORD:N011.28.13.000:W019.39.40.000
+COORD:N008.59.55.000:W016.55.06.000
+COORD:S000.00.16.000:W007.19.44.000
+COORD:S001.51.06.000:W002.59.48.000
+COORD:S009.32.06.000:W002.59.58.000
+COORD:S012.00.02.000:W009.59.56.000  
+SECTOR:GOOO:0:60000
+OWNER:OO
+BORDER:SBAO-GOOO:GOOO
+
+;SBAO 2018 (FRONTEIRA LUANDA) SBAO-ESTE FNAN-FSS
+SECTORLINE:SBAO-FNAN
+DISPLAY:SBAO:SBAO:FNAN
+COORD:S012.00.02.000:W009.59.56.000  
+COORD:S019.48.00.000:W010.00.00.000
+;SBAO 2018 (LUANDA FSS)
+SECTORLINE:FNAN
+COORD:S012.00.02.000:W009.59.56.000
+COORD:S009.32.06.000:W002.59.58.000
+COORD:S011.57.38.000:W010.00.23.000
+COORD:S009.31.56.000:W003.00.16.000
+COORD:S005.51.56.000:E006.35.06.000
+COORD:S004.10.19.000:E006.35.06.000
+COORD:S005.30.02.000:E008.49.58.000
+COORD:S005.05.18.000:E011.59.35.000
+COORD:S004.22.19.000:E012.44.52.000
+COORD:S004.39.37.000:E013.06.24.000
+COORD:S005.08.05.000:E012.31.41.000
+COORD:S005.44.24.000:E012.32.07.000
+COORD:S005.45.42.000:E012.09.43.000
+COORD:S005.56.51.000:E012.08.10.000
+COORD:S006.06.15.000:E012.19.10.000
+COORD:S005.52.16.000:E013.03.06.000
+COORD:S005.52.42.000:E016.00.12.000
+COORD:S008.58.45.000:E021.58.22.000
+COORD:S010.59.29.000:E024.19.25.000
+COORD:S013.00.29.000:E022.59.50.000
+COORD:S013.00.11.000:E022.00.00.000
+COORD:S016.12.00.000:E022.00.00.000
+COORD:S017.38.35.000:E023.26.33.000
+COORD:S018.01.08.000:E021.26.26.000
+COORD:S017.49.25.000:E019.01.12.000
+COORD:S017.23.27.000:E018.24.56.000
+COORD:S017.23.02.000:E014.12.55.000
+COORD:S016.59.06.000:E013.22.36.000
+COORD:S017.14.51.000:E011.45.29.000
+COORD:S017.59.52.000:E010.00.00.000
+COORD:S018.00.04.000:E004.58.50.000
+COORD:S018.00.17.000:W000.01.07.000
+COORD:S017.59.39.000:W005.00.09.000
+COORD:S020.00.16.000:W010.00.12.000
+COORD:S019.48.00.000:W010.00.00.000
+SECTOR:FNAN:0:60000
+OWNER:LU
+BORDER:SBAO-FNAN:FNAN
+
+;SBAO 2018 (FRONTEIRA JOHANESBURGO) SBAO-ESTE FAJO-FSS
+SECTORLINE:SBAO-FAJO
+DISPLAY:SBAO:SBAO:FAJO
+COORD:S019.48.00.000:W010.00.00.000
+COORD:S032.56.00.002:W010.00.00.000
+COORD:S034.00.00.000:W010.00.00.000
+;SBAO 2018 (JOHANESBURGO FSS)
+SECTORLINE:FAJO
+COORD:S019.48.00.000:W010.00.00.000
+COORD:S020.00.16.000:W010.00.12.000
+COORD:S017.59.39.000:W005.00.09.000
+COORD:S018.00.17.000:W000.01.07.000
+COORD:S017.59.52.000:E010.00.00.000
+COORD:S027.29.54.000:E009.59.55.000
+COORD:S027.30.03.000:E012.09.04.000
+COORD:S027.30.07.000:E014.59.49.000
+COORD:S030.29.56.000:E015.00.01.000
+COORD:S031.59.44.000:E014.59.55.000
+COORD:S036.59.49.000:E014.59.51.000
+COORD:S037.00.07.000:E017.25.09.000
+COORD:S036.59.59.000:E019.59.34.000
+COORD:S036.59.51.000:E023.22.15.000
+COORD:S036.59.59.000:E025.59.58.000
+COORD:S036.59.51.000:E028.00.16.000
+COORD:S055.20.56.200:E027.58.25.952
+COORD:S055.06.12.774:W009.54.28.556
+COORD:S045.59.09.000:W009.58.43.000
+COORD:S038.59.58.000:W010.00.06.000
+COORD:S034.00.00.000:W010.00.00.000
+SECTOR:FAJO:0:60000
+OWNER:JO
+BORDER:SBAO-FAJO:FAJO
+
+;SBAO 2018 (FRONTEIRA MONTEVIDEO) SBAO-ESTE SUEO-FSS
+SECTORLINE:SBAO-SUEOFSS
+DISPLAY:SBAO:SBAO:SUEOFSS
+COORD:S033.59.49.997:W050.23.37.049
+COORD:S034.00.00.000:W050.00.00.000 
+COORD:S034.00.00.600:W030.00.00.600
+COORD:S034.00.00.000:W010.00.00.000
+;SBAO 2018 (MONTEVIDEO OCEANIC)
+SECTORLINE:SUEOFSS
+COORD:S034.00.00.000:W010.00.00.000
+COORD:S038.59.58.000:W010.00.06.000
+COORD:S039.00.02.000:W044.29.58.000
+COORD:S040.00.12.000:W045.00.22.000
+COORD:S036.49.20.000:W053.01.44.000
+COORD:S033.59.52.224:W051.25.13.411
+COORD:S033.59.49.997:W050.23.37.049
+SECTOR:SUEOFSS:0:60000
+OWNER:MO
+BORDER:SBAO-SUEOFSS:SUEOFSS
+
+;SBCW-SBAO 2018
+SECTORLINE:SBCW-SBAO
+DISPLAY:SBCW:SBCW:SBAO
+DISPLAY:SBAO:SBCW:SBAO
+COORD:S021.11.43.000:W039.22.25.000
+COORD:S022.26.13.000:W038.06.13.000
+COORD:S024.42.03.000:W040.56.40.000
+COORD:S026.45.34.000:W043.45.59.000
+COORD:S028.47.37.014:W045.24.37.742
+COORD:S029.32.17.000:W046.02.12.000
+COORD:S030.24.25.000:W046.51.20.000
+COORD:S033.59.49.997:W050.23.37.049
+SECTOR:SBCW:0:60000
+OWNER:CW:THR
+
+;SBRE-SBAO 2018
+SECTORLINE:SBRE-SBAO
+DISPLAY:SBRE:SBRE:SBAO
+DISPLAY:SBAO:SBRE:SBAO
+COORD:S021.11.43.000:W039.22.25.000
+COORD:S018.51.56.000:W037.40.08.000
+COORD:S018.31.52.880:W038.41.55.141
+COORD:S018.25.54.147:W039.00.17.586
+COORD:S017.45.12.000:W038.37.38.000
+COORD:S016.44.14.000:W038.03.47.000
+COORD:S015.13.30.000:W037.36.47.000
+COORD:S013.11.37.000:W036.32.21.000
+COORD:S011.18.40.000:W035.32.20.000
+COORD:S008.26.22.000:W033.48.49.000
+COORD:S006.50.53.000:W033.13.29.000
+COORD:S004.05.11.000:W031.47.50.000
+COORD:S003.16.46.000:W032.06.59.000
+COORD:S002.01.33.000:W034.52.18.000
+COORD:S001.21.46.000:W036.13.24.000
+COORD:S000.29.34.000:W037.57.13.000
+COORD:S000.00.02.000:W038.59.50.000
+COORD:N000.33.51.000:W040.03.01.000
+COORD:N000.55.39.000:W040.46.45.000
+SECTOR:SBRE:0:60000
+OWNER:RE:SAN
+
+SECTOR:SBAO:0:60000
+OWNER:AO:POS
+BORDER:SBAZ-SBAO:SBAO-SOOO:SBAO-GOOO:SBAO-FNAN:SBAO-FAJO:SBAO-SUEOFSS:SBCW-SBAO:SBRE-SBAO
+;========================================AIRSPACE HIGH FIR ATLANTICO SBAO 2018=========================================;
+;========================================SBAO FREETEXT=================================================================;
+[FREETEXT]
+;ALTITUDE MINIMA DE AREA - AMA
+;AMA SBAO 2018
+;AO-00N
+N002.31.10.000:W038.14.28.000:AMA-SBAO:10
+N002.22.35.000:W033.37.55.000:AMA-SBAO:10
+N002.11.43.000:W030.05.03.000:AMA-SBAO:14
+N001.55.39.000:W027.21.44.000:AMA-SBAO:10
+;AO-04S
+S002.05.39.000:W034.00.35.000:AMA-SBAO:12
+S002.00.23.000:W030.25.41.000:AMA-SBAO:10
+S002.09.58.000:W027.20.05.000:AMA-SBAO:10
+;AO-08S
+S006.15.33.000:W030.05.54.000:AMA-SBAO:10
+;AO-12S
+S010.04.35.000:W033.47.25.000:AMA-SBAO:31
+S009.47.10.000:W031.07.03.000:AMA-SBAO:10
+;AO-16S
+S013.55.52.000:W034.06.39.000:AMA-SBAO:10
+;AO-20S
+S018.50.14.000:W036.44.38.000:AMA-SBAO:35
+S018.11.28.000:W034.52.35.000:AMA-SBAO:10
+;AO-24S
+S021.10.45.000:W038.09.14.000:AMA-SBAO:10
+S022.08.52.000:W035.00.20.000:AMA-SBAO:10
+;AO-28S
+S024.33.04.000:W039.30.17.000:AMA-SBAO:10
+S024.22.11.000:W034.55.59.000:AMA-SBAO:10
+;AO-32S
+S028.36.10.000:W044.55.01.000:AMA-SBAO:10
+S028.42.30.000:W043.00.50.000:AMA-SBAO:10
+;AO-36S
+S033.19.43.000:W047.00.16.000:AMA-SBAO:10
+S033.04.51.000:W042.58.06.000:AMA-SBAO:10
+;
+;SETORES ESPAÇO BRASILEIRO
+;ATLANTICO SBAO 2018
+N003.41.41.000:W042.36.03.000:SETORES-SBAO:S-1A
+N003.36.47.000:W037.36.47.000:SETORES-SBAO:S-1B
+N002.59.06.000:W034.32.03.000:SETORES-SBAO:S-1C
+N002.01.30.000:W034.00.31.000:SETORES-SBAO:S-2A
+N000.36.58.000:W031.13.42.000:SETORES-SBAO:S-2B
+S002.45.34.000:W029.45.57.000:SETORES-SBAO:S-2C
+S012.41.20.000:W034.24.44.000:SETORES-SBAO:S-3A
+S013.44.14.000:W030.34.04.000:SETORES-SBAO:S-3B
+S006.24.49.325:W025.28.17.481:SETORES-SBAO:S-3C
+
+;-PAISES 
+S029.52.58.814:W064.31.46.396:PAISES:ARGENTINA
+S016.13.10.418:W065.17.36.244:PAISES:BOLIVIA
+S014.31.50.975:W054.50.46.671:PAISES:BRASIL
+S035.03.30.472:W072.11.10.023:PAISES:CHILE
+N003.42.90.488:W074.22.37.013:PAISES:COLOMBIA
+S001.01.43.919:W079.15.59.923:PAISES:EQUADOR
+N006.20.37.450:W060.12.40.771:PAISES:GUIANA
+N003.35.11.082:W053.29.06.960:PAISES:GUIANA FRANCESA
+S024.06.58.470:W058.53.44.455:PAISES:PARAGUAI
+S009.36.59.071:W076.59.26.031:PAISES:PERU
+N004.33.55.596:W056.29.10.966:PAISES:SURINAME
+S032.51.34.915:W056.28.28.396:PAISES:URUGUAI
+N008.35.20.829:W068.17.32.939:PAISES:VENEZUELA
+;FIR-FSS
+S024.34.20.190:W057.46.09.035:FIR-FSS:ASSUNCION SGAS
+N001.42.51.034:W034.49.49.889:FIR-FSS:ATLANTIC-WEST
+S021.50.39.222:W030.32.37.457:FIR-FSS:ATLANTIC-EAST
+S006.20.53.433:W064.54.16.113:FIR-FSS:AMAZONIC-WEST
+S008.42.08.100:W054.51.44.286:FIR-FSS:AMAZONIC-EAST
+N002.23.56.046:W074.24.13.138:FIR-FSS:BOGOTA SKED
+S015.37.15.916:W050.17.27.106:FIR-FSS:BRASILIA-NORTH
+S020.31.27.140:W046.57.35.536:FIR-FSS:BRASILIA-SOUTH
+N007.35.38.039:W049.36.44.372:FIR-FSS:CAYENNE GOOO
+S025.17.30.755:W046.05.06.604:FIR-FSS:CURITIBA-NORTH
+S030.28.58.243:W052.24.22.751:FIR-FSS:CURITIBA-SOUTH
+N005.58.18.203:W023.19.57.023:FIR-FSS:DAKAR GOOO
+N007.55.37.382:W059.17.07.886:FIR-FSS:GEORGETOWN SYGC
+S001.40.40.411:W080.53.48.322:FIR-FSS:GUAYAQUIL SEFG
+S028.35.03.384:W001.14.03.658:FIR-FSS:JOHANNESBURG FAJO
+S017.50.18.607:W066.02.08.395:FIR-FSS:LA PAZ SLLF
+S012.46.19.408:W081.36.36.569:FIR-FSS:LIMA SPIM
+S013.55.58.966:W002.16.40.453:FIR-FSS:LUANDA FNAN
+N007.29.20.250:W066.06.46.911:FIR-FSS:MAIQUETIA SVZM
+S033.38.09.704:W056.55.33.842:FIR-FSS:MONTEVIDEO SUEO
+S036.08.17.764:W032.48.18.240:FIR-FSS:MONTEVIDEO-FSS SUEO
+N006.59.20.253:W056.23.45.235:FIR-FSS:PARAMARIBO SMPM
+S006.54.06.815:W040.56.58.104:FIR-FSS:RECIFE-NORTH
+S014.30.37.410:W041.44.02.565:FIR-FSS:RECIFE-SOUTH
+S028.52.30.578:W059.24.26.113:FIR-FSS:RESISTENCIA SARR
+;
+;MILITARY FIR
+S006.12.02.649:W055.29.56.009:MILITARY-FIR:GOLIAS GOL
+S016.41.37.140:W029.39.43.185:MILITARY-FIR:POSEIDON POS
+S012.09.38.755:W040.43.05.851:MILITARY-FIR:SANSAO SAN
+S024.57.01.185:W049.11.42.242:MILITARY-FIR:THOR 
+S018.47.55.707:W047.29.45.098:MILITARY-FIR:ZEUS ZEU
+;
+S015.30.00.000:W047.16.55.000:SBDR625:VOO PLANADORES FL120-GND
+;========================================SBAO FREETEXT===================================================================;
+;========================================RADAR FIR ATLANTICO SBAO 2018===================================================;
+[RADAR]
+;========================================RADAR FIR ATLANTICO SBAO 2018===================================================;
+
+[SIDSSTARS]

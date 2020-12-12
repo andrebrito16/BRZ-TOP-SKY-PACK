@@ -1,0 +1,256 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBCW\SBCW - FIR Curitiba\SBCW.sct
+SECTORTITLE:SBCW.sct
+ARTCC high boundary:SBCW_CTR:
+High airways:UB687:line
+High airways:UB687:name
+High airways:UB688:line
+High airways:UB688:name
+High airways:UL201:line
+High airways:UL201:name
+High airways:UL206:line
+High airways:UL206:name
+High airways:UL216:line
+High airways:UL216:name
+High airways:UL224:line
+High airways:UL224:name
+High airways:UL301:line
+High airways:UL301:name
+High airways:UL304:line
+High airways:UL304:name
+High airways:UL310:line
+High airways:UL310:name
+High airways:UL324:line
+High airways:UL324:name
+High airways:UL327:line
+High airways:UL327:name
+High airways:UL330:line
+High airways:UL330:name
+High airways:UL335:line
+High airways:UL335:name
+High airways:UL340:line
+High airways:UL340:name
+High airways:UL462:line
+High airways:UL462:name
+High airways:UL531:line
+High airways:UL531:name
+High airways:UL655:line
+High airways:UL655:name
+High airways:UL793:line
+High airways:UL793:name
+High airways:UL795:line
+High airways:UL795:name
+High airways:UM400:line
+High airways:UM400:name
+High airways:UM402:line
+High airways:UM402:name
+High airways:UM403:line
+High airways:UM403:name
+High airways:UM409:line
+High airways:UM409:name
+High airways:UM411:line
+High airways:UM411:name
+High airways:UM415:line
+High airways:UM415:name
+High airways:UM417:line
+High airways:UM417:name
+High airways:UM418:line
+High airways:UM418:name
+High airways:UM423:line
+High airways:UM423:name
+High airways:UM424:line
+High airways:UM424:name
+High airways:UM529:line
+High airways:UM529:name
+High airways:UM532:line
+High airways:UM532:name
+High airways:UM534:line
+High airways:UM534:name
+High airways:UM540:line
+High airways:UM540:name
+High airways:UM544:line
+High airways:UM544:name
+High airways:UM548:line
+High airways:UM548:name
+High airways:UM654:line
+High airways:UM654:name
+High airways:UM657:line
+High airways:UM657:name
+High airways:UM661:line
+High airways:UM661:name
+High airways:UM671:line
+High airways:UM671:name
+High airways:UM775:line
+High airways:UM775:name
+High airways:UM782:line
+High airways:UM782:name
+High airways:UM789:line
+High airways:UM789:name
+High airways:UM792:line
+High airways:UM792:name
+High airways:UM799:line
+High airways:UM799:name
+High airways:UN420:line
+High airways:UN420:name
+High airways:UN741:line
+High airways:UN741:name
+High airways:UN785:line
+High airways:UN785:name
+High airways:UN857:line
+High airways:UN857:name
+High airways:UP526:line
+High airways:UP526:name
+High airways:UT667:line
+High airways:UT667:name
+High airways:UT682:line
+High airways:UT682:name
+High airways:UW14:line
+High airways:UW14:name
+High airways:UW29:line
+High airways:UW29:name
+High airways:UW64:line
+High airways:UW64:name
+High airways:UW7:line
+High airways:UW7:name
+High airways:UZ1:line
+High airways:UZ1:name
+High airways:UZ10:line
+High airways:UZ10:name
+High airways:UZ103:line
+High airways:UZ103:name
+High airways:UZ13:line
+High airways:UZ13:name
+High airways:UZ14:line
+High airways:UZ14:name
+High airways:UZ15:line
+High airways:UZ15:name
+High airways:UZ16:line
+High airways:UZ16:name
+High airways:UZ2:line
+High airways:UZ2:name
+High airways:UZ21:line
+High airways:UZ21:name
+High airways:UZ22:line
+High airways:UZ22:name
+High airways:UZ23:line
+High airways:UZ23:name
+High airways:UZ24:line
+High airways:UZ24:name
+High airways:UZ25:line
+High airways:UZ25:name
+High airways:UZ26:line
+High airways:UZ26:name
+High airways:UZ28:line
+High airways:UZ28:name
+High airways:UZ29:line
+High airways:UZ29:name
+High airways:UZ3:line
+High airways:UZ3:name
+High airways:UZ30:line
+High airways:UZ30:name
+High airways:UZ31:line
+High airways:UZ31:name
+High airways:UZ32:line
+High airways:UZ32:name
+High airways:UZ33:line
+High airways:UZ33:name
+High airways:UZ34:line
+High airways:UZ34:name
+High airways:UZ35:line
+High airways:UZ35:name
+High airways:UZ36:line
+High airways:UZ36:name
+High airways:UZ37:line
+High airways:UZ37:name
+High airways:UZ38:line
+High airways:UZ38:name
+High airways:UZ39:line
+High airways:UZ39:name
+High airways:UZ4:line
+High airways:UZ4:name
+High airways:UZ40:line
+High airways:UZ40:name
+High airways:UZ42:line
+High airways:UZ42:name
+High airways:UZ43:line
+High airways:UZ43:name
+High airways:UZ44:line
+High airways:UZ44:name
+High airways:UZ45:line
+High airways:UZ45:name
+High airways:UZ46:line
+High airways:UZ46:name
+High airways:UZ47:line
+High airways:UZ47:name
+High airways:UZ48:line
+High airways:UZ48:name
+High airways:UZ49:line
+High airways:UZ49:name
+High airways:UZ5:line
+High airways:UZ5:name
+High airways:UZ50:line
+High airways:UZ50:name
+High airways:UZ52:line
+High airways:UZ52:name
+High airways:UZ57:line
+High airways:UZ57:name
+High airways:UZ58:line
+High airways:UZ58:name
+High airways:UZ6:line
+High airways:UZ6:name
+High airways:UZ61:line
+High airways:UZ61:name
+High airways:UZ63:line
+High airways:UZ63:name
+High airways:UZ65:line
+High airways:UZ65:name
+High airways:UZ68:line
+High airways:UZ68:name
+High airways:UZ73:line
+High airways:UZ73:name
+High airways:UZ75:line
+High airways:UZ75:name
+High airways:UZ8:line
+High airways:UZ8:name
+High airways:UZ82:line
+High airways:UZ82:name
+High airways:UZ83:line
+High airways:UZ83:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-32.119571:-60.819005:-18.287794:-33.763592
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1602
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:871
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

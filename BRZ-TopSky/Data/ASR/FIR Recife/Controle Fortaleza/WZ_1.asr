@@ -1,0 +1,396 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\FIR RECIFE\TMA Fortaleza\Controle Fortaleza\..\..\..\Data\Sector Files\SBRE\SBWZ - Fortaleza\SBWZ.sct
+SECTORTITLE:SBWZ.sct
+Airports:SBFZ:name
+Airports:SBFZ:symbol
+Airports:SJCM:name
+Airports:SJCM:symbol
+Airports:SJDS:name
+Airports:SJDS:symbol
+Airports:SJND:name
+Airports:SJND:symbol
+Airports:SNFF:name
+Airports:SNFF:symbol
+Airports:SNJC:name
+Airports:SNJC:symbol
+ARTCC boundary:SBWZ_TMA:
+ARTCC high boundary:SBRE01:
+ARTCC high boundary:SBRE02:
+ARTCC high boundary:SBRE03:
+ARTCC high boundary:SBRE04:
+ARTCC high boundary:SBRE05:
+ARTCC high boundary:SBRE06:
+ARTCC high boundary:SBRE07:
+ARTCC high boundary:SBRE08:
+ARTCC high boundary:SBRE09:
+ARTCC high boundary:SBRE10:
+ARTCC high boundary:SBRE11:
+ARTCC high boundary:SBRE12:
+ARTCC high boundary:SBRE13:
+ARTCC high boundary:SBRE14:
+ARTCC high boundary:SBRE15:
+ARTCC high boundary:SBRE_CTR:
+ARTCC low boundary:SBAC_R_TWR:
+ARTCC low boundary:SBFZ_TWR:
+Fixes:ABASE:name
+Fixes:ABASE:symbol
+Fixes:ABUCU:name
+Fixes:ABUCU:symbol
+Fixes:AC001:name
+Fixes:AC001:symbol
+Fixes:AC002:name
+Fixes:AC002:symbol
+Fixes:AC003:name
+Fixes:AC003:symbol
+Fixes:AC004:name
+Fixes:AC004:symbol
+Fixes:AC006:name
+Fixes:AC006:symbol
+Fixes:AC008:name
+Fixes:AC008:symbol
+Fixes:AC016:name
+Fixes:AC016:symbol
+Fixes:AC017:name
+Fixes:AC017:symbol
+Fixes:AC018:name
+Fixes:AC018:symbol
+Fixes:AC271:name
+Fixes:AC271:symbol
+Fixes:AC272:name
+Fixes:AC272:symbol
+Fixes:AC273:name
+Fixes:AC273:symbol
+Fixes:AC274:name
+Fixes:AC274:symbol
+Fixes:AC276:name
+Fixes:AC276:symbol
+Fixes:AC278:name
+Fixes:AC278:symbol
+Fixes:BOBAV:name
+Fixes:BOBAV:symbol
+Fixes:CF13:name
+Fixes:CF13:symbol
+Fixes:CI13Y:name
+Fixes:CI13Y:symbol
+Fixes:CROMO:name
+Fixes:CROMO:symbol
+Fixes:D273Q:name
+Fixes:D273Q:symbol
+Fixes:D304S:name
+Fixes:D304S:symbol
+Fixes:D306O:name
+Fixes:D306O:symbol
+Fixes:D306Q:name
+Fixes:D306Q:symbol
+Fixes:DABEK:name
+Fixes:DABEK:symbol
+Fixes:DIANA:name
+Fixes:DIANA:symbol
+Fixes:EDIL:name
+Fixes:EDIL:symbol
+Fixes:EDITE:name
+Fixes:EDITE:symbol
+Fixes:EDVAR:name
+Fixes:EDVAR:symbol
+Fixes:EGBOL:name
+Fixes:EGBOL:symbol
+Fixes:ESAVO:name
+Fixes:ESAVO:symbol
+Fixes:ESDAB:name
+Fixes:ESDAB:symbol
+Fixes:ESMEM:name
+Fixes:ESMEM:symbol
+Fixes:FD13Y:name
+Fixes:FD13Y:symbol
+Fixes:FF05:name
+Fixes:FF05:symbol
+Fixes:FF13:name
+Fixes:FF13:symbol
+Fixes:FF31:name
+Fixes:FF31:symbol
+Fixes:FI13:name
+Fixes:FI13:symbol
+Fixes:FORT:name
+Fixes:FORT:symbol
+Fixes:FS31:name
+Fixes:FS31:symbol
+Fixes:FZ001:name
+Fixes:FZ001:symbol
+Fixes:FZ002:name
+Fixes:FZ002:symbol
+Fixes:FZ003:name
+Fixes:FZ003:symbol
+Fixes:FZ004:name
+Fixes:FZ004:symbol
+Fixes:FZ006:name
+Fixes:FZ006:symbol
+Fixes:FZ007:name
+Fixes:FZ007:symbol
+Fixes:FZ008:name
+Fixes:FZ008:symbol
+Fixes:FZ373:name
+Fixes:FZ373:symbol
+Fixes:FZ374:name
+Fixes:FZ374:symbol
+Fixes:FZ376:name
+Fixes:FZ376:symbol
+Fixes:FZ377:name
+Fixes:FZ377:symbol
+Fixes:FZ378:name
+Fixes:FZ378:symbol
+Fixes:FZ379:name
+Fixes:FZ379:symbol
+Fixes:FZ381:name
+Fixes:FZ381:symbol
+Fixes:FZ382:name
+Fixes:FZ382:symbol
+Fixes:FZ383:name
+Fixes:FZ383:symbol
+Fixes:FZ384:name
+Fixes:FZ384:symbol
+Fixes:FZ386:name
+Fixes:FZ386:symbol
+Fixes:FZ387:name
+Fixes:FZ387:symbol
+Fixes:FZ392:name
+Fixes:FZ392:symbol
+Fixes:FZ393:name
+Fixes:FZ393:symbol
+Fixes:FZ394:name
+Fixes:FZ394:symbol
+Fixes:FZ396:name
+Fixes:FZ396:symbol
+Fixes:FZ398:name
+Fixes:FZ398:symbol
+Fixes:FZ401:name
+Fixes:FZ401:symbol
+Fixes:FZ402:name
+Fixes:FZ402:symbol
+Fixes:FZ403:name
+Fixes:FZ403:symbol
+Fixes:GUTOI:name
+Fixes:GUTOI:symbol
+Fixes:ILRET:name
+Fixes:ILRET:symbol
+Fixes:IRURA:name
+Fixes:IRURA:symbol
+Fixes:ISTOM:name
+Fixes:ISTOM:symbol
+Fixes:ISUGI:name
+Fixes:ISUGI:symbol
+Fixes:ISUKU:name
+Fixes:ISUKU:symbol
+Fixes:IVPOS:name
+Fixes:IVPOS:symbol
+Fixes:JU016:name
+Fixes:JU016:symbol
+Fixes:JU019:name
+Fixes:JU019:symbol
+Fixes:JU028:name
+Fixes:JU028:symbol
+Fixes:JU029:name
+Fixes:JU029:symbol
+Fixes:JU031:name
+Fixes:JU031:symbol
+Fixes:JU034:name
+Fixes:JU034:symbol
+Fixes:JU035:name
+Fixes:JU035:symbol
+Fixes:KADAM:name
+Fixes:KADAM:symbol
+Fixes:KEVER:name
+Fixes:KEVER:symbol
+Fixes:KIGUK:name
+Fixes:KIGUK:symbol
+Fixes:KILIS:name
+Fixes:KILIS:symbol
+Fixes:KODSO:name
+Fixes:KODSO:symbol
+Fixes:KOGSU:name
+Fixes:KOGSU:symbol
+Fixes:KUGUS:name
+Fixes:KUGUS:symbol
+Fixes:LITOX:name
+Fixes:LITOX:symbol
+Fixes:LITUL:name
+Fixes:LITUL:symbol
+Fixes:LOGIR:name
+Fixes:LOGIR:symbol
+Fixes:LOGOX:name
+Fixes:LOGOX:symbol
+Fixes:MA31:name
+Fixes:MA31:symbol
+Fixes:MOLA:name
+Fixes:MOLA:symbol
+Fixes:MS31:name
+Fixes:MS31:symbol
+Fixes:NEMA:name
+Fixes:NEMA:symbol
+Fixes:NISRU:name
+Fixes:NISRU:symbol
+Fixes:OBGEL:name
+Fixes:OBGEL:symbol
+Fixes:OPABA:name
+Fixes:OPABA:symbol
+Fixes:OPSUS:name
+Fixes:OPSUS:symbol
+Fixes:PALAT:name
+Fixes:PALAT:symbol
+Fixes:PAPA:name
+Fixes:PAPA:symbol
+Fixes:POSNA:name
+Fixes:POSNA:symbol
+Fixes:PRAXE:name
+Fixes:PRAXE:symbol
+Fixes:PROST:name
+Fixes:PROST:symbol
+Fixes:PUREU:name
+Fixes:PUREU:symbol
+Fixes:RODIT:name
+Fixes:RODIT:symbol
+Fixes:SISAV:name
+Fixes:SISAV:symbol
+Fixes:UGEPO:name
+Fixes:UGEPO:symbol
+Fixes:URIVO:name
+Fixes:URIVO:symbol
+Fixes:VADIR:name
+Fixes:VADIR:symbol
+Fixes:VUDEM:name
+Fixes:VUDEM:symbol
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:centerline
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 left vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 1 right vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 left vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right base
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right ticks
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:extended centerline 2 right vectoring
+Runways:SBFZ FORTALEZA INTERNACIONAL 13-31:name
+Runways:SJCM AQUIRAZ 13-31:centerline
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 left vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 1 right vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 left vectoring
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right base
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right ticks
+Runways:SJCM AQUIRAZ 13-31:extended centerline 2 right vectoring
+Runways:SJCM AQUIRAZ 13-31:name
+Runways:SJDS EUSÉBIO 13-31:centerline
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 left vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 1 right vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 left vectoring
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right base
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right ticks
+Runways:SJDS EUSÉBIO 13-31:extended centerline 2 right vectoring
+Runways:SJDS EUSÉBIO 13-31:name
+Runways:SJND DARINHA 11-29:centerline
+Runways:SJND DARINHA 11-29:extended centerline 1
+Runways:SJND DARINHA 11-29:extended centerline 1 left base
+Runways:SJND DARINHA 11-29:extended centerline 1 left ticks
+Runways:SJND DARINHA 11-29:extended centerline 1 left vectoring
+Runways:SJND DARINHA 11-29:extended centerline 1 right base
+Runways:SJND DARINHA 11-29:extended centerline 1 right ticks
+Runways:SJND DARINHA 11-29:extended centerline 1 right vectoring
+Runways:SJND DARINHA 11-29:extended centerline 2
+Runways:SJND DARINHA 11-29:extended centerline 2 left base
+Runways:SJND DARINHA 11-29:extended centerline 2 left ticks
+Runways:SJND DARINHA 11-29:extended centerline 2 left vectoring
+Runways:SJND DARINHA 11-29:extended centerline 2 right base
+Runways:SJND DARINHA 11-29:extended centerline 2 right ticks
+Runways:SJND DARINHA 11-29:extended centerline 2 right vectoring
+Runways:SJND DARINHA 11-29:name
+Runways:SNFF FEIJO 13-31:centerline
+Runways:SNFF FEIJO 13-31:extended centerline 1
+Runways:SNFF FEIJO 13-31:extended centerline 1 left base
+Runways:SNFF FEIJO 13-31:extended centerline 1 left ticks
+Runways:SNFF FEIJO 13-31:extended centerline 1 left vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 1 right base
+Runways:SNFF FEIJO 13-31:extended centerline 1 right ticks
+Runways:SNFF FEIJO 13-31:extended centerline 1 right vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 2
+Runways:SNFF FEIJO 13-31:extended centerline 2 left base
+Runways:SNFF FEIJO 13-31:extended centerline 2 left ticks
+Runways:SNFF FEIJO 13-31:extended centerline 2 left vectoring
+Runways:SNFF FEIJO 13-31:extended centerline 2 right base
+Runways:SNFF FEIJO 13-31:extended centerline 2 right ticks
+Runways:SNFF FEIJO 13-31:extended centerline 2 right vectoring
+Runways:SNFF FEIJO 13-31:name
+Runways:SNJC UMIRIM 09-27:centerline
+Runways:SNJC UMIRIM 09-27:extended centerline 1
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left base
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 1 left vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right base
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 1 right vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 2
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left base
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 2 left vectoring
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right base
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right ticks
+Runways:SNJC UMIRIM 09-27:extended centerline 2 right vectoring
+Runways:SNJC UMIRIM 09-27:name
+VORs:FLZ:symbol
+VORs:MSS:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:21.00000
+TAGFAMILY:BRZ-TOP SKY
+WINDOWAREA:-4.794142:-40.332684:-2.710808:-36.545714
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

@@ -1,0 +1,1958 @@
+;========================================VIRTUAL AIR TRAFFIC SIMULATION NETWORK - BRASIL====================================;
+;Position File Oficial  Vatsim Brazil
+;========================================CHANGE HISTORY=====================================================================;
+;Original VATBRZ POF file created by Wills Damasio;                                            
+;FIR Curitiba V1.4 01/10/04 by Guilherme Utz, Fernando Francesconi and Geraldo Velásquez;
+;FIR Brasilia by David Hendleman, Mike Evans;
+;FIR Recife by Eduardo Andrade , Wills Damasio and Ragazzi;
+;FIR Amazônica V1.0 29/04/2005 por José Hélio Possebon and Alan Zeidan;
+;Updated to 3.0 on 20/05/07 by Fernando Francesconi;
+;Updated to 3.1 on 25/10/07 by Gabriel Dálio and Fernando Francesconi;
+;Updated to V4 on 11/05/2012 by Jose Olyntho (816398) and Marcelo Duran (1176670);
+;Updated to V6 on Dec/2012 by Jose Olyntho (816398), Marcelo Duran (1176670) e Roberto Tonin;
+;Updated to V8 on jul/2013 by Jose Olyntho (816398);
+;Updated to AIRAC 1401 on jan/2014 by Marcos Pereira (963126) and Jose Olyntho (816398);
+;Updated to AIRAC 1808 on jul/2018 by Otávio França (1086430);
+;Updated to AIRAC 1812 on dez/2018 by Otávio França (1086430);
+;Updated FEB/2020 by Otávio França (1086430);
+;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
+;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
+;AUG/2020 Sector File Structure Update by Otávio França (1086430),
+; Updated by Sectorgraph to AIRAC 2012
+;========================================UPDATES=========================================================================;
+;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;========================================DATA STRUCTURE==================================================================;
+; 1- POF - NAME|RNAME|FREQ|SECID|ARTSTAG|CALLPREFIX|CALLSUFFIX|LINE1|LINE2|LSQUAWK|HSQUAWK|<optional VISIBILITY>
+; 2- AIRSPACE; 5- FREE TEXT; 6-SIDSSTARS; 
+;========================================"SECID" DEVELOPMENT RATIONALE===================================================;
+; ATIS = A + <xx FINAL ICAO>,
+; GND  = G + <xx FINAL ICAO>,
+; TWR  = T + <xx FINAL ICAO>,
+; MIL  = COD.CHAMADA <xxx ou xxxx> ou M + <xx FINAL ICAO> e 
+; APP e CTR = <xx FINAL ICAO DA TMA> + x <DESIGNADOR DE SETOR>
+;========================================POSITIONS=======================================================================;
+[POSITIONS]
+;FIR ATLANTICO SBAO
+Atlantico Center:Atlantico Center:133.500:AO::SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Atlantico Air Defense :POSEIDON Atlantico Air Defense:133.850:POS:M:SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Ascension Island Military Radio:WIDEAWAKE Ascension Island Military Radio:126.200:WID:M:FHAW:TWR:::0120:0137:
+;FIR AMAZONICA SBAZ
+Almeirim Radio:Monte Dourado Radio:125.700:TMD:R:SBMD:TWR:::0601:0677:
+Alta Floresta Radio:Floresta Radio:126.600:TAT:R:SBAT:TWR:::0601:0677:
+Altamira Radio:Altamira Radio:125.850:THT:R:SBHT:TWR:::0601:0677:
+Amazonica Approach:Amazonica Approach:119.250:WA::SBWA:APP:::6101:6140:
+Amazonic Center:Amazonic Center:133.700:AZ::SBAZ:CTR:::6001:6077:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Belem Approach:Belem Approach:119.050:WB::SBWB:APP:::6140:6177:
+Belem ATIS:Belem ATIS:127.600:ABE::SBBE:ATIS:::::
+Belem Ground:Belem Ground:121.900:GBE::SBBE:GND:::6640:6657:
+Belem Tower:Belem Tower:118.700:TBE::SBBE:TWR:::6140:6177:
+Belem Military Approach:BABE Belem Military Approach:122.500:MWB:M:SBWB:APP:::0140:0157:
+Belem Military Ground:Belem Military Ground:121.950:MGE:M:SBBE:GND:::0101:0117:
+Belem Military Tower:Belem Military Tower:121.500:MBE:M:SBBE:TWR:::0120:0137:
+Boa Vista Approach:Boa Vista Approach:120.100:WQ::SBWQ:APP:::6201:6237:
+Boa Vista Ground:Boa Vista Ground:121.700:GBV::SBBV:GND:::6660:6677:
+Boa Vista Tower:Boa Vista Tower:118.100:TBV::SBBV:TWR:::6201:6237:
+Boa Vista Military Approach:Boa Vista Military Approach:122.500:MWQ:M:SBWQ:APP:::0140:0157:
+Boa Vista Military Ground:Boa Vista Military Ground:121.950:MGB:M:SBBV:GND:::0101:0117:
+Boa Vista Military Tower:Boa Vista Military Tower:121.500:MBV:M:SBBV:TWR:::0120:0137:
+Cachimbo Military Radio:Cachimbo Military Radio:125.900:CCM:M:SBCC:TWR:::0120:0137:
+Carajas Radio:Carajas Radio:131.700:TCJ:R:SBCJ:TWR:::0601:0677:
+Carolina Radio:Carolina Radio:126.600:TCI:R:SBCI:TWR:::0601:0677:
+Coari Radio:Urucu Radio:131.850:TUY:R:SBUY:TWR:::0601:0677:
+Conceição do Araguaia Radio:Conceicao Radio:125.700:TAA:R:SBAA:TWR:::0601:0677:
+Cruzeiro do Sul Radio:Cruzeiro Radio:125.700:TCZ:R:SBCZ:TWR:::0601:0677:
+Cuiaba Approach:Cuiaba Approach:119.400:WY::SBWY:APP:::6240:6277:
+Cuiaba ATIS:Cuiaba ATIS:127.850:ACY::SBCY:ATIS:::::
+Cuiaba Ground:Cuiaba Ground:121.900:GCY::SBCY:GND:::6701:6717:
+Cuiaba Tower:Cuiaba Tower:118.100:TCY::SBCY:TWR:::6240:6277:
+Guajara Mirim Radio:Guajara Mirim Radio:125.900:TGM:R:SBGM:TWR:::0601:0677:
+Imperatriz Radio:Imperatriz Radio:125.650:TIZ:R:SBIZ:TWR:::0601:0677:
+Itacoatiara Radio:Itacoatiara Radio:126.600:TIC:R:SBIC:TWR:::0601:0677:
+Itaituba Radio:Itaituba Radio:125.500:TIH:R:SBIH:TWR:::0601:0677:
+Jacareacanga Radio:Jacareacanga Radio:125.900:TEK:R:SBEK:TWR:::0601:0677:
+JiParana Radio:JiParana Radio:131.750:TJI:R:SBJI:TWR:::0601:0677:
+Julio Cesar Tower:Julio Cesar Tower:118.300:TJC::SBJC:TWR:::6760:6766:
+Macapa Approach:Macapa Approach:119.000:XK::SBXK:APP:::6301:6337:
+Macapa Tower:Macapa Tower:118.000:TMQ::SBMQ:TWR:::6301:6337:
+Manaus Approach:Manaus Approach:119.250:WN::SBWN:APP:::6340:6377:
+Manaus Eduardo Gomes ATIS:Manaus Eduardo Gomes ATIS:127.650:AEG::SBEG:ATIS:::::
+Manaus Eduardo Gomes Ground:Manaus Eduardo Gomes Ground:121.900:GEG::SBEG:GND:::6720:6737:
+Manaus Eduardo Gomes Tower:Manaus Eduardo Gomes Tower:118.300:TEG::SBEG:TWR:::6340:6377:
+Manaus Ponta Pelada Tower:Manaus Ponta Pelada Tower:118.100:TMN::SBMN:TWR:::6720:6737:
+Manaus Air Defense:GOLIAS Manaus Air Defense :132.500:GOL:M:SBAZ:CTR:::0160:0177:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Manaus Military Approach:TUCANO Manaus Military Approach:122.800:TUC:M:SBWN:APP:::0140:0157:
+Manaus Ponta Pelada Military Tower:TAPIRI Manaus Military Tower:118.100:TAP:M:SBEG:TWR:::0120:0137:
+Manicore Radio:Manicore Radio:125.9000:TMY:R:SBMY:TWR:::0601:0677:
+Maraba Approach:Maraba Approach:119.200:XJ::SBXJ:APP:::6401:6437:
+Maraba Tower:Maraba Tower:125.900:TMA::SBMA:TWR:::6401:6437:
+Oiapoque Radio:Oiapoque Radio:125.900:TOI:R:SBOI:TWR:::0601:0677:
+Porto Velho Approach:Porto Velho Approach:120.250:WV::SBWV:APP:::6440:6477:
+Porto Velho Tower:Porto Velho Tower:118.200:TPV::SBPV:TWR:::6440:6477:
+Porto Velho Military Tower:BALANIS  Porto Velho Military Tower:122.500:PVM:M:SBPV:TWR:::0120:0137:
+Rio Branco Approach:Rio Branco Approach:119.900:XB::SBXB:APP:::6501:6537:
+Rio Branco Tower:Rio Branco Tower:118.700:TRB::SBRB:TWR:::6501:6537:
+Rondonopolis Radio:Rondonopolis Radio:130.700:TRD:R:SBRD:TWR:::0601:0677:
+Santarem Approach:Santarem Approach:119.300:WX::SBWX:APP:::6540:6577:
+Santarem Tower:Santarem Tower:118.100:TSN::SBSN:TWR:::6540:6577:
+Sao Gabriel da Cachoeira Radio:Gabriel Radio:125.700:TUA:R:SBUA:TWR:::0601:0677:
+Sao Luiz Approach:Sao Luiz Approach:119.100:WS::SBWS:APP:::6601:6637:
+Sao Luiz Tower:Sao Luiz Tower:118.900:TSL::SBSL:TWR:::6601:6637:
+Sinop Radio:Sinop Radio:130.175:TSI:R:SWSI:TWR:::0601:0677:
+Sorriso Radio:Sorriso Radio:130.350:TSO:R:SBSO:TWR:::0601:0677:
+Tabatinga Tower:Tabatinga Tower:125.900:TTT::SBTT:TWR:::6740:6757:
+Tarauaca Radio:Tarauaca Radio:125.900:TTK:R:SBTK:TWR:::0601:0677:
+Tefe Radio:Tefe Radio:125.600:TTF:R:SBTF:TWR:::0601:0677:
+Tirios Radio:Tirios Radio:128.100:TTS:R:SBTS:TWR:::0601:0677:
+Trombetas Radio:Trombetas Radio:131.600:TTB:R:SBTB:TWR:::0601:0677:
+Tucurui Radio:Tucurui Radio:128.100:TTU:R:SBTU:TWR:::0601:0677:
+Vilhena Radio:Vilhena Radio:125.900:TVH:R:SBVH:TWR:::0601:0677:
+;FIR BRASILIA SBBS
+Academia Approach:Academia Approach:120.100:XQ::SBXQ:APP:::4101:4137:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia ATIS:Academia ATIS:127.700:AYS::SBYS:ATIS:::::
+Academia Ground:Academia Ground:121.900:GYS::SBYS:GND:::4140:4157:
+Academia Tower:Academia Tower:118.300:TYS::SBYS:TWR:::4101:4137:
+Academia Military Approach:POLARIS Academia Military Approach:122.400:POL:M:SBXQ:APP:::0140:0157:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia Military Ground:CANOPUS Academia Military Ground:121.850:CAN:M:SBYS:GND:::0101:0117:
+Academia Military Tower:CAPELA Academia Military Tower:126.300:CAP:M:SBYS:TWR:::0120:0137:
+Americana Tower:Americana Tower:135.025:TAI::SDAI:TWR:::4701:4737:
+Anapolis Approach:Anapolis Approach:120.550:XN::SBXN:APP:::4201:4237:
+Anapolis Military Approach:Anapolis Military Approach:133.000:XNM:M:SBXN:APP:::0140:0157:
+Anapolis Military Ground:Anapolis Military Ground:121.900:GAM:M:SBAN:GND:::0101:0117:
+Anapolis Military Tower:Anapolis Military Tower:118.300:TAM:M:SBAN:TWR:::0120:0137:
+Araraquara Tower:Araraquara Tower:131.600:TAQ::SBAQ:TWR:::4160:4177:
+Araxa Radio:Araxa Radio:130.350:TAX:R:SBAX:TWR:::4740:4777:
+Barra do Garcas Radio:Barra do Garcas Radio:125.900:TBW:R:SBBW:TWR:::4740:4777:
+Belo Horizonte Approach:Belo Horizonte Approach:129.100:WH::SBWH:APP:::4301:4337:
+Belo Horizonte Carlos Prates ATIS:Carlos Prates ATIS:127.850:APR::SBPR:ATIS:::::
+Belo Horizonte Carlos Prates Tower:Carlos Prates Tower:125.850:TPR::SBPR:TWR:::4260:4277:
+Belo Horizonte Pampulha ATIS:Pampulha ATIS:127.450:ABH::SBBH:ATIS:::::
+Belo Horizonte Pampulha Clearance Delivery:Pampulha Clearence Delivery:121.100:CBH::SBBH:DEL:::4301:4377:
+Belo Horizonte Pampulha Ground:Pampulha Ground:121.600:GBH::SBBH:GND:::4360:4377:
+Belo Horizonte Pampulha Tower:Pampulha Tower:118.000:TBH::SBBH:TWR:::4301:4337:
+Belo Horizonte Tancredo Neves ATIS:Confins ATIS:127.850:ACF::SBCF:ATIS:::::
+Belo Horizonte Tancredo Neves Clearance:Confins Clearance:121.000:CCF::SBCF:DEL:::4301:4377:
+Belo Horizonte Tancredo Neves Ground:Confins Ground:121.900:GCF::SBCF:GND:::4340:4357:
+Belo Horizonte Tancredo Neves Tower:Confins Tower:118.200:TCF::SBCF:TWR:::4301:4337:
+Braganca Paulista:Braganca Paulista:125.700:TBP::SBBP:TWR:::4701:4737:
+Brasilia Approach:Brasilia Approach:119.200:WR::SBWR:APP:::4401:4437:
+Brasilia ATIS:Brasilia ATIS:127.800:ABR::SBBR:ATIS:::::
+Brasilia Clearence Delivery:Brasilia Clearence Delivery:121.000:CBR::SBBR:DEL:::4401:4477:
+Brasilia Ground:Brasilia Ground:121.800:GBR::SBBR:GND:::4440:4457:
+Brasilia Tower:Brasilia Tower:118.100:TBR::SBBR:TWR:::4401:4437:
+Brasilia Center:Brasilia Center:134.000:BS::SBBS:CTR:::4001:4077:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Air Defense:ZEUS Brasilia Air Defense:133.100:ZEU:M:SBBS:CTR:::0160:0177:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Military Approach:SIGMA Brasilia Military Approach:134.550:SIG:M:SBWR:APP:::0140:0157:
+Brasilia Military Ground:CERRADO Brasilia Military Ground:121.950:CRR:M:SBBR:GND:::0101:0117:
+Brasilia Military Tower:PLANALTO Brasilia Military Tower:129.000:PNT:M:SBBR:TWR:::0120:0137:
+Caldas Novas Radio:Caldas Novas Radio:130.050:TCN:R:SBCN:TWR:::4740:4777:
+Campinas ATIS:Campinas ATIS:127.825:AKP::SBKP:ATIS:::::
+Campinas Clearence Delivery:Campinas Clearence Delivery:121.100:CKP::SBKP:DEL:::4701:4737:
+Campinas Ground:Campinas Ground:121.900:GKP::SBKP:GND:::4701:4737:
+Campinas Tower:Campinas Tower:118.250:TKP::SBKP:TWR:::4701:4737:
+Gaviao Peixoto Tower:Gaviao Peixoto Tower:118.950:TGP::SBGP:TWR:::4160:4177:
+Gaviao Peixoto Ground:Gaviao Peixoto Ground:121.800:GGP::SBGP:GND:::4160:4177:
+Goiania ATIS:Goiania ATIS:127.675:AGO::SBGO:ATIS:::::
+Goiania Clearence Delivery:Goiania Clearence Delivery:121,050:CGO::SBGO:DEL:::4201:4277:
+Goiania Ground:Goiania Ground:121.700:GGO::SBGO:GND:::4240:4257:
+Goiania Tower:Goiania Tower:118.700:TGO::SBGO:TWR:::4201:4237:
+Ipatinga Radio:Ipatinga Radio:130.000:TIP:R:SBIP:TWR:::4740:4777:
+Itumbiara Radio:Itumbiara Radio:130.300:TIT:R:SBIT:TWR:::4740:4777:
+Jundiai Ground:Jundiai Ground:121.650:GJD::SBJD:GND:::4760:4777:
+Jundiai Tower:Jundiai Tower:118.750:TJD::SBJD:TWR:::4760:4777:
+Lagoa Santa Tower:Lagoa Santa Tower:122.800:TLS::SBLS:TWR:::4260:4277:
+Montes Claros Radio:Montes Claros Radio:131.700:TMK:R:SBMK:TWR:::4740:4777:
+Palmas Approach:Palmas Approach:119.000:XD::SBXD:APP:::4501:4537:
+Palmas Tower:Palmas Tower:118.000:TPJ::SBPJ:TWR:::4501:4537:
+Pocos de Caldas Radio:Pocos de Caldas Radio:126.600:TPC:R:SBPC:TWR:::4740:4777:
+Ribeirao Preto ATIS:Ribeirao ATIS:127.425:ARP::SBRP:ATIS:::::
+Ribeirao Preto Ground:Ribeirao Ground:121.600:GRP::SBRP:GND:::4140:4157:
+Ribeirao Preto Tower:Ribeirao Tower:118.000:TRP::SBRP:TWR:::4140:4157:
+Sao Jose dos Campos Atis:Sao Jose dos Campos Atis:127.925:ASJ::SBSJ:ATIS:::::
+Sao Jose dos Campos Clearence Delivery:Sao Jose dos Campos Clearence Delivery:122.500:CSJ::SBSJ:DEL:::4640:4677:
+Sao Jose dos Campos Ground:Sao Jose dos Campos Ground:121.950:GSJ::SBSJ:GND:::4640:4677:
+Sao Jose dos Campos Tower:Sao Jose dos Campos Tower:118.500:TSJ::SBSJ:TWR:::4640:4677:
+Sao Jose do Rio Preto Radio:Rio Preto Radio:130.850:TSR:R:SBSR:TWR:::4740:4777:
+Uberaba Approach:Uberaba Approach:120.800:XU::SBXU:APP:::4540:4577:
+Uberaba Tower:Uberaba Tower:118.500:TUR::SBUR:TWR:::4540:4577:
+Uberlandia Approach:Uberlandia Approach:122.850:XW::SBXW:APP:::4601:4637:
+Uberlandia Tower:Uberlandia Tower:118.800:TUL::SBUL:TWR:::4601:4637:
+Varginha Radio:Varginha Radio:130.800:TVG:R:SBVG:TWR:::4740:4777:
+;FIR CURITIBA SBCW
+Afonsos Military Ground:Afonsos Military Ground:121.850:GAF:M:SBAF:GND:::0101:0117:
+Afonsos Military Tower:BUTANTÃ Afonsos Military Tower:118.900:BUT:M:SBAF:TWR:::0120:0137:
+Albacora Helicopter ATIS:Albacora Helicopter ATIS:131.975:ALB:H:SBLB:ATIS:::::
+Albacora Helicopter Radio:Albacora Helicopter Radio:131.975:TLB:H:SBLB:TWR:::0201:0237:
+Aldeia Approach:Aldeia Military Approach:119.450:ALC:M:SBES:APP:::0140:0157:
+Aldeia Military Ground:Aldeia Military Ground:121.900:ALG:M:SBES:GND:::0101:0117:
+Aldeia Military Tower:Aldeia Military Tower:122.800:ALM:M:SBES:TWR:::0120:0137:
+Aracatuba Radio:Aracatuba Radio:118.300:TAU:R:SBAU:TWR:::0240:0277:
+Bacacheri ATIS:Bacacheri ATIS:132.325:ABI::SBBI:ATIS:::::
+Bacacheri Ground:Bacacheri Ground:121.800:GBI::SBBI:GND:::3301:3337:
+Bacacheri Tower:Bacacheri Tower:118.900:TBI::SBBI:TWR:::3301:3337:
+Barbacena Radio:Barbacena Radio:125.900:TBQ:R:SBBQ:TWR:::0240:0277:
+Bagé Radio:Bagé Radio:125.850:TBG:R:SBBG:TWR:::0240:0277:
+Bauru Approach:Bauru Approach:121.300:WU::SBWU:APP:::3101:3137:
+Bauru ATIS:Bauru ATIS:127.850:ABU::SBBU:ATIS:::::
+Bauru Tower:Bauru Tower:121.300:TBU::SBBU:TWR:::3101:3137:
+Bauru Arealva Radio:Arealva Radio:131.850:TAE:R:SBAE:TWR:::3101:3137:
+Bonito Radio:Bonito Radio:130.600:TDB:R:SBDB:TWR:::0240:0277:
+Cabo Frio Tower:Cabo Frio Tower:132.150:TCB::SBCB:TWR:::3640:3677:
+Cacador Radio:Cacador Radio:130.050:TCD:R:SBCD:TWR:::0240:0277:
+Campo Grande Approach:Campo Grande Approach:119.350:WG::SBWG:APP:::3140:3177:
+Campo Grande ATIS:Campo Grande ATIS:127.600:ACG::SBCG:ATIS:::::
+Campo Grande Ground:Campo Grande Ground:121.900:GCG::SBCG:GND:::3140:3177:
+Campo Grande Tower:Campo Grande Tower:118.100:TCG::SBCG:TWR:::3140:3177:
+Campo Grande Military Approach:BANDEIRANTE Campo Grande Military Approach:122.500:BAN:M:SBWG:APP:::0140:0157:
+Campo Grande Military Ground:Campo Grande Military Ground:121.950:MGG:M:SBCG:GND:::0101:0117:
+Campo Grande Military Tower:Campo Grande Military Tower:121.500:MCG:M:SBCG:TWR:::0120:0137:
+Farol de São Tomé Helicopter Tower:Farol de São Tomé Helicopter Tower:131.300:TFS:H:SBFS:TWR:::0201:0237:
+Campos dos Goitacazes Tower:Campos dos Goitacazes Tower:125.700:TCP::SBCP:TWR:::3440:3477:
+Canoas Mil Ground:Canoas Mil Ground:121.700:PAR:M:SBCO:GND:::0101:0117:
+Canoas Mil Tower:CORUJA  Canoas Mil Tower:118.500:COR:M:SBCO:TWR:::0120:0137:
+Cascavel Radio:Cascavel Radio:131.850:TCA:R:SBCA:TWR:::0240:0277:
+Caxias do Sul Tower:Caxias do Sul Tower:131.600:TCX::SBCX:TWR:::3501:3537:
+Chapeco Radio:Chapeco Radio:130.850:TCH:R:SBCH:TWR:::0240:0277:
+Corumba Approach:Corumba Approach:119.500:WC::SBWC:APP:::3201:3237:
+Corumba Tower:Corumba Tower:119.200:TCR::SBCR:TWR:::3201:3237:
+Criciuma Radio:Criciuma Radio:131.950:TCM:R:SBCM:TWR:::0240:0277:
+Curitiba Approach:Curitiba Approach:119.950:WT::SBWT:APP:::3301:3337:S025.45.40.270:W049.06.22.919
+Curitiba ATIS:Curitiba ATIS:127.800:ACT::SBCT:ATIS:::::
+Curitiba Ground:Curitiba Ground:121.900:GCT::SBCT:GND:::3301:3337:
+Curitiba Tower:Curitiba Tower:118.150:TCT::SBCT:TWR:::3301:3337:
+Curitiba Center:Curitiba Center:126.750:CW::SBCW:CTR:::3001:3077:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Curitiba Air Defense:THOR Curitiba Air Defense:133.600:THR:M:SBCW:CTR:::0160:0177:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Dourados Radio:Dourados Radio:130.100:TDO:R:SBDO:TWR:::0240:0257:
+Enchova Helicopter Radio:Enchova Helicopter Radio:130.300:TEC:H:SBEC:TWR:::0201:0237:
+Florianopolis Approach:Florianopolis Approach:119.650:XF::SBXF:APP:::3340:3377:S027.18.11.293:W048.32.21.920
+Florianopolis ATIS:Florianopolis ATIS:127.450:AFL::SBFL:ATIS:::::
+Florianopolis Ground:Florianopolis Ground:121.700:GFL::SBFL:GND:::3340:3377:
+Florianopolis Tower:Florianopolis Tower:118.700:TFL::SBFL:TWR:::3340:3377:
+Florianopolis Military Approach:Florianopolis Military Approach:119.650:MXF:M:SBXF:APP:::0140:0157:
+Florianopolis Military Ground:Florianopolis Military Ground:121.700:MGF:M:SBFL:GND:::0101:0117:
+Florianopolis Military Tower:Florianopolis Military Tower:118.700:MFL:M:SBFL:TWR:::0120:0137:
+Foz do Iguacu Approach:Foz do Iguacu Approach:120.300:WI::SBWI:APP:::3240:3277:
+Foz do Iguacu Tower:Foz do Iguacu Tower:118.800:TFI::SBFI:TWR:::3240:3277:
+Galeao ATIS:Galeao ATIS:127.600:AGL::SBGL:ATIS:::::
+Galeao Clearence Delivery:Galeao Clearence Delivery:121.000:CGL::SBGL:DEL:::3601:3637:
+Galeao Ground:Galeao Ground:121.650:GGL::SBGL:GND:::3601:3637:
+Galeao Tower:Galeao Tower:118.200:TGL::SBGL:TWR:::3601:3637:
+Guarapuava Radio:Guarapuava Radio:130.750:TGU:R:SBGU:TWR:::0240:0277:
+Guaratingueta Military Approach:Guaratingueta Military Approach:120.150:AGW:M:SBGW:APP:::0140:0157:
+Guaratingueta Military Tower:Guaratingueta Military Tower:118.150:TGW:M:SBGW:TWR:::0120:0137:
+Guarulhos ATIS:Guarulhos ATIS:127.750:AGR::SBGR:ATIS:::::
+Guarulhos Clearence Delivery:Guarulhos Clearence Delivery:121.000:CGR::SBGR:DEL:::3701:3777:
+Guarulhos Ground:Guarulhos Ground:121.700:GGR::SBGR:GND:::3701:3777:
+Guarulhos Tower:Guarulhos Tower:132.750:TGR::SBGR:TWR:::3701:3777:
+Jacarepagua Ground:Jacarepagua Ground:121.600:GJR::SBJR:GND:::3640:3677:
+Jacarepagua Tower:Jacarepagua Tower:118.400:TJR::SBJR:TWR:::3640:3677:
+Joinville Tower:Joinville Tower:118.000:TJV::SBJV:TWR:::3360:3377:
+Juiz de Fora Radio:Juiz de Fora Radio:128.100:TJF:R:SBJF:TWR:::0240:0277:
+Juiz de Fora:Juiz de Fora:130.100:TZM:R:SBZM:TWR:::0240:0277:
+Lajes Radio:Lajes Radio:132.150:TLJ:R:SBLJ:TWR:::0240:0277:
+Paso de Los Libres Approach:Paso de Los Libres Approach:120.300:XL::SBXL:APP:::3201:3237:
+Londrina Approach:Londrina Approach:129.700:XO::SBXO:APP:::3401:3437:
+Londrina ATIS:Londrina ATIS:127.650:ALO::SBLO:ATIS:::::
+Londrina Tower:Londrina Tower:118.400:TLO::SBLO:TWR:::3401:3437:
+Macae Helicopter Approach:Macae Helicopter Approach:120.000:WEH:H:SBWE:APP:::0201:0237:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae Approach:Macae Approach:119.200:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae ATIS:Macae ATIS:127.775:AME::SBME:ATIS:::::
+Macae Ground:Macae Ground:121.700:GME::SBME:GND:::3440:3477:
+Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
+Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
+Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
+Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
+Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
+Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
+Navegantes ATIS:Navegantes ATIS:127.625:ANF::SBNF:ATIS:::::
+Navegantes Tower:Navegantes Tower:118.200:TNF::SBNF:TWR:::3340:3377:
+Passo Fundo Radio:Passo Fundo Radio:131.250:TPF:R:SBPF:TWR:::0240:0277:
+Pelotas Radio:Pelotas Radio:125.900:TPK:R:SBPK:TWR:::0240:0277:
+Ponta Pora Radio:Ponta Pora Radio:125.900:TPP:R:SBPP:TWR:::0240:0277:
+Porto Alegre Approach:Porto Alegre Approach:120.100:WP::SBWP:APP:::3501:3537:S029.39.39.449:W051.08.49.348
+Porto Alegre ATIS:Porto Alegre ATIS:127.850:APA::SBPA:ATIS:::::
+Porto Alegre Clearence Delivery:Porto Alegre Clearence Delivery:122.150:CPA::SBPA:DEL:::3501:0157:
+Porto Alegre Ground:Porto Alegre Ground:121.900:GPA::SBPA:GND:::3501:3537:
+Porto Alegre Tower:Porto Alegre Tower:118.100:TPA::SBPA:TWR:::3501:3537:
+Porto Alegre Military Approach:TABA  Porto Alegre Military Approach:122.500:TAB:M:SBWP:APP:::0140:0157:
+Presidente Prudente Approach:Presidente Prudente Approach:118.450:XG::SBXG:APP:::3540:3577:
+Presidente Prudente Tower:Presidente Prudente Tower:118.500:TDN::SBDN:TWR:::3540:3577:
+Rio de Janeiro Approach:Rio de Janeiro Approach:119.000:WJ::SBWJ:APP:::3601:3677:
+Rio de Janeiro Final Approach:Rio de Janeiro Final Approach:119.350:WJF:F:SBWJ:APP:::3601:3677:
+Rio de Janeiro Helicopter Approach:Rio de Janeiro Helicopter Approach:123.900:WJH:H:SBWJ:APP:::0201:0237:
+Rio de Janeiro Visual Approach :Rio de Janeiro Visual Approach :121.350:WJV:V:SBWJ:APP:::0201:0217:
+Santa Cruz Military Approach:Santa Cruz Military Approach:132.500:SCR:M:SBSC:APP:::0140:0157:
+Santa Cruz Military Atis:Santa Cruz Military Atis:127.600:ASC:M:SBSC:ATIS:::::
+Santa Cruz Military Ground:ZEPELIN Santa Cruz Military Ground:121.800:ZEP:M:SBSC:GND:::0101:0117:
+Santa Cruz Military Tower:PRIMAV Santa Cruz Military Tower:118.800:PRI:M:SBSC:TWR:::0120:0137:
+Santa Maria Approach:Santa Maria Approach:119.350:WM::SBWM:APP:::3540:3577:
+Santa Maria ATIS:Santa Maria ATIS:127.750:ASM::SBSM:ATIS:::::
+Santa Maria Tower:Santa Maria Tower:118.300:TSM::SBSM:TWR:::3540:3577:
+Santa Maria Military Tower:Santa Maria Military Tower:122.800:MSM:M:SBSM:TWR:::0120:0137:
+Santo Angelo Radio:Santo Angelo Radio:131.650:TNM:R:SBNM:TWR:::0240:0277:
+Santos Dumont ATIS:Santos Dumont ATIS:132.650:ARJ::SBRJ:ATIS:::::
+Santos Dumont Clearence Delivery:Rio Clearence Delivery:121.050:CRJ::SBRJ:DEL:::3640:3677:
+Santos Dumont Ground:Santos Dumont Ground:121.700:GRJ::SBRJ:GND:::3640:3677:
+Santos Dumont Tower:Santos Dumont Tower:118.700:TRJ::SBRJ:TWR:::3640:3677:
+Santos Military Tower:Santos Military Tower:118.300:TST:M:SBST:TWR:::0120:0137:
+Sao Paulo Approach:Sao Paulo Approach:134.900:XP::SBXP:APP:::3701:3777:
+Sao Paulo Approach:Sao Paulo Final Approach:119.600:XPF:F:SBXP:APP:::3701:3777:
+Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:APP:::0201:0237:
+Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
+Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
+Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
+Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
+Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
+Toledo Radio:Toledo Radio:131.050:TTD:R:SBTD:TWR:::0240:0277:
+Torres Radio:Torres Radio:130.250:TTR:R:SBTR:TWR:::0240:0277:
+Uruguaiana Tower:Uruguaiana Tower:125.900:TUG::SBUG:TWR:::3201:3237:
+;FIR RECIFE SBRE
+Aracaju Approach:Aracaju Approach:120.300:XA::SBXA:APP:::5101:5137:
+Aracaju Tower:Aracaju Tower:118.800:TAR::SBAR:TWR:::5101:5137:
+Aracati Radio:Aracati Radio:131.250:TAC:R:SBAC:TWR:::5701:5777:
+Campina Grande Radio:Campina Grande Radio:125.500:TKG:R:SBKG:TWR:::5701:5777:
+Cruz Jericoacoara Radio:Cruz Jericoacoara Radio:131.050:TJE:R:SBJE:TWR:::5701:5777:
+Fortaleza Approach:Fortaleza Approach:133.000:WZ::SBWZ:APP:::5201:5237:
+Fortaleza ATIS:Fortaleza ATIS:127.700:AFZ::SBFZ:ATIS:::::
+Fortaleza Ground:Fortaleza Ground:121.950:GFZ::SBFZ:GND:::5201:5237:
+Fortaleza Tower:Fortaleza Tower:129.000:TFZ::SBFZ:TWR:::5201:5237:
+Fortaleza Military Approach:FLAUTA Fortaleza Military Approach:134.550:FLA:M:SBWZ:APP:::0140:0157:
+Fortaleza Military Ground:PÍFARO Fortaleza Military Ground:121.850:PIF:M:SBFZ:GND:::0101:0117:
+Fortaleza Military Tower:GAITA Fortaleza Military Tower:122.400:GAI:M:SBFZ:TWR:::0120:0137:
+Governador Valadares Radio:Valadares Radio:132.050:TGV:R:SBGV:TWR:::5701:5777:
+Ilheus Approach:Ilheus Approach:120.100:WL::SBWL:APP:::5140:5177:
+Ilheus Radio:Ilheus Radio:120.100:TIL:R:SBIL:TWR:::5140:5177:
+Joao Pessoa Tower:Joao Pessoa Tower:118.300:TJP::SBJP:TWR:::5440:5477:
+Juazeiro Radio:Juazeiro Radio:131.750:TJU:R:SBJU:TWR:::5701:5777:
+Lapa Radio:Lapa Radio:125.900:TLP:R:SBLP:TWR:::5701:5777:
+Lencois Radio:Lencois Radio:131.750:TLE:R:SBLE:TWR:::5701:5777:
+Maceio Approach:Maceio Approach:119.250:XM::SBXM:APP:::5240:5277:
+Maceio Tower:Maceio Tower:118.250:TMO::SBMO:TWR:::5240:5277:
+Mossoro Radio:Mossoro Radio:125.800:TMS:R:SBMS:TWR:::5701:5777:
+Natal Approach:Natal Approach:119.300:XT::SBXT:APP:::5301:5337:
+Natal Sao Gonçalo do Amarante ATIS:Natal Sao Gonçalo do Amarante ATIS:127.600:ASG::SBSG:ATIS:::::
+Natal Sao Gonçalo do Amarante Ground:Natal Sao Gonçalo do Amarante Ground:121.700:GSG::SBSG:GND:::5301:5337:
+Natal Sao Gonçalo do Amarante Tower:Natal Sao Gonçalo do Amarante Tower:118.200:TSG::SBSG:TWR:::5301:5337:
+Natal Military Approach:TUPÃ Natal Military Approach:120.650:TUP:M:SBXT:APP:::0140:0157:
+Natal Military ATIS:Natal  Military ATIS:132.650:ANT:M:SBNT:ATIS:::::
+Natal Military Ground:PAJÉ Natal Military Ground:121.900:PAJ:M:SBNT:GND:::0101:0117:
+Natal Military Tower:CACIQUE Natal Military Tower:122.800:CAC:M:SBNT:TWR:::0120:0137:
+Noronha Radio:Noronha Radio:125.900:TFN:R:SBFN:TWR:::5701:5777:
+Parnaiba Radio:Parnaiba Radio:126.600:TPB:R:SBPB:TWR:::5701:5777:
+Paulo Afonso Radio:Paulo Afonso Radio:125.850:TUF:R:SBUF:TWR:::5701:5777:
+Petrolina Radio:Petrolina Radio:125.700:TPL:R:SBPL:TWR:::5701:5777:
+Porto Seguro Approach:Porto Seguro Approach:120.900:WK::SBWK:APP:::5340:5377:
+Porto Seguro Tower:Porto Seguro Tower:118.850:TPS::SBPS:TWR:::5340:5377:
+Terravista Tower:Terravista Tower:131.400:TTV::SBTV:TWR:::5340:5377:
+Recife Approach:Recife Approach:119.500:WF::SBWF:APP:::5401:5477:
+Recife ATIS:Recife ATIS:127.650:ARF::SBRF:ATIS:::::
+Recife Ground:Recife Ground:121.850:GRF::SBRF:GND:::5401:5477:
+Recife Tower:Recife Tower:118.350:TRF::SBRF:TWR:::5401:5477:
+Recife Center:Recife Center:128.700:RE::SBRE:CTR:::5001:5077:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Recife Air Defense:SANSÃO Recife Air Defense:126.350:SAN:M:SBRE:CTR:::0160:0177:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Salvador Approach:Salvador Approach:119.350:XS::SBXS:APP:::5501:5577:
+Salvador ATIS:Salvador ATIS:127.750:ASV::SBSV:ATIS:::::
+Salvador Clearance Delivery:Salvador Clearance Delivery:121.100:CSV::SBSV:DEL:::5501:5577:
+Salvador Ground:Salvador Ground:121.900:GSV::SBSV:GND:::5501:5577:
+Salvador Tower:Salvador Tower:118.300:TSV::SBSV:TWR:::5501:5577:
+Teresina Approach:Teresina Approach:119.600:XE::SBXE:APP:::5601:5637:
+Teresina ATIS:Teresina ATIS:127.800:ATE::SBTE:ATIS:::::
+Teresina Tower:Teresina Tower:118.800:TTE::SBTE:TWR:::5601:5637:
+Una Tower:Comandatuba Tower:130.250:TTC::SBTC:TWR:::5601:5637:
+Vitoria Approach:Vitoria Approach:119.850:XR::SBXR:APP:::5640:5677:
+Vitoria ATIS:Vitoria ATIS:127.575:AVT::SBVT:ATIS:::::
+Vitoria Ground:Vitoria Ground:121.950:GVT::SBVT:GND:::5640:5677:
+Vitoria Tower:Vitoria Tower:118.100:TVT::SBVT:TWR:::5640:5677:
+Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TQV:R:SBQV:TWR:::5701:5777:
+;INTERNACIONAIS
+Assuncion Center:Assuncion Center:128.400:AC::SGFA:CTR:::::
+Bogota Center:Bogota Center:128.600:ED::SKED:CTR:::::
+Dakar Control:Dakar Control:120.500:OO::GOOO:CTR:::::
+Georgetown Center:Georgetown Center:128.600:GC::SYGC:CTR:::::
+Johannesburg Center:Johannesburg Center:126.700:JC::FAJO:CTR:::::
+La Paz Center:La Paz Center:128.200:LP::SLLF:CTR:::::
+Lima Center:Lima Center:128.800:PM::SPIM:CTR:::::
+Luanda Center:Luanda Center:129.300:LU::FNAN:CTR:::::
+Maiquetia Center:Maiquetia Center:128.500:ZM::SVZM:CTR:::::
+Montevideo Center:Montevideo Center:128.500:MC::SUEO:CTR:::::
+Montevideo Oceanic:Montevideo Oceanic:126.300:MO::SUEO:FSS:::::
+Paramaribo Center:Paramaribo:123.900:PR::SMPM:CTR:::::
+Resistencia Center:Resistencia Centro:124.300:REC::SARR:CTR:::::
+Rochambeau Center:Rochambeau Center:126.900:RC::SOOO:CTR:::::
+;RESERVADAS
+Reservada 01:Reservada 01:135.000::1:ICAO:POS:::::
+Reservada 02:Reservada 02:135.100::2:ICAO:POS:::::
+Reservada 03:Reservada 03:135.200::3:ICAO:POS:::::
+Reservada 04:Reservada 04:135.300::4:ICAO:POS:::::
+Reservada 05:Reservada 05:135.400::5:ICAO:POS:::::
+Reservada 06:Reservada 06:135.500::6:ICAO:POS:::::
+Reservada 07:Reservada 07:135.600::7:ICAO:POS:::::
+Reservada 08:Reservada 08:135.700::8:ICAO:POS:::::
+Reservada 09:Reservada 09:135.800::9:ICAO:POS:::::
+Reservada 10:Reservada 10:135.900::10:ICAO:POS:::::
+Reservada 11:Reservada 11:136.000::11:ICAO:POS:::::
+Reservada 12:Reservada 12:136.100::12:ICAO:POS:::::
+Reservada 13:Reservada 13:136.200::13:ICAO:POS:::::
+Reservada 14:Reservada 14:136.300::14:ICAO:POS:::::
+Reservada 15:Reservada 15:136.400::15:ICAO:POS:::::
+Reservada 16:Reservada 16:136.500::16:ICAO:POS:::::
+Reservada 17:Reservada 17:136.600::17:ICAO:POS:::::
+Reservada 18:Reservada 18:136.700::18:ICAO:POS:::::
+Reservada 19:Reservada 19:136.800::19:ICAO:POS:::::
+Reservada 20:Reservada 20:136.900::20:ICAO:POS:::::
+;========================================POSITIONS/POSIÇÕES==============================================================;
+;========================================AIRSPACE HIGH FIR RECIFE SBRE 2020==============================================;
+[AIRSPACE]
+;SBRE-SBAO 2018
+SECTORLINE:SBRE-SBAO
+DISPLAY:SBRE:SBRE:SBAO
+DISPLAY:SBAO:SBRE:SBAO
+COORD:S021.11.43.000:W039.22.25.000
+COORD:S018.51.56.000:W037.40.08.000
+COORD:S018.31.52.880:W038.41.55.141
+COORD:S018.25.54.147:W039.00.17.586
+COORD:S017.45.12.000:W038.37.38.000
+COORD:S016.44.14.000:W038.03.47.000
+COORD:S015.13.30.000:W037.36.47.000
+COORD:S013.11.37.000:W036.32.21.000
+COORD:S011.18.40.000:W035.32.20.000
+COORD:S008.26.22.000:W033.48.49.000
+COORD:S006.50.53.000:W033.13.29.000
+COORD:S004.05.11.000:W031.47.50.000
+COORD:S003.16.46.000:W032.06.59.000
+COORD:S002.01.33.000:W034.52.18.000
+COORD:S001.21.46.000:W036.13.24.000
+COORD:S000.29.34.000:W037.57.13.000
+COORD:S000.00.02.000:W038.59.50.000
+COORD:N000.33.51.000:W040.03.01.000
+COORD:N000.55.39.000:W040.46.45.000
+SECTOR:SBAO:0:60000
+OWNER:AO:POS
+
+;SBRE-SBCW 2018
+SECTORLINE:SBRE-SBCW
+DISPLAY:SBRE:SBRE:SBCW
+DISPLAY:SBCW:SBRE:SBCW
+COORD:S020.27.48.000:W042.35.13.000
+COORD:S020.33.20.000:W042.18.35.000
+COORD:S020.37.35.000:W042.00.08.000
+COORD:S020.24.51.000:W040.58.13.000
+COORD:S020.41.53.000:W040.49.01.000
+COORD:S020.54.01.000:W040.33.56.000
+COORD:S020.55.38.000:W040.23.21.000
+COORD:S020.57.02.000:W040.14.39.000
+COORD:S020.51.56.000:W039.59.25.000
+COORD:S020.45.00.000:W039.48.27.000
+COORD:S021.11.43.000:W039.22.25.000
+SECTOR:SBCW:5000:60000
+OWNER:CW:THR
+
+;SBBS-SBRE 2018	  
+SECTORLINE:SBBS-SBRE
+DISPLAY:SBBS:SBBS:SBRE
+DISPLAY:SBRE:SBBS:SBRE
+COORD:S010.17.17.745:W047.41.08.519
+COORD:S011.09.14.767:W047.17.13.343
+COORD:S012.01.36.000:W046.53.07.000
+COORD:S013.18.45.000:W045.36.26.000 
+COORD:S013.59.48.064:W045.09.00.889
+COORD:S014.12.06.000:W045.00.48.000
+COORD:S014.48.14.000:W044.32.55.000
+COORD:S015.20.47.340:W044.14.55.351
+COORD:S015.33.17.000:W044.08.01.000
+COORD:S015.37.54.000:W044.05.52.000
+COORD:S016.22.59.017:W042.49.00.083
+COORD:S016.24.54.000:W042.39.55.000
+COORD:S017.01.09.000:W041.42.36.000
+COORD:S017.35.39.000:W041.55.05.000
+COORD:S018.37.31.000:W042.31.04.000
+COORD:S018.46.19.000:W042.26.18.000
+COORD:S019.05.30.000:W042.29.30.000 
+COORD:S019.28.21.000:W042.28.18.000
+COORD:S020.00.22.000:W042.31.10.000
+COORD:S020.27.48.000:W042.35.13.000
+SECTOR:SBBS:5000:60000
+OWNER:BS:ZEU
+
+;SBRE 2018
+SECTORLINE:SBAZ-SBRE
+DISPLAY:SBRE:SBRE:SBAZ
+DISPLAY:SBAZ:SBRE:SBAZ
+COORD:S010.17.17.745:W047.41.08.519
+COORD:S008.51.48.000:W046.40.13.000 
+COORD:S008.08.43.983:W045.46.32.012
+COORD:S006.18.13.000:W044.47.26.000  
+COORD:S005.56.17.000:W044.11.46.000
+COORD:S005.19.34.237:W043.47.36.606  
+COORD:S004.42.01.000:W043.22.54.000 
+COORD:S004.29.12.000:W043.09.28.000
+COORD:S004.24.12.000:W042.59.16.000 
+COORD:S004.10.19.000:W042.30.58.000
+COORD:S002.51.05.000:W042.04.52.000 
+COORD:S001.46.20.000:W041.42.05.000
+COORD:N000.55.39.000:W040.46.45.000
+SECTOR:SBAZ:0:60000
+OWNER:AZ:GOL
+
+SECTOR:SBRE:5000:60000
+OWNER:RE:SAN
+BORDER:SBRE-SBAO:SBRE-SBCW:SBBS-SBRE:SBAZ-SBRE
+;========================================AIRSPACE HIGH FIR RECIFE SBRE 2020==============================================;
+;========================================AIRSPACE FIR RECIFE SBRE 2020===================================================;
+[AIRSPACE]
+;SBXA APP 2018 (ARACAJU)
+SECTORLINE:SBXA_APP
+DISPLAY:SBXA_APP:SBXA_APP:SBRE
+DISPLAY:SBRE:SBXA_APP:SBRE
+DISPLAY:SBXM_APP:SBXA_APP:SBXM_APP
+DISPLAY:SBXS_APP:SBXA_APP:SBXS_APP
+DISPLAY:SBAO:SBXA_APP:SBAO
+COORD:S010.26.01.000:W036.13.18.000
+COORD:S010.41.41.000:W036.26.53.000
+COORD:S010.50.00.000:W036.24.22.000
+COORD:S010.57.55.000:W036.23.33.000
+COORD:S011.07.37.000:W036.24.57.000
+COORD:S011.14.58.000:W036.28.01.000
+COORD:S011.21.04.000:W036.31.53.000
+COORD:S011.27.10.000:W036.37.44.000
+COORD:S011.31.19.000:W036.44.11.000
+COORD:S011.34.18.000:W036.51.31.000
+COORD:S011.35.40.000:W037.00.05.000
+COORD:S011.34.52.000:W037.10.43.000
+COORD:S012.05.47.000:W037.27.21.000
+COORD:S011.48.38.000:W037.55.08.000
+COORD:S011.22.51.000:W037.38.15.000
+COORD:S011.13.11.000:W037.43.10.000
+COORD:S011.04.42.000:W037.45.09.000
+COORD:S010.56.58.000:W037.45.23.000
+COORD:S010.49.22.000:W037.44.19.000
+COORD:S010.41.50.000:W037.41.39.000
+COORD:S010.35.59.000:W037.37.56.000
+COORD:S010.29.30.000:W037.32.15.000
+COORD:S010.24.15.000:W037.25.03.000
+COORD:S010.20.23.000:W037.15.59.000
+COORD:S010.18.55.000:W037.07.20.000
+COORD:S010.19.05.000:W036.59.30.000
+COORD:S010.20.47.000:W036.51.20.000
+COORD:S010.05.29.000:W036.37.55.000
+COORD:S010.26.01.000:W036.13.18.000
+SECTOR:SBXA_APP:0:19500
+OWNER:XA
+BORDER:SBXA_APP
+
+;SBWZ APP 2018 (FORTALEZA)
+SECTORLINE:SBWZ_APP
+DISPLAY:SBWZ_APP:SBWZ_APP:SBRE
+DISPLAY:SBRE:SBWZ_APP:SBRE
+DISPLAY:SBAO:SBWZ_APP:SBAO
+COORD:S002.46.01.000:W038.27.56.000
+COORD:S002.47.12.000:W038.19.30.000
+COORD:S002.50.29.000:W038.09.42.000
+COORD:S002.55.16.000:W038.00.23.000
+COORD:S003.01.24.000:W037.52.34.000
+COORD:S003.11.20.000:W037.43.36.000
+COORD:S003.20.11.000:W037.38.46.000
+COORD:S003.28.59.000:W037.35.08.000
+COORD:S003.37.47.000:W037.33.04.000
+COORD:S003.47.52.000:W037.32.26.000
+COORD:S003.58.58.000:W037.33.45.000
+COORD:S004.09.28.000:W037.37.17.000
+COORD:S004.19.38.000:W037.42.19.000
+COORD:S004.30.08.000:W037.50.56.000
+COORD:S004.37.07.000:W037.59.56.000
+COORD:S004.42.02.000:W038.08.51.000
+COORD:S004.45.54.000:W038.21.03.000
+COORD:S004.47.03.000:W038.32.32.000
+COORD:S004.46.24.000:W038.41.14.000
+COORD:S004.44.51.000:W038.49.09.000
+COORD:S004.39.55.000:W039.01.01.000
+COORD:S004.33.05.000:W039.11.20.000
+COORD:S004.25.28.000:W039.18.56.000
+COORD:S004.16.22.000:W039.24.59.000
+COORD:S004.07.58.000:W039.28.58.000
+COORD:S004.00.02.000:W039.31.23.000
+COORD:S003.50.47.000:W039.32.49.000
+COORD:S003.42.17.000:W039.32.35.000
+COORD:S003.35.55.000:W039.32.04.000
+COORD:S003.27.40.000:W039.29.54.000
+COORD:S003.20.13.000:W039.26.36.000
+COORD:S003.14.08.000:W039.23.37.000
+COORD:S003.08.08.000:W039.19.20.000
+COORD:S003.01.11.000:W039.12.58.000
+COORD:S002.55.16.000:W039.05.07.000
+COORD:S002.50.31.000:W038.55.35.000
+COORD:S002.47.09.000:W038.45.13.000
+COORD:S002.46.03.000:W038.36.43.000
+COORD:S002.46.01.000:W038.27.56.000
+SECTOR:SBWZ_APP:3500:19500
+OWNER:WZ:FLA
+BORDER:SBWZ_APP
+
+;SBWL APP 2018 (ILHEUS)
+SECTORLINE:SBWL_APP
+DISPLAY:SBWL_APP:SBWL_APP:SBRE
+DISPLAY:SBRE:SBWL_APP:SBRE
+DISPLAY:SBXS_APP:SBWL_APP:SBXS_APP
+DISPLAY:SBAO:SBWL_APP:SBAO
+COORD:S013.56.29.000:W038.24.59.000
+COORD:S014.19.15.000:W038.33.23.000
+COORD:S014.24.22.000:W038.28.38.000
+COORD:S014.30.36.000:W038.24.36.000
+COORD:S014.36.36.000:W038.22.09.000
+COORD:S014.44.03.000:W038.20.01.000
+COORD:S014.52.11.000:W038.19.51.000
+COORD:S014.59.42.000:W038.21.07.000
+COORD:S015.06.38.000:W038.23.48.000
+COORD:S015.13.21.000:W038.28.02.000
+COORD:S015.18.32.000:W038.32.48.000
+COORD:S015.22.54.000:W038.37.56.000
+COORD:S015.25.18.000:W038.42.33.000
+COORD:S015.27.48.000:W038.47.59.000
+COORD:S015.39.14.000:W038.49.03.000
+COORD:S015.36.46.000:W039.22.15.000
+COORD:S015.25.20.000:W039.21.01.000
+COORD:S015.20.47.000:W039.28.22.000
+COORD:S015.15.19.000:W039.33.54.000
+COORD:S015.10.22.000:W039.37.40.000
+COORD:S015.04.30.000:W039.40.30.000
+COORD:S014.57.20.000:W039.42.53.000
+COORD:S014.49.22.000:W039.43.43.000
+COORD:S014.41.02.000:W039.42.55.000
+COORD:S014.34.45.000:W039.41.29.000
+COORD:S014.29.05.000:W039.38.32.000
+COORD:S014.22.50.000:W039.34.07.000
+COORD:S014.16.18.000:W039.26.54.000
+COORD:S014.12.36.000:W039.20.41.000
+COORD:S014.09.48.000:W039.12.11.000
+COORD:S014.08.28.000:W039.04.12.000
+COORD:S013.45.28.000:W038.55.53.000
+COORD:S013.56.29.000:W038.24.59.000
+SECTOR:SBWL_APP:3500:19500
+OWNER:WL
+BORDER:SBWL_APP
+
+;SBXM APP 2018 (MACEIO)
+SECTORLINE:SBXM_APP
+DISPLAY:SBXM_APP:SBXM_APP:SBRE
+DISPLAY:SBRE:SBXM_APP:SBRE
+DISPLAY:SBWF_APP:SBXM_APP:SBWF_APP
+DISPLAY:SBAO:SBXM_APP:SBAO
+COORD:S010.26.01.000:W036.13.18.000
+COORD:S010.10.31.000:W035.59.54.000
+COORD:S010.12.33.000:W035.48.58.000
+COORD:S010.11.49.000:W035.39.05.000
+COORD:S010.09.04.000:W035.30.16.000
+COORD:S010.04.18.000:W035.22.24.000
+COORD:S009.59.30.000:W035.17.02.000
+COORD:S009.54.44.000:W035.13.07.000
+COORD:S009.47.28.000:W035.09.15.000
+COORD:S009.39.24.000:W035.06.42.000
+COORD:S009.30.27.000:W035.05.48.000
+COORD:S009.23.04.000:W035.07.01.000
+COORD:S009.15.01.000:W035.09.29.000
+COORD:S009.08.30.000:W035.13.37.000
+COORD:S008.59.16.000:W035.07.38.000
+COORD:S008.42.18.000:W035.35.06.000
+COORD:S008.51.14.000:W035.41.04.000
+COORD:S008.50.58.000:W035.50.02.000
+COORD:S008.52.40.000:W035.58.56.000
+COORD:S008.55.41.000:W036.06.36.000
+COORD:S009.00.34.000:W036.13.46.000
+COORD:S009.06.50.000:W036.19.52.000
+COORD:S009.14.04.000:W036.24.22.000
+COORD:S009.22.59.000:W036.27.28.000
+COORD:S009.30.47.000:W036.28.17.000
+COORD:S009.38.11.000:W036.27.57.000
+COORD:S009.43.08.000:W036.26.43.000
+COORD:S009.49.26.000:W036.24.22.000
+COORD:S010.05.29.000:W036.37.55.000
+COORD:S010.26.01.000:W036.13.18.000
+SECTOR:SBXM_APP:3500:14500
+OWNER:XM
+BORDER:SBXM_APP
+
+;SBXT 2018 (NATAL)
+SECTORLINE:SBXT_APP
+DISPLAY:SBXT_APP:SBXT_APP:SBRE
+DISPLAY:SBRE:SBXT_APP:SBRE
+DISPLAY:SBWF_APP:SBXT_APP:SBWF_APP
+DISPLAY:SBAO:SBXT_APP:SBAO
+COORD:S006.51.43.000:W034.46.49.000
+COORD:S006.00.46.000:W034.34.50.000
+COORD:S005.51.26.000:W034.34.40.000
+COORD:S005.46.31.000:W034.35.05.000
+COORD:S005.41.40.000:W034.36.45.000
+COORD:S005.35.25.000:W034.39.29.000
+COORD:S005.30.25.000:W034.42.47.000
+COORD:S005.26.03.000:W034.46.35.000
+COORD:S005.22.07.000:W034.51.15.000
+COORD:S005.18.14.000:W034.57.30.000
+COORD:S005.16.01.000:W035.03.22.000
+COORD:S005.14.52.000:W035.09.17.000
+COORD:S005.14.28.000:W035.14.04.000
+COORD:S005.14.53.000:W035.19.45.000
+COORD:S005.15.44.000:W035.23.33.000
+COORD:S005.16.58.000:W035.27.45.000
+COORD:S005.19.21.000:W035.33.26.000
+COORD:S005.21.48.000:W035.37.33.000
+COORD:S005.24.57.000:W035.41.42.000
+COORD:S005.28.09.000:W035.44.35.000
+COORD:S005.32.10.000:W035.47.38.000
+COORD:S005.36.36.000:W035.50.09.000
+COORD:S005.42.13.000:W035.52.46.000
+COORD:S005.47.09.000:W035.54.08.000
+COORD:S005.51.54.000:W035.54.47.000
+COORD:S005.56.47.000:W035.54.51.000
+COORD:S006.02.16.000:W035.54.07.000
+COORD:S006.08.09.000:W035.52.46.000
+COORD:S006.13.23.000:W035.50.23.000
+COORD:S006.57.09.000:W035.25.40.000
+COORD:S006.51.43.000:W034.46.49.000
+SECTOR:SBXT_APP:3500:19500
+OWNER:XT:TUP
+BORDER:SBXT_APP
+
+;SBWK APP 2018 (PORTO SEGURO)
+SECTORLINE:SBWK_APP
+DISPLAY:SBWK_APP:SBWK_APP:SBRE
+DISPLAY:SBRE:SBWK_APP:SBRE
+DISPLAY:SBAO:SBWK_APP:SBAO
+DISPLAY:SBAO:SBWK_APP:SBAO
+COORD:S015.39.14.000:W038.49.03.000
+COORD:S015.48.32.000:W038.49.52.000
+COORD:S015.51.44.000:W038.42.30.000
+COORD:S015.57.12.000:W038.35.10.000
+COORD:S016.03.24.000:W038.29.44.000
+COORD:S016.10.39.000:W038.25.36.000
+COORD:S016.19.50.000:W038.22.41.000
+COORD:S016.29.46.000:W038.22.11.000
+COORD:S016.39.23.000:W038.24.05.000
+COORD:S016.46.52.000:W038.27.36.000
+COORD:S016.53.33.000:W038.32.19.000
+COORD:S016.59.32.000:W038.39.10.000
+COORD:S017.04.03.000:W038.46.48.000
+COORD:S017.06.36.000:W038.54.20.000
+COORD:S017.07.26.000:W039.05.22.000
+COORD:S017.06.47.000:W039.14.12.000
+COORD:S017.04.35.000:W039.20.52.000
+COORD:S017.00.28.000:W039.28.44.000
+COORD:S016.53.13.000:W039.37.08.000
+COORD:S016.46.27.000:W039.41.41.000
+COORD:S016.38.43.000:W039.45.04.000
+COORD:S016.29.49.000:W039.46.53.000
+COORD:S016.21.38.000:W039.46.33.000
+COORD:S016.14.29.000:W039.44.54.000
+COORD:S016.07.26.000:W039.42.01.000
+COORD:S016.00.55.000:W039.37.27.000
+COORD:S015.55.05.000:W039.31.24.000
+COORD:S015.50.13.000:W039.23.30.000
+COORD:S015.36.46.000:W039.22.15.000
+COORD:S015.39.14.000:W038.49.03.000
+SECTOR:SBWK_APP:3500:19500
+OWNER:WK
+BORDER:SBWK_APP
+
+;SBWF 2018 (APP RECIFE)
+SECTORLINE:SBWF_APP
+DISPLAY:SBWF_APP:SBWF_APP:SBRE
+DISPLAY:SBRE:SBWF_APP:SBRE
+DISPLAY:SBXT_APP:SBWF_APP:SBXT_APP
+DISPLAY:SBXM_APP:SBWF_APP:SBXM_APP
+DISPLAY:SBAO:SBWF_APP:SBAO
+COORD:S008.59.16.000:W035.07.38.000
+COORD:S008.48.43.000:W035.01.25.000
+COORD:S008.49.13.000:W034.53.55.000
+COORD:S008.48.09.000:W034.46.05.000
+COORD:S008.45.35.000:W034.38.14.000
+COORD:S008.41.32.000:W034.31.36.000
+COORD:S008.36.50.000:W034.26.08.000
+COORD:S008.29.26.000:W034.20.39.000
+COORD:S008.22.33.000:W034.17.18.000
+COORD:S008.15.18.000:W034.15.29.000
+COORD:S008.08.41.000:W034.15.09.000
+COORD:S008.02.25.000:W034.15.34.000
+COORD:S007.56.55.000:W034.16.36.000
+COORD:S006.51.43.000:W034.46.49.000
+COORD:S006.57.09.000:W035.25.40.000
+COORD:S008.00.29.000:W035.34.49.000
+COORD:S008.06.06.000:W035.35.37.000
+COORD:S008.10.45.000:W035.35.47.000
+COORD:S008.16.23.000:W035.35.07.000
+COORD:S008.22.35.000:W035.33.52.000
+COORD:S008.28.17.000:W035.31.08.000
+COORD:S008.32.15.000:W035.29.16.000
+COORD:S008.42.18.000:W035.35.06.000
+COORD:S008.59.16.000:W035.07.38.000
+SECTOR:SBWF_APP:3500:19500
+OWNER:WF
+BORDER:SBWF_APP
+
+;SBXS APP 2018 (SALVADOR)
+SECTORLINE:SBXS_APP
+DISPLAY:SBXS_APP:SBXS_APP:SBRE
+DISPLAY:SBRE:SBXS_APP:SBRE
+DISPLAY:SBWL_APP:SBXS_APP:SBWL_APP
+DISPLAY:SBXA_APP:SBXS_APP:SBXA_APP
+DISPLAY:SBAO:SBXS_APP:SBAO
+COORD:S013.45.28.000:W038.55.53.000
+COORD:S013.56.29.000:W038.24.59.000 
+COORD:S013.20.53.000:W038.04.39.000 
+COORD:S012.57.49.000:W037.48.46.000 
+COORD:S012.05.47.000:W037.27.21.000
+COORD:S011.48.38.000:W037.55.08.000
+COORD:S012.00.00.000:W039.12.12.000
+COORD:S012.09.22.000:W039.15.31.000
+COORD:S013.12.41.000:W039.17.45.000
+COORD:S013.45.28.000:W038.55.53.000
+SECTOR:SBXS_APP:0:19500
+OWNER:XS
+BORDER:SBXS_APP
+
+;SBXE APP 2018 (TERESINA)
+SECTORLINE:SBXE_APP
+DISPLAY:SBXE_APP:SBXE_APP:SBRE
+DISPLAY:SBRE:SBXE_APP:SBRE
+DISPLAY:SBXE_APP:SBXE_APP:SBAZ
+DISPLAY:SBAZ:SBAZ:SBXE_APP
+DISPLAY:SBAO:SBXE_APP:SBAO
+COORD:S005.43.26.476:W042.54.48.956
+COORD:S005.43.21.587:W042.46.21.175
+COORD:S005.42.11.611:W042.38.21.302
+COORD:S005.40.03.909:W042.33.43.528
+COORD:S005.37.06.302:W042.26.40.886
+COORD:S005.32.45.884:W042.22.26.763
+COORD:S005.28.30.817:W042.17.59.261
+COORD:S005.21.29.789:W042.14.20.748
+COORD:S005.14.23.410:W042.10.55.614
+COORD:S005.07.39.040:W042.10.07.307
+COORD:S005.01.43.704:W042.09.31.230
+COORD:S004.53.23.278:W042.11.26.036
+COORD:S004.47.52.759:W042.12.41.244
+COORD:S004.41.25.920:W042.16.55.781
+COORD:S004.37.01.359:W042.19.55.720
+COORD:S004.32.33.724:W042.24.58.905
+COORD:S004.28.45.823:W042.30.18.306
+COORD:S004.26.38.796:W042.35.16.624
+COORD:S004.25.00.802:W042.40.57.916
+COORD:S004.24.02.542:W042.46.55.424
+COORD:S004.24.35.592:W042.53.53.540
+COORD:S004.25.16.803:W042.59.52.736
+COORD:S004.28.06.516:W043.06.36.593
+COORD:S004.32.07.804:W043.13.34.098
+COORD:S004.36.41.467:W043.17.53.627
+COORD:S004.40.47.236:W043.22.25.116
+COORD:S004.46.38.093:W043.25.27.210
+COORD:S004.50.27.203:W043.27.08.493
+COORD:S004.55.10.697:W043.28.48.626
+COORD:S005.01.55.067:W043.29.36.933
+COORD:S005.08.29.000:W043.29.34.293
+COORD:S005.14.22.061:W043.28.20.503
+COORD:S005.20.40.474:W043.26.22.591
+COORD:S005.26.20.824:W043.22.27.988
+COORD:S005.31.31.874:W043.19.08.115
+COORD:S005.35.14.424:W043.14.02.093
+COORD:S005.39.59.518:W043.07.56.001
+COORD:S005.41.33.299:W043.03.23.021
+COORD:S005.43.37.179:W042.54.22.198
+COORD:S005.43.26.476:W042.54.48.956
+SECTOR:SBXE_APP:3500:19500
+OWNER:XE
+BORDER:SBXE_APP
+
+;SBXR APP 2018 (VITORIA)
+SECTORLINE:SBXR_APP
+DISPLAY:SBVT_APP:SBRE:SBXR_APP
+DISPLAY:SBRE:SBRE:SBXR_APP
+DISPLAY:SBCW:SBXR_APP:SBCW
+DISPLAY:SBAO:SBXR_APP:SBAO
+COORD:S020.24.51.000:W040.58.13.000
+COORD:S020.41.53.000:W040.49.01.000
+COORD:S020.54.01.000:W040.33.56.000
+COORD:S020.55.38.000:W040.23.21.000
+COORD:S020.57.02.000:W040.14.39.000
+COORD:S020.51.56.000:W039.59.25.000
+COORD:S020.45.00.000:W039.48.27.000
+COORD:S020.36.05.000:W039.40.13.000
+COORD:S020.16.44.000:W039.34.05.000
+COORD:S020.02.26.000:W039.36.28.000
+COORD:S019.56.02.000:W039.39.21.000
+COORD:S019.48.34.000:W039.44.43.000
+COORD:S019.41.54.000:W039.52.47.000
+COORD:S019.37.46.000:W040.01.22.000
+COORD:S019.35.45.000:W040.19.20.000
+COORD:S019.38.48.000:W040.35.56.000
+COORD:S019.43.51.000:W040.43.46.000
+COORD:S019.55.47.000:W040.54.24.000
+COORD:S020.11.21.000:W040.59.22.000
+COORD:S020.24.51.000:W040.58.13.000
+SECTOR:SBXR_APP:3500:19500
+OWNER:XR
+BORDER:SBXR_APP
+;========================================AIRSPACE FIR RECIFE SBRE 2020===================================================;
+;========================================AIRSPACE LOW FIR RECIFE SBRE 2020===============================================;
+[AIRSPACE]
+;SBAR TWR 2018 (ARACAJU)
+SECTORLINE:SBAR_TWR:ARU:15
+DISPLAY:SBAR_TWR:SBAR_TWR:SBXA_APP
+DISPLAY:SBXA_APP:SBAR_TWR:SBXR_APP
+DISPLAY:SBAR_TWR:SBAR_TWR:SBRE
+DISPLAY:SBRE:SBAR_TWR:SBRE
+COORD:S010.46.56.000:W036.55.42.000
+COORD:S010.49.46.000:W036.52.19.000
+COORD:S010.53.53.000:W036.49.46.000
+COORD:S010.58.44.000:W036.48.32.000
+COORD:S011.04.34.000:W036.49.06.000
+COORD:S011.08.32.000:W036.51.20.000
+COORD:S011.11.46.000:W036.54.23.000
+COORD:S011.13.47.000:W036.58.05.000
+COORD:S011.15.00.000:W037.02.12.000
+COORD:S011.14.55.000:W037.05.30.000
+COORD:S011.13.52.000:W037.09.23.000
+COORD:S011.12.06.000:W037.12.53.000
+COORD:S011.09.14.000:W037.15.52.000
+COORD:S011.05.02.000:W037.18.21.000
+COORD:S011.00.35.000:W037.19.20.000
+COORD:S010.56.51.000:W037.19.00.000
+COORD:S010.52.55.000:W037.17.32.000
+COORD:S010.49.14.000:W037.14.59.000
+COORD:S010.46.43.000:W037.11.47.000
+COORD:S010.45.01.000:W037.07.39.000
+COORD:S010.44.42.000:W037.02.43.000
+COORD:S010.45.24.000:W036.59.10.000
+COORD:S010.46.56.000:W036.55.42.000
+SECTOR:SBAR_TWR:0:3500
+OWNER:TAR
+BORDER:SBAR_TWR
+
+;SBFZ TWR 2018 (FORTALEZA)
+SECTORLINE:SBFZ_TWR
+DISPLAY:SBFZ_TWR:SBFZ_TWR:SBWZ_APP
+DISPLAY:SBWZ_APP:SBFZ_TWR:SBWZ_APP
+DISPLAY:SBFZ_TWR:SBFZ_TWR:SBRE
+DISPLAY:SBRE:SBFZ_TWR:SBRE
+COORD:S003.26.45.000:W038.30.52.000
+COORD:S003.27.52.000:W038.26.18.000
+COORD:S003.30.11.000:W038.20.52.000
+COORD:S003.34.32.000:W038.16.05.000
+COORD:S003.39.13.000:W038.13.22.000
+COORD:S003.44.39.000:W038.11.54.000
+COORD:S003.50.29.000:W038.12.03.000
+COORD:S003.55.16.000:W038.13.18.000
+COORD:S003.58.57.000:W038.15.21.000
+COORD:S004.02.23.000:W038.18.26.000
+COORD:S004.04.41.000:W038.22.04.000
+COORD:S004.06.45.000:W038.27.05.000
+COORD:S004.07.22.000:W038.32.02.000
+COORD:S004.06.50.000:W038.36.59.000
+COORD:S004.04.56.000:W038.41.30.000
+COORD:S004.01.43.000:W038.45.58.000
+COORD:S003.56.12.000:W038.50.06.000
+COORD:S003.50.15.000:W038.52.06.000
+COORD:S003.45.10.000:W038.51.51.000
+COORD:S003.40.19.000:W038.50.47.000
+COORD:S003.35.50.000:W038.48.37.000
+COORD:S003.31.49.000:W038.45.09.000
+COORD:S003.28.41.000:W038.40.08.000
+COORD:S003.27.20.000:W038.34.55.000
+COORD:S003.26.45.000:W038.30.52.000
+SECTOR:SBFZ_TWR:0:3500
+OWNER:TFZ:GAI
+BORDER:SBFZ_TWR
+
+;SBIL TWR 2018 (ILHEUS) 
+SECTORLINE:SBIL_TWR
+DISPLAY:SBIL_TWR:SBIL_TWR:SBWL_APP
+DISPLAY:SBWL_APP:SBIL_TWR:SBWL_APP
+DISPLAY:SBIL_TWR:SBIL_TWR:SBRE
+DISPLAY:SBRE:SBIL_TWR:SBRE
+COORD:S014.33.21.000:W039.02.02.000
+COORD:S014.34.04.000:W039.06.17.000
+COORD:S014.35.30.000:W039.09.59.000
+COORD:S014.38.08.000:W039.13.27.000
+COORD:S014.42.16.000:W039.16.15.000
+COORD:S014.47.37.000:W039.17.09.000
+COORD:S014.53.35.000:W039.16.00.000
+COORD:S014.58.55.000:W039.12.32.000
+COORD:S015.02.11.000:W039.07.16.000
+COORD:S015.03.09.000:W039.02.20.000
+COORD:S015.02.30.000:W038.57.08.000
+COORD:S015.00.40.000:W038.52.56.000
+COORD:S014.57.24.000:W038.49.13.000
+COORD:S014.51.56.000:W038.46.31.000
+COORD:S014.46.16.000:W038.46.07.000
+COORD:S014.41.44.000:W038.47.26.000
+COORD:S014.37.54.000:W038.50.43.000
+COORD:S014.35.02.000:W038.54.51.000
+COORD:S014.33.40.000:W038.58.40.000
+COORD:S014.33.21.000:W039.02.02.000
+SECTOR:SBIL_TWR:0:3500
+OWNER:TIL
+BORDER:SBIL_TWR
+
+;SBTC TWR (COMANDATUBA)
+SECTORLINE:SBTC_TWR
+DISPLAY:SBTC_TWR:SBTC_TWR:SBWL_APP
+DISPLAY:SBWL_APP:SBTC_TWR:SBWL_APP
+DISPLAY:SBTC_TWR:SBTC_TWR:SBRE
+DISPLAY:SBRE:SBTC_TWR:SBRE
+COORD:S015.11.47.681:W038.58.19.751 
+COORD:S015.12.59.587:W038.54.59.772
+COORD:S015.15.13.631:W038.52.18.461
+COORD:S015.18.12.584:W038.50.33.430
+COORD:S015.21.37.553:W038.49.55.941
+COORD:S015.25.04.867:W038.50.33.946
+COORD:S015.28.03.336:W038.52.16.510
+COORD:S015.30.16.542:W038.54.57.183
+COORD:S015.31.29.225:W038.58.19.376
+COORD:S015.31.30.546:W039.01.51.504
+COORD:S015.30.18.422:W039.05.09.654
+COORD:S015.28.06.084:W039.07.52.183
+COORD:S015.25.06.687:W039.09.38.275
+COORD:S015.21.39.628:W039.10.14.863
+COORD:S015.18.14.705:W039.09.38.514
+COORD:S015.15.13.244:W039.07.52.783
+COORD:S015.12.59.371:W039.05.09.997
+COORD:S015.11.47.656:W039.01.50.673
+COORD:S015.11.47.681:W038.58.19.751
+SECTOR:SBTC_TWR:0:3500
+OWNER:TTC
+BORDER:SBTC_TWR
+
+;SBMO TWR 2018 (MACEIO)
+SECTORLINE:SBMO_TWR
+DISPLAY:SBMO_TWR:SBMO_TWR:SBXM_APP
+DISPLAY:SBXM_APP:SBXM_APP:SBMO_TWR
+DISPLAY:SBMO_TWR:SBMO_TWR:SBRE
+DISPLAY:SBRE:SBMO_TWR:SBRE
+COORD:S009.20.18.000:W035.37.30.000
+COORD:S009.22.54.000:W035.34.47.000
+COORD:S009.26.19.000:W035.32.44.000
+COORD:S009.30.33.000:W035.31.54.000
+COORD:S009.34.41.000:W035.31.54.000
+COORD:S009.38.55.000:W035.32.58.000
+COORD:S009.42.29.000:W035.35.47.000
+COORD:S009.44.51.000:W035.38.54.000
+COORD:S009.46.38.000:W035.42.37.000
+COORD:S009.47.12.000:W035.46.44.000
+COORD:S009.46.13.000:W035.52.25.000
+COORD:S009.43.33.000:W035.57.07.000
+COORD:S009.39.44.000:W036.00.20.000
+COORD:S009.34.51.000:W036.02.04.000
+COORD:S009.29.24.000:W036.02.14.000
+COORD:S009.24.12.000:W036.00.10.000
+COORD:S009.20.03.000:W035.56.32.000
+COORD:S009.17.37.000:W035.51.21.000
+COORD:S009.16.58.000:W035.46.19.000
+COORD:S009.17.57.000:W035.41.28.000
+COORD:S009.20.18.000:W035.37.30.000
+SECTOR:SBMO_TWR:0:3500
+OWNER:TMO
+BORDER:SBMO_TWR
+
+;SBNT MILITARY TOWER 2018 (NATAL)
+SECTORLINE:SBNT_M_TWR
+DISPLAY:SBNT_M_TWR:SBNT_M_TWR:SBXT_APP
+DISPLAY:SBXT_APP:SBNT_M_TWR:SBXT_APP
+DISPLAY:SBNT_M_TWR:SBNT_M_TWR:SBRE
+DISPLAY:SBRE:SBNT_M_TWR:SBRE
+DISPLAY:SBSG_TWR:SBNT_M_TWR:SBSG_TWR
+COORD:S005.34.19.000:W035.13.08.000
+COORD:S005.35.13.000:W035.09.17.000
+COORD:S005.36.46.000:W035.04.59.000
+COORD:S005.39.43.000:W035.00.57.000
+COORD:S005.43.39.000:W034.57.44.000
+COORD:S005.48.20.000:W034.55.46.000
+COORD:S005.53.05.000:W034.54.46.000
+COORD:S005.57.27.000:W034.54.56.000
+COORD:S006.02.46.000:W034.56.25.000
+COORD:S006.07.09.000:W034.58.59.000
+COORD:S006.10.20.000:W035.02.06.000
+COORD:S006.12.43.000:W035.06.04.000
+COORD:S006.13.52.000:W035.08.17.000
+COORD:S006.14.46.000:W035.12.25.000
+COORD:S006.14.46.000:W035.16.27.000
+COORD:S006.14.16.000:W035.20.05.000
+COORD:S006.12.43.000:W035.23.57.000
+COORD:S006.10.30.000:W035.27.30.000
+COORD:S006.07.19.000:W035.30.38.000
+COORD:S006.03.23.000:W035.32.51.000
+COORD:S005.59.38.000:W035.34.07.000
+COORD:S005.55.27.000:W035.34.57.000
+COORD:S005.50.57.000:W035.34.27.000
+COORD:S005.46.57.000:W035.33.28.000
+COORD:S005.43.13.000:W035.31.26.000
+COORD:S005.39.56.000:W035.28.38.000
+COORD:S005.37.28.000:W035.25.40.000
+COORD:S005.35.20.000:W035.21.38.000
+COORD:S005.34.24.000:W035.17.05.000
+COORD:S005.34.19.000:W035.13.08.000
+SECTOR:SBNT_M_TWR:0:3500
+OWNER:CAC
+BORDER:SBNT_M_TWR
+
+;SBSG TWR 2018 (SÃO GONCALO)
+SECTORLINE:SBSG_TWR
+DISPLAY:SBSG_TWR:SBSG_TWR:SBXT_APP
+DISPLAY:SBXT_APP:SBSG_TWR:SBXT_APP
+DISPLAY:SBSG_TWR:SBSG_TWR:SBRE
+DISPLAY:SBRE:SBSG_TWR:SBRE
+DISPLAY:SBNT_M_TWR:SBSG_TWR:SBNT_M_TWR
+COORD:S005.34.19.000:W035.13.08.000
+COORD:S005.35.13.000:W035.09.17.000
+COORD:S005.36.46.000:W035.04.59.000
+COORD:S005.39.43.000:W035.00.57.000
+COORD:S005.43.39.000:W034.57.44.000
+COORD:S005.48.20.000:W034.55.46.000
+COORD:S005.53.05.000:W034.54.46.000
+COORD:S005.57.27.000:W034.54.56.000
+COORD:S006.02.46.000:W034.56.25.000
+COORD:S006.07.09.000:W034.58.59.000
+COORD:S006.10.20.000:W035.02.06.000
+COORD:S006.12.43.000:W035.06.04.000
+COORD:S006.13.52.000:W035.08.17.000
+COORD:S006.14.46.000:W035.12.25.000
+COORD:S006.14.46.000:W035.16.27.000
+COORD:S006.14.16.000:W035.20.05.000
+COORD:S006.12.43.000:W035.23.57.000
+COORD:S006.10.30.000:W035.27.30.000
+COORD:S006.07.19.000:W035.30.38.000
+COORD:S006.03.23.000:W035.32.51.000
+COORD:S005.59.38.000:W035.34.07.000
+COORD:S005.55.27.000:W035.34.57.000
+COORD:S005.50.57.000:W035.34.27.000
+COORD:S005.46.57.000:W035.33.28.000
+COORD:S005.43.13.000:W035.31.26.000
+COORD:S005.39.56.000:W035.28.38.000
+COORD:S005.37.28.000:W035.25.40.000
+COORD:S005.35.20.000:W035.21.38.000
+COORD:S005.34.24.000:W035.17.05.000
+COORD:S005.34.19.000:W035.13.08.000
+SECTOR:SBSG_TWR:0:3500
+OWNER:TSG
+BORDER:SBSG_TWR
+
+;SBPS TWR 2018 (PORTO SEGURO)
+SECTORLINE:SBPS_TWR
+DISPLAY:SBPS_TWR:SBPS_TWR:SBWK_APP
+DISPLAY:SBWK_APP:SBPS_TWR:SBWK_APP
+DISPLAY:SBPS_TWR:SBPS_TWR:SBRE
+DISPLAY:SBRE:SBPS_TWR:SBRE
+COORD:S016.11.33.000:W039.06.02.000
+COORD:S016.12.42.000:W039.10.26.000
+COORD:S016.15.19.000:W039.14.58.000
+COORD:S016.19.21.000:W039.18.16.000
+COORD:S016.24.05.000:W039.19.55.000
+COORD:S016.29.33.000:W039.19.55.000
+COORD:S016.34.55.000:W039.17.51.000
+COORD:S016.39.01.000:W039.13.59.000
+COORD:S016.41.09.000:W039.09.12.000
+COORD:S016.41.50.000:W039.03.46.000
+COORD:S016.41.23.000:W039.00.08.000
+COORD:S016.39.30.000:W038.55.51.000
+COORD:S016.36.34.000:W038.52.14.000
+COORD:S016.32.02.000:W038.49.31.000
+COORD:S016.26.54.000:W038.48.46.000
+COORD:S016.21.56.000:W038.49.31.000
+COORD:S016.17.20.000:W038.52.09.000
+COORD:S016.13.52.000:W038.56.06.000
+COORD:S016.12.07.000:W039.01.06.000
+COORD:S016.11.33.000:W039.06.02.000
+SECTOR:SBPS_TWR:0:3500
+OWNER:TPS
+BORDER:SBPS_TWR
+
+;SBRF 2018 (RECIFE TOWER)
+SECTORLINE:SBRF_TWR
+DISPLAY:SBRF_TWR:SBRF_TWR:SBWF_APP
+DISPLAY:SBWF_APP:SBRF_TWR:SBWF_APP
+DISPLAY:SBRF_TWR:SBRF_TWR:SBRE
+DISPLAY:SBRE:SBRF_TWR:SBRE
+COORD:S007.48.39.000:W034.53.50.000
+COORD:S007.49.36.000:W034.49.59.000
+COORD:S007.51.34.000:W034.45.08.000
+COORD:S007.55.34.000:W034.40.16.000
+COORD:S007.59.09.000:W034.38.03.000
+COORD:S008.04.13.000:W034.35.49.000
+COORD:S008.08.40.000:W034.35.30.000
+COORD:S008.14.01.000:W034.36.14.000
+COORD:S008.18.22.000:W034.37.55.000
+COORD:S008.22.37.000:W034.41.12.000
+COORD:S008.25.38.000:W034.44.40.000
+COORD:S008.27.50.000:W034.49.07.000
+COORD:S008.29.00.000:W034.54.04.000
+COORD:S008.28.39.000:W034.59.35.000
+COORD:S008.27.01.000:W035.04.19.000
+COORD:S008.24.15.000:W035.08.36.000
+COORD:S008.20.20.000:W035.12.28.000
+COORD:S008.13.58.000:W035.15.37.000
+COORD:S008.07.51.000:W035.16.06.000
+COORD:S008.02.13.000:W035.14.57.000
+COORD:S007.56.58.000:W035.12.14.000
+COORD:S007.53.23.000:W035.08.51.000
+COORD:S007.50.46.000:W035.04.54.000
+COORD:S007.48.54.000:W034.59.27.000
+COORD:S007.48.39.000:W034.53.50.000
+SECTOR:SBRF_TWR:0:3500
+OWNER:TRF
+BORDER:SBRF_TWR
+
+;SBJP TWR 2018 (JOAO PESSOA)
+SECTORLINE:SBJP_TWR
+DISPLAY:SBJP_TWR:SBJP_TWR:SBWF_APP
+DISPLAY:SBWF_APP:SBJP_TWR:SBWF_APP
+DISPLAY:SBJP_TWR:SBJP_TWR:SBRE
+DISPLAY:SBRE:SBJP_TWR:SBRE
+DISPLAY:SBJP_TWR:SBJP_TWR:SBXT_APP
+DISPLAY:SBXT_APP:SBJP_TWR:SBXT_APP
+COORD:S006.54.05.000:W034.55.58.000
+COORD:S006.54.41.000:W034.51.52.000
+COORD:S006.57.22.000:W034.47.30.000
+COORD:S007.00.34.000:W034.44.22.000
+COORD:S007.04.20.000:W034.42.34.000
+COORD:S007.07.54.000:W034.41.49.000
+COORD:S007.12.01.000:W034.42.04.000
+COORD:S007.15.00.000:W034.43.03.000
+COORD:S007.18.17.000:W034.44.37.000
+COORD:S007.20.49.000:W034.47.15.000
+COORD:S007.22.32.000:W034.49.34.000
+COORD:S007.23.35.000:W034.52.37.000
+COORD:S007.24.21.000:W034.56.04.000
+COORD:S007.23.56.000:W035.00.11.000
+COORD:S007.22.42.000:W035.03.43.000
+COORD:S007.20.25.000:W035.07.11.000
+COORD:S007.17.53.000:W035.09.15.000
+COORD:S007.14.27.000:W035.11.08.000
+COORD:S007.10.41.000:W035.11.58.000
+COORD:S007.07.10.000:W035.11.58.000
+COORD:S007.03.44.000:W035.10.49.000
+COORD:S007.00.57.000:W035.09.40.000
+COORD:S006.58.00.000:W035.07.22.000
+COORD:S006.56.17.000:W035.04.48.000
+COORD:S006.54.49.000:W035.02.00.000
+COORD:S006.54.00.000:W034.58.36.000
+COORD:S006.54.05.000:W034.55.58.000
+SECTOR:SBJP_TWR:0:3500
+OWNER:TJP
+BORDER:SBJP_TWR
+
+;SBSV TWR 2018 (SALVADOR)
+SECTORLINE:SBSV_TWR
+DISPLAY:SBSV_TWR:SBSV_TWR:SBXS_APP
+DISPLAY:SBXS_APP:SBSV_TWR:SBXS_APP
+DISPLAY:SBSV_TWR:SBSV_TWR:SBRE
+DISPLAY:SBRE:SBSV_TWR:SBRE
+COORD:S012.34.19.000:W038.19.19.000
+COORD:S012.34.49.000:W038.22.44.000
+COORD:S012.36.01.000:W038.26.47.000
+COORD:S012.37.52.000:W038.30.29.000
+COORD:S012.41.00.000:W038.34.07.000
+COORD:S012.44.32.000:W038.36.45.000
+COORD:S012.49.31.000:W038.38.48.000
+COORD:S012.54.41.000:W038.39.28.000
+COORD:S013.00.04.000:W038.38.53.000
+COORD:S013.05.17.000:W038.36.20.000
+COORD:S013.09.33.000:W038.32.48.000
+COORD:S013.12.26.000:W038.28.06.000
+COORD:S013.14.07.000:W038.23.44.000
+COORD:S013.14.40.000:W038.18.46.000
+COORD:S013.14.19.000:W038.14.14.000
+COORD:S013.12.58.000:W038.09.52.000
+COORD:S013.10.33.000:W038.05.45.000
+COORD:S013.07.12.000:W038.02.48.000
+COORD:S013.03.21.000:W038.00.19.000
+COORD:S012.59.02.000:W037.58.45.000
+COORD:S012.54.22.000:W037.58.15.000
+COORD:S012.50.02.000:W037.58.40.000
+COORD:S012.45.39.000:W038.00.21.000
+COORD:S012.41.43.000:W038.03.04.000
+COORD:S012.38.25.000:W038.06.42.000
+COORD:S012.35.51.000:W038.11.14.000
+COORD:S012.34.43.000:W038.15.26.000
+COORD:S012.34.19.000:W038.19.19.000
+SECTOR:SBSV_TWR:0:3500
+OWNER:TSV
+BORDER:SBSV_TWR
+
+;SBTE TWR 2018 (TERESINA)
+SECTORLINE:SBTE_TWR
+DISPLAY:SBTE_TWR:SBTE_TWR:SBXE_APP
+DISPLAY:SBXE_APP:SBTE_TWR:SBXE_APP
+DISPLAY:SBTE_TWR:SBTE_TWR:SBRE
+DISPLAY:SBRE:SBTE_TWR:SBRE
+COORD:S004.48.52.000:W042.48.23.000
+COORD:S004.49.42.000:W042.53.31.000
+COORD:S004.52.15.000:W042.58.03.000
+COORD:S004.55.47.000:W043.01.26.000
+COORD:S005.00.18.000:W043.03.10.000
+COORD:S005.06.07.000:W043.03.35.000
+COORD:S005.11.18.000:W043.02.15.000
+COORD:S005.15.19.000:W042.58.58.000
+COORD:S005.18.06.000:W042.54.46.000
+COORD:S005.19.15.000:W042.49.14.000
+COORD:S005.18.41.000:W042.44.52.000
+COORD:S005.16.33.000:W042.39.51.000
+COORD:S005.12.46.000:W042.36.23.000
+COORD:S005.08.40.000:W042.34.10.000
+COORD:S005.03.30.000:W042.33.30.000
+COORD:S004.58.59.000:W042.34.34.000
+COORD:S004.55.07.000:W042.36.28.000
+COORD:S004.51.40.000:W042.40.11.000
+COORD:S004.49.36.000:W042.43.51.000
+COORD:S004.48.52.000:W042.48.23.000
+SECTOR:SBTE_TWR:0:3500
+OWNER:TTE
+BORDER:SBTE_TWR
+
+;SBVT TWR 2018 (VITORIA)
+SECTORLINE:SBVT_TWR
+DISPLAY:SBVT_TWR:SBVT_TWR:SBXR_APP
+DISPLAY:SBXR_APP:SBXR_APP:SBVT_TWR
+DISPLAY:SBVT_TWR:SBRE:SBVT_TWR
+DISPLAY:SBRE:SBRE:SBVT_TWR
+COORD:S020.00.53.000:W040.18.18.000
+COORD:S020.01.55.000:W040.22.34.000
+COORD:S020.04.42.000:W040.27.55.000
+COORD:S020.08.57.000:W040.31.13.000
+COORD:S020.14.27.000:W040.32.52.000
+COORD:S020.20.14.000:W040.32.13.000
+COORD:S020.24.43.000:W040.29.54.000
+COORD:S020.28.30.000:W040.25.37.000
+COORD:S020.30.40.000:W040.20.21.000
+COORD:S020.30.51.000:W040.16.06.000
+COORD:S020.29.58.000:W040.11.12.000
+COORD:S020.27.37.000:W040.06.17.000
+COORD:S020.23.45.000:W040.02.54.000
+COORD:S020.19.15.000:W040.01.07.000
+COORD:S020.14.18.000:W040.00.43.000
+COORD:S020.09.17.000:W040.02.12.000
+COORD:S020.04.52.000:W040.05.25.000
+COORD:S020.02.42.000:W040.09.22.000
+COORD:S020.00.53.000:W040.13.26.000
+COORD:S020.00.53.000:W040.18.18.000
+SECTOR:SBVT_TWR:0:3500
+OWNER:TVT
+BORDER:SBVT_TWR
+;========================================AIRSPACE LOW FIR RECIFE SBRE 2020===============================================;
+;========================================AIRSPACE LOW REMOTAS FIR RECIFE SBRE 2020=======================================;
+[AIRSPACE]
+;SBAC R-TWR 2018 (ARACATI)
+SECTORLINE:SBAC_R_TWR
+DISPLAY:SBAC_R_TWR:SBAC_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBAC_R_TWR
+DISPLAY:SBMS_R_TWR:SBAC_R_TWR:SBMS_R_TWR
+DISPLAY:SBAC_R_TWR:SBMS_R_TWR:SBAC_R_TWR
+DISPLAY:SBWZ_APP:SBAC_R_TWR:SBWZ_APP
+DISPLAY:SBAC_R_TWR:SBWZ_APP:SBAC_R_TWR
+COORD:S004.16.52.653:W037.58.49.857
+COORD:S004.14.29.096:W037.51.57.310
+COORD:S004.14.20.498:W037.44.40.840
+COORD:S004.16.52.802:W037.37.52.664
+COORD:S004.21.35.136:W037.32.37.823
+COORD:S004.27.21.810:W037.29.12.783
+COORD:S004.34.04.044:W037.28.07.336
+COORD:S004.40.57.389:W037.29.13.521
+COORD:S004.46.58.889:W037.33.07.634
+COORD:S004.51.17.512:W037.37.54.418
+COORD:S004.53.46.446:W037.45.00.474
+COORD:S004.53.43.439:W037.52.00.751
+COORD:S004.51.20.007:W037.58.45.289
+COORD:S004.46.52.773:W038.03.59.175
+COORD:S004.41.03.455:W038.07.30.537
+COORD:S004.34.30.093:W038.08.32.346
+COORD:S004.27.19.005:W038.07.33.438
+COORD:S004.20.58.909:W038.03.57.427
+COORD:S004.16.52.653:W037.58.49.857
+SECTOR:SBAC_R_TWR:0:14500
+OWNER:TAC
+BORDER:SBAC_R_TWR
+
+;SBKG R-TWR 2018 (CAMPNA GRANDE)
+SECTORLINE:SBKG_R_TWR
+DISPLAY:SBKG_R_TWR:SBKG_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBKG_R_TWR
+DISPLAY:SBWF_APP:SBKG_R_TWR:SBWF_APP
+DISPLAY:SBXT_APP:SBKG_R_TWR:SBXT_APP
+COORD:S007.15.52.367:W035.28.22.297
+COORD:S007.24.31.341:W035.29.37.346
+COORD:S007.32.13.634:W035.34.16.090
+COORD:S007.37.47.844:W035.40.58.601
+COORD:S007.40.48.105:W035.49.15.010
+COORD:S007.40.45.753:W035.58.08.527
+COORD:S007.37.48.577:W036.06.23.017
+COORD:S007.32.12.358:W036.13.08.946
+COORD:S007.24.43.274:W036.17.34.859
+COORD:S007.16.11.888:W036.19.06.838
+COORD:S007.07.40.311:W036.17.35.321
+COORD:S007.00.07.827:W036.13.11.890
+COORD:S006.54.30.606:W036.06.26.439
+COORD:S006.51.31.440:W035.58.08.701
+COORD:S006.51.31.494:W035.49.18.654
+COORD:S006.54.29.591:W035.41.01.315
+COORD:S007.00.05.905:W035.34.15.622
+COORD:S007.07.38.588:W035.29.50.826
+COORD:S007.15.52.367:W035.28.22.297
+SECTOR:SBKG_R_TWR:0:14500
+OWNER:TKG
+BORDER:SBKG_R_TWR
+
+;SBJE R-TWR 2018 (CRUZ - JERICOACORA)
+SECTORLINE:SBJE_R_TWR
+DISPLAY:SBJE_R_TWR:SBJE_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBJE_R_TWR
+COORD:S002.27.52.357:W040.26.12.703
+COORD:S002.27.47.519:W040.16.48.274
+COORD:S002.31.07.097:W040.07.51.443
+COORD:S002.37.06.132:W040.00.45.944
+COORD:S002.45.13.608:W039.56.08.909
+COORD:S002.54.39.024:W039.54.31.106
+COORD:S003.03.39.518:W039.56.07.904
+COORD:S003.11.45.496:W040.00.51.326
+COORD:S003.17.42.915:W040.08.04.693
+COORD:S003.20.59.716:W040.16.44.049
+COORD:S003.20.59.365:W040.26.07.388
+COORD:S003.17.47.312:W040.35.05.429
+COORD:S003.11.43.745:W040.42.16.137
+COORD:S003.03.37.417:W040.46.56.054
+COORD:S002.54.32.476:W040.48.35.517
+COORD:S002.45.15.492:W040.46.58.777
+COORD:S002.36.56.410:W040.42.07.320
+COORD:S002.31.13.300:W040.35.21.608
+COORD:S002.27.52.357:W040.26.12.703
+SECTOR:SBJE_R_TWR:0:14500
+OWNER:TJE
+BORDER:SBJE_R_TWR
+
+;SBFN R-TWR 2018 (FERNANDO DE NORONHA)
+SECTORLINE:SBFN_R_TWR
+DISPLAY:SBFN_R_TWR:SBFN_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBFN_R_TWR
+DISPLAY:SBAO:SBFN_R_TWR:SBAO
+COORD:S003.33.58.022:W032.04.42.011
+COORD:S003.42.00.312:W031.59.58.387
+COORD:S003.51.23.867:W031.58.17.700
+COORD:S004.00.36.467:W031.59.58.893
+COORD:S004.08.33.113:W032.04.38.847
+COORD:S004.14.37.348:W032.11.58.189
+COORD:S004.17.55.686:W032.20.54.749
+COORD:S004.17.51.245:W032.30.29.849
+COORD:S004.14.42.966:W032.39.23.633
+COORD:S004.08.38.250:W032.46.46.720
+COORD:S004.00.32.466:W032.51.30.062
+COORD:S003.51.18.219:W032.53.08.647
+COORD:S003.42.04.474:W032.51.33.074
+COORD:S003.33.55.584:W032.46.47.842
+COORD:S003.27.53.389:W032.39.29.381
+COORD:S003.24.41.732:W032.30.28.364 
+COORD:S003.24.42.679:W032.20.52.980
+COORD:S003.27.52.998:W032.12.00.076
+COORD:S003.33.58.022:W032.04.42.011
+SECTOR:SBFN_R_TWR:0:14500
+OWNER:TFN
+BORDER:SBFN_R_TWR
+
+;SBGV R-TWR 2018 (GOVERNADOR VALADARES)
+SECTORLINE:SBGV_R_TWR
+DISPLAY:SBGV_R_TWR:SBGV_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBGV_R_TWR
+DISPLAY:SBBS:SBGV_R_TWR:SBBS
+COORD:S018.44.30.756:W042.24.44.415
+COORD:S018.36.25.363:W042.20.00.153
+COORD:S018.30.23.538:W042.12.44.148
+COORD:S018.27.07.923:W042.03.43.725
+COORD:S018.27.08.569:W041.54.08.945
+COORD:S018.30.17.722:W041.45.15.490
+COORD:S018.36.21.775:W041.37.56.175
+COORD:S018.44.30.249:W041.33.09.054
+COORD:S018.53.41.093:W041.31.33.305
+COORD:S019.02.55.017:W041.33.10.178
+COORD:S019.11.03.320:W041.37.53.934
+COORD:S019.17.05.740:W041.45.13.898
+COORD:S019.20.18.625:W041.54.12.816
+COORD:S019.20.18.824:W042.03.42.581
+COORD:S019.17.06.772:W042.12.39.628
+COORD:S019.11.02.335:W042.19.59.169
+COORD:S019.02.55.097:W042.24.43.106
+COORD:S018.53.44.932:W042.26.23.451
+COORD:S018.44.30.756:W042.24.44.415
+SECTOR:SBGV_R_TWR:0:14500
+OWNER:TGV
+BORDER:SBGV_R_TWR
+
+;SBIP R-TWR 2018 (IPATINGA) SBBS*
+SECTORLINE:SBIP_R_TWR
+DISPLAY:SBIP_R_TWR:SBIP_R_TWR:SBBS
+DISPLAY:SBIP_TWR:SBIP_R_TWR:SBCW
+DISPLAY:SBBS:SBIP_R_TWR:SBBS
+DISPLAY:SBCW:SBIP_R_TWR:SBCW
+DISPLAY:SBIP_R_TWR:SBIP_R_TWR:SBRE
+DISPLAY:SBRE:SBIP_R_TWR:SBRE
+COORD:S019.01.38.021:W042.24.24.948
+COORD:S019.04.50.964:W042.15.12.501
+COORD:S019.10.53.581:W042.07.44.797
+COORD:S019.19.00.518:W042.02.51.595
+COORD:S019.28.13.280:W042.01.10.576
+COORD:S019.37.27.079:W042.02.52.551
+COORD:S019.45.34.425:W042.07.45.306
+COORD:S019.51.35.315:W042.15.11.786
+COORD:S019.54.50.862:W042.24.23.487
+COORD:S019.54.49.084:W042.34.13.330 
+COORD:S019.51.36.727:W042.43.19.516
+COORD:S019.45.35.226:W042.50.48.281
+COORD:S019.37.27.026:W042.55.41.987
+COORD:S019.28.14.264:W042.57.23.006 
+COORD:S019.18.59.446:W042.55.42.192
+COORD:S019.10.51.469:W042.50.49.689
+COORD:S019.04.50.726:W042.43.21.644
+COORD:S019.01.38.187:W042.34.10.248
+COORD:S019.01.38.021:W042.24.24.948
+SECTOR:SBIP_R_TWR:0:14500
+OWNER:TIP
+BORDER:SBIP_R_TWR
+
+;SBJU R-TWR 2018 (JUAZEIRO)
+SECTORLINE:SBJU_R_TWR
+DISPLAY:SBJU_R_TWR:SBJU_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBJU_R_TWR
+COORD:S006.55.46.220:W039.37.20.467
+COORD:S006.49.46.532:W039.30.08.926
+COORD:S006.46.32.731:W039.21.08.896
+COORD:S006.46.29.847:W039.11.30.792
+COORD:S006.49.43.387:W039.02.33.870
+COORD:S006.55.45.564:W038.55.17.310 
+COORD:S007.03.45.865:W038.50.37.184
+COORD:S007.13.10.931:W038.48.56.842
+COORD:S007.22.21.089:W038.50.34.034
+COORD:S007.30.27.985:W038.55.18.756
+COORD:S007.36.24.739:W039.02.37.089
+COORD:S007.39.38.540:W039.11.37.120
+COORD:S007.39.41.182:W039.21.03.903
+COORD:S007.36.30.362:W039.30.04.140
+COORD:S007.30.27.496:W039.37.19.926
+COORD:S007.22.20.381:W039.42.02.847
+COORD:S007.13.10.777:W039.43.42.211
+COORD:S007.03.59.616:W039.42.11.799
+COORD:S006.55.46.220:W039.37.20.467
+SECTOR:SBJU_R_TWR:0:14500
+OWNER:TJU
+BORDER:SBJU_R_TWR
+
+;SBLP R-TWR 2018 (LAPA)
+SECTORLINE:SBLP_R_TWR
+DISPLAY:SBLP_R_TWR:SBLP_R_TWR:SBRE
+DISPLAY:SBRE:SBLP_R_TWR:SBRE
+COORD:S012.52.30.823:W043.38.13.332
+COORD:S012.49.17.510:W043.29.15.291
+COORD:S012.49.17.240:W043.19.44.422
+COORD:S012.52.29.172:W043.10.47.660
+COORD:S012.58.30.935:W043.03.29.073
+COORD:S013.06.38.840:W042.58.44.826
+COORD:S013.15.53.387:W042.57.04.722
+COORD:S013.25.06.938:W042.58.44.801
+COORD:S013.33.15.722:W043.03.30.724
+COORD:S013.39.15.281:W043.10.46.386
+COORD:S013.42.27.985:W043.19.45.126
+COORD:S013.42.28.174:W043.29.14.678
+COORD:S013.39.15.634:W043.38.12.140
+COORD:S013.33.14.398:W043.45.28.710
+COORD:S013.25.07.798:W043.50.15.122
+COORD:S013.15.54.241:W043.51.54.371
+COORD:S013.06.39.781:W043.50.16.464
+COORD:S012.58.32.368:W043.45.29.528
+COORD:S012.52.30.823:W043.38.13.332
+SECTOR:SBLP_R_TWR:0:14500
+OWNER:TLP
+BORDER:SBLP_R_TWR
+
+;SBLE R-TWR 2018 (LENCOIS)
+SECTORLINE:SBLE_R_TWR
+DISPLAY:SBLE_R_TWR:SBLE_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBLE_R_TWR
+COORD:S012.02.25.061:W041.21.10.479
+COORD:S012.02.24.239:W041.11.39.843
+COORD:S012.05.38.308:W041.02.39.054
+COORD:S012.11.39.316:W040.55.22.746
+COORD:S012.19.47.595:W040.50.37.418
+COORD:S012.28.58.993:W040.48.58.521
+COORD:S012.38.14.405:W040.50.37.640
+COORD:S012.46.21.534:W040.55.23.651
+COORD:S012.52.22.183:W041.02.39.962
+COORD:S012.55.37.424:W041.11.35.749
+COORD:S012.55.34.614:W041.21.09.879
+COORD:S012.52.23.510:W041.30.05.936
+COORD:S012.46.21.071:W041.37.22.128
+COORD:S012.38.15.896:W041.42.08.292
+COORD:S012.29.00.090:W041.43.48.295
+COORD:S012.19.49.566:W041.42.09.280
+COORD:S012.11.38.865:W041.37.24.733
+COORD:S012.05.38.686:W041.30.06.121
+COORD:S012.02.25.061:W041.21.10.479
+SECTOR:SBLE_R_TWR:0:14500
+OWNER:TLE
+BORDER:SBLE_R_TWR
+
+;SBMS R-TWR 2018 (MOSSORO)
+SECTORLINE:SBMS_R_TWR
+DISPLAY:SBMS_R_TWR:SBMS_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBMS_R_TWR
+COORD:S004.54.23.170:W037.00.42.738
+COORD:S005.02.34.476:W036.55.56.377
+COORD:S005.11.42.321:W036.54.18.701
+COORD:S005.21.02.775:W036.55.58.388
+COORD:S005.29.07.299:W037.00.41.994
+COORD:S005.35.05.814:W037.07.57.159
+COORD:S005.38.20.261:W037.16.56.688 
+COORD:S005.38.21.511:W037.26.27.395
+COORD:S005.35.11.209:W037.35.25.440
+COORD:S005.29.04.732:W037.42.44.102
+COORD:S005.20.59.188:W037.47.29.747
+COORD:S005.11.47.328:W037.49.08.384
+COORD:S005.02.31.772:W037.47.30.807
+COORD:S004.54.27.773:W037.42.45.972
+COORD:S004.48.21.095:W037.35.27.290
+COORD:S004.45.09.443:W037.26.27.987
+COORD:S004.45.08.887:W037.16.55.623
+COORD:S004.48.22.102:W037.07.58.392
+COORD:S004.54.23.170:W037.00.42.738
+SECTOR:SBMS_R_TWR:0:14500
+OWNER:TMS
+BORDER:SBMS_R_TWR
+
+;SBPB R-TWR 2018 (PARNAIBA)
+SECTORLINE:SBPB_R_TWR
+DISPLAY:SBPB_R_TWR:SBPB_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBPB_R_TWR
+DISPLAY:SBAZ:SBPB_R_TWR:SBAZ
+COORD:S002.30.12.117:W041.57.29.496
+COORD:S002.27.00.744:W041.48.32.709
+COORD:S002.26.59.750:W041.39.02.249
+COORD:S002.30.12.042:W041.30.05.001
+COORD:S002.36.16.009:W041.22.45.985
+COORD:S002.44.19.687:W041.18.02.368
+COORD:S002.53.35.614:W041.16.22.668
+COORD:S003.02.50.889:W041.18.02.832
+COORD:S003.10.56.746:W041.22.46.694
+COORD:S003.16.58.735:W041.30.04.283
+COORD:S003.20.10.302:W041.38.59.889
+COORD:S003.20.10.445:W041.48.32.386
+COORD:S003.16.58.152:W041.57.29.634
+COORD:S003.10.57.452:W042.04.46.715
+COORD:S003.02.49.401:W042.09.32.822
+COORD:S002.53.37.240:W042.11.11.231
+COORD:S002.44.22.429:W042.09.33.623
+COORD:S002.36.14.644:W042.04.47.705
+COORD:S002.30.12.117:W041.57.29.496
+SECTOR:SBPB_R_TWR:0:14500
+OWNER:TPB
+BORDER:SBPB_R_TWR
+
+;SBUF R-TWR 2018 (PAULO AFONSO)
+SECTORLINE:SBUF_R_TWR
+DISPLAY:SBUF_R_TWR:SBUF_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBUF_R_TWR
+COORD:S009.00.44.423:W038.01.28.816
+COORD:S009.06.47.211:W037.54.16.816
+COORD:S009.14.57.496:W037.49.29.913
+COORD:S009.24.09.555:W037.47.50.079
+COORD:S009.33.23.740:W037.49.26.760
+COORD:S009.41.25.796:W037.54.13.936
+COORD:S009.47.29.730:W038.01.30.397
+COORD:S009.50.44.728:W038.10.29.185
+COORD:S009.50.44.339:W038.19.57.474
+COORD:S009.47.31.421:W038.28.56.593
+COORD:S009.41.29.025:W038.36.17.013
+COORD:S009.33.24.694:W038.40.59.758
+COORD:S009.24.10.169:W038.42.41.891
+COORD:S009.14.53.208:W038.41.02.487
+COORD:S009.06.49.853:W038.36.18.418
+COORD:S009.00.45.618:W038.28.59.077
+COORD:S008.57.33.469:W038.20.03.181
+COORD:S008.57.31.700:W038.10.30.490
+COORD:S009.00.44.423:W038.01.28.816
+SECTOR:SBUF_R_TWR:0:14500
+OWNER:TUF
+BORDER:SBUF_R_TWR
+
+;SBPL R-TWR 2018 (PETROLINA)
+SECTORLINE:SBPL_R_TWR
+DISPLAY:SBPL_R_TWR:SBPL_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBPL_R_TWR
+COORD:S008.58.45.874:W040.47.38.561
+COORD:S008.55.24.622:W040.38.41.050
+COORD:S008.55.28.832:W040.29.02.183
+COORD:S008.58.36.956:W040.20.05.888
+COORD:S009.04.43.728:W040.12.47.965
+COORD:S009.12.51.113:W040.08.04.396
+COORD:S009.22.06.805:W040.06.23.072
+COORD:S009.31.02.718:W040.07.58.554
+COORD:S009.39.21.964:W040.12.49.518
+COORD:S009.45.10.328:W040.19.59.378
+COORD:S009.48.37.680:W040.29.00.937
+COORD:S009.48.42.555:W040.38.36.078
+COORD:S009.45.11.317:W040.47.23.499
+COORD:S009.39.24.026:W040.54.51.787
+COORD:S009.31.18.458:W040.59.34.610
+COORD:S009.21.58.746:W041.01.11.146
+COORD:S009.12.44.560:W040.59.34.466
+COORD:S009.04.47.258:W040.54.53.922
+COORD:S008.58.45.874:W040.47.38.561
+SECTOR:SBPL_R_TWR:0:14500
+OWNER:TPL
+BORDER:SBPL_R_TWR
+
+;SBQV R-TWR 2018 (VITORIA DA CONQUISTA)
+SECTORLINE:SBQV_R_TWR
+DISPLAY:SBQV_R_TWR:SBQV_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBQV_R_TWR
+COORD:S014.25.13.691:W040.56.33.423
+COORD:S014.25.13.263:W040.47.01.585
+COORD:S014.28.26.013:W040.38.04.091
+COORD:S014.34.27.944:W040.30.47.225
+COORD:S014.42.34.688:W040.26.01.791
+COORD:S014.51.49.924:W040.24.22.304
+COORD:S015.01.02.405:W040.26.01.922
+COORD:S015.09.09.584:W040.30.47.154
+COORD:S015.15.12.587:W040.38.05.902
+COORD:S015.18.24.595:W040.47.01.778
+COORD:S015.18.24.865:W040.56.32.647
+COORD:S015.15.12.325:W041.05.30.109
+COORD:S015.09.09.946:W041.12.47.148
+COORD:S015.01.03.419:W041.17.32.629
+COORD:S014.51.50.396:W041.19.12.109
+COORD:S014.42.35.856:W041.17.32.885
+COORD:S014.34.27.153:W041.12.48.279
+COORD:S014.28.26.443:W041.05.30.840
+COORD:S014.25.13.691:W040.56.33.423
+SECTOR:SBQV_R_TWR:0:14500
+OWNER:TQV
+BORDER:SBQV_R_TWR
+;========================================AIRSPACE LOW REMOTAS FIR RECIFE SBRE 2020=======================================;
+;========================================FREETEXT FIR RECIFE SBRE 2018===================================================;
+[FREETEXT]
+;ALTITUDE MINIMA DE AREA - AMA
+;AMA SBRE 2018 
+;RE-04S
+S001.48.34.000:W040.38.02.000:AMA-SBRE:37
+S001.55.27.000:W038.39.44.000:AMA-SBRE:39
+;RE-08S
+S007.01.03.000:W044.43.39.000:AMA-SBRE:26
+S006.03.25.000:W042.02.30.000:AMA-SBRE:40
+S006.46.39.000:W039.26.20.000:AMA-SBRE:43
+S004.59.07.000:W038.03.56.000:AMA-SBRE:10
+S007.25.15.000:W033.35.25.000:AMA-SBRE:28
+;RE-12S
+S010.14.29.000:W045.45.41.000:AMA-SBRE:34
+S010.26.48.000:W042.38.09.000:AMA-SBRE:59
+S008.41.51.000:W037.25.08.000:AMA-SBRE:43
+;RE-16S
+S012.44.17.000:W044.42.02.000:AMA-SBRE:59
+S013.10.23.000:W042.05.12.000:AMA-SBRE:70
+;RE-20S
+S016.45.02.000:W040.31.31.000:AMA-SBRE:71
+;
+;SETORES ESPAÇO BRASILEIRO
+;RECIFE SBRE 2018
+S002.01.53.000:W038.21.21.000:SETORES-SBRE:S-01
+S004.47.07.000:W033.39.24.000:SETORES-SBRE:S-02
+S005.01.31.000:W040.39.27.000:SETORES-SBRE:S-03
+S006.10.47.000:W036.51.50.000:SETORES-SBRE:S-04
+S007.30.02.000:W043.13.44.000:SETORES-SBRE:S-05
+S009.40.04.000:W039.05.31.000:SETORES-SBRE:S-06
+S008.23.53.000:W036.52.36.000:SETORES-SBRE:S-07
+S012.23.11.000:W036.30.02.000:SETORES-SBRE:S-08
+S010.59.31.000:W045.14.07.000:SETORES-SBRE:S-10
+S013.50.14.000:W042.43.02.000:SETORES-SBRE:S-10
+S013.04.00.000:W040.12.01.000:SETORES-SBRE:S-11
+S016.09.45.000:W040.23.59.000:SETORES-SBRE:S-12
+S017.22.14.000:W038.46.06.000:SETORES-SBRE:S-13
+S018.32.11.000:W041.02.48.000:SETORES-SBRE:S-14
+S018.38.52.000:W039.28.13.000:SETORES-SBRE:S-15
+;BRASIL ESTADOS 
+ESTADOS SBRE 2018
+S013.59.39.009:W041.49.02.462:ESTADOS-SBRE:BAHIA
+S011.11.01.474:W037.44.48.885:ESTADOS-SBRE:SERGIPE
+S009.44.42.365:W036.44.41.630:ESTADOS-SBRE:ALAGOAS
+S008.21.51.676:W036.22.38.672:ESTADOS-SBRE:PERNAMBUCO
+S007.11.50.844:W036.36.44.980:ESTADOS-SBRE:PARAIBA
+S005.31.57.137:W037.38.20.104:ESTADOS-SBRE:RIO GRANDE DO NORTE
+S003.33.33.204:W040.31.51.512:ESTADOS-SBRE:CEARA
+S007.47.37.930:W042.50.24.953:ESTADOS-SBRE:PIAUI
+S004.17.37.474:W045.58.37.301:ESTADOS-SBRE:MARANHAO
+S019.06.00.155:W040.22.42.203:ESTADOS-SBRE:ESPIRITO SANTO
+S018.09.48.589:W045.27.30.704:ESTADOS-SBRE:MINAS GERAIS
+S011.34.36.623:W049.33.24.515:ESTADOS-SBRE:TOCANTINS
+;FIR-FSS
+S006.54.06.815:W040.56.58.104:FIR-FSS:RECIFE-NORTH
+S014.30.37.410:W041.44.02.565:FIR-FSS:RECIFE-SOUTH
+;MILITARY FIR
+S012.09.38.755:W040.43.05.851:MILITARY-FIR:SANSAO SAN
+;========================================FREETEXT FIR RECIFE SBRE 2018===================================================;
+;========================================FREETEXT SBXR 2018==============================================================;
+[FREETEXT]
+
+;SBXR SBVT VITORIA
+S020.15.26.003:W040.17.19.000:SBVT-PATIO:PATIO 2
+S020.15.34.005:W040.17.24.004:SBVT-PATIO:PATIO 3
+S020.15.32.005:W040.17.27.004:SBVT-PATIO:TM CARGAS
+S020.15.23.007:W040.17.21.000:SBVT-PATIO:TERMINAL 2
+S020.15.55.005:W040.16.57.004:SBVT-PATIO:TERMINAL 1
+S020.16.04.002:W040.16.52.007:SBVT-PATIO:PATIO 1
+S020.15.29.002:W040.17.24.006:SBVT-PATIO:HANGARES
+;GATES
+;TERMINAL 2
+S020.15.22.8345:W040.17.17.7240:SBVT-GATES:1
+S020.15.24.0409:W040.17.18.5172:SBVT-GATES:2
+S020.15.25.1546:W040.17.19.2495:SBVT-GATES:3
+S020.15.26.2682:W040.17.19.9819:SBVT-GATES:4
+S020.15.27.3822:W040.17.20.7145:SBVT-GATES:5
+S20.15.28.4956:W40.17.21.4466:SBVT-GATES:6
+;PATIO 3
+S020.15.29.6863:W040.17.22.2427:SBVT-GATES:7
+S020.15.30.6068:W040.17.22.8480:SBVT-GATES:8
+S020.15.31.5271:W040.17.23.4533:SBVT-GATES:9
+S020.15.32.5170:W040.17.24.1043:SBVT-GATES:10
+S020.15.33.4457:W040.17.24.7151:SBVT-GATES:11
+S020.15.31.9654:W040.17.23.9061:SBVT-GATES:11A
+S020.15.34.5706:W040.17.25.3251:SBVT-GATES:12
+S020.15.34.7076:W040.17.25.4416:SBVT-GATES:12A
+S020.15.35.4934:W040.17.25.9255:SBVT-GATES:13
+;TERMINAL 1
+S020.15.48.6132:W040.16.55.3525:SBVT-GATES:01
+S020.15.49.3495:W040.16.55.3391:SBVT-GATES:01A
+S020.15.49.9662:W040.16.55.1534:SBVT-GATES:02
+S020.15.51.3107:W040.16.54.9548:SBVT-GATES:03
+S020.15.52.6637:W040.16.54.7555:SBVT-GATES:04
+S020.15.54.0167:W040.16.54.5562:SBVT-GATES:05
+S020.15.55.3697:W040.16.54.3569:SBVT-GATES:06
+S020.15.56.7227:W040.16.54.1576:SBVT-GATES:07
+S020.15.58.0757:W040.16.53.9583:SBVT-GATES:08
+S020.15.59.4287:W040.16.53.7590:SBVT-GATES:09
+S020.16.00.7818:W040.16.53.5600:SBVT-GATES:10
+S020.16.01.6072:W040.16.53.5341:SBVT-GATES:10A
+S020.16.02.1245:W040.16.53.3623:SBVT-GATES:11
+;TAXY
+S020.15.42.269:W040.17.29.313:SBVT-TAXI:A
+S020.15.34.616:W040.17.20.344:SBVT-TAXI:B
+S020.15.25.081:W040.17.14.314:SBVT-TAXI:C
+S020.15.29.450:W040.17.08.815:SBVT-TAXI:D
+S020.15.32.000:W040.16.59.000:SBVT-TAXI:D
+S020.15.24.000:W040.17.02.000:SBVT-TAXI:E
+S020.15.40.000:W040.16.51.000:SBVT-TAXI:F
+S020.15.10.000:W040.16.55.000:SBVT-TAXI:F
+S020.15.25.000:W040.16.53.000:SBVT-TAXI:F
+S020.16.01.000:W040.16.45.000:SBVT-TAXI:G
+S020.15.58.000:W040.16.46.000:SBVT-TAXI:H
+S020.15.33.000:W040.16.49.000:SBVT-TAXI:J
+S020.15.10.000:W040.16.53.000:SBVT-TAXI:K
+S020.15.01.000:W040.16.52.000:SBVT-TAXI:L
+S020.15.01.000:W040.16.54.000:SBVT-TAXI:M
+;=========================================FREETEXT SBXR 2020=================================================================;
+[FREETEXT]
+;SBXR REA
+;PORTOES SBXR 2020
+S020.31.00.000:W040.22.00.000:SBXR-PORTÃO:PTA DA FRUTA
+S020.22.56.000:W040.25.39.000:SBXR-PORTÃO:VIANA
+S019.50.40.000:W040.16.30.000:SBXR-PORTÃO:CIDADE ARACRUZ
+S020.12.00.000:W040.31.04.000:SBXR-PORTÃO:HOLANDA
+S019.52.30.000:W040.05.00.000:SBXR-PORTÃO:BARRA DO SAÍ
+S020.11.48.000:W040.11.37.000:SBXR-PORTÃO:MANGUINHOS
+S020.16.00.000:W040.23.59.000:SBXR-PORTÃO:CARIACICA
+;POSIÇÕES SBXR 2020
+S020.25.22.000:W040.20.00.000:SBXR-POSIÇÃO:SIVU
+S020.09.00.000:W040.11.00.000:SBXR-POSIÇÃO:JACARAIPE
+S020.03.00.000:W040.11.30.000:SBXR-POSIÇÃO:NOVA ALMEIDA
+S020.03.06.000:W040.20.40.000:SBXR-POSIÇÃO:POTIRI
+;CORREDORES SBXR 2020
+S020.29.00.000:W040.17.00.000:SBXR-CORREDORES:PONTA DA FRUTA
+S020.28.56.000:W040.25.39.000:SBXR-CORREDORES:VIANA
+S020.19.06.000:W040.27.50.000:SBXR-CORREDORES:CARIACICA
+S020.03.06.000:W040.23.59.000:SBXR-CORREDORES:CARIACICA
+S020.16.06.000:W040.29.50.000:SBXR-CORREDORES:GOIABEIRAS
+S019.53.06.000:W040.11.59.000:SBXR-CORREDORES:MANGUINHOS
+S020.07.06.000:W040.07.09.000:SBXR-CORREDORES:MANGUINHOS
+S019.56.56.000:W040.03.59.000:SBXR-CORREDORES:COQUEIRAL
+S020.05.06.000:W040.16.49.000:SBXR-CORREDORES:POTIRI
+;ATCMAC
+S020.09.37.317:W040.20.28.259:ATCMAC-XR:4000'
+S019.45.37.317:W040.25.28.259:ATCMAC-XR:4900'
+S020.10.37.317:W040.31.58.259:ATCMAC-XR:5100'
+S019.55.37.317:W040.35.28.259:ATCMAC-XR:5400'
+S020.10.37.317:W040.48.28.259:ATCMAC-XR:6400'
+S020.20.37.317:W040.49.58.259:ATCMAC-XR:7800'
+S020.34.37.317:W040.42.58.259:ATCMAC-XR:5700'
+S020.38.37.317:W040.25.58.259:ATCMAC-XR:4000'
+S020.39.37.317:W040.07.58.259:ATCMAC-XR:1900'
+S020.09.37.317:W039.57.08.259:ATCMAC-XR:1900'
+S020.05.37.317:W040.11.08.259:ATCMAC-XR:2200'
+S020.22.37.317:W040.21.08.259:ATCMAC-XR:2500'
+;========================================FREETEXT SBXR 2020==============================================================;
+;========================================RADAR FIR RECIFE SBRE===========================================================;
+[RADAR]
+;========================================RADAR FIR RECIFE SBRE===========================================================;
+
+[SIDSSTARS]
+SID:SBVT:02:BUVI1C:SBVT BUVIM
+SID:SBVT:02:BUVI1CxGIDOD:SBVT BUVIM ANGUG GIDOD
+SID:SBVT:02:BUVI1CxMABSI:SBVT BUVIM D058F D086F D114F D142F D170F D198F VRI11 MABSI
+SID:SBVT:02:BUVI1CxNIKSU:SBVT BUVIM ANGUG D008J D346J D324J D302J VRI10 NIKSU
+SID:SBVT:02:BUVI1CxSEKMI:SBVT BUVIM D058F D086F D114F D142F D170F D198F VRI11 D211F D220F VRI12 SEKMI
+SID:SBVT:02:BUVI2A:SBVT BUVIM
+SID:SBVT:02:BUVI2AxISILA:SBVT BUVIM EKATU DIBAP ISILA
+SID:SBVT:02:BUVI2AxMABSI:SBVT BUVIM EGDID DADRO MABSI
+SID:SBVT:02:BUVI2AxOPLOX:SBVT BUVIM VT038 OPLOX
+SID:SBVT:02:BUVI2AxSEKMI:SBVT BUVIM VT038 VT042 SEKMI
+SID:SBVT:06:BUVI1B:SBVT BUVIM
+SID:SBVT:06:BUVI1BxISILA:SBVT BUVIM EKATU DIBAP ISILA
+SID:SBVT:06:BUVI1BxMABSI:SBVT BUVIM EGDID DADRO MABSI
+SID:SBVT:06:BUVI1BxOPLOX:SBVT BUVIM VT038 OPLOX
+SID:SBVT:06:BUVI1BxSEKMI:SBVT BUVIM VT038 VT042 SEKMI
+SID:SBVT:06:BUVI1D:SBVT BUVIM
+SID:SBVT:06:BUVI1DxGIDOD:SBVT BUVIM ANGUG GIDOD
+SID:SBVT:06:BUVI1DxMABSI:SBVT BUVIM D058F D086F D114F D142F D170F D198F VRI11 MABSI
+SID:SBVT:06:BUVI1DxNIKSU:SBVT BUVIM ANGUG D008J D346J D324J D302J VRI10 NIKSU
+SID:SBVT:06:BUVI1DxSEKMI:SBVT BUVIM D058F D086F D114F D142F D170F D198F VRI11 D211F D220F VRI12 SEKMI
+SID:SBVT:20:EDSO1A:SBVT EDSOM
+SID:SBVT:20:EDSO1AxGIDOD:SBVT EDSOM D145G D121G D097G D073G D049G D025G VRI09 GIDOD
+SID:SBVT:20:EDSO1AxMABSI:SBVT EDSOM D180G D191G D202G EGLEP MABSI
+SID:SBVT:20:EDSO1AxNIKSU:SBVT EDSOM D180G D191G D202G EGLEP D211G D220G VRI07 D246G D263G D280G D297G VRI08 NIKSU
+SID:SBVT:20:EDSO1AxSEKMI:SBVT EDSOM D180G D191G D202G EGLEP D211G D220G VRI07 SEKMI
+SID:SBVT:20:VAPO2A:SBVT VAPOK
+SID:SBVT:20:VAPO2AxISILA:SBVT VAPOK VT053 EKATU DIBAP ISILA
+SID:SBVT:20:VAPO2AxMABSI:SBVT VAPOK MABSI
+SID:SBVT:20:VAPO2AxOPLOX:SBVT VAPOK VT042 OPLOX
+SID:SBVT:20:VAPO2AxSEKMI:SBVT VAPOK VT049 SEKMI
+SID:SBVT:24:ARVI1D:SBVT ARVIR
+SID:SBVT:24:ARVI1DxISILA:SBVT ARVIR VT053 EKATU DIBAP ISILA
+SID:SBVT:24:ARVI1DxMABSI:SBVT ARVIR MABSI
+SID:SBVT:24:ARVI1DxOPLOX:SBVT ARVIR UMLUR VT042 OPLOX
+SID:SBVT:24:ARVI1DxSEKMI:SBVT ARVIR UMLUR VT049 SEKMI
+SID:SBVT:24:EGLE1A:SBVT EGLEP
+SID:SBVT:24:EGLE1AxGIDOD:SBVT EGLEP D173G D144G D115G D086G D057G D028G VRI09 GIDOD
+SID:SBVT:24:EGLE1AxMABSI:SBVT EGLEP MABSI
+SID:SBVT:24:EGLE1AxNIKSU:SBVT EGLEP D211G D220G VRI07 D246G D263G D280G D297G VRI08 NIKSU
+SID:SBVT:24:EGLE1AxSEKMI:SBVT EGLEP D211G D220G VRI07 SEKMI
+STAR:SBVT:02:ISIL1A:ISILA VT054 COMPU BIXOG VT041 VT032 NEVPO
+STAR:SBVT:02:KIGO1A:KIGOK VT057 VT043 VT032 NEVPO
+STAR:SBVT:02:MIKE1A:MIKEM VT058 MIMIR VT007
+STAR:SBVT:02:MIKE1AxATOGI:ATOGI MIKEM VT058 MIMIR VT007
+STAR:SBVT:02:MIKE1AxTODET:TODET MIKEM VT058 MIMIR VT007
+STAR:SBVT:02:SARL1A:SARLA VT056 COMPU BIXOG VT041 VT032 NEVPO
+STAR:SBVT:05:MIKE1C:MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:05:MIKE1CxATOGI:ATOGI MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:05:MIKE1CxTODET:TODET MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:06:ISIL1B:ISILA VT054 COMPU BIXOG VT041 VT032
+STAR:SBVT:06:KIGO1B:KIGOK VT057 VT043 VT078 VT032
+STAR:SBVT:06:MIKE1B:MIKEM VT058 MIMIR VT014
+STAR:SBVT:06:MIKE1BxATOGI:ATOGI MIKEM VT058 MIMIR VT014
+STAR:SBVT:06:MIKE1BxTODET:TODET MIKEM VT058 MIMIR VT014
+STAR:SBVT:06:SARL1B:SARLA VT056 COMPU BIXOG VT041 VT032
+STAR:SBVT:20:ISIL1C:ISILA VT054 COMPU ESKUK
+STAR:SBVT:20:KIGO1C:KIGOK VT057 VT032 VT048 VT059 BIXOG
+STAR:SBVT:20:SARL1C:SARLA VT056 COMPU ESKUK
+STAR:SBVT:23:MIKE1C:MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:23:MIKE1CxATOGI:ATOGI MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:23:MIKE1CxTODET:TODET MIKEM VT058 MIMIR VT032 VT048 VT059 BIXOG
+STAR:SBVT:24:ISIL1C:ISILA VT054 COMPU ESKUK
+STAR:SBVT:24:KIGO1C:KIGOK VT057 VT032 VT048 VT059 BIXOG
+STAR:SBVT:24:SARL1C:SARLA VT056 COMPU ESKUK

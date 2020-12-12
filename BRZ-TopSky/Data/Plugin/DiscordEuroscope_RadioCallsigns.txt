@@ -1,0 +1,4 @@
+SBCW_CTR Curitiba Center
+SBXP_APP São Paulo Approach
+GOOO_FSS Dakar Flight Service Station
+SAM_E_FSS South America Control

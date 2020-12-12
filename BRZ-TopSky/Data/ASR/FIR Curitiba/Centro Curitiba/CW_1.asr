@@ -1,0 +1,2076 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBCW\SBCW - FIR Curitiba\SBCW.sct
+SECTORTITLE:SBCW.sct
+Airports:SARI:name
+Airports:SARL:name
+Airports:SBAE:name
+Airports:SBAF:name
+Airports:SBAQ:name
+Airports:SBAU:name
+Airports:SBAV:name
+Airports:SBBG:name
+Airports:SBBI:name
+Airports:SBBP:name
+Airports:SBBQ:name
+Airports:SBBU:name
+Airports:SBCA:name
+Airports:SBCB:name
+Airports:SBCD:name
+Airports:SBCG:name
+Airports:SBCH:name
+Airports:SBCM:name
+Airports:SBCO:name
+Airports:SBCP:name
+Airports:SBCR:name
+Airports:SBCT:name
+Airports:SBCX:name
+Airports:SBDB:name
+Airports:SBDN:name
+Airports:SBDO:name
+Airports:SBES:name
+Airports:SBFI:name
+Airports:SBFL:name
+Airports:SBFS:name
+Airports:SBGL:name
+Airports:SBGP:name
+Airports:SBGR:name
+Airports:SBGU:name
+Airports:SBGW:name
+Airports:SBJD:name
+Airports:SBJF:name
+Airports:SBJH:name
+Airports:SBJR:name
+Airports:SBJV:name
+Airports:SBKP:name
+Airports:SBLJ:name
+Airports:SBLO:name
+Airports:SBMG:name
+Airports:SBML:name
+Airports:SBMT:name
+Airports:SBNF:name
+Airports:SBNM:name
+Airports:SBPA:name
+Airports:SBPF:name
+Airports:SBPK:name
+Airports:SBPP:name
+Airports:SBRJ:name
+Airports:SBSC:name
+Airports:SBSJ:name
+Airports:SBSM:name
+Airports:SBSP:name
+Airports:SBST:name
+Airports:SBTA:name
+Airports:SBTD:name
+Airports:SBTL:name
+Airports:SBTR:name
+Airports:SBUG:name
+Airports:SBYS:name
+Airports:SBZM:name
+Airports:SDBY:name
+Airports:SDCO:name
+Airports:SDDN:name
+Airports:SDDR:name
+Airports:SDOU:name
+Airports:SDPN:name
+Airports:SDRR:name
+Airports:SDTP:name
+Airports:SGES:name
+Airports:SGIB:name
+Airports:SGPJ:name
+Airports:SIXE:name
+Airports:SJRG:name
+Airports:SLPS:name
+Airports:SNAX:name
+Airports:SNJR:name
+Airports:SNXB:name
+Airports:SSAP:name
+Airports:SSCK:name
+Airports:SSCP:name
+Airports:SSCR:name
+Airports:SSDC:name
+Airports:SSIE:name
+Airports:SSKM:name
+Airports:SSKZ:name
+Airports:SSLA:name
+Airports:SSPB:name
+Airports:SSPG:name
+Airports:SSPI:name
+Airports:SSQT:name
+Airports:SSSB:name
+Airports:SSUM:name
+Airports:SSVI:name
+Airports:SSYA:name
+Airports:SSZQ:name
+Airports:SSZW:name
+Airports:SURV:name
+ARTCC boundary:SBES_APP:
+ARTCC boundary:SBGW_M_APP:
+ARTCC boundary:SBSC_M_APP:
+ARTCC boundary:SBWC_APP:
+ARTCC boundary:SBWE_APP:
+ARTCC boundary:SBWG_APP:
+ARTCC boundary:SBWH_APP:
+ARTCC boundary:SBWI_APP:
+ARTCC boundary:SBWJ_APP:
+ARTCC boundary:SBWJ_F_APP:
+ARTCC boundary:SBWM_APP:
+ARTCC boundary:SBWP_APP:
+ARTCC boundary:SBWT_APP:
+ARTCC boundary:SBWU_APP:
+ARTCC boundary:SBXF_APP:
+ARTCC boundary:SBXG_APP:
+ARTCC boundary:SBXL_APP:
+ARTCC boundary:SBXO_APP:
+ARTCC boundary:SBXP_APP:
+ARTCC boundary:SBXP_F_APP:
+ARTCC boundary:SBXQ_APP:
+ARTCC boundary:SBXR_APP:
+ARTCC high boundary:SBCW-ZIDA:
+ARTCC high boundary:SBCW01:
+ARTCC high boundary:SBCW02:
+ARTCC high boundary:SBCW03:
+ARTCC high boundary:SBCW04:
+ARTCC high boundary:SBCW05:
+ARTCC high boundary:SBCW06:
+ARTCC high boundary:SBCW07:
+ARTCC high boundary:SBCW08:
+ARTCC high boundary:SBCW09:
+ARTCC high boundary:SBCW10:
+ARTCC high boundary:SBCW11:
+ARTCC high boundary:SBCW12:
+ARTCC high boundary:SBCW13:
+ARTCC high boundary:SBCW14:
+ARTCC high boundary:SBCW15:
+ARTCC high boundary:SBCW16:
+ARTCC high boundary:SBCW17:
+ARTCC high boundary:SBCW_CTR:
+ARTCC low boundary:SARI_TWR:
+ARTCC low boundary:SARL_TWR:
+ARTCC low boundary:SBAE_R_TWR:
+ARTCC low boundary:SBAF_M_TWR:
+ARTCC low boundary:SBAQ_TWR:
+ARTCC low boundary:SBAU_R_TWR:
+ARTCC low boundary:SBBG_R_TWR:
+ARTCC low boundary:SBBQ_R_TWR:
+ARTCC low boundary:SBBU_TWR:
+ARTCC low boundary:SBCA_R_TWR:
+ARTCC low boundary:SBCB_TWR:
+ARTCC low boundary:SBCD_R_TWR:
+ARTCC low boundary:SBCG_TWR:
+ARTCC low boundary:SBCH_R_TWR:
+ARTCC low boundary:SBCM_R_TWR:
+ARTCC low boundary:SBCO_TWR:
+ARTCC low boundary:SBCP_TWR:
+ARTCC low boundary:SBCR_TWR:
+ARTCC low boundary:SBCT_TWR:
+ARTCC low boundary:SBCX_TWR:
+ARTCC low boundary:SBDB_R_TWR:
+ARTCC low boundary:SBDN_TWR:
+ARTCC low boundary:SBDO_R_TWR:
+ARTCC low boundary:SBEC_H_TWR:
+ARTCC low boundary:SBES_M_TWR:
+ARTCC low boundary:SBFI_TWR:
+ARTCC low boundary:SBFL_TWR:
+ARTCC low boundary:SBFS_H_TWR:
+ARTCC low boundary:SBGL_TWR:
+ARTCC low boundary:SBGP_TWR:
+ARTCC low boundary:SBGR_TWR:
+ARTCC low boundary:SBGU_R_TWR:
+ARTCC low boundary:SBGW_M_TWR:
+ARTCC low boundary:SBJF_R_TWR:
+ARTCC low boundary:SBJR_TWR:
+ARTCC low boundary:SBJV_TWR:
+ARTCC low boundary:SBKP_TWR:
+ARTCC low boundary:SBLB_H_TWR:
+ARTCC low boundary:SBLJ_R_TWR:
+ARTCC low boundary:SBLO_TWR:
+ARTCC low boundary:SBME_TWR:
+ARTCC low boundary:SBMG_TWR:
+ARTCC low boundary:SBML_TWR:
+ARTCC low boundary:SBMM_H_TWR:
+ARTCC low boundary:SBMT_TWR:
+ARTCC low boundary:SBNF_TWR:
+ARTCC low boundary:SBNM_R_TWR:
+ARTCC low boundary:SBPA_TWR:
+ARTCC low boundary:SBPF_R_TWR:
+ARTCC low boundary:SBPK_R_TWR:
+ARTCC low boundary:SBPP_R_TWR:
+ARTCC low boundary:SBRJ_TWR:
+ARTCC low boundary:SBSC_TWR:
+ARTCC low boundary:SBSJ_TWR:
+ARTCC low boundary:SBSM_TWR SBSM_TWR:
+ARTCC low boundary:SBSP_TWR:
+ARTCC low boundary:SBST_TWR:
+ARTCC low boundary:SBTA_M_TWR:
+ARTCC low boundary:SBTD_R_TWR:
+ARTCC low boundary:SBTR_R_TWR:
+ARTCC low boundary:SBUG_TWR:
+ARTCC low boundary:SBYS_TWR:
+ARTCC low boundary:SBZM_R_TWR:
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:centerline
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 left base
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 left ticks
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 left vectoring
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 right base
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 right ticks
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 1 right vectoring
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 left base
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 left ticks
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 left vectoring
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 right base
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 right ticks
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:extended centerline 2 right vectoring
+Runways:SARI MAYOR D CARLOS EDUARDO K 13-31:name
+Runways:SARL PASO DE LOS LIBRES 18-36:centerline
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 left base
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 left ticks
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 left vectoring
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 right base
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 right ticks
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 1 right vectoring
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 left base
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 left ticks
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 left vectoring
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 right base
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 right ticks
+Runways:SARL PASO DE LOS LIBRES 18-36:extended centerline 2 right vectoring
+Runways:SARL PASO DE LOS LIBRES 18-36:name
+Runways:SBAE BAURU-AREALVA 17-35:centerline
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 left base
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 left ticks
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 left vectoring
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 right base
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 right ticks
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 1 right vectoring
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 left base
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 left ticks
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 left vectoring
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 right base
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 right ticks
+Runways:SBAE BAURU-AREALVA 17-35:extended centerline 2 right vectoring
+Runways:SBAE BAURU-AREALVA 17-35:name
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:centerline
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 left base
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 left ticks
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 left vectoring
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 right base
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 right ticks
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 1 right vectoring
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 left base
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 left ticks
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 left vectoring
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 right base
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 right ticks
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:extended centerline 2 right vectoring
+Runways:SBAF CAMPO DELIO JARDIM DE MA 08-26:name
+Runways:SBAQ ARARAQUARA 17-35:centerline
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 left base
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 left ticks
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 left vectoring
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 right base
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 right ticks
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 1 right vectoring
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 left base
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 left ticks
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 left vectoring
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 right base
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 right ticks
+Runways:SBAQ ARARAQUARA 17-35:extended centerline 2 right vectoring
+Runways:SBAQ ARARAQUARA 17-35:name
+Runways:SBAU ARACATUBA 05-23:centerline
+Runways:SBAU ARACATUBA 05-23:extended centerline 1
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 left base
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 left ticks
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 left vectoring
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 right base
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 right ticks
+Runways:SBAU ARACATUBA 05-23:extended centerline 1 right vectoring
+Runways:SBAU ARACATUBA 05-23:extended centerline 2
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 left base
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 left ticks
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 left vectoring
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 right base
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 right ticks
+Runways:SBAU ARACATUBA 05-23:extended centerline 2 right vectoring
+Runways:SBAU ARACATUBA 05-23:name
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:centerline
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 left base
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 left ticks
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 left vectoring
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 right base
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 right ticks
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 1 right vectoring
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 left base
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 left ticks
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 left vectoring
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 right base
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 right ticks
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:extended centerline 2 right vectoring
+Runways:SBAV USINA PORTO PRIMAVERA 08-26:name
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:centerline
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 left base
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 left ticks
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 left vectoring
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 right base
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 right ticks
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 1 right vectoring
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 left base
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 left ticks
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 left vectoring
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 right base
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 right ticks
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:extended centerline 2 right vectoring
+Runways:SBBG CMTE GUSTAVO KRAEMER 06-24:name
+Runways:SBBI BACACHERI 18-36:centerline
+Runways:SBBI BACACHERI 18-36:extended centerline 1
+Runways:SBBI BACACHERI 18-36:extended centerline 1 left base
+Runways:SBBI BACACHERI 18-36:extended centerline 1 left ticks
+Runways:SBBI BACACHERI 18-36:extended centerline 1 left vectoring
+Runways:SBBI BACACHERI 18-36:extended centerline 1 right base
+Runways:SBBI BACACHERI 18-36:extended centerline 1 right ticks
+Runways:SBBI BACACHERI 18-36:extended centerline 1 right vectoring
+Runways:SBBI BACACHERI 18-36:extended centerline 2
+Runways:SBBI BACACHERI 18-36:extended centerline 2 left base
+Runways:SBBI BACACHERI 18-36:extended centerline 2 left ticks
+Runways:SBBI BACACHERI 18-36:extended centerline 2 left vectoring
+Runways:SBBI BACACHERI 18-36:extended centerline 2 right base
+Runways:SBBI BACACHERI 18-36:extended centerline 2 right ticks
+Runways:SBBI BACACHERI 18-36:extended centerline 2 right vectoring
+Runways:SBBI BACACHERI 18-36:name
+Runways:SBBP BRAGANÇA PAULISTA 16-34:centerline
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:name
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:centerline
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 left base
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 left ticks
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 left vectoring
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 right base
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 right ticks
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 1 right vectoring
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 left base
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 left ticks
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 left vectoring
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 right base
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 right ticks
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:extended centerline 2 right vectoring
+Runways:SBBQ MAJ BRIG DOORGAL BORGES 18-36:name
+Runways:SBBU BAURU 14-32:centerline
+Runways:SBBU BAURU 14-32:extended centerline 1
+Runways:SBBU BAURU 14-32:extended centerline 1 left base
+Runways:SBBU BAURU 14-32:extended centerline 1 left ticks
+Runways:SBBU BAURU 14-32:extended centerline 1 left vectoring
+Runways:SBBU BAURU 14-32:extended centerline 1 right base
+Runways:SBBU BAURU 14-32:extended centerline 1 right ticks
+Runways:SBBU BAURU 14-32:extended centerline 1 right vectoring
+Runways:SBBU BAURU 14-32:extended centerline 2
+Runways:SBBU BAURU 14-32:extended centerline 2 left base
+Runways:SBBU BAURU 14-32:extended centerline 2 left ticks
+Runways:SBBU BAURU 14-32:extended centerline 2 left vectoring
+Runways:SBBU BAURU 14-32:extended centerline 2 right base
+Runways:SBBU BAURU 14-32:extended centerline 2 right ticks
+Runways:SBBU BAURU 14-32:extended centerline 2 right vectoring
+Runways:SBBU BAURU 14-32:name
+Runways:SBCA CASCAVEL 15-33:centerline
+Runways:SBCA CASCAVEL 15-33:extended centerline 1
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 left base
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 left ticks
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 left vectoring
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 right base
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 right ticks
+Runways:SBCA CASCAVEL 15-33:extended centerline 1 right vectoring
+Runways:SBCA CASCAVEL 15-33:extended centerline 2
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 left base
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 left ticks
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 left vectoring
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 right base
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 right ticks
+Runways:SBCA CASCAVEL 15-33:extended centerline 2 right vectoring
+Runways:SBCA CASCAVEL 15-33:name
+Runways:SBCB CABO FRIO 10-28:centerline
+Runways:SBCB CABO FRIO 10-28:extended centerline 1
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 left base
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 left ticks
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 left vectoring
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 right base
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 right ticks
+Runways:SBCB CABO FRIO 10-28:extended centerline 1 right vectoring
+Runways:SBCB CABO FRIO 10-28:extended centerline 2
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 left base
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 left ticks
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 left vectoring
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 right base
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 right ticks
+Runways:SBCB CABO FRIO 10-28:extended centerline 2 right vectoring
+Runways:SBCB CABO FRIO 10-28:name
+Runways:SBCD CACADOR 02-20:centerline
+Runways:SBCD CACADOR 02-20:extended centerline 1
+Runways:SBCD CACADOR 02-20:extended centerline 1 left base
+Runways:SBCD CACADOR 02-20:extended centerline 1 left ticks
+Runways:SBCD CACADOR 02-20:extended centerline 1 left vectoring
+Runways:SBCD CACADOR 02-20:extended centerline 1 right base
+Runways:SBCD CACADOR 02-20:extended centerline 1 right ticks
+Runways:SBCD CACADOR 02-20:extended centerline 1 right vectoring
+Runways:SBCD CACADOR 02-20:extended centerline 2
+Runways:SBCD CACADOR 02-20:extended centerline 2 left base
+Runways:SBCD CACADOR 02-20:extended centerline 2 left ticks
+Runways:SBCD CACADOR 02-20:extended centerline 2 left vectoring
+Runways:SBCD CACADOR 02-20:extended centerline 2 right base
+Runways:SBCD CACADOR 02-20:extended centerline 2 right ticks
+Runways:SBCD CACADOR 02-20:extended centerline 2 right vectoring
+Runways:SBCD CACADOR 02-20:name
+Runways:SBCG CAMPO GRANDE INTL 06-24:centerline
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 left base
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 left ticks
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 left vectoring
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 right base
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 right ticks
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 1 right vectoring
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 left base
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 left ticks
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 left vectoring
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 right base
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 right ticks
+Runways:SBCG CAMPO GRANDE INTL 06-24:extended centerline 2 right vectoring
+Runways:SBCG CAMPO GRANDE INTL 06-24:name
+Runways:SBCH CHAPECO 11-29:centerline
+Runways:SBCH CHAPECO 11-29:extended centerline 1
+Runways:SBCH CHAPECO 11-29:extended centerline 1 left base
+Runways:SBCH CHAPECO 11-29:extended centerline 1 left ticks
+Runways:SBCH CHAPECO 11-29:extended centerline 1 left vectoring
+Runways:SBCH CHAPECO 11-29:extended centerline 1 right base
+Runways:SBCH CHAPECO 11-29:extended centerline 1 right ticks
+Runways:SBCH CHAPECO 11-29:extended centerline 1 right vectoring
+Runways:SBCH CHAPECO 11-29:extended centerline 2
+Runways:SBCH CHAPECO 11-29:extended centerline 2 left base
+Runways:SBCH CHAPECO 11-29:extended centerline 2 left ticks
+Runways:SBCH CHAPECO 11-29:extended centerline 2 left vectoring
+Runways:SBCH CHAPECO 11-29:extended centerline 2 right base
+Runways:SBCH CHAPECO 11-29:extended centerline 2 right ticks
+Runways:SBCH CHAPECO 11-29:extended centerline 2 right vectoring
+Runways:SBCH CHAPECO 11-29:name
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:centerline
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 left base
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 left ticks
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 left vectoring
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 right base
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 right ticks
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 1 right vectoring
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 left base
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 left ticks
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 left vectoring
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 right base
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 right ticks
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:extended centerline 2 right vectoring
+Runways:SBCM FORQUILHINHA-CRICIUMA 09-27:name
+Runways:SBCO CANOAS 13-31:centerline
+Runways:SBCO CANOAS 13-31:extended centerline 1
+Runways:SBCO CANOAS 13-31:extended centerline 1 left base
+Runways:SBCO CANOAS 13-31:extended centerline 1 left ticks
+Runways:SBCO CANOAS 13-31:extended centerline 1 left vectoring
+Runways:SBCO CANOAS 13-31:extended centerline 1 right base
+Runways:SBCO CANOAS 13-31:extended centerline 1 right ticks
+Runways:SBCO CANOAS 13-31:extended centerline 1 right vectoring
+Runways:SBCO CANOAS 13-31:extended centerline 2
+Runways:SBCO CANOAS 13-31:extended centerline 2 left base
+Runways:SBCO CANOAS 13-31:extended centerline 2 left ticks
+Runways:SBCO CANOAS 13-31:extended centerline 2 left vectoring
+Runways:SBCO CANOAS 13-31:extended centerline 2 right base
+Runways:SBCO CANOAS 13-31:extended centerline 2 right ticks
+Runways:SBCO CANOAS 13-31:extended centerline 2 right vectoring
+Runways:SBCO CANOAS 13-31:name
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:centerline
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 left base
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 left ticks
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 left vectoring
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 right base
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 right ticks
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 1 right vectoring
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 left base
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 left ticks
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 left vectoring
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 right base
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 right ticks
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:extended centerline 2 right vectoring
+Runways:SBCP BARTOLOMEU LISANDRO 07-25:name
+Runways:SBCR CORUMBA INTL 09-27:centerline
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 left base
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 left ticks
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 left vectoring
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 right base
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 right ticks
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 1 right vectoring
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 left base
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 left ticks
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 left vectoring
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 right base
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 right ticks
+Runways:SBCR CORUMBA INTL 09-27:extended centerline 2 right vectoring
+Runways:SBCR CORUMBA INTL 09-27:name
+Runways:SBCT AFONSO PENA INTL 11-29:centerline
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 left base
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 left ticks
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 left vectoring
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 right base
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 right ticks
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 1 right vectoring
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 left base
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 left ticks
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 left vectoring
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 right base
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 right ticks
+Runways:SBCT AFONSO PENA INTL 11-29:extended centerline 2 right vectoring
+Runways:SBCT AFONSO PENA INTL 11-29:name
+Runways:SBCT AFONSO PENA INTL 15-33:centerline
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 left base
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 left ticks
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 left vectoring
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 right base
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 right ticks
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 1 right vectoring
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 left base
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 left ticks
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 left vectoring
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 right base
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 right ticks
+Runways:SBCT AFONSO PENA INTL 15-33:extended centerline 2 right vectoring
+Runways:SBCT AFONSO PENA INTL 15-33:name
+Runways:SBCX CAMPO DOS BUGRES 15-33:centerline
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 left base
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 left ticks
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 left vectoring
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 right base
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 right ticks
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 1 right vectoring
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 left base
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 left ticks
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 left vectoring
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 right base
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 right ticks
+Runways:SBCX CAMPO DOS BUGRES 15-33:extended centerline 2 right vectoring
+Runways:SBCX CAMPO DOS BUGRES 15-33:name
+Runways:SBDB BONITO 18-36:centerline
+Runways:SBDB BONITO 18-36:extended centerline 1
+Runways:SBDB BONITO 18-36:extended centerline 1 left base
+Runways:SBDB BONITO 18-36:extended centerline 1 left ticks
+Runways:SBDB BONITO 18-36:extended centerline 1 left vectoring
+Runways:SBDB BONITO 18-36:extended centerline 1 right base
+Runways:SBDB BONITO 18-36:extended centerline 1 right ticks
+Runways:SBDB BONITO 18-36:extended centerline 1 right vectoring
+Runways:SBDB BONITO 18-36:extended centerline 2
+Runways:SBDB BONITO 18-36:extended centerline 2 left base
+Runways:SBDB BONITO 18-36:extended centerline 2 left ticks
+Runways:SBDB BONITO 18-36:extended centerline 2 left vectoring
+Runways:SBDB BONITO 18-36:extended centerline 2 right base
+Runways:SBDB BONITO 18-36:extended centerline 2 right ticks
+Runways:SBDB BONITO 18-36:extended centerline 2 right vectoring
+Runways:SBDB BONITO 18-36:name
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:centerline
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 left base
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 left ticks
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 left vectoring
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 right base
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 right ticks
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 1 right vectoring
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 left base
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 left ticks
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 left vectoring
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 right base
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 right ticks
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:extended centerline 2 right vectoring
+Runways:SBDN PRESIDENTE PRUDENTE 12-30:name
+Runways:SBDO DOURADOS 05-23:centerline
+Runways:SBDO DOURADOS 05-23:extended centerline 1
+Runways:SBDO DOURADOS 05-23:extended centerline 1 left base
+Runways:SBDO DOURADOS 05-23:extended centerline 1 left ticks
+Runways:SBDO DOURADOS 05-23:extended centerline 1 left vectoring
+Runways:SBDO DOURADOS 05-23:extended centerline 1 right base
+Runways:SBDO DOURADOS 05-23:extended centerline 1 right ticks
+Runways:SBDO DOURADOS 05-23:extended centerline 1 right vectoring
+Runways:SBDO DOURADOS 05-23:extended centerline 2
+Runways:SBDO DOURADOS 05-23:extended centerline 2 left base
+Runways:SBDO DOURADOS 05-23:extended centerline 2 left ticks
+Runways:SBDO DOURADOS 05-23:extended centerline 2 left vectoring
+Runways:SBDO DOURADOS 05-23:extended centerline 2 right base
+Runways:SBDO DOURADOS 05-23:extended centerline 2 right ticks
+Runways:SBDO DOURADOS 05-23:extended centerline 2 right vectoring
+Runways:SBDO DOURADOS 05-23:name
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:centerline
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 left base
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 left ticks
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 left vectoring
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 right base
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 right ticks
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 1 right vectoring
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 left base
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 left ticks
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 left vectoring
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 right base
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 right ticks
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:extended centerline 2 right vectoring
+Runways:SBES SAO PEDRO DA ALDEIA 07-25:name
+Runways:SBFI CATARATAS INTL 14-32:centerline
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 left base
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 left ticks
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 left vectoring
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 right base
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 right ticks
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 1 right vectoring
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 left base
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 left ticks
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 left vectoring
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 right base
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 right ticks
+Runways:SBFI CATARATAS INTL 14-32:extended centerline 2 right vectoring
+Runways:SBFI CATARATAS INTL 14-32:name
+Runways:SBFL HERCILIO LUZ INTL 03-21:centerline
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 left base
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 left ticks
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 left vectoring
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 right base
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 right ticks
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 1 right vectoring
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 left base
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 left ticks
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 left vectoring
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 right base
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 right ticks
+Runways:SBFL HERCILIO LUZ INTL 03-21:extended centerline 2 right vectoring
+Runways:SBFL HERCILIO LUZ INTL 03-21:name
+Runways:SBFL HERCILIO LUZ INTL 14-32:centerline
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 left base
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 left ticks
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 left vectoring
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 right base
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 right ticks
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 1 right vectoring
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 left base
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 left ticks
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 left vectoring
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 right base
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 right ticks
+Runways:SBFL HERCILIO LUZ INTL 14-32:extended centerline 2 right vectoring
+Runways:SBFL HERCILIO LUZ INTL 14-32:name
+Runways:SBFS FAROL DE SAO TOME 13-31:centerline
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 left base
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 left ticks
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 left vectoring
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 right base
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 right ticks
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 1 right vectoring
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 left base
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 left ticks
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 left vectoring
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 right base
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 right ticks
+Runways:SBFS FAROL DE SAO TOME 13-31:extended centerline 2 right vectoring
+Runways:SBFS FAROL DE SAO TOME 13-31:name
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:centerline
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 left base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 left ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 left vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 right base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 right ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 1 right vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 left base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 left ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 left vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 right base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 right ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:extended centerline 2 right vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 10-28:name
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:centerline
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 left base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 left ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 left vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 right base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 right ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 1 right vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 left base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 left ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 left vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 right base
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 right ticks
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:extended centerline 2 right vectoring
+Runways:SBGL GALEAO-ANTONIO C JOBIM I 15-33:name
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:centerline
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 left base
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 left ticks
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 left vectoring
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 right base
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 right ticks
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 1 right vectoring
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 left base
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 left ticks
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 left vectoring
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 right base
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 right ticks
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:extended centerline 2 right vectoring
+Runways:SBGP UNIDADE GAVIAO PEIXOTO 02-20:name
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:centerline
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 left base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 left ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 left vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 right base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 right ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 1 right vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 left base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 left ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 left vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 right base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 right ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:extended centerline 2 right vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09L-27R:name
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:centerline
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 left base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 left ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 left vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 right base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 right ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 1 right vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 left base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 left ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 left vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 right base
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 right ticks
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:extended centerline 2 right vectoring
+Runways:SBGR GUARULHOS-GOV. ANDRE FRA 09R-27L:name
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:centerline
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 left base
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 left ticks
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 left vectoring
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 right base
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 right ticks
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 1 right vectoring
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 left base
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 left ticks
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 left vectoring
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 right base
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 right ticks
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:extended centerline 2 right vectoring
+Runways:SBGU TANCREDO THOMAS DE FARIA 08-26:name
+Runways:SBGW GUARATINGUETA 02-20:centerline
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right vectoring
+Runways:SBGW GUARATINGUETA 02-20:name
+Runways:SBJD JUNDIAI 18-36:centerline
+Runways:SBJD JUNDIAI 18-36:extended centerline 1
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 left base
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 left ticks
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 left vectoring
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 right base
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 right ticks
+Runways:SBJD JUNDIAI 18-36:extended centerline 1 right vectoring
+Runways:SBJD JUNDIAI 18-36:extended centerline 2
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 left base
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 left ticks
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 left vectoring
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 right base
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 right ticks
+Runways:SBJD JUNDIAI 18-36:extended centerline 2 right vectoring
+Runways:SBJD JUNDIAI 18-36:name
+Runways:SBJF FRANCISCO DE ASSIS 03-21:centerline
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 left base
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 left ticks
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 left vectoring
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 right base
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 right ticks
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 1 right vectoring
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 left base
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 left ticks
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 left vectoring
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 right base
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 right ticks
+Runways:SBJF FRANCISCO DE ASSIS 03-21:extended centerline 2 right vectoring
+Runways:SBJF FRANCISCO DE ASSIS 03-21:name
+Runways:SBJH SAO PAULO CATARINA 12-30:centerline
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:name
+Runways:SBJR JACARAPAGUA 02-20:centerline
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 left base
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 left ticks
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 left vectoring
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 right base
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 right ticks
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 1 right vectoring
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 left base
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 left ticks
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 left vectoring
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 right base
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 right ticks
+Runways:SBJR JACARAPAGUA 02-20:extended centerline 2 right vectoring
+Runways:SBJR JACARAPAGUA 02-20:name
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:centerline
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 left base
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 left ticks
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 left vectoring
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 right base
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 right ticks
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 1 right vectoring
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 left base
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 left ticks
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 left vectoring
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 right base
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 right ticks
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:extended centerline 2 right vectoring
+Runways:SBJV LAURO CARNEIRO DE LOYOLA 15-33:name
+Runways:SBKP VIRACOPOS INTL 15-33:centerline
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 left base
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 left ticks
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 left vectoring
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 right base
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 right ticks
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 1 right vectoring
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 left base
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 left ticks
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 left vectoring
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 right base
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 right ticks
+Runways:SBKP VIRACOPOS INTL 15-33:extended centerline 2 right vectoring
+Runways:SBKP VIRACOPOS INTL 15-33:name
+Runways:SBLJ LAGES 16-34:centerline
+Runways:SBLJ LAGES 16-34:extended centerline 1
+Runways:SBLJ LAGES 16-34:extended centerline 1 left base
+Runways:SBLJ LAGES 16-34:extended centerline 1 left ticks
+Runways:SBLJ LAGES 16-34:extended centerline 1 left vectoring
+Runways:SBLJ LAGES 16-34:extended centerline 1 right base
+Runways:SBLJ LAGES 16-34:extended centerline 1 right ticks
+Runways:SBLJ LAGES 16-34:extended centerline 1 right vectoring
+Runways:SBLJ LAGES 16-34:extended centerline 2
+Runways:SBLJ LAGES 16-34:extended centerline 2 left base
+Runways:SBLJ LAGES 16-34:extended centerline 2 left ticks
+Runways:SBLJ LAGES 16-34:extended centerline 2 left vectoring
+Runways:SBLJ LAGES 16-34:extended centerline 2 right base
+Runways:SBLJ LAGES 16-34:extended centerline 2 right ticks
+Runways:SBLJ LAGES 16-34:extended centerline 2 right vectoring
+Runways:SBLJ LAGES 16-34:name
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:centerline
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 left base
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 left ticks
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 left vectoring
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 right base
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 right ticks
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 1 right vectoring
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 left base
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 left ticks
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 left vectoring
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 right base
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 right ticks
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:extended centerline 2 right vectoring
+Runways:SBLO GOVERNADOR JOSE RICHA 13-31:name
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:centerline
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 left base
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 left ticks
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 left vectoring
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 right base
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 right ticks
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 1 right vectoring
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 left base
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 left ticks
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 left vectoring
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 right base
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 right ticks
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:extended centerline 2 right vectoring
+Runways:SBMG REGL DE MARINGA - SILVIO 10-28:name
+Runways:SBML MARILIA 03-21:centerline
+Runways:SBML MARILIA 03-21:extended centerline 1
+Runways:SBML MARILIA 03-21:extended centerline 1 left base
+Runways:SBML MARILIA 03-21:extended centerline 1 left ticks
+Runways:SBML MARILIA 03-21:extended centerline 1 left vectoring
+Runways:SBML MARILIA 03-21:extended centerline 1 right base
+Runways:SBML MARILIA 03-21:extended centerline 1 right ticks
+Runways:SBML MARILIA 03-21:extended centerline 1 right vectoring
+Runways:SBML MARILIA 03-21:extended centerline 2
+Runways:SBML MARILIA 03-21:extended centerline 2 left base
+Runways:SBML MARILIA 03-21:extended centerline 2 left ticks
+Runways:SBML MARILIA 03-21:extended centerline 2 left vectoring
+Runways:SBML MARILIA 03-21:extended centerline 2 right base
+Runways:SBML MARILIA 03-21:extended centerline 2 right ticks
+Runways:SBML MARILIA 03-21:extended centerline 2 right vectoring
+Runways:SBML MARILIA 03-21:name
+Runways:SBMT CAMPO DE MARTE 12-30:centerline
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 left base
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 left ticks
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 left vectoring
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 right base
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 right ticks
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 1 right vectoring
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 left base
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 left ticks
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 left vectoring
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 right base
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 right ticks
+Runways:SBMT CAMPO DE MARTE 12-30:extended centerline 2 right vectoring
+Runways:SBMT CAMPO DE MARTE 12-30:name
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:centerline
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 left base
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 left ticks
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 left vectoring
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 right base
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 right ticks
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 1 right vectoring
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 left base
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 left ticks
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 left vectoring
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 right base
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 right ticks
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:extended centerline 2 right vectoring
+Runways:SBNF MINISTRO VICTOR KONDER I 07-25:name
+Runways:SBNM SANTO ANGELO 11-29:centerline
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 left base
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 left ticks
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 left vectoring
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 right base
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 right ticks
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 1 right vectoring
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 left base
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 left ticks
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 left vectoring
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 right base
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 right ticks
+Runways:SBNM SANTO ANGELO 11-29:extended centerline 2 right vectoring
+Runways:SBNM SANTO ANGELO 11-29:name
+Runways:SBPA SALGADO FILHO INTL 11-29:centerline
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 left base
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 left ticks
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 left vectoring
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 right base
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 right ticks
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 1 right vectoring
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 left base
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 left ticks
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 left vectoring
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 right base
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 right ticks
+Runways:SBPA SALGADO FILHO INTL 11-29:extended centerline 2 right vectoring
+Runways:SBPA SALGADO FILHO INTL 11-29:name
+Runways:SBPF LAURO KURTZ 08-26:centerline
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 left base
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 left ticks
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 left vectoring
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 right base
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 right ticks
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 1 right vectoring
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 left base
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 left ticks
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 left vectoring
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 right base
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 right ticks
+Runways:SBPF LAURO KURTZ 08-26:extended centerline 2 right vectoring
+Runways:SBPF LAURO KURTZ 08-26:name
+Runways:SBPK PELOTAS INTL 06-24:centerline
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 left base
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 left ticks
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 left vectoring
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 right base
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 right ticks
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 1 right vectoring
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 left base
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 left ticks
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 left vectoring
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 right base
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 right ticks
+Runways:SBPK PELOTAS INTL 06-24:extended centerline 2 right vectoring
+Runways:SBPK PELOTAS INTL 06-24:name
+Runways:SBPP PONTA PORA INTL 04-22:centerline
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 left base
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 left ticks
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 left vectoring
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 right base
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 right ticks
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 1 right vectoring
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 left base
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 left ticks
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 left vectoring
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 right base
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 right ticks
+Runways:SBPP PONTA PORA INTL 04-22:extended centerline 2 right vectoring
+Runways:SBPP PONTA PORA INTL 04-22:name
+Runways:SBRJ SANTOS DUMONT 02L-20R:centerline
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 left base
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 left ticks
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 left vectoring
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 right base
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 right ticks
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 1 right vectoring
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 left base
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 left ticks
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 left vectoring
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 right base
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 right ticks
+Runways:SBRJ SANTOS DUMONT 02L-20R:extended centerline 2 right vectoring
+Runways:SBRJ SANTOS DUMONT 02L-20R:name
+Runways:SBRJ SANTOS DUMONT 02R-20L:centerline
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 left base
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 left ticks
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 left vectoring
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 right base
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 right ticks
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 1 right vectoring
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 left base
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 left ticks
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 left vectoring
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 right base
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 right ticks
+Runways:SBRJ SANTOS DUMONT 02R-20L:extended centerline 2 right vectoring
+Runways:SBRJ SANTOS DUMONT 02R-20L:name
+Runways:SBSC SANTA CRUZ 05-23:centerline
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 left base
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 left ticks
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 left vectoring
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 right base
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 right ticks
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 1 right vectoring
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 left base
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 left ticks
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 left vectoring
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 right base
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 right ticks
+Runways:SBSC SANTA CRUZ 05-23:extended centerline 2 right vectoring
+Runways:SBSC SANTA CRUZ 05-23:name
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:centerline
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 left base
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 left ticks
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 left vectoring
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 right base
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 right ticks
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 1 right vectoring
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 left base
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 left ticks
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 left vectoring
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 right base
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 right ticks
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:extended centerline 2 right vectoring
+Runways:SBSJ PROF URBANO ERNESTO STUM 15-33:name
+Runways:SBSM SANTA MARIA 02-20:centerline
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 left base
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 left ticks
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 left vectoring
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 right base
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 right ticks
+Runways:SBSM SANTA MARIA 02-20:extended centerline 1 right vectoring
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 left base
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 left ticks
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 left vectoring
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 right base
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 right ticks
+Runways:SBSM SANTA MARIA 02-20:extended centerline 2 right vectoring
+Runways:SBSM SANTA MARIA 02-20:name
+Runways:SBSM SANTA MARIA 11-29:centerline
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 left base
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 left ticks
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 left vectoring
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 right base
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 right ticks
+Runways:SBSM SANTA MARIA 11-29:extended centerline 1 right vectoring
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 left base
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 left ticks
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 left vectoring
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 right base
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 right ticks
+Runways:SBSM SANTA MARIA 11-29:extended centerline 2 right vectoring
+Runways:SBSM SANTA MARIA 11-29:name
+Runways:SBSP CONGONHAS 17L-35R:centerline
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 left base
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 left ticks
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 left vectoring
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 right base
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 right ticks
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 1 right vectoring
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 left base
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 left ticks
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 left vectoring
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 right base
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 right ticks
+Runways:SBSP CONGONHAS 17L-35R:extended centerline 2 right vectoring
+Runways:SBSP CONGONHAS 17L-35R:name
+Runways:SBSP CONGONHAS 17R-35L:centerline
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 left base
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 left ticks
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 left vectoring
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 right base
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 right ticks
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 1 right vectoring
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 left base
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 left ticks
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 left vectoring
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 right base
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 right ticks
+Runways:SBSP CONGONHAS 17R-35L:extended centerline 2 right vectoring
+Runways:SBSP CONGONHAS 17R-35L:name
+Runways:SBST BASE AEREA DE SANTOS 17-35:centerline
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:name
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:centerline
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:name
+Runways:SBTD TOLEDO 02-20:centerline
+Runways:SBTD TOLEDO 02-20:extended centerline 1
+Runways:SBTD TOLEDO 02-20:extended centerline 1 left base
+Runways:SBTD TOLEDO 02-20:extended centerline 1 left ticks
+Runways:SBTD TOLEDO 02-20:extended centerline 1 left vectoring
+Runways:SBTD TOLEDO 02-20:extended centerline 1 right base
+Runways:SBTD TOLEDO 02-20:extended centerline 1 right ticks
+Runways:SBTD TOLEDO 02-20:extended centerline 1 right vectoring
+Runways:SBTD TOLEDO 02-20:extended centerline 2
+Runways:SBTD TOLEDO 02-20:extended centerline 2 left base
+Runways:SBTD TOLEDO 02-20:extended centerline 2 left ticks
+Runways:SBTD TOLEDO 02-20:extended centerline 2 left vectoring
+Runways:SBTD TOLEDO 02-20:extended centerline 2 right base
+Runways:SBTD TOLEDO 02-20:extended centerline 2 right ticks
+Runways:SBTD TOLEDO 02-20:extended centerline 2 right vectoring
+Runways:SBTD TOLEDO 02-20:name
+Runways:SBTL TELEMACO BORBA 02-20:centerline
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 left base
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 left ticks
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 left vectoring
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 right base
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 right ticks
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 1 right vectoring
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 left base
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 left ticks
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 left vectoring
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 right base
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 right ticks
+Runways:SBTL TELEMACO BORBA 02-20:extended centerline 2 right vectoring
+Runways:SBTL TELEMACO BORBA 02-20:name
+Runways:SBTR TORRES 05-23:centerline
+Runways:SBTR TORRES 05-23:extended centerline 1
+Runways:SBTR TORRES 05-23:extended centerline 1 left base
+Runways:SBTR TORRES 05-23:extended centerline 1 left ticks
+Runways:SBTR TORRES 05-23:extended centerline 1 left vectoring
+Runways:SBTR TORRES 05-23:extended centerline 1 right base
+Runways:SBTR TORRES 05-23:extended centerline 1 right ticks
+Runways:SBTR TORRES 05-23:extended centerline 1 right vectoring
+Runways:SBTR TORRES 05-23:extended centerline 2
+Runways:SBTR TORRES 05-23:extended centerline 2 left base
+Runways:SBTR TORRES 05-23:extended centerline 2 left ticks
+Runways:SBTR TORRES 05-23:extended centerline 2 left vectoring
+Runways:SBTR TORRES 05-23:extended centerline 2 right base
+Runways:SBTR TORRES 05-23:extended centerline 2 right ticks
+Runways:SBTR TORRES 05-23:extended centerline 2 right vectoring
+Runways:SBTR TORRES 05-23:name
+Runways:SBUG RUBEM BERTA INTL 09-27:centerline
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 left base
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 left ticks
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 left vectoring
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 right base
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 right ticks
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 1 right vectoring
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 left base
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 left ticks
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 left vectoring
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 right base
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 right ticks
+Runways:SBUG RUBEM BERTA INTL 09-27:extended centerline 2 right vectoring
+Runways:SBUG RUBEM BERTA INTL 09-27:name
+Runways:SBYS CAMPO FONTENELLE 02C-20C:centerline
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 left base
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 left ticks
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 right base
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 right ticks
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 1 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 left base
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 left ticks
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 right base
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 right ticks
+Runways:SBYS CAMPO FONTENELLE 02C-20C:extended centerline 2 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02C-20C:name
+Runways:SBYS CAMPO FONTENELLE 02L-20R:centerline
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 left base
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 left ticks
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 right base
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 right ticks
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 1 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 left base
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 left ticks
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 right base
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 right ticks
+Runways:SBYS CAMPO FONTENELLE 02L-20R:extended centerline 2 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02L-20R:name
+Runways:SBYS CAMPO FONTENELLE 02R-20L:centerline
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 left base
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 left ticks
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 right base
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 right ticks
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 1 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 left base
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 left ticks
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 left vectoring
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 right base
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 right ticks
+Runways:SBYS CAMPO FONTENELLE 02R-20L:extended centerline 2 right vectoring
+Runways:SBYS CAMPO FONTENELLE 02R-20L:name
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:centerline
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 left base
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 left ticks
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 left vectoring
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 right base
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 right ticks
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 1 right vectoring
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 left base
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 left ticks
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 left vectoring
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 right base
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 right ticks
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:extended centerline 2 right vectoring
+Runways:SBZM REGIONAL DA ZONA DA MATA 08-26:name
+Runways:SDBY BARIRI 11-29:centerline
+Runways:SDBY BARIRI 11-29:extended centerline 1
+Runways:SDBY BARIRI 11-29:extended centerline 1 left base
+Runways:SDBY BARIRI 11-29:extended centerline 1 left ticks
+Runways:SDBY BARIRI 11-29:extended centerline 1 left vectoring
+Runways:SDBY BARIRI 11-29:extended centerline 1 right base
+Runways:SDBY BARIRI 11-29:extended centerline 1 right ticks
+Runways:SDBY BARIRI 11-29:extended centerline 1 right vectoring
+Runways:SDBY BARIRI 11-29:extended centerline 2
+Runways:SDBY BARIRI 11-29:extended centerline 2 left base
+Runways:SDBY BARIRI 11-29:extended centerline 2 left ticks
+Runways:SDBY BARIRI 11-29:extended centerline 2 left vectoring
+Runways:SDBY BARIRI 11-29:extended centerline 2 right base
+Runways:SDBY BARIRI 11-29:extended centerline 2 right ticks
+Runways:SDBY BARIRI 11-29:extended centerline 2 right vectoring
+Runways:SDBY BARIRI 11-29:name
+Runways:SDCO SOROCABA 18-36:centerline
+Runways:SDCO SOROCABA 18-36:extended centerline 1
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left base
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right base
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 2
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left base
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right base
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right vectoring
+Runways:SDCO SOROCABA 18-36:name
+Runways:SDDN ANDRADINA 11-29:centerline
+Runways:SDDN ANDRADINA 11-29:extended centerline 1
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 left base
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 left ticks
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 left vectoring
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 right base
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 right ticks
+Runways:SDDN ANDRADINA 11-29:extended centerline 1 right vectoring
+Runways:SDDN ANDRADINA 11-29:extended centerline 2
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 left base
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 left ticks
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 left vectoring
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 right base
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 right ticks
+Runways:SDDN ANDRADINA 11-29:extended centerline 2 right vectoring
+Runways:SDDN ANDRADINA 11-29:name
+Runways:SDDR DRACENA 09-27:centerline
+Runways:SDDR DRACENA 09-27:extended centerline 1
+Runways:SDDR DRACENA 09-27:extended centerline 1 left base
+Runways:SDDR DRACENA 09-27:extended centerline 1 left ticks
+Runways:SDDR DRACENA 09-27:extended centerline 1 left vectoring
+Runways:SDDR DRACENA 09-27:extended centerline 1 right base
+Runways:SDDR DRACENA 09-27:extended centerline 1 right ticks
+Runways:SDDR DRACENA 09-27:extended centerline 1 right vectoring
+Runways:SDDR DRACENA 09-27:extended centerline 2
+Runways:SDDR DRACENA 09-27:extended centerline 2 left base
+Runways:SDDR DRACENA 09-27:extended centerline 2 left ticks
+Runways:SDDR DRACENA 09-27:extended centerline 2 left vectoring
+Runways:SDDR DRACENA 09-27:extended centerline 2 right base
+Runways:SDDR DRACENA 09-27:extended centerline 2 right ticks
+Runways:SDDR DRACENA 09-27:extended centerline 2 right vectoring
+Runways:SDDR DRACENA 09-27:name
+Runways:SDOU OURINHOS 16-34:centerline
+Runways:SDOU OURINHOS 16-34:extended centerline 1
+Runways:SDOU OURINHOS 16-34:extended centerline 1 left base
+Runways:SDOU OURINHOS 16-34:extended centerline 1 left ticks
+Runways:SDOU OURINHOS 16-34:extended centerline 1 left vectoring
+Runways:SDOU OURINHOS 16-34:extended centerline 1 right base
+Runways:SDOU OURINHOS 16-34:extended centerline 1 right ticks
+Runways:SDOU OURINHOS 16-34:extended centerline 1 right vectoring
+Runways:SDOU OURINHOS 16-34:extended centerline 2
+Runways:SDOU OURINHOS 16-34:extended centerline 2 left base
+Runways:SDOU OURINHOS 16-34:extended centerline 2 left ticks
+Runways:SDOU OURINHOS 16-34:extended centerline 2 left vectoring
+Runways:SDOU OURINHOS 16-34:extended centerline 2 right base
+Runways:SDOU OURINHOS 16-34:extended centerline 2 right ticks
+Runways:SDOU OURINHOS 16-34:extended centerline 2 right vectoring
+Runways:SDOU OURINHOS 16-34:name
+Runways:SDPN PENAPOLIS 15-33:centerline
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 left base
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 left ticks
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 left vectoring
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 right base
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 right ticks
+Runways:SDPN PENAPOLIS 15-33:extended centerline 1 right vectoring
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 left base
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 left ticks
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 left vectoring
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 right base
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 right ticks
+Runways:SDPN PENAPOLIS 15-33:extended centerline 2 right vectoring
+Runways:SDPN PENAPOLIS 15-33:name
+Runways:SDRR AVARE-ARANDU 15-33:centerline
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 left base
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 left ticks
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 left vectoring
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 right base
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 right ticks
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 1 right vectoring
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 left base
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 left ticks
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 left vectoring
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 right base
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 right ticks
+Runways:SDRR AVARE-ARANDU 15-33:extended centerline 2 right vectoring
+Runways:SDRR AVARE-ARANDU 15-33:name
+Runways:SDTP TUPA 06-24:centerline
+Runways:SDTP TUPA 06-24:extended centerline 1
+Runways:SDTP TUPA 06-24:extended centerline 1 left base
+Runways:SDTP TUPA 06-24:extended centerline 1 left ticks
+Runways:SDTP TUPA 06-24:extended centerline 1 left vectoring
+Runways:SDTP TUPA 06-24:extended centerline 1 right base
+Runways:SDTP TUPA 06-24:extended centerline 1 right ticks
+Runways:SDTP TUPA 06-24:extended centerline 1 right vectoring
+Runways:SDTP TUPA 06-24:extended centerline 2
+Runways:SDTP TUPA 06-24:extended centerline 2 left base
+Runways:SDTP TUPA 06-24:extended centerline 2 left ticks
+Runways:SDTP TUPA 06-24:extended centerline 2 left vectoring
+Runways:SDTP TUPA 06-24:extended centerline 2 right base
+Runways:SDTP TUPA 06-24:extended centerline 2 right ticks
+Runways:SDTP TUPA 06-24:extended centerline 2 right vectoring
+Runways:SDTP TUPA 06-24:name
+Runways:SGES GUARANI INTL 05-23:centerline
+Runways:SGES GUARANI INTL 05-23:extended centerline 1
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 left base
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 left ticks
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 left vectoring
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 right base
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 right ticks
+Runways:SGES GUARANI INTL 05-23:extended centerline 1 right vectoring
+Runways:SGES GUARANI INTL 05-23:extended centerline 2
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 left base
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 left ticks
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 left vectoring
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 right base
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 right ticks
+Runways:SGES GUARANI INTL 05-23:extended centerline 2 right vectoring
+Runways:SGES GUARANI INTL 05-23:name
+Runways:SGIB ITAIPU INTL 03-21:centerline
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 left base
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 left ticks
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 left vectoring
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 right base
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 right ticks
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 1 right vectoring
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 left base
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 left ticks
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 left vectoring
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 right base
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 right ticks
+Runways:SGIB ITAIPU INTL 03-21:extended centerline 2 right vectoring
+Runways:SGIB ITAIPU INTL 03-21:name
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:centerline
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 left base
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 left ticks
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 left vectoring
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 right base
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 right ticks
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 1 right vectoring
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 left base
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 left ticks
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 left vectoring
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 right base
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 right ticks
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:extended centerline 2 right vectoring
+Runways:SGPJ AUGUSTO ROBERTO FUSTER I 03-21:name
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:centerline
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 left base
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 left ticks
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 left vectoring
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 right base
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 right ticks
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 1 right vectoring
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 left base
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 left ticks
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 left vectoring
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 right base
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 right ticks
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:extended centerline 2 right vectoring
+Runways:SIXE AEROCLUBE DE ELDORADO DO 11-29:name
+Runways:SJRG RIO GRANDE 06-24:centerline
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 left base
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 left ticks
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 left vectoring
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 right base
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 right ticks
+Runways:SJRG RIO GRANDE 06-24:extended centerline 1 right vectoring
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 left base
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 left ticks
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 left vectoring
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 right base
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 right ticks
+Runways:SJRG RIO GRANDE 06-24:extended centerline 2 right vectoring
+Runways:SJRG RIO GRANDE 06-24:name
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:centerline
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 left base
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 left ticks
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 left vectoring
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 right base
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 right ticks
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 1 right vectoring
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 left base
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 left ticks
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 left vectoring
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 right base
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 right ticks
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:extended centerline 2 right vectoring
+Runways:SLPS TTE. AV. SALVADOR OGAYA 05-23:name
+Runways:SNAX ASSIS 12-30:centerline
+Runways:SNAX ASSIS 12-30:extended centerline 1
+Runways:SNAX ASSIS 12-30:extended centerline 1 left base
+Runways:SNAX ASSIS 12-30:extended centerline 1 left ticks
+Runways:SNAX ASSIS 12-30:extended centerline 1 left vectoring
+Runways:SNAX ASSIS 12-30:extended centerline 1 right base
+Runways:SNAX ASSIS 12-30:extended centerline 1 right ticks
+Runways:SNAX ASSIS 12-30:extended centerline 1 right vectoring
+Runways:SNAX ASSIS 12-30:extended centerline 2
+Runways:SNAX ASSIS 12-30:extended centerline 2 left base
+Runways:SNAX ASSIS 12-30:extended centerline 2 left ticks
+Runways:SNAX ASSIS 12-30:extended centerline 2 left vectoring
+Runways:SNAX ASSIS 12-30:extended centerline 2 right base
+Runways:SNAX ASSIS 12-30:extended centerline 2 right ticks
+Runways:SNAX ASSIS 12-30:extended centerline 2 right vectoring
+Runways:SNAX ASSIS 12-30:name
+Runways:SNJR SAO JOAO DEL REI 07-25:centerline
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 left base
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 left ticks
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 left vectoring
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 right base
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 right ticks
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 1 right vectoring
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 left base
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 left ticks
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 left vectoring
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 right base
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 right ticks
+Runways:SNJR SAO JOAO DEL REI 07-25:extended centerline 2 right vectoring
+Runways:SNJR SAO JOAO DEL REI 07-25:name
+Runways:SNXB CAXAMBU 09-27:centerline
+Runways:SNXB CAXAMBU 09-27:extended centerline 1
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 left base
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 left ticks
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 left vectoring
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 right base
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 right ticks
+Runways:SNXB CAXAMBU 09-27:extended centerline 1 right vectoring
+Runways:SNXB CAXAMBU 09-27:extended centerline 2
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 left base
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 left ticks
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 left vectoring
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 right base
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 right ticks
+Runways:SNXB CAXAMBU 09-27:extended centerline 2 right vectoring
+Runways:SNXB CAXAMBU 09-27:name
+Runways:SSAP APUCARANA 10-28:centerline
+Runways:SSAP APUCARANA 10-28:extended centerline 1
+Runways:SSAP APUCARANA 10-28:extended centerline 1 left base
+Runways:SSAP APUCARANA 10-28:extended centerline 1 left ticks
+Runways:SSAP APUCARANA 10-28:extended centerline 1 left vectoring
+Runways:SSAP APUCARANA 10-28:extended centerline 1 right base
+Runways:SSAP APUCARANA 10-28:extended centerline 1 right ticks
+Runways:SSAP APUCARANA 10-28:extended centerline 1 right vectoring
+Runways:SSAP APUCARANA 10-28:extended centerline 2
+Runways:SSAP APUCARANA 10-28:extended centerline 2 left base
+Runways:SSAP APUCARANA 10-28:extended centerline 2 left ticks
+Runways:SSAP APUCARANA 10-28:extended centerline 2 left vectoring
+Runways:SSAP APUCARANA 10-28:extended centerline 2 right base
+Runways:SSAP APUCARANA 10-28:extended centerline 2 right ticks
+Runways:SSAP APUCARANA 10-28:extended centerline 2 right vectoring
+Runways:SSAP APUCARANA 10-28:name
+Runways:SSCK CONCORDIA 14-32:centerline
+Runways:SSCK CONCORDIA 14-32:extended centerline 1
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 left base
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 left ticks
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 left vectoring
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 right base
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 right ticks
+Runways:SSCK CONCORDIA 14-32:extended centerline 1 right vectoring
+Runways:SSCK CONCORDIA 14-32:extended centerline 2
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 left base
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 left ticks
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 left vectoring
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 right base
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 right ticks
+Runways:SSCK CONCORDIA 14-32:extended centerline 2 right vectoring
+Runways:SSCK CONCORDIA 14-32:name
+Runways:SSCP CORNELIO PROCOPIO 06-24:centerline
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 left base
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 left ticks
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 left vectoring
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 right base
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 right ticks
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 1 right vectoring
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 left base
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 left ticks
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 left vectoring
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 right base
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 right ticks
+Runways:SSCP CORNELIO PROCOPIO 06-24:extended centerline 2 right vectoring
+Runways:SSCP CORNELIO PROCOPIO 06-24:name
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:centerline
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 left base
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 left ticks
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 left vectoring
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 right base
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 right ticks
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 1 right vectoring
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 left base
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 left ticks
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 left vectoring
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 right base
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 right ticks
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:extended centerline 2 right vectoring
+Runways:SSCR MARECHAL CANDIDO RONDON 01-19:name
+Runways:SSDC DIONISIO CERQUEIRA 01-19:centerline
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 left base
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 left ticks
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 left vectoring
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 right base
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 right ticks
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 1 right vectoring
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 left base
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 left ticks
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 left vectoring
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 right base
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 right ticks
+Runways:SSDC DIONISIO CERQUEIRA 01-19:extended centerline 2 right vectoring
+Runways:SSDC DIONISIO CERQUEIRA 01-19:name
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:centerline
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 left base
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 left ticks
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 left vectoring
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 right base
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 right ticks
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 1 right vectoring
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 left base
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 left ticks
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 left vectoring
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 right base
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 right ticks
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:extended centerline 2 right vectoring
+Runways:SSIE TERUEL IPANEMA ESTANCIA 06-24:name
+Runways:SSKM CAMPO MOURAO 01-19:centerline
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 left base
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 left ticks
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 left vectoring
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 right base
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 right ticks
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 1 right vectoring
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 left base
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 left ticks
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 left vectoring
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 right base
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 right ticks
+Runways:SSKM CAMPO MOURAO 01-19:extended centerline 2 right vectoring
+Runways:SSKM CAMPO MOURAO 01-19:name
+Runways:SSKZ CARAZINHO 11-29:centerline
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 left base
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 left ticks
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 left vectoring
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 right base
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 right ticks
+Runways:SSKZ CARAZINHO 11-29:extended centerline 1 right vectoring
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 left base
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 left ticks
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 left vectoring
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 right base
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 right ticks
+Runways:SSKZ CARAZINHO 11-29:extended centerline 2 right vectoring
+Runways:SSKZ CARAZINHO 11-29:name
+Runways:SSLA LAGUNA 04-22:centerline
+Runways:SSLA LAGUNA 04-22:extended centerline 1
+Runways:SSLA LAGUNA 04-22:extended centerline 1 left base
+Runways:SSLA LAGUNA 04-22:extended centerline 1 left ticks
+Runways:SSLA LAGUNA 04-22:extended centerline 1 left vectoring
+Runways:SSLA LAGUNA 04-22:extended centerline 1 right base
+Runways:SSLA LAGUNA 04-22:extended centerline 1 right ticks
+Runways:SSLA LAGUNA 04-22:extended centerline 1 right vectoring
+Runways:SSLA LAGUNA 04-22:extended centerline 2
+Runways:SSLA LAGUNA 04-22:extended centerline 2 left base
+Runways:SSLA LAGUNA 04-22:extended centerline 2 left ticks
+Runways:SSLA LAGUNA 04-22:extended centerline 2 left vectoring
+Runways:SSLA LAGUNA 04-22:extended centerline 2 right base
+Runways:SSLA LAGUNA 04-22:extended centerline 2 right ticks
+Runways:SSLA LAGUNA 04-22:extended centerline 2 right vectoring
+Runways:SSLA LAGUNA 04-22:name
+Runways:SSPB PATO BRANCO 07-25:centerline
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 left base
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 left ticks
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 left vectoring
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 right base
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 right ticks
+Runways:SSPB PATO BRANCO 07-25:extended centerline 1 right vectoring
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 left base
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 left ticks
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 left vectoring
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 right base
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 right ticks
+Runways:SSPB PATO BRANCO 07-25:extended centerline 2 right vectoring
+Runways:SSPB PATO BRANCO 07-25:name
+Runways:SSPG PARANAGUA 06-24:centerline
+Runways:SSPG PARANAGUA 06-24:extended centerline 1
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 left base
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 left ticks
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 left vectoring
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 right base
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 right ticks
+Runways:SSPG PARANAGUA 06-24:extended centerline 1 right vectoring
+Runways:SSPG PARANAGUA 06-24:extended centerline 2
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 left base
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 left ticks
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 left vectoring
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 right base
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 right ticks
+Runways:SSPG PARANAGUA 06-24:extended centerline 2 right vectoring
+Runways:SSPG PARANAGUA 06-24:name
+Runways:SSPI PARANAVAI 12-30:centerline
+Runways:SSPI PARANAVAI 12-30:extended centerline 1
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 left base
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 left ticks
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 left vectoring
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 right base
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 right ticks
+Runways:SSPI PARANAVAI 12-30:extended centerline 1 right vectoring
+Runways:SSPI PARANAVAI 12-30:extended centerline 2
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 left base
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 left ticks
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 left vectoring
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 right base
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 right ticks
+Runways:SSPI PARANAVAI 12-30:extended centerline 2 right vectoring
+Runways:SSPI PARANAVAI 12-30:name
+Runways:SSQT CASTRO 05-23:centerline
+Runways:SSQT CASTRO 05-23:extended centerline 1
+Runways:SSQT CASTRO 05-23:extended centerline 1 left base
+Runways:SSQT CASTRO 05-23:extended centerline 1 left ticks
+Runways:SSQT CASTRO 05-23:extended centerline 1 left vectoring
+Runways:SSQT CASTRO 05-23:extended centerline 1 right base
+Runways:SSQT CASTRO 05-23:extended centerline 1 right ticks
+Runways:SSQT CASTRO 05-23:extended centerline 1 right vectoring
+Runways:SSQT CASTRO 05-23:extended centerline 2
+Runways:SSQT CASTRO 05-23:extended centerline 2 left base
+Runways:SSQT CASTRO 05-23:extended centerline 2 left ticks
+Runways:SSQT CASTRO 05-23:extended centerline 2 left vectoring
+Runways:SSQT CASTRO 05-23:extended centerline 2 right base
+Runways:SSQT CASTRO 05-23:extended centerline 2 right ticks
+Runways:SSQT CASTRO 05-23:extended centerline 2 right vectoring
+Runways:SSQT CASTRO 05-23:name
+Runways:SSSB SAO BORJA 06-24:centerline
+Runways:SSSB SAO BORJA 06-24:extended centerline 1
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 left base
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 left ticks
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 left vectoring
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 right base
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 right ticks
+Runways:SSSB SAO BORJA 06-24:extended centerline 1 right vectoring
+Runways:SSSB SAO BORJA 06-24:extended centerline 2
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 left base
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 left ticks
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 left vectoring
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 right base
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 right ticks
+Runways:SSSB SAO BORJA 06-24:extended centerline 2 right vectoring
+Runways:SSSB SAO BORJA 06-24:name
+Runways:SSUM UMUARAMA 03-21:centerline
+Runways:SSUM UMUARAMA 03-21:extended centerline 1
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 left base
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 left ticks
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 left vectoring
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 right base
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 right ticks
+Runways:SSUM UMUARAMA 03-21:extended centerline 1 right vectoring
+Runways:SSUM UMUARAMA 03-21:extended centerline 2
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 left base
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 left ticks
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 left vectoring
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 right base
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 right ticks
+Runways:SSUM UMUARAMA 03-21:extended centerline 2 right vectoring
+Runways:SSUM UMUARAMA 03-21:name
+Runways:SSVI VIDEIRA 10-28:centerline
+Runways:SSVI VIDEIRA 10-28:extended centerline 1
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 left base
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 left ticks
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 left vectoring
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 right base
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 right ticks
+Runways:SSVI VIDEIRA 10-28:extended centerline 1 right vectoring
+Runways:SSVI VIDEIRA 10-28:extended centerline 2
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 left base
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 left ticks
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 left vectoring
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 right base
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 right ticks
+Runways:SSVI VIDEIRA 10-28:extended centerline 2 right vectoring
+Runways:SSVI VIDEIRA 10-28:name
+Runways:SSYA ARAPOTI 05-23:centerline
+Runways:SSYA ARAPOTI 05-23:extended centerline 1
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 left base
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 left ticks
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 left vectoring
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 right base
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 right ticks
+Runways:SSYA ARAPOTI 05-23:extended centerline 1 right vectoring
+Runways:SSYA ARAPOTI 05-23:extended centerline 2
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 left base
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 left ticks
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 left vectoring
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 right base
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 right ticks
+Runways:SSYA ARAPOTI 05-23:extended centerline 2 right vectoring
+Runways:SSYA ARAPOTI 05-23:name
+Runways:SSZQ FAZ. PANORAMA 16-34:centerline
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 left base
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 left ticks
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 left vectoring
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 right base
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 right ticks
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 1 right vectoring
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 left base
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 left ticks
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 left vectoring
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 right base
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 right ticks
+Runways:SSZQ FAZ. PANORAMA 16-34:extended centerline 2 right vectoring
+Runways:SSZQ FAZ. PANORAMA 16-34:name
+Runways:SSZW PONTA GROSSA 07-25:centerline
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 left base
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 left ticks
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 left vectoring
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 right base
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 right ticks
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 1 right vectoring
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 left base
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 left ticks
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 left vectoring
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 right base
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 right ticks
+Runways:SSZW PONTA GROSSA 07-25:extended centerline 2 right vectoring
+Runways:SSZW PONTA GROSSA 07-25:name
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:centerline
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 left base
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 left ticks
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 left vectoring
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 right base
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 right ticks
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 1 right vectoring
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 left base
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 left ticks
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 left vectoring
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 right base
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 right ticks
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:extended centerline 2 right vectoring
+Runways:SURV PRESIDENTE GENERAL DON O 05-23:name
+VORs:ADA:symbol
+VORs:ARX:symbol
+VORs:BCO:symbol
+VORs:BGC:symbol
+VORs:BGE:symbol
+VORs:BHZ:symbol
+VORs:CGO:symbol
+VORs:CNF:symbol
+VORs:COA:symbol
+VORs:CPN:symbol
+VORs:CRS:symbol
+VORs:CRY:symbol
+VORs:CTB:symbol
+VORs:CXI:symbol
+VORs:CXS:symbol
+VORs:FIG:symbol
+VORs:FLN:symbol
+VORs:FOZ:symbol
+VORs:FSA:symbol
+VORs:GRD:symbol
+VORs:IGU:symbol
+VORs:JNV:symbol
+VORs:LON:symbol
+VORs:MCA:symbol
+VORs:MCS:symbol
+VORs:MIA:symbol
+VORs:MLO:symbol
+VORs:PAI:symbol
+VORs:PCX:symbol
+VORs:PFD:symbol
+VORs:PIR:symbol
+VORs:POR:symbol
+VORs:POS:symbol
+VORs:PRR:symbol
+VORs:PTS:symbol
+VORs:RDE:symbol
+VORs:RPR:symbol
+VORs:SCB:symbol
+VORs:SCP:symbol
+VORs:SCR:symbol
+VORs:SIS:symbol
+VORs:SMA:symbol
+VORs:STN:symbol
+VORs:STO:symbol
+VORs:TAU:symbol
+VORs:TMB:symbol
+VORs:ULD:symbol
+VORs:URP:symbol
+VORs:VAS:symbol
+VORs:VEN:symbol
+VORs:VES:symbol
+VORs:VRI:symbol
+VORs:XPC:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:-5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:BRZ-TOP SKY
+WINDOWAREA:-31.210200:-60.877664:-17.378422:-33.822249
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1619
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:929
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

@@ -1,0 +1,3776 @@
+;========================================VIRTUAL AIR TRAFFIC SIMULATION NETWORK - BRAZIL================================;
+;Lista Oficial de Posições de Controle Brasileiras - POF - Fevereiro 2020
+;Position File Oficial  Vatsim Brasil - February 2020
+;========================================CHANGE HISTORY / HISTÓRICO DE MUDANÇAS=========================================;
+;Original VATBRZ POF file created by Wills Damasio;                                            
+;FIR Curitiba V1.4 01/10/04 by Guilherme Utz, Fernando Francesconi and Geraldo Velásquez;
+;FIR Brasilia by David Hendleman, Mike Evans;
+;FIR Recife by Eduardo Andrade , Wills Damasio and Ragazzi;
+;FIR Amazônica V1.0 29/04/2005 por José Hélio Possebon and Alan Zeidan;
+;Updated to 3.0 on 20/05/07 by Fernando Francesconi;
+;Updated to 3.1 on 25/10/07 by Gabriel Dálio and Fernando Francesconi;
+;Updated to V4 on 11/05/2012 by Jose Olyntho (816398) and Marcelo Duran (1176670);
+;Updated to V6 on Dec/2012 by Jose Olyntho (816398), Marcelo Duran (1176670) e Roberto Tonin;
+;Updated to V8 on jul/2013 by Jose Olyntho (816398);
+;Updated to AIRAC 1401 on jan/2014 by Marcos Pereira (963126) and Jose Olyntho (816398);
+;Updated to AIRAC 1808 on jul/2018 by Otávio França (1086430);
+;Updated to AIRAC 1812 on dez/2018 by Otávio França (1086430);
+;Updated FEB/2020 by Otávio França (1086430);
+;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
+;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
+; Updated by Sectorgraph to AIRAC 2012
+;========================================UPDATES / ATUALIZAÇÕES==========================================================;
+;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;========================================DATA STRUCTURE / ESTRUTURA DE DADOS=============================================;
+; 1- POF - NAME|RNAME|FREQ|SECID|ARTSTAG|CALLPREFIX|CALLSUFFIX|LINE1|LINE2|LSQUAWK|HSQUAWK|<optional VISIBILITY>
+; 2- AIRSPACE; 5- FREE TEXT; 6-SIDSSTARS; 
+;========================================"SECID" DEVELOPMENT RATIONALE / LEI DE FORMAÇÃO "SECID"=========================;
+; ATIS = A + <xx FINAL ICAO>,
+; GND  = G + <xx FINAL ICAO>,
+; TWR  = T + <xx FINAL ICAO>,
+; MIL  = COD.CHAMADA <xxx ou xxxx> ou M + <xx FINAL ICAO> e 
+; APP e CTR = <xx FINAL ICAO DA TMA> + x <DESIGNADOR DE SETOR>
+;========================================POSITIONS/POSIÇÕES==============================================================;
+[POSITIONS]
+;FIR ATLANTICO SBAO
+Atlantico Center:Atlantico Center:133.500:AO::SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Atlantico Air Defense :POSEIDON Atlantico Air Defense:133.850:POS:M:SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Ascension Island Military Radio:WIDEAWAKE Ascension Island Military Radio:126.200:WID:M:FHAW:TWR:::0120:0137:
+;FIR AMAZONICA SBAZ
+Almeirim Radio:Monte Dourado Radio:125.700:TMD:R:SBMD:TWR:::0601:0677:
+Alta Floresta Radio:Floresta Radio:126.600:TAT:R:SBAT:TWR:::0601:0677:
+Altamira Radio:Altamira Radio:125.850:THT:R:SBHT:TWR:::0601:0677:
+Amazonica Approach:Amazonica Approach:119.250:WA::SBWA:APP:::6101:6140:
+Amazonic Center:Amazonic Center:133.700:AZ::SBAZ:CTR:::6001:6077:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Belem Approach:Belem Approach:119.050:WB::SBWB:APP:::6140:6177:
+Belem ATIS:Belem ATIS:127.600:ABE::SBBE:ATIS:::::
+Belem Ground:Belem Ground:121.900:GBE::SBBE:GND:::6640:6657:
+Belem Tower:Belem Tower:118.700:TBE::SBBE:TWR:::6140:6177:
+Belem Military Approach:BABE Belem Military Approach:122.500:MWB:M:SBWB:APP:::0140:0157:
+Belem Military Ground:Belem Military Ground:121.950:MGE:M:SBBE:GND:::0101:0117:
+Belem Military Tower:Belem Military Tower:121.500:MBE:M:SBBE:TWR:::0120:0137:
+Boa Vista Approach:Boa Vista Approach:120.100:WQ::SBWQ:APP:::6201:6237:
+Boa Vista Ground:Boa Vista Ground:121.700:GBV::SBBV:GND:::6660:6677:
+Boa Vista Tower:Boa Vista Tower:118.100:TBV::SBBV:TWR:::6201:6237:
+Boa Vista Military Approach:Boa Vista Military Approach:122.500:MWQ:M:SBWQ:APP:::0140:0157:
+Boa Vista Military Ground:Boa Vista Military Ground:121.950:MGB:M:SBBV:GND:::0101:0117:
+Boa Vista Military Tower:Boa Vista Military Tower:121.500:MBV:M:SBBV:TWR:::0120:0137:
+Cachimbo Military Radio:Cachimbo Military Radio:125.900:CCM:M:SBCC:TWR:::0120:0137:
+Carajas Radio:Carajas Radio:131.700:TCJ:R:SBCJ:TWR:::0601:0677:
+Carolina Radio:Carolina Radio:126.600:TCI:R:SBCI:TWR:::0601:0677:
+Coari Radio:Urucu Radio:131.850:TUY:R:SBUY:TWR:::0601:0677:
+Conceição do Araguaia Radio:Conceicao Radio:125.700:TAA:R:SBAA:TWR:::0601:0677:
+Cruzeiro do Sul Radio:Cruzeiro Radio:125.700:TCZ:R:SBCZ:TWR:::0601:0677:
+Cuiaba Approach:Cuiaba Approach:119.400:WY::SBWY:APP:::6240:6277:
+Cuiaba ATIS:Cuiaba ATIS:127.850:ACY::SBCY:ATIS:::::
+Cuiaba Ground:Cuiaba Ground:121.900:GCY::SBCY:GND:::6701:6717:
+Cuiaba Tower:Cuiaba Tower:118.100:TCY::SBCY:TWR:::6240:6277:
+Guajara Mirim Radio:Guajara Mirim Radio:125.900:TGM:R:SBGM:TWR:::0601:0677:
+Imperatriz Radio:Imperatriz Radio:125.650:TIZ:R:SBIZ:TWR:::0601:0677:
+Itacoatiara Radio:Itacoatiara Radio:126.600:TIC:R:SBIC:TWR:::0601:0677:
+Itaituba Radio:Itaituba Radio:125.500:TIH:R:SBIH:TWR:::0601:0677:
+Jacareacanga Radio:Jacareacanga Radio:125.900:TEK:R:SBEK:TWR:::0601:0677:
+JiParana Radio:JiParana Radio:131.750:TJI:R:SBJI:TWR:::0601:0677:
+Julio Cesar Tower:Julio Cesar Tower:118.300:TJC::SBJC:TWR:::6760:6766:
+Macapa Approach:Macapa Approach:119.000:XK::SBXK:APP:::6301:6337:
+Macapa Tower:Macapa Tower:118.000:TMQ::SBMQ:TWR:::6301:6337:
+Manaus Approach:Manaus Approach:119.250:WN::SBWN:APP:::6340:6377:
+Manaus Eduardo Gomes ATIS:Manaus Eduardo Gomes ATIS:127.650:AEG::SBEG:ATIS:::::
+Manaus Eduardo Gomes Ground:Manaus Eduardo Gomes Ground:121.900:GEG::SBEG:GND:::6720:6737:
+Manaus Eduardo Gomes Tower:Manaus Eduardo Gomes Tower:118.300:TEG::SBEG:TWR:::6340:6377:
+Manaus Ponta Pelada Tower:Manaus Ponta Pelada Tower:118.100:TMN::SBMN:TWR:::6720:6737:
+Manaus Air Defense:GOLIAS Manaus Air Defense :132.500:GOL:M:SBAZ:CTR:::0160:0177:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Manaus Military Approach:TUCANO Manaus Military Approach:122.800:TUC:M:SBWN:APP:::0140:0157:
+Manaus Ponta Pelada Military Tower:TAPIRI Manaus Military Tower:118.100:TAP:M:SBEG:TWR:::0120:0137:
+Manicore Radio:Manicore Radio:125.9000:TMY:R:SBMY:TWR:::0601:0677:
+Maraba Approach:Maraba Approach:119.200:XJ::SBXJ:APP:::6401:6437:
+Maraba Tower:Maraba Tower:125.900:TMA::SBMA:TWR:::6401:6437:
+Oiapoque Radio:Oiapoque Radio:125.900:TOI:R:SBOI:TWR:::0601:0677:
+Porto Velho Approach:Porto Velho Approach:120.250:WV::SBWV:APP:::6440:6477:
+Porto Velho Tower:Porto Velho Tower:118.200:TPV::SBPV:TWR:::6440:6477:
+Porto Velho Military Tower:BALANIS  Porto Velho Military Tower:122.500:PVM:M:SBPV:TWR:::0120:0137:
+Rio Branco Approach:Rio Branco Approach:119.900:XB::SBXB:APP:::6501:6537:
+Rio Branco Tower:Rio Branco Tower:118.700:TRB::SBRB:TWR:::6501:6537:
+Rondonopolis Radio:Rondonopolis Radio:130.700:TRD:R:SBRD:TWR:::0601:0677:
+Santarem Approach:Santarem Approach:119.300:WX::SBWX:APP:::6540:6577:
+Santarem Tower:Santarem Tower:118.100:TSN::SBSN:TWR:::6540:6577:
+Sao Gabriel da Cachoeira Radio:Gabriel Radio:125.700:TUA:R:SBUA:TWR:::0601:0677:
+Sao Luiz Approach:Sao Luiz Approach:119.100:WS::SBWS:APP:::6601:6637:
+Sao Luiz Tower:Sao Luiz Tower:118.900:TSL::SBSL:TWR:::6601:6637:
+Sinop Radio:Sinop Radio:130.175:TSI:R:SWSI:TWR:::0601:0677:
+Sorriso Radio:Sorriso Radio:130.350:TSO:R:SBSO:TWR:::0601:0677:
+Tabatinga Tower:Tabatinga Tower:125.900:TTT::SBTT:TWR:::6740:6757:
+Tarauaca Radio:Tarauaca Radio:125.900:TTK:R:SBTK:TWR:::0601:0677:
+Tefe Radio:Tefe Radio:125.600:TTF:R:SBTF:TWR:::0601:0677:
+Tirios Radio:Tirios Radio:128.100:TTS:R:SBTS:TWR:::0601:0677:
+Trombetas Radio:Trombetas Radio:131.600:TTB:R:SBTB:TWR:::0601:0677:
+Tucurui Radio:Tucurui Radio:128.100:TTU:R:SBTU:TWR:::0601:0677:
+Vilhena Radio:Vilhena Radio:125.900:TVH:R:SBVH:TWR:::0601:0677:
+;FIR BRASILIA SBBS
+Academia Approach:Academia Approach:120.100:XQ::SBXQ:APP:::4101:4137:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia ATIS:Academia ATIS:127.700:AYS::SBYS:ATIS:::::
+Academia Ground:Academia Ground:121.900:GYS::SBYS:GND:::4140:4157:
+Academia Tower:Academia Tower:118.300:TYS::SBYS:TWR:::4101:4137:
+Academia Military Approach:POLARIS Academia Military Approach:122.400:POL:M:SBXQ:APP:::0140:0157:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia Military Ground:CANOPUS Academia Military Ground:121.850:CAN:M:SBYS:GND:::0101:0117:
+Academia Military Tower:CAPELA Academia Military Tower:126.300:CAP:M:SBYS:TWR:::0120:0137:
+Americana Tower:Americana Tower:135.025:TAI::SDAI:TWR:::4701:4737:
+Anapolis Approach:Anapolis Approach:120.550:XN::SBXN:APP:::4201:4237:
+Anapolis Military Approach:Anapolis Military Approach:133.000:XNM:M:SBXN:APP:::0140:0157:
+Anapolis Military Ground:Anapolis Military Ground:121.900:GAM:M:SBAN:GND:::0101:0117:
+Anapolis Military Tower:Anapolis Military Tower:118.300:TAM:M:SBAN:TWR:::0120:0137:
+Araraquara Tower:Araraquara Tower:131.600:TAQ::SBAQ:TWR:::4160:4177:
+Araxa Radio:Araxa Radio:130.350:TAX:R:SBAX:TWR:::4740:4777:
+Barra do Garcas Radio:Barra do Garcas Radio:125.900:TBW:R:SBBW:TWR:::4740:4777:
+Belo Horizonte Approach:Belo Horizonte Approach:129.100:WH::SBWH:APP:::4301:4337:
+Belo Horizonte Carlos Prates ATIS:Carlos Prates ATIS:127.850:APR::SBPR:ATIS:::::
+Belo Horizonte Carlos Prates Tower:Carlos Prates Tower:125.850:TPR::SBPR:TWR:::4260:4277:
+Belo Horizonte Pampulha ATIS:Pampulha ATIS:127.450:ABH::SBBH:ATIS:::::
+Belo Horizonte Pampulha Clearance Delivery:Pampulha Clearence Delivery:121.100:CBH::SBBH:DEL:::4301:4377:
+Belo Horizonte Pampulha Ground:Pampulha Ground:121.600:GBH::SBBH:GND:::4360:4377:
+Belo Horizonte Pampulha Tower:Pampulha Tower:118.000:TBH::SBBH:TWR:::4301:4337:
+Belo Horizonte Tancredo Neves ATIS:Confins ATIS:127.850:ACF::SBCF:ATIS:::::
+Belo Horizonte Tancredo Neves Clearance:Confins Clearance:121.000:CCF::SBCF:DEL:::4301:4377:
+Belo Horizonte Tancredo Neves Ground:Confins Ground:121.900:GCF::SBCF:GND:::4340:4357:
+Belo Horizonte Tancredo Neves Tower:Confins Tower:118.200:TCF::SBCF:TWR:::4301:4337:
+Braganca Paulista:Braganca Paulista:125.700:TBP::SBBP:TWR:::4701:4737:
+Brasilia Approach:Brasilia Approach:119.200:WR::SBWR:APP:::4401:4437:
+Brasilia ATIS:Brasilia ATIS:127.800:ABR::SBBR:ATIS:::::
+Brasilia Clearence Delivery:Brasilia Clearence Delivery:121.000:CBR::SBBR:DEL:::4401:4477:
+Brasilia Ground:Brasilia Ground:121.800:GBR::SBBR:GND:::4440:4457:
+Brasilia Tower:Brasilia Tower:118.100:TBR::SBBR:TWR:::4401:4437:
+Brasilia Center:Brasilia Center:134.000:BS::SBBS:CTR:::4001:4077:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Air Defense:ZEUS Brasilia Air Defense:133.100:ZEU:M:SBBS:CTR:::0160:0177:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Military Approach:SIGMA Brasilia Military Approach:134.550:SIG:M:SBWR:APP:::0140:0157:
+Brasilia Military Ground:CERRADO Brasilia Military Ground:121.950:CRR:M:SBBR:GND:::0101:0117:
+Brasilia Military Tower:PLANALTO Brasilia Military Tower:129.000:PNT:M:SBBR:TWR:::0120:0137:
+Caldas Novas Radio:Caldas Novas Radio:130.050:TCN:R:SBCN:TWR:::4740:4777:
+Campinas ATIS:Campinas ATIS:127.825:AKP::SBKP:ATIS:::::
+Campinas Clearence Delivery:Campinas Clearence Delivery:121.100:CKP::SBKP:DEL:::4701:4737:
+Campinas Ground:Campinas Ground:121.900:GKP::SBKP:GND:::4701:4737:
+Campinas Tower:Campinas Tower:118.250:TKP::SBKP:TWR:::4701:4737:
+Gaviao Peixoto Tower:Gaviao Peixoto Tower:118.950:TGP::SBGP:TWR:::4160:4177:
+Gaviao Peixoto Ground:Gaviao Peixoto Ground:121.800:GGP::SBGP:GND:::4160:4177:
+Goiania ATIS:Goiania ATIS:127.675:AGO::SBGO:ATIS:::::
+Goiania Clearence Delivery:Goiania Clearence Delivery:121,050:CGO::SBGO:DEL:::4201:4277:
+Goiania Ground:Goiania Ground:121.700:GGO::SBGO:GND:::4240:4257:
+Goiania Tower:Goiania Tower:118.700:TGO::SBGO:TWR:::4201:4237:
+Ipatinga Radio:Ipatinga Radio:130.000:TIP:R:SBIP:TWR:::4740:4777:
+Itumbiara Radio:Itumbiara Radio:130.300:TIT:R:SBIT:TWR:::4740:4777:
+Jundiai Ground:Jundiai Ground:121.650:GJD::SBJD:GND:::4760:4777:
+Jundiai Tower:Jundiai Tower:118.750:TJD::SBJD:TWR:::4760:4777:
+Lagoa Santa Tower:Lagoa Santa Tower:122.800:TLS::SBLS:TWR:::4260:4277:
+Montes Claros Radio:Montes Claros Radio:131.700:TMK:R:SBMK:TWR:::4740:4777:
+Palmas Approach:Palmas Approach:119.000:XD::SBXD:APP:::4501:4537:
+Palmas Tower:Palmas Tower:118.000:TPJ::SBPJ:TWR:::4501:4537:
+Pocos de Caldas Radio:Pocos de Caldas Radio:126.600:TPC:R:SBPC:TWR:::4740:4777:
+Ribeirao Preto ATIS:Ribeirao ATIS:127.425:ARP::SBRP:ATIS:::::
+Ribeirao Preto Ground:Ribeirao Ground:121.600:GRP::SBRP:GND:::4140:4157:
+Ribeirao Preto Tower:Ribeirao Tower:118.000:TRP::SBRP:TWR:::4140:4157:
+Sao Jose dos Campos Atis:Sao Jose dos Campos Atis:127.925:ASJ::SBSJ:ATIS:::::
+Sao Jose dos Campos Clearence Delivery:Sao Jose dos Campos Clearence Delivery:122.500:CSJ::SBSJ:DEL:::4640:4677:
+Sao Jose dos Campos Ground:Sao Jose dos Campos Ground:121.950:GSJ::SBSJ:GND:::4640:4677:
+Sao Jose dos Campos Tower:Sao Jose dos Campos Tower:118.500:TSJ::SBSJ:TWR:::4640:4677:
+Sao Jose do Rio Preto Radio:Rio Preto Radio:130.850:TSR:R:SBSR:TWR:::4740:4777:
+Uberaba Approach:Uberaba Approach:120.800:XU::SBXU:APP:::4540:4577:
+Uberaba Tower:Uberaba Tower:118.500:TUR::SBUR:TWR:::4540:4577:
+Uberlandia Approach:Uberlandia Approach:122.850:XW::SBXW:APP:::4601:4637:
+Uberlandia Tower:Uberlandia Tower:118.800:TUL::SBUL:TWR:::4601:4637:
+Varginha Radio:Varginha Radio:130.800:TVG:R:SBVG:TWR:::4740:4777:
+;FIR CURITIBA SBCW
+Afonsos Military Ground:Afonsos Military Ground:121.850:GAF:M:SBAF:GND:::0101:0117:
+Afonsos Military Tower:BUTANTÃ Afonsos Military Tower:118.900:BUT:M:SBAF:TWR:::0120:0137:
+Albacora Helicopter ATIS:Albacora Helicopter ATIS:131.975:ALB:H:SBLB:ATIS:::::
+Albacora Helicopter Radio:Albacora Helicopter Radio:131.975:TLB:H:SBLB:TWR:::0201:0237:
+Aldeia Approach:Aldeia Military Approach:119.450:ALC:M:SBES:APP:::0140:0157:
+Aldeia Military Ground:Aldeia Military Ground:121.900:ALG:M:SBES:GND:::0101:0117:
+Aldeia Military Tower:Aldeia Military Tower:122.800:ALM:M:SBES:TWR:::0120:0137:
+Aracatuba Radio:Aracatuba Radio:118.300:TAU:R:SBAU:TWR:::0240:0277:
+Bacacheri ATIS:Bacacheri ATIS:132.325:ABI::SBBI:ATIS:::::
+Bacacheri Ground:Bacacheri Ground:121.800:GBI::SBBI:GND:::3301:3337:
+Bacacheri Tower:Bacacheri Tower:118.900:TBI::SBBI:TWR:::3301:3337:
+Barbacena Radio:Barbacena Radio:125.900:TBQ:R:SBBQ:TWR:::0240:0277:
+Bagé Radio:Bagé Radio:125.850:TBG:R:SBBG:TWR:::0240:0277:
+Bauru Approach:Bauru Approach:121.300:WU::SBWU:APP:::3101:3137:
+Bauru ATIS:Bauru ATIS:127.850:ABU::SBBU:ATIS:::::
+Bauru Tower:Bauru Tower:121.300:TBU::SBBU:TWR:::3101:3137:
+Bauru Arealva Radio:Arealva Radio:131.850:TAE:R:SBAE:TWR:::3101:3137:
+Bonito Radio:Bonito Radio:130.600:TDB:R:SBDB:TWR:::0240:0277:
+Cabo Frio Tower:Cabo Frio Tower:132.150:TCB::SBCB:TWR:::3640:3677:
+Cacador Radio:Cacador Radio:130.050:TCD:R:SBCD:TWR:::0240:0277:
+Campo Grande Approach:Campo Grande Approach:119.350:WG::SBWG:APP:::3140:3177:
+Campo Grande ATIS:Campo Grande ATIS:127.600:ACG::SBCG:ATIS:::::
+Campo Grande Ground:Campo Grande Ground:121.900:GCG::SBCG:GND:::3140:3177:
+Campo Grande Tower:Campo Grande Tower:118.100:TCG::SBCG:TWR:::3140:3177:
+Campo Grande Military Approach:BANDEIRANTE Campo Grande Military Approach:122.500:BAN:M:SBWG:APP:::0140:0157:
+Campo Grande Military Ground:Campo Grande Military Ground:121.950:MGG:M:SBCG:GND:::0101:0117:
+Campo Grande Military Tower:Campo Grande Military Tower:121.500:MCG:M:SBCG:TWR:::0120:0137:
+Farol de São Tomé Helicopter Tower:Farol de São Tomé Helicopter Tower:131.300:TFS:H:SBFS:TWR:::0201:0237:
+Campos dos Goitacazes Tower:Campos dos Goitacazes Tower:125.700:TCP::SBCP:TWR:::3440:3477:
+Canoas Mil Ground:Canoas Mil Ground:121.700:PAR:M:SBCO:GND:::0101:0117:
+Canoas Mil Tower:CORUJA  Canoas Mil Tower:118.500:COR:M:SBCO:TWR:::0120:0137:
+Cascavel Radio:Cascavel Radio:131.850:TCA:R:SBCA:TWR:::0240:0277:
+Caxias do Sul Tower:Caxias do Sul Tower:131.600:TCX::SBCX:TWR:::3501:3537:
+Chapeco Radio:Chapeco Radio:130.850:TCH:R:SBCH:TWR:::0240:0277:
+Corumba Approach:Corumba Approach:119.500:WC::SBWC:APP:::3201:3237:
+Corumba Tower:Corumba Tower:119.200:TCR::SBCR:TWR:::3201:3237:
+Criciuma Radio:Criciuma Radio:131.950:TCM:R:SBCM:TWR:::0240:0277:
+Curitiba Approach:Curitiba Approach:119.950:WT::SBWT:APP:::3301:3337:S025.45.40.270:W049.06.22.919
+Curitiba ATIS:Curitiba ATIS:127.800:ACT::SBCT:ATIS:::::
+Curitiba Ground:Curitiba Ground:121.900:GCT::SBCT:GND:::3301:3337:
+Curitiba Tower:Curitiba Tower:118.150:TCT::SBCT:TWR:::3301:3337:
+Curitiba Center:Curitiba Center:126.750:CW::SBCW:CTR:::3001:3077:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Curitiba Air Defense:THOR Curitiba Air Defense:133.600:THR:M:SBCW:CTR:::0160:0177:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Dourados Radio:Dourados Radio:130.100:TDO:R:SBDO:TWR:::0240:0257:
+Enchova Helicopter Radio:Enchova Helicopter Radio:130.300:TEC:H:SBEC:TWR:::0201:0237:
+Florianopolis Approach:Florianopolis Approach:119.650:XF::SBXF:APP:::3340:3377:S027.18.11.293:W048.32.21.920
+Florianopolis ATIS:Florianopolis ATIS:127.450:AFL::SBFL:ATIS:::::
+Florianopolis Ground:Florianopolis Ground:121.700:GFL::SBFL:GND:::3340:3377:
+Florianopolis Tower:Florianopolis Tower:118.700:TFL::SBFL:TWR:::3340:3377:
+Florianopolis Military Approach:Florianopolis Military Approach:119.650:MXF:M:SBXF:APP:::0140:0157:
+Florianopolis Military Ground:Florianopolis Military Ground:121.700:MGF:M:SBFL:GND:::0101:0117:
+Florianopolis Military Tower:Florianopolis Military Tower:118.700:MFL:M:SBFL:TWR:::0120:0137:
+Foz do Iguacu Approach:Foz do Iguacu Approach:120.300:WI::SBWI:APP:::3240:3277:
+Foz do Iguacu Tower:Foz do Iguacu Tower:118.800:TFI::SBFI:TWR:::3240:3277:
+Galeao ATIS:Galeao ATIS:127.600:AGL::SBGL:ATIS:::::
+Galeao Clearence Delivery:Galeao Clearence Delivery:121.000:CGL::SBGL:DEL:::3601:3637:
+Galeao Ground:Galeao Ground:121.650:GGL::SBGL:GND:::3601:3637:
+Galeao Tower:Galeao Tower:118.200:TGL::SBGL:TWR:::3601:3637:
+Guarapuava Radio:Guarapuava Radio:130.750:TGU:R:SBGU:TWR:::0240:0277:
+Guaratingueta Military Approach:Guaratingueta Military Approach:120.150:AGW:M:SBGW:APP:::0140:0157:
+Guaratingueta Military Tower:Guaratingueta Military Tower:118.150:TGW:M:SBGW:TWR:::0120:0137:
+Guarulhos ATIS:Guarulhos ATIS:127.750:AGR::SBGR:ATIS:::::
+Guarulhos Clearence Delivery:Guarulhos Clearence Delivery:121.000:CGR::SBGR:DEL:::3701:3777:
+Guarulhos Ground:Guarulhos Ground:121.700:GGR::SBGR:GND:::3701:3777:
+Guarulhos Tower:Guarulhos Tower:132.750:TGR::SBGR:TWR:::3701:3777:
+Jacarepagua Ground:Jacarepagua Ground:121.600:GJR::SBJR:GND:::3640:3677:
+Jacarepagua Tower:Jacarepagua Tower:118.400:TJR::SBJR:TWR:::3640:3677:
+Joinville Tower:Joinville Tower:118.000:TJV::SBJV:TWR:::3360:3377:
+Juiz de Fora Radio:Juiz de Fora Radio:128.100:TJF:R:SBJF:TWR:::0240:0277:
+Juiz de Fora:Juiz de Fora:130.100:TZM:R:SBZM:TWR:::0240:0277:
+Lajes Radio:Lajes Radio:132.150:TLJ:R:SBLJ:TWR:::0240:0277:
+Paso de Los Libres Approach:Paso de Los Libres Approach:120.300:XL::SBXL:APP:::3201:3237:
+Londrina Approach:Londrina Approach:129.700:XO::SBXO:APP:::3401:3437:
+Londrina ATIS:Londrina ATIS:127.650:ALO::SBLO:ATIS:::::
+Londrina Tower:Londrina Tower:118.400:TLO::SBLO:TWR:::3401:3437:
+Macae Helicopter Approach:Macae Helicopter Approach:120.000:WEH:H:SBWE:APP:::0201:0237:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae Approach:Macae Approach:119.200:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae ATIS:Macae ATIS:127.775:AME::SBME:ATIS:::::
+Macae Ground:Macae Ground:121.700:GME::SBME:GND:::3440:3477:
+Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
+Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
+Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
+Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
+Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
+Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
+Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
+Navegantes ATIS:Navegantes ATIS:127.625:ANF::SBNF:ATIS:::::
+Navegantes Tower:Navegantes Tower:118.200:TNF::SBNF:TWR:::3340:3377:
+Passo Fundo Radio:Passo Fundo Radio:131.250:TPF:R:SBPF:TWR:::0240:0277:
+Pelotas Radio:Pelotas Radio:125.900:TPK:R:SBPK:TWR:::0240:0277:
+Ponta Pora Radio:Ponta Pora Radio:125.900:TPP:R:SBPP:TWR:::0240:0277:
+Porto Alegre Approach:Porto Alegre Approach:120.100:WP::SBWP:APP:::3501:3537:S029.39.39.449:W051.08.49.348
+Porto Alegre ATIS:Porto Alegre ATIS:127.850:APA::SBPA:ATIS:::::
+Porto Alegre Clearence Delivery:Porto Alegre Clearence Delivery:122.150:CPA::SBPA:DEL:::3501:0157:
+Porto Alegre Ground:Porto Alegre Ground:121.900:GPA::SBPA:GND:::3501:3537:
+Porto Alegre Tower:Porto Alegre Tower:118.100:TPA::SBPA:TWR:::3501:3537:
+Porto Alegre Military Approach:TABA  Porto Alegre Military Approach:122.500:TAB:M:SBWP:APP:::0140:0157:
+Presidente Prudente Approach:Presidente Prudente Approach:118.450:XG::SBXG:APP:::3540:3577:
+Presidente Prudente Tower:Presidente Prudente Tower:118.500:TDN::SBDN:TWR:::3540:3577:
+Rio de Janeiro Approach:Rio de Janeiro Approach:119.000:WJ::SBWJ:APP:::3601:3677:
+Rio de Janeiro Final Approach:Rio de Janeiro Final Approach:119.350:WJF:F:SBWJ:APP:::3601:3677:
+Rio de Janeiro Helicopter Approach:Rio de Janeiro Helicopter Approach:123.900:WJH:H:SBWJ:APP:::0201:0237:
+Rio de Janeiro Visual Approach :Rio de Janeiro Visual Approach :121.350:WJV:V:SBWJ:APP:::0201:0217:
+Santa Cruz Military Approach:Santa Cruz Military Approach:132.500:SCR:M:SBSC:APP:::0140:0157:
+Santa Cruz Military Atis:Santa Cruz Military Atis:127.600:ASC:M:SBSC:ATIS:::::
+Santa Cruz Military Ground:ZEPELIN Santa Cruz Military Ground:121.800:ZEP:M:SBSC:GND:::0101:0117:
+Santa Cruz Military Tower:PRIMAV Santa Cruz Military Tower:118.800:PRI:M:SBSC:TWR:::0120:0137:
+Santa Maria Approach:Santa Maria Approach:119.350:WM::SBWM:APP:::3540:3577:
+Santa Maria ATIS:Santa Maria ATIS:127.750:ASM::SBSM:ATIS:::::
+Santa Maria Tower:Santa Maria Tower:118.300:TSM::SBSM:TWR:::3540:3577:
+Santa Maria Military Tower:Santa Maria Military Tower:122.800:MSM:M:SBSM:TWR:::0120:0137:
+Santo Angelo Radio:Santo Angelo Radio:131.650:TNM:R:SBNM:TWR:::0240:0277:
+Santos Dumont ATIS:Santos Dumont ATIS:132.650:ARJ::SBRJ:ATIS:::::
+Santos Dumont Clearence Delivery:Rio Clearence Delivery:121.050:CRJ::SBRJ:DEL:::3640:3677:
+Santos Dumont Ground:Santos Dumont Ground:121.700:GRJ::SBRJ:GND:::3640:3677:
+Santos Dumont Tower:Santos Dumont Tower:118.700:TRJ::SBRJ:TWR:::3640:3677:
+Santos Military Tower:Santos Military Tower:118.300:TST:M:SBST:TWR:::0120:0137:
+Sao Paulo Approach:Sao Paulo Approach:134.900:XP::SBXP:APP:::3701:3777:
+Sao Paulo Approach:Sao Paulo Final Approach:119.600:XPF:F:SBXP:APP:::3701:3777:
+Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:APP:::0201:0237:
+Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
+Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
+Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
+Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
+Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
+Toledo Radio:Toledo Radio:131.050:TTD:R:SBTD:TWR:::0240:0277:
+Torres Radio:Torres Radio:130.250:TTR:R:SBTR:TWR:::0240:0277:
+Uruguaiana Tower:Uruguaiana Tower:125.900:TUG::SBUG:TWR:::3201:3237:
+;FIR RECIFE SBRE
+Aracaju Approach:Aracaju Approach:120.300:XA::SBXA:APP:::5101:5137:
+Aracaju Tower:Aracaju Tower:118.800:TAR::SBAR:TWR:::5101:5137:
+Aracati Radio:Aracati Radio:131.250:TAC:R:SBAC:TWR:::5701:5777:
+Campina Grande Radio:Campina Grande Radio:125.500:TKG:R:SBKG:TWR:::5701:5777:
+Cruz Jericoacoara Radio:Cruz Jericoacoara Radio:131.050:TJE:R:SBJE:TWR:::5701:5777:
+Fortaleza Approach:Fortaleza Approach:133.000:WZ::SBWZ:APP:::5201:5237:
+Fortaleza ATIS:Fortaleza ATIS:127.700:AFZ::SBFZ:ATIS:::::
+Fortaleza Ground:Fortaleza Ground:121.950:GFZ::SBFZ:GND:::5201:5237:
+Fortaleza Tower:Fortaleza Tower:129.000:TFZ::SBFZ:TWR:::5201:5237:
+Fortaleza Military Approach:FLAUTA Fortaleza Military Approach:134.550:FLA:M:SBWZ:APP:::0140:0157:
+Fortaleza Military Ground:PÍFARO Fortaleza Military Ground:121.850:PIF:M:SBFZ:GND:::0101:0117:
+Fortaleza Military Tower:GAITA Fortaleza Military Tower:122.400:GAI:M:SBFZ:TWR:::0120:0137:
+Governador Valadares Radio:Valadares Radio:132.050:TGV:R:SBGV:TWR:::5701:5777:
+Ilheus Approach:Ilheus Approach:120.100:WL::SBWL:APP:::5140:5177:
+Ilheus Radio:Ilheus Radio:120.100:TIL:R:SBIL:TWR:::5140:5177:
+Joao Pessoa Tower:Joao Pessoa Tower:118.300:TJP::SBJP:TWR:::5440:5477:
+Juazeiro Radio:Juazeiro Radio:131.750:TJU:R:SBJU:TWR:::5701:5777:
+Lapa Radio:Lapa Radio:125.900:TLP:R:SBLP:TWR:::5701:5777:
+Lencois Radio:Lencois Radio:131.750:TLE:R:SBLE:TWR:::5701:5777:
+Maceio Approach:Maceio Approach:119.250:XM::SBXM:APP:::5240:5277:
+Maceio Tower:Maceio Tower:118.250:TMO::SBMO:TWR:::5240:5277:
+Mossoro Radio:Mossoro Radio:125.800:TMS:R:SBMS:TWR:::5701:5777:
+Natal Approach:Natal Approach:119.300:XT::SBXT:APP:::5301:5337:
+Natal Sao Gonçalo do Amarante ATIS:Natal Sao Gonçalo do Amarante ATIS:127.600:ASG::SBSG:ATIS:::::
+Natal Sao Gonçalo do Amarante Ground:Natal Sao Gonçalo do Amarante Ground:121.700:GSG::SBSG:GND:::5301:5337:
+Natal Sao Gonçalo do Amarante Tower:Natal Sao Gonçalo do Amarante Tower:118.200:TSG::SBSG:TWR:::5301:5337:
+Natal Military Approach:TUPÃ Natal Military Approach:120.650:TUP:M:SBXT:APP:::0140:0157:
+Natal Military ATIS:Natal  Military ATIS:132.650:ANT:M:SBNT:ATIS:::::
+Natal Military Ground:PAJÉ Natal Military Ground:121.900:PAJ:M:SBNT:GND:::0101:0117:
+Natal Military Tower:CACIQUE Natal Military Tower:122.800:CAC:M:SBNT:TWR:::0120:0137:
+Noronha Radio:Noronha Radio:125.900:TFN:R:SBFN:TWR:::5701:5777:
+Parnaiba Radio:Parnaiba Radio:126.600:TPB:R:SBPB:TWR:::5701:5777:
+Paulo Afonso Radio:Paulo Afonso Radio:125.850:TUF:R:SBUF:TWR:::5701:5777:
+Petrolina Radio:Petrolina Radio:125.700:TPL:R:SBPL:TWR:::5701:5777:
+Porto Seguro Approach:Porto Seguro Approach:120.900:WK::SBWK:APP:::5340:5377:
+Porto Seguro Tower:Porto Seguro Tower:118.850:TPS::SBPS:TWR:::5340:5377:
+Terravista Tower:Terravista Tower:131.400:TTV::SBTV:TWR:::5340:5377:
+Recife Approach:Recife Approach:119.500:WF::SBWF:APP:::5401:5477:
+Recife ATIS:Recife ATIS:127.650:ARF::SBRF:ATIS:::::
+Recife Ground:Recife Ground:121.850:GRF::SBRF:GND:::5401:5477:
+Recife Tower:Recife Tower:118.350:TRF::SBRF:TWR:::5401:5477:
+Recife Center:Recife Center:128.700:RE::SBRE:CTR:::5001:5077:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Recife Air Defense:SANSÃO Recife Air Defense:126.350:SAN:M:SBRE:CTR:::0160:0177:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Salvador Approach:Salvador Approach:119.350:XS::SBXS:APP:::5501:5577:
+Salvador ATIS:Salvador ATIS:127.750:ASV::SBSV:ATIS:::::
+Salvador Clearance Delivery:Salvador Clearance Delivery:121.100:CSV::SBSV:DEL:::5501:5577:
+Salvador Ground:Salvador Ground:121.900:GSV::SBSV:GND:::5501:5577:
+Salvador Tower:Salvador Tower:118.300:TSV::SBSV:TWR:::5501:5577:
+Teresina Approach:Teresina Approach:119.600:XE::SBXE:APP:::5601:5637:
+Teresina ATIS:Teresina ATIS:127.800:ATE::SBTE:ATIS:::::
+Teresina Tower:Teresina Tower:118.800:TTE::SBTE:TWR:::5601:5637:
+Una Tower:Comandatuba Tower:130.250:TTC::SBTC:TWR:::5601:5637:
+Vitoria Approach:Vitoria Approach:119.850:XR::SBXR:APP:::5640:5677:
+Vitoria ATIS:Vitoria ATIS:127.575:AVT::SBVT:ATIS:::::
+Vitoria Ground:Vitoria Ground:121.950:GVT::SBVT:GND:::5640:5677:
+Vitoria Tower:Vitoria Tower:118.100:TVT::SBVT:TWR:::5640:5677:
+Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TQV:R:SBQV:TWR:::5701:5777:
+;INTERNACIONAIS
+Assuncion Center:Assuncion Center:128.400:AC::SGFA:CTR:::::
+Bogota Center:Bogota Center:128.600:ED::SKED:CTR:::::
+Dakar Control:Dakar Control:120.500:OO::GOOO:CTR:::::
+Georgetown Center:Georgetown Center:128.600:GC::SYGC:CTR:::::
+Johannesburg Center:Johannesburg Center:126.700:JC::FAJO:CTR:::::
+La Paz Center:La Paz Center:128.200:LP::SLLF:CTR:::::
+Lima Center:Lima Center:128.800:PM::SPIM:CTR:::::
+Luanda Center:Luanda Center:129.300:LU::FNAN:CTR:::::
+Maiquetia Center:Maiquetia Center:128.500:ZM::SVZM:CTR:::::
+Montevideo Center:Montevideo Center:128.500:MC::SUEO:CTR:::::
+Montevideo Oceanic:Montevideo Oceanic:126.300:MO::SUEO:FSS:::::
+Paramaribo Center:Paramaribo:123.900:PR::SMPM:CTR:::::
+Resistencia Center:Resistencia Centro:124.300:REC::SARR:CTR:::::
+Rochambeau Center:Rochambeau Center:126.900:RC::SOOO:CTR:::::
+;RESERVADAS
+Reservada 01:Reservada 01:135.000::1:ICAO:POS:::::
+Reservada 02:Reservada 02:135.100::2:ICAO:POS:::::
+Reservada 03:Reservada 03:135.200::3:ICAO:POS:::::
+Reservada 04:Reservada 04:135.300::4:ICAO:POS:::::
+Reservada 05:Reservada 05:135.400::5:ICAO:POS:::::
+Reservada 06:Reservada 06:135.500::6:ICAO:POS:::::
+Reservada 07:Reservada 07:135.600::7:ICAO:POS:::::
+Reservada 08:Reservada 08:135.700::8:ICAO:POS:::::
+Reservada 09:Reservada 09:135.800::9:ICAO:POS:::::
+Reservada 10:Reservada 10:135.900::10:ICAO:POS:::::
+Reservada 11:Reservada 11:136.000::11:ICAO:POS:::::
+Reservada 12:Reservada 12:136.100::12:ICAO:POS:::::
+Reservada 13:Reservada 13:136.200::13:ICAO:POS:::::
+Reservada 14:Reservada 14:136.300::14:ICAO:POS:::::
+Reservada 15:Reservada 15:136.400::15:ICAO:POS:::::
+Reservada 16:Reservada 16:136.500::16:ICAO:POS:::::
+Reservada 17:Reservada 17:136.600::17:ICAO:POS:::::
+Reservada 18:Reservada 18:136.700::18:ICAO:POS:::::
+Reservada 19:Reservada 19:136.800::19:ICAO:POS:::::
+Reservada 20:Reservada 20:136.900::20:ICAO:POS:::::
+;========================================POSITIONS/POSIÇÕES==============================================================;
+;========================================FIR BRASILIA SBBS 2020 (AIRSPACE)=============================================;
+[AIRSPACE]
+;SBYS APP 2018 (ACADEMIA)
+SECTORLINE:SBXQ_APP
+DISPLAY:SBXQ_APP:SBXQ_APP:SBBS
+DISPLAY:SBBS:SBXQ_APP:SBBS
+DISPLAY:SBXQ_APP:SBXQ_APP:SBCW
+DISPLAY:SBCW:SBXQ_APP:SBCW
+DISPLAY:SBXP_APP:SBXQ_APP:SBXP_APP
+DISPLAY:SBXP_F_APP:SBXQ_APP:SBXP_F_APP
+DISPLAY:SBWU_APP:SBXQ_APP:SBWU_APP
+DISPLAY:SBXU_APP:SBXQ_APP:SBXU_APP
+DISPLAY:SBPC_R_TWR:SBXQ_APP:SBPC_R_TWR
+DISPLAY:SBSJ_R_TWR:SBXQ_APP:SBSJ_R_TWR
+DISPLAY:SBWU_APP:SBXQ_APP:SBWU_APP
+COORD:S020.35.06.000:W048.34.59.000
+COORD:S021.39.39.000:W049.43.33.000
+COORD:S022.05.01.000:W048.38.28.000
+COORD:S022.12.39.000:W048.32.18.000
+COORD:S022.21.32.000:W048.35.20.000
+COORD:S022.28.53.000:W048.37.49.000
+COORD:S022.33.11.000:W048.40.17.000
+COORD:S022.59.07.000:W047.54.38.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S022.28.02.000:W046.58.37.000
+COORD:S022.28.50.495:W046.56.29.510
+COORD:S022.11.16.000:W046.44.51.000
+COORD:S022.00.08.000:W046.44.36.000
+COORD:S021.41.59.000:W046.48.58.000
+COORD:S020.56.26.000:W047.01.33.000
+COORD:S020.35.33.000:W047.22.14.000
+COORD:S020.32.52.000:W047.50.53.000
+COORD:S020.33.28.000:W048.01.05.000
+COORD:S020.35.06.000:W048.34.59.000
+SECTOR:SBXQ_APP:5500:19500
+OWNER:XQ:POL:ZEU
+BORDER:SBXQ_APP
+
+;SBYS TWR 2018 (ACADEMIA)
+SECTORLINE:SBYS_TWR
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBYS_TWR:SBXQ_APP
+DISPLAY:SBYS_TWR:SBYS_TWR:SBBS
+DISPLAY:SBBS:SBYS_TWR:SBBS
+DISPLAY:SBYS_TWR:SBYS_TWR:SBCW-N
+DISPLAY:SBCW:SBYS_TWR:SBCW
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBYS_TWR:SBXP_APP
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBYS_TWR:SBXP_F_APP
+DISPLAY:SBPC_TWR:SBYS_TWR:SBPC_TWR
+COORD:S021.38.48.000:W047.20.24.000
+COORD:S021.39.06.189:W047.24.08.195
+COORD:S021.40.00.205:W047.27.45.624
+COORD:S021.41.28.419:W047.31.09.722
+COORD:S021.43.28.168:W047.34.14.317
+COORD:S021.45.55.832:W047.36.53.816
+COORD:S021.48.46.947:W047.39.03.376
+COORD:S021.51.56.335:W047.40.39.042
+COORD:S021.55.18.257:W047.41.37.878
+COORD:S021.58.46.591:W047.41.58.057
+COORD:S022.02.15.010:W047.41.38.918
+COORD:S022.05.37.177:W047.40.40.995
+COORD:S022.08.46.940:W047.39.06.007
+COORD:S022.11.38.515:W047.36.56.809
+COORD:S022.14.06.668:W047.34.17.309
+COORD:S022.16.06.876:W047.31.12.353
+COORD:S022.17.35.465:W047.27.47.577
+COORD:S022.18.29.727:W047.24.09.234
+COORD:S022.18.48.000:W047.20.24.000
+COORD:S022.18.29.727:W047.16.38.766
+COORD:S022.17.35.465:W047.13.00.423
+COORD:S022.16.06.876:W047.09.35.647
+COORD:S022.14.06.668:W047.06.30.691
+COORD:S022.11.38.515:W047.03.51.191
+COORD:S022.08.46.940:W047.01.41.993
+COORD:S022.05.37.177:W047.00.07.005
+COORD:S022.02.15.010:W046.59.09.082
+COORD:S021.58.46.591:W046.58.49.943
+COORD:S021.55.18.257:W046.59.10.122
+COORD:S021.51.56.335:W047.00.08.958
+COORD:S021.48.46.947:W047.01.44.624
+COORD:S021.45.55.832:W047.03.54.184
+COORD:S021.43.28.168:W047.06.33.683
+COORD:S021.41.28.419:W047.09.38.278
+COORD:S021.40.00.205:W047.13.02.376
+COORD:S021.39.06.189:W047.16.39.805
+COORD:S021.38.48.000:W047.20.24.000
+SECTOR:SBYS_TWR:0:5500
+OWNER:TYS:CAP:ZEU
+BORDER:SBYS_TWR
+
+;SBXN APP 2018 (ANAPOLIS)
+SECTORLINE:SBXN_APP
+DISPLAY:SBXN_APP:SBXN_APP:SBBS
+DISPLAY:SBBS:SBXN_APP:SBBS
+DISPLAY:SBXN_APP:SBXN_APP:SBWR_APP
+DISPLAY:SBWR_APP:SBXN_APP:SBWR_APP
+COORD:S017.13.22.000:W048.42.48.000
+COORD:S016.33.25.000:W048.38.19.000
+COORD:S016.14.33.000:W048.35.28.000
+COORD:S016.08.04.000:W048.39.24.000
+COORD:S015.56.49.000:W048.41.53.000
+COORD:S015.50.57.000:W048.56.52.000
+COORD:S015.51.54.000:W049.13.44.000
+COORD:S016.20.50.000:W049.34.39.000
+COORD:S016.28.50.000:W049.52.48.000
+COORD:S016.33.21.000:W049.54.03.000
+COORD:S017.02.42.000:W049.45.33.000
+COORD:S017.17.57.000:W049.20.15.000
+COORD:S017.18.40.000:W049.12.37.000
+COORD:S017.18.00.000:W049.04.27.000
+COORD:S017.14.45.000:W048.48.22.000
+COORD:S017.13.22.000:W048.42.48.000
+SECTOR:SBXN_APP:0:19500
+OWNER:XN:XNM:ZEU
+BORDER:SBXN_APP
+
+;SBAN MILITAR TWR 2018 (ANAPOLIS)
+SECTORLINE:SBAN_M_TWR
+DISPLAY:SBAN_M_TWR:SBAN_M_TWR:SBXN_APP
+DISPLAY:SBAN_M_TWR:SBAN_M_TWR:SBWR_APP
+DISPLAY:SBWR_APP:SBAN_M_TWR:SBWR_APP
+DISPLAY:SBAN_M_TWR:SBAN_M_TWR:SBBS
+DISPLAY:SBXN_APP:SBAN_M_TWR:SBXN_APP
+DISPLAY:SBBS:SBAN_M_TWR:SBBS
+COORD:S016.26.30.000:W049.03.30.000
+COORD:S016.05.09.000:W048.43.37.000
+COORD:S016.02.27.000:W048.45.21.000
+COORD:S016.01.02.000:W048.46.54.000
+COORD:S015.59.46.000:W048.49.08.000
+COORD:S015.58.58.000:W048.51.26.000
+COORD:S015.58.53.000:W048.53.15.000
+COORD:S015.59.03.000:W048.56.08.000
+COORD:S016.00.28.000:W048.58.51.000
+COORD:S016.02.27.000:W049.01.20.000
+COORD:S016.04.58.000:W049.03.30.000
+COORD:S016.09.58.000:W049.07.42.000
+COORD:S016.13.34.000:W049.10.46.000
+COORD:S016.16.07.000:W049.11.57.000
+COORD:S016.19.13.000:W049.12.15.000
+COORD:S016.22.02.000:W049.12.00.000
+COORD:S016.24.40.000:W049.10.43.000
+COORD:S016.25.57.000:W049.09.36.000
+COORD:S016.27.41.000:W049.07.18.000
+COORD:S016.28.19.000:W049.05.44.000
+COORD:S016.26.30.000:W049.03.30.000
+SECTOR:SBAN_M_TWR:0:6500
+OWNER:TAN:ZEU
+BORDER:SBAN_M_TWR
+
+;SBAQ 2018 (TWR ARARAQUARA)
+SECTORLINE:SBAQ_TWR
+DISPLAY:SBAQ_TWR:SBAQ_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBAQ_TWR:SBXQ_APP
+DISPLAY:SBBS:SBBS:SBAQ_TWR
+DISPLAY:SBAQ_TWR:SBBS:SBAQ_TWR
+DISPLAY:SBGP_TWR:SBAQ_TWR:SBGP_TWR
+COORD:S021.38.46.836:W048.08.22.128
+COORD:S021.38.55.941:W048.10.14.224
+COORD:S021.39.22.980:W048.12.02.925
+COORD:S021.40.07.134:W048.13.44.939
+COORD:S021.41.07.065:W048.15.17.174
+COORD:S021.42.20.959:W048.16.36.831
+COORD:S021.43.46.575:W048.17.41.491
+COORD:S021.45.21.316:W048.18.29.183
+COORD:S021.47.02.309:W048.18.58.453
+COORD:S021.48.46.487:W048.19.08.400
+COORD:S021.50.30.686:W048.18.58.710
+COORD:S021.52.11.739:W048.18.29.667
+COORD:S021.53.46.574:W048.17.42.142
+COORD:S021.55.12.303:W048.16.37.572
+COORD:S021.56.26.318:W048.15.17.915
+COORD:S021.57.26.364:W048.13.45.591
+COORD:S021.58.10.611:W048.12.03.409
+COORD:S021.58.37.710:W048.10.14.481
+COORD:S021.58.46.836:W048.08.22.128
+COORD:S021.58.37.710:W048.06.29.775
+COORD:S021.58.10.611:W048.04.40.847
+COORD:S021.57.26.364:W048.02.58.665
+COORD:S021.56.26.318:W048.01.26.341
+COORD:S021.55.12.303:W048.00.06.684
+COORD:S021.53.46.574:W047.59.02.114
+COORD:S021.52.11.739:W047.58.14.589
+COORD:S021.50.30.686:W047.57.45.546
+COORD:S021.48.46.487:W047.57.35.856
+COORD:S021.47.02.309:W047.57.45.803
+COORD:S021.45.21.316:W047.58.15.073
+COORD:S021.43.46.575:W047.59.02.765
+COORD:S021.42.20.959:W048.00.07.425
+COORD:S021.41.07.065:W048.01.27.082
+COORD:S021.40.07.134:W048.02.59.317
+COORD:S021.39.22.980:W048.04.41.331
+COORD:S021.38.55.941:W048.06.30.032
+COORD:S021.38.46.836:W048.08.22.128
+SECTOR:SBAQ_TWR:0:5500
+OWNER:TAQ
+BORDER:SBAQ_TWR
+
+;SBAX R-TWR 2018 (ARAXA)
+SECTORLINE:SBAX_R_TWR
+DISPLAY:SBAX_R_TWR:SBAX_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBAX_R_TWR
+DISPLAY:SBAX_R_TWR:SBAQ_R_TWR:SBXU_APP
+DISPLAY:SBXU_APP:SBAQ_R_TWR:SBXU_APP
+COORD:S019.13.56.075:W047.01.33.755
+COORD:S019.13.57.203:W046.54.18.762
+COORD:S019.16.19.035:W046.47.31.942
+COORD:S019.20.46.791:W046.41.59.577
+COORD:S019.26.49.893:W046.38.22.813
+COORD:S019.33.37.976:W046.37.08.397
+COORD:S019.40.28.566:W046.38.23.653
+COORD:S019.46.29.261:W046.41.59.982
+COORD:S019.50.56.134:W046.47.30.933
+COORD:S019.53.20.053:W046.54.19.928
+COORD:S019.53.19.742:W047.01.33.992
+COORD:S019.50.57.094:W047.08.21.741
+COORD:S019.46.29.649:W047.13.53.379
+COORD:S019.40.28.953:W047.17.30.387
+COORD:S019.33.38.152:W047.18.45.286
+COORD:S019.26.47.252:W047.17.30.756
+COORD:S019.20.47.061:W047.13.54.226
+COORD:S019.16.19.373:W047.08.24.204
+COORD:S019.13.56.075:W047.01.33.755
+SECTOR:SBAX_R_TWR:0:14500
+OWNER:TAX
+BORDER:SBAX_R_TWR
+
+;SBBW R-TWR 2018 (BARRA DO GACAS)
+SECTORLINE:SBBW_R_TWR
+DISPLAY:SBBW_R_TWR:SBBW_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBBW_R_TWR
+COORD:S015.25.03.389:W052.28.19.508
+COORD:S015.25.00.348:W052.18.28.624
+COORD:S015.28.15.250:W052.09.17.560
+COORD:S015.34.20.378:W052.01.49.183
+COORD:S015.42.23.611:W051.56.58.450
+COORD:S015.51.41.180:W051.55.16.970
+COORD:S016.00.50.966:W051.56.55.181
+COORD:S016.08.59.062:W052.01.51.073
+COORD:S016.15.01.580:W052.09.17.184
+COORD:S016.18.15.559:W052.18.30.643
+COORD:S016.18.14.964:W052.28.14.740
+COORD:S016.15.02.413:W052.37.26.041
+COORD:S016.08.59.028:W052.44.56.076
+COORD:S016.00.52.458:W052.49.46.965
+COORD:S015.51.42.926:W052.51.28.766
+COORD:S015.42.25.711:W052.49.48.815
+COORD:S015.34.17.765:W052.44.56.394
+COORD:S015.28.17.596:W052.37.30.521
+COORD:S015.25.03.389:W052.28.19.508
+SECTOR:SBBW_R_TWR:0:14500
+OWNER:TBW
+BORDER:SBBW_R_TWR
+
+;SBWH APP 2018 (BELO HORIZONTE)
+SECTORLINE:SBWH_APP
+DISPLAY:SBBS:SBWH_APP:SBBS
+DISPLAY:SBCW:SBWH_APP:SBCW
+DISPLAY:SBWH_APP:SBCW:SBWH_APP
+DISPLAY:SBWH_APP:SBBS:SBWH_APP
+COORD:S018.56.48.000:W043.41.10.000
+COORD:S019.06.25.000:W043.32.32.000
+COORD:S019.36.49.000:W043.06.30.000
+COORD:S020.00.17.000:W043.07.49.000
+COORD:S020.29.58.000:W043.26.43.000
+COORD:S020.34.17.000:W043.54.01.000
+COORD:S020.21.46.000:W044.29.26.000
+COORD:S019.34.18.000:W044.46.40.000
+COORD:S019.07.52.000:W044.36.26.000
+COORD:S018.58.41.000:W044.19.05.000
+COORD:S018.56.48.000:W043.41.10.000
+SECTOR:SBWH_APP:0:19500
+OWNER:WH
+BORDER:SBWH_APP
+
+;SBPR TWR 2018 (CARLOS PRATES)
+CIRCLE_SECTORLINE:SBPR_TWR:S019.54.33.000:W043.59.21.000:5
+DISPLAY:SBPR_TWR:SBPR_TWR:SBBH_APP
+DISPLAY:SBPR_TWR:SBPR_TWR:SBBH_TWR
+DISPLAY:SBBH_APP:SBPR_TWR:SBBH_APP
+DISPLAY:SBBH_TWR:SBPR_TWR:SBBH_TWR
+DISPLAY:SBPR_TWR:SBPR_TWR:SBLS_TWR
+DISPLAY:SBBS:SBBS:SBPR_TWR
+SECTOR:SBPR_TWR:0:03500
+OWNER:TPR
+BORDER:SBPR_TWR
+
+;SBBH TWR 2018 (PAMPULHA)
+SECTORLINE:SBBH_TWR
+DISPLAY:SBBH_TWR:SBBH_TWR:SBWH_APP
+DISPLAY:SBBH_TWR:SBBH_TWR:SBCF_TWR
+DISPLAY:SBBH_TWR:SBLS_TWR:SBBH_TWR
+DISPLAY:SBWH_APP:SBBH_TWR:SBWH_APP
+DISPLAY:SBBS:SBBH_TWR:SBBS
+DISPLAY:SBCW:SBBH_TWR:SBCW
+COORD:S019.38.53.000:W044.13.28.000
+COORD:S019.44.02.000:W044.12.16.000
+COORD:S019.51.36.000:W044.10.42.000
+COORD:S019.56.21.000:W043.57.32.000
+COORD:S020.01.20.000:W043.55.56.000
+COORD:S020.04.02.000:W043.48.12.000
+COORD:S019.50.50.000:W043.42.19.000
+COORD:S019.39.47.000:W044.11.44.000
+COORD:S019.38.53.000:W044.13.28.000
+SECTOR:SBBH_TWR:0:5500
+OWNER:TBH
+BORDER:SBBH_TWR
+
+;SBCF TWR 2018 (TRANCREDO NEVES)
+SECTORLINE:SBCF_TWR
+DISPLAY:SBCF_TWR:SBCF_TWR:SBWH_APP
+DISPLAY:SBCF_TWR:SBBH_TWR:SBCF_TWR
+DISPLAY:SBCF_TWR:SBLS_TWR:SBCF_TWR
+DISPLAY:SBWH_APP:SBCF_TWR:SBWH_APP
+DISPLAY:SBBS:SBCF_TWR:SBBS
+DISPLAY:SBCW:SBCF_TWR:SBCW
+COORD:S019.38.53.000:W044.13.28.000
+COORD:S019.25.24.000:W044.16.08.000
+COORD:S019.17.50.000:W044.07.07.000
+COORD:S019.27.23.000:W043.54.02.000
+COORD:S019.31.43.000:W043.38.50.000
+COORD:S019.35.09.000:W043.35.43.000
+COORD:S019.50.50.000:W043.42.19.000
+COORD:S019.39.47.000:W044.11.44.000
+COORD:S019.38.53.000:W044.13.28.000
+SECTOR:SBCF_TWR:0:5500
+OWNER:TCF
+BORDER:SBCF_TWR
+
+;SBBP TWR 2018 (BRAGANCA)
+SECTORLINE:SBBP_TWR
+DISPLAY:SBBP_TWR:SBBP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBBP_TWR:SBXP_APP
+DISPLAY:SBBP_TWR:SBBP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBBP_TWR
+DISPLAY:SBBS:SBBP_TWR:SBBS
+COORD:S022.53.45.012:W046.32.15.000
+COORD:S022.53.49.567:W046.33.11.550
+COORD:S022.54.03.093:W046.34.06.385
+COORD:S022.54.25.181:W046.34.57.842
+COORD:S022.54.55.160:W046.35.44.359
+COORD:S022.55.32.121:W046.36.24.523
+COORD:S022.56.14.943:W046.36.57.114
+COORD:S022.57.02.324:W046.37.21.142
+COORD:S022.57.52.828:W046.37.35.873
+COORD:S022.58.44.919:W046.37.40.858
+COORD:S022.59.37.017:W046.37.35.942
+COORD:S023.00.27.536:W046.37.21.271
+COORD:S023.01.14.943:W046.36.57.288
+COORD:S023.01.57.794:W046.36.24.721
+COORD:S023.02.34.787:W046.35.44.556
+COORD:S023.03.04.796:W046.34.58.016
+COORD:S023.03.26.909:W046.34.06.515
+COORD:S023.03.40.452:W046.33.11.619
+COORD:S023.03.45.012:W046.32.15.000
+COORD:S023.03.40.452:W046.31.18.381
+COORD:S023.03.26.909:W046.30.23.485
+COORD:S023.03.04.796:W046.29.31.984
+COORD:S023.02.34.787:W046.28.45.444
+COORD:S023.01.57.794:W046.28.05.279
+COORD:S023.01.14.943:W046.27.32.712
+COORD:S023.00.27.536:W046.27.08.729
+COORD:S022.59.37.017:W046.26.54.058
+COORD:S022.58.44.919:W046.26.49.142
+COORD:S022.57.52.828:W046.26.54.127
+COORD:S022.57.02.324:W046.27.08.858
+COORD:S022.56.14.943:W046.27.32.886
+COORD:S022.55.32.121:W046.28.05.477
+COORD:S022.54.55.160:W046.28.45.641
+COORD:S022.54.25.181:W046.29.32.158
+COORD:S022.54.03.093:W046.30.23.615
+COORD:S022.53.49.567:W046.31.18.450
+COORD:S022.53.45.012:W046.32.15.000
+SECTOR:SBBP_TWR:0:5500
+OWNER:TBP
+BORDER:SBBP_TWR
+
+;SBWR APP 2018 (BRASILIA)
+SECTORLINE:SBWR_APP
+DISPLAY:SBWR_APP:SBWR_APP:SBBS
+DISPLAY:SBBS:SBWR_APP:SBBS
+DISPLAY:SBWR_APP:SBWR_APP:SBXN_APP
+DISPLAY:SBXN_APP:SBWR_APP:SBXN_APP
+COORD:S015.39.38.000:W048.56.19.000
+COORD:S015.20.24.000:W048.46.37.000
+COORD:S015.13.44.000:W048.39.02.000
+COORD:S015.02.46.000:W048.23.31.000
+COORD:S014.57.47.000:W048.04.16.000
+COORD:S015.01.20.000:W047.44.18.000
+COORD:S015.10.23.000:W047.26.17.000
+COORD:S015.26.38.000:W047.07.55.000
+COORD:S016.02.24.000:W047.03.22.000
+COORD:S016.23.53.000:W047.14.34.000
+COORD:S016.30.20.000:W047.20.01.000
+COORD:S016.40.09.000:W047.32.22.000
+COORD:S016.47.18.000:W047.55.51.000
+COORD:S016.44.58.000:W048.18.31.000
+COORD:S016.42.48.000:W048.26.58.000
+COORD:S016.33.25.000:W048.38.19.000
+COORD:S016.14.33.000:W048.35.28.000
+COORD:S016.08.04.000:W048.39.24.000
+COORD:S015.56.49.000:W048.41.53.000
+COORD:S015.50.57.000:W048.56.52.000
+COORD:S015.39.39.000:W048.56.20.000
+COORD:S015.39.38.000:W048.56.19.000
+SECTOR:SBWR_APP:6500:19500
+OWNER:WR:SIG:ZEU
+BORDER:SBWR_APP
+
+;SBBR TWR 2018 (BRASILIA)
+SECTORLINE:SBBR_TWR
+DISPLAY:SBBR_TWR:SBBR_TWR:SBWR_APP
+DISPLAY:SBWR_APP:SBWR_APP:SBBR_TWR
+DISPLAY:SBBR_TWR:SBBR_TWR:SBBS
+DISPLAY:SBBS:SBBR_TWR:SBBS
+COORD:S015.38.42.000:W048.26.15.000
+COORD:S016.10.46.000:W048.23.35.000
+COORD:S016.06.30.000:W047.23.29.000
+COORD:S015.34.25.000:W047.25.58.000
+COORD:S015.38.47.000:W048.26.15.000
+COORD:S015.38.42.000:W048.26.15.000
+COORD:S016.10.46.000:W048.23.35.000
+COORD:S016.06.30.000:W047.23.29.000
+COORD:S015.34.25.000:W047.25.58.000
+COORD:S015.38.47.000:W048.26.15.000
+COORD:S015.38.42.000:W048.26.15.000
+SECTOR:SBBR_TWR:0:6500
+OWNER:TBR:PNT:ZEU
+BORDER:SBBR_TWR
+
+;SBCN R-TWR 2018 (CALDAS NOVAS)
+SECTORLINE:SBCN_R_TWR
+DISPLAY:SBCN_R_TWR:SBCN_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBCN_R_TWR
+DISPLAY:SBIT_TWR:SBCN_R_TWR:SBIT_TWR
+DISPLAY:SBXW_APP:SBCN_R_TWR:SBXW_APP
+COORD:S017.17.01.133:W048.41.34.679
+COORD:S017.17.04.782:W048.31.54.008
+COORD:S017.20.17.182:W048.22.34.414
+COORD:S017.26.14.406:W048.15.05.911
+COORD:S017.34.26.315:W048.10.17.672
+COORD:S017.43.37.010:W048.08.42.073
+COORD:S017.52.52.315:W048.10.17.108
+COORD:S018.00.53.869:W048.15.09.670
+COORD:S018.06.52.924:W048.22.33.830
+COORD:S018.10.09.968:W048.31.50.760
+COORD:S018.10.14.804:W048.41.38.599
+COORD:S018.10.13.677:W048.41.41.234
+COORD:S018.07.00.444:W048.50.41.501
+COORD:S018.01.00.688:W048.58.08.831
+COORD:S017.52.50.462:W049.03.07.319
+COORD:S017.43.31.559:W049.04.48.254
+COORD:S017.34.23.334:W049.03.10.518
+COORD:S017.26.18.121:W048.58.19.417
+COORD:S017.20.16.258:W048.50.47.643
+COORD:S017.17.01.133:W048.41.34.679
+SECTOR:SBCN_R_TWR:0:14500
+OWNER:TCN
+BORDER:SBCN_R_TWR
+
+;SBKP TWR 2018 (CAMPINAS)
+SECTORLINE:SBKP_TWR
+DISPLAY:SBKP_TWR:SBKP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBKP_TWR:SBXP_APP
+DISPLAY:SBKP_TWR:SBKP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBKP_TWR:SBXP_F_APP
+DISPLAY:SBKP_TWR:SBKP_TWR:SBBS
+DISPLAY:SBBS:SBKP_TWR:SBBS
+DISPLAY:SBKP_TWR:SBKP_TWR:SBCW-N
+DISPLAY:SBCW:SBKP_TWR:SBCW
+DISPLAY:SBXQ_APP:SBKP_TWR:SBXQ_APP
+COORD:S023.09.23.000:W047.03.30.000
+COORD:S023.01.50.000:W046.57.12.000
+COORD:S022.49.39.000:W047.14.13.000
+COORD:S022.59.05.000:W047.22.06.000
+COORD:S023.08.35.000:W047.08.52.000
+COORD:S023.09.23.000:W047.03.30.000
+SECTOR:SBKP_TWR:0:3600
+OWNER:TKP
+BORDER:SBKP_TWR
+
+;SBGP TWR 2018 (GAVIAO PEIXOTO)
+SECTORLINE:SBGP_TWR
+DISPLAY:SBGP_TWR:SBGP_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBGP_TWR:SBXQ_APP
+DISPLAY:SBAQ_TWR:SBGP_TWR:SBAQ_TWR
+DISPLAY:SBBS:SBGP_TWR:SBBS
+DISPLAY:SBCW:SBGP_TWR:SBCW
+COORD:S021.35.51.984:W048.24.16.992
+COORD:S021.36.01.089:W048.26.09.050
+COORD:S021.36.28.128:W048.27.57.715
+COORD:S021.37.12.282:W048.29.39.695
+COORD:S021.38.12.214:W048.31.11.898
+COORD:S021.39.26.107:W048.32.31.529
+COORD:S021.40.51.723:W048.33.36.166
+COORD:S021.42.26.465:W048.34.23.842
+COORD:S021.44.07.457:W048.34.53.102
+COORD:S021.45.51.636:W048.35.03.045
+COORD:S021.47.35.835:W048.34.53.358
+COORD:S021.49.16.888:W048.34.24.325
+COORD:S021.50.51.722:W048.33.36.816
+COORD:S021.52.17.452:W048.32.32.268
+COORD:S021.53.31.466:W048.31.12.637
+COORD:S021.54.31.512:W048.29.40.344
+COORD:S021.55.15.759:W048.27.58.197
+COORD:S021.55.42.858:W048.26.09.307
+COORD:S021.55.51.984:W048.24.16.992
+COORD:S021.55.42.858:W048.22.24.677
+COORD:S021.55.15.759:W048.20.35.787
+COORD:S021.54.31.512:W048.18.53.640
+COORD:S021.53.31.466:W048.17.21.347
+COORD:S021.52.17.452:W048.16.01.716
+COORD:S021.50.51.722:W048.14.57.168
+COORD:S021.49.16.888:W048.14.09.659
+COORD:S021.47.35.835:W048.13.40.626
+COORD:S021.45.51.636:W048.13.30.939
+COORD:S021.44.07.457:W048.13.40.882
+COORD:S021.42.26.465:W048.14.10.142
+COORD:S021.40.51.723:W048.14.57.818
+COORD:S021.39.26.107:W048.16.02.455
+COORD:S021.38.12.214:W048.17.22.086
+COORD:S021.37.12.282:W048.18.54.289
+COORD:S021.36.28.128:W048.20.36.269
+COORD:S021.36.01.089:W048.22.24.934
+COORD:S021.35.51.984:W048.24.16.992
+SECTOR:SBGP_TWR:0:5500
+OWNER:TGP
+BORDER:SBGP_TWR
+
+;SBGO TWR 2018 (GOIANIA)
+SECTORLINE:SBGO_TWR
+DISPLAY:SBGO_TWR:SBGO_TWR:SBXN_APP
+DISPLAY:SBGO_TWR:SBGO_TWR:SBBS
+DISPLAY:SBXN_APP:SBGO_TWR:SBXN_APP
+DISPLAY:SBGO_TWR:SBAN_TWR:SBGO_TWR
+DISPLAY:SBBS:SBGO_TWR:SBBS
+COORD:S016.33.37.000:W049.00.49.000
+COORD:S016.27.19.000:W049.22.40.000
+COORD:S016.29.36.000:W049.25.04.000
+COORD:S016.32.58.000:W049.27.04.000
+COORD:S016.36.45.000:W049.28.13.000
+COORD:S016.41.10.000:W049.27.53.000
+COORD:S016.45.09.000:W049.26.40.000
+COORD:S016.47.40.000:W049.25.01.000
+COORD:S016.50.06.000:W049.22.53.000
+COORD:S016.51.43.000:W049.20.16.000
+COORD:S016.52.30.000:W049.18.27.000
+COORD:S016.53.12.000:W049.16.26.000
+COORD:S016.53.31.000:W049.14.28.000
+COORD:S016.53.31.000:W049.12.49.000
+COORD:S016.53.20.000:W049.10.19.000
+COORD:S016.52.43.000:W049.07.41.000
+COORD:S016.51.53.000:W049.05.30.000
+COORD:S016.50.42.000:W049.03.31.000
+COORD:S016.49.40.000:W049.02.16.000
+COORD:S016.48.34.000:W049.01.21.000
+COORD:S016.47.36.000:W049.00.23.000
+COORD:S016.46.12.000:W048.59.37.000
+COORD:S016.44.47.000:W048.58.46.000
+COORD:S016.43.21.000:W048.58.14.000
+COORD:S016.42.15.000:W048.57.52.000
+COORD:S016.38.26.000:W048.57.30.000
+COORD:S016.37.26.000:W048.57.38.000
+COORD:S016.34.15.000:W048.58.06.000
+COORD:S016.33.37.000:W049.00.49.000
+SECTOR:SBGO_TWR:0:6500
+OWNER:TGO
+BORDER:SBGO_TWR
+
+;SBIP R-TWR 2018 (IPATINGA)
+SECTORLINE:SBIP_R_TWR
+DISPLAY:SBIP_R_TWR:SBIP_R_TWR:SBBS
+DISPLAY:SBIP_TWR:SBIP_R_TWR:SBCW
+DISPLAY:SBBS:SBIP_R_TWR:SBBS
+DISPLAY:SBCW:SBIP_R_TWR:SBCW
+COORD:S019.01.38.021:W042.24.24.948
+COORD:S019.04.50.964:W042.15.12.501
+COORD:S019.10.53.581:W042.07.44.797
+COORD:S019.19.00.518:W042.02.51.595
+COORD:S019.28.13.280:W042.01.10.576
+COORD:S019.37.27.079:W042.02.52.551
+COORD:S019.45.34.425:W042.07.45.306
+COORD:S019.51.35.315:W042.15.11.786
+COORD:S019.54.50.862:W042.24.23.487
+COORD:S019.54.49.084:W042.34.13.330 
+COORD:S019.51.36.727:W042.43.19.516
+COORD:S019.45.35.226:W042.50.48.281
+COORD:S019.37.27.026:W042.55.41.987
+COORD:S019.28.14.264:W042.57.23.006 
+COORD:S019.18.59.446:W042.55.42.192
+COORD:S019.10.51.469:W042.50.49.689
+COORD:S019.04.50.726:W042.43.21.644
+COORD:S019.01.38.187:W042.34.10.248
+COORD:S019.01.38.021:W042.24.24.948
+SECTOR:SBIP_R_TWR:0:14500
+OWNER:TIP
+BORDER:SBIP_R_TWR
+
+;SBIT R-TWR 2018 (ITUMBIARA)
+SECTORLINE:SBIT_R_TWR
+DISPLAY:SBIT_R_TWR:SBIT_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBIT_R_TWR
+DISPLAY:SBIT_R_TWR:SBIT_R_TWR:SBXW_APP
+COORD:S018.09.21.873:W049.34.24.085
+COORD:S018.03.18.863:W049.26.55.077
+COORD:S018.00.06.787:W049.17.45.485
+COORD:S018.00.07.125:W049.07.58.567
+COORD:S018.03.19.614:W048.58.47.718
+COORD:S018.09.21.760:W048.51.18.816
+COORD:S018.17.28.559:W048.46.26.966
+COORD:S018.26.41.884:W048.44.45.510
+COORD:S018.35.56.727:W048.46.27.882
+COORD:S018.44.03.066:W048.51.20.105
+COORD:S018.50.04.089:W048.58.47.495
+COORD:S018.53.17.344:W049.07.59.028
+COORD:S018.53.16.790:W049.17.44.103
+COORD:S018.50.05.108:W049.26.54.630
+COORD:S018.44.03.460:W049.34.22.369
+COORD:S018.35.55.914:W049.39.15.964
+COORD:S018.26.42.185:W049.40.57.581
+COORD:S018.17.28.460:W049.39.15.726
+COORD:S018.09.21.873:W049.34.24.085
+SECTOR:SBIT_R_TWR:0:14500
+OWNER:TIT
+BORDER:SBIT_R_TWR
+
+;SBJD TWR 2018 (JUNDIAI)
+SECTORLINE:SBJD_TWR
+DISPLAY:SBJD_TWR:SBJD_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBJD_TWR:SBXP_APP
+DISPLAY:SBJD_TWR:SBJD_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBJD_TWR
+DISPLAY:SBBS:SBJD_TWR:SBBS
+DISPLAY:SBCW:SBJD_TWR:SBCW
+COORD:S023.07.02.000:W047.00.04.000
+COORD:S023.06.18.000:W046.58.52.000
+COORD:S023.05.57.000:W046.57.30.000
+COORD:S023.05.51.000:W046.56.21.000
+COORD:S023.05.58.000:W046.55.13.000
+COORD:S023.06.29.000:W046.53.53.000
+COORD:S023.07.22.000:W046.52.51.000
+COORD:S023.08.22.000:W046.51.56.000
+COORD:S023.09.45.000:W046.51.18.000
+COORD:S023.11.16.000:W046.51.15.000
+COORD:S023.12.41.000:W046.51.35.000
+COORD:S023.13.40.000:W046.52.17.000
+COORD:S023.14.44.000:W046.53.17.000
+COORD:S023.15.34.000:W046.54.33.000
+COORD:S023.15.51.000:W046.56.02.000
+COORD:S023.07.02.000:W047.00.04.000
+SECTOR:SBJD_TWR:0:5500
+OWNER:TJD
+BORDER:SBJD_TWR
+
+;SBLS TWR 2018 (LAGOA SANTA) 
+CIRCLE_SECTORLINE:SBLS_TWR:S019.39.32.040:W043.53.48.959:5
+DISPLAY:SBLS_TWR:SBLS_TWR:SBWH_APP
+DISPLAY:SBLS_TWR:SBBH_TWR:SBLS_TWR
+DISPLAY:SBLS_TWR:SBLS_TWR:SBCF_TWR
+DISPLAY:SBWH_APP:SBLS_TWR:SBWH_APP
+DISPLAY:SBLS_TWR:SBPR_TWR:SBLS_TWR
+DISPLAY:SBBS:SBLS_TWR:SBBS
+SECTOR:SBLS_TWR:0:5500
+OWNER:TLS
+BORDER:SBLS_TWR
+
+;SBMK R-TWR 2018 (MONTES CLAROS)
+SECTORLINE:SBMK_R_TWR
+DISPLAY:SBMK_R_TWR:SBMK_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBMK_R_TWR
+COORD:S016.15.47.473:W043.54.14.856
+COORD:S016.15.46.448:W043.44.25.756
+COORD:S016.18.59.621:W043.35.14.913
+COORD:S016.24.59.895:W043.27.48.710
+COORD:S016.33.08.665:W043.22.54.588
+COORD:S016.42.23.852:W043.21.15.236
+COORD:S016.51.37.458:W043.22.55.217
+COORD:S016.59.42.281:W043.27.46.531
+COORD:S017.05.42.782:W043.35.13.919
+COORD:S017.08.57.564:W043.44.28.940
+COORD:S017.08.58.652:W043.54.13.306
+COORD:S017.05.45.966:W044.03.23.014
+COORD:S016.59.42.839:W044.10.51.298
+COORD:S016.51.39.104:W044.15.44.351
+COORD:S016.42.23.248:W044.17.26.794
+COORD:S016.33.09.339:W044.15.45.993
+COORD:S016.25.01.727:W044.10.52.026
+COORD:S016.18.58.860:W044.03.25.583
+COORD:S016.15.47.473:W043.54.14.856
+SECTOR:SBMK_R_TWR:0:14500
+OWNER:TMK
+BORDER:SBMK_R_TWR
+
+;SBXD APP 2018 (APP PALMAS)
+SECTORLINE:SBXD_APP
+DISPLAY:SBXD_APP:SBXD_APP:SBBS
+DISPLAY:SBBS:SBBS:SBXD_APP
+DISPLAY:SBXD_APP:SBAZ:SBXD_APP
+DISPLAY:SBXD_APP:SBXD_APP:SBRE
+DISPLAY:SBRE:SBRE:SBXD_APP
+DISPLAY:SBXD_APP:SBXD_APP:SBAZ
+DISPLAY:SBAZ:SBAZ:SBXD_APP
+COORD:S009.39.20.000:W048.09.38.000
+COORD:S009.37.25.000:W048.21.28.000
+COORD:S009.41.19.000:W048.38.51.000
+COORD:S009.51.52.000:W048.52.36.000
+COORD:S010.02.40.000:W048.59.17.000
+COORD:S010.10.46.000:W049.01.35.000
+COORD:S010.15.45.000:W049.02.13.000
+COORD:S010.22.43.000:W049.02.09.000
+COORD:S010.29.07.000:W049.00.30.000
+COORD:S010.35.07.000:W048.58.16.000
+COORD:S010.40.37.000:W048.54.49.000
+COORD:S010.45.48.000:W048.50.37.000
+COORD:S010.49.08.000:W048.46.35.000
+COORD:S010.53.06.000:W048.40.39.000
+COORD:S010.55.37.000:W048.35.03.000
+COORD:S010.57.13.000:W048.28.58.000
+COORD:S010.57.52.000:W048.23.52.000
+COORD:S010.57.46.000:W048.19.05.000
+COORD:S010.56.57.000:W048.14.00.000
+COORD:S010.55.58.000:W048.08.54.000
+COORD:S010.54.16.000:W048.05.26.000
+COORD:S010.52.29.000:W048.01.10.000
+COORD:S010.50.07.000:W047.58.03.000
+COORD:S010.47.56.000:W047.54.55.000
+COORD:S010.44.55.000:W047.51.48.000
+COORD:S010.41.20.000:W047.48.45.000
+COORD:S010.37.17.000:W047.46.02.000
+COORD:S010.31.44.000:W047.43.23.000
+COORD:S010.25.44.000:W047.41.45.000
+COORD:S010.16.43.000:W047.41.06.000
+COORD:S010.09.45.000:W047.41.42.000
+COORD:S009.53.53.000:W047.48.36.000
+COORD:S009.43.38.000:W047.59.54.000
+COORD:S009.39.20.000:W048.09.38.000
+SECTOR:SBXD_APP:3500:14500
+OWNER:XD
+BORDER:SBXD_APP
+
+;SBPJ 2018 (TWR PALMAS)
+SECTORLINE:SBPJ_TWR
+DISPLAY:SBPJ_TWR:SBPJ_TWR:SBXD_APP
+DISPLAY:SBXD_APP:SBPJ_TWR:SBXD_APP
+DISPLAY:SBPJ_TWR:SBPJ_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBPJ_TWR
+COORD:S010.02.16.800:W048.21.30.600
+COORD:S010.02.30.462:W048.24.09.314
+COORD:S010.03.11.035:W048.26.43.217
+COORD:S010.04.17.289:W048.29.07.642
+COORD:S010.05.47.214:W048.31.18.207
+COORD:S010.07.38.083:W048.33.10.951
+COORD:S010.09.46.534:W048.34.42.446
+COORD:S010.12.08.668:W048.35.49.910
+COORD:S010.14.40.172:W048.36.31.286
+COORD:S010.17.16.444:W048.36.45.306
+COORD:S010.19.52.737:W048.36.31.534
+COORD:S010.22.24.302:W048.35.50.376
+COORD:S010.24.46.532:W048.34.43.074
+COORD:S010.26.55.099:W048.33.11.664
+COORD:S010.28.46.092:W048.31.18.921
+COORD:S010.30.16.133:W048.29.08.269
+COORD:S010.31.22.481:W048.26.43.683
+COORD:S010.32.03.116:W048.24.09.562
+COORD:S010.32.16.800:W048.21.30.600
+COORD:S010.32.03.116:W048.18.51.638
+COORD:S010.31.22.481:W048.16.17.517
+COORD:S010.30.16.133:W048.13.52.931
+COORD:S010.28.46.092:W048.11.42.279
+COORD:S010.26.55.099:W048.09.49.536
+COORD:S010.24.46.532:W048.08.18.126
+COORD:S010.22.24.302:W048.07.10.824
+COORD:S010.19.52.737:W048.06.29.666
+COORD:S010.17.16.444:W048.06.15.894
+COORD:S010.14.40.172:W048.06.29.914
+COORD:S010.12.08.668:W048.07.11.290
+COORD:S010.09.46.534:W048.08.18.754
+COORD:S010.07.38.083:W048.09.50.249
+COORD:S010.05.47.214:W048.11.42.993
+COORD:S010.04.17.289:W048.13.53.558
+COORD:S010.03.11.035:W048.16.17.983
+COORD:S010.02.30.462:W048.18.51.886
+COORD:S010.02.16.800:W048.21.30.600
+SECTOR:SBPJ_TWR:0:3500
+OWNER:TPJ
+BORDER:SBPJ_TWR
+
+;SBPC R-TWR 2018 (POCOS DE CALDAS)
+SECTORLINE:SBPC_R_TWR
+DISPLAY:SBPC_R_TWR:SBPC_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBPC_R_TWR
+DISPLAY:SBXQ_APP:SBPC_R_TWR:SBXQ_APP
+COORD:S021.37.24.660:W046.49.56.469
+COORD:S021.32.59.001:W046.44.24.882
+COORD:S021.30.34.120:W046.37.36.422
+COORD:S021.30.33.811:W046.30.21.853
+COORD:S021.32.56.488:W046.23.33.790
+COORD:S021.37.27.321:W046.18.00.347
+COORD:S021.43.27.075:W046.14.24.318
+COORD:S021.50.17.400:W046.13.09.308
+COORD:S021.57.07.582:W046.14.25.028
+COORD:S022.03.07.307:W046.18.00.690
+COORD:S022.07.34.228:W046.23.31.772
+COORD:S022.09.58.574:W046.30.22.706
+COORD:S022.09.58.156:W046.37.35.306
+COORD:S022.07.34.848:W046.44.23.620
+COORD:S022.03.07.170:W046.49.55.803
+COORD:S021.57.06.154:W046.53.32.337
+COORD:S021.50.15.829:W046.54.47.347
+COORD:S021.43.25.500:W046.53.33.191
+COORD:S021.37.24.660:W046.49.56.469
+SECTOR:SBPC_R_TWR:0:14500
+OWNER:TPC
+BORDER:SBPC_R_TWR
+
+;SBRP TWR 2018 (RIBEIRAO PRETO)
+SECTORLINE:SBRP_TWR
+DISPLAY:SBRP_TWR:SBRP_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBRP_TWR:SBXQ_APP
+DISPLAY:SBBS:SBBS:SBRP_TWR
+COORD:S020.54.33.720:W047.46.33.600
+COORD:S020.54.46.462:W047.49.09.751
+COORD:S020.55.24.301:W047.51.41.178
+COORD:S020.56.26.094:W047.54.03.301
+COORD:S020.57.49.970:W047.56.11.815
+COORD:S020.59.33.392:W047.58.02.823
+COORD:S021.01.33.225:W047.59.32.952
+COORD:S021.03.45.840:W048.00.39.456
+COORD:S021.06.07.215:W048.01.20.300
+COORD:S021.08.33.059:W048.01.34.225
+COORD:S021.10.58.942:W048.01.20.785
+COORD:S021.13.20.432:W048.00.40.367
+COORD:S021.15.33.223:W047.59.34.180
+COORD:S021.17.33.272:W047.58.04.220
+COORD:S021.19.16.923:W047.56.13.212
+COORD:S021.20.41.015:W047.54.04.530
+COORD:S021.21.42.984:W047.51.42.090
+COORD:S021.22.20.938:W047.49.10.236
+COORD:S021.22.33.720:W047.46.33.600
+COORD:S021.22.20.938:W047.43.56.964
+COORD:S021.21.42.984:W047.41.25.110
+COORD:S021.20.41.015:W047.39.02.670
+COORD:S021.19.16.923:W047.36.53.988
+COORD:S021.17.33.272:W047.35.02.980
+COORD:S021.15.33.223:W047.33.33.020
+COORD:S021.13.20.432:W047.32.26.833
+COORD:S021.10.58.942:W047.31.46.415
+COORD:S021.08.33.059:W047.31.32.975
+COORD:S021.06.07.215:W047.31.46.900
+COORD:S021.03.45.840:W047.32.27.744
+COORD:S021.01.33.225:W047.33.34.248
+COORD:S020.59.33.392:W047.35.04.377
+COORD:S020.57.49.970:W047.36.55.385
+COORD:S020.56.26.094:W047.39.03.899
+COORD:S020.55.24.301:W047.41.26.022
+COORD:S020.54.46.462:W047.43.57.449
+COORD:S020.54.33.720:W047.46.33.600
+SECTOR:SBRP_TWR:0:5500
+OWNER:TRP
+BORDER:SBRP_TWR
+
+;SBSR R-TWR 2018 (SAO JOSE DO RIO PRETO)
+SECTORLINE:SBSR_R_TWR
+DISPLAY:SBSR_R_TWR:SBSR_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBSR_R_TWR
+DISPLAY:SBSR_R_TWR:SBSR_R_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBSR_R_TWR:SBXQ_APP
+COORD:S020.25.35.753:W049.10.11.716
+COORD:S020.31.36.216:W049.02.46.453
+COORD:S020.39.44.407:W048.57.52.789
+COORD:S020.48.58.332:W048.56.11.967
+COORD:S020.58.12.772:W048.57.52.933
+COORD:S021.06.17.750:W049.02.44.236
+COORD:S021.12.21.326:W049.10.14.464
+COORD:S021.15.33.760:W049.19.24.396
+COORD:S021.15.33.624:W049.29.09.666
+COORD:S021.12.21.352:W049.38.20.790
+COORD:S021.06.21.288:W049.45.47.172
+COORD:S020.58.14.340:W049.50.41.132
+COORD:S020.48.57.870:W049.52.23.482
+COORD:S020.39.43.430:W049.50.42.516
+COORD:S020.31.36.348:W049.45.48.903
+COORD:S020.25.34.944:W049.38.21.423
+COORD:S020.22.22.434:W049.29.09.714
+COORD:S020.22.22.829:W049.19.24.151
+COORD:S020.25.35.753:W049.10.11.716
+SECTOR:SBSR_R_TWR:0:14500
+OWNER:TSR
+BORDER:SBSR_R_TWR
+
+;SBXP APP 2018 (SAO PAULO)
+SECTORLINE:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_APP:SBCW
+DISPLAY:SBCW:SBXP_APP:SBCW
+DISPLAY:SBXP_APP:SBXP_APP:SBBS
+DISPLAY:SBBS:SBXP_APP:SBBS
+DISPLAY:SBWJ_APP:SBXP_APP:SBWJ_APP
+DISPLAY:SBGW_M_APP:SBXP_APP:SBGW_M_APP
+DISPLAY:SBXQ_APP:SBXP_APP:SBXQ_APP
+COORD:S022.41.01.405:W044.17.59.692
+COORD:S022.51.35.808:W044.29.27.640
+COORD:S023.01.51.000:W044.40.35.400
+COORD:S023.38.53.735:W044.10.06.862
+COORD:S023.55.05.000:W045.22.18.000
+COORD:S024.05.09.000:W046.04.10.000
+COORD:S024.20.47.000:W046.10.45.000
+COORD:S024.27.14.000:W046.55.02.000
+COORD:S024.10.29.201:W047.07.01.414
+COORD:S023.32.23.400:W047.34.18.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S022.28.02.000:W046.58.37.000
+COORD:S022.55.11.452:W045.47.13.340
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S022.41.01.405:W044.17.59.692
+SECTOR:SBXP_APP:5500:19500
+OWNER:XP:XPH:XPV
+BORDER:SBXP_APP
+;SBXP APP FINAL 2018 (SAO PAULO FINAL)
+SECTORLINE:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_F_APP:SBXP_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBCW
+DISPLAY:SBCW:SBXP_F_APP:SBCW
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBBS
+DISPLAY:SBBS:SBXP_F_APP:SBBS
+COORD:S023.14.42.000:W047.05.37.000
+COORD:S023.02.05.000:W047.23.10.000
+COORD:S022.57.26.000:W047.23.12.000
+COORD:S022.54.33.000:W047.22.07.000
+COORD:S022.51.38.000:W047.20.18.000
+COORD:S022.49.23.000:W047.18.05.000
+COORD:S022.46.57.000:W047.14.13.000
+COORD:S022.46.04.000:W047.09.59.000
+COORD:S022.59.44.000:W046.51.12.000
+COORD:S022.59.12.000:W046.44.26.000
+COORD:S023.09.24.000:W046.32.07.000
+COORD:S023.15.33.000:W046.12.17.000
+COORD:S023.23.02.000:W046.07.45.000
+COORD:S023.49.47.000:W046.26.02.000
+COORD:S023.51.13.000:W046.38.28.000
+COORD:S023.34.04.000:W047.03.43.000
+COORD:S023.14.42.000:W047.05.37.000
+SECTOR:SBXP_F_APP:3600:5500
+OWNER:XPF
+BORDER:SBXP_F_APP
+
+;SBSJ TWR 2018 (SAO JOSE DOS CAMPOS)
+SECTORLINE:SBSJ_TWR
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBSJ_TWR:SBXP_APP
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBSJ_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBSJ_TWR:SBBS
+DISPLAY:SBCW:SBSJ_TWR:SBCW
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBGW_M_APP
+DISPLAY:SBGW_M_APP:SBSJ_TWR:SBGW_M_APP
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBTA_M_TWR
+DISPLAY:SBTA_M_TWR:SBSJ_TWR:SBTA_M_TWR
+COORD:S023.09.58.000:W046.07.47.000
+COORD:S022.57.14.000:W045.53.29.000
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S023.03.26.000:W045.36.33.000
+COORD:S023.04.54.000:W045.44.36.000
+COORD:S023.15.25.000:W045.33.09.000
+COORD:S023.23.13.000:W045.41.24.000
+COORD:S023.21.01.000:W045.57.13.000
+COORD:S023.14.35.000:W046.03.15.000
+COORD:S023.09.58.000:W046.07.47.000
+SECTOR:SBSJ_TWR:0:5500
+OWNER:TSJ
+BORDER:SBSJ_TWR
+
+;SBST MILITARY TWR 2018 (SANTOS)
+SECTORLINE:SBST_M_TWR
+DISPLAY:SBST_M_TWR:SBST_M_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBST_M_TWR:SBXP_APP
+DISPLAY:SBST_M_TWR:SBST_M_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBST_M_TWR:SBXP_F_APP
+DISPLAY:SBCW:SBCW:SBST_TWR
+COORD:S023.53.58.000:W046.29.22.000
+COORD:S024.07.12.000:W046.20.26.000
+COORD:S024.07.38.000:W046.18.29.000
+COORD:S024.07.34.000:W046.16.21.000
+COORD:S024.07.10.000:W046.14.08.000
+COORD:S024.06.06.000:W046.11.30.000
+COORD:S024.04.48.000:W046.09.29.000
+COORD:S024.02.45.000:W046.07.23.000
+COORD:S024.00.15.000:W046.05.50.000
+COORD:S023.44.08.000:W046.17.07.000
+COORD:S023.53.58.000:W046.29.22.000
+SECTOR:SBST_M_TWR:0:5500
+OWNER:TST
+BORDER:SBST_M_TWR
+
+;SBSP TWR 2018 (CONGONHAS)
+SECTORLINE:SBSP_TWR
+DISPLAY:SBSP_TWR:SBSP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBSP_TWR:SBXP_APP
+DISPLAY:SBSP_TWR:SBSP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBSP_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBSP_TWR:SBBS
+DISPLAY:SBCW:SBSP_TWR:SBCW
+COORD:S023.33.09.000:W046.45.38.000
+COORD:S023.31.32.000:W046.42.53.000
+COORD:S023.31.40.000:W046.40.13.000
+COORD:S023.42.06.000:W046.33.01.000
+COORD:S023.44.47.000:W046.37.36.000
+COORD:S023.33.09.000:W046.45.38.000
+SECTOR:SBSP_TWR:0:3600
+OWNER:TSP
+BORDER:SBSP_TWR
+
+;SBGR TWR 2018 (GUARULLHOS)
+SECTORLINE:SBGR_TWR
+DISPLAY:SBGR_TWR:SBGR_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_APP:SBGR_TWR
+DISPLAY:SBBS:SBGR_TWR:SBBS
+DISPLAY:SBCW:SBGR_TWR:SBCW
+COORD:S023.25.42.000:W046.37.21.000
+COORD:S023.21.07.000:W046.20.25.000
+COORD:S023.26.08.000:W046.18.49.000
+COORD:S023.29.50.000:W046.32.32.000
+COORD:S023.29.12.000:W046.36.15.000
+COORD:S023.25.42.000:W046.37.21.000
+SECTOR:SBGR_TWR:0:3600
+OWNER:TGR
+BORDER:SBGR_TWR
+
+;SBMT TWR 2018 (MARTE)
+SECTORLINE:SBMT_TWR
+DISPLAY:SBMT_TWR:SBMT_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBMT_TWR:SBXP_APP
+DISPLAY:SBMT_TWR:SBMT_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBMT_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBMT_TWR:SBBS
+DISPLAY:SBCW:SBMT_TWR:SBCW
+COORD:S023.30.36.000:W046.34.42.000
+COORD:S023.29.24.000:W046.41.41.000
+COORD:S023.30.30.000:W046.41.55.000
+COORD:S023.30.53.277:W046.41.27.385
+COORD:S023.31.27.010:W046.40.34.890
+COORD:S023.31.51.866:W046.39.36.797
+COORD:S023.32.07.090:W046.38.34.875
+COORD:S023.32.12.216:W046.37.31.008
+COORD:S023.32.07.090:W046.36.27.141
+COORD:S023.31.51.866:W046.35.25.219
+COORD:S023.31.41.000:W046.34.55.000
+COORD:S023.30.36.000:W046.34.42.000
+SECTOR:SBMT_TWR:0:3600
+OWNER:TMT
+BORDER:SBMT_TWR
+
+;SBUR APP 2018 (UBERABA)
+SECTORLINE:SBXU_APP
+DISPLAY:SBXU_APP:SBXU_APP:SBBS
+DISPLAY:SBXU_APP:SBXU_APP:SBXW_APP
+DISPLAY:SBBS:SBXU_APP:SBBS
+COORD:S019.09.37.000:W047.08.08.000
+COORD:S019.32.18.000:W046.58.12.000
+COORD:S019.41.03.000:W046.56.09.000
+COORD:S020.12.49.000:W046.59.03.000
+COORD:S020.35.33.000:W047.22.14.000
+COORD:S020.32.52.000:W047.50.53.000
+COORD:S020.33.28.000:W048.01.05.000
+COORD:S020.35.06.000:W048.34.59.000
+COORD:S019.25.53.000:W048.53.55.000
+COORD:S019.19.17.000:W048.04.47.000
+COORD:S019.09.37.000:W047.08.08.000
+SECTOR:SBXU_APP:0:19500
+OWNER:XU
+BORDER:SBXU_APP
+
+;SBUR TWR 2018 (UBERABA)
+SECTORLINE:SBUR_TWR
+DISPLAY:SBUR_TWR:SBUR_TWR:SBXU_APP
+DISPLAY:SBXU_APP:SBUR_TWR:SBXU_APP
+DISPLAY:SBUR_TWR:SBUR_TWR:SBBS
+COORD:S019.32.51.277:W048.05.21.524
+COORD:S019.31.14.692:W048.00.22.854
+COORD:S019.31.9.553:W047.54.53.630
+COORD:S019.32.54.797:W047.49.48.005
+COORD:S019.36.23.805:W047.45.20.752
+COORD:S019.40.42.675:W047.42.53.621
+COORD:S019.45.48.242:W047.41.55.100
+COORD:S019.51.4.879:W047.42.46.865
+COORD:S019.55.30.775:W047.45.31.889
+COORD:S019.58.49.837:W047.49.35.383
+COORD:S020.00.44.721:W047.55.3.917
+COORD:S020.00.40.079:W048.00.16.404
+COORD:S019.58.54.835:W048.05.22.029
+COORD:S019.55.23.302:W048.09.42.061
+COORD:S019.50.52.764:W048.12.9.525
+COORD:S019.45.43.728:W048.13.9.360
+COORD:S019.40.43.171:W048.12.7.414
+COORD:S019.36.22.325:W048.09.36.831
+COORD:S019.32.51.277:W048.05.21.524
+SECTOR:SBUR_TWR:0:5500
+OWNER:TUR
+BORDER:SBUR_TWR
+
+;SBXW APP 2018 (UBERLANDIA)
+SECTORLINE:SBXW_APP
+DISPLAY:SBXW_APP:SBXW_APP:SBBS
+DISPLAY:SBBS:SBXW_APP:SBBS
+DISPLAY:SBXW_APP:SBXW_APP:SBXU_APP
+COORD:S019.09.37.000:W047.08.08.000
+COORD:S018.26.45.000:W047.40.59.000
+COORD:S018.17.27.000:W047.53.01.000
+COORD:S018.13.04.000:W048.08.20.000
+COORD:S018.12.50.000:W048.10.58.000
+COORD:S018.12.41.000:W048.14.36.000
+COORD:S018.13.09.000:W048.18.23.000
+COORD:S018.13.51.000:W048.21.02.000
+COORD:S018.14.24.000:W048.24.39.000
+COORD:S018.15.55.000:W048.28.08.000
+COORD:S018.35.12.000:W048.50.37.000
+COORD:S018.48.57.000:W048.53.05.000
+COORD:S018.56.35.000:W048.54.38.000
+COORD:S019.07.53.000:W048.54.23.000
+COORD:S019.25.53.000:W048.53.55.000
+COORD:S019.19.17.000:W048.04.47.000
+COORD:S019.09.37.000:W047.08.08.000
+SECTOR:SBXW_APP:0:19500
+OWNER:XW
+BORDER:SBXW_APP
+
+;SBUL TWR 2018 (UBERLANDIA)
+SECTORLINE:SBUL_TWR
+DISPLAY:SBUL_TWR:SBUL_TWR:SBXW_APP
+DISPLAY:SBXW_APP:SBUL_TWR:SBXW_APP
+DISPLAY:SBUL_TWR:SBUL_TWR:SBBS
+DISPLAY:SBUL_TWR:SBBS:SBUL_TWR
+COORD:S018.45.43.943:W048.32.53.920
+COORD:S018.39.57.300:W048.29.17.716
+COORD:S018.35.55.009:W048.23.44.297
+COORD:S018.34.00.125:W048.18.15.763
+COORD:S018.33.32.605:W048.13.23.636
+COORD:S018.33.57.128:W048.08.56.768
+COORD:S018.35.19.785:W048.05.00.989
+COORD:S018.37.06.536:W048.01.41.134
+COORD:S018.40.07.796:W047.57.24.394
+COORD:S018.44.52.195:W047.54.06.705
+COORD:S018.52.14.620:W047.52.32.692
+COORD:S018.59.32.045:W047.53.44.115
+COORD:S019.05.27.831:W047.57.12.767
+COORD:S019.09.42.735:W048.02.37.319
+COORD:S019.12.18.962:W048.09.52.848
+COORD:S019.12.20.976:W048.17.05.469
+COORD:S019.09.56.341:W048.23.51.876
+COORD:S019.05.16.711:W048.29.26.768
+COORD:S018.59.16.627:W048.32.52.686
+COORD:S018.52.33.301:W048.34.03.710
+COORD:S018.45.43.943:W048.32.53.920
+SECTOR:SBUL_TWR:0:5500
+OWNER:TUL
+BORDER:SBUL_TWR
+
+;SBVG 2018 (R-AFIS VARGINHA)
+SECTORLINE:SBVG_R_TWR
+DISPLAY:SBVG_R_TWR:SBVG_R_TWR:SBBS
+DISPLAY:SBBS:SBBS:SBVG_R_TWR
+DISPLAY:SBVG_R_TWR:SBVG_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBVG_R_TWR
+COORD:S021.17.57.080:W045.06.52.896
+COORD:S021.26.08.210:W045.02.00.215
+COORD:S021.35.20.219:W045.00.17.665
+COORD:S021.44.37.869:W045.01.58.189
+COORD:S021.52.37.594:W045.06.51.482
+COORD:S021.58.43.116:W045.14.21.795
+COORD:S022.01.56.927:W045.23.35.649
+COORD:S022.01.57.124:W045.33.16.603
+COORD:S021.58.48.530:W045.42.23.755
+COORD:S021.52.43.286:W045.49.53.277
+COORD:S021.44.32.357:W045.54.49.861
+COORD:S021.35.21.475:W045.56.29.777
+COORD:S021.26.07.484:W045.54.47.791
+COORD:S021.18.02.973:W045.49.58.594
+COORD:S021.11.54.494:W045.42.31.647
+COORD:S021.08.44.343:W045.33.16.331
+COORD:S021.08.43.443:W045.23.33.473
+COORD:S021.11.58.375:W045.14.15.052
+COORD:S021.17.57.080:W045.06.52.896
+SECTOR:SBVG_R_TWR:0:14500
+OWNER:TVG
+BORDER:SBVG_R_TWR
+;========================================FIR BRASILIA SBBS 2020 (AIRSPACE)=============================================;
+;========================================FIR CURITIBA SBCW 2020 (AIRSPACE)=============================================;
+;SBWJ APP 2018 (RIO DE JANEIRO)
+SECTORLINE:SBWJ_APP
+DISPLAY:SBWJ_APP:SBWJ_APP:SBCW
+DISPLAY:SBCW:SBCW:SBWJ_APP
+DISPLAY:SBES_APP:SBWJ_APP:SBES_APP
+DISPLAY:SBWE_APP:SBWJ_APP:SBWE_APP
+DISPLAY:SBXP_APP:SBWJ_APP:SBXP_APP
+DISPLAY:SBSC_M_APP:SBWJ_APP:SBSC_M_APP
+DISPLAY:SBWJ_APP:SBWJ_APP:SBBS
+DISPLAY:SBBS:SBBS:SBWJ_APP
+COORD:S023.01.51.000:W044.40.35.400
+COORD:S023.38.53.735:W044.10.06.861
+COORD:S023.48.24.078:W044.02.10.195
+COORD:S023.33.57.879:W043.07.32.505
+COORD:S023.11.08.627:W042.47.23.503
+COORD:S023.06.25.400:W042.30.01.800
+COORD:S023.02.33.969:W042.16.37.600
+COORD:S022.56.52.712:W041.54.55.460
+COORD:S022.52.25.007:W041.56.00.607
+COORD:S022.40.30.000:W041.59.48.001
+COORD:S022.38.25.430:W042.01.34.636
+COORD:S022.26.22.976:W042.11.49.451
+COORD:S022.23.51.000:W042.14.00.204
+COORD:S022.02.13.007:W042.33.09.613
+COORD:S022.11.56.398:W043.20.14.355
+COORD:S021.56.56.306:W043.42.16.681
+COORD:S022.05.46.351:W044.06.51.021
+COORD:S022.27.12.730:W044.03.05.492
+COORD:S022.33.41.950:W044.10.05.477
+COORD:S022.41.01.405:W044.17.59.692
+COORD:S022.51.35.808:W044.29.27.640
+COORD:S023.01.51.000:W044.40.35.400
+SECTOR:SBWJ_APP:5500:19500
+OWNER:WJ:WJH:WJV
+BORDER:SBWJ_APP
+;SBWJ FINAL APP 2020 (RIO DE JANEIRO FINAL)
+SECTORLINE:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBWJ_F_APP:SBCW
+DISPLAY:SBCW:SBCW:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBWJ_F_APP:SBWJ_APP
+DISPLAY:SBWJ_APP:SBWJ_F_APP:SBWJ_APP
+DISPLAY:SBSC_M_APP:SBWJ_F_APP:SBSC_M_APP
+COORD:S022.55.12.601:W042.54.47.927 
+COORD:S022.46.19.860:W042.56.25.330
+COORD:S022.31.15.490:W043.03.35.700 
+COORD:S022.28.53.172:W043.23.13.503 
+COORD:S022.31.10.839:W043.34.17.605
+COORD:S022.48.19.003:W043.42.07.226 
+COORD:S023.03.10.694:W043.29.33.553
+COORD:S022.58.59.143:W043.10.24.470
+COORD:S023.03.58.340:W043.02.44.252
+COORD:S022.55.12.601:W042.54.47.927
+SECTOR:SBWJ_F_APP:2500:19500
+OWNER:WJF
+BORDER:SBWJ_F_APP
+;========================================FIR CURITIBA SBCW 2020 (AIRSPACE)=============================================;
+;========================================AIRSPACE HIGH FIR BRASILIA SBBS 2020==========================================;
+[AIRSPACE]
+;SBAZ-SBBS 2018
+SECTORLINE:SBAZ-SBBS
+DISPLAY:SBAZ:SBAZ:SBBS
+DISPLAY:SBBS:SBAZ:SBBS
+COORD:S010.17.17.745:W047.41.08.519
+COORD:S010.16.43.000:W047.41.06.000
+COORD:S010.09.45.000:W047.41.42.000
+COORD:S009.53.53.000:W047.48.36.000
+COORD:S009.43.38.000:W047.59.54.000
+COORD:S009.43.38.000:W047.59.54.000
+COORD:S009.39.20.000:W048.09.38.000
+COORD:S009.37.25.000:W048.21.28.000
+COORD:S009.41.19.000:W048.38.51.000
+COORD:S009.51.52.000:W048.52.36.000
+COORD:S010.02.40.000:W048.59.17.000
+COORD:S010.10.46.000:W049.01.35.000
+COORD:S010.15.45.000:W049.02.13.000 
+COORD:S010.36.30.000:W049.08.10.000 
+COORD:S010.24.04.000:W050.29.56.000
+COORD:S010.31.08.000:W051.04.55.000
+COORD:S011.01.43.084:W051.41.06.781
+COORD:S012.10.58.000:W053.03.04.000 
+COORD:S012.57.57.000:W053.29.53.000
+COORD:S014.33.35.000:W053.37.27.000
+COORD:S015.29.04.230:W053.24.08.725 
+COORD:S016.42.22.000:W053.06.29.000
+COORD:S017.18.27.000:W053.54.42.000
+SECTOR:SBAZ:5000:60000
+OWNER:AZ:GOL
+
+;SBBS-SBCW 2018
+SECTORLINE:SBBS-SBCW
+DISPLAY:SBBS:SBBS:SBCW
+DISPLAY:SBCW:SBCS:SBCW
+COORD:S017.18.27.000:W053.54.42.000
+COORD:S019.34.26.000:W051.33.03.000
+COORD:S020.31.18.432:W050.44.55.100
+COORD:S021.08.13.830:W050.03.22.863
+COORD:S021.32.38.000:W049.35.55.000
+COORD:S021.55.34.610:W048.32.15.544 
+COORD:S022.06.52.000:W048.00.56.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S023.13.40.000:W047.25.31.000
+COORD:S023.17.43.829:W047.17.34.377
+COORD:S023.29.25.000:W046.54.44.000
+COORD:S023.24.25.000:W046.22.25.000
+COORD:S023.14.17.000:W045.51.05.000
+COORD:S022.47.20.000:W045.45.38.000
+COORD:S021.26.24.005:W044.44.59.762 
+COORD:S020.31.08.000:W044.03.35.000 
+COORD:S020.31.17.000:W043.59.28.000
+COORD:S020.31.17.000:W043.50.05.000 
+COORD:S020.30.09.000:W043.44.40.000
+COORD:S020.28.02.000:W043.39.47.000 
+COORD:S020.22.29.000:W043.28.27.000
+COORD:S020.13.22.000:W043.21.22.000
+COORD:S020.27.48.000:W042.35.13.000
+SECTOR:SBCW:5000:60000
+OWNER:CW:THR
+
+;SBBS-SBRE 2018	  
+SECTORLINE:SBBS-SBRE
+DISPLAY:SBBS:SBBS:SBRE
+DISPLAY:SBRE:SBBS:SBRE
+COORD:S010.17.17.745:W047.41.08.519
+COORD:S011.09.14.767:W047.17.13.343
+COORD:S012.01.36.000:W046.53.07.000
+COORD:S013.18.45.000:W045.36.26.000 
+COORD:S013.59.48.064:W045.09.00.889
+COORD:S014.12.06.000:W045.00.48.000
+COORD:S014.48.14.000:W044.32.55.000
+COORD:S015.20.47.340:W044.14.55.351
+COORD:S015.33.17.000:W044.08.01.000
+COORD:S015.37.54.000:W044.05.52.000
+COORD:S016.22.59.017:W042.49.00.083
+COORD:S016.24.54.000:W042.39.55.000
+COORD:S017.01.09.000:W041.42.36.000
+COORD:S017.35.39.000:W041.55.05.000
+COORD:S018.37.31.000:W042.31.04.000
+COORD:S018.46.19.000:W042.26.18.000
+COORD:S019.05.30.000:W042.29.30.000 
+COORD:S019.28.21.000:W042.28.18.000
+COORD:S020.00.22.000:W042.31.10.000
+COORD:S020.27.48.000:W042.35.13.000
+SECTOR:SBRE:5000:60000
+OWNER:RE:SAN
+
+SECTOR:SBBS:5000:60000
+OWNER:BS:ZEU
+BORDER:SBAZ-SBBS:SBBS-SBCW:SBBS-SBRE
+;========================================AIRSPACE HIGH FIR BRASILIA SBBS 2020==========================================;
+;========================================SBBS FREETEXT=================================================================;
+[FREETEXT]
+;ALTITUDE MINIMA DE AREA - AMA
+;AMA SBBS 2018
+;BS-16S
+S013.52.58.000:W049.39.00.000:AMA-SBBS:52
+;BS-20S
+S017.49.14.000:W049.09.38.000:AMA-SBBS:44
+S019.06.08.000:W046.17.35.000:AMA-SBBS:49
+;BS-24S
+S021.23.55.000:W049.02.49.000:AMA-SBBS:47
+S021.34.22.000:W046.05.15.000:AMA-SBBS:95
+;
+;SETORES ESPAÇO BRASILEIRO
+;BRASILIA SBBS 2018
+S022.20.33.000:W045.42.04.000:SETORES-SBBS:S-01
+S021.00.30.000:W046.15.49.000:SETORES-SBBS:S-02
+S022.10.22.000:W046.52.34.000:SETORES-SBBS:S-03
+S019.55.32.000:W046.28.55.000:SETORES-SBBS:S-04
+S020.04.00.000:W048.04.41.000:SETORES-SBBS:S-05
+S020.26.28.000:W049.28.16.000:SETORES-SBBS:S-06
+S016.52.27.000:W048.06.06.000:SETORES-SBBS:S-07
+S017.48.21.000:W051.26.40.000:SETORES-SBBS:S-08
+S012.55.37.000:W051.21.10.000:SETORES-SBBS:S-09
+S013.16.39.000:W049.36.21.000:SETORES-SBBS:S-10
+S013.37.08.000:W046.16.52.000:SETORES-SBBS:S-11
+S016.19.29.000:W046.24.23.000:SETORES-SBBS:S-12
+S017.37.11.000:W047.11.46.000:SETORES-SBBS:S-13
+S019.05.36.000:W045.21.25.000:SETORES-SBBS:S-14
+S017.30.42.000:W043.28.27.000:SETORES-SBBS:S-15
+S019.55.25.000:W045.15.56.000:SETORES-SBBS:S-16
+;
+;BRASIL ESTADOS SBBS 2018
+S015.47.35.870:W047.47.35.091:ESTADOS-SBBS:DISTRITO FEDERAL
+S014.37.38.221:W049.45.56.535:ESTADOS-SBBS:GOIÁS
+S020.03.29.363:W055.31.25.756:ESTADOS-SBBS:MATO GROSSO DO SUL
+S011.39.25.268:W057.14.25.882:ESTADOS-SBBS:MATO GROSSO
+S013.59.39.009:W041.49.02.462:ESTADOS-SBBS:BAHIA
+S011.34.36.623:W049.33.24.515:ESTADOS-SBBS:TOCANTINS
+S021.25.39.712:W049.52.32.435:ESTADOS-SBBS:SÃO PAULO
+S022.27.45.911:W042.51.16.430:ESTADOS-SBBS:RIO DE JANEIRO
+S019.06.00.155:W040.22.42.203:ESTADOS-SBBS:ESPIRITO SANTO
+S018.09.48.589:W045.27.30.704:ESTADOS-SBBS:MINAS GERAIS
+;FIR-FSS
+N001.42.51.034:W034.49.49.889:FIR-FSS:ATLANTIC-WEST
+S021.50.39.222:W030.32.37.457:FIR-FSS:ATLANTIC-EAST
+S006.20.53.433:W064.54.16.113:FIR-FSS:AMAZONIC-WEST
+S008.42.08.100:W054.51.44.286:FIR-FSS:AMAZONIC-EAST
+S015.37.15.916:W050.17.27.106:FIR-FSS:BRASILIA-NORTH
+S020.31.27.140:W046.57.35.536:FIR-FSS:BRASILIA-SOUTH
+S025.17.30.755:W046.05.06.604:FIR-FSS:CURITIBA-NORTH
+S030.28.58.243:W052.24.22.751:FIR-FSS:CURITIBA-SOUTH
+S006.54.06.815:W040.56.58.104:FIR-FSS:RECIFE-NORTH
+S014.30.37.410:W041.44.02.565:FIR-FSS:RECIFE-SOUTH
+;MILITARY FIR
+S006.12.02.649:W055.29.56.009:MILITARY-FIR:GOLIAS GOL
+S016.41.37.140:W029.39.43.185:MILITARY-FIR:POSEIDON POS
+S012.09.38.755:W040.43.05.851:MILITARY-FIR:SANSAO SAN
+S024.57.01.185:W049.11.42.242:MILITARY-FIR:THOR 
+S018.47.55.707:W047.29.45.098:MILITARY-FIR:ZEUS ZEU
+;========================================SBBS FREETEXT===================================================================;
+;========================================FREETEXT AIRPORT SBBS ==========================================================;
+[FREETEXT]
+;SBAX - NÃO CONSTRUÍDO
+
+;SBBW - NÃO CONSTRUÍDO
+
+[FREETEXT]
+S017.43.38.152:W048.36.49.196:SBCN-Taxi:A
+S017.43.36.204:W048.36.53.810:SBCN-GATE:4
+S017.43.35.647:W048.36.52.433:SBCN-GATE:1
+S017.43.34.856:W048.36.50.616:SBCN-GATE:2
+S017.43.34.417:W048.36.49.254:SBCN-GATE:3
+
+;SBIP - NÃO CONSTRUÍDO
+
+;SBIT - NÃO CONSTRUÍDO
+
+;SBMK - NÃO CONSTRUÍDO
+
+;SBPC - NÃO CONSTRUÍDO
+
+;SBSR - NÃO CONSTRUÍDO
+
+;SBVG - NÃO CONSTRUÍDO
+;========================================FREETEXT AIRPORT SBBS ==========================================================;
+;========================================RADAR FIR BRASILIA SBBS 2018====================================================;
+[RADAR]
+;========================================RADAR FIR BRASILIA SBBS 2018====================================================;
+
+[SIDSSTARS]
+SID:SBAN:06L:DOGP2A:SBAN DOGPI
+SID:SBAN:06L:DOGP2AxEGBOP:SBAN DOGPI EGBOP
+SID:SBAN:06L:DOGP2AxGAVUV:SBAN DOGPI AN017 GAVUV
+SID:SBAN:06L:DOGP2AxGNV:SBAN DOGPI AN017 GNV
+SID:SBAN:06L:DOGP2AxILTAS:SBAN DOGPI AN017 ILTAS
+SID:SBAN:06L:DOGP2AxKOPKO:SBAN DOGPI AN017 KOPKO
+SID:SBAN:06L:DOGP2AxKOXUM:SBAN DOGPI AN017 KOXUM
+SID:SBAN:06L:DOGP2AxTIPTU:SBAN DOGPI TIPTU
+SID:SBAN:06L:DOGP2AxXIXIT:SBAN DOGPI XIXIT
+SID:SBAN:06L:GAVU1A:SBAN APO GAVUV
+SID:SBAN:06L:ILTA1A:SBAN APO ILTAS
+SID:SBAN:06L:KETUL1:SBAN APO GOI KETUL
+SID:SBAN:06L:KILI1A:SBAN KILIT
+SID:SBAN:06L:KILI1AxEDNIK:SBAN KILIT APO06 EDNIK
+SID:SBAN:06L:KILI1AxEGBOP:SBAN KILIT D029G D019G D009G APO04 EGBOP
+SID:SBAN:06L:KILI1AxKOPKO:SBAN KILIT D019G D359G D339G D319G D299G D279G APO02 KOPKO
+SID:SBAN:06L:KILI1AxKOXUM:SBAN KILIT D016G D353G D330G D307G D284G APO01 KOXUM
+SID:SBAN:06L:KILI1AxPAJEM:SBAN KILIT D051G D063G D075G D087G APO08 PAJEM
+SID:SBAN:06L:KILI1AxTIPTU:SBAN KILIT D049G D059G APO07 TIPTU
+SID:SBAN:06L:KILI1AxXIXIT:SBAN KILIT D024G D009G D354G D339G APO03 XIXIT
+SID:SBAN:06L:POVOX1:SBAN APO POVOX
+SID:SBAN:24R:DODM2A:SBAN DODMA
+SID:SBAN:24R:DODM2AxEGBOP:SBAN DODMA ESLOS EGBOP
+SID:SBAN:24R:DODM2AxGAVUV:SBAN DODMA GAVUV
+SID:SBAN:24R:DODM2AxGNV:SBAN DODMA GNV
+SID:SBAN:24R:DODM2AxILTAS:SBAN DODMA ILTAS
+SID:SBAN:24R:DODM2AxKOPKO:SBAN DODMA ESLOS KOPKO
+SID:SBAN:24R:DODM2AxKOXUM:SBAN DODMA ESLOS KOXUM
+SID:SBAN:24R:DODM2AxXIXIT:SBAN DODMA ESLOS XIXIT
+SID:SBAN:24R:GAVU1A:SBAN APO GAVUV
+SID:SBAN:24R:ILTA1A:SBAN APO ILTAS
+SID:SBAN:24R:KETUL1:SBAN APO GOI KETUL
+SID:SBAN:24R:NEBO1A:SBAN NEBOG
+SID:SBAN:24R:NEBO1AxEDNIK:SBAN NEBOG D246G D273G D300G D327G D354G D021G APO06 EDNIK
+SID:SBAN:24R:NEBO1AxEGBOP:SBAN NEBOG D243G D267G D291G D315G D339G D003G APO04 EGBOP
+SID:SBAN:24R:NEBO1AxKOPKO:SBAN NEBOG D233G D247G D261G D275G APO02 KOPKO
+SID:SBAN:24R:NEBO1AxKOXUM:SBAN NEBOG D233G D247G APO01 KOXUM
+SID:SBAN:24R:NEBO1AxPAJEM:SBAN NEBOG D240G D261G D282G D303G D324G D345G APO08 PAJEM
+SID:SBAN:24R:NEBO1AxTIPTU:SBAN NEBOG D244G D269G D294G D319G D344G APO07 TIPTU
+SID:SBAN:24R:NEBO1AxXIXIT:SBAN NEBOG D238G D257G D276G D295G D314G D333G APO03 XIXIT
+SID:SBAN:24R:PAJE1A:SBAN PAJEM
+SID:SBAN:24R:POVOX1:SBAN APO POVOX
+SID:SBAQ:17:EDAM:SBAQ EDAM GERTU
+SID:SBAQ:17:EIRO:SBAQ EIRO RPR
+SID:SBAQ:17:FIAM1A:SBAQ FIAMA
+SID:SBAQ:17:FIAM1AxEDVUL:SBAQ FIAMA EDVUL
+SID:SBAQ:17:FIAM1AxENTEV:SBAQ FIAMA ENTEV
+SID:SBAQ:17:NEBU:SBAQ NEBU JRP
+SID:SBAQ:17:PUKT1A:SBAQ PUKTO
+SID:SBAQ:17:PUKT1AxPIR:SBAQ PUKTO PIR
+SID:SBAQ:17:PUKT1AxREPAX:SBAQ PUKTO REPAX
+SID:SBAQ:17:PUKT1AxRPR:SBAQ PUKTO RPR
+SID:SBAQ:17:PUPS1A:SBAQ PUPSI
+SID:SBAQ:17:PUPS1AxEVMIM:SBAQ PUPSI EVMIM
+SID:SBAQ:17:VAMP:SBAQ VAMP BRU
+SID:SBAQ:35:EDUR2A:SBAQ EDURB
+SID:SBAQ:35:EDUR2AxEDVUL:SBAQ EDURB AQ009 EDVUL
+SID:SBAQ:35:EDUR2AxENTEV:SBAQ EDURB ENTEV
+SID:SBAQ:35:EDUR2AxEVMIM:SBAQ EDURB AQ009 MEVUT EVMIM
+SID:SBAQ:35:EDUR2AxMEVUT:SBAQ EDURB AQ009 MEVUT
+SID:SBAQ:35:EDUR2AxPIR:SBAQ EDURB AQ008 PIR
+SID:SBAQ:35:EDUR2AxREPAX:SBAQ EDURB REPAX
+SID:SBAQ:35:EDUR2AxRPR:SBAQ EDURB RPR
+SID:SBAX:16:ARX1B:SBAX ARX
+SID:SBAX:16:FRC1:SBAX FRC
+SID:SBAX:16:MASDI1:SBAX MASDI
+SID:SBAX:16:MOPNI1:SBAX MOPNI
+SID:SBAX:16:NISNI1:SBAX NISNI
+SID:SBAX:16:OMNI:SBAXSID:SBAX:34:ARX1B:SBAX ARX
+SID:SBAX:34:MASD1A:SBAX ARX MASDI
+SID:SBAX:34:MOPN1A:SBAX MOPNI
+SID:SBAX:34:NISN1A:SBAX NISNI
+SID:SBAX:34:OMNI:SBAXSID:SBBH:13:GEDA1A:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR
+SID:SBBH:13:GEDA1AxGEDOK:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR GEDOK
+SID:SBBH:13:GEDA1AxOBGAR:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR PENTE OBGAR
+SID:SBBH:13:GEDA1AxOPLEX:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR OPLEX
+SID:SBBH:13:GEDA1AxPENTE:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR PENTE
+SID:SBBH:13:GEDA1AxSIDOL:SBBH KUBEX KIMUS UBKIS BH008 BH009 BH011 GEDAR SIDOL
+SID:SBBH:13:GEDA1B:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR
+SID:SBBH:13:GEDA1BxGEDOK:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR GEDOK
+SID:SBBH:13:GEDA1BxOBGAR:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR PENTE OBGAR
+SID:SBBH:13:GEDA1BxOPLEX:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR OPLEX
+SID:SBBH:13:GEDA1BxPENTE:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR PENTE
+SID:SBBH:13:GEDA1BxSIDOL:SBBH KUBEX KIMUS UBKIS BH082 BH009 BH011 GEDAR SIDOL
+SID:SBBH:13:GEPN1A:SBBH IRAXO GEPNA
+SID:SBBH:13:GEPN1AxDEJAN:SBBH IRAXO GEPNA BH002 NITLU DEJAN
+SID:SBBH:13:GEPN1AxPOSTA:SBBH IRAXO GEPNA BH003 BH004 BH006 MOTMA POSTA
+SID:SBBH:13:GEPN1AxPUDVA:SBBH IRAXO GEPNA BH003 BH004 BH006 PUDVA
+SID:SBBH:13:GEPN1AxXOMOD:SBBH IRAXO GEPNA BH003 BH004 BH006 XOMOD
+SID:SBBH:13:ILRO1A:SBBH IRAXO KUBEX ILROT
+SID:SBBH:13:ILRO1AxDEJAN:SBBH IRAXO KUBEX ILROT MOSGU DEJAN
+SID:SBBH:13:ILRO1AxISNOG:SBBH IRAXO KUBEX ILROT BH002 ISNOG
+SID:SBBH:13:ILRO1AxKOVED:SBBH IRAXO KUBEX ILROT BH002 NIMGU KOVED
+SID:SBBH:13:ILRO1AxMOTMA:SBBH IRAXO KUBEX ILROT BH002 NIMGU MOTMA
+SID:SBBH:13:KUBE1A:SBBH KUBEX
+SID:SBBH:13:KUBE1AxEVPAD:SBBH KUBEX OPSAB WH002 EVPAD
+SID:SBBH:13:KUBE1AxYPT:SBBH KUBEX OPSAB WH002 EVPAD YPT
+SID:SBBH:13:UBKI1A:SBBH KUBEX KIMUS UBKIS
+SID:SBBH:13:UBKI1AxANLES:SBBH KUBEX KIMUS UBKIS ANLES
+SID:SBBH:13:UBKI1AxKOKSU:SBBH KUBEX KIMUS UBKIS KOKSU
+SID:SBBH:13:UBKI1AxSALVI:SBBH KUBEX KIMUS UBKIS ANLES SALVI
+SID:SBBH:31:EGUS1A:SBBH IVSAM BH019 BH023 EGUSO
+SID:SBBH:31:EGUS1AxKOKSU:SBBH IVSAM BH019 BH023 EGUSO WH002 BH024 KOKSU
+SID:SBBH:31:EGUS1AxOPLUT:SBBH IVSAM BH019 BH023 EGUSO WH002 BH024 KOKSU OPLUT
+SID:SBBH:31:EGUS1AxSALVI:SBBH IVSAM BH019 BH023 EGUSO WH002 BH024 KOKSU SALVI
+SID:SBBH:31:EGUS1AxYPT:SBBH IVSAM BH019 BH023 EGUSO BH026 EVPAD YPT
+SID:SBBH:31:EVPA1A:SBBH BHZ ESBET UKDEM TEGOM D173  D156  D139  D122  EGBUL EVPAD
+SID:SBBH:31:IVSA1A:SBBH IVSAM
+SID:SBBH:31:IVSA1AxDEJAN:SBBH IVSAM BH019 BH018 NITLU DEJAN
+SID:SBBH:31:IVSA1AxMOTMA:SBBH IVSAM BH021 BH006 MOTMA
+SID:SBBH:31:IVSA1AxPOSTA:SBBH IVSAM BH021 BH006 MOTMA POSTA
+SID:SBBH:31:IVSA1AxPUDVA:SBBH IVSAM BH021 BH006 PUDVA
+SID:SBBH:31:IVSA1AxXOMOD:SBBH IVSAM BH021 BH006 XOMOD
+SID:SBBH:31:SUKD1A:SBBH BHZ ESBET SUKDA
+SID:SBBH:31:SUKD1AxGEDOK:SBBH BHZ ESBET SUKDA D260Z D277Z D294Z D311Z D328Z D345Z BIVBI GEDOK
+SID:SBBH:31:SUKD1AxMOTMA:SBBH BHZ ESBET SUKDA MOTMA
+SID:SBBH:31:SUKD1AxOPLEX:SBBH BHZ ESBET SUKDA D262Z D281Z D300Z D319Z D338Z D357Z KAMOD OPLEX
+SID:SBBH:31:SUKD1AxPENTE:SBBH BHZ ESBET SUKDA D263Z D283Z D303Z D323Z D343Z D003Z ITAVI PENTE
+SID:SBBH:31:SUKD1AxSELDO:SBBH BHZ ESBET SUKDA KILEB SELDO
+SID:SBBH:31:SUKD1AxSIDOL:SBBH BHZ ESBET SUKDA D264Z D285Z D306Z D327Z SUBRI SIDOL
+SID:SBBH:31:TIPL1A:SBBH PUMAT BH013 BH014 WH009 TIPLI
+SID:SBBH:31:TIPL1AxOBGAR:SBBH PUMAT BH013 BH014 WH009 TIPLI PENTE OBGAR
+SID:SBBH:31:TIPL1AxPENTE:SBBH PUMAT BH013 BH014 WH009 TIPLI PENTE
+SID:SBBH:31:TIPL1AxRORIP:SBBH PUMAT BH013 BH014 WH009 TIPLI SIDOL RORIP
+SID:SBBH:31:TIPL1AxSIDOL:SBBH PUMAT BH013 BH014 WH009 TIPLI SIDOL
+SID:SBBH:31:TIPL1AxSIGIR:SBBH PUMAT BH013 BH014 WH009 TIPLI SIGIR
+STAR:SBBH:13:ASKA1A:ASKAP ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ASKA1AxMILOL:MILOL ASKAP ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ASKA1AxNITMI:NITMI ASKAP ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1A:ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1AxFUR:FUR POSTA ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1AxGEVMI:GEVMI MEBLU ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1AxIROBI:IROBI MEBLU ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1AxMEBLU:MEBLU ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI1AxPOSTA:POSTA ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI2B:ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI2BxFUR:FUR POSTA ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ESKI2BxPOSTA:POSTA ESKIP BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1A:ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxMILOL:MILOL ASKAP ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxNITMI:NITMI ASKAP ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxOPLUT:OPLUT SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxOPVUK:OPVUK ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxPOSMU:POSMU OPLUT SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:ILSI1AxSALVI:SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 BH013 PUMAT
+STAR:SBBH:13:OBLE1A:OBLEB BH038 ERVIM
+STAR:SBBH:13:OBLE1AxDAKDA:DAKDA BH083 BH034 BH036 OBLEB BH038 ERVIM
+STAR:SBBH:13:OBLE1AxMANDU:MANDU BH081 NIPDA BH032 BH033 OBLEB BH038 ERVIM
+STAR:SBBH:13:OBLE1AxNIPDA:NIPDA BH032 BH033 OBLEB BH038 ERVIM
+STAR:SBBH:13:OBLE1AxPOSMU:POSMU BH081 NIPDA BH032 BH033 OBLEB BH038 ERVIM
+STAR:SBBH:13:UGSI1A:UGSIT BISOL BH028 BH004 ERVIM
+STAR:SBBH:13:UGSI1AxOPKES:OPKES UGSIT BISOL BH028 BH004 ERVIM
+STAR:SBBH:13:UGSI1AxUTPIN:UTPIN UGSIT BISOL BH028 BH004 ERVIM
+STAR:SBBH:31:ESKI1A:ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ESKI1AxFUR:FUR POSTA ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ESKI1AxGEVMI:GEVMI MEBLU ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ESKI1AxIROBI:IROBI MEBLU ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ESKI1AxMEBLU:MEBLU ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ESKI1AxPOSTA:POSTA ESKIP BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1A:ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxMILOL:MILOL ASKAP ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxNITMI:NITMI ASKAP ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxOPLUT:OPLUT SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxOPVUK:OPVUK ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxPOSMU:POSMU OPLUT SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:ILSI1AxSALVI:SALVI EPDIM ILSIP WH004 BH042 BH043 BH014 ISLEG BH044 BH028 BH041 OGRET
+STAR:SBBH:31:OBLE1A:OBLEB OGRET
+STAR:SBBH:31:OBLE1AxDAKDA:DAKDA BH083 BH034 BH036 OBLEB OGRET
+STAR:SBBH:31:OBLE1AxMANDU:MANDU BH081 NIPDA BH032 BH033 OBLEB OGRET
+STAR:SBBH:31:OBLE1AxNIPDA:NIPDA BH032 BH033 OBLEB OGRET
+STAR:SBBH:31:OBLE1AxPOSMU:POSMU BH081 NIPDA BH032 BH033 OBLEB OGRET
+STAR:SBBH:31:UGSI1A:UGSIT BH039 BH041 OGRET
+STAR:SBBH:31:UGSI1AxOPKES:OPKES UGSIT BH039 BH041 OGRET
+STAR:SBBH:31:UGSI1AxUTPIN:UTPIN UGSIT BH039 BH041 OGRET
+SID:SBBR:11L:ESBU3A:SBBR KOTVU ESBUX
+SID:SBBR:11L:ESBU3AxDOLVI:SBBR KOTVU ESBUX DOLVI
+SID:SBBR:11L:ESBU3AxDOMLI:SBBR KOTVU ESBUX DOMLI
+SID:SBBR:11L:ESBU3AxDOTKA:SBBR KOTVU ESBUX DOTKA
+SID:SBBR:11L:ESBU3AxFLINT:SBBR KOTVU ESBUX ILSUL FLINT
+SID:SBBR:11L:ESBU3AxGIGTI:SBBR KOTVU ESBUX GIGTI
+SID:SBBR:11L:ESBU3AxILSUL:SBBR KOTVU ESBUX ILSUL
+SID:SBBR:11L:ESBU3AxKOGDI:SBBR KOTVU ESBUX KOGDI
+SID:SBBR:11L:ESBU3AxKOGLI:SBBR KOTVU ESBUX KOGLI
+SID:SBBR:11L:ESBU3AxPAPES:SBBR KOTVU ESBUX KOGDI PAPES
+SID:SBBR:11L:FSA2A:SBBR KOTVU FSA
+SID:SBBR:11L:FSA2AxKOLDA:SBBR KOTVU FSA KOLDA
+SID:SBBR:11L:FSA2AxORATE:SBBR KOTVU FSA ORATE
+SID:SBBR:11L:IRIT1A:SBBR IRITU LUZ
+SID:SBBR:11L:IRIT1AxISOPI:SBBR IRITU LUZ ISOPI
+SID:SBBR:11L:IRIT1AxOPRAX:SBBR IRITU LUZ OPRAX
+SID:SBBR:11L:KOMG1A:SBBR VUTMI BR039 SIGER KOMGI
+SID:SBBR:11L:NIRD1A:SBBR NIRDI D072L D059L D046L D033L TONUN
+SID:SBBR:11L:NIRD1AxKOGLI:SBBR NIRDI D072L D059L D046L D033L TONUN D018L D004L D350L LIXEM KOGLI
+SID:SBBR:11L:NIRD1AxPANOK:SBBR NIRDI D072L D059L D046L D033L TONUN PANOK
+SID:SBBR:11L:ORAT1A:SBBR VUTMI FSA ORATE
+SID:SBBR:11L:ORAT1B:SBBR VUTMI MATNI ORATE
+SID:SBBR:11L:OTAF1A:SBBR KOTVU OTAFO
+SID:SBBR:11L:PANO2C:SBBR KOTVU ESBUX PANOK
+SID:SBBR:11L:PANO2CxORATE:SBBR KOTVU ESBUX PANOK ORATE
+SID:SBBR:11L:PANO2CxPEDAL:SBBR KOTVU ESBUX PANOK PEDAL
+SID:SBBR:11L:PANO2CxSAPRU:SBBR KOTVU ESBUX PANOK SAPRU
+SID:SBBR:11L:PAPI1A:SBBR LIVEV PAPID BR051 MOXOB
+SID:SBBR:11L:PAPI1AxGNV:SBBR LIVEV PAPID BR051 MOXOB SIREM GNV
+SID:SBBR:11L:PAPI1AxROMIK:SBBR LIVEV PAPID BR051 MOXOB SIREM ROMIK
+SID:SBBR:11L:PAPI1AxSIREM:SBBR LIVEV PAPID BR051 MOXOB SIREM
+SID:SBBR:11L:PAPI1AxTIPTU:SBBR LIVEV PAPID BR051 MOXOB TIPTU
+SID:SBBR:11L:SELD1A:SBBR VUTMI BR039 SIGER SELDI
+SID:SBBR:11L:SEMD1A:SBBR LIVEV SEMDU
+SID:SBBR:11L:SEMD1AxEDMIN:SBBR LIVEV SEMDU IRULA EDMIN
+SID:SBBR:11L:SEMD1AxMAVNI:SBBR LIVEV SEMDU BODIT MAVNI
+SID:SBBR:11L:SEMD1AxMUGIS:SBBR LIVEV SEMDU KODNA MUGIS
+SID:SBBR:11L:SEMD1AxNIMKI:SBBR LIVEV SEMDU ISOPI NIMKI
+SID:SBBR:11R:FSA2B:SBBR KOTVU FSA
+SID:SBBR:11R:FSA2BxKOLDA:SBBR KOTVU FSA KOLDA
+SID:SBBR:11R:FSA2BxORATE:SBBR KOTVU FSA ORATE
+SID:SBBR:11R:KOTV1D:SBBR KOTVU
+SID:SBBR:11R:KOTV1DxORATE:SBBR KOTVU VUTMI MATNI ORATE
+SID:SBBR:11R:KOTV1E:SBBR KOTVU
+SID:SBBR:11R:KOTV1ExFSA:SBBR KOTVU VUTMI FSA
+SID:SBBR:11R:KOTV1ExORATE:SBBR KOTVU VUTMI FSA ORATE
+SID:SBBR:11R:KOTV2B:SBBR KOTVU ESBUX
+SID:SBBR:11R:KOTV2BxDOLVI:SBBR KOTVU ESBUX DOLVI
+SID:SBBR:11R:KOTV2BxDOMLI:SBBR KOTVU ESBUX DOMLI
+SID:SBBR:11R:KOTV2BxDOTKA:SBBR KOTVU ESBUX DOTKA
+SID:SBBR:11R:KOTV2BxFLINT:SBBR KOTVU ESBUX ILSUL FLINT
+SID:SBBR:11R:KOTV2BxGIGTI:SBBR KOTVU ESBUX GIGTI
+SID:SBBR:11R:KOTV2BxILSUL:SBBR KOTVU ESBUX ILSUL
+SID:SBBR:11R:KOTV2BxKOGDI:SBBR KOTVU ESBUX KOGDI
+SID:SBBR:11R:KOTV2BxKOGLI:SBBR KOTVU ESBUX KOGLI
+SID:SBBR:11R:KOTV2BxPAPES:SBBR KOTVU ESBUX KOGDI PAPES
+SID:SBBR:11R:KOTV2C:SBBR KOTVU ESBUX PANOK
+SID:SBBR:11R:KOTV2CxORATE:SBBR KOTVU ESBUX PANOK ORATE
+SID:SBBR:11R:KOTV2CxPEDAL:SBBR KOTVU ESBUX PANOK PEDAL
+SID:SBBR:11R:KOTV2CxSAPRU:SBBR KOTVU ESBUX PANOK SAPRU
+SID:SBBR:11R:LIVE1B:SBBR LIVEV
+SID:SBBR:11R:LIVE1BxEDMIN:SBBR LIVEV IRULA EDMIN
+SID:SBBR:11R:LIVE1BxMAVNI:SBBR LIVEV BODIT MAVNI
+SID:SBBR:11R:LIVE1BxMUGIS:SBBR LIVEV KODNA MUGIS
+SID:SBBR:11R:LIVE1BxNIMKI:SBBR LIVEV ISOPI NIMKI
+SID:SBBR:11R:LUZ1D:SBBR LUZ02 LUZ
+SID:SBBR:11R:LUZ1DxISOPI:SBBR LUZ02 LUZ ISOPI
+SID:SBBR:11R:LUZ1DxOPRAX:SBBR LUZ02 LUZ OPRAX
+SID:SBBR:11R:MIBI1A:SBBR MIBIS
+SID:SBBR:11R:MIBI1AxKOGLI:SBBR MIBIS D076L D062L D048L D034L TONUN D018L D004L D350L LIXEM KOGLI
+SID:SBBR:11R:MIBI1AxPANOK:SBBR MIBIS D076L D062L D048L D034L TONUN PANOK
+SID:SBBR:11R:MOXO2B:SBBR LIVEV BR051 MOXOB
+SID:SBBR:11R:MOXO2BxGNV:SBBR LIVEV BR051 MOXOB SIREM GNV
+SID:SBBR:11R:MOXO2BxROMIK:SBBR LIVEV BR051 MOXOB SIREM ROMIK
+SID:SBBR:11R:MOXO2BxSIREM:SBBR LIVEV BR051 MOXOB SIREM
+SID:SBBR:11R:MOXO2BxTIPTU:SBBR LIVEV BR051 MOXOB TIPTU
+SID:SBBR:11R:OTAF1B:SBBR KOTVU OTAFO
+SID:SBBR:11R:SIGE1A:SBBR KOTVU
+SID:SBBR:11R:SIGE1AxKOMGI:SBBR KOTVU BR039 SIGER KOMGI
+SID:SBBR:11R:SIGE1AxSELDI:SBBR KOTVU BR039 SIGER SELDI
+SID:SBBR:29L:ANPA1A:SBBR SAVGO D282H D304H D326H D348H VJK07 D003H D017H D031H VJK06 UKENA ANPAX
+SID:SBBR:29L:ANPA1AxFSA:SBBR SAVGO D282H D304H D326H D348H VJK07 D003H D017H D031H VJK06 UKENA ANPAX FSA
+SID:SBBR:29L:ANPA1AxKOLDA:SBBR SAVGO D282H D304H D326H D348H VJK07 D003H D017H D031H VJK06 UKENA ANPAX FSA KOLDA
+SID:SBBR:29L:ANPA1AxORATE:SBBR SAVGO D282H D304H D326H D348H VJK07 D003H D017H D031H VJK06 UKENA ANPAX FSA ORATE
+SID:SBBR:29L:ANPA1AxPANOK:SBBR SAVGO D282H D304H D326H D348H VJK07 D003H D017H D031H VJK06 UKENA ANPAX PANOK
+SID:SBBR:29L:GAXO1A:SBBR GAXON
+SID:SBBR:29L:GAXO1AxEDMIN:SBBR GAXON IRULA EDMIN
+SID:SBBR:29L:GAXO1AxMAVNI:SBBR GAXON BODIT MAVNI
+SID:SBBR:29L:GAXO1AxMUGIS:SBBR GAXON KODNA MUGIS
+SID:SBBR:29L:GAXO1AxNIMKI:SBBR GAXON ISOPI NIMKI
+SID:SBBR:29L:GAXO1AxROMIK:SBBR GAXON BR022 PUPNO SIREM ROMIK
+SID:SBBR:29L:GAXO1AxSIREM:SBBR GAXON BR022 PUPNO SIREM
+SID:SBBR:29L:KOGL1A:SBBR BSI BSI05 KOGLI
+SID:SBBR:29L:KOGL2A:SBBR SAVGO D282H D304H D326H D348H VJK07 LIXEM KOGLI
+SID:SBBR:29L:LUZ1A:SBBR LUZ01 LUZ
+SID:SBBR:29L:LUZ1AxISOPI:SBBR LUZ01 LUZ ISOPI
+SID:SBBR:29L:LUZ1AxOPRAX:SBBR LUZ01 LUZ OPRAX
+SID:SBBR:29L:NEDE1A:SBBR GAXON BR052 NEDES
+SID:SBBR:29L:NEDE1AxFSA:SBBR GAXON BR052 NEDES FSA
+SID:SBBR:29L:NEDE1AxKOLDA:SBBR GAXON BR052 NEDES FSA KOLDA
+SID:SBBR:29L:NEDE1AxSELDI:SBBR GAXON BR052 NEDES SIGER SELDI
+SID:SBBR:29L:NEDE1AxSIGER:SBBR GAXON BR052 NEDES SIGER
+SID:SBBR:29L:TINS2A:SBBR UTPAS TINSI
+SID:SBBR:29L:TINS2AxDOLVI:SBBR UTPAS TINSI DOLVI
+SID:SBBR:29L:TINS2AxDOMLI:SBBR UTPAS TINSI DOMLI
+SID:SBBR:29L:TINS2AxDOTKA:SBBR UTPAS TINSI DOTKA
+SID:SBBR:29L:TINS2AxFLINT:SBBR UTPAS TINSI ILSUL FLINT
+SID:SBBR:29L:TINS2AxGIGTI:SBBR UTPAS TINSI GIGTI
+SID:SBBR:29L:TINS2AxILSUL:SBBR UTPAS TINSI ILSUL
+SID:SBBR:29L:TINS2AxKOGDI:SBBR UTPAS TINSI KOGDI
+SID:SBBR:29L:TINS2AxKOGLI:SBBR UTPAS TINSI KOGLI
+SID:SBBR:29L:TINS2AxPAPES:SBBR UTPAS TINSI KOGDI PAPES
+SID:SBBR:29L:UBRU1A:SBBR UTPAS UBRUR PANOK
+SID:SBBR:29L:UBRU1AxORATE:SBBR UTPAS UBRUR PANOK ORATE
+SID:SBBR:29L:UBRU1AxPEDAL:SBBR UTPAS UBRUR PANOK PEDAL
+SID:SBBR:29L:UBRU1AxSAPRU:SBBR UTPAS UBRUR PANOK SAPRU
+SID:SBBR:29R:BOBE1A:SBBR GAXON BOBEM
+SID:SBBR:29R:BOBE1AxEDMIN:SBBR GAXON BOBEM IRULA EDMIN
+SID:SBBR:29R:BOBE1AxMAVNI:SBBR GAXON BOBEM BODIT MAVNI
+SID:SBBR:29R:BOBE1AxMUGIS:SBBR GAXON BOBEM KODNA MUGIS
+SID:SBBR:29R:BOBE1AxNIMKI:SBBR GAXON BOBEM ISOPI NIMKI
+SID:SBBR:29R:BOBE1AxROMIK:SBBR GAXON BOBEM BR022 PUPNO SIREM ROMIK
+SID:SBBR:29R:BOBE1AxSIREM:SBBR GAXON BOBEM BR022 PUPNO SIREM
+SID:SBBR:29R:KIAC1A:SBBR GAXON KIACA BR052 NEDES
+SID:SBBR:29R:KIAC1AxFSA:SBBR GAXON KIACA BR052 NEDES FSA
+SID:SBBR:29R:KIAC1AxKOLDA:SBBR GAXON KIACA BR052 NEDES FSA KOLDA
+SID:SBBR:29R:KIAC1AxSELDI:SBBR GAXON KIACA BR052 NEDES SIGER SELDI
+SID:SBBR:29R:KIAC1AxSIGER:SBBR GAXON KIACA BR052 NEDES SIGER
+SID:SBBR:29R:KOGL1A:SBBR BSI BSI05 KOGLI
+SID:SBBR:29R:KOGL1B:SBBR URERA D287G D307G D327G D347G VJK09 LIXEM KOGLI
+SID:SBBR:29R:PANO1B:SBBR UTPAS PANOK
+SID:SBBR:29R:PANO1BxORATE:SBBR UTPAS PANOK ORATE
+SID:SBBR:29R:PANO1BxPEDAL:SBBR UTPAS PANOK PEDAL
+SID:SBBR:29R:PANO1BxSAPRU:SBBR UTPAS PANOK SAPRU
+SID:SBBR:29R:UKEN1A:SBBR URERA D287G D307G D327G D347G D007G D027G VJK08 UKENA
+SID:SBBR:29R:UKEN1AxFSA:SBBR URERA D287G D307G D327G D347G D007G D027G VJK08 UKENA ANPAX FSA
+SID:SBBR:29R:UKEN1AxKOLDA:SBBR URERA D287G D307G D327G D347G D007G D027G VJK08 UKENA ANPAX FSA KOLDA
+SID:SBBR:29R:UKEN1AxORATE:SBBR URERA D287G D307G D327G D347G D007G D027G VJK08 UKENA ANPAX FSA ORATE
+SID:SBBR:29R:UKEN1AxPANOK:SBBR URERA D287G D307G D327G D347G D007G D027G VJK08 UKENA ANPAX PANOK
+SID:SBBR:29R:UTGE1A:SBBR UTGEN LUZ
+SID:SBBR:29R:UTGE1AxISOPI:SBBR UTGEN LUZ ISOPI
+SID:SBBR:29R:UTGE1AxOPRAX:SBBR UTGEN LUZ OPRAX
+SID:SBBR:29R:UTPA2B:SBBR UTPAS
+SID:SBBR:29R:UTPA2BxDOLVI:SBBR UTPAS DOLVI
+SID:SBBR:29R:UTPA2BxDOMLI:SBBR UTPAS DOMLI
+SID:SBBR:29R:UTPA2BxDOTKA:SBBR UTPAS DOTKA
+SID:SBBR:29R:UTPA2BxFLINT:SBBR UTPAS ILSUL FLINT
+SID:SBBR:29R:UTPA2BxGIGTI:SBBR UTPAS GIGTI
+SID:SBBR:29R:UTPA2BxILSUL:SBBR UTPAS ILSUL
+SID:SBBR:29R:UTPA2BxKOGDI:SBBR UTPAS KOGDI
+SID:SBBR:29R:UTPA2BxKOGLI:SBBR UTPAS KOGLI
+SID:SBBR:29R:UTPA2BxPAPES:SBBR UTPAS KOGDI PAPES
+STAR:SBBR:11L:KOGN1A:PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11L:KOGN1AxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11L:KOGN1AxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11L:KOGN1AxREINA:REINA PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11L:LUVL1A:PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11L:LUVL1AxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11L:LUVL1AxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11L:LUVL1AxREINA:REINA PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11L:MOLM3A:MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:MOLM3AxISONU:ISONU PANDI NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:MOLM3AxISUSI:ISUSI PAROL MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:MOLM3AxNIBMO:NIBMO NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:OBDO2A:OBDOG MILIX KOGNO
+STAR:SBBR:11L:OBDO2AxCHORD:CHORD EGBAV NIDRU MUDPA OBDOG MILIX KOGNO
+STAR:SBBR:11L:OBDO2AxIRULI:IRULI OBDOG MILIX KOGNO
+STAR:SBBR:11L:OBDO2AxMOSNA:MOSNA OBDOG MILIX KOGNO
+STAR:SBBR:11L:OBDO2AxPAPES:PAPES OBDOG MILIX KOGNO
+STAR:SBBR:11L:OBDO2AxRUSTE:RUSTE MUDPA OBDOG MILIX KOGNO
+STAR:SBBR:11L:OCEL3A:OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:OCEL3AxAPINO:APINO OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:OCEL3AxCARVA:CARVA OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:PAJE2A:PAJEM BR033 LUVLA
+STAR:SBBR:11L:PAJE2AxAPO:APO PAJEM BR033 LUVLA
+STAR:SBBR:11L:PAJE2AxEGONI:EGONI GNV PAJEM BR033 LUVLA
+STAR:SBBR:11L:PAJE2AxNAXIV:NAXIV GNV PAJEM BR033 LUVLA
+STAR:SBBR:11L:PAJE2AxUBSUS:UBSUS GNV PAJEM BR033 LUVLA
+STAR:SBBR:11L:PEDA3A:PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:PEDA3AxCARVA:CARVA PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:PEDA3AxKORAN:KORAN KOGPU PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:PEDA3AxPALMO:PALMO PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11L:WELI2A:WELIN BR022 BR033 LUVLA
+STAR:SBBR:11L:WELI2AxILPAV:ILPAV WELIN BR022 BR033 LUVLA
+STAR:SBBR:11L:WELI2AxPABIN:PABIN WELIN BR022 BR033 LUVLA
+STAR:SBBR:11L:WELI2AxSIRUL:SIRUL WELIN BR022 BR033 LUVLA
+STAR:SBBR:11L:WELI2AxVUKEP:VUKEP WELIN BR022 BR033 LUVLA
+STAR:SBBR:11R:KOGN1A:PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11R:KOGN1AxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11R:KOGN1AxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11R:KOGN1AxREINA:REINA PROVE MOLTI NEDES MOPDA BR056 KOGNO
+STAR:SBBR:11R:LUVL1A:PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11R:LUVL1AxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11R:LUVL1AxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11R:LUVL1AxREINA:REINA PROVE MOLTI NEDES MOPDA BR046 LUVLA
+STAR:SBBR:11R:MOLM3A:MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:MOLM3AxISONU:ISONU PANDI NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:MOLM3AxISUSI:ISUSI PAROL MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:MOLM3AxNIBMO:NIBMO NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:OBDO2A:OBDOG MILIX KOGNO
+STAR:SBBR:11R:OBDO2AxCHORD:CHORD EGBAV NIDRU MUDPA OBDOG MILIX KOGNO
+STAR:SBBR:11R:OBDO2AxIRULI:IRULI OBDOG MILIX KOGNO
+STAR:SBBR:11R:OBDO2AxMOSNA:MOSNA OBDOG MILIX KOGNO
+STAR:SBBR:11R:OBDO2AxPAPES:PAPES OBDOG MILIX KOGNO
+STAR:SBBR:11R:OBDO2AxRUSTE:RUSTE MUDPA OBDOG MILIX KOGNO
+STAR:SBBR:11R:OCEL3A:OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:OCEL3AxAPINO:APINO OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:OCEL3AxCARVA:CARVA OCELO BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:PAJE2A:PAJEM BR033 LUVLA
+STAR:SBBR:11R:PAJE2AxAPO:APO PAJEM BR033 LUVLA
+STAR:SBBR:11R:PAJE2AxEGONI:EGONI GNV PAJEM BR033 LUVLA
+STAR:SBBR:11R:PAJE2AxNAXIV:NAXIV GNV PAJEM BR033 LUVLA
+STAR:SBBR:11R:PAJE2AxUBSUS:UBSUS GNV PAJEM BR033 LUVLA
+STAR:SBBR:11R:PEDA3A:PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:PEDA3AxCARVA:CARVA PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:PEDA3AxKORAN:KORAN KOGPU PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:PEDA3AxPALMO:PALMO PEDAL BR073 BR032 EDVIV BR056 KOGNO
+STAR:SBBR:11R:WELI2A:WELIN BR022 BR033 LUVLA
+STAR:SBBR:11R:WELI2AxILPAV:ILPAV WELIN BR022 BR033 LUVLA
+STAR:SBBR:11R:WELI2AxPABIN:PABIN WELIN BR022 BR033 LUVLA
+STAR:SBBR:11R:WELI2AxSIRUL:SIRUL WELIN BR022 BR033 LUVLA
+STAR:SBBR:11R:WELI2AxVUKEP:VUKEP WELIN BR022 BR033 LUVLA
+STAR:SBBR:29L:EDVI1B:WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29L:EDVI1BxILPAV:ILPAV WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29L:EDVI1BxPABIN:PABIN WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29L:EDVI1BxSIRUL:SIRUL WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29L:EDVI1BxVUKEP:VUKEP WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29L:MOLM1B:MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:MOLM1BxISONU:ISONU PANDI NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:MOLM1BxISUSI:ISUSI PAROL MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:MOLM1BxNIBMO:NIBMO NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:MOPD1B:WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:MOPD1BxILPAV:ILPAV WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:MOPD1BxPABIN:PABIN WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:MOPD1BxSIRUL:SIRUL WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:MOPD1BxVUKEP:VUKEP WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:OBDO1B:OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OBDO1BxCHORD:CHORD EGBAV NIDRU MUDPA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OBDO1BxIRULI:IRULI OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OBDO1BxMOSNA:MOSNA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OBDO1BxPAPES:PAPES OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OBDO1BxRUSTE:RUSTE MUDPA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29L:OCEL1B:OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:OCEL1BxAPINO:APINO OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:OCEL1BxCARVA:CARVA OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:PAJE1B:PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PAJE1BxAPO:APO PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PAJE1BxEGONI:EGONI GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PAJE1BxNAXIV:NAXIV GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PAJE1BxNIMVA:NIMVA GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PAJE1BxUBSUS:UBSUS GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29L:PEDA1B:BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:PEDA1BxCARVA:CARVA PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:PEDA1BxKORAN:KORAN KOGPU PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:PEDA1BxPALMO:PALMO PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29L:PROV1B:PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29L:PROV1BxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29L:PROV1BxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29L:PROV1BxREINA:REINA PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29R:EDVI1B:WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29R:EDVI1BxILPAV:ILPAV WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29R:EDVI1BxPABIN:PABIN WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29R:EDVI1BxSIRUL:SIRUL WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29R:EDVI1BxVUKEP:VUKEP WELIN BR022 BR033 LUVLA BR042 EDVIV
+STAR:SBBR:29R:MOLM1B:MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:MOLM1BxISONU:ISONU PANDI NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:MOLM1BxISUSI:ISUSI PAROL MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:MOLM1BxNIBMO:NIBMO NIMTI MOLMO BR034 BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:MOPD1B:WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:MOPD1BxILPAV:ILPAV WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:MOPD1BxPABIN:PABIN WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:MOPD1BxSIRUL:SIRUL WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:MOPD1BxVUKEP:VUKEP WELIN BR022 BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:OBDO1B:OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OBDO1BxCHORD:CHORD EGBAV NIDRU MUDPA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OBDO1BxIRULI:IRULI OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OBDO1BxMOSNA:MOSNA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OBDO1BxPAPES:PAPES OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OBDO1BxRUSTE:RUSTE MUDPA OBDOG MILIX KOGNO BR042 BR057 EDVIV
+STAR:SBBR:29R:OCEL1B:OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:OCEL1BxAPINO:APINO OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:OCEL1BxCARVA:CARVA OCELO BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:PAJE1B:PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PAJE1BxAPO:APO PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PAJE1BxEGONI:EGONI GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PAJE1BxNAXIV:NAXIV GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PAJE1BxNIMVA:NIMVA GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PAJE1BxUBSUS:UBSUS GNV PAJEM BR033 LUVLA BR047 MOPDA
+STAR:SBBR:29R:PEDA1B:BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:PEDA1BxCARVA:CARVA PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:PEDA1BxKORAN:KORAN KOGPU PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:PEDA1BxPALMO:PALMO PEDAL BR073 BR099 BR032 EDVIV
+STAR:SBBR:29R:PROV1B:PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29R:PROV1BxDOKBA:DOKBA PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29R:PROV1BxPUGNU:PUGNU PROVE MOLTI NEDES MOPDA
+STAR:SBBR:29R:PROV1BxREINA:REINA PROVE MOLTI NEDES MOPDA
+SID:SBBW:07:BINO:SBBW BAG BINO GAVUV
+SID:SBBW:07:BOLOP:SBBW BOLOP SAMAR
+SID:SBBW:07:COPO:SBBW COPO
+SID:SBBW:07:COPOxMAGDA:SBBW COPO MAGDA
+SID:SBBW:07:COPOxMOLPA:SBBW COPO MOLPA
+SID:SBBW:07:ELIS:SBBW ELIS_ EGOLA
+SID:SBBW:07:LOKUM:SBBW LOKUM DOMIC
+SID:SBBW:07:NILON:SBBW BAG NILON
+SID:SBBW:07:NILONxABUSE:SBBW BAG NILON ABUSE
+SID:SBBW:07:NILONxNEFAR:SBBW BAG NILON NEFAR
+SID:SBBW:25:BINO:SBBW BINO GAVUV
+SID:SBBW:25:BOLOP:SBBW BOLOP SAMAR
+SID:SBBW:25:COPO:SBBW COPO
+SID:SBBW:25:COPOxMAGDA:SBBW COPO MAGDA
+SID:SBBW:25:COPOxMOLPA:SBBW COPO MOLPA
+SID:SBBW:25:ELIS:SBBW ELIS_ EGOLA
+SID:SBBW:25:LOKUM:SBBW LOKUM DOMIC
+SID:SBBW:25:NILON:SBBW NILON
+SID:SBBW:25:NILONxABUSE:SBBW NILON ABUSE
+SID:SBBW:25:NILONxNEFAR:SBBW NILON NEFAR
+SID:SBCF:16:ISLE1A:SBCF KUMEV DEVAD WH016 ISLEG
+SID:SBCF:16:ISLE1AxMAVBO:SBCF KUMEV DEVAD WH016 ISLEG CF091 KOVED MAVBO
+SID:SBCF:16:ISLE1AxMOTMA:SBCF KUMEV DEVAD WH016 ISLEG MOTMA
+SID:SBCF:16:ISLE1AxSELDO:SBCF KUMEV DEVAD WH016 ISLEG SELDO
+SID:SBCF:16:ISNU1A:SBCF VUPER ISNUV
+SID:SBCF:16:ISNU1AxANLES:SBCF VUPER ISNUV ANLES
+SID:SBCF:16:ISNU1AxKOKSU:SBCF VUPER ISNUV KOKSU
+SID:SBCF:16:ISNU1AxSALVI:SBCF VUPER ISNUV ANLES SALVI
+SID:SBCF:16:ISNU1AxYPT:SBCF VUPER ISNUV ANPEK YPT
+SID:SBCF:16:KUBE1A:SBCF VADON KUBEX
+SID:SBCF:16:KUBE1AxDEJAN:SBCF VADON KUBEX OGRET MOSGU DEJAN
+SID:SBCF:16:KUBE1AxEVPAD:SBCF VADON KUBEX OPSAB WH002 WH012 EVPAD
+SID:SBCF:16:MUGR1B:SBCF KUMEV DEVAD CNF BURPO REPOM KEXEB MUGRA
+SID:SBCF:16:MUGR1BxMOTMA:SBCF KUMEV DEVAD CNF BURPO REPOM KEXEB MUGRA MOTMA
+SID:SBCF:16:MUGR1BxSELDO:SBCF KUMEV DEVAD CNF BURPO REPOM KEXEB MUGRA SELDO
+SID:SBCF:16:SINE1A:SBCF OPVAL SINEK
+SID:SBCF:16:SINE1AxANLES:SBCF OPVAL SINEK TESAG ANLES
+SID:SBCF:16:SINE1AxANPEK:SBCF OPVAL SINEK MEXOK ANPEK
+SID:SBCF:16:SINE1AxYPT:SBCF OPVAL SINEK MEXOK ANPEK YPT
+SID:SBCF:16:SUBR1A:SBCF KUMEV DEVAD CNF CNF06 SUBRI
+SID:SBCF:16:SUBR1AxGEDOK:SBCF KUMEV DEVAD CNF CNF06 SUBRI BIVBI GEDOK
+SID:SBCF:16:SUBR1AxNINSA:SBCF KUMEV DEVAD CNF CNF06 SUBRI D345Z D000Z D015Z ISMEK NINSA
+SID:SBCF:16:SUBR1AxOPLEX:SBCF KUMEV DEVAD CNF CNF06 SUBRI D339Z D348Z D357Z KAMOD OPLEX
+SID:SBCF:16:SUBR1AxPENTE:SBCF KUMEV DEVAD CNF CNF06 SUBRI D341Z D352Z D003Z ITAVI PENTE
+SID:SBCF:16:SUBR1AxSIDOL:SBCF KUMEV DEVAD CNF CNF06 SUBRI SIDOL
+SID:SBCF:16:TORU1A:SBCF KUMEV DEVAD CNF CF018 TORUX
+SID:SBCF:16:TORU1AxGEDOK:SBCF KUMEV DEVAD CNF CF018 TORUX GEDOK
+SID:SBCF:16:TORU1AxOBGAR:SBCF KUMEV DEVAD CNF CF018 TORUX PENTE OBGAR
+SID:SBCF:16:TORU1AxOPLEX:SBCF KUMEV DEVAD CNF CF018 TORUX OPLEX
+SID:SBCF:16:TORU1AxPENTE:SBCF KUMEV DEVAD CNF CF018 TORUX PENTE
+SID:SBCF:16:TORU1AxSIDOL:SBCF KUMEV DEVAD CNF CF018 TORUX SIDOL
+SID:SBCF:16:UGRU1B:SBCF CNF01 UGRUL
+SID:SBCF:16:UGRU1BxEVPAD:SBCF CNF01 UGRUL ITASU UGETU ASBIT EVPAD
+SID:SBCF:34:AKRA1A:SBCF CNF WH019 AKRAR
+SID:SBCF:34:AKRA1AxKOVED:SBCF CNF WH019 AKRAR VOTSU KOVED
+SID:SBCF:34:AKRA1AxMAVBO:SBCF CNF WH019 AKRAR VOTSU KOVED MAVBO
+SID:SBCF:34:AKRA1AxMOTMA:SBCF CNF WH019 AKRAR VOTSU MOTMA
+SID:SBCF:34:AKRA1AxSELDO:SBCF CNF WH019 AKRAR SELDO
+SID:SBCF:34:GATO1A:SBCF CF012 DOVRU GATOX
+SID:SBCF:34:GATO1AxANLES:SBCF CF012 DOVRU GATOX ANLES
+SID:SBCF:34:GATO1AxKOKSU:SBCF CF012 DOVRU GATOX KOKSU
+SID:SBCF:34:GATO1AxSALVI:SBCF CF012 DOVRU GATOX ANLES SALVI
+SID:SBCF:34:GATO1AxYPT:SBCF CF012 DOVRU GATOX WH018 YPT
+SID:SBCF:34:IRAX1A:SBCF CNF DEVAD IRAXO
+SID:SBCF:34:IRAX1AxDEJAN:SBCF CNF DEVAD IRAXO GEPNA NITLU DEJAN
+SID:SBCF:34:IRAX1AxEVPAD:SBCF CNF DEVAD IRAXO KUBEX WH006 OPSAB EVPAD
+SID:SBCF:34:MUGR1A:SBCF CNF BURPO REPOM KEXEB MUGRA
+SID:SBCF:34:MUGR1AxMOTMA:SBCF CNF BURPO REPOM KEXEB MUGRA MOTMA
+SID:SBCF:34:MUGR1AxSELDO:SBCF CNF BURPO REPOM KEXEB MUGRA SELDO
+SID:SBCF:34:SINE1A:SBCF SINEK
+SID:SBCF:34:SINE1AxANLES:SBCF SINEK TESAG ANLES
+SID:SBCF:34:SINE1AxANPEK:SBCF SINEK MEXOK ANPEK
+SID:SBCF:34:SINE1AxYPT:SBCF SINEK MEXOK ANPEK YPT
+SID:SBCF:34:SUBR1B:SBCF CNF SUBRI
+SID:SBCF:34:SUBR1BxGEDOK:SBCF CNF SUBRI BIVBI GEDOK
+SID:SBCF:34:SUBR1BxNINSA:SBCF CNF SUBRI D345Z D000Z D015Z ISMEK NINSA
+SID:SBCF:34:SUBR1BxOPLEX:SBCF CNF SUBRI D339Z D348Z D357Z KAMOD OPLEX
+SID:SBCF:34:SUBR1BxPENTE:SBCF CNF SUBRI D341Z D352Z D003Z ITAVI PENTE
+SID:SBCF:34:SUBR1BxSIDOL:SBCF CNF SUBRI SIDOL
+SID:SBCF:34:TORU1A:SBCF CNF TORUX
+SID:SBCF:34:TORU1AxGEDOK:SBCF CNF TORUX GEDOK
+SID:SBCF:34:TORU1AxOBGAR:SBCF CNF TORUX PENTE OBGAR
+SID:SBCF:34:TORU1AxOPLEX:SBCF CNF TORUX OPLEX
+SID:SBCF:34:TORU1AxPENTE:SBCF CNF TORUX PENTE
+SID:SBCF:34:TORU1AxSIDOL:SBCF CNF TORUX SIDOL
+SID:SBCF:34:UGRU1A:SBCF CNF BURPO BHZ UGRUL
+SID:SBCF:34:UGRU1AxEVPAD:SBCF CNF BURPO BHZ UGRUL ITASU UGETU ASBIT EVPAD
+STAR:SBCF:16:EPDI1A:EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:EPDI1AxNITMI:NITMI VULOM CF032 EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:EPDI1AxOPLUT:OPLUT SALVI EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:EPDI1AxOPVUK:OPVUK EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:EPDI1AxPOSMU:POSMU OPLUT SALVI EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:EPDI1AxTEMIT:TEMIT VULOM CF032 EPDIM NISTI CF033 AKPUV
+STAR:SBCF:16:GILN1A:GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:GILN1AxGEVMI:GEVMI EKINU GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:GILN1AxIROBI:IROBI EKINU GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:GILN1AxIVSUT:IVSUT POSTA GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:GILN1AxMEBLU:MEBLU GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:GILN1AxPOSTA:POSTA GILNI CF026 WH009 CF028 CF029 OSOMI
+STAR:SBCF:16:ISVA1A:ISVAD NIMGU CF042 PUMAT CF043 TISLO
+STAR:SBCF:16:ISVA1AxOPKES:OPKES ISVAD NIMGU CF042 PUMAT CF043 TISLO
+STAR:SBCF:16:ISVA1AxUTPIN:UTPIN OPKES ISVAD NIMGU CF042 PUMAT CF043 TISLO
+STAR:SBCF:16:KIMU1A:KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxMAN16:MANDU NIPDA CF037 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxMAN34:MANDU NIPDA CF037 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxNIP16:NIPDA CF037 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxNIP34:NIPDA CF037 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxUMK16:UMKIT CF036 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:16:KIMU1AxUMK34:UMKIT CF036 CF044 OPSAB CF046 KIMUS KUGUT CF039 AKPUV
+STAR:SBCF:34:EPDI1A:EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:EPDI1AxNITMI:NITMI VULOM CF032 EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:EPDI1AxOPLUT:OPLUT SALVI EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:EPDI1AxOPVUK:OPVUK EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:EPDI1AxPOSMU:POSMU OPLUT SALVI EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:EPDI1AxTEMIT:TEMIT VULOM CF032 EPDIM NISTI CF033 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1A:GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1AxGEVMI:GEVMI EKINU GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1AxIROBI:IROBI EKINU GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1AxIVSUT:IVSUT POSTA GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1AxMEBLU:MEBLU GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:GILN1AxPOSTA:POSTA GILNI WH009 CF081 AKPUV CF039 KUGUT
+STAR:SBCF:34:ISVA1A:ISVAD CF042 CF048 CF039 KUGUT
+STAR:SBCF:34:ISVA1AxOPKES:OPKES ISVAD CF042 CF048 CF039 KUGUT
+STAR:SBCF:34:ISVA1AxUTPIN:UTPIN OPKES ISVAD CF042 CF048 CF039 KUGUT
+STAR:SBCF:34:KIMU1A:KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxMAN16:MANDU NIPDA CF037 KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxMAN34:MANDU NIPDA CF037 KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxNIP16:NIPDA CF037 KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxNIP34:NIPDA CF037 KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxUMK16:UMKIT CF036 KIMUS CF047 VADON
+STAR:SBCF:34:KIMU1AxUMK34:UMKIT CF036 CF044 OPSAB CF046 KIMUS CF047 VADON
+SID:SBCN:09:GIDV1B:SBCN GIDVO
+SID:SBCN:09:GUAR2B:SBCN GUARI
+SID:SBCN:09:OMNI:SBCNSID:SBCN:09:OPRA2B:SBCN OPRAX
+SID:SBCN:09:ROMI2B:SBCN ROMIK
+SID:SBCN:09:SATN2B:SBCN SATNA
+SID:SBCN:09:UTKA1A:SBCN UTKAL
+SID:SBCN:09:UTKA1AxGIDVO:SBCN UTKAL GIDVO
+SID:SBCN:09:UTKA1AxGUARI:SBCN UTKAL GUARI
+SID:SBCN:09:UTNO1A:SBCN UTNOR
+SID:SBCN:09:UTNO1AxOPRAX:SBCN UTNOR OPRAX
+SID:SBCN:09:UTNO1AxROMIK:SBCN UTNOR ROMIK
+SID:SBCN:09:UTNO1AxSATNA:SBCN UTNOR SATNA
+SID:SBCN:27:GIDV1A:SBCN GIDVO
+SID:SBCN:27:GUAR2A:SBCN GUARI
+SID:SBCN:27:OMNI:SBCNSID:SBCN:27:OPRA2A:SBCN OPRAX
+SID:SBCN:27:ROMI2A:SBCN ROMIK
+SID:SBCN:27:SATN2A:SBCN SATNA
+SID:SBCN:27:UTKA1B:SBCN UTKAL
+SID:SBCN:27:UTKA1BxGIDVO:SBCN UTKAL GIDVO
+SID:SBCN:27:UTKA1BxGUARI:SBCN UTKAL GUARI
+SID:SBCN:27:UTNO1B:SBCN UTNOR
+SID:SBCN:27:UTNO1BxOPRAX:SBCN UTNOR OPRAX
+SID:SBCN:27:UTNO1BxROMIK:SBCN UTNOR ROMIK
+SID:SBCN:27:UTNO1BxSATNA:SBCN UTNOR SATNA
+SID:SBGO:14:ARIH:SBGO ARIH
+SID:SBGO:14:ARIHxSATNA:SBGO ARIH SATNA
+SID:SBGO:14:ARIHxSEKLI:SBGO ARIH KETUL SEKLI
+SID:SBGO:14:ARIHxSELMU:SBGO ARIH SELMU
+SID:SBGO:14:ARIHxUBSUS:SBGO ARIH UBSUS
+SID:SBGO:14:ISOP1A:SBGO GO013 LODUV ISOPI
+SID:SBGO:14:KETU1A:SBGO GO013 KETUL
+SID:SBGO:14:LIZA:SBGO LIZA_
+SID:SBGO:14:LIZAxNIMVA:SBGO LIZA_ NIMVA
+SID:SBGO:14:LIZAxPOVOX:SBGO LIZA_ POVOX
+SID:SBGO:14:LIZAxTENEK:SBGO LIZA_ TENEK
+SID:SBGO:14:LIZAxUBSUS:SBGO LIZA_ POVOX UBSUS
+SID:SBGO:14:LODU1A:SBGO GO013 LODUV
+SID:SBGO:14:LODU1B:SBGO LODUV
+SID:SBGO:14:MOSN1A:SBGO GO013 GO014 NIMVA MOSNA
+SID:SBGO:14:NIMV1A:SBGO GO013 GO014 NIMVA
+SID:SBGO:14:NIMV1B:SBGO GAVUV NIMVA
+SID:SBGO:14:OPLI1B:SBGO OPLIK
+SID:SBGO:14:PAPE1A:SBGO GO013 LODUV PAPES
+SID:SBGO:14:SATN1A:SBGO GO013 SATNA
+SID:SBGO:14:SATNA:SBGO SATNA
+SID:SBGO:14:SEKL1A:SBGO GO013 KETUL SEKLI
+SID:SBGO:14:SEKLI:SBGO SEKLI
+SID:SBGO:14:SELM1A:SBGO GO013 GO014 SELMU
+SID:SBGO:14:SELMU:SBGO SELMU
+SID:SBGO:14:TENE1A:SBGO GO013 GO014 TENEK
+SID:SBGO:14:TENE1B:SBGO ILTAS TENEK
+SID:SBGO:14:UBSU1A:SBGO GO013 GO014 UBSUS
+SID:SBGO:14:UBSU1B:SBGO POVOX UBSUS
+SID:SBGO:32:ARIH:SBGO ARIH
+SID:SBGO:32:ARIHxSATNA:SBGO ARIH SATNA
+SID:SBGO:32:ARIHxSEKLI:SBGO ARIH KETUL SEKLI
+SID:SBGO:32:ARIHxSELMU:SBGO ARIH SELMU
+SID:SBGO:32:ARIHxUBSUS:SBGO ARIH UBSUS
+SID:SBGO:32:ISOP1A:SBGO GO016 GO018 LODUV ISOPI
+SID:SBGO:32:KETU1A:SBGO GO016 GO017 KETUL
+SID:SBGO:32:LIZA:SBGO LIZA_
+SID:SBGO:32:LIZAxNIMVA:SBGO LIZA_ NIMVA
+SID:SBGO:32:LIZAxPOVOX:SBGO LIZA_ POVOX
+SID:SBGO:32:LIZAxTENEK:SBGO LIZA_ TENEK
+SID:SBGO:32:LIZAxUBSUS:SBGO LIZA_ POVOX UBSUS
+SID:SBGO:32:LODU1A:SBGO GO016 GO018 LODUV
+SID:SBGO:32:LODU1B:SBGO LODUV
+SID:SBGO:32:MOSN1A:SBGO GO016 GO018 MOSNA
+SID:SBGO:32:NIMV1A:SBGO GO016 NIMVA
+SID:SBGO:32:NIMV1B:SBGO GAVUV NIMVA
+SID:SBGO:32:OPLI1B:SBGO OPLIK
+SID:SBGO:32:PAPE1A:SBGO GO016 GO018 PAPES
+SID:SBGO:32:SATN1A:SBGO GO016 GO017 SATNA
+SID:SBGO:32:SATNA:SBGO SATNA
+SID:SBGO:32:SEKL1A:SBGO GO016 GO017 KETUL SEKLI
+SID:SBGO:32:SEKLI:SBGO SEKLI
+SID:SBGO:32:SELM1A:SBGO GO016 GO017 SELMU
+SID:SBGO:32:SELMU:SBGO SELMU
+SID:SBGO:32:TENE1A:SBGO GO016 TENEK
+SID:SBGO:32:TENE1B:SBGO ILTAS TENEK
+SID:SBGO:32:UBSU1A:SBGO GO016 GO017 UBSUS
+SID:SBGO:32:UBSU1B:SBGO POVOX UBSUS
+SID:SBGP:02:ASTO1A:SBGP GP367 ASTOB
+SID:SBGP:02:ENTE1A:SBGP GP367 ENTEV
+SID:SBGP:02:ENTE1AxANSOK:SBGP GP367 ENTEV FOSSE NENON EDVUL ANSOK
+SID:SBGP:02:ENTE1AxEDVUL:SBGP GP367 ENTEV FOSSE NENON EDVUL
+SID:SBGP:02:ENTE1AxJRP:SBGP GP367 ENTEV JRP
+SID:SBGP:02:ENTE1AxPIR:SBGP GP367 ENTEV FOSSE PIR
+SID:SBGP:02:RPR1A:SBGP GP367 RPR
+SID:SBGP:20:NENO1A:SBGP GP361 NENON
+SID:SBGP:20:NENO1AxANSOK:SBGP GP361 NENON EDVUL ANSOK
+SID:SBGP:20:NENO1AxASTOB:SBGP GP361 NENON ASTOB
+SID:SBGP:20:NENO1AxEDVUL:SBGP GP361 NENON EDVUL
+SID:SBGP:20:NENO1AxJRP:SBGP GP361 NENON JRP
+SID:SBGP:20:NENO1AxPIR:SBGP GP361 NENON FOSSE PIR
+SID:SBGP:20:NENO1AxRPR:SBGP GP361 NENON FOSSE RPR
+SID:SBIP:05:OMNI:SBIPSID:SBIP:05:PERI1B:SBIP PERI
+SID:SBIP:05:PERI1BxOPROV:SBIP PERI OPROV
+SID:SBIP:05:PERI1BxPANIM:SBIP PERI PANIM
+SID:SBIP:05:PERI1BxSARLA:SBIP PERI SARLA
+SID:SBIP:05:PERI1BxUTPOV:SBIP PERI UTPOV
+SID:SBIP:23:OMNI:SBIPSID:SBIP:23:PERI1B:SBIP PERI
+SID:SBIP:23:PERI1BxOPROV:SBIP PERI OPROV
+SID:SBIP:23:PERI1BxPANIM:SBIP PERI PANIM
+SID:SBIP:23:PERI1BxSARLA:SBIP PERI SARLA
+SID:SBIP:23:PERI1BxUTPOV:SBIP PERI UTPOV
+SID:SBIT:18:OMNI:SBITSID:SBIT:36:OMNI:SBITSID:SBKP:15:ANRO1A:SBKP ANROV
+SID:SBKP:15:ANRO1AxDIONI:SBKP ANROV SCB KUBVI DIONI
+SID:SBKP:15:ANRO1AxEGITO:SBKP ANROV SCB KP016 VUTVA EGITO
+SID:SBKP:15:ANRO1AxIVPIT:SBKP ANROV SCB KP017 OBMAV IVPIT
+SID:SBKP:15:ANRO1AxRAXEG:SBKP ANROV VUNGI OPGUN VUMKO RAXEG
+SID:SBKP:15:ANRO1AxTEMAM:SBKP ANROV SCB KUBVI DIONI TEMAM
+SID:SBKP:15:ANRO1AxVUMKO:SBKP ANROV VUNGI OPGUN VUMKO
+SID:SBKP:15:BOCA2A:SBKP BOCAS
+SID:SBKP:15:BOCA2AxDORLU:SBKP BOCAS KP013 KIBOT BCO GENKO DORLU
+SID:SBKP:15:BOCA2AxGENKO:SBKP BOCAS KP013 KIBOT BCO GENKO
+SID:SBKP:15:BOCA2AxGERTU:SBKP BOCAS KP024 KP026 GERTU
+SID:SBKP:15:BOCA2AxUKBEV:SBKP BOCAS KP024 KP026 UKBEV
+SID:SBKP:15:BOCA2AxUTGER:SBKP BOCAS ILSES KP006 UTGER
+SID:SBKP:15:OMNI:SBKPSID:SBKP:33:DADG1A:SBKP DADGO
+SID:SBKP:33:DADG1AxDORLU:SBKP DADGO OBDIK UMRIX KP022 ASDUX KP023 BCO GENKO DORLU
+SID:SBKP:33:DADG1AxGENKO:SBKP DADGO OBDIK UMRIX KP022 ASDUX KP023 BCO GENKO
+SID:SBKP:33:DADG1AxGERTU:SBKP DADGO GERTU
+SID:SBKP:33:DADG1AxISMOB:SBKP DADGO OBDIK KP009 KP701 ISMOB
+SID:SBKP:33:DADG1AxUTGER:SBKP DADGO OBDIK UMRIX MUGDO EROPO BGC KP027 UTGER
+SID:SBKP:33:ISEV1A:SBKP ISEVU
+SID:SBKP:33:ISEV1AxDIONI:SBKP ISEVU EPDAD NENIR SCB KUBVI DIONI
+SID:SBKP:33:ISEV1AxEGITO:SBKP ISEVU OPGUN EGITO
+SID:SBKP:33:ISEV1AxGERTU:SBKP ISEVU DADGO GERTU
+SID:SBKP:33:ISEV1AxRAXEG:SBKP ISEVU VUMKO RAXEG
+SID:SBKP:33:ISEV1AxTEMAM:SBKP ISEVU EPDAD NENIR SCB KUBVI DIONI TEMAM
+SID:SBKP:33:ISEV1AxVUMKO:SBKP ISEVU VUMKO
+SID:SBKP:33:OMNI:SBKPSID:SBKP:33:UTGE2A:SBKP DADGO OBDIK UMRIX VUGER KP006 UTGER
+STAR:SBKP:15:ILSO1B:ILSOR EVMUL VUMAX ASDUX TODVU UMRIX OBDIK
+STAR:SBKP:15:ILSO1BxVUKIK:VUKIK TOGES ILSOR EVMUL VUMAX ASDUX TODVU UMRIX OBDIK
+STAR:SBKP:15:ILSO2A:ILSOR DABOS TODVU UMRIX OBDIK
+STAR:SBKP:15:ILSO2AxPAGOG:PAGOG ILSOR DABOS TODVU UMRIX OBDIK
+STAR:SBKP:15:ILSO2AxVUKIK:VUKIK TOGES ILSOR DABOS TODVU UMRIX OBDIK
+STAR:SBKP:15:OBMA2A:OBMAV KP001 KOVGA
+STAR:SBKP:15:PUPS2A:PUPSI UGOTA ATILI MUPIP
+STAR:SBKP:15:UMRI1B:UMRIX OBDIK
+STAR:SBKP:15:UMRI1BxENTIT:ENTIT UTGUT VUGMU UMRIX OBDIK
+STAR:SBKP:15:UMRI1BxTBE:TBE UMGIV GIDMI EVMUL VUMAX ASDUX TODVU UMRIX OBDIK
+STAR:SBKP:15:UMRI2A:UMRIX OBDIK
+STAR:SBKP:15:UMRI2AxENTIT:ENTIT UTGUT VUGMU UMRIX OBDIK
+STAR:SBKP:15:UMRI2AxSIMEX:SIMEX UMGIV ENVID KP004 KP028 TODVU UMRIX OBDIK
+STAR:SBKP:33:ENTI1A:ENTIT UTGUT VUGMU ORULU OPMUD
+STAR:SBKP:33:ESAD1B:TBE UMGIV GIDMI DABOS ESADA ISESO
+STAR:SBKP:33:GEKI1A:GEKIVSTAR:SBKP:33:GEKI1AxOBMAV:OBMAV KP002 KP012 GEKIV
+STAR:SBKP:33:GEKI1AxPUPSI:PUPSI UGOTA ATILI UBMOS KP021 PUDES GEKIV
+STAR:SBKP:33:ILSO1B:ILSOR KUGLA EDNUP OPTUK KOVLA DABOS ESADA ISESO
+STAR:SBKP:33:ILSO1BxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA DABOS ESADA ISESO
+STAR:SBKP:33:ILSO1D:ILSOR KUGLA EDNUP OPTUK KOVLA DABOS ISESO
+STAR:SBKP:33:ILSO1DxPAGOG:PAGOG ILSOR KUGLA EDNUP OPTUK KOVLA DABOS ISESO
+STAR:SBKP:33:ILSO1DxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA DABOS ISESO
+STAR:SBKP:33:SIME1A:SIMEX UMGIV ENVID DABOS ISESO
+STAR:SBKP:33:VUGM1B:ENTIT UTGUT VUGMU ORULU OPMUD
+SID:SBLS:13:ISLE1A:SBLS DEVAD WH016 ISLEG
+SID:SBLS:13:ISLE1AxMAVBO:SBLS DEVAD WH016 ISLEG KOVED MAVBO
+SID:SBLS:13:ISLE1AxMOTMA:SBLS DEVAD WH016 ISLEG MOTMA
+SID:SBLS:13:ISLE1AxSELDO:SBLS DEVAD WH016 ISLEG SELDO
+SID:SBLS:13:ISNU1A:SBLS VUPER ISNUV
+SID:SBLS:13:ISNU1AxANLES:SBLS VUPER ISNUV ANLES
+SID:SBLS:13:ISNU1AxKOKSU:SBLS VUPER ISNUV KOKSU
+SID:SBLS:13:ISNU1AxSALVI:SBLS VUPER ISNUV ANLES SALVI
+SID:SBLS:13:ISNU1AxYPT:SBLS VUPER ISNUV ANPEK YPT
+SID:SBLS:13:KUBE1A:SBLS VADON KUBEX
+SID:SBLS:13:KUBE1AxDEJAN:SBLS VADON KUBEX ILROT MOSGU DEJAN
+SID:SBLS:13:KUBE1AxEVPAD:SBLS VADON KUBEX OPSAB WH002 WH012 EVPAD
+SID:SBLS:13:MUGR1A:SBLS CNF KEXEB MUGRA
+SID:SBLS:13:MUGR1AxMOTMA:SBLS CNF KEXEB MUGRA MOTMA
+SID:SBLS:13:MUGR1AxSELDO:SBLS CNF KEXEB MUGRA SELDO
+SID:SBLS:13:SINE1A:SBLS SINEK
+SID:SBLS:13:SINE1AxANLES:SBLS SINEK ANLES
+SID:SBLS:13:SINE1AxKOKSU:SBLS SINEK MEXOK KOKSU
+SID:SBLS:13:SINE1AxYPT:SBLS SINEK MEXOK ANPEK YPT
+SID:SBLS:13:SUBR1A:SBLS CNF SUBRI
+SID:SBLS:13:SUBR1AxGEDOK:SBLS CNF SUBRI BIVBI GEDOK
+SID:SBLS:13:SUBR1AxNINSA:SBLS CNF SUBRI D345Z D000Z D015Z ISMEK NINSA
+SID:SBLS:13:SUBR1AxOPLEX:SBLS CNF SUBRI D339Z D348Z D357Z KAMOD OPLEX
+SID:SBLS:13:SUBR1AxPENTE:SBLS CNF SUBRI D341Z D352Z D003Z ITAVI PENTE
+SID:SBLS:13:SUBR1AxSIDOL:SBLS CNF SUBRI SIDOL
+SID:SBLS:13:TORU1A:SBLS CNF TORUX
+SID:SBLS:13:TORU1AxGEDOK:SBLS CNF TORUX GEDOK
+SID:SBLS:13:TORU1AxOBGAR:SBLS CNF TORUX PENTE OBGAR
+SID:SBLS:13:TORU1AxOPLEX:SBLS CNF TORUX OPLEX
+SID:SBLS:13:TORU1AxPENTE:SBLS CNF TORUX PENTE
+SID:SBLS:13:TORU1AxSIDOL:SBLS CNF TORUX SIDOL
+SID:SBLS:13:UGRU1A:SBLS UGRUL D122Q D142Q D162Q D182Q SIPIN NITLU
+SID:SBLS:31:ISLE1A:SBLS WH016 ISLEG
+SID:SBLS:31:ISLE1AxMAVBO:SBLS WH016 ISLEG KOVED MAVBO
+SID:SBLS:31:ISLE1AxMOTMA:SBLS WH016 ISLEG MOTMA
+SID:SBLS:31:ISLE1AxSELDO:SBLS WH016 ISLEG SELDO
+SID:SBLS:31:ISNU1A:SBLS VUPER ISNUV
+SID:SBLS:31:ISNU1AxANLES:SBLS VUPER ISNUV ANLES
+SID:SBLS:31:ISNU1AxKOKSU:SBLS VUPER ISNUV KOKSU
+SID:SBLS:31:ISNU1AxSALVI:SBLS VUPER ISNUV ANLES SALVI
+SID:SBLS:31:ISNU1AxYPT:SBLS VUPER ISNUV ANPEK YPT
+SID:SBLS:31:KUBE1A:SBLS VADON KUBEX
+SID:SBLS:31:KUBE1AxDEJAN:SBLS VADON KUBEX ILROT MOSGU DEJAN
+SID:SBLS:31:KUBE1AxEVPAD:SBLS VADON KUBEX OPSAB WH002 WH012 EVPAD
+SID:SBLS:31:MUGR1A:SBLS CNF KEXEB MUGRA
+SID:SBLS:31:MUGR1AxMOTMA:SBLS CNF KEXEB MUGRA MOTMA
+SID:SBLS:31:MUGR1AxSELDO:SBLS CNF KEXEB MUGRA SELDO
+SID:SBLS:31:SINE1A:SBLS SINEK
+SID:SBLS:31:SINE1AxANLES:SBLS SINEK ANLES
+SID:SBLS:31:SINE1AxKOKSU:SBLS SINEK MEXOK KOKSU
+SID:SBLS:31:SINE1AxYPT:SBLS SINEK MEXOK ANPEK YPT
+SID:SBLS:31:SUBR1A:SBLS CNF SUBRI
+SID:SBLS:31:SUBR1AxGEDOK:SBLS CNF SUBRI BIVBI GEDOK
+SID:SBLS:31:SUBR1AxNINSA:SBLS CNF SUBRI D345Z D000Z D015Z ISMEK NINSA
+SID:SBLS:31:SUBR1AxOPLEX:SBLS CNF SUBRI D339Z D348Z D357Z KAMOD OPLEX
+SID:SBLS:31:SUBR1AxPENTE:SBLS CNF SUBRI D341Z D352Z D003Z ITAVI PENTE
+SID:SBLS:31:SUBR1AxSIDOL:SBLS CNF SUBRI SIDOL
+SID:SBLS:31:TORU1A:SBLS CNF TORUX
+SID:SBLS:31:TORU1AxGEDOK:SBLS CNF TORUX GEDOK
+SID:SBLS:31:TORU1AxOBGAR:SBLS CNF TORUX PENTE OBGAR
+SID:SBLS:31:TORU1AxOPLEX:SBLS CNF TORUX OPLEX
+SID:SBLS:31:TORU1AxPENTE:SBLS CNF TORUX PENTE
+SID:SBLS:31:TORU1AxSIDOL:SBLS CNF TORUX SIDOL
+SID:SBLS:31:UGRU1A:SBLS UGRUL D122Q D142Q D162Q D182Q SIPIN NITLU
+SID:SBMK:12:CARD1A:SBMK MK002 CARDO
+SID:SBMK:12:CARD1C:SBMK CARDO
+SID:SBMK:12:MILO1A:SBMK MK002 MILOL
+SID:SBMK:12:NITM1A:SBMK MK002 NITMI
+SID:SBMK:12:NITM1C:SBMK MCL NITMI
+SID:SBMK:12:RETO1A:SBMK MK002 RETOL
+SID:SBMK:12:RETO1C:SBMK RETOL
+SID:SBMK:30:CARD1B:SBMK MK003 CARDO
+SID:SBMK:30:CARD1C:SBMK MCL CARDO
+SID:SBMK:30:MILO1B:SBMK MK003 MILOL
+SID:SBMK:30:NITM1B:SBMK MK003 NITMI
+SID:SBMK:30:NITM1C:SBMK NITMI
+SID:SBMK:30:RETO1B:SBMK MK003 RETOL
+SID:SBMK:30:RETO1C:SBMK MCL RETOL
+SID:SBPC:09:EGBED:SBPC PCL EGBED
+SID:SBPC:09:EGBEDxARX:SBPC PCL EGBED ARX
+SID:SBPC:09:ESDAD:SBPC ESDAD
+SID:SBPC:09:FUR1:SBPC FUR
+SID:SBPC:09:MOLDU1:SBPC MOLDU
+SID:SBPC:09:MOLVA:SBPC MOLVA
+SID:SBPC:09:MUKNU:SBPC PCL MUKNU
+SID:SBPC:09:NILPI:SBPC NILPI
+SID:SBPC:09:OPRUT1:SBPC OPRUT
+SID:SBPC:09:PIR1:SBPC PIR
+SID:SBPC:09:VGH1:SBPC VGH
+SID:SBPC:27:EGBED:SBPC PCL EGBED
+SID:SBPC:27:EGBEDxARX:SBPC PCL EGBED ARX
+SID:SBPC:27:ESDAD:SBPC ESDAD
+SID:SBPC:27:FUR1:SBPC FUR
+SID:SBPC:27:MOLDU1:SBPC MOLDU
+SID:SBPC:27:MOLVA:SBPC MOLVA
+SID:SBPC:27:MUKNU:SBPC PCL MUKNU
+SID:SBPC:27:NILPI:SBPC NILPI
+SID:SBPC:27:OPRUT1:SBPC OPRUT
+SID:SBPC:27:PIR1:SBPC PIR
+SID:SBPC:27:VGH1:SBPC VGH
+SID:SBPJ:14:EGALE1:SBPJ EGALE
+SID:SBPJ:14:ISURO1:SBPJ ISURO
+SID:SBPJ:14:LIBEC1:SBPJ LIBEC
+SID:SBPJ:14:NOVOI1:SBPJ NOVOI
+SID:SBPJ:14:OPLOP1:SBPJ NOVOI OPLOP
+SID:SBPJ:14:PNC1:SBPJ PNC
+SID:SBPJ:14:SADOR1:SBPJ SADOR
+SID:SBPJ:32:EGALE1:SBPJ EGALE
+SID:SBPJ:32:ISURO1:SBPJ ISURO
+SID:SBPJ:32:LIBEC1:SBPJ LIBEC
+SID:SBPJ:32:NOVOI1:SBPJ NOVOI
+SID:SBPJ:32:OPLOP1:SBPJ NOVOI OPLOP
+SID:SBPJ:32:PNC1:SBPJ PNC
+SID:SBPJ:32:SADOR1:SBPJ SADOR
+STAR:SBPJ:14:ANPU1A:ANPUM PJ037 PJ371
+STAR:SBPJ:14:ANPU1AxISURO:ISURO LIBEC ANPUM PJ037 PJ371
+STAR:SBPJ:14:ANPU1AxLIBEC:LIBEC ANPUM PJ037 PJ371
+STAR:SBPJ:14:OPLO1A:OPLOP OBGOV PJ033 PJ032 PJ368
+STAR:SBPJ:14:OPNU1A:OPNUP PJ031 PJ367
+STAR:SBPJ:14:OPNU1AxILNOM:ILNOM OPNUP PJ031 PJ367
+STAR:SBPJ:14:OPNU1AxISOBI:ISOBI OPNUP PJ031 PJ367
+STAR:SBPJ:32:ISOB1A:ISOBI OPNUP PJ038 PJ034 PJ039 PJ364
+STAR:SBPJ:32:LIBE1A:LIBEC LODEK PJ042 PJ361
+STAR:SBPJ:32:OBGO1A:OBGOV PJ041 PJ364
+STAR:SBPJ:32:OBGO1AxILNOM:ILNOM OBGOV PJ041 PJ364
+STAR:SBPJ:32:OBGO1AxOPLOP:OPLOP OBGOV PJ041 PJ364
+SID:SBRP:18:AAQ1A:SBRP REPAX AAQ
+SID:SBRP:18:AAQ1B:SBRP REPAX AAQ
+SID:SBRP:18:ASTO1A:SBRP ASTOB
+SID:SBRP:18:ASTO1B:SBRP ASTOB
+SID:SBRP:18:EGBA1A:SBRP EGBAL
+SID:SBRP:18:EGBAL1:SBRP EGBAL
+SID:SBRP:18:EVPE1A:SBRP EVPES
+SID:SBRP:18:EVPE1AxAAQ:SBRP EVPES AAQ
+SID:SBRP:18:EVPE1AxBRT:SBRP EVPES BRT
+SID:SBRP:18:EVPE1AxFOSSE:SBRP EVPES FOSSE
+SID:SBRP:18:EVPE1AxJRP:SBRP EVPES JRP
+SID:SBRP:18:EVTO1A:SBRP EVTOB
+SID:SBRP:18:EVTOB1:SBRP EVTOB
+SID:SBRP:18:FALS1A:SBRP FALSE
+SID:SBRP:18:FALS1AxEVTOB:SBRP FALSE NIMPU EVTOB
+SID:SBRP:18:FALS1AxNIMPU:SBRP FALSE NIMPU
+SID:SBRP:18:HAST1A:SBRP HASTE
+SID:SBRP:18:HAST1B:SBRP HASTE
+SID:SBRP:18:ISUV1A:SBRP ISUVU
+SID:SBRP:18:ISUV1AxEVNUG:SBRP ISUVU EVNUG
+SID:SBRP:18:ISUV1AxIVSUT:SBRP ISUVU IVSUT
+SID:SBRP:18:ISUV1AxURB:SBRP ISUVU URB
+SID:SBRP:18:IVTI1A:SBRP IVTIG
+SID:SBRP:18:IVTI1AxAAQ:SBRP IVTIG AAQ
+SID:SBRP:18:IVTI1AxPIR:SBRP IVTIG PIR
+SID:SBRP:18:KEXI1A:SBRP KEXIT
+SID:SBRP:18:KEXIT1:SBRP KEXIT
+SID:SBRP:18:NILP1A:SBRP NILPI
+SID:SBRP:18:NILPI1:SBRP NILPI
+SID:SBRP:18:NILS1A:SBRP NILSU
+SID:SBRP:18:NILS1B:SBRP NILSU
+SID:SBRP:18:OPRU1A:SBRP OPRUT
+SID:SBRP:18:OPRUT1:SBRP OPRUT
+SID:SBRP:18:PIR1A:SBRP PIR
+SID:SBRP:18:PIR1B:SBRP IVTIG PIR
+SID:SBRP:18:REPA1A:SBRP REPAX
+SID:SBRP:18:REPA1B:SBRP REPAX
+SID:SBRP:18:TENI1A:SBRP TENIK SIDOV
+SID:SBRP:18:TENI1C:SBRP TENIK SIDOV
+SID:SBRP:18:ZANE1A:SBRP ZANET
+SID:SBRP:18:ZANET1:SBRP ZANET
+SID:SBRP:36:AAQ1A:SBRP REPAX AAQ
+SID:SBRP:36:AAQ1B:SBRP REPAX AAQ
+SID:SBRP:36:ASTO1A:SBRP ASTOB
+SID:SBRP:36:ASTO1B:SBRP ASTOB
+SID:SBRP:36:EGBA1A:SBRP EGBAL
+SID:SBRP:36:EGBAL1:SBRP EGBAL
+SID:SBRP:36:EVNO1A:SBRP EVNOL
+SID:SBRP:36:EVNO1AxBRT:SBRP EVNOL BRT
+SID:SBRP:36:EVNO1AxJRP:SBRP EVNOL JRP
+SID:SBRP:36:EVNU1A:SBRP ISUVU EVNUG
+SID:SBRP:36:EVTO1A:SBRP EVTOB
+SID:SBRP:36:EVTOB1:SBRP EVTOB
+SID:SBRP:36:FALS1B:SBRP FALSE
+SID:SBRP:36:FALS1BxEVTOB:SBRP FALSE NIMPU EVTOB
+SID:SBRP:36:FALS1BxNIMPU:SBRP FALSE NIMPU
+SID:SBRP:36:FALS1BxPIR:SBRP FALSE PIR
+SID:SBRP:36:HAST1A:SBRP HASTE
+SID:SBRP:36:HAST1B:SBRP HASTE
+SID:SBRP:36:IVSU1A:SBRP UKBEK IVSUT
+SID:SBRP:36:KEXI1A:SBRP KEXIT
+SID:SBRP:36:KEXIT1:SBRP KEXIT
+SID:SBRP:36:NILP1A:SBRP NILPI
+SID:SBRP:36:NILPI1:SBRP NILPI
+SID:SBRP:36:NILS1A:SBRP NILSU
+SID:SBRP:36:NILS1B:SBRP NILSU
+SID:SBRP:36:OPRU1A:SBRP OPRUT
+SID:SBRP:36:OPRUT1:SBRP OPRUT
+SID:SBRP:36:PIR1A:SBRP PIR
+SID:SBRP:36:PIR1B:SBRP IVTIG PIR
+SID:SBRP:36:REMO1A:SBRP EVNOL REMOV
+SID:SBRP:36:REMO1AxAAQ:SBRP EVNOL REMOV AAQ
+SID:SBRP:36:REMO1AxFOSSE:SBRP EVNOL REMOV FOSSE
+SID:SBRP:36:REPA1A:SBRP REPAX
+SID:SBRP:36:REPA1B:SBRP REPAX
+SID:SBRP:36:TENI1A:SBRP TENIK SIDOV
+SID:SBRP:36:TENI1B:SBRP TENIK
+SID:SBRP:36:TENI1C:SBRP TENIK SIDOV
+SID:SBRP:36:ZANE1A:SBRP ZANET
+SID:SBRP:36:ZANET1:SBRP ZANET
+SID:SBSJ:15:DAKA1B:SBSJ DER15_ DAKAV
+SID:SBSJ:15:DAKA1BxDORLU:SBSJ DER15_ DAKAV SCP17 SCP23 DORLU
+SID:SBSJ:15:DAKA1BxEKIDI:SBSJ DER15_ DAKAV EKIDI
+SID:SBSJ:15:EVLO1B:SBSJ DER15_ SC18B EVLOK UBRIR
+SID:SBSJ:15:KORS1A:SBSJ DER15_ SCP01 KORSA
+SID:SBSJ:15:KORS1AxUBRIR:SBSJ DER15_ SCP01 KORSA EVLOK UBRIR
+SID:SBSJ:15:KORS1AxUSAMO:SBSJ DER15_ SCP01 KORSA USAMO
+SID:SBSJ:15:KOTR1A:SBSJ DER15_ SCP02 KOTRU
+SID:SBSJ:15:KOTR1B:SBSJ DER15_ SC18A AMVET KOTRU
+SID:SBSJ:15:SAT1A:SBSJ DER15_ SCP03 SAT
+SID:SBSJ:15:SAT1B:SBSJ DER15_ SCP15 SAT
+SID:SBSJ:15:SIKE1A:SBSJ DER15_ SIKEM
+SID:SBSJ:15:SIKE1AxDAG15:SBSJ DER15_ SIKEM SCP04 DAGUB
+SID:SBSJ:15:SIKE1AxDAG33:SBSJ DER15_ SIKEM SJ15B DAGUB
+SID:SBSJ:15:SIKE1AxEKIDI:SBSJ DER15_ SIKEM DAPSI DOBTI EKIDI
+SID:SBSJ:15:SIKE1AxIMDAB:SBSJ DER15_ SIKEM DAPSI DOBTI EKIDI IMDAB
+SID:SBSJ:15:UBRI1A:SBSJ DER15_ SCP05 USAMO UBRIR
+SID:SBSJ:15:UBRI1B:SBSJ DER15_ SCP16 ARTAN UBRIR
+SID:SBSJ:15:UBSI1A:SBSJ DER15_ UBSIL
+SID:SBSJ:15:UBSI1AxDORLU:SBSJ DER15_ UBSIL SCP09 SCP07 DORLU
+SID:SBSJ:15:UBSI1AxEKIDI:SBSJ DER15_ UBSIL SCP08 EKIDI
+SID:SBSJ:15:USAM1A:SBSJ DER15_ SCP05 USAMO
+SID:SBSJ:33:EKID2B:SBSJ DER33 EKIDI
+SID:SBSJ:33:EVLO2B:SBSJ DER33 EVLOK UBRIR
+SID:SBSJ:33:KORS1A:SBSJ DER33 SJC19 KORSA
+SID:SBSJ:33:KORS1AxUBRIR:SBSJ DER33 SJC19 KORSA EVLOK UBRIR
+SID:SBSJ:33:KORS1AxUSAMO:SBSJ DER33 SJC19 KORSA USAMO
+SID:SBSJ:33:KOTR1A:SBSJ DER33 SJC18 KOTRU
+SID:SBSJ:33:KOTR2B:SBSJ DER33 AMVET KOTRU
+SID:SBSJ:33:SAT1A:SBSJ DER33 SJ15D SAT
+SID:SBSJ:33:SAT2B:SBSJ DER33 SJ007 SAT
+SID:SBSJ:33:SIKE1A:SBSJ DER33 SIKEM
+SID:SBSJ:33:SIKE1AxDAG15:SBSJ DER33 SIKEM SCP04 DAGUB
+SID:SBSJ:33:SIKE1AxDAG33:SBSJ DER33 SIKEM SJ15B DAGUB
+SID:SBSJ:33:SIKE1AxEKIDI:SBSJ DER33 SIKEM DAPSI DOBTI EKIDI
+SID:SBSJ:33:SIKE1AxIMDAB:SBSJ DER33 SIKEM DAPSI DOBTI EKIDI IMDAB
+SID:SBSJ:33:SUNL1A:SBSJ DER33 SUNLU
+SID:SBSJ:33:SUNL1AxEKIDI:SBSJ DER33 SUNLU DAPSI DOBTI EKIDI
+SID:SBSJ:33:SUNL1AxIMDAB:SBSJ DER33 SUNLU DAPSI DOBTI EKIDI IMDAB
+SID:SBSJ:33:UBRI1A:SBSJ DER33 SJ15A USAMO UBRIR
+SID:SBSJ:33:UBRI2B:SBSJ DER33 SCP06 ARTAN UBRIR
+SID:SBSJ:33:USAM1A:SBSJ DER33 SJ15A USAMO
+STAR:SBSJ:15:SUNB1B:MOXEP SUNBU LONES
+STAR:SBSJ:15:SUNB2A:MOXEP SJ022 SUNBU LONES
+STAR:SBSJ:15:UGTE1B:UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE1BxANISE:ANISE UTMUR CG142 CG129 UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE1BxKEVUN:KEVUN UBT ILTAB UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE1BxPORNA:PORNA KEVUN UBT ILTAB UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE2A:UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE2AxANISE:ANISE UTMUR SJ003 UGTEV SJ006 LONES
+STAR:SBSJ:15:UGTE2AxPORNA:PORNA KEVUN SJ021 SJ019 UGTEV SJ006 LONES
+STAR:SBSJ:33:ILTA1B:ILTAB TESIX
+STAR:SBSJ:33:ILTA1BxKEVUN:KEVUN UBT ILTAB TESIX
+STAR:SBSJ:33:ILTA1BxPORNA:PORNA KEVUN UBT ILTAB TESIX
+STAR:SBSJ:33:SOTP1A:MOXEP SJ022 SUNBU SJ017 SOTPI
+STAR:SBSJ:33:SUNB1B:MOXEP SUNBU SJ017 SOTPI
+STAR:SBSJ:33:TESI1A:TESIXSTAR:SBSJ:33:TESI1AxANISE:ANISE UTMUR SJ003 TESIX
+STAR:SBSJ:33:TESI1AxPORNA:PORNA KEVUN SJ021 SJ019 TESIX
+STAR:SBSJ:33:UTMU1B:ANISE UTMUR CG142 TESIX
+SID:SBSR:07:OMNI:SBSRSID:SBSR:25:OMNI:SBSRSID:SBUL:04:EDMI1B:SBUL EDMIN
+SID:SBUL:04:GUAR1B:SBUL GUARI
+SID:SBUL:04:ISRI1B:SBUL ISRIK
+SID:SBUL:04:KIGU1B:SBUL KIGUB
+SID:SBUL:04:MULU1B:SBUL MULUX
+SID:SBUL:04:PABI1B:SBUL PABIN
+SID:SBUL:04:SAKR1B:SBUL SAKRU
+SID:SBUL:04:SIRU1B:SBUL SIRUL
+SID:SBUL:04:TIKS1A:SBUL EDLUN TIKSO
+SID:SBUL:04:TIKS1AxEDMIN:SBUL EDLUN TIKSO EDMIN
+SID:SBUL:04:TIKS1AxUDIGI:SBUL EDLUN TIKSO UDIGI
+SID:SBUL:04:TOPI1A:SBUL EDLUN TOPIK
+SID:SBUL:04:TOPI1AxISRIK:SBUL EDLUN TOPIK ISRIK
+SID:SBUL:04:TOPI1AxKOMLU:SBUL EDLUN TOPIK KOMLU
+SID:SBUL:04:UBSU1B:SBUL UBSUT
+SID:SBUL:04:UDIG1B:SBUL UDIGI
+SID:SBUL:04:VALA1A:SBUL EDLUN VALAP
+SID:SBUL:04:VUKE1A:SBUL EDLUN VUKEP
+SID:SBUL:22:CAL1B:SBUL CAL-CALDAS
+SID:SBUL:22:MOVT1B:SBUL MOVTO
+SID:SBUL:22:NIDS1B:SBUL NIDSI
+SID:SBUL:22:PABI1B:SBUL PABIN
+SID:SBUL:22:POVG1A:SBUL MEVOG POVGA
+SID:SBUL:22:POVG1AxEDMIN:SBUL MEVOG POVGA EDMIN
+SID:SBUL:22:POVG1AxUDIGI:SBUL MEVOG POVGA UDIGI
+SID:SBUL:22:POVG1AxVALAP:SBUL MEVOG POVGA VALAP
+SID:SBUL:22:RENE1A:SBUL MEVOG RENEV
+SID:SBUL:22:RENE1AxISRIK:SBUL MEVOG RENEV ISRIK
+SID:SBUL:22:RENE1AxKOMLU:SBUL MEVOG RENEV KOMLU
+SID:SBUL:22:RENE1AxVUKEP:SBUL MEVOG RENEV VUKEP
+SID:SBUL:22:URB1B:SBUL URB
+SID:SBUR:17:ARX1B:SBUR ARX
+SID:SBUR:17:CORV1A:SBUR URB CORVO
+SID:SBUR:17:GERB1B:SBUR GERBO
+SID:SBUR:17:NIND1B:SBUR ARX NINDI
+SID:SBUR:17:RPR1A:SBUR URB01 URB02 RPR
+SID:SBUR:17:UDIG1A:SBUR URB LITUB UDIGI
+SID:SBUR:35:ARX1A:SBUR ARX
+SID:SBUR:35:CORV1B:SBUR CORVO
+SID:SBUR:35:GERB1A:SBUR GERBO
+SID:SBUR:35:NIND1A:SBUR ARX NINDI
+SID:SBUR:35:RPR1A:SBUR URB01 URB02 RPR
+SID:SBUR:35:UDIG1B:SBUR LITUB UDIGI
+SID:SBVG:04:OMNI:SBVGSID:SBVG:22:OMNI:SBVGSID:SBYS:02C:AAQ:SBYS AAQ
+SID:SBYS:02C:EGBAL:SBYS EGBAL
+SID:SBYS:02C:GIBM1A:SBYS GIBMU
+SID:SBYS:02C:GIBM1AxANSOK:SBYS GIBMU YS017 ANSOK
+SID:SBYS:02C:GIBM1AxASTOB:SBYS GIBMU ASTOB
+SID:SBYS:02C:GIBM1AxENTIT:SBYS GIBMU YS016 ENTIT
+SID:SBYS:02C:GIBM1AxIVPIT:SBYS GIBMU YS017 PUPSI IVPIT
+SID:SBYS:02C:GIBM1AxMOXEP:SBYS GIBMU YS016 MOXEP
+SID:SBYS:02C:GIBM1AxNILPI:SBYS GIBMU YS016 NILPI
+SID:SBYS:02C:GIBM1AxNIMPU:SBYS GIBMU NIMPU
+SID:SBYS:02C:GIBM1AxPUPSI:SBYS GIBMU YS017 PUPSI
+SID:SBYS:02C:GIBM1AxSARTA:SBYS GIBMU YS017 SARTA
+SID:SBYS:02C:GIBM1AxSIDOV:SBYS GIBMU SIDOV
+SID:SBYS:02C:IBOV:SBYS IBOV
+SID:SBYS:02C:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:02C:ILVIV:SBYS ILVIV
+SID:SBYS:02C:KALU:SBYS KALU
+SID:SBYS:02C:KALUxRPR:SBYS KALU RPR
+SID:SBYS:02C:LIVED:SBYS NILBI LIVED
+SID:SBYS:02C:MOLVA:SBYS PCL MOLVA
+SID:SBYS:02C:MOXAV:SBYS MOXAV
+SID:SBYS:02C:MUDRU:SBYS PCL MUDRU
+SID:SBYS:02C:NILBI:SBYS NILBI
+SID:SBYS:02C:NILPI:SBYS NILPI
+SID:SBYS:02C:NIMPU:SBYS NIMPU
+SID:SBYS:02C:OPRUT:SBYS OPRUT
+SID:SBYS:02C:PADAV:SBYS PADAV
+SID:SBYS:02C:RCL:SBYS RCL
+SID:SBYS:02C:RPR:SBYS RPR
+SID:SBYS:02L:AAQ:SBYS AAQ
+SID:SBYS:02L:EGBAL:SBYS EGBAL
+SID:SBYS:02L:IBOV:SBYS IBOV
+SID:SBYS:02L:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:02L:ILVIV:SBYS ILVIV
+SID:SBYS:02L:KALU:SBYS KALU
+SID:SBYS:02L:KALUxRPR:SBYS KALU RPR
+SID:SBYS:02L:LIVED:SBYS NILBI LIVED
+SID:SBYS:02L:MOLVA:SBYS PCL MOLVA
+SID:SBYS:02L:MOXAV:SBYS MOXAV
+SID:SBYS:02L:MUDRU:SBYS PCL MUDRU
+SID:SBYS:02L:NILBI:SBYS NILBI
+SID:SBYS:02L:NILPI:SBYS NILPI
+SID:SBYS:02L:NIMPU:SBYS NIMPU
+SID:SBYS:02L:OPRUT:SBYS OPRUT
+SID:SBYS:02L:PADAV:SBYS PADAV
+SID:SBYS:02L:RCL:SBYS RCL
+SID:SBYS:02L:RPR:SBYS RPR
+SID:SBYS:02R:AAQ:SBYS AAQ
+SID:SBYS:02R:EGBAL:SBYS EGBAL
+SID:SBYS:02R:IBOV:SBYS IBOV
+SID:SBYS:02R:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:02R:ILVIV:SBYS ILVIV
+SID:SBYS:02R:KALU:SBYS KALU
+SID:SBYS:02R:KALUxRPR:SBYS KALU RPR
+SID:SBYS:02R:LIVED:SBYS NILBI LIVED
+SID:SBYS:02R:MOLVA:SBYS PCL MOLVA
+SID:SBYS:02R:MOXAV:SBYS MOXAV
+SID:SBYS:02R:MUDRU:SBYS PCL MUDRU
+SID:SBYS:02R:NILBI:SBYS NILBI
+SID:SBYS:02R:NILPI:SBYS NILPI
+SID:SBYS:02R:NIMPU:SBYS NIMPU
+SID:SBYS:02R:OPRUT:SBYS OPRUT
+SID:SBYS:02R:PADAV:SBYS PADAV
+SID:SBYS:02R:RCL:SBYS RCL
+SID:SBYS:02R:RPR:SBYS RPR
+SID:SBYS:20C:AAQ:SBYS AAQ
+SID:SBYS:20C:EGBAL:SBYS EGBAL
+SID:SBYS:20C:IBOV:SBYS IBOV
+SID:SBYS:20C:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:20C:ILVIV:SBYS ILVIV
+SID:SBYS:20C:KALU:SBYS KALU
+SID:SBYS:20C:KALUxRPR:SBYS KALU RPR
+SID:SBYS:20C:KAMU1A:SBYS KAMUP
+SID:SBYS:20C:KAMU1AxANSOK:SBYS KAMUP YS019 ANSOK
+SID:SBYS:20C:KAMU1AxASTOB:SBYS KAMUP YS019 ASTOB
+SID:SBYS:20C:KAMU1AxENTIT:SBYS KAMUP ENTIT
+SID:SBYS:20C:KAMU1AxIVPIT:SBYS KAMUP PUPSI IVPIT
+SID:SBYS:20C:KAMU1AxMOXEP:SBYS KAMUP MOXEP
+SID:SBYS:20C:KAMU1AxNILPI:SBYS KAMUP YS018 NILPI
+SID:SBYS:20C:KAMU1AxNIMPU:SBYS KAMUP YS018 NIMPU
+SID:SBYS:20C:KAMU1AxPUPSI:SBYS KAMUP PUPSI
+SID:SBYS:20C:KAMU1AxSARTA:SBYS KAMUP YS019 SARTA
+SID:SBYS:20C:KAMU1AxSIDOV:SBYS KAMUP YS019 SIDOV
+SID:SBYS:20C:LIVED:SBYS NILBI LIVED
+SID:SBYS:20C:MOLVA:SBYS PCL MOLVA
+SID:SBYS:20C:MOXAV:SBYS MOXAV
+SID:SBYS:20C:MUDRU:SBYS PCL MUDRU
+SID:SBYS:20C:NILBI:SBYS NILBI
+SID:SBYS:20C:NILPI:SBYS NILPI
+SID:SBYS:20C:NIMPU:SBYS NIMPU
+SID:SBYS:20C:OPRUT:SBYS OPRUT
+SID:SBYS:20C:PADAV:SBYS PADAV
+SID:SBYS:20C:RCL:SBYS RCL
+SID:SBYS:20C:RPR:SBYS RPR
+SID:SBYS:20L:AAQ:SBYS AAQ
+SID:SBYS:20L:EGBAL:SBYS EGBAL
+SID:SBYS:20L:IBOV:SBYS IBOV
+SID:SBYS:20L:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:20L:ILVIV:SBYS ILVIV
+SID:SBYS:20L:KALU:SBYS KALU
+SID:SBYS:20L:KALUxRPR:SBYS KALU RPR
+SID:SBYS:20L:LIVED:SBYS NILBI LIVED
+SID:SBYS:20L:MOLVA:SBYS PCL MOLVA
+SID:SBYS:20L:MOXAV:SBYS MOXAV
+SID:SBYS:20L:MUDRU:SBYS PCL MUDRU
+SID:SBYS:20L:NILBI:SBYS NILBI
+SID:SBYS:20L:NILPI:SBYS NILPI
+SID:SBYS:20L:NIMPU:SBYS NIMPU
+SID:SBYS:20L:OPRUT:SBYS OPRUT
+SID:SBYS:20L:PADAV:SBYS PADAV
+SID:SBYS:20L:RCL:SBYS RCL
+SID:SBYS:20L:RPR:SBYS RPR
+SID:SBYS:20R:AAQ:SBYS AAQ
+SID:SBYS:20R:EGBAL:SBYS EGBAL
+SID:SBYS:20R:IBOV:SBYS IBOV
+SID:SBYS:20R:IBOVxBRU:SBYS IBOV BRU
+SID:SBYS:20R:ILVIV:SBYS ILVIV
+SID:SBYS:20R:KALU:SBYS KALU
+SID:SBYS:20R:KALUxRPR:SBYS KALU RPR
+SID:SBYS:20R:LIVED:SBYS NILBI LIVED
+SID:SBYS:20R:MOLVA:SBYS PCL MOLVA
+SID:SBYS:20R:MOXAV:SBYS MOXAV
+SID:SBYS:20R:MUDRU:SBYS PCL MUDRU
+SID:SBYS:20R:NILBI:SBYS NILBI
+SID:SBYS:20R:NILPI:SBYS NILPI
+SID:SBYS:20R:NIMPU:SBYS NIMPU
+SID:SBYS:20R:OPRUT:SBYS OPRUT
+SID:SBYS:20R:PADAV:SBYS PADAV
+SID:SBYS:20R:RCL:SBYS RCL
+SID:SBYS:20R:RPR:SBYS RPR
+SID:SBSP:17L:BUVG1A:SBSP BUVGU
+SID:SBSP:17L:BUVG1AxNIBGA:SBSP BUVGU NIBGA
+SID:SBSP:17L:BUVG1AxSCB:SBSP BUVGU TIPDO SCB
+SID:SBSP:17L:IMBI2A:SBSP SP021 MOSRA OGVEN IMBID
+SID:SBSP:17L:IMBI2AxUBRIR:SBSP SP021 MOSRA OGVEN IMBID VUMEV UBRIR
+SID:SBSP:17L:IMBI2AxVUMEV:SBSP SP021 MOSRA OGVEN IMBID VUMEV
+SID:SBSP:17L:PORB2A:SBSP KEVEX PORBI
+SID:SBSP:17L:PORB2AxDIONI:SBSP KEVEX PORBI SEGVO DIONI
+SID:SBSP:17L:PORB2AxEGITO:SBSP KEVEX PORBI ILMUD SCB VUTVA EGITO
+SID:SBSP:17L:PORB2AxEKABI:SBSP KEVEX PORBI ILMUD SCB OBMAV IVPIT EKABI
+SID:SBSP:17L:PORB2AxGERTU:SBSP KEVEX PORBI ILMUD SCB IVPEK ASEDU GERTU
+SID:SBSP:17L:PORB2AxIVPIT:SBSP KEVEX PORBI ILMUD SCB OBMAV IVPIT
+SID:SBSP:17L:PORB2AxLUVLO:SBSP KEVEX PORBI LUVLO
+SID:SBSP:17L:PORB2AxNIBGA:SBSP KEVEX PORBI NIBGA
+SID:SBSP:17L:PORB2AxOBMAV:SBSP KEVEX PORBI ILMUD SCB OBMAV
+SID:SBSP:17L:PORB2AxOGNEP:SBSP KEVEX PORBI OGNEP
+SID:SBSP:17L:PORB2AxSCB:SBSP KEVEX PORBI ILMUD SCB
+SID:SBSP:17L:PORB2AxSEGVO:SBSP KEVEX PORBI SEGVO
+SID:SBSP:17L:PORB2AxSOVSI:SBSP KEVEX PORBI LUVLO SOVSI
+SID:SBSP:17L:PORB2AxTEMAM:SBSP KEVEX PORBI OGNEP TEMAM
+SID:SBSP:17L:PORB2AxUBSOD:SBSP KEVEX PORBI UBSOD
+SID:SBSP:17L:PORB2AxVUTVA:SBSP KEVEX PORBI ILMUD SCB VUTVA
+SID:SBSP:17L:PUKR2A:SBSP SP021 MOSRA OGVEN IMBID PUKRA
+SID:SBSP:17L:PUKR2AxDAGUB:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP DAGUB
+SID:SBSP:17L:PUKR2AxDORLU:SBSP SP021 MOSRA OGVEN IMBID PUKRA DORLU
+SID:SBSP:17L:PUKR2AxUBRIR:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO UBRIR
+SID:SBSP:17L:PUKR2AxUGPOP:SBSP SP021 MOSRA OGVEN IMBID PUKRA DORLU UGPOP
+SID:SBSP:17L:PUKR2AxUSAMO:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO
+SID:SBSP:17L:PUKR2B:SBSP PUKRA SCP TOPEP UBRIR
+SID:SBSP:17R:BUVG1A:SBSP BUVGU
+SID:SBSP:17R:BUVG1AxNIBGA:SBSP BUVGU NIBGA
+SID:SBSP:17R:BUVG1AxSCB:SBSP BUVGU TIPDO SCB
+SID:SBSP:17R:IMBI2A:SBSP SP021 MOSRA OGVEN IMBID
+SID:SBSP:17R:IMBI2AxUBRIR:SBSP SP021 MOSRA OGVEN IMBID VUMEV UBRIR
+SID:SBSP:17R:IMBI2AxVUMEV:SBSP SP021 MOSRA OGVEN IMBID VUMEV
+SID:SBSP:17R:PORB2A:SBSP KEVEX PORBI
+SID:SBSP:17R:PORB2AxDIONI:SBSP KEVEX PORBI SEGVO DIONI
+SID:SBSP:17R:PORB2AxEGITO:SBSP KEVEX PORBI ILMUD SCB VUTVA EGITO
+SID:SBSP:17R:PORB2AxEKABI:SBSP KEVEX PORBI ILMUD SCB OBMAV IVPIT EKABI
+SID:SBSP:17R:PORB2AxGERTU:SBSP KEVEX PORBI ILMUD SCB IVPEK ASEDU GERTU
+SID:SBSP:17R:PORB2AxIVPIT:SBSP KEVEX PORBI ILMUD SCB OBMAV IVPIT
+SID:SBSP:17R:PORB2AxLUVLO:SBSP KEVEX PORBI LUVLO
+SID:SBSP:17R:PORB2AxNIBGA:SBSP KEVEX PORBI NIBGA
+SID:SBSP:17R:PORB2AxOBMAV:SBSP KEVEX PORBI ILMUD SCB OBMAV
+SID:SBSP:17R:PORB2AxOGNEP:SBSP KEVEX PORBI OGNEP
+SID:SBSP:17R:PORB2AxSCB:SBSP KEVEX PORBI ILMUD SCB
+SID:SBSP:17R:PORB2AxSEGVO:SBSP KEVEX PORBI SEGVO
+SID:SBSP:17R:PORB2AxSOVSI:SBSP KEVEX PORBI LUVLO SOVSI
+SID:SBSP:17R:PORB2AxTEMAM:SBSP KEVEX PORBI OGNEP TEMAM
+SID:SBSP:17R:PORB2AxUBSOD:SBSP KEVEX PORBI UBSOD
+SID:SBSP:17R:PORB2AxVUTVA:SBSP KEVEX PORBI ILMUD SCB VUTVA
+SID:SBSP:17R:PUKR2A:SBSP SP021 MOSRA OGVEN IMBID PUKRA
+SID:SBSP:17R:PUKR2AxDAGUB:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP DAGUB
+SID:SBSP:17R:PUKR2AxDORLU:SBSP SP021 MOSRA OGVEN IMBID PUKRA DORLU
+SID:SBSP:17R:PUKR2AxUBRIR:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO UBRIR
+SID:SBSP:17R:PUKR2AxUGPOP:SBSP SP021 MOSRA OGVEN IMBID PUKRA DORLU UGPOP
+SID:SBSP:17R:PUKR2AxUSAMO:SBSP SP021 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO
+SID:SBSP:17R:PUKR2B:SBSP PUKRA SCP TOPEP UBRIR
+SID:SBSP:35L:IMBI3E:SBSP SP001 MOSRA OGVEN IMBID
+SID:SBSP:35L:IMBI3ExUBRIR:SBSP SP001 MOSRA OGVEN IMBID VUMEV UBRIR
+SID:SBSP:35L:IMBI3ExVUMEV:SBSP SP001 MOSRA OGVEN IMBID VUMEV
+SID:SBSP:35L:NINV2B:SBSP NINVU
+SID:SBSP:35L:NINV2BxSCB:SBSP NINVU TIPDO SCB
+SID:SBSP:35L:NINV3A:SBSP MANVA NINVU
+SID:SBSP:35L:NINV3AxDIONI:SBSP MANVA NINVU SEGVO DIONI
+SID:SBSP:35L:NINV3AxEGITO:SBSP MANVA NINVU TIPDO SCB VUTVA EGITO
+SID:SBSP:35L:NINV3AxEKABI:SBSP MANVA NINVU TIPDO SCB OBMAV IVPIT EKABI
+SID:SBSP:35L:NINV3AxGERTU:SBSP MANVA NINVU TIPDO SCB IVPEK ASEDU GERTU
+SID:SBSP:35L:NINV3AxNIBGA:SBSP MANVA NINVU NIBGA
+SID:SBSP:35L:NINV3AxSCB:SBSP MANVA NINVU TIPDO SCB
+SID:SBSP:35L:NINV3AxSOVSI:SBSP MANVA NINVU LUVLO SOVSI
+SID:SBSP:35L:NINV3AxTEMAM:SBSP MANVA NINVU OGNEP TEMAM
+SID:SBSP:35L:NINV3AxUBSOD:SBSP MANVA NINVU UBSOD
+SID:SBSP:35L:PUKR2F:SBSP PUKRA
+SID:SBSP:35L:PUKR2FxUBRIR:SBSP PUKRA SCP TOPEP UBRIR
+SID:SBSP:35L:PUKR3E:SBSP SP001 MOSRA OGVEN IMBID PUKRA
+SID:SBSP:35L:PUKR3ExDAGUB:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP DAGUB
+SID:SBSP:35L:PUKR3ExDORLU:SBSP SP001 MOSRA OGVEN IMBID PUKRA DORLU
+SID:SBSP:35L:PUKR3ExUBRIR:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO UBRIR
+SID:SBSP:35L:PUKR3ExUGPOP:SBSP SP001 MOSRA OGVEN IMBID PUKRA DORLU UGPOP
+SID:SBSP:35L:PUKR3ExUSAMO:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO
+SID:SBSP:35R:IMBI3E:SBSP SP001 MOSRA OGVEN IMBID
+SID:SBSP:35R:IMBI3ExUBRIR:SBSP SP001 MOSRA OGVEN IMBID VUMEV UBRIR
+SID:SBSP:35R:IMBI3ExVUMEV:SBSP SP001 MOSRA OGVEN IMBID VUMEV
+SID:SBSP:35R:NINV2B:SBSP NINVU
+SID:SBSP:35R:NINV2BxSCB:SBSP NINVU TIPDO SCB
+SID:SBSP:35R:NINV3A:SBSP MANVA NINVU
+SID:SBSP:35R:NINV3AxDIONI:SBSP MANVA NINVU SEGVO DIONI
+SID:SBSP:35R:NINV3AxEGITO:SBSP MANVA NINVU TIPDO SCB VUTVA EGITO
+SID:SBSP:35R:NINV3AxEKABI:SBSP MANVA NINVU TIPDO SCB OBMAV IVPIT EKABI
+SID:SBSP:35R:NINV3AxGERTU:SBSP MANVA NINVU TIPDO SCB IVPEK ASEDU GERTU
+SID:SBSP:35R:NINV3AxNIBGA:SBSP MANVA NINVU NIBGA
+SID:SBSP:35R:NINV3AxSCB:SBSP MANVA NINVU TIPDO SCB
+SID:SBSP:35R:NINV3AxSOVSI:SBSP MANVA NINVU LUVLO SOVSI
+SID:SBSP:35R:NINV3AxTEMAM:SBSP MANVA NINVU OGNEP TEMAM
+SID:SBSP:35R:NINV3AxUBSOD:SBSP MANVA NINVU UBSOD
+SID:SBSP:35R:PUKR2F:SBSP PUKRA
+SID:SBSP:35R:PUKR2FxUBRIR:SBSP PUKRA SCP TOPEP UBRIR
+SID:SBSP:35R:PUKR3E:SBSP SP001 MOSRA OGVEN IMBID PUKRA
+SID:SBSP:35R:PUKR3ExDAGUB:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP DAGUB
+SID:SBSP:35R:PUKR3ExDORLU:SBSP SP001 MOSRA OGVEN IMBID PUKRA DORLU
+SID:SBSP:35R:PUKR3ExUBRIR:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO UBRIR
+SID:SBSP:35R:PUKR3ExUGPOP:SBSP SP001 MOSRA OGVEN IMBID PUKRA DORLU UGPOP
+SID:SBSP:35R:PUKR3ExUSAMO:SBSP SP001 MOSRA OGVEN IMBID PUKRA SCP TOPEP USAMO
+STAR:SBSP:17L:CPN1B:CPN UDUKA IROPU
+STAR:SBSP:17L:CPN1BxAAQ:AAQ PUPSI UGOTA ATILI CPN UDUKA IROPU
+STAR:SBSP:17L:CPN1BxENTIT:ENTIT OSAGI CPN UDUKA IROPU
+STAR:SBSP:17L:CPN1BxISIBI:ISIBI PUPSI UGOTA ATILI CPN UDUKA IROPU
+STAR:SBSP:17L:CPN2A:CPN UDUKA IROPU LUVDI
+STAR:SBSP:17L:CPN2AxENTIT:ENTIT OSAGI CPN UDUKA IROPU LUVDI
+STAR:SBSP:17L:CPN2AxUGOVU:UGOVU SP011 CPN UDUKA IROPU LUVDI
+STAR:SBSP:17L:KOMG3A:SP002 SP003 KOMGU
+STAR:SBSP:17L:KOMG3AxERODU:ERODU MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17L:KOMG3AxKOVMU:KOVMU MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17L:KOMG3AxKOXAG:KOXAG MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17L:KOMG3AxPAGOG:PAGOG SP007 ILSOR SP002 SP003 KOMGU
+STAR:SBSP:17L:KOMG3AxVUKIK:VUKIK ETETO TOGES OGDUP SAT OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17L:SALT1B:SALTU UDUXI OPRON
+STAR:SBSP:17L:SALT1BxIMBEK:IMBEK NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17L:SALT1BxNEGUS:NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17L:SALT1BxRONUT:RONUT NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17L:SALT1BxVUKIK:VUKIK ETETO TOGES OGDUP SAT SALTU UDUXI OPRON
+STAR:SBSP:17R:CPN1B:CPN UDUKA IROPU
+STAR:SBSP:17R:CPN1BxAAQ:AAQ PUPSI UGOTA ATILI CPN UDUKA IROPU
+STAR:SBSP:17R:CPN1BxENTIT:ENTIT OSAGI CPN UDUKA IROPU
+STAR:SBSP:17R:CPN1BxISIBI:ISIBI PUPSI UGOTA ATILI CPN UDUKA IROPU
+STAR:SBSP:17R:CPN2A:CPN UDUKA IROPU LUVDI
+STAR:SBSP:17R:CPN2AxENTIT:ENTIT OSAGI CPN UDUKA IROPU LUVDI
+STAR:SBSP:17R:CPN2AxUGOVU:UGOVU SP011 CPN UDUKA IROPU LUVDI
+STAR:SBSP:17R:KOMG3A:SP002 SP003 KOMGU
+STAR:SBSP:17R:KOMG3AxERODU:ERODU MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17R:KOMG3AxKOVMU:KOVMU MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17R:KOMG3AxKOXAG:KOXAG MADNI VUDBU SP006 OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17R:KOMG3AxPAGOG:PAGOG SP007 ILSOR SP002 SP003 KOMGU
+STAR:SBSP:17R:KOMG3AxVUKIK:VUKIK ETETO TOGES OGDUP SAT OGTAL SP002 SP003 KOMGU
+STAR:SBSP:17R:SALT1B:SALTU UDUXI OPRON
+STAR:SBSP:17R:SALT1BxIMBEK:IMBEK NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17R:SALT1BxNEGUS:NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17R:SALT1BxRONUT:RONUT NEGUS VUDBU SALTU UDUXI OPRON
+STAR:SBSP:17R:SALT1BxVUKIK:VUKIK ETETO TOGES OGDUP SAT SALTU UDUXI OPRON
+STAR:SBSP:35L:CPN1B:CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35L:CPN1BxAAQ:AAQ PUPSI UGOTA ATILI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35L:CPN1BxENTIT:ENTIT OSAGI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35L:CPN1BxISIBI:ISIBI PUPSI UGOTA ATILI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35L:CPN2B:CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35L:CPN2BxENTIT:ENTIT OSAGI CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35L:CPN2BxUGOVU:UGOVU SP011 CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35L:PAGO2A:PAGOG SP007 ISOVU
+STAR:SBSP:35L:SAT1B:VUKIK ETETO TOGES OGDUP SAT NAXUP
+STAR:SBSP:35L:SAT2A:VUKIK ETETO TOGES OGDUP SAT NAXUP
+STAR:SBSP:35L:VUDB1B:VUDBU OGTAL
+STAR:SBSP:35L:VUDB1BxIMBEK:IMBEK NEGUS VUDBU OGTAL
+STAR:SBSP:35L:VUDB1BxNEGUS:NEGUS VUDBU OGTAL
+STAR:SBSP:35L:VUDB1BxRONUT:RONUT NEGUS VUDBU OGTAL
+STAR:SBSP:35L:VUDB2A:MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35L:VUDB2AxERODU:ERODU MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35L:VUDB2AxKOVMU:KOVMU MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35L:VUDB2AxKOXAG:KOXAG MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35R:CPN1B:CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35R:CPN1BxAAQ:AAQ PUPSI UGOTA ATILI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35R:CPN1BxENTIT:ENTIT OSAGI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35R:CPN1BxISIBI:ISIBI PUPSI UGOTA ATILI CPN UDUKA PANUG STN PUBAG OGTAL
+STAR:SBSP:35R:CPN2B:CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35R:CPN2BxENTIT:ENTIT OSAGI CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35R:CPN2BxUGOVU:UGOVU SP011 CPN UDUKA PANUG KOMGU SP019 OGTAL
+STAR:SBSP:35R:PAGO2A:PAGOG SP007 ISOVU
+STAR:SBSP:35R:SAT1B:VUKIK ETETO TOGES OGDUP SAT NAXUP
+STAR:SBSP:35R:SAT2A:VUKIK ETETO TOGES OGDUP SAT NAXUP
+STAR:SBSP:35R:VUDB1B:VUDBU OGTAL
+STAR:SBSP:35R:VUDB1BxIMBEK:IMBEK NEGUS VUDBU OGTAL
+STAR:SBSP:35R:VUDB1BxNEGUS:NEGUS VUDBU OGTAL
+STAR:SBSP:35R:VUDB1BxRONUT:RONUT NEGUS VUDBU OGTAL
+STAR:SBSP:35R:VUDB2A:MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35R:VUDB2AxERODU:ERODU MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35R:VUDB2AxKOVMU:KOVMU MADNI VUDBU SP006 OGTAL
+STAR:SBSP:35R:VUDB2AxKOXAG:KOXAG MADNI VUDBU SP006 OGTAL
+SID:SBGR:09L:BCO1A:SBGR BCO GR082 GR083 BGC GR719 GR022 GR023 UKBEV
+SID:SBGR:09L:DORL2B:SBGR BCO GENKO DORLU
+SID:SBGR:09L:DORL3B:SBGR IVRAG SCP DORLU
+SID:SBGR:09L:DOTN1A:SBGR BCO KONPO DOTNI VOVBI CGO
+SID:SBGR:09L:DOTN1AxNIBGA:SBGR BCO KONPO DOTNI VOVBI CGO NIBGA
+SID:SBGR:09L:DOTN1AxSCB:SBGR BCO KONPO DOTNI VOVBI CGO ETIBI SCB
+SID:SBGR:09L:GENK2B:SBGR BCO GENKO
+SID:SBGR:09L:IVRA2B:SBGR BCO
+SID:SBGR:09L:IVRA2BxUBRIR:SBGR BCO IVRAG VUMEV UBRIR
+SID:SBGR:09L:IVRA2BxVUMEV:SBGR BCO IVRAG VUMEV
+SID:SBGR:09L:IVRA3B:SBGR IVRAG UBRIR
+SID:SBGR:09L:OMNI:SBGRSID:SBGR:09L:SCP2B:SBGR BCO
+SID:SBGR:09L:SCP2BxDAGUB:SBGR BCO IVRAG SCP DAGUB
+SID:SBGR:09L:SCP2BxUBRIR:SBGR BCO IVRAG SCP TOPEP USAMO UBRIR
+SID:SBGR:09L:SCP2BxUSAMO:SBGR BCO IVRAG SCP TOPEP USAMO
+SID:SBGR:09L:SCP2BxVUMEV:SBGR BCO IVRAG SCP VUMEV
+SID:SBGR:09L:SCP3B:SBGR IVRAG SCP TOPEP UBRIR
+SID:SBGR:09L:VOVB1A:SBGR BCO GR027 GR026 VOVBI CGO
+SID:SBGR:09L:VOVB1AxDIONI:SBGR BCO GR027 GR026 VOVBI CGO SEGVO DIONI
+SID:SBGR:09L:VOVB1AxEGITO:SBGR BCO GR027 GR026 VOVBI CGO ETIBI SCB VUTVA EGITO
+SID:SBGR:09L:VOVB1AxEKABI:SBGR BCO GR027 GR026 VOVBI CGO ETIBI SCB OBMAV EKABI
+SID:SBGR:09L:VOVB1AxGERTU:SBGR BCO GR027 GR026 VOVBI CGO ETIBI SCB IVPEK ASEDU GERTU
+SID:SBGR:09L:VOVB1AxLUVLO:SBGR BCO GR027 GR026 VOVBI CGO LUVLO
+SID:SBGR:09L:VOVB1AxNIBGA:SBGR BCO GR027 GR026 VOVBI CGO NIBGA
+SID:SBGR:09L:VOVB1AxOGNEP:SBGR BCO GR027 GR026 VOVBI CGO OGNEP
+SID:SBGR:09L:VOVB1AxSCB:SBGR BCO GR027 GR026 VOVBI CGO ETIBI SCB
+SID:SBGR:09L:VOVB1AxSEGVO:SBGR BCO GR027 GR026 VOVBI CGO SEGVO
+SID:SBGR:09L:VOVB1AxSOVSI:SBGR BCO GR027 GR026 VOVBI CGO LUVLO SOVSI
+SID:SBGR:09L:VOVB1AxTEMAM:SBGR BCO GR027 GR026 VOVBI CGO OGNEP TEMAM
+SID:SBGR:09L:VOVB1AxUBSOD:SBGR BCO GR027 GR026 VOVBI CGO UBSOD
+SID:SBGR:09R:BCO1A:SBGR BCO GR082 GR083 BGC GR719 GR022 GR023 UKBEV
+SID:SBGR:09R:DORL2B:SBGR BCO GENKO DORLU
+SID:SBGR:09R:DORL3B:SBGR IVRAG SCP DORLU
+SID:SBGR:09R:DOTN1A:SBGR BCO KONPO DOTNI VOVBI CGO
+SID:SBGR:09R:DOTN1AxNIBGA:SBGR BCO KONPO DOTNI VOVBI CGO NIBGA
+SID:SBGR:09R:DOTN1AxSCB:SBGR BCO KONPO DOTNI VOVBI CGO ETIBI SCB
+SID:SBGR:09R:GENK2B:SBGR BCO GENKO
+SID:SBGR:09R:ISIM1C:SBGR ISIMU DOTNI VOVBI CGO
+SID:SBGR:09R:ISIM1CxDIONI:SBGR ISIMU DOTNI VOVBI CGO SEGVO DIONI
+SID:SBGR:09R:ISIM1CxEGITO:SBGR ISIMU DOTNI VOVBI CGO ETIBI SCB VUTVA EGITO
+SID:SBGR:09R:ISIM1CxEKABI:SBGR ISIMU DOTNI VOVBI CGO ETIBI SCB OBMAV EKABI
+SID:SBGR:09R:ISIM1CxGERTU:SBGR ISIMU DOTNI VOVBI CGO ETIBI SCB IVPEK ASEDU GERTU
+SID:SBGR:09R:ISIM1CxLUVLO:SBGR ISIMU DOTNI VOVBI CGO LUVLO
+SID:SBGR:09R:ISIM1CxNIBGA:SBGR ISIMU DOTNI VOVBI CGO NIBGA
+SID:SBGR:09R:ISIM1CxOGNEP:SBGR ISIMU DOTNI VOVBI CGO OGNEP
+SID:SBGR:09R:ISIM1CxSCB:SBGR ISIMU DOTNI VOVBI CGO ETIBI SCB
+SID:SBGR:09R:ISIM1CxSEGVO:SBGR ISIMU DOTNI VOVBI CGO SEGVO
+SID:SBGR:09R:ISIM1CxSOVSI:SBGR ISIMU DOTNI VOVBI CGO LUVLO SOVSI
+SID:SBGR:09R:ISIM1CxTEMAM:SBGR ISIMU DOTNI VOVBI CGO OGNEP TEMAM
+SID:SBGR:09R:ISIM1CxUBSOD:SBGR ISIMU DOTNI VOVBI CGO UBSOD
+SID:SBGR:09R:IVRA2B:SBGR BCO
+SID:SBGR:09R:IVRA2BxUBRIR:SBGR BCO IVRAG VUMEV UBRIR
+SID:SBGR:09R:IVRA2BxVUMEV:SBGR BCO IVRAG VUMEV
+SID:SBGR:09R:IVRA3B:SBGR IVRAG UBRIR
+SID:SBGR:09R:OMNI:SBGRSID:SBGR:09R:SCP2B:SBGR BCO
+SID:SBGR:09R:SCP2BxDAGUB:SBGR BCO IVRAG SCP DAGUB
+SID:SBGR:09R:SCP2BxUBRIR:SBGR BCO IVRAG SCP TOPEP USAMO UBRIR
+SID:SBGR:09R:SCP2BxUSAMO:SBGR BCO IVRAG SCP TOPEP USAMO
+SID:SBGR:09R:SCP2BxVUMEV:SBGR BCO IVRAG SCP VUMEV
+SID:SBGR:09R:SCP3B:SBGR IVRAG SCP TOPEP UBRIR
+SID:SBGR:27L:CGO1E:SBGR ISNAP TIKTI EVKUT CGO
+SID:SBGR:27L:CGO1ExDIONI:SBGR ISNAP TIKTI EVKUT CGO SEGVO DIONI
+SID:SBGR:27L:CGO1ExEGITO:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB VUTVA EGITO
+SID:SBGR:27L:CGO1ExEKABI:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB OBMAV EKABI
+SID:SBGR:27L:CGO1ExGERTU:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB IVPEK ASEDU GERTU
+SID:SBGR:27L:CGO1ExNIBGA:SBGR ISNAP TIKTI EVKUT CGO NIBGA
+SID:SBGR:27L:CGO1ExSOVSI:SBGR ISNAP TIKTI EVKUT CGO LUVLO SOVSI
+SID:SBGR:27L:CGO1ExTEMAM:SBGR ISNAP TIKTI EVKUT CGO OGNEP TEMAM
+SID:SBGR:27L:CGO1ExUBSOD:SBGR ISNAP TIKTI EVKUT CGO UBSOD
+SID:SBGR:27L:CGO1G:SBGR EVNEB KOMRO CGO
+SID:SBGR:27L:CGO1GxNIBGA:SBGR EVNEB KOMRO CGO NIBGA
+SID:SBGR:27L:CGO1GxSCB:SBGR EVNEB KOMRO CGO ETIBI SCB
+SID:SBGR:27L:DETI2C:SBGR EVNEB GIBDI SUDGU DETIP
+SID:SBGR:27L:DETI2CxUBRIR:SBGR EVNEB GIBDI SUDGU DETIP UBRIR
+SID:SBGR:27L:OMNI:SBGRSID:SBGR:27L:ROMI2C:SBGR EVNEB GIBDI SUDGU DETIP ROMIB
+SID:SBGR:27L:ROMI2CxDORLU:SBGR EVNEB GIBDI SUDGU DETIP ROMIB DORLU
+SID:SBGR:27L:ROMI2CxEKIDI:SBGR EVNEB GIBDI SUDGU DETIP ROMIB EKIDI
+SID:SBGR:27L:ROMI2CxUBRIR:SBGR EVNEB GIBDI SUDGU DETIP ROMIB SCP TOPEP UBRIR
+SID:SBGR:27L:ROMI4A:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB
+SID:SBGR:27L:ROMI4AxDAGUB:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP DAGUB
+SID:SBGR:27L:ROMI4AxDORLU:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB DORLU
+SID:SBGR:27L:ROMI4AxEKIDI:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB EKIDI
+SID:SBGR:27L:ROMI4AxUBRIR:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP TOPEP USAMO UBRIR
+SID:SBGR:27L:ROMI4AxUSAMO:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP TOPEP USAMO
+SID:SBGR:27L:SUMR4A:SBGR ISNAP TIKTI EGDUP SUMRA
+SID:SBGR:27L:SUMR4AxUBRIR:SBGR ISNAP TIKTI EGDUP SUMRA VUMEV UBRIR
+SID:SBGR:27L:SUMR4AxVUMEV:SBGR ISNAP TIKTI EGDUP SUMRA VUMEV
+SID:SBGR:27L:UKBE1B:SBGR GR501 GR722 GR718 BGC
+SID:SBGR:27L:UKBE1BxUKBEV:SBGR GR501 GR722 GR718 BGC GR719 GR022 GR023 UKBEV
+SID:SBGR:27R:CGO1E:SBGR ISNAP TIKTI EVKUT CGO
+SID:SBGR:27R:CGO1ExDIONI:SBGR ISNAP TIKTI EVKUT CGO SEGVO DIONI
+SID:SBGR:27R:CGO1ExEGITO:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB VUTVA EGITO
+SID:SBGR:27R:CGO1ExEKABI:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB OBMAV EKABI
+SID:SBGR:27R:CGO1ExGERTU:SBGR ISNAP TIKTI EVKUT CGO ETIBI SCB IVPEK ASEDU GERTU
+SID:SBGR:27R:CGO1ExNIBGA:SBGR ISNAP TIKTI EVKUT CGO NIBGA
+SID:SBGR:27R:CGO1ExSOVSI:SBGR ISNAP TIKTI EVKUT CGO LUVLO SOVSI
+SID:SBGR:27R:CGO1ExTEMAM:SBGR ISNAP TIKTI EVKUT CGO OGNEP TEMAM
+SID:SBGR:27R:CGO1ExUBSOD:SBGR ISNAP TIKTI EVKUT CGO UBSOD
+SID:SBGR:27R:CGO1G:SBGR EVNEB KOMRO CGO
+SID:SBGR:27R:CGO1GxNIBGA:SBGR EVNEB KOMRO CGO NIBGA
+SID:SBGR:27R:CGO1GxSCB:SBGR EVNEB KOMRO CGO ETIBI SCB
+SID:SBGR:27R:DETI2C:SBGR EVNEB GIBDI SUDGU DETIP
+SID:SBGR:27R:DETI2CxUBRIR:SBGR EVNEB GIBDI SUDGU DETIP UBRIR
+SID:SBGR:27R:OMNI:SBGRSID:SBGR:27R:ROMI2C:SBGR EVNEB GIBDI SUDGU DETIP ROMIB
+SID:SBGR:27R:ROMI2CxDORLU:SBGR EVNEB GIBDI SUDGU DETIP ROMIB DORLU
+SID:SBGR:27R:ROMI2CxEKIDI:SBGR EVNEB GIBDI SUDGU DETIP ROMIB EKIDI
+SID:SBGR:27R:ROMI2CxUBRIR:SBGR EVNEB GIBDI SUDGU DETIP ROMIB SCP TOPEP UBRIR
+SID:SBGR:27R:ROMI4A:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB
+SID:SBGR:27R:ROMI4AxDAGUB:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP DAGUB
+SID:SBGR:27R:ROMI4AxDORLU:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB DORLU
+SID:SBGR:27R:ROMI4AxEKIDI:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB EKIDI
+SID:SBGR:27R:ROMI4AxUBRIR:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP TOPEP USAMO UBRIR
+SID:SBGR:27R:ROMI4AxUSAMO:SBGR ISNAP TIKTI EGDUP SUMRA ROMIB SCP TOPEP USAMO
+SID:SBGR:27R:SUMR4A:SBGR ISNAP TIKTI EGDUP SUMRA
+SID:SBGR:27R:SUMR4AxUBRIR:SBGR ISNAP TIKTI EGDUP SUMRA VUMEV UBRIR
+SID:SBGR:27R:SUMR4AxVUMEV:SBGR ISNAP TIKTI EGDUP SUMRA VUMEV
+SID:SBGR:27R:UKBE1A:SBGR GR501 GR722 GR718 BGC
+SID:SBGR:27R:UKBE1AxUKBEV:SBGR GR501 GR722 GR718 BGC GR719 GR022 GR023 UKBEV
+STAR:SBGR:09L:ANSU2B:ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09L:ANSU2BxMOXEP:MOXEP DIGAX ROKUM IBDIK SUKNO ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09L:ILSO1B:ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09L:ILSO1BxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09L:ILSO1BxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09L:ILSO1C:ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09L:ILSO1CxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09L:ILSO1CxPAGOG:PAGOG ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09L:ILSO1CxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09L:MOXE1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:MOXE1AxMOXEP:MOXEP GR078 GR079 GR008 ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:PUPS1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:PUPS1AxPUPSI:PUPSI GR088 GR074 GR076 GR078 GR079 GR008 ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:SIME1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:SIME1AxSIMEX:SIMEX MAKVA VAPEM ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09L:TBE2B:ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09L:TBE2BxTBE:TBE MAKVA VAPEM ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09L:UROS1D:GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09L:UROS1DxANISE:ANISE SIPUK TIVNA SAT GR001 GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09L:UROS1DxPAGOG:PAGOG GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09L:UROS1DxVUKIK:VUKIK TOGES GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09L:UTBU1D:GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09L:UTBU1DxANISE:ANISE SIPUK TIVNA SAT GR001 GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09L:UTBU1DxPAGOG:PAGOG GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09L:UTBU1DxVUKIK:VUKIK TOGES GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09R:ANSU2B:ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09R:ANSU2BxMOXEP:MOXEP DIGAX ROKUM IBDIK SUKNO ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09R:ILSO1B:ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09R:ILSO1BxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09R:ILSO1BxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA MARPU
+STAR:SBGR:09R:ILSO1C:ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09R:ILSO1CxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09R:ILSO1CxPAGOG:PAGOG ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09R:ILSO1CxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP GR081 GR072 UTBUR
+STAR:SBGR:09R:MOXE1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:MOXE1AxMOXEP:MOXEP GR078 GR079 GR008 ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:PUPS1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:PUPS1AxPUPSI:PUPSI GR088 GR074 GR076 GR078 GR079 GR008 ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:SIME1A:ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:SIME1AxSIMEX:SIMEX MAKVA VAPEM ANSUG PAGAL GR072 UTBUR
+STAR:SBGR:09R:TBE2B:ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09R:TBE2BxTBE:TBE MAKVA VAPEM ANSUG PAGAL KOVLA MARPU
+STAR:SBGR:09R:UROS1D:GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09R:UROS1DxANISE:ANISE SIPUK TIVNA SAT GR001 GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09R:UROS1DxPAGOG:PAGOG GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09R:UROS1DxVUKIK:VUKIK TOGES GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR UROSO GR703 GR602 GR401 VUSAG
+STAR:SBGR:09R:UTBU1D:GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09R:UTBU1DxANISE:ANISE SIPUK TIVNA SAT GR001 GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09R:UTBU1DxPAGOG:PAGOG GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:09R:UTBU1DxVUKIK:VUKIK TOGES GR003 GR004 GR006 ANSUG PAGAL KOVLA UTBUR VUSAG
+STAR:SBGR:27L:EVSO2B:TBE ISTAT EVSOV VURAK
+STAR:SBGR:27L:IBDI2B:MOXEP DIGAX ROKUM IBDIK SUKNO ANSUG
+STAR:SBGR:27L:ILSO1B:ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO1BxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO1BxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO2A:ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO2AxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO2AxPAGOG:PAGOG ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:ILSO2AxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27L:MOXE1B:MOXEP GR078 GR079 GR008 ANSUG
+STAR:SBGR:27L:PUPS1B:PUPSI GR088 GR074 GR076 GR078 GR079 GR008 ANSUG
+STAR:SBGR:27L:SIME1B:SIMEX ISTAT GR092 EVSOV VURAK
+STAR:SBGR:27R:EVSO2B:TBE ISTAT EVSOV VURAK
+STAR:SBGR:27R:IBDI2B:MOXEP DIGAX ROKUM IBDIK SUKNO ANSUG
+STAR:SBGR:27R:ILSO1B:ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO1BxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO1BxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO2A:ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO2AxANISE:ANISE SIPUK TIVNA SAT DALVO ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO2AxPAGOG:PAGOG ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:ILSO2AxVUKIK:VUKIK TOGES ILSOR KUGLA EDNUP OPTUK KOVLA ANSUG
+STAR:SBGR:27R:MOXE1B:MOXEP GR078 GR079 GR008 ANSUG
+STAR:SBGR:27R:PUPS1B:PUPSI GR088 GR074 GR076 GR078 GR079 GR008 ANSUG
+STAR:SBGR:27R:SIME1B:SIMEX ISTAT GR092 EVSOV VURAK
+SID:SBGL:10:EVRA1A:SBGL VURUK NUXIS EVRAD
+SID:SBGL:10:EVRA1AxENSOD:SBGL VURUK NUXIS EVRAD ISIXI ENSOD
+SID:SBGL:10:EVRA1AxEPKAX:SBGL VURUK NUXIS EVRAD ISIXI ENSOD EPKAX
+SID:SBGL:10:EVRA1AxSIDUR:SBGL VURUK NUXIS EVRAD UGROK ILNIB LOBEM LIXEP SIDUR
+SID:SBGL:10:EVRA2B:SBGL VURUK NUXIS EVRAD
+SID:SBGL:10:EVRA2BxEPKAX:SBGL VURUK NUXIS EVRAD ISIXI BIXAP EPKAX
+SID:SBGL:10:EVRA2BxSIDUR:SBGL VURUK NUXIS EVRAD UGROK ILNIB LOBEM LIXEP SIDUR
+SID:SBGL:10:IH1A:SBGL UTMIP MIA10 ISVUL PCX23 IH
+SID:SBGL:10:IH1AxBITAK:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO BITAK
+SID:SBGL:10:IH1AxNAXOP:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO MIA65 NAXOP
+SID:SBGL:10:IH1AxUMBAD:SBGL UTMIP MIA10 ISVUL PCX23 IH NM436 UMBAD
+SID:SBGL:10:IH1B:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO MIA65 NAXOP
+SID:SBGL:10:PCX1A:SBGL UTMIP PCX
+SID:SBGL:10:PCX1AxADA:SBGL UTMIP PCX ADA
+SID:SBGL:10:PCX1AxIMBAP:SBGL UTMIP PCX MOTNO ISRIN IMBAP
+SID:SBGL:10:PCX1AxISRIN:SBGL UTMIP PCX MOTNO ISRIN
+SID:SBGL:10:PCX1AxTISVA:SBGL UTMIP PCX TISVA
+SID:SBGL:10:PCX1AxUKENU:SBGL UTMIP PCX MOTNO ISRIN UKENU
+SID:SBGL:10:PCX1B:SBGL UTMIP PCX
+SID:SBGL:10:PCX1BxADA:SBGL UTMIP PCX ADA
+SID:SBGL:10:PCX1BxISRIN:SBGL UTMIP PCX MOTNO ISRIN
+SID:SBGL:10:PCX2A:SBGL UTMIP PCX
+SID:SBGL:10:PCX2AxIMBAP:SBGL UTMIP PCX ISRIN IMBAP
+SID:SBGL:10:PCX2AxISRIN:SBGL UTMIP PCX ISRIN
+SID:SBGL:10:PCX2AxUKENU:SBGL UTMIP PCX ISRIN UKENU
+SID:SBGL:10:UGRO1A:SBGL VURUK UGROK PAI22 PAI17 LIXEP SIDUR
+SID:SBGL:10:UGRO1B:SBGL VURUK UGROK PAI22 PAI17 LIXEP SIDUR
+SID:SBGL:15:EVKO1A:SBGL EVKOX
+SID:SBGL:15:EVKO1AxBITAK:SBGL EVKOX TIVRO BITAK
+SID:SBGL:15:EVKO1AxNAXOP:SBGL EVKOX TIVRO ARSOV NAXOP
+SID:SBGL:15:EVKO1AxUMBAD:SBGL EVKOX RJ306 UMBAD
+SID:SBGL:15:EVRA1A:SBGL VURUK NUXIS EVRAD
+SID:SBGL:15:EVRA1AxENSOD:SBGL VURUK NUXIS EVRAD ISIXI ENSOD
+SID:SBGL:15:EVRA1AxEPKAX:SBGL VURUK NUXIS EVRAD ISIXI ENSOD EPKAX
+SID:SBGL:15:EVRA1AxSIDUR:SBGL VURUK NUXIS EVRAD UGROK ILNIB LOBEM LIXEP SIDUR
+SID:SBGL:15:EVRA2C:SBGL VURUK NUXIS EVRAD
+SID:SBGL:15:EVRA2CxEPKAX:SBGL VURUK NUXIS EVRAD ISIXI BIXAP EPKAX
+SID:SBGL:15:EVRA2CxSIDUR:SBGL VURUK NUXIS EVRAD UGROK ILNIB LOBEM LIXEP SIDUR
+SID:SBGL:15:IH1A:SBGL UTMIP MIA10 ISVUL PCX23 IH
+SID:SBGL:15:IH1AxBITAK:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO BITAK
+SID:SBGL:15:IH1AxNAXOP:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO MIA65 NAXOP
+SID:SBGL:15:IH1AxUMBAD:SBGL UTMIP MIA10 ISVUL PCX23 IH NM436 UMBAD
+SID:SBGL:15:IH1B:SBGL UTMIP MIA10 ISVUL PCX23 IH TIVRO MIA65 NAXOP
+SID:SBGL:15:IH2B:SBGL TIVRO
+SID:SBGL:15:IH2BxBITAK:SBGL TIVRO BITAK
+SID:SBGL:15:IH2BxNAXOP:SBGL TIVRO MIA65 NAXOP
+SID:SBGL:15:PCX1A:SBGL UTMIP PCX
+SID:SBGL:15:PCX1AxADA:SBGL UTMIP PCX ADA
+SID:SBGL:15:PCX1AxIMBAP:SBGL UTMIP PCX MOTNO ISRIN IMBAP
+SID:SBGL:15:PCX1AxISRIN:SBGL UTMIP PCX MOTNO ISRIN
+SID:SBGL:15:PCX1AxTISVA:SBGL UTMIP PCX TISVA
+SID:SBGL:15:PCX1AxUKENU:SBGL UTMIP PCX MOTNO ISRIN UKENU
+SID:SBGL:15:PCX1B:SBGL UTMIP PCX
+SID:SBGL:15:PCX1BxADA:SBGL UTMIP PCX ADA
+SID:SBGL:15:PCX1BxISRIN:SBGL UTMIP PCX MOTNO ISRIN
+SID:SBGL:15:PCX2A:SBGL UTMIP PCX
+SID:SBGL:15:PCX2AxIMBAP:SBGL UTMIP PCX ISRIN IMBAP
+SID:SBGL:15:PCX2AxISRIN:SBGL UTMIP PCX ISRIN
+SID:SBGL:15:PCX2AxUKENU:SBGL UTMIP PCX ISRIN UKENU
+SID:SBGL:15:PUMS2A:SBGL WJ003 WJ004 PUMSO
+SID:SBGL:15:PUMS2AxADA:SBGL WJ003 WJ004 PUMSO ADA
+SID:SBGL:15:PUMS2AxIMBAP:SBGL WJ003 WJ004 PUMSO MOMVO MOTNO ISRIN IMBAP
+SID:SBGL:15:PUMS2AxTISVA:SBGL WJ003 WJ004 PUMSO TISVA
+SID:SBGL:15:PUMS2AxUKENU:SBGL WJ003 WJ004 PUMSO MOMVO MOTNO ISRIN UKENU
+SID:SBGL:15:UGRO1A:SBGL VURUK UGROK PAI22 PAI17 LIXEP SIDUR
+SID:SBGL:15:UGRO1B:SBGL VURUK UGROK PAI22 PAI17 LIXEP SIDUR
+SID:SBGL:28:ALMO1A:SBGL ALMOS
+SID:SBGL:28:ALMO1AxEDNAM:SBGL ALMOS GL047 GL048 NIBGU EDNAM
+SID:SBGL:28:ALMO1AxEPKAX:SBGL ALMOS GL047 GL048 NIBGU EPKAX
+SID:SBGL:28:ALMO1AxIMBAP:SBGL ALMOS GL047 GL048 NIBGU IMBAP
+SID:SBGL:28:ALMO1AxSIDUR:SBGL ALMOS LIXEP SIDUR
+SID:SBGL:28:ALMO1AxUKENU:SBGL ALMOS GL047 GL048 NIBGU UKENU
+SID:SBGL:28:KOTL2B:SBGL KOTLI
+SID:SBGL:28:KOTL2BxEDNAM:SBGL KOTLI MIBEP LOLON KUBNI EDNAM
+SID:SBGL:28:KOTL2BxEPKAX:SBGL KOTLI MIBEP LOLON KUBNI EPKAX
+SID:SBGL:28:KOTL2BxSIDUR:SBGL KOTLI LIXEP SIDUR
+SID:SBGL:28:PUMS1A:SBGL EDMAD AFS UTNOP PUMSO
+SID:SBGL:28:PUMS1AxADA:SBGL EDMAD AFS UTNOP PUMSO ADA
+SID:SBGL:28:PUMS1AxTISVA:SBGL EDMAD AFS UTNOP PUMSO TISVA
+SID:SBGL:28:PUMS1B:SBGL EDMAD AFS UTNOP PUMSO ADA
+SID:SBGL:28:SURK1A:SBGL EDMAD AFS AFS04 SURKU
+SID:SBGL:28:SURK1AxBITAK:SBGL EDMAD AFS AFS04 SURKU KUGOV BITAK
+SID:SBGL:28:SURK1AxNAXOP:SBGL EDMAD AFS AFS04 SURKU KUGOV NM218 NAXOP
+SID:SBGL:28:SURK1AxUMBAD:SBGL EDMAD AFS AFS04 SURKU NM257 UMBAD
+SID:SBGL:28:SURK1B:SBGL EDMAD AFS AFS01 SURKU KUGOV SAT01 NAXOP
+SID:SBGL:33:ALMO1B:SBGL ALMOS
+SID:SBGL:33:ALMO1BxEDNAM:SBGL ALMOS GL047 GL048 NIBGU EDNAM
+SID:SBGL:33:ALMO1BxEPKAX:SBGL ALMOS GL047 GL048 NIBGU EPKAX
+SID:SBGL:33:ALMO1BxIMBAP:SBGL ALMOS GL047 GL048 NIBGU IMBAP
+SID:SBGL:33:ALMO1BxSIDUR:SBGL ALMOS LIXEP SIDUR
+SID:SBGL:33:ALMO1BxUKENU:SBGL ALMOS GL047 GL048 NIBGU UKENU
+SID:SBGL:33:KOTL2A:SBGL KOTLI
+SID:SBGL:33:KOTL2AxEDNAM:SBGL KOTLI MIBEP LOLON KUBNI EDNAM
+SID:SBGL:33:KOTL2AxEPKAX:SBGL KOTLI MIBEP LOLON KUBNI EPKAX
+SID:SBGL:33:KOTL2AxSIDUR:SBGL KOTLI LIXEP SIDUR
+SID:SBGL:33:PUMS1A:SBGL EDMAD AFS UTNOP PUMSO
+SID:SBGL:33:PUMS1AxADA:SBGL EDMAD AFS UTNOP PUMSO ADA
+SID:SBGL:33:PUMS1AxTISVA:SBGL EDMAD AFS UTNOP PUMSO TISVA
+SID:SBGL:33:PUMS1B:SBGL EDMAD AFS UTNOP PUMSO ADA
+SID:SBGL:33:SURK1A:SBGL EDMAD AFS AFS04 SURKU
+SID:SBGL:33:SURK1AxBITAK:SBGL EDMAD AFS AFS04 SURKU KUGOV BITAK
+SID:SBGL:33:SURK1AxNAXOP:SBGL EDMAD AFS AFS04 SURKU KUGOV NM218 NAXOP
+SID:SBGL:33:SURK1AxUMBAD:SBGL EDMAD AFS AFS04 SURKU NM257 UMBAD
+SID:SBGL:33:SURK1B:SBGL EDMAD AFS AFS01 SURKU KUGOV SAT01 NAXOP
+STAR:SBGL:10:MEBG1A:MEBGA KOSRU PAI GL021 UTBOM ALMOS
+STAR:SBGL:10:UTBO2A:GIGSO UTBOM ALMOS
+STAR:SBGL:10:UTBO2AxMAVGU:MAVGU OGMUK IVREV UTNUG VAKUB GIGSO UTBOM ALMOS
+STAR:SBGL:10:UTBO2AxMOLSU:MOLSU DOKTO GL006 GL014 GL016 SURNA GL017 GIGSO UTBOM ALMOS
+STAR:SBGL:10:VUSR1A:VUSRA GL041 DONGI
+STAR:SBGL:10:VUSR1AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 KUDSI VUSRA GL041 DONGI
+STAR:SBGL:10:VUSR1AxESORU:ESORU EPGIP VUSRA GL041 DONGI
+STAR:SBGL:10:VUSR1AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 KUDSI VUSRA GL041 DONGI
+STAR:SBGL:10:VUSR1B:ESORU EPGIP VUSRA DONGI
+STAR:SBGL:15:EPGI1B:ESORU EPGIP CXI25 EGDUT
+STAR:SBGL:15:EPGI2A:EPGIP GL039 GL071 EGDUT
+STAR:SBGL:15:EPGI2AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL039 GL071 EGDUT
+STAR:SBGL:15:EPGI2AxESORU:ESORU EPGIP GL039 GL071 EGDUT
+STAR:SBGL:15:EPGI2AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL039 GL071 EGDUT
+STAR:SBGL:15:MEBG1A:MEBGA KOSRU PAI GL021 UTBOM
+STAR:SBGL:15:UTBO2A:GIGSO UTBOM
+STAR:SBGL:15:UTBO2AxMAVGU:MAVGU OGMUK IVREV UTNUG VAKUB GIGSO UTBOM
+STAR:SBGL:15:UTBO2AxMOLSU:MOLSU DOKTO GL006 GL014 GL016 SURNA GL017 GIGSO UTBOM
+STAR:SBGL:28:DIVR1A:DIVRO KETUX
+STAR:SBGL:28:DIVR1AxADA:ADA DIVRO KETUX
+STAR:SBGL:28:DIVR1AxMOLSU:MOLSU NM473 DIVRO KETUX
+STAR:SBGL:28:EPGI1B:ESORU EPGIP D298S IVTAL SEDBU
+STAR:SBGL:28:EPGI3A:EPGIP GL038 TEPOL IVTAL SEDBU
+STAR:SBGL:28:EPGI3AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL SEDBU
+STAR:SBGL:28:EPGI3AxESORU:ESORU EPGIP GL038 TEPOL IVTAL SEDBU
+STAR:SBGL:28:EPGI3AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL SEDBU
+STAR:SBGL:28:UDOGA1:ADA UDOGA CXI28 KETUX
+STAR:SBGL:28:VAKU2A:IVTAL SEDBU
+STAR:SBGL:28:VAKU2AxMAVGU:MAVGU OGMUK IVREV VAKUB GL033 IVTAL SEDBU
+STAR:SBGL:28:VAKU2AxMEBGA:MEBGA KOSRU PAI VAKUB GL033 IVTAL SEDBU
+STAR:SBGL:33:DIVR1A:DIVRO KETUX OPSID
+STAR:SBGL:33:DIVR1AxADA:ADA DIVRO KETUX OPSID
+STAR:SBGL:33:DIVR1AxMOLSU:MOLSU NM473 DIVRO KETUX OPSID
+STAR:SBGL:33:DIVR1B:DIVRO GL036 KETUX VURUK
+STAR:SBGL:33:DIVR1BxADA:ADA DIVRO GL036 KETUX VURUK
+STAR:SBGL:33:DIVR1BxMOLSU:MOLSU GL034 DIVRO GL036 KETUX VURUK
+STAR:SBGL:33:EPGI1B:ESORU EPGIP D298S IVTAL OPSID
+STAR:SBGL:33:EPGI3A:EPGIP GL038 TEPOL IVTAL OPSID
+STAR:SBGL:33:EPGI3AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL OPSID
+STAR:SBGL:33:EPGI3AxESORU:ESORU EPGIP GL038 TEPOL IVTAL OPSID
+STAR:SBGL:33:EPGI3AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL OPSID
+STAR:SBGL:33:IVTA2A:VAKUB GL033 IVTAL VURUK
+STAR:SBGL:33:IVTA2AxMAVGU:MAVGU OGMUK IVREV VAKUB GL033 IVTAL VURUK
+STAR:SBGL:33:IVTA2AxMEBGA:MEBGA KOSRU PAI VAKUB GL033 IVTAL VURUK
+STAR:SBGL:33:IVTA2B:EPGIP GL038 TEPOL IVTAL VURUK
+STAR:SBGL:33:IVTA2BxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL VURUK
+STAR:SBGL:33:IVTA2BxESORU:ESORU EPGIP GL038 TEPOL IVTAL VURUK
+STAR:SBGL:33:IVTA2BxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 GL037 EPGIP GL038 TEPOL IVTAL VURUK
+STAR:SBGL:33:UDOGA1:ADA UDOGA CXI28 KETUX OPSID
+STAR:SBGL:33:VAKU2A:IVTAL OPSID
+STAR:SBGL:33:VAKU2AxMAVGU:MAVGU OGMUK IVREV VAKUB GL033 IVTAL OPSID
+STAR:SBGL:33:VAKU2AxMEBGA:MEBGA KOSRU PAI VAKUB GL033 IVTAL OPSID
+SID:SBRJ:02L:IH1A:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02L:IH1AxBITAK:SBRJ MALDU UTGAT EVSOB IH TIVRO BITAK
+SID:SBRJ:02L:IH1AxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02L:IH1AxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02L:IH1AxUMBAD:SBRJ MALDU UTGAT EVSOB IH NM436 UMBAD
+SID:SBRJ:02L:IH1C:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02L:IH1CxBITAK:SBRJ MALDU UTGAT EVSOB IH TIVRO BITAK
+SID:SBRJ:02L:IH1CxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02L:IH1CxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02L:IH1CxUMBAD:SBRJ MALDU UTGAT EVSOB IH NM436 UMBAD
+SID:SBRJ:02L:IH1D:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02L:IH1DxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02L:IH1DxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02L:IH2B:SBRJ MALDU UTGAT IH
+SID:SBRJ:02L:IH2BxNAXOP:SBRJ MALDU UTGAT IH TIVRO ARSOV NAXOP
+SID:SBRJ:02L:IH2BxSIDUR:SBRJ MALDU UTGAT IH DOVDA EVLOG ILPUB LIXEP SIDUR
+SID:SBRJ:02L:PUMS1A:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02L:PUMS1AxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02L:PUMS1AxIMBAP:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:02L:PUMS1AxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:02L:PUMS1AxMUDKA:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN FRA MUDKA
+SID:SBRJ:02L:PUMS1AxTISVA:SBRJ MALDU UBMIG PUMSO TISVA
+SID:SBRJ:02L:PUMS1AxUKENU:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:02L:PUMS1C:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02L:PUMS1CxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02L:PUMS1CxIMBAP:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:02L:PUMS1CxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:02L:PUMS1CxMUDKA:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN TOSAT MUDKA
+SID:SBRJ:02L:PUMS1CxTISVA:SBRJ MALDU UBMIG PUMSO TISVA
+SID:SBRJ:02L:PUMS1CxUKENU:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:02L:PUMS2B:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02L:PUMS2BxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02L:PUMS2BxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX ISRIN
+SID:SBRJ:02L:PUMS2D:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02L:PUMS2DxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02L:PUMS2DxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX ISRIN
+SID:SBRJ:02R:EVSO1A:SBRJ TH02R RJ016 D301B D335B RJ022 MALDU UTGAT EVSOB EVKOX
+SID:SBRJ:02R:EVSO1AxBITAK:SBRJ TH02R RJ016 D301B D335B RJ022 MALDU UTGAT EVSOB EVKOX TIVRO BITAK
+SID:SBRJ:02R:EVSO1AxNAXOP:SBRJ TH02R RJ016 D301B D335B RJ022 MALDU UTGAT EVSOB EVKOX TIVRO ARSOV NAXOP
+SID:SBRJ:02R:EVSO1AxSIDUR:SBRJ TH02R RJ016 D301B D335B RJ022 MALDU UTGAT EVSOB EVKOX RJ322 RJ323 RJ324 LIXEP SIDUR
+SID:SBRJ:02R:EVSO1AxUMBAD:SBRJ TH02R RJ016 D301B D335B RJ022 MALDU UTGAT EVSOB EVKOX RJ306 UMBAD
+SID:SBRJ:02R:IH1A:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02R:IH1AxBITAK:SBRJ MALDU UTGAT EVSOB IH TIVRO BITAK
+SID:SBRJ:02R:IH1AxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02R:IH1AxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02R:IH1AxUMBAD:SBRJ MALDU UTGAT EVSOB IH NM436 UMBAD
+SID:SBRJ:02R:IH1C:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02R:IH1CxBITAK:SBRJ MALDU UTGAT EVSOB IH TIVRO BITAK
+SID:SBRJ:02R:IH1CxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02R:IH1CxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02R:IH1CxUMBAD:SBRJ MALDU UTGAT EVSOB IH NM436 UMBAD
+SID:SBRJ:02R:IH1D:SBRJ MALDU UTGAT EVSOB IH
+SID:SBRJ:02R:IH1DxNAXOP:SBRJ MALDU UTGAT EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:02R:IH1DxSIDUR:SBRJ MALDU UTGAT EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:02R:IH2B:SBRJ MALDU UTGAT IH
+SID:SBRJ:02R:IH2BxNAXOP:SBRJ MALDU UTGAT IH TIVRO ARSOV NAXOP
+SID:SBRJ:02R:IH2BxSIDUR:SBRJ MALDU UTGAT IH DOVDA EVLOG ILPUB LIXEP SIDUR
+SID:SBRJ:02R:PUMS1A:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02R:PUMS1AxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02R:PUMS1AxIMBAP:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:02R:PUMS1AxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:02R:PUMS1AxMUDKA:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN FRA MUDKA
+SID:SBRJ:02R:PUMS1AxTISVA:SBRJ MALDU UBMIG PUMSO TISVA
+SID:SBRJ:02R:PUMS1AxUKENU:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:02R:PUMS1C:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02R:PUMS1CxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02R:PUMS1CxIMBAP:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:02R:PUMS1CxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:02R:PUMS1CxMUDKA:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN TOSAT MUDKA
+SID:SBRJ:02R:PUMS1CxTISVA:SBRJ MALDU UBMIG PUMSO TISVA
+SID:SBRJ:02R:PUMS1CxUKENU:SBRJ MALDU UBMIG PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:02R:PUMS2B:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02R:PUMS2BxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02R:PUMS2BxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX ISRIN
+SID:SBRJ:02R:PUMS2D:SBRJ MALDU UBMIG PUMSO
+SID:SBRJ:02R:PUMS2DxADA:SBRJ MALDU UBMIG PUMSO ADA
+SID:SBRJ:02R:PUMS2DxISRIN:SBRJ MALDU UBMIG PUMSO MOMVO PCX ISRIN
+SID:SBRJ:20L:EVSO1A:SBRJ TH20L RJ006 RJ076 RJ078 EVSOB EVKOX
+SID:SBRJ:20L:EVSO1AxBITAK:SBRJ TH20L RJ006 RJ076 RJ078 EVSOB EVKOX TIVRO BITAK
+SID:SBRJ:20L:EVSO1AxNAXOP:SBRJ TH20L RJ006 RJ076 RJ078 EVSOB EVKOX TIVRO ARSOV NAXOP
+SID:SBRJ:20L:EVSO1AxSIDUR:SBRJ TH20L RJ006 RJ076 RJ078 EVSOB EVKOX RJ322 RJ323 RJ324 LIXEP SIDUR
+SID:SBRJ:20L:EVSO1AxUMBAD:SBRJ TH20L RJ006 RJ076 RJ078 EVSOB EVKOX RJ306 UMBAD
+SID:SBRJ:20L:IH1C:SBRJ EVSOB IH
+SID:SBRJ:20L:IH1CxBITAK:SBRJ EVSOB IH TIVRO BITAK
+SID:SBRJ:20L:IH1CxNAXOP:SBRJ EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:20L:IH1CxSIDUR:SBRJ EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:20L:IH1CxUMBAD:SBRJ EVSOB IH NM436 UMBAD
+SID:SBRJ:20L:IH1D:SBRJ EVSOB IH
+SID:SBRJ:20L:IH1DxNAXOP:SBRJ EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:20L:IH1DxSIDUR:SBRJ EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:20L:PUMS1C:SBRJ EVSOB UTGAX MIA PUMSO
+SID:SBRJ:20L:PUMS1CxADA:SBRJ EVSOB UTGAX MIA PUMSO ADA
+SID:SBRJ:20L:PUMS1CxIMBAP:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:20L:PUMS1CxISRIN:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:20L:PUMS1CxMUDKA:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN TOSAT MUDKA
+SID:SBRJ:20L:PUMS1CxTISVA:SBRJ EVSOB UTGAX MIA PUMSO TISVA
+SID:SBRJ:20L:PUMS1CxUKENU:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:20L:PUMS2D:SBRJ UTGAX MIA PUMSO
+SID:SBRJ:20L:PUMS2DxADA:SBRJ UTGAX MIA PUMSO ADA
+SID:SBRJ:20L:PUMS2DxISRIN:SBRJ UTGAX MIA PUMSO MOMVO PCX ISRIN
+SID:SBRJ:20R:IH1C:SBRJ EVSOB IH
+SID:SBRJ:20R:IH1CxBITAK:SBRJ EVSOB IH TIVRO BITAK
+SID:SBRJ:20R:IH1CxNAXOP:SBRJ EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:20R:IH1CxSIDUR:SBRJ EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:20R:IH1CxUMBAD:SBRJ EVSOB IH NM436 UMBAD
+SID:SBRJ:20R:IH1D:SBRJ EVSOB IH
+SID:SBRJ:20R:IH1DxNAXOP:SBRJ EVSOB IH TIVRO MIA65 NAXOP
+SID:SBRJ:20R:IH1DxSIDUR:SBRJ EVSOB IH SC107 SC085 SC043 LIXEP SIDUR
+SID:SBRJ:20R:PUMS1C:SBRJ EVSOB UTGAX MIA PUMSO
+SID:SBRJ:20R:PUMS1CxADA:SBRJ EVSOB UTGAX MIA PUMSO ADA
+SID:SBRJ:20R:PUMS1CxIMBAP:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN IMBAP
+SID:SBRJ:20R:PUMS1CxISRIN:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN
+SID:SBRJ:20R:PUMS1CxMUDKA:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN TOSAT MUDKA
+SID:SBRJ:20R:PUMS1CxTISVA:SBRJ EVSOB UTGAX MIA PUMSO TISVA
+SID:SBRJ:20R:PUMS1CxUKENU:SBRJ EVSOB UTGAX MIA PUMSO MOMVO PCX MOTNO ISRIN UKENU
+SID:SBRJ:20R:PUMS2D:SBRJ UTGAX MIA PUMSO
+SID:SBRJ:20R:PUMS2DxADA:SBRJ UTGAX MIA PUMSO ADA
+SID:SBRJ:20R:PUMS2DxISRIN:SBRJ UTGAX MIA PUMSO MOMVO PCX ISRIN
+STAR:SBRJ:02L:ADA1A:UMDED TOLOM POPSU
+STAR:SBRJ:02L:ADA1AxMCA:MCA ADA UMDED TOLOM POPSU
+STAR:SBRJ:02L:ADA1B:MCA ADA UMDED TOLOM POPSU
+STAR:SBRJ:02L:EVRI1B:MAKTI ENSEL EVRIR
+STAR:SBRJ:02L:EVRI1BxMEBGA:MEBGA KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:02L:EVRI1BxTOKIM:TOKIM KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:02L:EVRI1BxVUREP:VUREP SCR21 TODOP UGRAD MAKTI ENSEL EVRIR
+STAR:SBRJ:02L:MAKT1A:MAKTI POPSU
+STAR:SBRJ:02L:MAKT1AxKOLBI:KOLBI VUDAV RJ707 MAKTI POPSU
+STAR:SBRJ:02L:MAKT1AxVUDAV:VUDAV RJ707 MAKTI POPSU
+STAR:SBRJ:02L:TODO2A:ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02L:TODO2AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02L:TODO2AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02L:UGRA1B:UGRAD GELUT
+STAR:SBRJ:02L:UGRA1BxMEBGA:MEBGA KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:02L:UGRA1BxTOKIM:TOKIM KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:02L:UGRA1BxVUREP:VUREP NM270 TODOP UGRAD GELUT
+STAR:SBRJ:02L:UGRA2A:UGRAD GELUT
+STAR:SBRJ:02L:UGRA2AxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:02L:UGRA2AxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:02L:UGRA2AxVUREP:VUREP RJ019 TODOP UGRAD GELUT
+STAR:SBRJ:02L:UGRA2C:UGRAD RJ018 MOVGI
+STAR:SBRJ:02L:UGRA2CxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:02L:UGRA2CxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:02L:UGRA2CxVUREP:VUREP RJ019 TODOP UGRAD RJ018 MOVGI
+STAR:SBRJ:02R:ADA1A:UMDED TOLOM POPSU
+STAR:SBRJ:02R:ADA1AxMCA:MCA ADA UMDED TOLOM POPSU
+STAR:SBRJ:02R:ADA1B:MCA ADA UMDED TOLOM POPSU
+STAR:SBRJ:02R:EVRI1B:MAKTI ENSEL EVRIR
+STAR:SBRJ:02R:EVRI1BxMEBGA:MEBGA KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:02R:EVRI1BxTOKIM:TOKIM KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:02R:EVRI1BxVUREP:VUREP SCR21 TODOP UGRAD MAKTI ENSEL EVRIR
+STAR:SBRJ:02R:MAKT1A:MAKTI POPSU
+STAR:SBRJ:02R:MAKT1AxKOLBI:KOLBI VUDAV RJ707 MAKTI POPSU
+STAR:SBRJ:02R:MAKT1AxVUDAV:VUDAV RJ707 MAKTI POPSU
+STAR:SBRJ:02R:TODO2A:ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02R:TODO2AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02R:TODO2AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:02R:UGRA1B:UGRAD GELUT
+STAR:SBRJ:02R:UGRA1BxMEBGA:MEBGA KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:02R:UGRA1BxTOKIM:TOKIM KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:02R:UGRA1BxVUREP:VUREP NM270 TODOP UGRAD GELUT
+STAR:SBRJ:02R:UGRA2A:UGRAD GELUT
+STAR:SBRJ:02R:UGRA2AxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:02R:UGRA2AxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:02R:UGRA2AxVUREP:VUREP RJ019 TODOP UGRAD GELUT
+STAR:SBRJ:02R:UGRA2C:UGRAD RJ018 MOVGI
+STAR:SBRJ:02R:UGRA2CxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:02R:UGRA2CxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:02R:UGRA2CxVUREP:VUREP RJ019 TODOP UGRAD RJ018 MOVGI
+STAR:SBRJ:20L:ADA1A:UMDED EVRIR
+STAR:SBRJ:20L:ADA1AxMCA:MCA ADA UMDED EVRIR
+STAR:SBRJ:20L:ADA1B:MCA ADA UMDED EVRIR
+STAR:SBRJ:20L:EVRI1B:MAKTI ENSEL EVRIR
+STAR:SBRJ:20L:EVRI1BxMEBGA:MEBGA KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:20L:EVRI1BxTOKIM:TOKIM KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:20L:EVRI1BxVUREP:VUREP SCR21 TODOP UGRAD MAKTI ENSEL EVRIR
+STAR:SBRJ:20L:MAKT1A:MAKTI POPSU EVRIR
+STAR:SBRJ:20L:MAKT1AxKOLBI:KOLBI VUDAV RJ707 MAKTI POPSU EVRIR
+STAR:SBRJ:20L:MAKT1AxVUDAV:VUDAV RJ707 MAKTI POPSU EVRIR
+STAR:SBRJ:20L:TODO2A:ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20L:TODO2AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20L:TODO2AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20L:UGRA1B:UGRAD GELUT
+STAR:SBRJ:20L:UGRA1BxMEBGA:MEBGA KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:20L:UGRA1BxTOKIM:TOKIM KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:20L:UGRA1BxVUREP:VUREP NM270 TODOP UGRAD GELUT
+STAR:SBRJ:20L:UGRA2A:UGRAD GELUT
+STAR:SBRJ:20L:UGRA2AxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:20L:UGRA2AxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:20L:UGRA2AxVUREP:VUREP RJ019 TODOP UGRAD GELUT
+STAR:SBRJ:20L:UGRA2C:UGRAD RJ018 MOVGI
+STAR:SBRJ:20L:UGRA2CxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:20L:UGRA2CxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:20L:UGRA2CxVUREP:VUREP RJ019 TODOP UGRAD RJ018 MOVGI
+STAR:SBRJ:20R:ADA1A:UMDED EVRIR
+STAR:SBRJ:20R:ADA1AxMCA:MCA ADA UMDED EVRIR
+STAR:SBRJ:20R:ADA1B:MCA ADA UMDED EVRIR
+STAR:SBRJ:20R:EVRI1B:MAKTI ENSEL EVRIR
+STAR:SBRJ:20R:EVRI1BxMEBGA:MEBGA KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:20R:EVRI1BxTOKIM:TOKIM KOSRU SC23A SC13A SC07A SCR MAKTI ENSEL EVRIR
+STAR:SBRJ:20R:EVRI1BxVUREP:VUREP SCR21 TODOP UGRAD MAKTI ENSEL EVRIR
+STAR:SBRJ:20R:MAKT1A:MAKTI POPSU EVRIR
+STAR:SBRJ:20R:MAKT1AxKOLBI:KOLBI VUDAV RJ707 MAKTI POPSU EVRIR
+STAR:SBRJ:20R:MAKT1AxVUDAV:VUDAV RJ707 MAKTI POPSU EVRIR
+STAR:SBRJ:20R:TODO2A:ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20R:TODO2AxAKNUB:AKNUB ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20R:TODO2AxKOLBI:KOLBI ROPAS ILTIT KABUK WJ001 WJ002 RJ021 TODOP UGRAD GELUT
+STAR:SBRJ:20R:UGRA1B:UGRAD GELUT
+STAR:SBRJ:20R:UGRA1BxMEBGA:MEBGA KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:20R:UGRA1BxTOKIM:TOKIM KOSRU SCR23_ SCR13 SCR07 SCR UGRAD GELUT
+STAR:SBRJ:20R:UGRA1BxVUREP:VUREP NM270 TODOP UGRAD GELUT
+STAR:SBRJ:20R:UGRA2A:UGRAD GELUT
+STAR:SBRJ:20R:UGRA2AxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:20R:UGRA2AxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD GELUT
+STAR:SBRJ:20R:UGRA2AxVUREP:VUREP RJ019 TODOP UGRAD GELUT
+STAR:SBRJ:20R:UGRA2C:UGRAD RJ018 MOVGI
+STAR:SBRJ:20R:UGRA2CxMEBGA:MEBGA KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:20R:UGRA2CxTOKIM:TOKIM KOSRU GETVU GIMPI RJ017 UGRAD RJ018 MOVGI
+STAR:SBRJ:20R:UGRA2CxVUREP:VUREP RJ019 TODOP UGRAD RJ018 MOVGI

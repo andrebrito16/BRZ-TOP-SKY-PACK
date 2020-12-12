@@ -1,0 +1,1726 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBCW\SBXP - Sao Paulo\SBXP.sct
+SECTORTITLE:SBXP.sct
+Airports:SBBP:name
+Airports:SBBP:symbol
+Airports:SBGR:name
+Airports:SBGR:symbol
+Airports:SBGW:name
+Airports:SBGW:symbol
+Airports:SBJD:name
+Airports:SBJD:symbol
+Airports:SBJH:name
+Airports:SBJH:symbol
+Airports:SBKP:name
+Airports:SBKP:symbol
+Airports:SBMT:name
+Airports:SBMT:symbol
+Airports:SBSJ:name
+Airports:SBSJ:symbol
+Airports:SBSP:name
+Airports:SBSP:symbol
+Airports:SBST:name
+Airports:SBST:symbol
+Airports:SBTA:name
+Airports:SBTA:symbol
+Airports:SDAG:name
+Airports:SDAG:symbol
+Airports:SDAI:name
+Airports:SDAI:symbol
+Airports:SDAM:name
+Airports:SDAM:symbol
+Airports:SDCO:name
+Airports:SDCO:symbol
+Airports:SDIM:name
+Airports:SDIM:symbol
+Airports:SDMJ:name
+Airports:SDMJ:symbol
+Airports:SDOI:name
+Airports:SDOI:symbol
+Airports:SDPW:name
+Airports:SDPW:symbol
+Airports:SDRS:name
+Airports:SDRS:symbol
+Airports:SDTB:name
+Airports:SDTB:symbol
+Airports:SDTK:name
+Airports:SDTK:symbol
+Airports:SDUB:name
+Airports:SDUB:symbol
+Free Text:AMA-SBCW\10:freetext
+Free Text:AMA-SBCW\12:freetext
+Free Text:AMA-SBCW\29:freetext
+Free Text:AMA-SBCW\31:freetext
+Free Text:AMA-SBCW\31:freetext
+Free Text:AMA-SBCW\37:freetext
+Free Text:AMA-SBCW\42:freetext
+Free Text:AMA-SBCW\42:freetext
+Free Text:AMA-SBCW\42:freetext
+Free Text:AMA-SBCW\50:freetext
+Free Text:AMA-SBCW\63:freetext
+Free Text:AMA-SBCW\66:freetext
+Free Text:AMA-SBCW\66:freetext
+Free Text:AMA-SBCW\66:freetext
+Free Text:AMA-SBCW\98:freetext
+Free Text:AREAS RESTRITAS\SBR317:freetext
+Free Text:AREAS RESTRITAS\SBR395:freetext
+Free Text:AREAS RESTRITAS\SBR401:freetext
+Free Text:AREAS RESTRITAS\SBR411:freetext
+Free Text:AREAS RESTRITAS\SBR416:freetext
+Free Text:AREAS RESTRITAS\SBR421:freetext
+Free Text:AREAS RESTRITAS\SBR423:freetext
+Free Text:AREAS RESTRITAS\SBR431:freetext
+Free Text:AREAS RESTRITAS\SBR432:freetext
+Free Text:AREAS RESTRITAS\SBR434:freetext
+Free Text:AREAS RESTRITAS\SBR458:freetext
+Free Text:AREAS RESTRITAS\SBR459:freetext
+Free Text:AREAS RESTRITAS\SBR460:freetext
+Free Text:AREAS RESTRITAS\SBR466:freetext
+Free Text:AREAS RESTRITAS\SBR487:freetext
+Free Text:AREAS RESTRITAS\SBR488:freetext
+Free Text:AREAS RESTRITAS\SBR489:freetext
+Free Text:AREAS RESTRITAS\SBR490 :freetext
+Free Text:AREAS RESTRITAS\SBR491:freetext
+Free Text:ATCMAC\4400':freetext
+Free Text:ATCMAC\4500':freetext
+Free Text:ATCMAC\4700':freetext
+Free Text:ATCMAC\5000':freetext
+Free Text:ATCMAC\5500':freetext
+Free Text:ATCMAC\5500':freetext
+Free Text:ATCMAC\5500':freetext
+Free Text:ATCMAC\6000':freetext
+Free Text:ATCMAC\7000':freetext
+Free Text:ATCMAC\FL085:freetext
+Free Text:ATCMAC\FL105 :freetext
+Free Text:Default group\SBGR:freetext
+Free Text:ESTADOS-SBCW\ESPIRITO SANTO:freetext
+Free Text:ESTADOS-SBCW\MATO GROSSO DO SUL:freetext
+Free Text:ESTADOS-SBCW\MINAS GERAIS:freetext
+Free Text:ESTADOS-SBCW\PARANÁ:freetext
+Free Text:ESTADOS-SBCW\RIO DE JANEIRO:freetext
+Free Text:ESTADOS-SBCW\RIO GRANDE DO SUL:freetext
+Free Text:ESTADOS-SBCW\SANTA CATARINA:freetext
+Free Text:ESTADOS-SBCW\SÃO PAULO:freetext
+Free Text:FIR-FSS\AMAZONIC-EAST:freetext
+Free Text:FIR-FSS\AMAZONIC-WEST:freetext
+Free Text:FIR-FSS\ASSUNCION SGAS:freetext
+Free Text:FIR-FSS\ATLANTIC-EAST:freetext
+Free Text:FIR-FSS\ATLANTIC-WEST:freetext
+Free Text:FIR-FSS\BRASILIA-NORTH:freetext
+Free Text:FIR-FSS\BRASILIA-SOUTH:freetext
+Free Text:FIR-FSS\CURITIBA-NORTH:freetext
+Free Text:FIR-FSS\CURITIBA-SOUTH:freetext
+Free Text:FIR-FSS\LA PAZ SLLF:freetext
+Free Text:FIR-FSS\MONTEVIDEO SUEO:freetext
+Free Text:FIR-FSS\MONTEVIDEO-FSS SUEO:freetext
+Free Text:FIR-FSS\RECIFE-NORTH:freetext
+Free Text:FIR-FSS\RECIFE-SOUTH:freetext
+Free Text:FIR-FSS\RESISTENCIA SARR:freetext
+Free Text:PAISES\ARGENTINA:freetext
+Free Text:PAISES\BOLIVIA:freetext
+Free Text:PAISES\BRASIL:freetext
+Free Text:PAISES\CHILE:freetext
+Free Text:PAISES\PARAGUAI:freetext
+Free Text:PAISES\URUGUAI:freetext
+Free Text:PAISES\VENEZUELA:freetext
+Free Text:REA CORREDORES XP\ALFA:freetext
+Free Text:REA CORREDORES XP\ALFA:freetext
+Free Text:REA CORREDORES XP\ALFA :freetext
+Free Text:REA CORREDORES XP\ALFA :freetext
+Free Text:REA CORREDORES XP\BRAVO:freetext
+Free Text:REA CORREDORES XP\BRAVO:freetext
+Free Text:REA CORREDORES XP\BRAVO:freetext
+Free Text:REA CORREDORES XP\BRAVO:freetext
+Free Text:REA CORREDORES XP\BRAVO:freetext
+Free Text:REA CORREDORES XP\DELTA:freetext
+Free Text:REA CORREDORES XP\ECHO:freetext
+Free Text:REA CORREDORES XP\ECHO:freetext
+Free Text:REA CORREDORES XP\ECHO :freetext
+Free Text:REA CORREDORES XP\FOXTROT:freetext
+Free Text:REA CORREDORES XP\FOXTROT:freetext
+Free Text:REA CORREDORES XP\FOXTROT:freetext
+Free Text:REA CORREDORES XP\FOXTROT:freetext
+Free Text:REA CORREDORES XP\GOLF:freetext
+Free Text:REA CORREDORES XP\HOTEL:freetext
+Free Text:REA CORREDORES XP\HOTEL :freetext
+Free Text:REA CORREDORES XP\INDIA:freetext
+Free Text:REA CORREDORES XP\INDIA:freetext
+Free Text:REA CORREDORES XP\KILO:freetext
+Free Text:REA CORREDORES XP\LIMA:freetext
+Free Text:REA CORREDORES XP\LIMA:freetext
+Free Text:REA CORREDORES XP\LIMA:freetext
+Free Text:REA CORREDORES XP\MIKE:freetext
+Free Text:REA CORREDORES XP\MIKE:freetext
+Free Text:REA CORREDORES XP\NOVEMBER:freetext
+Free Text:REA CORREDORES XP\OSCAR:freetext
+Free Text:REA CORREDORES XP\OSCAR:freetext
+Free Text:REA CORREDORES XP\OSCAR:freetext
+Free Text:REA CORREDORES XP\PAPA:freetext
+Free Text:REA CORREDORES XP\PAPA:freetext
+Free Text:REA CORREDORES XP\QUEBEC:freetext
+Free Text:REA CORREDORES XP\QUEBEC:freetext
+Free Text:REA CORREDORES XP\ROMEO:freetext
+Free Text:REA CORREDORES XP\ROMEO:freetext
+Free Text:REA CORREDORES XP\ROMEO:freetext
+Free Text:REA CORREDORES XP\SIERRA:freetext
+Free Text:REA CORREDORES XP\SIERRA:freetext
+Free Text:REA CORREDORES XP\SIERRA:freetext
+Free Text:REA CORREDORES XP\TANGO:freetext
+Free Text:REA CORREDORES XP\UNIFORM:freetext
+Free Text:REA CORREDORES XP\VICTOR:freetext
+Free Text:REA-PORTÕES-AMARAIS\ANHANGUERA  :freetext
+Free Text:REA-PORTÕES-AMARAIS\PAULÍNIA :freetext
+Free Text:REA-PORTÕES-AMARAIS\SHOPPING  :freetext
+Free Text:REA-PORTÕES-AMARAIS\UNICAMP  :freetext
+Free Text:REA-PORTÕES-AMERICANA\NOVA ODESSA  :freetext
+Free Text:REA-PORTÕES-AMERICANA\REPRESA  :freetext
+Free Text:REA-PORTÕES-BRAGANCA\BOCAINA  :freetext
+Free Text:REA-PORTÕES-BRAGANCA\FERNÃO DIAS (SAÍDA) :freetext
+Free Text:REA-PORTÕES-BRAGANCA\GUARIPOCABA  :freetext
+Free Text:REA-PORTÕES-BRAGANCA\VOR:freetext
+Free Text:REA-PORTÕES-GUARA\CACHOEIRA  :freetext
+Free Text:REA-PORTÕES-GUARA\PEDÁGIO DUTRA  :freetext
+Free Text:REA-PORTÕES-GUARA\SUL BASÍLICA  :freetext
+Free Text:REA-PORTÕES-GUARULHO\ITAQUERA (MILITAR SOMENTE) :freetext
+Free Text:REA-PORTÕES-JUNDIAI\ESTÁDIO  :freetext
+Free Text:REA-PORTÕES-JUNDIAI\JAPI:freetext
+Free Text:REA-PORTÕES-JUNDIAI\LAGOA 	  :freetext
+Free Text:REA-PORTÕES-JUNDIAI\Posição ELÓI  :freetext
+Free Text:REA-PORTÕES-JUNDIAI\Posição TRAVÉS SUL ITUPEVA     :freetext
+Free Text:REA-PORTÕES-JUNDIAI\TREVO (SAÍDA)		   :freetext
+Free Text:REA-PORTÕES-MARTE\ABRIL  :freetext
+Free Text:REA-PORTÕES-MARTE\COMETA (ENTRADA) :freetext
+Free Text:REA-PORTÕES-MARTE\DUTRA (SAÍDA) :freetext
+Free Text:REA-PORTÕES-SANTOS\CANAL BERTIOGA  :freetext
+Free Text:REA-PORTÕES-SANTOS\INTERLIGAÇÃO    :freetext
+Free Text:REA-PORTÕES-SANTOS\PARANAPIACABA   :freetext
+Free Text:REA-PORTÕES-SANTOS\PRAIA GRANDE    :freetext
+Free Text:REA-PORTÕES-SJCAMPOS\IGARATÁ   :freetext
+Free Text:REA-PORTÕES-SJCAMPOS\JACAREÍ   :freetext
+Free Text:REA-PORTÕES-SJCAMPOS\MELO 	   :freetext
+Free Text:REA-PORTÕES-SJCAMPOS\REDENÇÃO  :freetext
+Free Text:REA-PORTÕES-SOROCABA\ARAÇOIABA   :freetext
+Free Text:REA-PORTÕES-SOROCABA\INDUSTRIAL  :freetext
+Free Text:REA-PORTÕES-SOROCABA\RAPOSO 	 :freetext
+Free Text:REA-PORTÕES-TAUBATÉ\PEDÁGIO DUTRA 			 :freetext
+Free Text:REA-PORTÕES-TAUBATÉ\TREVO CARVALHO PINTO    :freetext
+Free Text:REA-PORTÕES-VIRACOPOS\ANHANGUERA  :freetext
+Free Text:REA-PORTÕES-VIRACOPOS\INDAIATUBA  :freetext
+Free Text:REA-ROTA-AFFA\CAPIVARI :freetext
+Free Text:REA-ROTA-AFFA\EMBU-GUAÇU :freetext
+Free Text:REA-ROTA-AFFA\FURNAS :freetext
+Free Text:REA-ROTA-AFFA\INTERLIGAÇÃO:freetext
+Free Text:REA-ROTA-AFFA\REPRESA ALUMÍNIO :freetext
+Free Text:REA-ROTA-AFFA\RONDON  :freetext
+Free Text:REA-ROTA-AFFA\TOBIAS :freetext
+Free Text:REA-ROTA-AFFA\TRAVÉS AMERICANA :freetext
+Free Text:REA-ROTA-AFFA\ÉDEN     :freetext
+Free Text:REA-ROTA-ARICANDUVA\PARQUE DO CARMO:freetext
+Free Text:REA-ROTA-BRAVO\ATIBAIA :freetext
+Free Text:REA-ROTA-BRAVO\COSMÓPOLIS :freetext
+Free Text:REA-ROTA-BRAVO\GUARAREMA :freetext
+Free Text:REA-ROTA-BRAVO\IGARATÁ :freetext
+Free Text:REA-ROTA-BRAVO\JAGUARIÚNA :freetext
+Free Text:REA-ROTA-BRAVO\LIMEIRA :freetext
+Free Text:REA-ROTA-BRAVO\MORUNGABA     :freetext
+Free Text:REA-ROTA-BRAVO\REPRESA RIBEIRÃO:freetext
+Free Text:REA-ROTA-BRAVO\SALESÓPOLIS   :freetext
+Free Text:REA-ROTA-CHARLIE\CABREÚVA :freetext
+Free Text:REA-ROTA-CHARLIE\ITU :freetext
+Free Text:REA-ROTA-CHARLIE\PEDÁGIO-CASTELO:freetext
+Free Text:REA-ROTA-CHARLIE\PORTO FELIZ :freetext
+Free Text:REA-ROTA-CHARLIE\RONDON :freetext
+Free Text:REA-ROTA-CHARLIE\SANTANA :freetext
+Free Text:REA-ROTA-DELTA\ABRIL :freetext
+Free Text:REA-ROTA-DELTA\PEDÁGIO :freetext
+Free Text:REA-ROTA-DELTA\PERUS  :freetext
+Free Text:REA-ROTA-DELTA\TRAVÉS ECHOJARAGUÁ     :freetext
+Free Text:REA-ROTA-DELTA\TREVO :freetext
+Free Text:REA-ROTA-ECHO\DOM PEDRO :freetext
+Free Text:REA-ROTA-ECHO\MORATO    :freetext
+Free Text:REA-ROTA-ECHO\NEGRA:freetext
+Free Text:REA-ROTA-ECHO\ORUNGABA                 :freetext
+Free Text:REA-ROTA-ECHO\PERUS :freetext
+Free Text:REA-ROTA-ECHO\TRAVÉS AMPAROSERRA :freetext
+Free Text:REA-ROTA-ECHO\TRAVÉS JARINU          :freetext
+Free Text:REA-ROTA-FOXTROT\BARRADO UNA:freetext
+Free Text:REA-ROTA-FOXTROT\CANAL BERTIOGA    :freetext
+Free Text:REA-ROTA-FOXTROT\ILHA ANCHIETA :freetext
+Free Text:REA-ROTA-FOXTROT\ITANHAÉM :freetext
+Free Text:REA-ROTA-FOXTROT\LARANJEIRAS :freetext
+Free Text:REA-ROTA-FOXTROT\PERUÍBE :freetext
+Free Text:REA-ROTA-FOXTROT\PONTA :freetext
+Free Text:REA-ROTA-FOXTROT\PRAIA GRANDE :freetext
+Free Text:REA-ROTA-FOXTROT\RIVIERA :freetext
+Free Text:REA-ROTA-FOXTROT\USINA CARAGUÁ :freetext
+Free Text:REA-ROTA-GOLF\BAÍA :freetext
+Free Text:REA-ROTA-GOLF\CUNHA :freetext
+Free Text:REA-ROTA-GOLF\ROSEIRA        :freetext
+Free Text:REA-ROTA-HOTEL\CAPIVARI      :freetext
+Free Text:REA-ROTA-HOTEL\ITU :freetext
+Free Text:REA-ROTA-HOTEL\PEDRAS :freetext
+Free Text:REA-ROTA-INDIA\COSMÓPOLIS :freetext
+Free Text:REA-ROTA-INDIA\PIRACICABA:freetext
+Free Text:REA-ROTA-INDIA\TRAVÉS AMERICANA :freetext
+Free Text:REA-ROTA-KILO\ATIBAIA:freetext
+Free Text:REA-ROTA-KILO\TRAVÉS JARINU:freetext
+Free Text:REA-ROTA-LIMA\ATIBAIA   :freetext
+Free Text:REA-ROTA-LIMA\CABREÚVA:freetext
+Free Text:REA-ROTA-LIMA\CAMANDUCAIA :freetext
+Free Text:REA-ROTA-LIMA\JOANÓPOLIS        :freetext
+Free Text:REA-ROTA-LIMA\MORATO   :freetext
+Free Text:REA-ROTA-LIMA\PEDÁGIO :freetext
+Free Text:REA-ROTA-MIKE\ATIBAIA :freetext
+Free Text:REA-ROTA-MIKE\BASÍLICA          :freetext
+Free Text:REA-ROTA-MIKE\CACHOEIRA:freetext
+Free Text:REA-ROTA-MIKE\CAÇAPAVA       :freetext
+Free Text:REA-ROTA-MIKE\FÁBRICA DUTRA :freetext
+Free Text:REA-ROTA-MIKE\PEDÁGIO DUTRA   :freetext
+Free Text:REA-ROTA-MIKE\ROSEIRA :freetext
+Free Text:REA-ROTA-MIKE\TAUBATÉ :freetext
+Free Text:REA-ROTA-MIKE\TAUBATÉ  :freetext
+Free Text:REA-ROTA-MIKE\TRAVÉS NORTE IGARATÁ    :freetext
+Free Text:REA-ROTA-MIKE\TRAVÉS NORTE SÃO JOSÉ :freetext
+Free Text:REA-ROTA-MIKE\TREVO CARVALHO PINTO :freetext
+Free Text:REA-ROTA-NOVEMBER\ABRIL:freetext
+Free Text:REA-ROTA-NOVEMBER\ANHANGUERA:freetext
+Free Text:REA-ROTA-NOVEMBER\ITAPEVI :freetext
+Free Text:REA-ROTA-NOVEMBER\MAILASQUI :freetext
+Free Text:REA-ROTA-NOVEMBER\PEDÁGIO CASTELO :freetext
+Free Text:REA-ROTA-NOVEMBER\REPRESA ALUMÍNIO :freetext
+Free Text:REA-ROTA-OSCAR\FURNAS :freetext
+Free Text:REA-ROTA-OSCAR\ITAPEVI :freetext
+Free Text:REA-ROTA-OSCAR\PERUS:freetext
+Free Text:REA-ROTA-OSCAR\SANTANA :freetext
+Free Text:REA-ROTA-OSCAR\TAPIRAÍ :freetext
+Free Text:REA-ROTA-OSCAR\VARGEM GRANDE :freetext
+Free Text:REA-ROTA-PAPA\EMBUGUAÇU        :freetext
+Free Text:REA-ROTA-PAPA\ITANHAÉM :freetext
+Free Text:REA-ROTA-PAPA\ITAPEVI                 :freetext
+Free Text:REA-ROTA-PAPA\RÉGIS :freetext
+Free Text:REA-ROTA-QUEBEC\MOGI BERTIOGA :freetext
+Free Text:REA-ROTA-QUEBEC\PALMEIRAS :freetext
+Free Text:REA-ROTA-QUEBEC\PARQUE DO CARMO :freetext
+Free Text:REA-ROTA-QUEBEC\REPRESA RIBEIRÃO :freetext
+Free Text:REA-ROTA-QUEBEC\USINA CARAGUÁ :freetext
+Free Text:REA-ROTA-ROMEO\ILHA ANCHIETA :freetext
+Free Text:REA-ROTA-ROMEO\ITAQUERA:freetext
+Free Text:REA-ROTA-ROMEO\REPRESA PARAIBUNA :freetext
+Free Text:REA-ROTA-ROMEO\REPRESA SUZANO :freetext
+Free Text:REA-ROTA-ROMEO\RODOANEL :freetext
+Free Text:REA-ROTA-ROMEO\SALESÓPOLIS :freetext
+Free Text:REA-ROTA-SIERRA\GUARAREMA :freetext
+Free Text:REA-ROTA-SIERRA\INTERLIGAÇÃO :freetext
+Free Text:REA-ROTA-SIERRA\ITANHAÉM :freetext
+Free Text:REA-ROTA-SIERRA\PALMEIRAS     :freetext
+Free Text:REA-ROTA-SIERRA\REPRESA SUZANO   :freetext
+Free Text:REA-ROTA-SIERRA\RIO GRANDE :freetext
+Free Text:REA-ROTA-TANGO\PARAIBUNA :freetext
+Free Text:REA-ROTA-TANGO\REDENÇÃO :freetext
+Free Text:REA-ROTA-TANGO\SALESÓPOLIS:freetext
+Free Text:REA-ROTA-UNIFORME\CAÇAPAVA    :freetext
+Free Text:REA-ROTA-UNIFORME\ILHA ANCHIETA :freetext
+Free Text:REA-ROTA-UNIFORME\REDENÇÃO :freetext
+Free Text:REA-ROTA-VICTOR\ABRILITU:freetext
+Free Text:REA-ROTA-VICTOR\ÉDEN      :freetext
+Free Text:REH-PORTÕES-AMARAIS\HONDA 				 :freetext
+Free Text:REH-PORTÕES-AMARAIS\SANTOS DUMONT 		 :freetext
+Free Text:REH-PORTÕES-AMARAIS\SHOPPING 			 :freetext
+Free Text:REH-PORTÕES-AMERICANA\PEDÁGIO AMERICANA 	 :freetext
+Free Text:REH-PORTÕES-AMERICANA\REPRESA 				 :freetext
+Free Text:REH-PORTÕES-BRAGANÇA\BOCAINA 			 :freetext
+Free Text:REH-PORTÕES-BRAGANÇA\FERNÃO DIAS		 :freetext
+Free Text:REH-PORTÕES-BRAGANÇA\GUARIPOCABA			 :freetext
+Free Text:REH-PORTÕES-BRAGANÇA\VOR 					 :freetext
+Free Text:REH-PORTÕES-CAMPINAS\ANHANGUERA 			 :freetext
+Free Text:REH-PORTÕES-CAMPINAS\INDAIATUBA 			:freetext
+Free Text:REH-PORTÕES-GUARA\CACHOEIRA 			 :freetext
+Free Text:REH-PORTÕES-GUARA\PEDÁGIO DUTRA 		 :freetext
+Free Text:REH-PORTÕES-GUARA\SUL BASÍLICA 		 :freetext
+Free Text:REH-PORTÕES-GUARULHOS\DUMONT 				 :freetext
+Free Text:REH-PORTÕES-JUNDIAI\LOUVEIRA				 :freetext
+Free Text:REH-PORTÕES-JUNDIAI\TRAVÉS SUL ITUPEVA 	 :freetext
+Free Text:REH-PORTÕES-JUNDIAI\TREVO ANHANG-BAANTES	 :freetext
+Free Text:REH-PORTÕES-MARTE\ESTADÃO (Saída W)		 :freetext
+Free Text:REH-PORTÕES-MARTE\LUZ (Entrada S e E)	 :freetext
+Free Text:REH-PORTÕES-MARTE\MEMORIAL (Entrada W)	 :freetext
+Free Text:REH-PORTÕES-MARTE\PORTUGUESA (Saída E)	 :freetext
+Free Text:REH-PORTÕES-SANTOS\CANAL BERTIOGA 		 :freetext
+Free Text:REH-PORTÕES-SANTOS\INTERLIGAÇÃO			 :freetext
+Free Text:REH-PORTÕES-SANTOS\PARANAPIACABA 		 :freetext
+Free Text:REH-PORTÕES-SANTOS\PRAIA GRANDE 			 :freetext
+Free Text:REH-PORTÕES-SJ-CAMPOS\IGARATÁ				 :freetext
+Free Text:REH-PORTÕES-SJ-CAMPOS\JACAREÍ 				 :freetext
+Free Text:REH-PORTÕES-SJ-CAMPOS\MELO 					 :freetext
+Free Text:REH-PORTÕES-SJ-CAMPOS\REDENÇÃO 				 :freetext
+Free Text:REH-PORTÕES-SOROCABA\ARAÇOIABA 				 :freetext
+Free Text:REH-PORTÕES-SOROCABA\INDUSTRIAL 			 :freetext
+Free Text:REH-PORTÕES-SOROCABA\RAPOSO 				 :freetext
+Free Text:REH-PORTÕES-TAUBATE\PEDÁGIO DUTRA 			 :freetext
+Free Text:REH-PORTÕES-TAUBATE\TREVO CARVALHO PINTO	 :freetext
+Free Text:REH-ROTA-ACLIMAÇÃO\ALCÂNTARA MACHADO:freetext
+Free Text:REH-ROTA-ACLIMAÇÃO\ANA ROSA:freetext
+Free Text:REH-ROTA-ACLIMAÇÃO\CEBOLINHA :freetext
+Free Text:REH-ROTA-ACLIMAÇÃO\ITAÚ CTO:freetext
+Free Text:REH-ROTA-ACLIMAÇÃO\PARQUE ACLIMAÇÃO:freetext
+Free Text:REH-ROTA-ANCHIETA\ENTRONCAMENTO:freetext
+Free Text:REH-ROTA-ANCHIETA\MERCEDES:freetext
+Free Text:REH-ROTA-ANCHIETA\PEDÁGIO ANCHIETA:freetext
+Free Text:REH-ROTA-ANCHIETA\TREVO ANCHIETA:freetext
+Free Text:REH-ROTA-ANHANGUERA-NORTE\HONDA:freetext
+Free Text:REH-ROTA-ANHANGUERA-NORTE\PEDÁGIO AMERICANA:freetext
+Free Text:REH-ROTA-ANHANGUERA-NORTE\SANTOS DUMONT:freetext
+Free Text:REH-ROTA-ANHANGUERA-NORTE\TREVO VINHEDO:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\JARAGUÁ:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\MARCO ZERO:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\PÃO DE AÇÚCAR:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\TREVO ANHANGUERA BANDEIRANTES:freetext
+Free Text:REH-ROTA-ARICANDUVA\ELEVADO ARICANDUVA:freetext
+Free Text:REH-ROTA-ARICANDUVA\PONTE ARICANDUVA:freetext
+Free Text:REH-ROTA-ARICANDUVA\SÃO MATEUS:freetext
+Free Text:REH-ROTA-CAMPOS\GM:freetext
+Free Text:REH-ROTA-CAMPOS\IGARATÁ :freetext
+Free Text:REH-ROTA-CAMPOS\LOBATO:freetext
+Free Text:REH-ROTA-CAMPOS\SÃO JOSÉ:freetext
+Free Text:REH-ROTA-CAMPOS\TRAVÉS ISABEL:freetext
+Free Text:REH-ROTA-CASTELO\ARACARIGUAMA:freetext
+Free Text:REH-ROTA-CASTELO\BARUERI									:freetext
+Free Text:REH-ROTA-CASTELO\CEBOLÃO :freetext
+Free Text:REH-ROTA-CASTELO\RODOANEL CASTELO:freetext
+Free Text:REH-ROTA-CONGONHAS\CEBOLINHA					:freetext
+Free Text:REH-ROTA-CONGONHAS\CLUBE SÍRIO:freetext
+Free Text:REH-ROTA-CONGONHAS\VD ANTÁRTICA :freetext
+Free Text:REH-ROTA-ECOLÓGICO\BARRAGEM TIETÊ				:freetext
+Free Text:REH-ROTA-ECOLÓGICO\DUMONT:freetext
+Free Text:REH-ROTA-ECOLÓGICO\PONTE ARICANDUVA:freetext
+Free Text:REH-ROTA-ECOLÓGICO\SHOPPING TATUAPÉ:freetext
+Free Text:REH-ROTA-ESPRAIADA\PONTE ESTAIADA:freetext
+Free Text:REH-ROTA-ESPRAIADA\WASHINGTON LUÍS:freetext
+Free Text:REH-ROTA-ESTADO\BARTIRA:freetext
+Free Text:REH-ROTA-ESTADO\ESTAÇÃO SALADINO:freetext
+Free Text:REH-ROTA-ESTADO\UTINGA:freetext
+Free Text:REH-ROTA-ESTADO\VD GRANDE SAO PAULO      :freetext
+Free Text:REH-ROTA-ESTADO\VD SÃO CARLOS:freetext
+Free Text:REH-ROTA-ESTADO\WALMART:freetext
+Free Text:REH-ROTA-ESTÁDIO\AVENIDA MORUMBI:freetext
+Free Text:REH-ROTA-ESTÁDIO\EXTRA JAGUARÉ:freetext
+Free Text:REH-ROTA-ESTÁDIO\SHOPPING CONTINENTAL:freetext
+Free Text:REH-ROTA-EXTERNO\EXTRA JAGUARÉ:freetext
+Free Text:REH-ROTA-EXTERNO\PONTE JAGUARÉ:freetext
+Free Text:REH-ROTA-FABRICA\ESTAÇÃO SALADINO:freetext
+Free Text:REH-ROTA-FABRICA\KENTINHA         :freetext
+Free Text:REH-ROTA-FABRICA\MERCEDES                    :freetext
+Free Text:REH-ROTA-FABRICA\PIRATININGA:freetext
+Free Text:REH-ROTA-FERNÃO\CEMITÉRIO FERNÃO:freetext
+Free Text:REH-ROTA-FERNÃO\DUTRA:freetext
+Free Text:REH-ROTA-FERNÃO\MAIRIPORÃ:freetext
+Free Text:REH-ROTA-FERNÃO\POLÍCIA RODODOVIÁRIA:freetext
+Free Text:REH-ROTA-FERNÃO\PONTE ARICANDUVA :freetext
+Free Text:REH-ROTA-FERNÃO\TREVO TREMEMBÉ:freetext
+Free Text:REH-ROTA-FERNÃO\TÚNEL:freetext
+Free Text:REH-ROTA-FERROVIA\RIBEIRÃO PIRES:freetext
+Free Text:REH-ROTA-FERROVIA\WALMART:freetext
+Free Text:REH-ROTA-GUARAPIRANGA\EMPRESARIAL:freetext
+Free Text:REH-ROTA-GUARAPIRANGA\PARELHEIROS:freetext
+Free Text:REH-ROTA-IMIGRANTES\KENTINHA :freetext
+Free Text:REH-ROTA-IMIGRANTES\PEDÁGIO IMIGRANTES:freetext
+Free Text:REH-ROTA-IMIGRANTES\TREVO IMIGRANTES:freetext
+Free Text:REH-ROTA-JUNDIAI\BAHIA:freetext
+Free Text:REH-ROTA-JUNDIAI\ESTAÇÃO:freetext
+Free Text:REH-ROTA-JUNDIAI\EXTRA JUNDIAI:freetext
+Free Text:REH-ROTA-JUNDIAI\LOUVEIRA:freetext
+Free Text:REH-ROTA-JUNDIAI\TREVO ANHANGUERA BANDEIRANTES:freetext
+Free Text:REH-ROTA-JUNDIAI\TREVO VINHEDO:freetext
+Free Text:REH-ROTA-MARTE\ALCÂNTARA MACHADO:freetext
+Free Text:REH-ROTA-MARTE\CEBOLÃO:freetext
+Free Text:REH-ROTA-MARTE\LUZ :freetext
+Free Text:REH-ROTA-MARTE\MARCO ZERO:freetext
+Free Text:REH-ROTA-MARTE\VD ANTÁRTICA          :freetext
+Free Text:REH-ROTA-MARTE\VD SÃO CARLOS:freetext
+Free Text:REH-ROTA-MORUMBI\AVENIDA MORUMBI:freetext
+Free Text:REH-ROTA-MORUMBI\EXTRA TABOÃO:freetext
+Free Text:REH-ROTA-MORUMBI\PONTE ESTAIADA:freetext
+Free Text:REH-ROTA-MORUMBI\RAPOSO:freetext
+Free Text:REH-ROTA-OESTE\CEBOLÃO :freetext
+Free Text:REH-ROTA-OESTE\EMPRESARIAL:freetext
+Free Text:REH-ROTA-OESTE\EXTRA TABOÃO:freetext
+Free Text:REH-ROTA-OESTE\SHOPPING CONTINENTAL:freetext
+Free Text:REH-ROTA-PINHEIROS\CEBOLÃO :freetext
+Free Text:REH-ROTA-PINHEIROS\EMPRESARIAL:freetext
+Free Text:REH-ROTA-PINHEIROS\GRANJA JULIETA:freetext
+Free Text:REH-ROTA-PINHEIROS\PIRATININGA:freetext
+Free Text:REH-ROTA-PINHEIROS\PONTE ESTAIADA:freetext
+Free Text:REH-ROTA-PINHEIROS\PONTE JAGUARÉ       :freetext
+Free Text:REH-ROTA-RADIAL\ALCÂNTARA MACHADO:freetext
+Free Text:REH-ROTA-RADIAL\ELEVADO ARICANDUVA:freetext
+Free Text:REH-ROTA-RADIAL\ITAQUERA:freetext
+Free Text:REH-ROTA-RADIAL\SHOPPING TATUAPÉ:freetext
+Free Text:REH-ROTA-RAPOSO\EXTRA COTIA :freetext
+Free Text:REH-ROTA-RAPOSO\RAPOSO:freetext
+Free Text:REH-ROTA-RAPOSO\VARGEM GRANDE PAULISTA:freetext
+Free Text:REH-ROTA-REFINARIA\SÃO MATEUS:freetext
+Free Text:REH-ROTA-REFINARIA\WALMART:freetext
+Free Text:REH-ROTA-RODOANEL\IMPERIAL:freetext
+Free Text:REH-ROTA-RODOANEL\PARELHEIROS					:freetext
+Free Text:REH-ROTA-RODOANEL\RAPOSO						:freetext
+Free Text:REH-ROTA-RODOANEL\RODOANEL CASTELO:freetext
+Free Text:REH-ROTA-RODOANEL\TREVO ANCHIETA:freetext
+Free Text:REH-ROTA-RODOANEL\TREVO IMIGRANTES			:freetext
+Free Text:REH-ROTA-SENNA\DUMONT:freetext
+Free Text:REH-ROTA-SENNA\GM:freetext
+Free Text:REH-ROTA-SENNA\PEDÁGIO ITAQUÁ:freetext
+Free Text:REH-ROTA-SENNA\PEDÁGIO SENNA:freetext
+Free Text:REH-ROTA-SUZANO\FÁBRICA FERRAZ:freetext
+Free Text:REH-ROTA-SUZANO\ITAQUERA:freetext
+Free Text:REH-ROTA-SUZANO\JUNDIAPEBA:freetext
+Free Text:REH-ROTA-SUZANO\SUZANO:freetext
+Free Text:REH-ROTA-TANCREDO\ENTRONCAMENTO :freetext
+Free Text:REH-ROTA-TANCREDO\MARIA MALUF:freetext
+Free Text:REH-ROTA-TANCREDO\VD GRANDE SÃO PAULO:freetext
+Free Text:SBGR\1:freetext
+Free Text:SBGR\101:freetext
+Free Text:SBGR\101:freetext
+Free Text:SBGR\101L:freetext
+Free Text:SBGR\101L:freetext
+Free Text:SBGR\101R:freetext
+Free Text:SBGR\101R:freetext
+Free Text:SBGR\102:freetext
+Free Text:SBGR\102:freetext
+Free Text:SBGR\102R:freetext
+Free Text:SBGR\102R:freetext
+Free Text:SBGR\103:freetext
+Free Text:SBGR\103:freetext
+Free Text:SBGR\103L:freetext
+Free Text:SBGR\103L:freetext
+Free Text:SBGR\103R:freetext
+Free Text:SBGR\103R:freetext
+Free Text:SBGR\104:freetext
+Free Text:SBGR\104:freetext
+Free Text:SBGR\105L:freetext
+Free Text:SBGR\105L:freetext
+Free Text:SBGR\105R:freetext
+Free Text:SBGR\105R:freetext
+Free Text:SBGR\106:freetext
+Free Text:SBGR\106:freetext
+Free Text:SBGR\107:freetext
+Free Text:SBGR\107:freetext
+Free Text:SBGR\107L:freetext
+Free Text:SBGR\107L:freetext
+Free Text:SBGR\108:freetext
+Free Text:SBGR\108:freetext
+Free Text:SBGR\108L:freetext
+Free Text:SBGR\108L:freetext
+Free Text:SBGR\108R:freetext
+Free Text:SBGR\108R	:freetext
+Free Text:SBGR\109:freetext
+Free Text:SBGR\109:freetext
+Free Text:SBGR\110:freetext
+Free Text:SBGR\110:freetext
+Free Text:SBGR\110L:freetext
+Free Text:SBGR\110L:freetext
+Free Text:SBGR\111:freetext
+Free Text:SBGR\111:freetext
+Free Text:SBGR\111L:freetext
+Free Text:SBGR\111L:freetext
+Free Text:SBGR\112:freetext
+Free Text:SBGR\112:freetext
+Free Text:SBGR\112L:freetext
+Free Text:SBGR\112L:freetext
+Free Text:SBGR\112R:freetext
+Free Text:SBGR\112R:freetext
+Free Text:SBGR\113:freetext
+Free Text:SBGR\113:freetext
+Free Text:SBGR\113L:freetext
+Free Text:SBGR\113L:freetext
+Free Text:SBGR\113R:freetext
+Free Text:SBGR\113R:freetext
+Free Text:SBGR\114:freetext
+Free Text:SBGR\114:freetext
+Free Text:SBGR\114L:freetext
+Free Text:SBGR\114L:freetext
+Free Text:SBGR\114R:freetext
+Free Text:SBGR\114R:freetext
+Free Text:SBGR\115:freetext
+Free Text:SBGR\115:freetext
+Free Text:SBGR\115R:freetext
+Free Text:SBGR\115R:freetext
+Free Text:SBGR\12:freetext
+Free Text:SBGR\2:freetext
+Free Text:SBGR\201:freetext
+Free Text:SBGR\202:freetext
+Free Text:SBGR\202L:freetext
+Free Text:SBGR\202R:freetext
+Free Text:SBGR\203:freetext
+Free Text:SBGR\203L:freetext
+Free Text:SBGR\204:freetext
+Free Text:SBGR\204L:freetext
+Free Text:SBGR\204R:freetext
+Free Text:SBGR\205:freetext
+Free Text:SBGR\205R:freetext
+Free Text:SBGR\207:freetext
+Free Text:SBGR\208:freetext
+Free Text:SBGR\209:freetext
+Free Text:SBGR\210:freetext
+Free Text:SBGR\211:freetext
+Free Text:SBGR\211L:freetext
+Free Text:SBGR\211R:freetext
+Free Text:SBGR\212:freetext
+Free Text:SBGR\212L:freetext
+Free Text:SBGR\212R:freetext
+Free Text:SBGR\3:freetext
+Free Text:SBGR\301:freetext
+Free Text:SBGR\301R:freetext
+Free Text:SBGR\302L:freetext
+Free Text:SBGR\303:freetext
+Free Text:SBGR\303L:freetext
+Free Text:SBGR\304:freetext
+Free Text:SBGR\305:freetext
+Free Text:SBGR\306:freetext
+Free Text:SBGR\307:freetext
+Free Text:SBGR\308:freetext
+Free Text:SBGR\309:freetext
+Free Text:SBGR\310:freetext
+Free Text:SBGR\311:freetext
+Free Text:SBGR\312:freetext
+Free Text:SBGR\4:freetext
+Free Text:SBGR\401:freetext
+Free Text:SBGR\402:freetext
+Free Text:SBGR\402L:freetext
+Free Text:SBGR\402R:freetext
+Free Text:SBGR\403:freetext
+Free Text:SBGR\404:freetext
+Free Text:SBGR\405:freetext
+Free Text:SBGR\406:freetext
+Free Text:SBGR\407:freetext
+Free Text:SBGR\408L:freetext
+Free Text:SBGR\409:freetext
+Free Text:SBGR\410:freetext
+Free Text:SBGR\410L:freetext
+Free Text:SBGR\410R:freetext
+Free Text:SBGR\411:freetext
+Free Text:SBGR\411:freetext
+Free Text:SBGR\411L:freetext
+Free Text:SBGR\5:freetext
+Free Text:SBGR\501:freetext
+Free Text:SBGR\502:freetext
+Free Text:SBGR\502L:freetext
+Free Text:SBGR\502R:freetext
+Free Text:SBGR\503:freetext
+Free Text:SBGR\504:freetext
+Free Text:SBGR\504L:freetext
+Free Text:SBGR\504R:freetext
+Free Text:SBGR\505:freetext
+Free Text:SBGR\505R:freetext
+Free Text:SBGR\506:freetext
+Free Text:SBGR\507:freetext
+Free Text:SBGR\507L:freetext
+Free Text:SBGR\507R:freetext
+Free Text:SBGR\508:freetext
+Free Text:SBGR\508L:freetext
+Free Text:SBGR\508R:freetext
+Free Text:SBGR\509:freetext
+Free Text:SBGR\509L:freetext
+Free Text:SBGR\509R:freetext
+Free Text:SBGR\510:freetext
+Free Text:SBGR\510L:freetext
+Free Text:SBGR\510R:freetext
+Free Text:SBGR\511:freetext
+Free Text:SBGR\511L:freetext
+Free Text:SBGR\511R:freetext
+Free Text:SBGR\6:freetext
+Free Text:SBGR\601:freetext
+Free Text:SBGR\601L:freetext
+Free Text:SBGR\601R:freetext
+Free Text:SBGR\602:freetext
+Free Text:SBGR\602L:freetext
+Free Text:SBGR\602R:freetext
+Free Text:SBGR\603:freetext
+Free Text:SBGR\603L:freetext
+Free Text:SBGR\603R:freetext
+Free Text:SBGR\604:freetext
+Free Text:SBGR\604L:freetext
+Free Text:SBGR\605:freetext
+Free Text:SBGR\605L:freetext
+Free Text:SBGR\605R:freetext
+Free Text:SBGR\606:freetext
+Free Text:SBGR\606L:freetext
+Free Text:SBGR\606R:freetext
+Free Text:SBGR\607:freetext
+Free Text:SBGR\607L:freetext
+Free Text:SBGR\607R:freetext
+Free Text:SBGR\608:freetext
+Free Text:SBGR\608L:freetext
+Free Text:SBGR\608R:freetext
+Free Text:SBGR\609:freetext
+Free Text:SBGR\609L:freetext
+Free Text:SBGR\609R:freetext
+Free Text:SBGR\60R:freetext
+Free Text:SBGR\610:freetext
+Free Text:SBGR\610L:freetext
+Free Text:SBGR\610R:freetext
+Free Text:SBGR\611:freetext
+Free Text:SBGR\611L:freetext
+Free Text:SBGR\611R:freetext
+Free Text:SBGR\612:freetext
+Free Text:SBGR\612L:freetext
+Free Text:SBGR\612R:freetext
+Free Text:SBGR\7:freetext
+Free Text:SBGR\9:freetext
+Free Text:SBGR\901 :freetext
+Free Text:SBGR\902:freetext
+Free Text:SBGR\903:freetext
+Free Text:SBGR\904:freetext
+Free Text:SBGR\905:freetext
+Free Text:SBGR\906:freetext
+Free Text:SBGR\907:freetext
+Free Text:SBGR\908:freetext
+Free Text:SBGR\909:freetext
+Free Text:SBGR\910:freetext
+Free Text:SBGR\911:freetext
+Free Text:SBGR\912:freetext
+Free Text:SBGR\913:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\A:freetext
+Free Text:SBGR\ABN:freetext
+Free Text:SBGR\APDC MIL:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\B:freetext
+Free Text:SBGR\BB:freetext
+Free Text:SBGR\C:freetext
+Free Text:SBGR\C:freetext
+Free Text:SBGR\CC:freetext
+Free Text:SBGR\D:freetext
+Free Text:SBGR\D:freetext
+Free Text:SBGR\D1:freetext
+Free Text:SBGR\DD:freetext
+Free Text:SBGR\E:freetext
+Free Text:SBGR\E:freetext
+Free Text:SBGR\E1:freetext
+Free Text:SBGR\F:freetext
+Free Text:SBGR\FF:freetext
+Free Text:SBGR\G:freetext
+Free Text:SBGR\G:freetext
+Free Text:SBGR\G:freetext
+Free Text:SBGR\G:freetext
+Free Text:SBGR\G:freetext
+Free Text:SBGR\H:freetext
+Free Text:SBGR\H:freetext
+Free Text:SBGR\H:freetext
+Free Text:SBGR\Hangar:freetext
+Free Text:SBGR\Hangar:freetext
+Free Text:SBGR\I:freetext
+Free Text:SBGR\I:freetext
+Free Text:SBGR\I:freetext
+Free Text:SBGR\J:freetext
+Free Text:SBGR\J:freetext
+Free Text:SBGR\J:freetext
+Free Text:SBGR\K:freetext
+Free Text:SBGR\K:freetext
+Free Text:SBGR\K:freetext
+Free Text:SBGR\L:freetext
+Free Text:SBGR\L:freetext
+Free Text:SBGR\L:freetext
+Free Text:SBGR\M:freetext
+Free Text:SBGR\N:freetext
+Free Text:SBGR\N:freetext
+Free Text:SBGR\N:freetext
+Free Text:SBGR\O:freetext
+Free Text:SBGR\O:freetext
+Free Text:SBGR\O:freetext
+Free Text:SBGR\O:freetext
+Free Text:SBGR\P:freetext
+Free Text:SBGR\P:freetext
+Free Text:SBGR\P:freetext
+Free Text:SBGR\Q:freetext
+Free Text:SBGR\Q:freetext
+Free Text:SBGR\R:freetext
+Free Text:SBGR\S:freetext
+Free Text:SBGR\S:freetext
+Free Text:SBGR\S	:freetext
+Free Text:SBGR\T:freetext
+Free Text:SBGR\T:freetext
+Free Text:SBGR\T. CARGAS:freetext
+Free Text:SBGR\T. Passageiros 1 :freetext
+Free Text:SBGR\T. Passageiros 2:freetext
+Free Text:SBGR\T. Passageiros 3:freetext
+Free Text:SBGR\T. Passageiros 4:freetext
+Free Text:SBGR\Torre AIS/MET:freetext
+Free Text:SBGR\U:freetext
+Free Text:SBKP\101:freetext
+Free Text:SBKP\102:freetext
+Free Text:SBKP\103:freetext
+Free Text:SBKP\104:freetext
+Free Text:SBKP\105:freetext
+Free Text:SBKP\106:freetext
+Free Text:SBKP\107:freetext
+Free Text:SBKP\A:freetext
+Free Text:SBKP\A02:freetext
+Free Text:SBKP\A02A:freetext
+Free Text:SBKP\A04:freetext
+Free Text:SBKP\A06:freetext
+Free Text:SBKP\A06A:freetext
+Free Text:SBKP\A08:freetext
+Free Text:SBKP\A1:freetext
+Free Text:SBKP\A2:freetext
+Free Text:SBKP\A3:freetext
+Free Text:SBKP\A4:freetext
+Free Text:SBKP\A5:freetext
+Free Text:SBKP\AIS/MET:freetext
+Free Text:SBKP\B:freetext
+Free Text:SBKP\B02:freetext
+Free Text:SBKP\B04:freetext
+Free Text:SBKP\B06:freetext
+Free Text:SBKP\B07:freetext
+Free Text:SBKP\B08:freetext
+Free Text:SBKP\B09:freetext
+Free Text:SBKP\B09A:freetext
+Free Text:SBKP\B10:freetext
+Free Text:SBKP\B11:freetext
+Free Text:SBKP\B12:freetext
+Free Text:SBKP\B13:freetext
+Free Text:SBKP\B13A:freetext
+Free Text:SBKP\B14:freetext
+Free Text:SBKP\C:freetext
+Free Text:SBKP\C:freetext
+Free Text:SBKP\C:freetext
+Free Text:SBKP\C02:freetext
+Free Text:SBKP\C04:freetext
+Free Text:SBKP\C05:freetext
+Free Text:SBKP\C06:freetext
+Free Text:SBKP\C07:freetext
+Free Text:SBKP\C08:freetext
+Free Text:SBKP\C09:freetext
+Free Text:SBKP\C10:freetext
+Free Text:SBKP\C11:freetext
+Free Text:SBKP\C12:freetext
+Free Text:SBKP\C13:freetext
+Free Text:SBKP\C14:freetext
+Free Text:SBKP\C15:freetext
+Free Text:SBKP\D:freetext
+Free Text:SBKP\E:freetext
+Free Text:SBKP\F:freetext
+Free Text:SBKP\G:freetext
+Free Text:SBKP\G:freetext
+Free Text:SBKP\H:freetext
+Free Text:SBKP\I:freetext
+Free Text:SBKP\J:freetext
+Free Text:SBKP\K1:freetext
+Free Text:SBKP\K2:freetext
+Free Text:SBKP\L1:freetext
+Free Text:SBKP\M:freetext
+Free Text:SBKP\M:freetext
+Free Text:SBKP\M:freetext
+Free Text:SBKP\M1:freetext
+Free Text:SBKP\M1A:freetext
+Free Text:SBKP\M1B:freetext
+Free Text:SBKP\M2:freetext
+Free Text:SBKP\M2A:freetext
+Free Text:SBKP\M2B:freetext
+Free Text:SBKP\M3:freetext
+Free Text:SBKP\M3A:freetext
+Free Text:SBKP\M3B:freetext
+Free Text:SBKP\M4:freetext
+Free Text:SBKP\M4A:freetext
+Free Text:SBKP\M4B:freetext
+Free Text:SBKP\M5:freetext
+Free Text:SBKP\M5A:freetext
+Free Text:SBKP\M5B:freetext
+Free Text:SBKP\M6:freetext
+Free Text:SBKP\M6A:freetext
+Free Text:SBKP\M6B:freetext
+Free Text:SBKP\M7:freetext
+Free Text:SBKP\M7A:freetext
+Free Text:SBKP\M7B:freetext
+Free Text:SBKP\M8:freetext
+Free Text:SBKP\M8A:freetext
+Free Text:SBKP\M8B:freetext
+Free Text:SBKP\PAX:freetext
+Free Text:SBKP\PAX:freetext
+Free Text:SBKP\Pátio 1:freetext
+Free Text:SBKP\Pátio 2:freetext
+Free Text:SBKP\Pátio 3:freetext
+Free Text:SBKP\Pátio 4 ou N:freetext
+Free Text:SBKP\Pátio 5 ou P:freetext
+Free Text:SBKP\Pátio 6 ou Q:freetext
+Free Text:SBKP\R1:freetext
+Free Text:SBKP\R10:freetext
+Free Text:SBKP\R10A:freetext
+Free Text:SBKP\R11:freetext
+Free Text:SBKP\R12:freetext
+Free Text:SBKP\R12A:freetext
+Free Text:SBKP\R13:freetext
+Free Text:SBKP\R14:freetext
+Free Text:SBKP\R15:freetext
+Free Text:SBKP\R16:freetext
+Free Text:SBKP\R17:freetext
+Free Text:SBKP\R18:freetext
+Free Text:SBKP\R19:freetext
+Free Text:SBKP\R2:freetext
+Free Text:SBKP\R3:freetext
+Free Text:SBKP\R4:freetext
+Free Text:SBKP\R5:freetext
+Free Text:SBKP\R6:freetext
+Free Text:SBKP\R7:freetext
+Free Text:SBKP\R8:freetext
+Free Text:SBKP\R9:freetext
+Free Text:SBKP\RFFS:freetext
+Free Text:SBKP\TERMINAL DE CARGA:freetext
+Free Text:SBKP\TORRE:freetext
+Free Text:SBMT\1:freetext
+Free Text:SBMT\10:freetext
+Free Text:SBMT\11:freetext
+Free Text:SBMT\12:freetext
+Free Text:SBMT\13:freetext
+Free Text:SBMT\14:freetext
+Free Text:SBMT\14A:freetext
+Free Text:SBMT\15:freetext
+Free Text:SBMT\16:freetext
+Free Text:SBMT\17:freetext
+Free Text:SBMT\18:freetext
+Free Text:SBMT\19:freetext
+Free Text:SBMT\2:freetext
+Free Text:SBMT\20:freetext
+Free Text:SBMT\21:freetext
+Free Text:SBMT\22:freetext
+Free Text:SBMT\3:freetext
+Free Text:SBMT\4:freetext
+Free Text:SBMT\5:freetext
+Free Text:SBMT\6:freetext
+Free Text:SBMT\7:freetext
+Free Text:SBMT\8:freetext
+Free Text:SBMT\9:freetext
+Free Text:SBMT\A:freetext
+Free Text:SBMT\A:freetext
+Free Text:SBMT\A:freetext
+Free Text:SBMT\B:freetext
+Free Text:SBMT\C:freetext
+Free Text:SBMT\D:freetext
+Free Text:SBMT\E:freetext
+Free Text:SBMT\F:freetext
+Free Text:SBMT\F:freetext
+Free Text:SBMT\F:freetext
+Free Text:SBMT\G:freetext
+Free Text:SBMT\H:freetext
+Free Text:SBMT\J:freetext
+Free Text:SBMT\K:freetext
+Free Text:SBMT\M:freetext
+Free Text:SBMT\TERMINAL PAX:freetext
+Free Text:SBSJ\A:freetext
+Free Text:SBSJ\B:freetext
+Free Text:SBSJ\C:freetext
+Free Text:SBSJ\D:freetext
+Free Text:SBSJ\E:freetext
+Free Text:SBSJ\E:freetext
+Free Text:SBSJ\E:freetext
+Free Text:SBSJ\Embraer:freetext
+Free Text:SBSJ\MIL:freetext
+Free Text:SBSJ\Patio 1:freetext
+Free Text:SBSJ\Patio 2:freetext
+Free Text:SBSJ\PAX:freetext
+Free Text:SBSP\1:freetext
+Free Text:SBSP\10:freetext
+Free Text:SBSP\11:freetext
+Free Text:SBSP\12:freetext
+Free Text:SBSP\13:freetext
+Free Text:SBSP\14:freetext
+Free Text:SBSP\15:freetext
+Free Text:SBSP\16:freetext
+Free Text:SBSP\17:freetext
+Free Text:SBSP\18:freetext
+Free Text:SBSP\19:freetext
+Free Text:SBSP\2:freetext
+Free Text:SBSP\20:freetext
+Free Text:SBSP\21:freetext
+Free Text:SBSP\22:freetext
+Free Text:SBSP\23:freetext
+Free Text:SBSP\24:freetext
+Free Text:SBSP\25:freetext
+Free Text:SBSP\26:freetext
+Free Text:SBSP\27:freetext
+Free Text:SBSP\28:freetext
+Free Text:SBSP\29:freetext
+Free Text:SBSP\3:freetext
+Free Text:SBSP\4:freetext
+Free Text:SBSP\5:freetext
+Free Text:SBSP\6:freetext
+Free Text:SBSP\7:freetext
+Free Text:SBSP\8:freetext
+Free Text:SBSP\9:freetext
+Free Text:SBSP\A:freetext
+Free Text:SBSP\B:freetext
+Free Text:SBSP\C:freetext
+Free Text:SBSP\D:freetext
+Free Text:SBSP\E:freetext
+Free Text:SBSP\F:freetext
+Free Text:SBSP\H:freetext
+Free Text:SBSP\HANGAR:freetext
+Free Text:SBSP\HANGARES:freetext
+Free Text:SBSP\I:freetext
+Free Text:SBSP\J:freetext
+Free Text:SBSP\K:freetext
+Free Text:SBSP\L:freetext
+Free Text:SBSP\M:freetext
+Free Text:SBSP\N:freetext
+Free Text:SBSP\O:freetext
+Free Text:SBSP\P:freetext
+Free Text:SBSP\PATIO 1:freetext
+Free Text:SBSP\PATIO 2:freetext
+Free Text:SBSP\PATIO 3:freetext
+Free Text:SBSP\Q:freetext
+Free Text:SBSP\R:freetext
+Free Text:SBSP\S:freetext
+Free Text:SBSP\W:freetext
+Free Text:SBSP\X:freetext
+Free Text:SDCO\A:freetext
+Free Text:SDCO\AEROCLUBE:freetext
+Free Text:SDCO\B:freetext
+Free Text:SDCO\C:freetext
+Free Text:SDCO\CHECK MOTORES:freetext
+Free Text:SDCO\D:freetext
+Free Text:SDCO\E:freetext
+Free Text:SDCO\F:freetext
+Free Text:SDCO\G:freetext
+Free Text:SDCO\H:freetext
+Free Text:SDCO\HANGAR CONAL:freetext
+Free Text:SDCO\HANGARES:freetext
+Free Text:SDCO\I:freetext
+Free Text:SDCO\J:freetext
+Free Text:SDCO\TERMINAL PAX:freetext
+Free Text:SETORES XP\01:freetext
+Free Text:SETORES XP\02:freetext
+Free Text:SETORES XP\03:freetext
+Free Text:SETORES XP\04 :freetext
+Free Text:SETORES XP\05:freetext
+Free Text:SETORES XP\06:freetext
+Free Text:SETORES XP\07:freetext
+Free Text:SETORES XP\08:freetext
+Free Text:SETORES XP\09:freetext
+Free Text:SETORES XP\11:freetext
+Free Text:SETORES XP\12:freetext
+Free Text:SETORES XP\13:freetext
+Free Text:SETORES XP\14:freetext
+Free Text:SETORES-SBCW\S-01:freetext
+Free Text:SETORES-SBCW\S-02:freetext
+Free Text:SETORES-SBCW\S-03:freetext
+Free Text:SETORES-SBCW\S-04:freetext
+Free Text:SETORES-SBCW\S-05:freetext
+Free Text:SETORES-SBCW\S-06:freetext
+Free Text:SETORES-SBCW\S-07:freetext
+Free Text:SETORES-SBCW\S-08:freetext
+Free Text:SETORES-SBCW\S-09:freetext
+Free Text:SETORES-SBCW\S-10:freetext
+Free Text:SETORES-SBCW\S-11:freetext
+Free Text:SETORES-SBCW\S-12:freetext
+Free Text:SETORES-SBCW\S-13:freetext
+Free Text:SETORES-SBCW\S-14:freetext
+Free Text:SETORES-SBCW\S-15:freetext
+Free Text:SETORES-SBCW\S-16:freetext
+Free Text:SETORES-SBCW\S-17:freetext
+Geo:BOITUVA_PARAQ:
+Geo:ESTADOS_SBCW:
+Geo:GEO:
+Geo:Rep_Billings:
+Geo:Rep_Guarapiranga:
+Geo:SBBP_GND:
+Geo:SBGR_GND:
+Geo:SBGW_GND:
+Geo:SBJD_GND:
+Geo:SBKP_GND:
+Geo:SBMT_GND:
+Geo:SBSP_GND:
+Geo:SBST_GND:
+Geo:SBTA_GND:
+Geo:SDAM_GND:
+Geo:SDCO_GND:
+Geo:SDPW_GND:
+Geo:SDTF_GND:
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01:polygon
+Regions:01_AZUL:polygon
+Regions:01_PATIO:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02:polygon
+Regions:02_AZUL:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03:polygon
+Regions:03_AZUL:polygon
+Regions:04:polygon
+Regions:04:polygon
+Regions:04:polygon
+Regions:04:polygon
+Regions:04:polygon
+Regions:04:polygon
+Regions:04_PATIO:polygon
+Regions:05:polygon
+Regions:05:polygon
+Regions:05:polygon
+Regions:05:polygon
+Regions:05:polygon
+Regions:05:polygon
+Regions:05_PATIO:polygon
+Regions:06:polygon
+Regions:06:polygon
+Regions:06:polygon
+Regions:06:polygon
+Regions:06:polygon
+Regions:06:polygon
+Regions:07:polygon
+Regions:07:polygon
+Regions:07:polygon
+Regions:07:polygon
+Regions:07:polygon
+Regions:08:polygon
+Regions:08:polygon
+Regions:08:polygon
+Regions:08:polygon
+Regions:08:polygon
+Regions:09:polygon
+Regions:09:polygon
+Regions:09:polygon
+Regions:09:polygon
+Regions:10:polygon
+Regions:10:polygon
+Regions:10:polygon
+Regions:10:polygon
+Regions:11:polygon
+Regions:11:polygon
+Regions:11:polygon
+Regions:11:polygon
+Regions:12:polygon
+Regions:12:polygon
+Regions:12:polygon
+Regions:12:polygon
+Regions:13:polygon
+Regions:13:polygon
+Regions:13:polygon
+Regions:14:polygon
+Regions:14:polygon
+Regions:14:polygon
+Regions:15:polygon
+Regions:15:polygon
+Regions:15:polygon
+Regions:15_33_01:polygon
+Regions:15_33_02:polygon
+Regions:16:polygon
+Regions:16:polygon
+Regions:16:polygon
+Regions:17:polygon
+Regions:17:polygon
+Regions:17:polygon
+Regions:18:polygon
+Regions:18:polygon
+Regions:18:polygon
+Regions:18_36:polygon
+Regions:18_36_02:polygon
+Regions:19:polygon
+Regions:19:polygon
+Regions:19:polygon
+Regions:20:polygon
+Regions:20:polygon
+Regions:20:polygon
+Regions:21:polygon
+Regions:21:polygon
+Regions:21:polygon
+Regions:22:polygon
+Regions:22:polygon
+Regions:22:polygon
+Regions:23:polygon
+Regions:23:polygon
+Regions:23:polygon
+Regions:24:polygon
+Regions:24:polygon
+Regions:24:polygon
+Regions:25:polygon
+Regions:25:polygon
+Regions:25:polygon
+Regions:26:polygon
+Regions:26:polygon
+Regions:26:polygon
+Regions:27:polygon
+Regions:27:polygon
+Regions:27:polygon
+Regions:28:polygon
+Regions:28:polygon
+Regions:28:polygon
+Regions:29:polygon
+Regions:29:polygon
+Regions:29:polygon
+Regions:30:polygon
+Regions:30:polygon
+Regions:31:polygon
+Regions:32:polygon
+Regions:33:polygon
+Regions:34:polygon
+Regions:35:polygon
+Regions:36:polygon
+Regions:37:polygon
+Regions:38:polygon
+Regions:39:polygon
+Regions:40:polygon
+Regions:41:polygon
+Regions:42:polygon
+Regions:43:polygon
+Regions:44:polygon
+Regions:45:polygon
+Regions:46:polygon
+Regions:47:polygon
+Regions:48:polygon
+Regions:49:polygon
+Regions:50:polygon
+Regions:51:polygon
+Regions:52:polygon
+Regions:53:polygon
+Regions:54:polygon
+Regions:55:polygon
+Regions:56:polygon
+Regions:ED01:polygon
+Regions:ED02:polygon
+Regions:ED03:polygon
+Regions:ED04:polygon
+Regions:ED05:polygon
+Regions:ED06:polygon
+Regions:ED07:polygon
+Regions:ED9:polygon
+Regions:G1:polygon
+Regions:G1:polygon
+Regions:G10:polygon
+Regions:G10:polygon
+Regions:G11:polygon
+Regions:G11:polygon
+Regions:G12:polygon
+Regions:G12:polygon
+Regions:G13:polygon
+Regions:G13:polygon
+Regions:G14:polygon
+Regions:G14:polygon
+Regions:G15:polygon
+Regions:G15:polygon
+Regions:G16:polygon
+Regions:G16:polygon
+Regions:G17:polygon
+Regions:G17:polygon
+Regions:G18:polygon
+Regions:G18:polygon
+Regions:G19:polygon
+Regions:G19:polygon
+Regions:G2:polygon
+Regions:G20:polygon
+Regions:G20:polygon
+Regions:G21:polygon
+Regions:G21:polygon
+Regions:G22:polygon
+Regions:G22:polygon
+Regions:G23:polygon
+Regions:G24:polygon
+Regions:G25:polygon
+Regions:G26:polygon
+Regions:G27:polygon
+Regions:G28:polygon
+Regions:G29:polygon
+Regions:G2___:polygon
+Regions:G3:polygon
+Regions:G3:polygon
+Regions:G30:polygon
+Regions:G31:polygon
+Regions:G4:polygon
+Regions:G4:polygon
+Regions:G5:polygon
+Regions:G5:polygon
+Regions:G6:polygon
+Regions:G6:polygon
+Regions:G7:polygon
+Regions:G7:polygon
+Regions:G8:polygon
+Regions:G8:polygon
+Regions:G9:polygon
+Regions:G9:polygon
+Regions:PISTA_12:polygon
+Regions:PISTA_12_30:polygon
+Regions:RFFS:polygon
+Regions:SBGR:polygon
+Regions:SBKP:polygon
+Regions:SBMT:polygon
+Regions:SBSP:polygon
+Regions:TERMINAL_DE_CARGAS:polygon
+Regions:TERMINAL_DE_PASSAGEIROS:polygon
+Regions:TERMINAL_DE_PASSAGEIROS:polygon
+Regions:TWR:polygon
+Runways:SBBP BRAGANÇA PAULISTA 16-34:centerline
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right base
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right ticks
+Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right vectoring
+Runways:SBBP BRAGANÇA PAULISTA 16-34:name
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:centerline
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 left base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 left ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 left vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 right base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 right ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 right vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 left base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 left ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 left vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 right base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 right ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 2 right vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:name
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:centerline
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 left base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 left ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 left vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 right base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 right ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 1 right vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 left base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 left ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 left vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 right base
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 right ticks
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:extended centerline 2 right vectoring
+Runways:SBGR SAO PAULO/GUARULHOS INTL 09R-27L:name
+Runways:SBGW GUARATINGUETA 02-20:centerline
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 left vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 1 right vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 left vectoring
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right base
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right ticks
+Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right vectoring
+Runways:SBGW GUARATINGUETA 02-20:name
+Runways:SBJD JUNDIAÍ 18-36:centerline
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left base
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left ticks
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left vectoring
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right base
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right ticks
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right vectoring
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left base
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left ticks
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left vectoring
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right base
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right ticks
+Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right vectoring
+Runways:SBJD JUNDIAÍ 18-36:name
+Runways:SBJH SAO PAULO CATARINA 12-30:centerline
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 right vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 left vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right base
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right ticks
+Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 2 right vectoring
+Runways:SBJH SAO PAULO CATARINA 12-30:name
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:centerline
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 left base
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 left ticks
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 left vectoring
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 right base
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 right ticks
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 1 right vectoring
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 left base
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 left ticks
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 left vectoring
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 right base
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 right ticks
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:extended centerline 2 right vectoring
+Runways:SBKP CAMPINAS VIRACOPOS 15-33:name
+Runways:SBMT SAO PAULO/MARTE 12-30:centerline
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 left base
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 left ticks
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 left vectoring
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 right base
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 right ticks
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 1 right vectoring
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 left base
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 left ticks
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 left vectoring
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 right base
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 right ticks
+Runways:SBMT SAO PAULO/MARTE 12-30:extended centerline 2 right vectoring
+Runways:SBMT SAO PAULO/MARTE 12-30:name
+Runways:SBSJ SAO JOSE CAMPOS 15-33:centerline
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 left base
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 left ticks
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 left vectoring
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 right base
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 right ticks
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 1 right vectoring
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 left base
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 left ticks
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 left vectoring
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 right base
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 right ticks
+Runways:SBSJ SAO JOSE CAMPOS 15-33:extended centerline 2 right vectoring
+Runways:SBSJ SAO JOSE CAMPOS 15-33:name
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:centerline
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 left base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 left ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 left vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 right base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 right ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 1 right vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 left base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 left ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 left vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 right base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 right ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:extended centerline 2 right vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17L-35R:name
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:centerline
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 left base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 left ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 left vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 right base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 right ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 1 right vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 left base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 left ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 left vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 right base
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 right ticks
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:extended centerline 2 right vectoring
+Runways:SBSP SAO PAULO CONGONHAS INTL 17R-35L:name
+Runways:SBST BASE AEREA DE SANTOS 17-35:centerline
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 left vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 1 right vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 left vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right base
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right ticks
+Runways:SBST BASE AEREA DE SANTOS 17-35:extended centerline 2 right vectoring
+Runways:SBST BASE AEREA DE SANTOS 17-35:name
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:centerline
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 left vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 1 right vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 left vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right base
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right ticks
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:extended centerline 2 right vectoring
+Runways:SBTA BASE DE AVIACAO DE TAUBA 08-26:name
+Runways:SDAG ANGRA DOS REIS 10-28:centerline
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 left base
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 left ticks
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 left vectoring
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 right base
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 right ticks
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 1 right vectoring
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 left base
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 left ticks
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 left vectoring
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 right base
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 right ticks
+Runways:SDAG ANGRA DOS REIS 10-28:extended centerline 2 right vectoring
+Runways:SDAG ANGRA DOS REIS 10-28:name
+Runways:SDAI AMERICANA 12-30:centerline
+Runways:SDAI AMERICANA 12-30:extended centerline 1
+Runways:SDAI AMERICANA 12-30:extended centerline 1 left base
+Runways:SDAI AMERICANA 12-30:extended centerline 1 left ticks
+Runways:SDAI AMERICANA 12-30:extended centerline 1 left vectoring
+Runways:SDAI AMERICANA 12-30:extended centerline 1 right base
+Runways:SDAI AMERICANA 12-30:extended centerline 1 right ticks
+Runways:SDAI AMERICANA 12-30:extended centerline 1 right vectoring
+Runways:SDAI AMERICANA 12-30:extended centerline 2
+Runways:SDAI AMERICANA 12-30:extended centerline 2 left base
+Runways:SDAI AMERICANA 12-30:extended centerline 2 left ticks
+Runways:SDAI AMERICANA 12-30:extended centerline 2 left vectoring
+Runways:SDAI AMERICANA 12-30:extended centerline 2 right base
+Runways:SDAI AMERICANA 12-30:extended centerline 2 right ticks
+Runways:SDAI AMERICANA 12-30:extended centerline 2 right vectoring
+Runways:SDAI AMERICANA 12-30:name
+Runways:SDAM AMARAIS 16-34:centerline
+Runways:SDAM AMARAIS 16-34:extended centerline 1
+Runways:SDAM AMARAIS 16-34:extended centerline 1 left base
+Runways:SDAM AMARAIS 16-34:extended centerline 1 left ticks
+Runways:SDAM AMARAIS 16-34:extended centerline 1 left vectoring
+Runways:SDAM AMARAIS 16-34:extended centerline 1 right base
+Runways:SDAM AMARAIS 16-34:extended centerline 1 right ticks
+Runways:SDAM AMARAIS 16-34:extended centerline 1 right vectoring
+Runways:SDAM AMARAIS 16-34:extended centerline 2
+Runways:SDAM AMARAIS 16-34:extended centerline 2 left base
+Runways:SDAM AMARAIS 16-34:extended centerline 2 left ticks
+Runways:SDAM AMARAIS 16-34:extended centerline 2 left vectoring
+Runways:SDAM AMARAIS 16-34:extended centerline 2 right base
+Runways:SDAM AMARAIS 16-34:extended centerline 2 right ticks
+Runways:SDAM AMARAIS 16-34:extended centerline 2 right vectoring
+Runways:SDAM AMARAIS 16-34:name
+Runways:SDCO SOROCABA 18-36:centerline
+Runways:SDCO SOROCABA 18-36:extended centerline 1
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left base
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 1 left vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right base
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 1 right vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 2
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left base
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 2 left vectoring
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right base
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right ticks
+Runways:SDCO SOROCABA 18-36:extended centerline 2 right vectoring
+Runways:SDCO SOROCABA 18-36:name
+Runways:SDIM ITANHAÉM 15-33:centerline
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left base
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left ticks
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left vectoring
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right base
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right ticks
+Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right vectoring
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left base
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left ticks
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left vectoring
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right base
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right ticks
+Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right vectoring
+Runways:SDIM ITANHAÉM 15-33:name
+Runways:SDMJ MOGI MIRIM 12-30:centerline
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 left base
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 left ticks
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 left vectoring
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 right base
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 right ticks
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 right vectoring
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 left base
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 left ticks
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 left vectoring
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 right base
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 right ticks
+Runways:SDMJ MOGI MIRIM 12-30:extended centerline 2 right vectoring
+Runways:SDMJ MOGI MIRIM 12-30:name
+Runways:SDOI BOITUVA 06-24:centerline
+Runways:SDOI BOITUVA 06-24:extended centerline 1
+Runways:SDOI BOITUVA 06-24:extended centerline 1 left base
+Runways:SDOI BOITUVA 06-24:extended centerline 1 left ticks
+Runways:SDOI BOITUVA 06-24:extended centerline 1 left vectoring
+Runways:SDOI BOITUVA 06-24:extended centerline 1 right base
+Runways:SDOI BOITUVA 06-24:extended centerline 1 right ticks
+Runways:SDOI BOITUVA 06-24:extended centerline 1 right vectoring
+Runways:SDOI BOITUVA 06-24:extended centerline 2
+Runways:SDOI BOITUVA 06-24:extended centerline 2 left base
+Runways:SDOI BOITUVA 06-24:extended centerline 2 left ticks
+Runways:SDOI BOITUVA 06-24:extended centerline 2 left vectoring
+Runways:SDOI BOITUVA 06-24:extended centerline 2 right base
+Runways:SDOI BOITUVA 06-24:extended centerline 2 right ticks
+Runways:SDOI BOITUVA 06-24:extended centerline 2 right vectoring
+Runways:SDOI BOITUVA 06-24:name
+Runways:SDPW PIRACICABA 17-35:centerline
+Runways:SDPW PIRACICABA 17-35:extended centerline 1
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 left base
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 left ticks
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 left vectoring
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 right base
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 right ticks
+Runways:SDPW PIRACICABA 17-35:extended centerline 1 right vectoring
+Runways:SDPW PIRACICABA 17-35:extended centerline 2
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 left base
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 left ticks
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 left vectoring
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 right base
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 right ticks
+Runways:SDPW PIRACICABA 17-35:extended centerline 2 right vectoring
+Runways:SDPW PIRACICABA 17-35:name
+Runways:SDRS RESENDE 08-26:centerline
+Runways:SDRS RESENDE 08-26:extended centerline 1
+Runways:SDRS RESENDE 08-26:extended centerline 1 left base
+Runways:SDRS RESENDE 08-26:extended centerline 1 left ticks
+Runways:SDRS RESENDE 08-26:extended centerline 1 left vectoring
+Runways:SDRS RESENDE 08-26:extended centerline 1 right base
+Runways:SDRS RESENDE 08-26:extended centerline 1 right ticks
+Runways:SDRS RESENDE 08-26:extended centerline 1 right vectoring
+Runways:SDRS RESENDE 08-26:extended centerline 2
+Runways:SDRS RESENDE 08-26:extended centerline 2 left base
+Runways:SDRS RESENDE 08-26:extended centerline 2 left ticks
+Runways:SDRS RESENDE 08-26:extended centerline 2 left vectoring
+Runways:SDRS RESENDE 08-26:extended centerline 2 right base
+Runways:SDRS RESENDE 08-26:extended centerline 2 right ticks
+Runways:SDRS RESENDE 08-26:extended centerline 2 right vectoring
+Runways:SDRS RESENDE 08-26:name
+Runways:SDTB ATIBAIA 02-20:centerline
+Runways:SDTB ATIBAIA 02-20:extended centerline 1
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 left base
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 left ticks
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 left vectoring
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 right base
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 right ticks
+Runways:SDTB ATIBAIA 02-20:extended centerline 1 right vectoring
+Runways:SDTB ATIBAIA 02-20:extended centerline 2
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 left base
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 left ticks
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 left vectoring
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 right base
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 right ticks
+Runways:SDTB ATIBAIA 02-20:extended centerline 2 right vectoring
+Runways:SDTB ATIBAIA 02-20:name
+Runways:SDTK PARATI 10-28:centerline
+Runways:SDTK PARATI 10-28:extended centerline 1
+Runways:SDTK PARATI 10-28:extended centerline 1 left base
+Runways:SDTK PARATI 10-28:extended centerline 1 left ticks
+Runways:SDTK PARATI 10-28:extended centerline 1 left vectoring
+Runways:SDTK PARATI 10-28:extended centerline 1 right base
+Runways:SDTK PARATI 10-28:extended centerline 1 right ticks
+Runways:SDTK PARATI 10-28:extended centerline 1 right vectoring
+Runways:SDTK PARATI 10-28:extended centerline 2
+Runways:SDTK PARATI 10-28:extended centerline 2 left base
+Runways:SDTK PARATI 10-28:extended centerline 2 left ticks
+Runways:SDTK PARATI 10-28:extended centerline 2 left vectoring
+Runways:SDTK PARATI 10-28:extended centerline 2 right base
+Runways:SDTK PARATI 10-28:extended centerline 2 right ticks
+Runways:SDTK PARATI 10-28:extended centerline 2 right vectoring
+Runways:SDTK PARATI 10-28:name
+Runways:SDUB UBATUBA 09-27:centerline
+Runways:SDUB UBATUBA 09-27:extended centerline 1
+Runways:SDUB UBATUBA 09-27:extended centerline 1 left base
+Runways:SDUB UBATUBA 09-27:extended centerline 1 left ticks
+Runways:SDUB UBATUBA 09-27:extended centerline 1 left vectoring
+Runways:SDUB UBATUBA 09-27:extended centerline 1 right base
+Runways:SDUB UBATUBA 09-27:extended centerline 1 right ticks
+Runways:SDUB UBATUBA 09-27:extended centerline 1 right vectoring
+Runways:SDUB UBATUBA 09-27:extended centerline 2
+Runways:SDUB UBATUBA 09-27:extended centerline 2 left base
+Runways:SDUB UBATUBA 09-27:extended centerline 2 left ticks
+Runways:SDUB UBATUBA 09-27:extended centerline 2 left vectoring
+Runways:SDUB UBATUBA 09-27:extended centerline 2 right base
+Runways:SDUB UBATUBA 09-27:extended centerline 2 right ticks
+Runways:SDUB UBATUBA 09-27:extended centerline 2 right vectoring
+Runways:SDUB UBATUBA 09-27:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-23.024220:-47.164344:-22.991934:-47.100519
+PLUGIN:vSMR:ActiveProfile:Default
+PLUGIN:vSMR:Afterglow:1
+PLUGIN:vSMR:Airport:SBKP
+PLUGIN:vSMR:AppTrailsDots:4
+PLUGIN:vSMR:FontSize:1
+PLUGIN:vSMR:GndTrailsDots:4
+PLUGIN:vSMR:PredictedLine:0
+PLUGIN:vSMR:SRW1BottomRightX:600
+PLUGIN:vSMR:SRW1BottomRightY:500
+PLUGIN:vSMR:SRW1Display:0
+PLUGIN:vSMR:SRW1Filter:5500
+PLUGIN:vSMR:SRW1OffsetX:0
+PLUGIN:vSMR:SRW1OffsetY:0
+PLUGIN:vSMR:SRW1Rotation:0
+PLUGIN:vSMR:SRW1Scale:15
+PLUGIN:vSMR:SRW1TopLeftX:200
+PLUGIN:vSMR:SRW1TopLeftY:200
+PLUGIN:vSMR:SRW2BottomRightX:600
+PLUGIN:vSMR:SRW2BottomRightY:500
+PLUGIN:vSMR:SRW2Display:0
+PLUGIN:vSMR:SRW2Filter:5500
+PLUGIN:vSMR:SRW2OffsetX:0
+PLUGIN:vSMR:SRW2OffsetY:0
+PLUGIN:vSMR:SRW2Rotation:0
+PLUGIN:vSMR:SRW2Scale:15
+PLUGIN:vSMR:SRW2TopLeftX:200
+PLUGIN:vSMR:SRW2TopLeftY:200
