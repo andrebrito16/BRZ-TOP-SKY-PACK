@@ -24,7 +24,7 @@
 - Conhecimento básico/intermediário Euroscope [veja esta playlist de vídeos para conferir tutoriais e dicas sobre o Euroscope](https://www.youtube.com/playlist?list=PLbhx3G21zl14dFh3EuCcIskbvfG1ueFBt)
 
 ## Instalacão:
-- Baixe o arquivo formato zip [cliando aqui](https://github.com/andrebrito16/BRZ-TopSky-Controller-Pack/archive/master.zip) e extraia a pasta **BRZ-TopSky** no diretório Documentos/Euroscope
+- Baixe o arquivo formato zip [cliando aqui](https://github.com/andrebrito16/BRZ-TopSky-Pack/archive/master.zip) e extraia a pasta **BRZ-TopSky** no diretório Documentos/Euroscope
 - Abra o Euroscope e selecione o profile correspondente à posicão. Acesse a pasta FIR ___/TMA __/...
 - **Não é recomendado mexer em nenhum arquivo da pasta Data**, só faca isto se tiver um conhecimento avancado do Euroscope e dos plugins usados neste pack!
 
