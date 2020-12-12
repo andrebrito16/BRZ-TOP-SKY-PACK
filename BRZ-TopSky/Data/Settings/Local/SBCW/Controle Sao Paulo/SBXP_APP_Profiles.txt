@@ -2,5 +2,5 @@ PROFILE
 PROFILE:SBXP_APP:120:5
 ATIS2:"Controle Sao Paulo / Sao Paulo Control"
 ATIS3:CPDLC and PDC avaiable at SBGR, SBSP, SBKP
-ATIS4:Submit yout feedback at https://vats.im/brz/feedback
+ATIS4:Submit yout feedback at https
 END

@@ -1,7 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBCW\SBCW - FIR Curitiba\SBCW.sct
 SECTORTITLE:SBCW.sct
 ARTCC high boundary:SBCW_CTR:
 High airways:UB687:line

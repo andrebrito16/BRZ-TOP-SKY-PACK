@@ -2,5 +2,5 @@ PROFILE
 PROFILE:SBCW_CTR:100:6
 ATIS2:Centro Curitiba / Curitiba Centre
 ATIS3:Chame para aprova��o / Contact for cleareance | CPL AND PDC AVAIABLE
-ATIS4:Submit your feedback at https://vats.im/brz/feedback
+ATIS4:Submit your feedback at https
 END

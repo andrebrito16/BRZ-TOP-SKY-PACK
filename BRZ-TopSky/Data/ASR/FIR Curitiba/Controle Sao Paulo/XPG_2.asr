@@ -1,7 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBCW\SBXP - Sao Paulo\SBXP.sct
 SECTORTITLE:SBXP.sct
 Airports:SBBP:name
 Airports:SBBP:symbol
@@ -98,11 +97,11 @@ Free Text:Default group\SBGR:freetext
 Free Text:ESTADOS-SBCW\ESPIRITO SANTO:freetext
 Free Text:ESTADOS-SBCW\MATO GROSSO DO SUL:freetext
 Free Text:ESTADOS-SBCW\MINAS GERAIS:freetext
-Free Text:ESTADOS-SBCW\PARANÁ:freetext
+Free Text:ESTADOS-SBCW\PARANï¿½:freetext
 Free Text:ESTADOS-SBCW\RIO DE JANEIRO:freetext
 Free Text:ESTADOS-SBCW\RIO GRANDE DO SUL:freetext
 Free Text:ESTADOS-SBCW\SANTA CATARINA:freetext
-Free Text:ESTADOS-SBCW\SÃO PAULO:freetext
+Free Text:ESTADOS-SBCW\Sï¿½O PAULO:freetext
 Free Text:FIR-FSS\AMAZONIC-EAST:freetext
 Free Text:FIR-FSS\AMAZONIC-WEST:freetext
 Free Text:FIR-FSS\ASSUNCION SGAS:freetext
@@ -170,297 +169,297 @@ Free Text:REA CORREDORES XP\SIERRA:freetext
 Free Text:REA CORREDORES XP\TANGO:freetext
 Free Text:REA CORREDORES XP\UNIFORM:freetext
 Free Text:REA CORREDORES XP\VICTOR:freetext
-Free Text:REA-PORTÕES-AMARAIS\ANHANGUERA  :freetext
-Free Text:REA-PORTÕES-AMARAIS\PAULÍNIA :freetext
-Free Text:REA-PORTÕES-AMARAIS\SHOPPING  :freetext
-Free Text:REA-PORTÕES-AMARAIS\UNICAMP  :freetext
-Free Text:REA-PORTÕES-AMERICANA\NOVA ODESSA  :freetext
-Free Text:REA-PORTÕES-AMERICANA\REPRESA  :freetext
-Free Text:REA-PORTÕES-BRAGANCA\BOCAINA  :freetext
-Free Text:REA-PORTÕES-BRAGANCA\FERNÃO DIAS (SAÍDA) :freetext
-Free Text:REA-PORTÕES-BRAGANCA\GUARIPOCABA  :freetext
-Free Text:REA-PORTÕES-BRAGANCA\VOR:freetext
-Free Text:REA-PORTÕES-GUARA\CACHOEIRA  :freetext
-Free Text:REA-PORTÕES-GUARA\PEDÁGIO DUTRA  :freetext
-Free Text:REA-PORTÕES-GUARA\SUL BASÍLICA  :freetext
-Free Text:REA-PORTÕES-GUARULHO\ITAQUERA (MILITAR SOMENTE) :freetext
-Free Text:REA-PORTÕES-JUNDIAI\ESTÁDIO  :freetext
-Free Text:REA-PORTÕES-JUNDIAI\JAPI:freetext
-Free Text:REA-PORTÕES-JUNDIAI\LAGOA 	  :freetext
-Free Text:REA-PORTÕES-JUNDIAI\Posição ELÓI  :freetext
-Free Text:REA-PORTÕES-JUNDIAI\Posição TRAVÉS SUL ITUPEVA     :freetext
-Free Text:REA-PORTÕES-JUNDIAI\TREVO (SAÍDA)		   :freetext
-Free Text:REA-PORTÕES-MARTE\ABRIL  :freetext
-Free Text:REA-PORTÕES-MARTE\COMETA (ENTRADA) :freetext
-Free Text:REA-PORTÕES-MARTE\DUTRA (SAÍDA) :freetext
-Free Text:REA-PORTÕES-SANTOS\CANAL BERTIOGA  :freetext
-Free Text:REA-PORTÕES-SANTOS\INTERLIGAÇÃO    :freetext
-Free Text:REA-PORTÕES-SANTOS\PARANAPIACABA   :freetext
-Free Text:REA-PORTÕES-SANTOS\PRAIA GRANDE    :freetext
-Free Text:REA-PORTÕES-SJCAMPOS\IGARATÁ   :freetext
-Free Text:REA-PORTÕES-SJCAMPOS\JACAREÍ   :freetext
-Free Text:REA-PORTÕES-SJCAMPOS\MELO 	   :freetext
-Free Text:REA-PORTÕES-SJCAMPOS\REDENÇÃO  :freetext
-Free Text:REA-PORTÕES-SOROCABA\ARAÇOIABA   :freetext
-Free Text:REA-PORTÕES-SOROCABA\INDUSTRIAL  :freetext
-Free Text:REA-PORTÕES-SOROCABA\RAPOSO 	 :freetext
-Free Text:REA-PORTÕES-TAUBATÉ\PEDÁGIO DUTRA 			 :freetext
-Free Text:REA-PORTÕES-TAUBATÉ\TREVO CARVALHO PINTO    :freetext
-Free Text:REA-PORTÕES-VIRACOPOS\ANHANGUERA  :freetext
-Free Text:REA-PORTÕES-VIRACOPOS\INDAIATUBA  :freetext
+Free Text:REA-PORTï¿½ES-AMARAIS\ANHANGUERA  :freetext
+Free Text:REA-PORTï¿½ES-AMARAIS\PAULï¿½NIA :freetext
+Free Text:REA-PORTï¿½ES-AMARAIS\SHOPPING  :freetext
+Free Text:REA-PORTï¿½ES-AMARAIS\UNICAMP  :freetext
+Free Text:REA-PORTï¿½ES-AMERICANA\NOVA ODESSA  :freetext
+Free Text:REA-PORTï¿½ES-AMERICANA\REPRESA  :freetext
+Free Text:REA-PORTï¿½ES-BRAGANCA\BOCAINA  :freetext
+Free Text:REA-PORTï¿½ES-BRAGANCA\FERNï¿½O DIAS (SAï¿½DA) :freetext
+Free Text:REA-PORTï¿½ES-BRAGANCA\GUARIPOCABA  :freetext
+Free Text:REA-PORTï¿½ES-BRAGANCA\VOR:freetext
+Free Text:REA-PORTï¿½ES-GUARA\CACHOEIRA  :freetext
+Free Text:REA-PORTï¿½ES-GUARA\PEDï¿½GIO DUTRA  :freetext
+Free Text:REA-PORTï¿½ES-GUARA\SUL BASï¿½LICA  :freetext
+Free Text:REA-PORTï¿½ES-GUARULHO\ITAQUERA (MILITAR SOMENTE) :freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\ESTï¿½DIO  :freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\JAPI:freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\LAGOA 	  :freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\Posiï¿½ï¿½o ELï¿½I  :freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\Posiï¿½ï¿½o TRAVï¿½S SUL ITUPEVA     :freetext
+Free Text:REA-PORTï¿½ES-JUNDIAI\TREVO (SAï¿½DA)		   :freetext
+Free Text:REA-PORTï¿½ES-MARTE\ABRIL  :freetext
+Free Text:REA-PORTï¿½ES-MARTE\COMETA (ENTRADA) :freetext
+Free Text:REA-PORTï¿½ES-MARTE\DUTRA (SAï¿½DA) :freetext
+Free Text:REA-PORTï¿½ES-SANTOS\CANAL BERTIOGA  :freetext
+Free Text:REA-PORTï¿½ES-SANTOS\INTERLIGAï¿½ï¿½O    :freetext
+Free Text:REA-PORTï¿½ES-SANTOS\PARANAPIACABA   :freetext
+Free Text:REA-PORTï¿½ES-SANTOS\PRAIA GRANDE    :freetext
+Free Text:REA-PORTï¿½ES-SJCAMPOS\IGARATï¿½   :freetext
+Free Text:REA-PORTï¿½ES-SJCAMPOS\JACAREï¿½   :freetext
+Free Text:REA-PORTï¿½ES-SJCAMPOS\MELO 	   :freetext
+Free Text:REA-PORTï¿½ES-SJCAMPOS\REDENï¿½ï¿½O  :freetext
+Free Text:REA-PORTï¿½ES-SOROCABA\ARAï¿½OIABA   :freetext
+Free Text:REA-PORTï¿½ES-SOROCABA\INDUSTRIAL  :freetext
+Free Text:REA-PORTï¿½ES-SOROCABA\RAPOSO 	 :freetext
+Free Text:REA-PORTï¿½ES-TAUBATï¿½\PEDï¿½GIO DUTRA 			 :freetext
+Free Text:REA-PORTï¿½ES-TAUBATï¿½\TREVO CARVALHO PINTO    :freetext
+Free Text:REA-PORTï¿½ES-VIRACOPOS\ANHANGUERA  :freetext
+Free Text:REA-PORTï¿½ES-VIRACOPOS\INDAIATUBA  :freetext
 Free Text:REA-ROTA-AFFA\CAPIVARI :freetext
-Free Text:REA-ROTA-AFFA\EMBU-GUAÇU :freetext
+Free Text:REA-ROTA-AFFA\EMBU-GUAï¿½U :freetext
 Free Text:REA-ROTA-AFFA\FURNAS :freetext
-Free Text:REA-ROTA-AFFA\INTERLIGAÇÃO:freetext
-Free Text:REA-ROTA-AFFA\REPRESA ALUMÍNIO :freetext
+Free Text:REA-ROTA-AFFA\INTERLIGAï¿½ï¿½O:freetext
+Free Text:REA-ROTA-AFFA\REPRESA ALUMï¿½NIO :freetext
 Free Text:REA-ROTA-AFFA\RONDON  :freetext
 Free Text:REA-ROTA-AFFA\TOBIAS :freetext
-Free Text:REA-ROTA-AFFA\TRAVÉS AMERICANA :freetext
-Free Text:REA-ROTA-AFFA\ÉDEN     :freetext
+Free Text:REA-ROTA-AFFA\TRAVï¿½S AMERICANA :freetext
+Free Text:REA-ROTA-AFFA\ï¿½DEN     :freetext
 Free Text:REA-ROTA-ARICANDUVA\PARQUE DO CARMO:freetext
 Free Text:REA-ROTA-BRAVO\ATIBAIA :freetext
-Free Text:REA-ROTA-BRAVO\COSMÓPOLIS :freetext
+Free Text:REA-ROTA-BRAVO\COSMï¿½POLIS :freetext
 Free Text:REA-ROTA-BRAVO\GUARAREMA :freetext
-Free Text:REA-ROTA-BRAVO\IGARATÁ :freetext
-Free Text:REA-ROTA-BRAVO\JAGUARIÚNA :freetext
+Free Text:REA-ROTA-BRAVO\IGARATï¿½ :freetext
+Free Text:REA-ROTA-BRAVO\JAGUARIï¿½NA :freetext
 Free Text:REA-ROTA-BRAVO\LIMEIRA :freetext
 Free Text:REA-ROTA-BRAVO\MORUNGABA     :freetext
-Free Text:REA-ROTA-BRAVO\REPRESA RIBEIRÃO:freetext
-Free Text:REA-ROTA-BRAVO\SALESÓPOLIS   :freetext
-Free Text:REA-ROTA-CHARLIE\CABREÚVA :freetext
+Free Text:REA-ROTA-BRAVO\REPRESA RIBEIRï¿½O:freetext
+Free Text:REA-ROTA-BRAVO\SALESï¿½POLIS   :freetext
+Free Text:REA-ROTA-CHARLIE\CABREï¿½VA :freetext
 Free Text:REA-ROTA-CHARLIE\ITU :freetext
-Free Text:REA-ROTA-CHARLIE\PEDÁGIO-CASTELO:freetext
+Free Text:REA-ROTA-CHARLIE\PEDï¿½GIO-CASTELO:freetext
 Free Text:REA-ROTA-CHARLIE\PORTO FELIZ :freetext
 Free Text:REA-ROTA-CHARLIE\RONDON :freetext
 Free Text:REA-ROTA-CHARLIE\SANTANA :freetext
 Free Text:REA-ROTA-DELTA\ABRIL :freetext
-Free Text:REA-ROTA-DELTA\PEDÁGIO :freetext
+Free Text:REA-ROTA-DELTA\PEDï¿½GIO :freetext
 Free Text:REA-ROTA-DELTA\PERUS  :freetext
-Free Text:REA-ROTA-DELTA\TRAVÉS ECHOJARAGUÁ     :freetext
+Free Text:REA-ROTA-DELTA\TRAVï¿½S ECHOJARAGUï¿½     :freetext
 Free Text:REA-ROTA-DELTA\TREVO :freetext
 Free Text:REA-ROTA-ECHO\DOM PEDRO :freetext
 Free Text:REA-ROTA-ECHO\MORATO    :freetext
 Free Text:REA-ROTA-ECHO\NEGRA:freetext
 Free Text:REA-ROTA-ECHO\ORUNGABA                 :freetext
 Free Text:REA-ROTA-ECHO\PERUS :freetext
-Free Text:REA-ROTA-ECHO\TRAVÉS AMPAROSERRA :freetext
-Free Text:REA-ROTA-ECHO\TRAVÉS JARINU          :freetext
+Free Text:REA-ROTA-ECHO\TRAVï¿½S AMPAROSERRA :freetext
+Free Text:REA-ROTA-ECHO\TRAVï¿½S JARINU          :freetext
 Free Text:REA-ROTA-FOXTROT\BARRADO UNA:freetext
 Free Text:REA-ROTA-FOXTROT\CANAL BERTIOGA    :freetext
 Free Text:REA-ROTA-FOXTROT\ILHA ANCHIETA :freetext
-Free Text:REA-ROTA-FOXTROT\ITANHAÉM :freetext
+Free Text:REA-ROTA-FOXTROT\ITANHAï¿½M :freetext
 Free Text:REA-ROTA-FOXTROT\LARANJEIRAS :freetext
-Free Text:REA-ROTA-FOXTROT\PERUÍBE :freetext
+Free Text:REA-ROTA-FOXTROT\PERUï¿½BE :freetext
 Free Text:REA-ROTA-FOXTROT\PONTA :freetext
 Free Text:REA-ROTA-FOXTROT\PRAIA GRANDE :freetext
 Free Text:REA-ROTA-FOXTROT\RIVIERA :freetext
-Free Text:REA-ROTA-FOXTROT\USINA CARAGUÁ :freetext
-Free Text:REA-ROTA-GOLF\BAÍA :freetext
+Free Text:REA-ROTA-FOXTROT\USINA CARAGUï¿½ :freetext
+Free Text:REA-ROTA-GOLF\BAï¿½A :freetext
 Free Text:REA-ROTA-GOLF\CUNHA :freetext
 Free Text:REA-ROTA-GOLF\ROSEIRA        :freetext
 Free Text:REA-ROTA-HOTEL\CAPIVARI      :freetext
 Free Text:REA-ROTA-HOTEL\ITU :freetext
 Free Text:REA-ROTA-HOTEL\PEDRAS :freetext
-Free Text:REA-ROTA-INDIA\COSMÓPOLIS :freetext
+Free Text:REA-ROTA-INDIA\COSMï¿½POLIS :freetext
 Free Text:REA-ROTA-INDIA\PIRACICABA:freetext
-Free Text:REA-ROTA-INDIA\TRAVÉS AMERICANA :freetext
+Free Text:REA-ROTA-INDIA\TRAVï¿½S AMERICANA :freetext
 Free Text:REA-ROTA-KILO\ATIBAIA:freetext
-Free Text:REA-ROTA-KILO\TRAVÉS JARINU:freetext
+Free Text:REA-ROTA-KILO\TRAVï¿½S JARINU:freetext
 Free Text:REA-ROTA-LIMA\ATIBAIA   :freetext
-Free Text:REA-ROTA-LIMA\CABREÚVA:freetext
+Free Text:REA-ROTA-LIMA\CABREï¿½VA:freetext
 Free Text:REA-ROTA-LIMA\CAMANDUCAIA :freetext
-Free Text:REA-ROTA-LIMA\JOANÓPOLIS        :freetext
+Free Text:REA-ROTA-LIMA\JOANï¿½POLIS        :freetext
 Free Text:REA-ROTA-LIMA\MORATO   :freetext
-Free Text:REA-ROTA-LIMA\PEDÁGIO :freetext
+Free Text:REA-ROTA-LIMA\PEDï¿½GIO :freetext
 Free Text:REA-ROTA-MIKE\ATIBAIA :freetext
-Free Text:REA-ROTA-MIKE\BASÍLICA          :freetext
+Free Text:REA-ROTA-MIKE\BASï¿½LICA          :freetext
 Free Text:REA-ROTA-MIKE\CACHOEIRA:freetext
-Free Text:REA-ROTA-MIKE\CAÇAPAVA       :freetext
-Free Text:REA-ROTA-MIKE\FÁBRICA DUTRA :freetext
-Free Text:REA-ROTA-MIKE\PEDÁGIO DUTRA   :freetext
+Free Text:REA-ROTA-MIKE\CAï¿½APAVA       :freetext
+Free Text:REA-ROTA-MIKE\Fï¿½BRICA DUTRA :freetext
+Free Text:REA-ROTA-MIKE\PEDï¿½GIO DUTRA   :freetext
 Free Text:REA-ROTA-MIKE\ROSEIRA :freetext
-Free Text:REA-ROTA-MIKE\TAUBATÉ :freetext
-Free Text:REA-ROTA-MIKE\TAUBATÉ  :freetext
-Free Text:REA-ROTA-MIKE\TRAVÉS NORTE IGARATÁ    :freetext
-Free Text:REA-ROTA-MIKE\TRAVÉS NORTE SÃO JOSÉ :freetext
+Free Text:REA-ROTA-MIKE\TAUBATï¿½ :freetext
+Free Text:REA-ROTA-MIKE\TAUBATï¿½  :freetext
+Free Text:REA-ROTA-MIKE\TRAVï¿½S NORTE IGARATï¿½    :freetext
+Free Text:REA-ROTA-MIKE\TRAVï¿½S NORTE Sï¿½O JOSï¿½ :freetext
 Free Text:REA-ROTA-MIKE\TREVO CARVALHO PINTO :freetext
 Free Text:REA-ROTA-NOVEMBER\ABRIL:freetext
 Free Text:REA-ROTA-NOVEMBER\ANHANGUERA:freetext
 Free Text:REA-ROTA-NOVEMBER\ITAPEVI :freetext
 Free Text:REA-ROTA-NOVEMBER\MAILASQUI :freetext
-Free Text:REA-ROTA-NOVEMBER\PEDÁGIO CASTELO :freetext
-Free Text:REA-ROTA-NOVEMBER\REPRESA ALUMÍNIO :freetext
+Free Text:REA-ROTA-NOVEMBER\PEDï¿½GIO CASTELO :freetext
+Free Text:REA-ROTA-NOVEMBER\REPRESA ALUMï¿½NIO :freetext
 Free Text:REA-ROTA-OSCAR\FURNAS :freetext
 Free Text:REA-ROTA-OSCAR\ITAPEVI :freetext
 Free Text:REA-ROTA-OSCAR\PERUS:freetext
 Free Text:REA-ROTA-OSCAR\SANTANA :freetext
-Free Text:REA-ROTA-OSCAR\TAPIRAÍ :freetext
+Free Text:REA-ROTA-OSCAR\TAPIRAï¿½ :freetext
 Free Text:REA-ROTA-OSCAR\VARGEM GRANDE :freetext
-Free Text:REA-ROTA-PAPA\EMBUGUAÇU        :freetext
-Free Text:REA-ROTA-PAPA\ITANHAÉM :freetext
+Free Text:REA-ROTA-PAPA\EMBUGUAï¿½U        :freetext
+Free Text:REA-ROTA-PAPA\ITANHAï¿½M :freetext
 Free Text:REA-ROTA-PAPA\ITAPEVI                 :freetext
-Free Text:REA-ROTA-PAPA\RÉGIS :freetext
+Free Text:REA-ROTA-PAPA\Rï¿½GIS :freetext
 Free Text:REA-ROTA-QUEBEC\MOGI BERTIOGA :freetext
 Free Text:REA-ROTA-QUEBEC\PALMEIRAS :freetext
 Free Text:REA-ROTA-QUEBEC\PARQUE DO CARMO :freetext
-Free Text:REA-ROTA-QUEBEC\REPRESA RIBEIRÃO :freetext
-Free Text:REA-ROTA-QUEBEC\USINA CARAGUÁ :freetext
+Free Text:REA-ROTA-QUEBEC\REPRESA RIBEIRï¿½O :freetext
+Free Text:REA-ROTA-QUEBEC\USINA CARAGUï¿½ :freetext
 Free Text:REA-ROTA-ROMEO\ILHA ANCHIETA :freetext
 Free Text:REA-ROTA-ROMEO\ITAQUERA:freetext
 Free Text:REA-ROTA-ROMEO\REPRESA PARAIBUNA :freetext
 Free Text:REA-ROTA-ROMEO\REPRESA SUZANO :freetext
 Free Text:REA-ROTA-ROMEO\RODOANEL :freetext
-Free Text:REA-ROTA-ROMEO\SALESÓPOLIS :freetext
+Free Text:REA-ROTA-ROMEO\SALESï¿½POLIS :freetext
 Free Text:REA-ROTA-SIERRA\GUARAREMA :freetext
-Free Text:REA-ROTA-SIERRA\INTERLIGAÇÃO :freetext
-Free Text:REA-ROTA-SIERRA\ITANHAÉM :freetext
+Free Text:REA-ROTA-SIERRA\INTERLIGAï¿½ï¿½O :freetext
+Free Text:REA-ROTA-SIERRA\ITANHAï¿½M :freetext
 Free Text:REA-ROTA-SIERRA\PALMEIRAS     :freetext
 Free Text:REA-ROTA-SIERRA\REPRESA SUZANO   :freetext
 Free Text:REA-ROTA-SIERRA\RIO GRANDE :freetext
 Free Text:REA-ROTA-TANGO\PARAIBUNA :freetext
-Free Text:REA-ROTA-TANGO\REDENÇÃO :freetext
-Free Text:REA-ROTA-TANGO\SALESÓPOLIS:freetext
-Free Text:REA-ROTA-UNIFORME\CAÇAPAVA    :freetext
+Free Text:REA-ROTA-TANGO\REDENï¿½ï¿½O :freetext
+Free Text:REA-ROTA-TANGO\SALESï¿½POLIS:freetext
+Free Text:REA-ROTA-UNIFORME\CAï¿½APAVA    :freetext
 Free Text:REA-ROTA-UNIFORME\ILHA ANCHIETA :freetext
-Free Text:REA-ROTA-UNIFORME\REDENÇÃO :freetext
+Free Text:REA-ROTA-UNIFORME\REDENï¿½ï¿½O :freetext
 Free Text:REA-ROTA-VICTOR\ABRILITU:freetext
-Free Text:REA-ROTA-VICTOR\ÉDEN      :freetext
-Free Text:REH-PORTÕES-AMARAIS\HONDA 				 :freetext
-Free Text:REH-PORTÕES-AMARAIS\SANTOS DUMONT 		 :freetext
-Free Text:REH-PORTÕES-AMARAIS\SHOPPING 			 :freetext
-Free Text:REH-PORTÕES-AMERICANA\PEDÁGIO AMERICANA 	 :freetext
-Free Text:REH-PORTÕES-AMERICANA\REPRESA 				 :freetext
-Free Text:REH-PORTÕES-BRAGANÇA\BOCAINA 			 :freetext
-Free Text:REH-PORTÕES-BRAGANÇA\FERNÃO DIAS		 :freetext
-Free Text:REH-PORTÕES-BRAGANÇA\GUARIPOCABA			 :freetext
-Free Text:REH-PORTÕES-BRAGANÇA\VOR 					 :freetext
-Free Text:REH-PORTÕES-CAMPINAS\ANHANGUERA 			 :freetext
-Free Text:REH-PORTÕES-CAMPINAS\INDAIATUBA 			:freetext
-Free Text:REH-PORTÕES-GUARA\CACHOEIRA 			 :freetext
-Free Text:REH-PORTÕES-GUARA\PEDÁGIO DUTRA 		 :freetext
-Free Text:REH-PORTÕES-GUARA\SUL BASÍLICA 		 :freetext
-Free Text:REH-PORTÕES-GUARULHOS\DUMONT 				 :freetext
-Free Text:REH-PORTÕES-JUNDIAI\LOUVEIRA				 :freetext
-Free Text:REH-PORTÕES-JUNDIAI\TRAVÉS SUL ITUPEVA 	 :freetext
-Free Text:REH-PORTÕES-JUNDIAI\TREVO ANHANG-BAANTES	 :freetext
-Free Text:REH-PORTÕES-MARTE\ESTADÃO (Saída W)		 :freetext
-Free Text:REH-PORTÕES-MARTE\LUZ (Entrada S e E)	 :freetext
-Free Text:REH-PORTÕES-MARTE\MEMORIAL (Entrada W)	 :freetext
-Free Text:REH-PORTÕES-MARTE\PORTUGUESA (Saída E)	 :freetext
-Free Text:REH-PORTÕES-SANTOS\CANAL BERTIOGA 		 :freetext
-Free Text:REH-PORTÕES-SANTOS\INTERLIGAÇÃO			 :freetext
-Free Text:REH-PORTÕES-SANTOS\PARANAPIACABA 		 :freetext
-Free Text:REH-PORTÕES-SANTOS\PRAIA GRANDE 			 :freetext
-Free Text:REH-PORTÕES-SJ-CAMPOS\IGARATÁ				 :freetext
-Free Text:REH-PORTÕES-SJ-CAMPOS\JACAREÍ 				 :freetext
-Free Text:REH-PORTÕES-SJ-CAMPOS\MELO 					 :freetext
-Free Text:REH-PORTÕES-SJ-CAMPOS\REDENÇÃO 				 :freetext
-Free Text:REH-PORTÕES-SOROCABA\ARAÇOIABA 				 :freetext
-Free Text:REH-PORTÕES-SOROCABA\INDUSTRIAL 			 :freetext
-Free Text:REH-PORTÕES-SOROCABA\RAPOSO 				 :freetext
-Free Text:REH-PORTÕES-TAUBATE\PEDÁGIO DUTRA 			 :freetext
-Free Text:REH-PORTÕES-TAUBATE\TREVO CARVALHO PINTO	 :freetext
-Free Text:REH-ROTA-ACLIMAÇÃO\ALCÂNTARA MACHADO:freetext
-Free Text:REH-ROTA-ACLIMAÇÃO\ANA ROSA:freetext
-Free Text:REH-ROTA-ACLIMAÇÃO\CEBOLINHA :freetext
-Free Text:REH-ROTA-ACLIMAÇÃO\ITAÚ CTO:freetext
-Free Text:REH-ROTA-ACLIMAÇÃO\PARQUE ACLIMAÇÃO:freetext
+Free Text:REA-ROTA-VICTOR\ï¿½DEN      :freetext
+Free Text:REH-PORTï¿½ES-AMARAIS\HONDA 				 :freetext
+Free Text:REH-PORTï¿½ES-AMARAIS\SANTOS DUMONT 		 :freetext
+Free Text:REH-PORTï¿½ES-AMARAIS\SHOPPING 			 :freetext
+Free Text:REH-PORTï¿½ES-AMERICANA\PEDï¿½GIO AMERICANA 	 :freetext
+Free Text:REH-PORTï¿½ES-AMERICANA\REPRESA 				 :freetext
+Free Text:REH-PORTï¿½ES-BRAGANï¿½A\BOCAINA 			 :freetext
+Free Text:REH-PORTï¿½ES-BRAGANï¿½A\FERNï¿½O DIAS		 :freetext
+Free Text:REH-PORTï¿½ES-BRAGANï¿½A\GUARIPOCABA			 :freetext
+Free Text:REH-PORTï¿½ES-BRAGANï¿½A\VOR 					 :freetext
+Free Text:REH-PORTï¿½ES-CAMPINAS\ANHANGUERA 			 :freetext
+Free Text:REH-PORTï¿½ES-CAMPINAS\INDAIATUBA 			:freetext
+Free Text:REH-PORTï¿½ES-GUARA\CACHOEIRA 			 :freetext
+Free Text:REH-PORTï¿½ES-GUARA\PEDï¿½GIO DUTRA 		 :freetext
+Free Text:REH-PORTï¿½ES-GUARA\SUL BASï¿½LICA 		 :freetext
+Free Text:REH-PORTï¿½ES-GUARULHOS\DUMONT 				 :freetext
+Free Text:REH-PORTï¿½ES-JUNDIAI\LOUVEIRA				 :freetext
+Free Text:REH-PORTï¿½ES-JUNDIAI\TRAVï¿½S SUL ITUPEVA 	 :freetext
+Free Text:REH-PORTï¿½ES-JUNDIAI\TREVO ANHANG-BAANTES	 :freetext
+Free Text:REH-PORTï¿½ES-MARTE\ESTADï¿½O (Saï¿½da W)		 :freetext
+Free Text:REH-PORTï¿½ES-MARTE\LUZ (Entrada S e E)	 :freetext
+Free Text:REH-PORTï¿½ES-MARTE\MEMORIAL (Entrada W)	 :freetext
+Free Text:REH-PORTï¿½ES-MARTE\PORTUGUESA (Saï¿½da E)	 :freetext
+Free Text:REH-PORTï¿½ES-SANTOS\CANAL BERTIOGA 		 :freetext
+Free Text:REH-PORTï¿½ES-SANTOS\INTERLIGAï¿½ï¿½O			 :freetext
+Free Text:REH-PORTï¿½ES-SANTOS\PARANAPIACABA 		 :freetext
+Free Text:REH-PORTï¿½ES-SANTOS\PRAIA GRANDE 			 :freetext
+Free Text:REH-PORTï¿½ES-SJ-CAMPOS\IGARATï¿½				 :freetext
+Free Text:REH-PORTï¿½ES-SJ-CAMPOS\JACAREï¿½ 				 :freetext
+Free Text:REH-PORTï¿½ES-SJ-CAMPOS\MELO 					 :freetext
+Free Text:REH-PORTï¿½ES-SJ-CAMPOS\REDENï¿½ï¿½O 				 :freetext
+Free Text:REH-PORTï¿½ES-SOROCABA\ARAï¿½OIABA 				 :freetext
+Free Text:REH-PORTï¿½ES-SOROCABA\INDUSTRIAL 			 :freetext
+Free Text:REH-PORTï¿½ES-SOROCABA\RAPOSO 				 :freetext
+Free Text:REH-PORTï¿½ES-TAUBATE\PEDï¿½GIO DUTRA 			 :freetext
+Free Text:REH-PORTï¿½ES-TAUBATE\TREVO CARVALHO PINTO	 :freetext
+Free Text:REH-ROTA-ACLIMAï¿½ï¿½O\ALCï¿½NTARA MACHADO:freetext
+Free Text:REH-ROTA-ACLIMAï¿½ï¿½O\ANA ROSA:freetext
+Free Text:REH-ROTA-ACLIMAï¿½ï¿½O\CEBOLINHA :freetext
+Free Text:REH-ROTA-ACLIMAï¿½ï¿½O\ITAï¿½ CTO:freetext
+Free Text:REH-ROTA-ACLIMAï¿½ï¿½O\PARQUE ACLIMAï¿½ï¿½O:freetext
 Free Text:REH-ROTA-ANCHIETA\ENTRONCAMENTO:freetext
 Free Text:REH-ROTA-ANCHIETA\MERCEDES:freetext
-Free Text:REH-ROTA-ANCHIETA\PEDÁGIO ANCHIETA:freetext
+Free Text:REH-ROTA-ANCHIETA\PEDï¿½GIO ANCHIETA:freetext
 Free Text:REH-ROTA-ANCHIETA\TREVO ANCHIETA:freetext
 Free Text:REH-ROTA-ANHANGUERA-NORTE\HONDA:freetext
-Free Text:REH-ROTA-ANHANGUERA-NORTE\PEDÁGIO AMERICANA:freetext
+Free Text:REH-ROTA-ANHANGUERA-NORTE\PEDï¿½GIO AMERICANA:freetext
 Free Text:REH-ROTA-ANHANGUERA-NORTE\SANTOS DUMONT:freetext
 Free Text:REH-ROTA-ANHANGUERA-NORTE\TREVO VINHEDO:freetext
-Free Text:REH-ROTA-ANHANGUERA-SUL\JARAGUÁ:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\JARAGUï¿½:freetext
 Free Text:REH-ROTA-ANHANGUERA-SUL\MARCO ZERO:freetext
-Free Text:REH-ROTA-ANHANGUERA-SUL\PÃO DE AÇÚCAR:freetext
+Free Text:REH-ROTA-ANHANGUERA-SUL\Pï¿½O DE Aï¿½ï¿½CAR:freetext
 Free Text:REH-ROTA-ANHANGUERA-SUL\TREVO ANHANGUERA BANDEIRANTES:freetext
 Free Text:REH-ROTA-ARICANDUVA\ELEVADO ARICANDUVA:freetext
 Free Text:REH-ROTA-ARICANDUVA\PONTE ARICANDUVA:freetext
-Free Text:REH-ROTA-ARICANDUVA\SÃO MATEUS:freetext
+Free Text:REH-ROTA-ARICANDUVA\Sï¿½O MATEUS:freetext
 Free Text:REH-ROTA-CAMPOS\GM:freetext
-Free Text:REH-ROTA-CAMPOS\IGARATÁ :freetext
+Free Text:REH-ROTA-CAMPOS\IGARATï¿½ :freetext
 Free Text:REH-ROTA-CAMPOS\LOBATO:freetext
-Free Text:REH-ROTA-CAMPOS\SÃO JOSÉ:freetext
-Free Text:REH-ROTA-CAMPOS\TRAVÉS ISABEL:freetext
+Free Text:REH-ROTA-CAMPOS\Sï¿½O JOSï¿½:freetext
+Free Text:REH-ROTA-CAMPOS\TRAVï¿½S ISABEL:freetext
 Free Text:REH-ROTA-CASTELO\ARACARIGUAMA:freetext
 Free Text:REH-ROTA-CASTELO\BARUERI									:freetext
-Free Text:REH-ROTA-CASTELO\CEBOLÃO :freetext
+Free Text:REH-ROTA-CASTELO\CEBOLï¿½O :freetext
 Free Text:REH-ROTA-CASTELO\RODOANEL CASTELO:freetext
 Free Text:REH-ROTA-CONGONHAS\CEBOLINHA					:freetext
-Free Text:REH-ROTA-CONGONHAS\CLUBE SÍRIO:freetext
-Free Text:REH-ROTA-CONGONHAS\VD ANTÁRTICA :freetext
-Free Text:REH-ROTA-ECOLÓGICO\BARRAGEM TIETÊ				:freetext
-Free Text:REH-ROTA-ECOLÓGICO\DUMONT:freetext
-Free Text:REH-ROTA-ECOLÓGICO\PONTE ARICANDUVA:freetext
-Free Text:REH-ROTA-ECOLÓGICO\SHOPPING TATUAPÉ:freetext
+Free Text:REH-ROTA-CONGONHAS\CLUBE Sï¿½RIO:freetext
+Free Text:REH-ROTA-CONGONHAS\VD ANTï¿½RTICA :freetext
+Free Text:REH-ROTA-ECOLï¿½GICO\BARRAGEM TIETï¿½				:freetext
+Free Text:REH-ROTA-ECOLï¿½GICO\DUMONT:freetext
+Free Text:REH-ROTA-ECOLï¿½GICO\PONTE ARICANDUVA:freetext
+Free Text:REH-ROTA-ECOLï¿½GICO\SHOPPING TATUAPï¿½:freetext
 Free Text:REH-ROTA-ESPRAIADA\PONTE ESTAIADA:freetext
-Free Text:REH-ROTA-ESPRAIADA\WASHINGTON LUÍS:freetext
+Free Text:REH-ROTA-ESPRAIADA\WASHINGTON LUï¿½S:freetext
 Free Text:REH-ROTA-ESTADO\BARTIRA:freetext
-Free Text:REH-ROTA-ESTADO\ESTAÇÃO SALADINO:freetext
+Free Text:REH-ROTA-ESTADO\ESTAï¿½ï¿½O SALADINO:freetext
 Free Text:REH-ROTA-ESTADO\UTINGA:freetext
 Free Text:REH-ROTA-ESTADO\VD GRANDE SAO PAULO      :freetext
-Free Text:REH-ROTA-ESTADO\VD SÃO CARLOS:freetext
+Free Text:REH-ROTA-ESTADO\VD Sï¿½O CARLOS:freetext
 Free Text:REH-ROTA-ESTADO\WALMART:freetext
-Free Text:REH-ROTA-ESTÁDIO\AVENIDA MORUMBI:freetext
-Free Text:REH-ROTA-ESTÁDIO\EXTRA JAGUARÉ:freetext
-Free Text:REH-ROTA-ESTÁDIO\SHOPPING CONTINENTAL:freetext
-Free Text:REH-ROTA-EXTERNO\EXTRA JAGUARÉ:freetext
-Free Text:REH-ROTA-EXTERNO\PONTE JAGUARÉ:freetext
-Free Text:REH-ROTA-FABRICA\ESTAÇÃO SALADINO:freetext
+Free Text:REH-ROTA-ESTï¿½DIO\AVENIDA MORUMBI:freetext
+Free Text:REH-ROTA-ESTï¿½DIO\EXTRA JAGUARï¿½:freetext
+Free Text:REH-ROTA-ESTï¿½DIO\SHOPPING CONTINENTAL:freetext
+Free Text:REH-ROTA-EXTERNO\EXTRA JAGUARï¿½:freetext
+Free Text:REH-ROTA-EXTERNO\PONTE JAGUARï¿½:freetext
+Free Text:REH-ROTA-FABRICA\ESTAï¿½ï¿½O SALADINO:freetext
 Free Text:REH-ROTA-FABRICA\KENTINHA         :freetext
 Free Text:REH-ROTA-FABRICA\MERCEDES                    :freetext
 Free Text:REH-ROTA-FABRICA\PIRATININGA:freetext
-Free Text:REH-ROTA-FERNÃO\CEMITÉRIO FERNÃO:freetext
-Free Text:REH-ROTA-FERNÃO\DUTRA:freetext
-Free Text:REH-ROTA-FERNÃO\MAIRIPORÃ:freetext
-Free Text:REH-ROTA-FERNÃO\POLÍCIA RODODOVIÁRIA:freetext
-Free Text:REH-ROTA-FERNÃO\PONTE ARICANDUVA :freetext
-Free Text:REH-ROTA-FERNÃO\TREVO TREMEMBÉ:freetext
-Free Text:REH-ROTA-FERNÃO\TÚNEL:freetext
-Free Text:REH-ROTA-FERROVIA\RIBEIRÃO PIRES:freetext
+Free Text:REH-ROTA-FERNï¿½O\CEMITï¿½RIO FERNï¿½O:freetext
+Free Text:REH-ROTA-FERNï¿½O\DUTRA:freetext
+Free Text:REH-ROTA-FERNï¿½O\MAIRIPORï¿½:freetext
+Free Text:REH-ROTA-FERNï¿½O\POLï¿½CIA RODODOVIï¿½RIA:freetext
+Free Text:REH-ROTA-FERNï¿½O\PONTE ARICANDUVA :freetext
+Free Text:REH-ROTA-FERNï¿½O\TREVO TREMEMBï¿½:freetext
+Free Text:REH-ROTA-FERNï¿½O\Tï¿½NEL:freetext
+Free Text:REH-ROTA-FERROVIA\RIBEIRï¿½O PIRES:freetext
 Free Text:REH-ROTA-FERROVIA\WALMART:freetext
 Free Text:REH-ROTA-GUARAPIRANGA\EMPRESARIAL:freetext
 Free Text:REH-ROTA-GUARAPIRANGA\PARELHEIROS:freetext
 Free Text:REH-ROTA-IMIGRANTES\KENTINHA :freetext
-Free Text:REH-ROTA-IMIGRANTES\PEDÁGIO IMIGRANTES:freetext
+Free Text:REH-ROTA-IMIGRANTES\PEDï¿½GIO IMIGRANTES:freetext
 Free Text:REH-ROTA-IMIGRANTES\TREVO IMIGRANTES:freetext
 Free Text:REH-ROTA-JUNDIAI\BAHIA:freetext
-Free Text:REH-ROTA-JUNDIAI\ESTAÇÃO:freetext
+Free Text:REH-ROTA-JUNDIAI\ESTAï¿½ï¿½O:freetext
 Free Text:REH-ROTA-JUNDIAI\EXTRA JUNDIAI:freetext
 Free Text:REH-ROTA-JUNDIAI\LOUVEIRA:freetext
 Free Text:REH-ROTA-JUNDIAI\TREVO ANHANGUERA BANDEIRANTES:freetext
 Free Text:REH-ROTA-JUNDIAI\TREVO VINHEDO:freetext
-Free Text:REH-ROTA-MARTE\ALCÂNTARA MACHADO:freetext
-Free Text:REH-ROTA-MARTE\CEBOLÃO:freetext
+Free Text:REH-ROTA-MARTE\ALCï¿½NTARA MACHADO:freetext
+Free Text:REH-ROTA-MARTE\CEBOLï¿½O:freetext
 Free Text:REH-ROTA-MARTE\LUZ :freetext
 Free Text:REH-ROTA-MARTE\MARCO ZERO:freetext
-Free Text:REH-ROTA-MARTE\VD ANTÁRTICA          :freetext
-Free Text:REH-ROTA-MARTE\VD SÃO CARLOS:freetext
+Free Text:REH-ROTA-MARTE\VD ANTï¿½RTICA          :freetext
+Free Text:REH-ROTA-MARTE\VD Sï¿½O CARLOS:freetext
 Free Text:REH-ROTA-MORUMBI\AVENIDA MORUMBI:freetext
-Free Text:REH-ROTA-MORUMBI\EXTRA TABOÃO:freetext
+Free Text:REH-ROTA-MORUMBI\EXTRA TABOï¿½O:freetext
 Free Text:REH-ROTA-MORUMBI\PONTE ESTAIADA:freetext
 Free Text:REH-ROTA-MORUMBI\RAPOSO:freetext
-Free Text:REH-ROTA-OESTE\CEBOLÃO :freetext
+Free Text:REH-ROTA-OESTE\CEBOLï¿½O :freetext
 Free Text:REH-ROTA-OESTE\EMPRESARIAL:freetext
-Free Text:REH-ROTA-OESTE\EXTRA TABOÃO:freetext
+Free Text:REH-ROTA-OESTE\EXTRA TABOï¿½O:freetext
 Free Text:REH-ROTA-OESTE\SHOPPING CONTINENTAL:freetext
-Free Text:REH-ROTA-PINHEIROS\CEBOLÃO :freetext
+Free Text:REH-ROTA-PINHEIROS\CEBOLï¿½O :freetext
 Free Text:REH-ROTA-PINHEIROS\EMPRESARIAL:freetext
 Free Text:REH-ROTA-PINHEIROS\GRANJA JULIETA:freetext
 Free Text:REH-ROTA-PINHEIROS\PIRATININGA:freetext
 Free Text:REH-ROTA-PINHEIROS\PONTE ESTAIADA:freetext
-Free Text:REH-ROTA-PINHEIROS\PONTE JAGUARÉ       :freetext
-Free Text:REH-ROTA-RADIAL\ALCÂNTARA MACHADO:freetext
+Free Text:REH-ROTA-PINHEIROS\PONTE JAGUARï¿½       :freetext
+Free Text:REH-ROTA-RADIAL\ALCï¿½NTARA MACHADO:freetext
 Free Text:REH-ROTA-RADIAL\ELEVADO ARICANDUVA:freetext
 Free Text:REH-ROTA-RADIAL\ITAQUERA:freetext
-Free Text:REH-ROTA-RADIAL\SHOPPING TATUAPÉ:freetext
+Free Text:REH-ROTA-RADIAL\SHOPPING TATUAPï¿½:freetext
 Free Text:REH-ROTA-RAPOSO\EXTRA COTIA :freetext
 Free Text:REH-ROTA-RAPOSO\RAPOSO:freetext
 Free Text:REH-ROTA-RAPOSO\VARGEM GRANDE PAULISTA:freetext
-Free Text:REH-ROTA-REFINARIA\SÃO MATEUS:freetext
+Free Text:REH-ROTA-REFINARIA\Sï¿½O MATEUS:freetext
 Free Text:REH-ROTA-REFINARIA\WALMART:freetext
 Free Text:REH-ROTA-RODOANEL\IMPERIAL:freetext
 Free Text:REH-ROTA-RODOANEL\PARELHEIROS					:freetext
@@ -470,15 +469,15 @@ Free Text:REH-ROTA-RODOANEL\TREVO ANCHIETA:freetext
 Free Text:REH-ROTA-RODOANEL\TREVO IMIGRANTES			:freetext
 Free Text:REH-ROTA-SENNA\DUMONT:freetext
 Free Text:REH-ROTA-SENNA\GM:freetext
-Free Text:REH-ROTA-SENNA\PEDÁGIO ITAQUÁ:freetext
-Free Text:REH-ROTA-SENNA\PEDÁGIO SENNA:freetext
-Free Text:REH-ROTA-SUZANO\FÁBRICA FERRAZ:freetext
+Free Text:REH-ROTA-SENNA\PEDï¿½GIO ITAQUï¿½:freetext
+Free Text:REH-ROTA-SENNA\PEDï¿½GIO SENNA:freetext
+Free Text:REH-ROTA-SUZANO\Fï¿½BRICA FERRAZ:freetext
 Free Text:REH-ROTA-SUZANO\ITAQUERA:freetext
 Free Text:REH-ROTA-SUZANO\JUNDIAPEBA:freetext
 Free Text:REH-ROTA-SUZANO\SUZANO:freetext
 Free Text:REH-ROTA-TANCREDO\ENTRONCAMENTO :freetext
 Free Text:REH-ROTA-TANCREDO\MARIA MALUF:freetext
-Free Text:REH-ROTA-TANCREDO\VD GRANDE SÃO PAULO:freetext
+Free Text:REH-ROTA-TANCREDO\VD GRANDE Sï¿½O PAULO:freetext
 Free Text:SBGR\1:freetext
 Free Text:SBGR\101:freetext
 Free Text:SBGR\101:freetext
@@ -856,12 +855,12 @@ Free Text:SBKP\M8A:freetext
 Free Text:SBKP\M8B:freetext
 Free Text:SBKP\PAX:freetext
 Free Text:SBKP\PAX:freetext
-Free Text:SBKP\Pátio 1:freetext
-Free Text:SBKP\Pátio 2:freetext
-Free Text:SBKP\Pátio 3:freetext
-Free Text:SBKP\Pátio 4 ou N:freetext
-Free Text:SBKP\Pátio 5 ou P:freetext
-Free Text:SBKP\Pátio 6 ou Q:freetext
+Free Text:SBKP\Pï¿½tio 1:freetext
+Free Text:SBKP\Pï¿½tio 2:freetext
+Free Text:SBKP\Pï¿½tio 3:freetext
+Free Text:SBKP\Pï¿½tio 4 ou N:freetext
+Free Text:SBKP\Pï¿½tio 5 ou P:freetext
+Free Text:SBKP\Pï¿½tio 6 ou Q:freetext
 Free Text:SBKP\R1:freetext
 Free Text:SBKP\R10:freetext
 Free Text:SBKP\R10A:freetext
@@ -1283,22 +1282,22 @@ Regions:TERMINAL_DE_CARGAS:polygon
 Regions:TERMINAL_DE_PASSAGEIROS:polygon
 Regions:TERMINAL_DE_PASSAGEIROS:polygon
 Regions:TWR:polygon
-Runways:SBBP BRAGANÇA PAULISTA 16-34:centerline
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left base
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left ticks
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 left vectoring
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right base
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right ticks
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 1 right vectoring
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left base
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left ticks
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 left vectoring
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right base
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right ticks
-Runways:SBBP BRAGANÇA PAULISTA 16-34:extended centerline 2 right vectoring
-Runways:SBBP BRAGANÇA PAULISTA 16-34:name
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:centerline
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 left base
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 left ticks
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 left vectoring
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 right base
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 right ticks
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 1 right vectoring
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 left base
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 left ticks
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 left vectoring
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 right base
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 right ticks
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:extended centerline 2 right vectoring
+Runways:SBBP BRAGANï¿½A PAULISTA 16-34:name
 Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:centerline
 Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1
 Runways:SBGR SAO PAULO/GUARULHOS INTL 09L-27R:extended centerline 1 left base
@@ -1347,22 +1346,22 @@ Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right base
 Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right ticks
 Runways:SBGW GUARATINGUETA 02-20:extended centerline 2 right vectoring
 Runways:SBGW GUARATINGUETA 02-20:name
-Runways:SBJD JUNDIAÍ 18-36:centerline
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left base
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left ticks
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 left vectoring
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right base
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right ticks
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 1 right vectoring
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left base
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left ticks
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 left vectoring
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right base
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right ticks
-Runways:SBJD JUNDIAÍ 18-36:extended centerline 2 right vectoring
-Runways:SBJD JUNDIAÍ 18-36:name
+Runways:SBJD JUNDIAï¿½ 18-36:centerline
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 left base
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 left ticks
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 left vectoring
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 right base
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 right ticks
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 1 right vectoring
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 left base
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 left ticks
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 left vectoring
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 right base
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 right ticks
+Runways:SBJD JUNDIAï¿½ 18-36:extended centerline 2 right vectoring
+Runways:SBJD JUNDIAï¿½ 18-36:name
 Runways:SBJH SAO PAULO CATARINA 12-30:centerline
 Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1
 Runways:SBJH SAO PAULO CATARINA 12-30:extended centerline 1 left base
@@ -1555,22 +1554,22 @@ Runways:SDCO SOROCABA 18-36:extended centerline 2 right base
 Runways:SDCO SOROCABA 18-36:extended centerline 2 right ticks
 Runways:SDCO SOROCABA 18-36:extended centerline 2 right vectoring
 Runways:SDCO SOROCABA 18-36:name
-Runways:SDIM ITANHAÉM 15-33:centerline
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left base
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left ticks
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 left vectoring
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right base
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right ticks
-Runways:SDIM ITANHAÉM 15-33:extended centerline 1 right vectoring
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left base
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left ticks
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 left vectoring
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right base
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right ticks
-Runways:SDIM ITANHAÉM 15-33:extended centerline 2 right vectoring
-Runways:SDIM ITANHAÉM 15-33:name
+Runways:SDIM ITANHAï¿½M 15-33:centerline
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 left base
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 left ticks
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 left vectoring
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 right base
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 right ticks
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 1 right vectoring
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 left base
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 left ticks
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 left vectoring
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 right base
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 right ticks
+Runways:SDIM ITANHAï¿½M 15-33:extended centerline 2 right vectoring
+Runways:SDIM ITANHAï¿½M 15-33:name
 Runways:SDMJ MOGI MIRIM 12-30:centerline
 Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1
 Runways:SDMJ MOGI MIRIM 12-30:extended centerline 1 left base
