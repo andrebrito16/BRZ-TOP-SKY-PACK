@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBAN#####SBGO#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXN APP by MATRIX AIRAC2012
+SBXN APP by MATRIX AIRAC2102
 SBXN_APP
 SBGO
 S016.37.47.571 
@@ -4096,9 +4096,9 @@ BEGE S015.16.38.870 W048.20.00.740
 BITIT S017.35.14.399 W050.31.50.999
 BOBEM S016.09.36.439 W047.57.04.021
 BODIT S016.45.37.598 W047.51.03.960
-BR001 S015.59.17.300 W048.08.29.400
+BR001 S015.59.17.401 W048.08.29.400
 BR003 S015.52.30.299 W048.06.25.200
-BR004 S015.46.58.001 W048.08.31.099
+BR004 S015.46.58.199 W048.08.31.200
 BR007 S015.52.33.989 W047.52.09.250
 BR009 S015.52.08.800 W048.00.49.799
 BR022 S016.23.03.761 W048.17.02.400
@@ -4113,8 +4113,6 @@ BR077 S015.56.03.710 W048.11.12.480
 BR079 S015.51.23.670 W047.49.10.290
 BR081 S015.51.30.190 W047.50.50.611
 BSI05 S015.40.24.668 W048.02.02.119
-BSI28 S015.55.05.722 W048.14.26.509
-BSI30 S015.54.49.831 W048.13.10.420
 BUVAV S015.52.09.959 W048.08.37.129
 CAL02 S017.43.13.519 W048.35.51.569
 CF06L S016.20.38.828 W049.03.43.520
@@ -4564,7 +4562,6 @@ POVOX POVOX UBSUS UBSUS
 
 
 [LOW AIRWAY]
-G449 PORMI PORMI BSI BSI
 G678 MILIX MILIX EDNAR EDNAR
 G678 EDNAR EDNAR BSI BSI
 W29 GNV GNV POVOX POVOX
@@ -4585,6 +4582,7 @@ Z7 ILSEL ILSEL BSI BSI
 Z82 GNV GNV KETUL KETUL
 Z82 KETUL KETUL SEKLI SEKLI
 Z82 SEKLI SEKLI ILPAV ILPAV
+Z84 PORMI PORMI BSI BSI
 
 
 [HIGH AIRWAY]

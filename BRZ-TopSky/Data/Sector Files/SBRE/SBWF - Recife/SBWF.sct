@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBRF#####SBJP#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBWF APP by MATRIX AIRAC2012
+SBWF APP by MATRIX AIRAC2102
 SBWF_APP
 SBRF
 S008.07.35.000
@@ -3387,6 +3387,7 @@ IRF 110.300 S008.08.29.400 W034.55.07.799
 JPS 114.000 S007.08.47.389 W034.56.52.361
 JPS-JOAO 320.000 S007.08.25.800 W034.57.09.000
 OLD 380.000 S008.02.18.600 W034.57.07.200
+VSA 113.700 S008.06.24.091 W035.17.14.111
 YGA 112.900 S007.50.42.878 W034.53.35.160
 
 
@@ -3715,6 +3716,7 @@ TEDAT TEDAT AMBET AMBET
 SBRF_36_TEDAT1xISADO SBRF SBRF TEDAT TEDAT
 TEDAT TEDAT ISADO ISADO
 SBJP_16_ANDAD SBJP SBJP ANDAD ANDAD
+SBJP_16_ANDADxREC SBJP SBJP ANDAD ANDAD
 ANDAD ANDAD REC REC
 SBJP_16_GELE1A SBJP SBJP GELEP GELEP
 SBJP_16_GELE1AxREC1A SBJP SBJP GELEP GELEP
@@ -3751,8 +3753,9 @@ SBJP_16_UGIBOxPAKIL SBJP SBJP UGIBO UGIBO
 UGIBO UGIBO PAKIL PAKIL
 SBJP_16_UGIBOxREC SBJP SBJP UGIBO UGIBO
 UGIBO UGIBO REC REC
-SBJP_34_ANDAD SBJP SBJP DER16 DER16
-DER16 DER16 JPS JPS
+SBJP_34_ANDAD SBJP SBJP JPS JPS
+JPS JPS ANDAD ANDAD
+SBJP_34_ANDADxREC SBJP SBJP JPS JPS
 JPS JPS ANDAD ANDAD
 ANDAD ANDAD REC REC
 SBJP_34_NTL1 SBJP SBJP JPS JPS

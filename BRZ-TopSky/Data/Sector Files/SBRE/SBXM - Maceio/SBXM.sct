@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBMO#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXM APP by MATRIX AIRAC2012
+SBXM APP by MATRIX AIRAC2102
 SBXM_APP
 SBMO
 S009.31.01.999
@@ -2710,6 +2710,7 @@ IF 220.000 S008.06.47.999 W034.55.54.001
 IMC 109.700 S009.30.47.401 W035.46.45.001
 IRF 110.300 S008.08.29.400 W034.55.07.799
 OLD 380.000 S008.02.18.600 W034.57.07.200
+VSA 113.700 S008.06.24.091 W035.17.14.111
 
 
 [FIXES]

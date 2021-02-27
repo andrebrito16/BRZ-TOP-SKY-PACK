@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBNT#####SBSG#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXT APP by MATRIX AIRAC2012
+SBXT APP by MATRIX AIRAC2102
 SBXT_APP
 SBNT
 S005.54.30.002
@@ -3643,9 +3643,9 @@ D188J S006.04.14.992 W035.12.29.491
 D296J S005.53.47.850 W035.24.55.829
 D301L S005.44.10.741 W035.34.10.391
 D311J S005.51.13.590 W035.24.24.581
-D311T S005.48.08.129 W035.33.57.470
+D311T S005.48.08.168 W035.33.57.341
 D325J S005.49.01.571 W035.23.20.090
-D326T S005.43.18.210 W035.31.35.198
+D326T S005.43.18.260 W035.31.35.080
 D329H S005.49.39.691 W035.21.19.829
 DABLA S005.45.29.401 W035.25.32.999
 DADPU S005.02.10.388 W036.34.59.189
@@ -3776,6 +3776,7 @@ SG008 S006.07.52.201 W035.21.53.399
 SG009 S005.40.09.232 W035.24.37.710
 SGA13 S005.42.33.980 W035.09.37.541
 SIGIT S006.08.10.799 W035.11.33.000
+SIRED S005.19.05.401 W034.55.59.401
 SUBMO S005.47.55.799 W035.11.17.401
 TOREM S006.39.28.800 W034.46.31.800
 UKBUS S005.41.58.200 W035.10.17.400
@@ -4085,7 +4086,7 @@ Z35 NTL NTL SAFUC SAFUC
 [HIGH AIRWAY]
 UM791 ESMIG ESMIG OPNED OPNED
 UM791 OPNED OPNED KOGDA KOGDA
-UN873 NTL NTL IBAGA IBAGA
+UN873 NTL NTL SIRED SIRED
 UZ10 KOGDA KOGDA RUMBA RUMBA
 UZ10 RUMBA RUMBA NTL NTL
 UZ12 DADPU DADPU LOKIB LOKIB

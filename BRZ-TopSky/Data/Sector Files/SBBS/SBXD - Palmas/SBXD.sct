@@ -11,7 +11,8 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2012
+;DEC/2020 ICAO Airports and Rwy Update by Paulo Silvestre (1412379),
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +23,7 @@
 ;#####SBPJ#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXD APP by MATRIX AIRAC2012
+SBXD APP by MATRIX AIRAC2102
 SBXD_APP
 SBPJ
 S010.17.16.800
@@ -99,12 +100,12 @@ W048.21.30.598
 ;========================================AIRPORT FIR BRASILIA SBBS 2018=====================================================;
 [AIRPORT]
 SBPJ 0.000 S010.17.23.999 W048.21.28.000 C
-SBPN 0.000 S010.43.01.002 W048.24.01.000 C
+SDPE 0.000 S010.43.01.002 W048.24.01.000 C
 ;========================================AIRPORT FIR BRASILIA SBBS 2018=====================================================;
 ;========================================RUNWAY FIR BRASILIA SBBS 2018======================================================;									
 [RUNWAY]
 14 32 144 324 S010.17.07.101 W048.21.59.400 S010.17.52.101 W048.20.50.999 SBPJ BRIGADEIRO LYSIAS RODRIG
-05 23 055 235 S010.43.28.999 W048.24.12.999 S010.42.43.002 W048.23.40.999 SBPN PORTO NACIONAL
+05 23 055 235 S010.43.28.999 W048.24.12.999 S010.42.43.002 W048.23.40.999 SDPE PORTO NACIONAL
 ;========================================RUNWAY FIR BRASILIA SBBS 2018======================================================;									
 ;========================================ARTCC HIGH FIR BRASILIA SBBS 2018==================================================;
 [ARTCC HIGH]					
@@ -2467,12 +2468,13 @@ TOBKO S010.47.06.601 W048.49.16.201
 [SID]
 
 SBPJ_14_EGALE1 SBPJ SBPJ EGALE EGALE
-SBPJ_14_ISURO1 SBPJ SBPJ ISURO ISURO
-SBPJ_14_LIBEC1 SBPJ SBPJ LIBEC LIBEC
+SBPJ_14_ISURO1 SBPJ SBPJ PMS PMS
+PMS PMS ISURO ISURO
+SBPJ_14_LIBEC1 SBPJ SBPJ PMS PMS
+PMS PMS LIBEC LIBEC
 SBPJ_14_NOVOI1 SBPJ SBPJ NOVOI NOVOI
 SBPJ_14_OPLOP1 SBPJ SBPJ NOVOI NOVOI
 NOVOI NOVOI OPLOP OPLOP
-SBPJ_14_PNC1 SBPJ SBPJ PNC PNC
 SBPJ_14_SADOR1 SBPJ SBPJ SADOR SADOR
 SBPJ_32_EGALE1 SBPJ SBPJ EGALE EGALE
 SBPJ_32_ISURO1 SBPJ SBPJ ISURO ISURO
@@ -2480,7 +2482,6 @@ SBPJ_32_LIBEC1 SBPJ SBPJ LIBEC LIBEC
 SBPJ_32_NOVOI1 SBPJ SBPJ NOVOI NOVOI
 SBPJ_32_OPLOP1 SBPJ SBPJ NOVOI NOVOI
 NOVOI NOVOI OPLOP OPLOP
-SBPJ_32_PNC1 SBPJ SBPJ PNC PNC
 SBPJ_32_SADOR1 SBPJ SBPJ SADOR SADOR
 
 [STAR]
@@ -2524,12 +2525,12 @@ OBGOV OBGOV PJ041 PJ041
 PJ041 PJ041 PJ364 PJ364
 
 [LOW AIRWAY]
-G449 MOMDO MOMDO NOVOI NOVOI
-G449 NOVOI NOVOI PMS PMS
-G449 PMS PMS EGDOD EGDOD
-G449 EGDOD EGDOD LIBEC LIBEC
 Z72 OPNUP OPNUP SADOR SADOR
 Z72 SADOR SADOR PMS PMS
+Z84 MOMDO MOMDO NOVOI NOVOI
+Z84 NOVOI NOVOI PMS PMS
+Z84 PMS PMS EGDOD EGDOD
+Z84 EGDOD EGDOD LIBEC LIBEC
 
 
 [HIGH AIRWAY]

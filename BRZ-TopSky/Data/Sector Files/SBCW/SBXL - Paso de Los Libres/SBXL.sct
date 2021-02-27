@@ -11,7 +11,8 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2012
+;DEC/2020 ICAO Airports and Rwy Update by Paulo Silvestre (1412379),
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +23,7 @@
 ;#####SBUG#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXL APP by MATRIX AIRAC2012
+SBXL APP by MATRIX AIRAC2102
 SBXL_APP
 SBUG
 S029.47.09.851 
@@ -131,7 +132,7 @@ SUSO 0.000 S031.26.04.999 W057.59.03.001 C
 10 28 100 280 S029.12.37.000 W059.40.47.999 S029.12.37.000 W059.40.47.999 SATR RECONQUISTA
 01 19 010 190 S029.46.28.142 W057.58.34.827 S029.45.27.435 W057.57.34.757 SATU CURUZU CUATIA
 06 24 059 239 S031.23.42.702 W054.07.03.878 S031.23.08.998 W054.06.22.870 SBBG CMTE GUSTAVO KRAEMER
-11 29 114 294 S028.16.51.999 W054.10.39.900 S028.17.02.000 W054.09.41.299 SBNM SANTO ANGELO
+12 30 114 294 S028.16.51.999 W054.10.39.900 S028.17.02.000 W054.09.41.299 SBNM SANTO ANGELO
 02 20 015 195 S029.43.03.730 W053.41.21.080 S029.42.18.298 W053.41.18.459 SBSM SANTA MARIA
 11 29 105 285 S029.42.34.999 W053.42.15.001 S029.42.38.998 W053.40.35.000 SBSM SANTA MARIA
 09 27 095 275 S029.46.57.590 W057.02.43.799 S029.46.53.209 W057.01.48.158 SBUG RUBEM BERTA INTL

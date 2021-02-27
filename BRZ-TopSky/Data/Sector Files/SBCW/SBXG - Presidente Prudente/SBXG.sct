@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBDN#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXG APP by MATRIX AIRAC2012
+SBXG APP by MATRIX AIRAC2102
 SBXG_APP
 SBDN
 S022.10.41.998
@@ -5261,7 +5261,7 @@ PRR 225.000 S022.10.58.069 W051.22.25.921
 AKRAP S023.21.14.400 W051.04.09.599
 AKTIT S023.01.55.801 W050.28.11.399
 ALINE S021.24.34.200 W051.12.03.600
-ALIR S021.46.54.548 W050.07.29.701
+ALIR S021.46.54.599 W050.07.30.000
 AMANT S023.23.46.151 W050.56.31.538
 AMAYA S021.48.00.270 W051.13.25.331
 ANGEK S023.18.01.120 W051.59.28.388
@@ -5280,13 +5280,13 @@ AU007 S020.59.10.201 W050.20.03.599
 AU008 S021.03.34.801 W050.22.37.200
 AU009 S021.00.04.799 W050.13.43.201
 AU011 S020.53.53.401 W050.16.59.401
-AU012 S020.54.38.999 W050.24.17.399
-BREU S022.11.21.728 W050.24.50.951
+AU012 S020.54.38.999 W050.24.16.801
+BREU S022.11.21.599 W050.24.51.001
 BUTNA S020.51.34.200 W052.51.37.800
 BUVER S021.49.28.200 W049.53.60.000
 CAMBU S023.14.43.800 W051.23.31.200
 CEILA S023.16.56.280 W051.16.57.569
-CEPU S022.38.46.950 W049.55.10.099
+CEPU S022.38.46.799 W049.55.10.200
 CHARA S023.22.04.289 W051.01.38.381
 CS13 S023.16.26.710 W051.16.44.929
 D003J S023.10.37.988 W051.09.22.100

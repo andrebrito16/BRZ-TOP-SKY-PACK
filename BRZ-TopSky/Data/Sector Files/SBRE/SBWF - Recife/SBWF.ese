@@ -18,7 +18,7 @@
 ;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
 ;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES=========================================================================;
 ;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
 ;========================================DATA STRUCTURE==================================================================;
@@ -37,10 +37,9 @@ Atlantico Center:Atlantico Center:133.500:AO::SBAO:FSS:::2000:2000:S027.54.47.58
 Atlantico Air Defense :POSEIDON Atlantico Air Defense:133.850:POS:M:SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
 Ascension Island Military Radio:WIDEAWAKE Ascension Island Military Radio:126.200:WID:M:FHAW:TWR:::0120:0137:
 ;FIR AMAZONICA SBAZ
-Almeirim Radio:Monte Dourado Radio:125.700:TMD:R:SBMD:TWR:::0601:0677:
 Alta Floresta Radio:Floresta Radio:126.600:TAT:R:SBAT:TWR:::0601:0677:
 Altamira Radio:Altamira Radio:125.850:THT:R:SBHT:TWR:::0601:0677:
-Amazonica Approach:Amazonica Approach:119.250:WA::SBWA:APP:::6101:6140:
+Amazonica Approach:Amazonica Approach:119.100:WA::SBWA:APP:::6101:6140:
 Amazonic Center:Amazonic Center:133.700:AZ::SBAZ:CTR:::6001:6077:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
 Belem Approach:Belem Approach:119.050:WB::SBWB:APP:::6140:6177:
 Belem ATIS:Belem ATIS:127.600:ABE::SBBE:ATIS:::::
@@ -192,7 +191,7 @@ Bacacheri Tower:Bacacheri Tower:118.900:TBI::SBBI:TWR:::3301:3337:
 Barbacena Radio:Barbacena Radio:125.900:TBQ:R:SBBQ:TWR:::0240:0277:
 Bagé Radio:Bagé Radio:125.850:TBG:R:SBBG:TWR:::0240:0277:
 Bauru Approach:Bauru Approach:121.300:WU::SBWU:APP:::3101:3137:
-Bauru ATIS:Bauru ATIS:127.850:ABU::SBBU:ATIS:::::
+Bauru ATIS:Bauru ATIS:127.875:ABU::SBBU:ATIS:::::
 Bauru Tower:Bauru Tower:121.300:TBU::SBBU:TWR:::3101:3137:
 Bauru Arealva Radio:Arealva Radio:131.850:TAE:R:SBAE:TWR:::3101:3137:
 Bonito Radio:Bonito Radio:130.600:TDB:R:SBDB:TWR:::0240:0277:
@@ -217,6 +216,7 @@ Corumba Tower:Corumba Tower:119.200:TCR::SBCR:TWR:::3201:3237:
 Criciuma Radio:Criciuma Radio:131.950:TCM:R:SBCM:TWR:::0240:0277:
 Curitiba Approach:Curitiba Approach:119.950:WT::SBWT:APP:::3301:3337:S025.45.40.270:W049.06.22.919
 Curitiba ATIS:Curitiba ATIS:127.800:ACT::SBCT:ATIS:::::
+Curitiba Clearence Delivery:Curitiba Clearence Delivery:119.300:CCT::SBCT:DEL:::3301:3337:
 Curitiba Ground:Curitiba Ground:121.900:GCT::SBCT:GND:::3301:3337:
 Curitiba Tower:Curitiba Tower:118.150:TCT::SBCT:TWR:::3301:3337:
 Curitiba Center:Curitiba Center:126.750:CW::SBCW:CTR:::3001:3077:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
@@ -254,7 +254,7 @@ Londrina Approach:Londrina Approach:129.700:XO::SBXO:APP:::3401:3437:
 Londrina ATIS:Londrina ATIS:127.650:ALO::SBLO:ATIS:::::
 Londrina Tower:Londrina Tower:118.400:TLO::SBLO:TWR:::3401:3437:
 Macae Helicopter Approach:Macae Helicopter Approach:120.000:WEH:H:SBWE:APP:::0201:0237:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
-Macae Approach:Macae Approach:119.200:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae Approach:Macae Approach:121.500:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
 Macae ATIS:Macae ATIS:127.775:AME::SBME:ATIS:::::
 Macae Ground:Macae Ground:121.700:GME::SBME:GND:::3440:3477:
 Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
@@ -270,12 +270,12 @@ Passo Fundo Radio:Passo Fundo Radio:131.250:TPF:R:SBPF:TWR:::0240:0277:
 Pelotas Radio:Pelotas Radio:125.900:TPK:R:SBPK:TWR:::0240:0277:
 Ponta Pora Radio:Ponta Pora Radio:125.900:TPP:R:SBPP:TWR:::0240:0277:
 Porto Alegre Approach:Porto Alegre Approach:120.100:WP::SBWP:APP:::3501:3537:S029.39.39.449:W051.08.49.348
-Porto Alegre ATIS:Porto Alegre ATIS:127.850:APA::SBPA:ATIS:::::
+Porto Alegre ATIS:Porto Alegre ATIS:132.350:APA::SBPA:ATIS:::::
 Porto Alegre Clearence Delivery:Porto Alegre Clearence Delivery:122.150:CPA::SBPA:DEL:::3501:0157:
 Porto Alegre Ground:Porto Alegre Ground:121.900:GPA::SBPA:GND:::3501:3537:
 Porto Alegre Tower:Porto Alegre Tower:118.100:TPA::SBPA:TWR:::3501:3537:
 Porto Alegre Military Approach:TABA  Porto Alegre Military Approach:122.500:TAB:M:SBWP:APP:::0140:0157:
-Presidente Prudente Approach:Presidente Prudente Approach:118.450:XG::SBXG:APP:::3540:3577:
+Presidente Prudente Approach:Presidente Prudente Approach:125.450:XG::SBXG:APP:::3540:3577:
 Presidente Prudente Tower:Presidente Prudente Tower:118.500:TDN::SBDN:TWR:::3540:3577:
 Rio de Janeiro Approach:Rio de Janeiro Approach:119.000:WJ::SBWJ:APP:::3601:3677:
 Rio de Janeiro Final Approach:Rio de Janeiro Final Approach:119.350:WJF:F:SBWJ:APP:::3601:3677:
@@ -333,6 +333,7 @@ Maceio Tower:Maceio Tower:118.250:TMO::SBMO:TWR:::5240:5277:
 Mossoro Radio:Mossoro Radio:125.800:TMS:R:SBMS:TWR:::5701:5777:
 Natal Approach:Natal Approach:119.300:XT::SBXT:APP:::5301:5337:
 Natal Sao Gonçalo do Amarante ATIS:Natal Sao Gonçalo do Amarante ATIS:127.600:ASG::SBSG:ATIS:::::
+Natal Sao Gonçalo do Amarante Clearance Delivery:Natal Sao Gonçalo do Amarante Clearance Delivery:121.000:CSG::SBSG:DEL:::5301:5337:
 Natal Sao Gonçalo do Amarante Ground:Natal Sao Gonçalo do Amarante Ground:121.700:GSG::SBSG:GND:::5301:5337:
 Natal Sao Gonçalo do Amarante Tower:Natal Sao Gonçalo do Amarante Tower:118.200:TSG::SBSG:TWR:::5301:5337:
 Natal Military Approach:TUPÃ Natal Military Approach:120.650:TUP:M:SBXT:APP:::0140:0157:
@@ -346,8 +347,9 @@ Petrolina Radio:Petrolina Radio:125.700:TPL:R:SBPL:TWR:::5701:5777:
 Porto Seguro Approach:Porto Seguro Approach:120.900:WK::SBWK:APP:::5340:5377:
 Porto Seguro Tower:Porto Seguro Tower:118.850:TPS::SBPS:TWR:::5340:5377:
 Terravista Tower:Terravista Tower:131.400:TTV::SBTV:TWR:::5340:5377:
-Recife Approach:Recife Approach:119.500:WF::SBWF:APP:::5401:5477:
+Recife Approach:Recife Approach:120.400:WF::SBWF:APP:::5401:5477:
 Recife ATIS:Recife ATIS:127.650:ARF::SBRF:ATIS:::::
+Recife Clearance Delivery:Recife Clearence Delivery:118.900:CRF::SBRF:DEL:::5401:5477:
 Recife Ground:Recife Ground:121.850:GRF::SBRF:GND:::5401:5477:
 Recife Tower:Recife Tower:118.350:TRF::SBRF:TWR:::5401:5477:
 Recife Center:Recife Center:128.700:RE::SBRE:CTR:::5001:5077:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
@@ -402,7 +404,6 @@ Reservada 17:Reservada 17:136.600::17:ICAO:POS:::::
 Reservada 18:Reservada 18:136.700::18:ICAO:POS:::::
 Reservada 19:Reservada 19:136.800::19:ICAO:POS:::::
 Reservada 20:Reservada 20:136.900::20:ICAO:POS:::::
-;========================================POSITIONS/POSIÇÕES==============================================================;
 ;========================================AIRSPACE HIGH FIR RECIFE SBRE 2020==============================================;
 [AIRSPACE]
 ;SBRE-SBAO 2018
@@ -1874,6 +1875,7 @@ S007.59.19.120:W034.45.00.833:ATCMAC-WF:2000'
 ;========================================RADAR FIR RECIFE SBRE 2018======================================================;
 ;========================================SIDSSTARS FIR RECIFE SBRE ======================================================;
 
+
 [SIDSSTARS]
 SID:SBRF:18:ANDO1A:SBRF RF009 ANDOX
 SID:SBRF:18:ANDO1AxJPS:SBRF RF009 ANDOX JPS
@@ -1957,7 +1959,8 @@ STAR:SBRF:36:GENA1BxCPG:CPG GENAK RF011 RF014 RF003
 STAR:SBRF:36:GENA1BxILNOT:ILNOT GENAK RF011 RF014 RF003
 STAR:SBRF:36:GENA1BxSAFUC:SAFUC GENAK RF011 RF014 RF003
 STAR:SBRF:36:GENA1BxSEVIL:SEVIL GENAK RF011 RF014 RF003
-SID:SBJP:16:ANDAD:SBJP ANDAD REC
+SID:SBJP:16:ANDAD:SBJP ANDAD
+SID:SBJP:16:ANDADxREC:SBJP ANDAD REC
 SID:SBJP:16:GELE1A:SBJP GELEP
 SID:SBJP:16:GELE1AxREC1A:SBJP GELEP REC
 SID:SBJP:16:GELE1AxREC1B:SBJP GELEP ANDAD REC
@@ -1976,7 +1979,8 @@ SID:SBJP:16:UGIBO:SBJP UGIBO
 SID:SBJP:16:UGIBOxCPG:SBJP UGIBO CPG
 SID:SBJP:16:UGIBOxPAKIL:SBJP UGIBO PAKIL
 SID:SBJP:16:UGIBOxREC:SBJP UGIBO REC
-SID:SBJP:34:ANDAD:SBJP DER16 JPS ANDAD REC
+SID:SBJP:34:ANDAD:SBJP JPS ANDAD
+SID:SBJP:34:ANDADxREC:SBJP JPS ANDAD REC
 SID:SBJP:34:NTL1:SBJP JPS NTL
 SID:SBJP:34:PAKIL:SBJP PAKIL
 SID:SBJP:34:PAKILxCPG:SBJP PAKIL CPG

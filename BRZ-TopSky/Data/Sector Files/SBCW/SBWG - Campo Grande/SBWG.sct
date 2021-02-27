@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2012
+; Updated by Sectorgraph to AIRAC 2102
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBCG#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBWG APP by MATRIX AIRAC2012
+SBWG APP by MATRIX AIRAC2102
 SBWG_APP
 SBCG
 S020.29.00.600
@@ -117,7 +117,7 @@ SSZQ 0.000 S022.02.39.998 W056.16.06.999 C
 09 27 089 269 S019.00.48.999 W057.40.44.000 S019.00.34.380 W057.39.49.798 SBCR CORUMBA INTL
 18 36 181 001 S021.14.18.599 W056.27.16.801 S021.15.21.700 W056.27.00.010 SBDB BONITO
 12 30 115 295 S022.10.27.001 W051.26.07.000 S022.10.36.001 W051.24.53.999 SBDN PRESIDENTE PRUDENTE
-05 23 055 235 S022.12.23.839 W054.55.49.951 S022.11.43.198 W054.55.14.401 SBDO DOURADOS
+06 24 055 235 S022.12.23.839 W054.55.49.951 S022.11.43.198 W054.55.14.401 SBDO DOURADOS
 04 22 035 215 S022.33.17.999 W055.42.16.671 S022.32.27.999 W055.41.57.001 SBPP PONTA PORA INTL
 11 29 110 290 S020.55.33.333 W051.23.14.085 S020.55.33.362 W051.22.13.576 SDDN ANDRADINA
 09 27 090 270 S021.27.16.660 W051.36.22.093 S021.27.16.538 W051.35.21.613 SDDR DRACENA
@@ -6329,7 +6329,7 @@ KIGIL S020.17.50.399 W054.24.51.001
 KOLRA S020.35.47.400 W054.47.44.401
 KOXAL S019.20.07.800 W055.01.12.000
 KUGAN S019.20.30.001 W053.01.04.199
-LITOK S022.17.01.799 W055.51.29.999
+LITOK S022.17.01.792 W055.51.30.049
 MEXEP S020.21.28.199 W054.14.42.000
 ML06 S020.29.07.372 W054.41.19.831
 MORA S022.29.23.179 W054.55.04.130
