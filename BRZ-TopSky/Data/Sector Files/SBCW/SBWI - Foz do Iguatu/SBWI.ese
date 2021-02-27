@@ -1,0 +1,4567 @@
+;========================================VIRTUAL AIR TRAFFIC SIMULATION NETWORK - BRAZIL================================;
+;Lista Oficial de Posições de Controle Brasileiras - POF - Fevereiro 2020
+;Position File Oficial  Vatsim Brasil - February 2020
+;========================================CHANGE HISTORY / HISTÓRICO DE MUDANÇAS=========================================;
+;Original VATBRZ POF file created by Wills Damasio;                                            
+;FIR Curitiba V1.4 01/10/04 by Guilherme Utz, Fernando Francesconi and Geraldo Velásquez;
+;FIR Brasilia by David Hendleman, Mike Evans;
+;FIR Recife by Eduardo Andrade , Wills Damasio and Ragazzi;
+;FIR Amazônica V1.0 29/04/2005 por José Hélio Possebon and Alan Zeidan;
+;Updated to 3.0 on 20/05/07 by Fernando Francesconi;
+;Updated to 3.1 on 25/10/07 by Gabriel Dálio and Fernando Francesconi;
+;Updated to V4 on 11/05/2012 by Jose Olyntho (816398) and Marcelo Duran (1176670);
+;Updated to V6 on Dec/2012 by Jose Olyntho (816398), Marcelo Duran (1176670) e Roberto Tonin;
+;Updated to V8 on jul/2013 by Jose Olyntho (816398);
+;Updated to AIRAC 1401 on jan/2014 by Marcos Pereira (963126) and Jose Olyntho (816398);
+;Updated to AIRAC 1808 on jul/2018 by Otávio França (1086430);
+;Updated to AIRAC 1812 on dez/2018 by Otávio França (1086430);
+;Updated FEB/2020 by Otávio França (1086430);
+;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
+;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
+; Updated by Sectorgraph to AIRAC 2012
+;========================================UPDATES / ATUALIZAÇÕES==========================================================;
+;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;========================================DATA STRUCTURE / ESTRUTURA DE DADOS=============================================;
+; 1- POF - NAME|RNAME|FREQ|SECID|ARTSTAG|CALLPREFIX|CALLSUFFIX|LINE1|LINE2|LSQUAWK|HSQUAWK|<optional VISIBILITY>
+; 2- AIRSPACE; 5- FREE TEXT; 6-SIDSSTARS; 
+;========================================"SECID" DEVELOPMENT RATIONALE / LEI DE FORMAÇÃO "SECID"=========================;
+; ATIS = A + <xx FINAL ICAO>,
+; GND  = G + <xx FINAL ICAO>,
+; TWR  = T + <xx FINAL ICAO>,
+; MIL  = COD.CHAMADA <xxx ou xxxx> ou M + <xx FINAL ICAO> e 
+; APP e CTR = <xx FINAL ICAO DA TMA> + x <DESIGNADOR DE SETOR>
+;========================================POSITIONS/POSIÇÕES==============================================================;
+[POSITIONS]
+;FIR ATLANTICO SBAO
+Atlantico Center:Atlantico Center:133.500:AO::SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Atlantico Air Defense :POSEIDON Atlantico Air Defense:133.850:POS:M:SBAO:FSS:::2000:2000:S027.54.47.581:W037.43.7.287:S025.56.54.473:W017.44.51.214:S012.45.25.186:W021.50.39.461:N000.55.7.614:W032.58.10.594
+Ascension Island Military Radio:WIDEAWAKE Ascension Island Military Radio:126.200:WID:M:FHAW:TWR:::0120:0137:
+;FIR AMAZONICA SBAZ
+Almeirim Radio:Monte Dourado Radio:125.700:TMD:R:SBMD:TWR:::0601:0677:
+Alta Floresta Radio:Floresta Radio:126.600:TAT:R:SBAT:TWR:::0601:0677:
+Altamira Radio:Altamira Radio:125.850:THT:R:SBHT:TWR:::0601:0677:
+Amazonica Approach:Amazonica Approach:119.250:WA::SBWA:APP:::6101:6140:
+Amazonic Center:Amazonic Center:133.700:AZ::SBAZ:CTR:::6001:6077:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Belem Approach:Belem Approach:119.050:WB::SBWB:APP:::6140:6177:
+Belem ATIS:Belem ATIS:127.600:ABE::SBBE:ATIS:::::
+Belem Ground:Belem Ground:121.900:GBE::SBBE:GND:::6640:6657:
+Belem Tower:Belem Tower:118.700:TBE::SBBE:TWR:::6140:6177:
+Belem Military Approach:BABE Belem Military Approach:122.500:MWB:M:SBWB:APP:::0140:0157:
+Belem Military Ground:Belem Military Ground:121.950:MGE:M:SBBE:GND:::0101:0117:
+Belem Military Tower:Belem Military Tower:121.500:MBE:M:SBBE:TWR:::0120:0137:
+Boa Vista Approach:Boa Vista Approach:120.100:WQ::SBWQ:APP:::6201:6237:
+Boa Vista Ground:Boa Vista Ground:121.700:GBV::SBBV:GND:::6660:6677:
+Boa Vista Tower:Boa Vista Tower:118.100:TBV::SBBV:TWR:::6201:6237:
+Boa Vista Military Approach:Boa Vista Military Approach:122.500:MWQ:M:SBWQ:APP:::0140:0157:
+Boa Vista Military Ground:Boa Vista Military Ground:121.950:MGB:M:SBBV:GND:::0101:0117:
+Boa Vista Military Tower:Boa Vista Military Tower:121.500:MBV:M:SBBV:TWR:::0120:0137:
+Cachimbo Military Radio:Cachimbo Military Radio:125.900:CCM:M:SBCC:TWR:::0120:0137:
+Carajas Radio:Carajas Radio:131.700:TCJ:R:SBCJ:TWR:::0601:0677:
+Carolina Radio:Carolina Radio:126.600:TCI:R:SBCI:TWR:::0601:0677:
+Coari Radio:Urucu Radio:131.850:TUY:R:SBUY:TWR:::0601:0677:
+Conceição do Araguaia Radio:Conceicao Radio:125.700:TAA:R:SBAA:TWR:::0601:0677:
+Cruzeiro do Sul Radio:Cruzeiro Radio:125.700:TCZ:R:SBCZ:TWR:::0601:0677:
+Cuiaba Approach:Cuiaba Approach:119.400:WY::SBWY:APP:::6240:6277:
+Cuiaba ATIS:Cuiaba ATIS:127.850:ACY::SBCY:ATIS:::::
+Cuiaba Ground:Cuiaba Ground:121.900:GCY::SBCY:GND:::6701:6717:
+Cuiaba Tower:Cuiaba Tower:118.100:TCY::SBCY:TWR:::6240:6277:
+Guajara Mirim Radio:Guajara Mirim Radio:125.900:TGM:R:SBGM:TWR:::0601:0677:
+Imperatriz Radio:Imperatriz Radio:125.650:TIZ:R:SBIZ:TWR:::0601:0677:
+Itacoatiara Radio:Itacoatiara Radio:126.600:TIC:R:SBIC:TWR:::0601:0677:
+Itaituba Radio:Itaituba Radio:125.500:TIH:R:SBIH:TWR:::0601:0677:
+Jacareacanga Radio:Jacareacanga Radio:125.900:TEK:R:SBEK:TWR:::0601:0677:
+JiParana Radio:JiParana Radio:131.750:TJI:R:SBJI:TWR:::0601:0677:
+Julio Cesar Tower:Julio Cesar Tower:118.300:TJC::SBJC:TWR:::6760:6766:
+Macapa Approach:Macapa Approach:119.000:XK::SBXK:APP:::6301:6337:
+Macapa Tower:Macapa Tower:118.000:TMQ::SBMQ:TWR:::6301:6337:
+Manaus Approach:Manaus Approach:119.250:WN::SBWN:APP:::6340:6377:
+Manaus Eduardo Gomes ATIS:Manaus Eduardo Gomes ATIS:127.650:AEG::SBEG:ATIS:::::
+Manaus Eduardo Gomes Ground:Manaus Eduardo Gomes Ground:121.900:GEG::SBEG:GND:::6720:6737:
+Manaus Eduardo Gomes Tower:Manaus Eduardo Gomes Tower:118.300:TEG::SBEG:TWR:::6340:6377:
+Manaus Ponta Pelada Tower:Manaus Ponta Pelada Tower:118.100:TMN::SBMN:TWR:::6720:6737:
+Manaus Air Defense:GOLIAS Manaus Air Defense :132.500:GOL:M:SBAZ:CTR:::0160:0177:S005.02.40.748:W067.07.05.094:S000.31.44.491:W058.18.02.474:S002.30.15.433:W047.35.31.980:S010.58.54.634:W057.08.59.443
+Manaus Military Approach:TUCANO Manaus Military Approach:122.800:TUC:M:SBWN:APP:::0140:0157:
+Manaus Ponta Pelada Military Tower:TAPIRI Manaus Military Tower:118.100:TAP:M:SBEG:TWR:::0120:0137:
+Manicore Radio:Manicore Radio:125.9000:TMY:R:SBMY:TWR:::0601:0677:
+Maraba Approach:Maraba Approach:119.200:XJ::SBXJ:APP:::6401:6437:
+Maraba Tower:Maraba Tower:125.900:TMA::SBMA:TWR:::6401:6437:
+Oiapoque Radio:Oiapoque Radio:125.900:TOI:R:SBOI:TWR:::0601:0677:
+Porto Velho Approach:Porto Velho Approach:120.250:WV::SBWV:APP:::6440:6477:
+Porto Velho Tower:Porto Velho Tower:118.200:TPV::SBPV:TWR:::6440:6477:
+Porto Velho Military Tower:BALANIS  Porto Velho Military Tower:122.500:PVM:M:SBPV:TWR:::0120:0137:
+Rio Branco Approach:Rio Branco Approach:119.900:XB::SBXB:APP:::6501:6537:
+Rio Branco Tower:Rio Branco Tower:118.700:TRB::SBRB:TWR:::6501:6537:
+Rondonopolis Radio:Rondonopolis Radio:130.700:TRD:R:SBRD:TWR:::0601:0677:
+Santarem Approach:Santarem Approach:119.300:WX::SBWX:APP:::6540:6577:
+Santarem Tower:Santarem Tower:118.100:TSN::SBSN:TWR:::6540:6577:
+Sao Gabriel da Cachoeira Radio:Gabriel Radio:125.700:TUA:R:SBUA:TWR:::0601:0677:
+Sao Luiz Approach:Sao Luiz Approach:119.100:WS::SBWS:APP:::6601:6637:
+Sao Luiz Tower:Sao Luiz Tower:118.900:TSL::SBSL:TWR:::6601:6637:
+Sinop Radio:Sinop Radio:130.175:TSI:R:SWSI:TWR:::0601:0677:
+Sorriso Radio:Sorriso Radio:130.350:TSO:R:SBSO:TWR:::0601:0677:
+Tabatinga Tower:Tabatinga Tower:125.900:TTT::SBTT:TWR:::6740:6757:
+Tarauaca Radio:Tarauaca Radio:125.900:TTK:R:SBTK:TWR:::0601:0677:
+Tefe Radio:Tefe Radio:125.600:TTF:R:SBTF:TWR:::0601:0677:
+Tirios Radio:Tirios Radio:128.100:TTS:R:SBTS:TWR:::0601:0677:
+Trombetas Radio:Trombetas Radio:131.600:TTB:R:SBTB:TWR:::0601:0677:
+Tucurui Radio:Tucurui Radio:128.100:TTU:R:SBTU:TWR:::0601:0677:
+Vilhena Radio:Vilhena Radio:125.900:TVH:R:SBVH:TWR:::0601:0677:
+;FIR BRASILIA SBBS
+Academia Approach:Academia Approach:120.100:XQ::SBXQ:APP:::4101:4137:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia ATIS:Academia ATIS:127.700:AYS::SBYS:ATIS:::::
+Academia Ground:Academia Ground:121.900:GYS::SBYS:GND:::4140:4157:
+Academia Tower:Academia Tower:118.300:TYS::SBYS:TWR:::4101:4137:
+Academia Military Approach:POLARIS Academia Military Approach:122.400:POL:M:SBXQ:APP:::0140:0157:S021.15.50.725:W048.30.43.736:S021.57.16.137:W047.23.14.704
+Academia Military Ground:CANOPUS Academia Military Ground:121.850:CAN:M:SBYS:GND:::0101:0117:
+Academia Military Tower:CAPELA Academia Military Tower:126.300:CAP:M:SBYS:TWR:::0120:0137:
+Americana Tower:Americana Tower:135.025:TAI::SDAI:TWR:::4701:4737:
+Anapolis Approach:Anapolis Approach:120.550:XN::SBXN:APP:::4201:4237:
+Anapolis Military Approach:Anapolis Military Approach:133.000:XNM:M:SBXN:APP:::0140:0157:
+Anapolis Military Ground:Anapolis Military Ground:121.900:GAM:M:SBAN:GND:::0101:0117:
+Anapolis Military Tower:Anapolis Military Tower:118.300:TAM:M:SBAN:TWR:::0120:0137:
+Araraquara Tower:Araraquara Tower:131.600:TAQ::SBAQ:TWR:::4160:4177:
+Araxa Radio:Araxa Radio:130.350:TAX:R:SBAX:TWR:::4740:4777:
+Barra do Garcas Radio:Barra do Garcas Radio:125.900:TBW:R:SBBW:TWR:::4740:4777:
+Belo Horizonte Approach:Belo Horizonte Approach:129.100:WH::SBWH:APP:::4301:4337:
+Belo Horizonte Carlos Prates ATIS:Carlos Prates ATIS:127.850:APR::SBPR:ATIS:::::
+Belo Horizonte Carlos Prates Tower:Carlos Prates Tower:125.850:TPR::SBPR:TWR:::4260:4277:
+Belo Horizonte Pampulha ATIS:Pampulha ATIS:127.450:ABH::SBBH:ATIS:::::
+Belo Horizonte Pampulha Clearance Delivery:Pampulha Clearence Delivery:121.100:CBH::SBBH:DEL:::4301:4377:
+Belo Horizonte Pampulha Ground:Pampulha Ground:121.600:GBH::SBBH:GND:::4360:4377:
+Belo Horizonte Pampulha Tower:Pampulha Tower:118.000:TBH::SBBH:TWR:::4301:4337:
+Belo Horizonte Tancredo Neves ATIS:Confins ATIS:127.850:ACF::SBCF:ATIS:::::
+Belo Horizonte Tancredo Neves Clearance:Confins Clearance:121.000:CCF::SBCF:DEL:::4301:4377:
+Belo Horizonte Tancredo Neves Ground:Confins Ground:121.900:GCF::SBCF:GND:::4340:4357:
+Belo Horizonte Tancredo Neves Tower:Confins Tower:118.200:TCF::SBCF:TWR:::4301:4337:
+Braganca Paulista:Braganca Paulista:125.700:TBP::SBBP:TWR:::4701:4737:
+Brasilia Approach:Brasilia Approach:119.200:WR::SBWR:APP:::4401:4437:
+Brasilia ATIS:Brasilia ATIS:127.800:ABR::SBBR:ATIS:::::
+Brasilia Clearence Delivery:Brasilia Clearence Delivery:121.000:CBR::SBBR:DEL:::4401:4477:
+Brasilia Ground:Brasilia Ground:121.800:GBR::SBBR:GND:::4440:4457:
+Brasilia Tower:Brasilia Tower:118.100:TBR::SBBR:TWR:::4401:4437:
+Brasilia Center:Brasilia Center:134.000:BS::SBBS:CTR:::4001:4077:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Air Defense:ZEUS Brasilia Air Defense:133.100:ZEU:M:SBBS:CTR:::0160:0177:S014.44.47.455:W049.26.00.706:S019.27.09.161:W045.40.28.259
+Brasilia Military Approach:SIGMA Brasilia Military Approach:134.550:SIG:M:SBWR:APP:::0140:0157:
+Brasilia Military Ground:CERRADO Brasilia Military Ground:121.950:CRR:M:SBBR:GND:::0101:0117:
+Brasilia Military Tower:PLANALTO Brasilia Military Tower:129.000:PNT:M:SBBR:TWR:::0120:0137:
+Caldas Novas Radio:Caldas Novas Radio:130.050:TCN:R:SBCN:TWR:::4740:4777:
+Campinas ATIS:Campinas ATIS:127.825:AKP::SBKP:ATIS:::::
+Campinas Clearence Delivery:Campinas Clearence Delivery:121.100:CKP::SBKP:DEL:::4701:4737:
+Campinas Ground:Campinas Ground:121.900:GKP::SBKP:GND:::4701:4737:
+Campinas Tower:Campinas Tower:118.250:TKP::SBKP:TWR:::4701:4737:
+Gaviao Peixoto Tower:Gaviao Peixoto Tower:118.950:TGP::SBGP:TWR:::4160:4177:
+Gaviao Peixoto Ground:Gaviao Peixoto Ground:121.800:GGP::SBGP:GND:::4160:4177:
+Goiania ATIS:Goiania ATIS:127.675:AGO::SBGO:ATIS:::::
+Goiania Clearence Delivery:Goiania Clearence Delivery:121,050:CGO::SBGO:DEL:::4201:4277:
+Goiania Ground:Goiania Ground:121.700:GGO::SBGO:GND:::4240:4257:
+Goiania Tower:Goiania Tower:118.700:TGO::SBGO:TWR:::4201:4237:
+Ipatinga Radio:Ipatinga Radio:130.000:TIP:R:SBIP:TWR:::4740:4777:
+Itumbiara Radio:Itumbiara Radio:130.300:TIT:R:SBIT:TWR:::4740:4777:
+Jundiai Ground:Jundiai Ground:121.650:GJD::SBJD:GND:::4760:4777:
+Jundiai Tower:Jundiai Tower:118.750:TJD::SBJD:TWR:::4760:4777:
+Lagoa Santa Tower:Lagoa Santa Tower:122.800:TLS::SBLS:TWR:::4260:4277:
+Montes Claros Radio:Montes Claros Radio:131.700:TMK:R:SBMK:TWR:::4740:4777:
+Palmas Approach:Palmas Approach:119.000:XD::SBXD:APP:::4501:4537:
+Palmas Tower:Palmas Tower:118.000:TPJ::SBPJ:TWR:::4501:4537:
+Pocos de Caldas Radio:Pocos de Caldas Radio:126.600:TPC:R:SBPC:TWR:::4740:4777:
+Ribeirao Preto ATIS:Ribeirao ATIS:127.425:ARP::SBRP:ATIS:::::
+Ribeirao Preto Ground:Ribeirao Ground:121.600:GRP::SBRP:GND:::4140:4157:
+Ribeirao Preto Tower:Ribeirao Tower:118.000:TRP::SBRP:TWR:::4140:4157:
+Sao Jose dos Campos Atis:Sao Jose dos Campos Atis:127.925:ASJ::SBSJ:ATIS:::::
+Sao Jose dos Campos Clearence Delivery:Sao Jose dos Campos Clearence Delivery:122.500:CSJ::SBSJ:DEL:::4640:4677:
+Sao Jose dos Campos Ground:Sao Jose dos Campos Ground:121.950:GSJ::SBSJ:GND:::4640:4677:
+Sao Jose dos Campos Tower:Sao Jose dos Campos Tower:118.500:TSJ::SBSJ:TWR:::4640:4677:
+Sao Jose do Rio Preto Radio:Rio Preto Radio:130.850:TSR:R:SBSR:TWR:::4740:4777:
+Uberaba Approach:Uberaba Approach:120.800:XU::SBXU:APP:::4540:4577:
+Uberaba Tower:Uberaba Tower:118.500:TUR::SBUR:TWR:::4540:4577:
+Uberlandia Approach:Uberlandia Approach:122.850:XW::SBXW:APP:::4601:4637:
+Uberlandia Tower:Uberlandia Tower:118.800:TUL::SBUL:TWR:::4601:4637:
+Varginha Radio:Varginha Radio:130.800:TVG:R:SBVG:TWR:::4740:4777:
+;FIR CURITIBA SBCW
+Afonsos Military Ground:Afonsos Military Ground:121.850:GAF:M:SBAF:GND:::0101:0117:
+Afonsos Military Tower:BUTANTÃ Afonsos Military Tower:118.900:BUT:M:SBAF:TWR:::0120:0137:
+Albacora Helicopter ATIS:Albacora Helicopter ATIS:131.975:ALB:H:SBLB:ATIS:::::
+Albacora Helicopter Radio:Albacora Helicopter Radio:131.975:TLB:H:SBLB:TWR:::0201:0237:
+Aldeia Approach:Aldeia Military Approach:119.450:ALC:M:SBES:APP:::0140:0157:
+Aldeia Military Ground:Aldeia Military Ground:121.900:ALG:M:SBES:GND:::0101:0117:
+Aldeia Military Tower:Aldeia Military Tower:122.800:ALM:M:SBES:TWR:::0120:0137:
+Aracatuba Radio:Aracatuba Radio:118.300:TAU:R:SBAU:TWR:::0240:0277:
+Bacacheri ATIS:Bacacheri ATIS:132.325:ABI::SBBI:ATIS:::::
+Bacacheri Ground:Bacacheri Ground:121.800:GBI::SBBI:GND:::3301:3337:
+Bacacheri Tower:Bacacheri Tower:118.900:TBI::SBBI:TWR:::3301:3337:
+Barbacena Radio:Barbacena Radio:125.900:TBQ:R:SBBQ:TWR:::0240:0277:
+Bagé Radio:Bagé Radio:125.850:TBG:R:SBBG:TWR:::0240:0277:
+Bauru Approach:Bauru Approach:121.300:WU::SBWU:APP:::3101:3137:
+Bauru ATIS:Bauru ATIS:127.850:ABU::SBBU:ATIS:::::
+Bauru Tower:Bauru Tower:121.300:TBU::SBBU:TWR:::3101:3137:
+Bauru Arealva Radio:Arealva Radio:131.850:TAE:R:SBAE:TWR:::3101:3137:
+Bonito Radio:Bonito Radio:130.600:TDB:R:SBDB:TWR:::0240:0277:
+Cabo Frio Tower:Cabo Frio Tower:132.150:TCB::SBCB:TWR:::3640:3677:
+Cacador Radio:Cacador Radio:130.050:TCD:R:SBCD:TWR:::0240:0277:
+Campo Grande Approach:Campo Grande Approach:119.350:WG::SBWG:APP:::3140:3177:
+Campo Grande ATIS:Campo Grande ATIS:127.600:ACG::SBCG:ATIS:::::
+Campo Grande Ground:Campo Grande Ground:121.900:GCG::SBCG:GND:::3140:3177:
+Campo Grande Tower:Campo Grande Tower:118.100:TCG::SBCG:TWR:::3140:3177:
+Campo Grande Military Approach:BANDEIRANTE Campo Grande Military Approach:122.500:BAN:M:SBWG:APP:::0140:0157:
+Campo Grande Military Ground:Campo Grande Military Ground:121.950:MGG:M:SBCG:GND:::0101:0117:
+Campo Grande Military Tower:Campo Grande Military Tower:121.500:MCG:M:SBCG:TWR:::0120:0137:
+Farol de São Tomé Helicopter Tower:Farol de São Tomé Helicopter Tower:131.300:TFS:H:SBFS:TWR:::0201:0237:
+Campos dos Goitacazes Tower:Campos dos Goitacazes Tower:125.700:TCP::SBCP:TWR:::3440:3477:
+Canoas Mil Ground:Canoas Mil Ground:121.700:PAR:M:SBCO:GND:::0101:0117:
+Canoas Mil Tower:CORUJA  Canoas Mil Tower:118.500:COR:M:SBCO:TWR:::0120:0137:
+Cascavel Radio:Cascavel Radio:131.850:TCA:R:SBCA:TWR:::0240:0277:
+Caxias do Sul Tower:Caxias do Sul Tower:131.600:TCX::SBCX:TWR:::3501:3537:
+Chapeco Radio:Chapeco Radio:130.850:TCH:R:SBCH:TWR:::0240:0277:
+Corumba Approach:Corumba Approach:119.500:WC::SBWC:APP:::3201:3237:
+Corumba Tower:Corumba Tower:119.200:TCR::SBCR:TWR:::3201:3237:
+Criciuma Radio:Criciuma Radio:131.950:TCM:R:SBCM:TWR:::0240:0277:
+Curitiba Approach:Curitiba Approach:119.950:WT::SBWT:APP:::3301:3337:S025.45.40.270:W049.06.22.919
+Curitiba ATIS:Curitiba ATIS:127.800:ACT::SBCT:ATIS:::::
+Curitiba Ground:Curitiba Ground:121.900:GCT::SBCT:GND:::3301:3337:
+Curitiba Tower:Curitiba Tower:118.150:TCT::SBCT:TWR:::3301:3337:
+Curitiba Center:Curitiba Center:126.750:CW::SBCW:CTR:::3001:3077:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Curitiba Air Defense:THOR Curitiba Air Defense:133.600:THR:M:SBCW:CTR:::0160:0177:S020.54.49.065:W054.00.15.799:S024.18.07.025:W044.02.22.903:S026.48.33.240:W051.03.07.479:S030.46.08.679:W052.10.53.918
+Dourados Radio:Dourados Radio:130.100:TDO:R:SBDO:TWR:::0240:0257:
+Enchova Helicopter Radio:Enchova Helicopter Radio:130.300:TEC:H:SBEC:TWR:::0201:0237:
+Florianopolis Approach:Florianopolis Approach:119.650:XF::SBXF:APP:::3340:3377:S027.18.11.293:W048.32.21.920
+Florianopolis ATIS:Florianopolis ATIS:127.450:AFL::SBFL:ATIS:::::
+Florianopolis Ground:Florianopolis Ground:121.700:GFL::SBFL:GND:::3340:3377:
+Florianopolis Tower:Florianopolis Tower:118.700:TFL::SBFL:TWR:::3340:3377:
+Florianopolis Military Approach:Florianopolis Military Approach:119.650:MXF:M:SBXF:APP:::0140:0157:
+Florianopolis Military Ground:Florianopolis Military Ground:121.700:MGF:M:SBFL:GND:::0101:0117:
+Florianopolis Military Tower:Florianopolis Military Tower:118.700:MFL:M:SBFL:TWR:::0120:0137:
+Foz do Iguacu Approach:Foz do Iguacu Approach:120.300:WI::SBWI:APP:::3240:3277:
+Foz do Iguacu Tower:Foz do Iguacu Tower:118.800:TFI::SBFI:TWR:::3240:3277:
+Galeao ATIS:Galeao ATIS:127.600:AGL::SBGL:ATIS:::::
+Galeao Clearence Delivery:Galeao Clearence Delivery:121.000:CGL::SBGL:DEL:::3601:3637:
+Galeao Ground:Galeao Ground:121.650:GGL::SBGL:GND:::3601:3637:
+Galeao Tower:Galeao Tower:118.200:TGL::SBGL:TWR:::3601:3637:
+Guarapuava Radio:Guarapuava Radio:130.750:TGU:R:SBGU:TWR:::0240:0277:
+Guaratingueta Military Approach:Guaratingueta Military Approach:120.150:AGW:M:SBGW:APP:::0140:0157:
+Guaratingueta Military Tower:Guaratingueta Military Tower:118.150:TGW:M:SBGW:TWR:::0120:0137:
+Guarulhos ATIS:Guarulhos ATIS:127.750:AGR::SBGR:ATIS:::::
+Guarulhos Clearence Delivery:Guarulhos Clearence Delivery:121.000:CGR::SBGR:DEL:::3701:3777:
+Guarulhos Ground:Guarulhos Ground:121.700:GGR::SBGR:GND:::3701:3777:
+Guarulhos Tower:Guarulhos Tower:132.750:TGR::SBGR:TWR:::3701:3777:
+Jacarepagua Ground:Jacarepagua Ground:121.600:GJR::SBJR:GND:::3640:3677:
+Jacarepagua Tower:Jacarepagua Tower:118.400:TJR::SBJR:TWR:::3640:3677:
+Joinville Tower:Joinville Tower:118.000:TJV::SBJV:TWR:::3360:3377:
+Juiz de Fora Radio:Juiz de Fora Radio:128.100:TJF:R:SBJF:TWR:::0240:0277:
+Juiz de Fora:Juiz de Fora:130.100:TZM:R:SBZM:TWR:::0240:0277:
+Lajes Radio:Lajes Radio:132.150:TLJ:R:SBLJ:TWR:::0240:0277:
+Paso de Los Libres Approach:Paso de Los Libres Approach:120.300:XL::SBXL:APP:::3201:3237:
+Londrina Approach:Londrina Approach:129.700:XO::SBXO:APP:::3401:3437:
+Londrina ATIS:Londrina ATIS:127.650:ALO::SBLO:ATIS:::::
+Londrina Tower:Londrina Tower:118.400:TLO::SBLO:TWR:::3401:3437:
+Macae Helicopter Approach:Macae Helicopter Approach:120.000:WEH:H:SBWE:APP:::0201:0237:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae Approach:Macae Approach:119.200:WE::SBWE:APP:::3440:3477:S022.07.22.627:W041.26.45.666:S022.28.00.185:W040.07.53.610
+Macae ATIS:Macae ATIS:127.775:AME::SBME:ATIS:::::
+Macae Ground:Macae Ground:121.700:GME::SBME:GND:::3440:3477:
+Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
+Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
+Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
+Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
+Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
+Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
+Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
+Navegantes ATIS:Navegantes ATIS:127.625:ANF::SBNF:ATIS:::::
+Navegantes Tower:Navegantes Tower:118.200:TNF::SBNF:TWR:::3340:3377:
+Passo Fundo Radio:Passo Fundo Radio:131.250:TPF:R:SBPF:TWR:::0240:0277:
+Pelotas Radio:Pelotas Radio:125.900:TPK:R:SBPK:TWR:::0240:0277:
+Ponta Pora Radio:Ponta Pora Radio:125.900:TPP:R:SBPP:TWR:::0240:0277:
+Porto Alegre Approach:Porto Alegre Approach:120.100:WP::SBWP:APP:::3501:3537:S029.39.39.449:W051.08.49.348
+Porto Alegre ATIS:Porto Alegre ATIS:127.850:APA::SBPA:ATIS:::::
+Porto Alegre Clearence Delivery:Porto Alegre Clearence Delivery:122.150:CPA::SBPA:DEL:::3501:0157:
+Porto Alegre Ground:Porto Alegre Ground:121.900:GPA::SBPA:GND:::3501:3537:
+Porto Alegre Tower:Porto Alegre Tower:118.100:TPA::SBPA:TWR:::3501:3537:
+Porto Alegre Military Approach:TABA  Porto Alegre Military Approach:122.500:TAB:M:SBWP:APP:::0140:0157:
+Presidente Prudente Approach:Presidente Prudente Approach:118.450:XG::SBXG:APP:::3540:3577:
+Presidente Prudente Tower:Presidente Prudente Tower:118.500:TDN::SBDN:TWR:::3540:3577:
+Rio de Janeiro Approach:Rio de Janeiro Approach:119.000:WJ::SBWJ:APP:::3601:3677:
+Rio de Janeiro Final Approach:Rio de Janeiro Final Approach:119.350:WJF:F:SBWJ:APP:::3601:3677:
+Rio de Janeiro Helicopter Approach:Rio de Janeiro Helicopter Approach:123.900:WJH:H:SBWJ:APP:::0201:0237:
+Rio de Janeiro Visual Approach :Rio de Janeiro Visual Approach :121.350:WJV:V:SBWJ:APP:::0201:0217:
+Santa Cruz Military Approach:Santa Cruz Military Approach:132.500:SCR:M:SBSC:APP:::0140:0157:
+Santa Cruz Military Atis:Santa Cruz Military Atis:127.600:ASC:M:SBSC:ATIS:::::
+Santa Cruz Military Ground:ZEPELIN Santa Cruz Military Ground:121.800:ZEP:M:SBSC:GND:::0101:0117:
+Santa Cruz Military Tower:PRIMAV Santa Cruz Military Tower:118.800:PRI:M:SBSC:TWR:::0120:0137:
+Santa Maria Approach:Santa Maria Approach:119.350:WM::SBWM:APP:::3540:3577:
+Santa Maria ATIS:Santa Maria ATIS:127.750:ASM::SBSM:ATIS:::::
+Santa Maria Tower:Santa Maria Tower:118.300:TSM::SBSM:TWR:::3540:3577:
+Santa Maria Military Tower:Santa Maria Military Tower:122.800:MSM:M:SBSM:TWR:::0120:0137:
+Santo Angelo Radio:Santo Angelo Radio:131.650:TNM:R:SBNM:TWR:::0240:0277:
+Santos Dumont ATIS:Santos Dumont ATIS:132.650:ARJ::SBRJ:ATIS:::::
+Santos Dumont Clearence Delivery:Rio Clearence Delivery:121.050:CRJ::SBRJ:DEL:::3640:3677:
+Santos Dumont Ground:Santos Dumont Ground:121.700:GRJ::SBRJ:GND:::3640:3677:
+Santos Dumont Tower:Santos Dumont Tower:118.700:TRJ::SBRJ:TWR:::3640:3677:
+Santos Military Tower:Santos Military Tower:118.300:TST:M:SBST:TWR:::0120:0137:
+Sao Paulo Approach:Sao Paulo Approach:134.900:XP::SBXP:APP:::3701:3777:
+Sao Paulo Approach:Sao Paulo Final Approach:119.600:XPF:F:SBXP:APP:::3701:3777:
+Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:APP:::0201:0237:
+Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
+Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
+Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
+Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
+Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
+Toledo Radio:Toledo Radio:131.050:TTD:R:SBTD:TWR:::0240:0277:
+Torres Radio:Torres Radio:130.250:TTR:R:SBTR:TWR:::0240:0277:
+Uruguaiana Tower:Uruguaiana Tower:125.900:TUG::SBUG:TWR:::3201:3237:
+;FIR RECIFE SBRE
+Aracaju Approach:Aracaju Approach:120.300:XA::SBXA:APP:::5101:5137:
+Aracaju Tower:Aracaju Tower:118.800:TAR::SBAR:TWR:::5101:5137:
+Aracati Radio:Aracati Radio:131.250:TAC:R:SBAC:TWR:::5701:5777:
+Campina Grande Radio:Campina Grande Radio:125.500:TKG:R:SBKG:TWR:::5701:5777:
+Cruz Jericoacoara Radio:Cruz Jericoacoara Radio:131.050:TJE:R:SBJE:TWR:::5701:5777:
+Fortaleza Approach:Fortaleza Approach:133.000:WZ::SBWZ:APP:::5201:5237:
+Fortaleza ATIS:Fortaleza ATIS:127.700:AFZ::SBFZ:ATIS:::::
+Fortaleza Ground:Fortaleza Ground:121.950:GFZ::SBFZ:GND:::5201:5237:
+Fortaleza Tower:Fortaleza Tower:129.000:TFZ::SBFZ:TWR:::5201:5237:
+Fortaleza Military Approach:FLAUTA Fortaleza Military Approach:134.550:FLA:M:SBWZ:APP:::0140:0157:
+Fortaleza Military Ground:PÍFARO Fortaleza Military Ground:121.850:PIF:M:SBFZ:GND:::0101:0117:
+Fortaleza Military Tower:GAITA Fortaleza Military Tower:122.400:GAI:M:SBFZ:TWR:::0120:0137:
+Governador Valadares Radio:Valadares Radio:132.050:TGV:R:SBGV:TWR:::5701:5777:
+Ilheus Approach:Ilheus Approach:120.100:WL::SBWL:APP:::5140:5177:
+Ilheus Radio:Ilheus Radio:120.100:TIL:R:SBIL:TWR:::5140:5177:
+Joao Pessoa Tower:Joao Pessoa Tower:118.300:TJP::SBJP:TWR:::5440:5477:
+Juazeiro Radio:Juazeiro Radio:131.750:TJU:R:SBJU:TWR:::5701:5777:
+Lapa Radio:Lapa Radio:125.900:TLP:R:SBLP:TWR:::5701:5777:
+Lencois Radio:Lencois Radio:131.750:TLE:R:SBLE:TWR:::5701:5777:
+Maceio Approach:Maceio Approach:119.250:XM::SBXM:APP:::5240:5277:
+Maceio Tower:Maceio Tower:118.250:TMO::SBMO:TWR:::5240:5277:
+Mossoro Radio:Mossoro Radio:125.800:TMS:R:SBMS:TWR:::5701:5777:
+Natal Approach:Natal Approach:119.300:XT::SBXT:APP:::5301:5337:
+Natal Sao Gonçalo do Amarante ATIS:Natal Sao Gonçalo do Amarante ATIS:127.600:ASG::SBSG:ATIS:::::
+Natal Sao Gonçalo do Amarante Ground:Natal Sao Gonçalo do Amarante Ground:121.700:GSG::SBSG:GND:::5301:5337:
+Natal Sao Gonçalo do Amarante Tower:Natal Sao Gonçalo do Amarante Tower:118.200:TSG::SBSG:TWR:::5301:5337:
+Natal Military Approach:TUPÃ Natal Military Approach:120.650:TUP:M:SBXT:APP:::0140:0157:
+Natal Military ATIS:Natal  Military ATIS:132.650:ANT:M:SBNT:ATIS:::::
+Natal Military Ground:PAJÉ Natal Military Ground:121.900:PAJ:M:SBNT:GND:::0101:0117:
+Natal Military Tower:CACIQUE Natal Military Tower:122.800:CAC:M:SBNT:TWR:::0120:0137:
+Noronha Radio:Noronha Radio:125.900:TFN:R:SBFN:TWR:::5701:5777:
+Parnaiba Radio:Parnaiba Radio:126.600:TPB:R:SBPB:TWR:::5701:5777:
+Paulo Afonso Radio:Paulo Afonso Radio:125.850:TUF:R:SBUF:TWR:::5701:5777:
+Petrolina Radio:Petrolina Radio:125.700:TPL:R:SBPL:TWR:::5701:5777:
+Porto Seguro Approach:Porto Seguro Approach:120.900:WK::SBWK:APP:::5340:5377:
+Porto Seguro Tower:Porto Seguro Tower:118.850:TPS::SBPS:TWR:::5340:5377:
+Terravista Tower:Terravista Tower:131.400:TTV::SBTV:TWR:::5340:5377:
+Recife Approach:Recife Approach:119.500:WF::SBWF:APP:::5401:5477:
+Recife ATIS:Recife ATIS:127.650:ARF::SBRF:ATIS:::::
+Recife Ground:Recife Ground:121.850:GRF::SBRF:GND:::5401:5477:
+Recife Tower:Recife Tower:118.350:TRF::SBRF:TWR:::5401:5477:
+Recife Center:Recife Center:128.700:RE::SBRE:CTR:::5001:5077:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Recife Air Defense:SANSÃO Recife Air Defense:126.350:SAN:M:SBRE:CTR:::0160:0177:S002.54.02.020:W039.35.36.067:S006.55.32.642:W034.45.27.506:S010.17.31.105:W044.06.00.429:S015.43.56.521:W039.51.45.675
+Salvador Approach:Salvador Approach:119.350:XS::SBXS:APP:::5501:5577:
+Salvador ATIS:Salvador ATIS:127.750:ASV::SBSV:ATIS:::::
+Salvador Clearance Delivery:Salvador Clearance Delivery:121.100:CSV::SBSV:DEL:::5501:5577:
+Salvador Ground:Salvador Ground:121.900:GSV::SBSV:GND:::5501:5577:
+Salvador Tower:Salvador Tower:118.300:TSV::SBSV:TWR:::5501:5577:
+Teresina Approach:Teresina Approach:119.600:XE::SBXE:APP:::5601:5637:
+Teresina ATIS:Teresina ATIS:127.800:ATE::SBTE:ATIS:::::
+Teresina Tower:Teresina Tower:118.800:TTE::SBTE:TWR:::5601:5637:
+Una Tower:Comandatuba Tower:130.250:TTC::SBTC:TWR:::5601:5637:
+Vitoria Approach:Vitoria Approach:119.850:XR::SBXR:APP:::5640:5677:
+Vitoria ATIS:Vitoria ATIS:127.575:AVT::SBVT:ATIS:::::
+Vitoria Ground:Vitoria Ground:121.950:GVT::SBVT:GND:::5640:5677:
+Vitoria Tower:Vitoria Tower:118.100:TVT::SBVT:TWR:::5640:5677:
+Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TQV:R:SBQV:TWR:::5701:5777:
+;INTERNACIONAIS
+Assuncion Center:Assuncion Center:128.400:AC::SGFA:CTR:::::
+Bogota Center:Bogota Center:128.600:ED::SKED:CTR:::::
+Dakar Control:Dakar Control:120.500:OO::GOOO:CTR:::::
+Georgetown Center:Georgetown Center:128.600:GC::SYGC:CTR:::::
+Johannesburg Center:Johannesburg Center:126.700:JC::FAJO:CTR:::::
+La Paz Center:La Paz Center:128.200:LP::SLLF:CTR:::::
+Lima Center:Lima Center:128.800:PM::SPIM:CTR:::::
+Luanda Center:Luanda Center:129.300:LU::FNAN:CTR:::::
+Maiquetia Center:Maiquetia Center:128.500:ZM::SVZM:CTR:::::
+Montevideo Center:Montevideo Center:128.500:MC::SUEO:CTR:::::
+Montevideo Oceanic:Montevideo Oceanic:126.300:MO::SUEO:FSS:::::
+Paramaribo Center:Paramaribo:123.900:PR::SMPM:CTR:::::
+Resistencia Center:Resistencia Centro:124.300:REC::SARR:CTR:::::
+Rochambeau Center:Rochambeau Center:126.900:RC::SOOO:CTR:::::
+;RESERVADAS
+Reservada 01:Reservada 01:135.000::1:ICAO:POS:::::
+Reservada 02:Reservada 02:135.100::2:ICAO:POS:::::
+Reservada 03:Reservada 03:135.200::3:ICAO:POS:::::
+Reservada 04:Reservada 04:135.300::4:ICAO:POS:::::
+Reservada 05:Reservada 05:135.400::5:ICAO:POS:::::
+Reservada 06:Reservada 06:135.500::6:ICAO:POS:::::
+Reservada 07:Reservada 07:135.600::7:ICAO:POS:::::
+Reservada 08:Reservada 08:135.700::8:ICAO:POS:::::
+Reservada 09:Reservada 09:135.800::9:ICAO:POS:::::
+Reservada 10:Reservada 10:135.900::10:ICAO:POS:::::
+Reservada 11:Reservada 11:136.000::11:ICAO:POS:::::
+Reservada 12:Reservada 12:136.100::12:ICAO:POS:::::
+Reservada 13:Reservada 13:136.200::13:ICAO:POS:::::
+Reservada 14:Reservada 14:136.300::14:ICAO:POS:::::
+Reservada 15:Reservada 15:136.400::15:ICAO:POS:::::
+Reservada 16:Reservada 16:136.500::16:ICAO:POS:::::
+Reservada 17:Reservada 17:136.600::17:ICAO:POS:::::
+Reservada 18:Reservada 18:136.700::18:ICAO:POS:::::
+Reservada 19:Reservada 19:136.800::19:ICAO:POS:::::
+Reservada 20:Reservada 20:136.900::20:ICAO:POS:::::
+;========================================POSITIONS/POSIÇÕES==============================================================;
+;========================================SBCW 2020 (AIRSPACE)============================================================;
+[AIRSPACE]
+SECTORLINE:SBCW-SGFA
+DISPLAY:SBCW:SBCW:SGFA
+DISPLAY:SBCW:SGFA:SBCW
+COORD:S025.34.39.000:W054.35.32.000
+COORD:S025.31.04.000:W054.36.02.000
+COORD:S025.26.41.000:W054.37.01.000
+COORD:S025.23.20.000:W054.35.03.000
+COORD:S025.18.58.000:W054.31.29.000
+COORD:S025.16.12.000:W054.29.51.000
+COORD:S025.12.33.000:W054.28.51.000
+COORD:S025.10.46.000:W054.27.27.000
+COORD:S025.08.08.000:W054.26.02.000
+COORD:S025.06.25.000:W054.26.51.000
+COORD:S025.05.13.000:W054.27.26.000
+COORD:S025.03.44.000:W054.28.00.000
+COORD:S025.01.56.000:W054.27.40.000
+COORD:S024.56.47.000:W054.25.52.000
+COORD:S024.51.19.000:W054.24.23.000
+COORD:S024.47.33.000:W054.23.16.000
+COORD:S024.45.14.000:W054.22.17.000
+COORD:S024.42.26.000:W054.21.17.000
+COORD:S024.40.15.000:W054.20.18.000
+COORD:S024.38.14.000:W054.19.58.000
+COORD:S024.35.36.000:W054.19.44.000
+COORD:S024.33.30.000:W054.20.03.000
+COORD:S024.31.15.000:W054.20.13.000
+COORD:S024.28.36.000:W054.19.34.000
+COORD:S024.26.16.000:W054.17.50.000
+COORD:S024.24.15.000:W054.16.46.000
+COORD:S024.21.29.000:W054.15.22.000
+COORD:S024.19.04.000:W054.15.41.000
+COORD:S024.17.07.000:W054.16.41.000
+COORD:S024.15.55.000:W054.18.05.000
+COORD:S024.14.16.000:W054.19.39.000
+COORD:S024.10.30.000:W054.19.29.000
+COORD:S024.09.09.000:W054.19.53.000
+COORD:S024.07.26.000:W054.19.39.000
+COORD:S024.04.48.000:W054.16.46.000
+COORD:S024.02.58.000:W054.18.20.000
+COORD:S024.01.46.000:W054.18.54.000
+COORD:S024.00.43.000:W054.18.59.000
+COORD:S024.00.25.000:W054.20.53.000
+COORD:S023.59.35.000:W054.22.32.000
+COORD:S023.57.06.000:W054.23.36.000
+COORD:S023.55.00.000:W054.25.20.000
+COORD:S023.53.28.000:W054.28.21.000
+COORD:S023.52.25.000:W054.30.59.000
+COORD:S023.52.56.000:W054.32.38.000  
+COORD:S023.52.56.000:W054.34.17.000
+COORD:S023.51.17.000:W054.33.52.000
+COORD:S023.50.14.000:W054.36.25.000
+COORD:S023.50.14.000:W054.38.34.000
+COORD:S023.49.06.000:W054.39.53.000
+COORD:S023.49.37.000:W054.41.12.000
+COORD:S023.51.51.000:W054.42.38.000
+COORD:S023.51.42.000:W054.45.36.000
+COORD:S023.52.59.000:W054.48.14.000
+COORD:S023.53.17.000:W054.49.53.000
+COORD:S023.54.07.000:W054.51.32.000
+COORD:S023.54.08.000:W054.54.19.000
+COORD:S023.57.35.000:W054.55.23.000
+COORD:S023.57.44.000:W054.57.12.000
+COORD:S023.57.44.000:W055.00.10.000
+COORD:S023.59.24.000:W055.03.08.000
+COORD:S023.59.13.000:W055.05.11.000
+COORD:S023.57.52.000:W055.06.35.000
+COORD:S023.59.08.000:W055.08.59.000
+COORD:S023.59.13.000:W055.11.32.000
+COORD:S024.00.52.000:W055.12.56.000
+COORD:S024.00.30.000:W055.14.35.000
+COORD:S023.58.28.000:W055.16.53.000 
+COORD:S023.57.34.000:W055.19.12.000
+COORD:S023.59.36.000:W055.20.11.000
+COORD:S023.58.59.000:W055.22.20.000
+COORD:S023.58.19.000:W055.23.34.000
+COORD:S023.57.16.000:W055.24.58.000
+COORD:S023.55.32.000:W055.26.17.000
+COORD:S023.53.39.000:W055.26.37.000
+COORD:S023.51.09.000:W055.26.07.000
+COORD:S023.47.47.000:W055.26.09.000
+COORD:S023.46.14.000:W055.26.08.000
+COORD:S023.43.35.000:W055.26.48.000
+COORD:S023.42.55.000:W055.27.37.000
+COORD:S023.40.53.000:W055.27.47.000
+COORD:S023.38.19.000:W055.28.56.000
+COORD:S023.37.06.000:W055.32.14.000
+COORD:S023.34.32.000:W055.31.39.000
+COORD:S023.32.41.000:W055.32.24.000
+COORD:S023.30.12.000:W055.32.53.000
+COORD:S023.26.57.000:W055.32.34.000
+COORD:S023.25.53.000:W055.31.15.000  
+COORD:S023.22.42.000:W055.30.10.000
+COORD:S023.20.17.000:W055.31.54.000
+COORD:S023.18.56.000:W055.33.23.000
+COORD:S023.16.44.000:W055.32.53.000
+COORD:S023.15.45.000:W055.31.24.000
+COORD:S023.13.42.000:W055.32.24.000
+COORD:S023.11.53.000:W055.31.15.000
+COORD:S023.10.59.000:W055.32.19.000
+COORD:S023.09.16.000:W055.33.08.000
+COORD:S023.08.35.000:W055.35.56.000
+COORD:S023.05.29.000:W055.37.20.000
+COORD:S023.02.09.000:W055.37.25.000
+COORD:S023.01.22.000:W055.39.00.000
+COORD:S022.59.47.000:W055.39.25.000
+COORD:S022.59.51.000:W055.41.18.000
+COORD:S022.58.52.000:W055.41.13.000
+COORD:S022.57.44.000:W055.39.49.000
+COORD:S022.56.31.000:W055.39.05.000
+COORD:S022.53.38.000:W055.39.10.000
+COORD:S022.52.01.000:W055.40.21.000
+COORD:S022.50.07.000:W055.40.07.000
+COORD:S022.48.08.000:W055.39.27.000
+COORD:S022.45.56.000:W055.38.13.000
+COORD:S022.43.12.000:W055.37.09.000
+COORD:S022.39.10.000:W055.37.18.000
+COORD:S022.37.25.000:W055.37.23.000
+COORD:S022.35.54.000:W055.40.16.000
+COORD:S022.33.46.000:W055.42.35.000
+COORD:S022.31.27.000:W055.44.41.000
+COORD:S022.28.29.000:W055.45.00.000
+COORD:S022.26.12.000:W055.44.16.000
+COORD:S022.23.36.000:W055.44.50.000
+COORD:S022.23.22.000:W055.47.04.000
+COORD:S022.21.10.000:W055.48.18.000
+COORD:S022.19.48.000:W055.50.02.000
+COORD:S022.16.41.000:W055.51.43.000
+COORD:S022.17.13.000:W055.54.26.000
+COORD:S022.17.17.000:W055.57.24.000
+COORD:S022.16.59.000:W056.00.12.000
+COORD:S022.17.08.000:W056.01.56.000
+COORD:S022.17.36.000:W056.04.59.000
+COORD:S022.16.41.000:W056.06.33.000
+COORD:S022.17.08.000:W056.08.07.000
+COORD:S022.17.22.000:W056.10.45.000
+COORD:S022.16.13.000:W056.13.13.000
+COORD:S022.14.24.000:W056.15.17.000
+COORD:S022.14.05.000:W056.17.45.000
+COORD:S022.12.18.000:W056.20.43.000
+COORD:S022.09.11.000:W056.23.22.000
+COORD:S022.04.50.000:W056.24.16.000
+COORD:S022.04.31.000:W056.27.09.000
+COORD:S022.05.26.000:W056.30.17.000
+COORD:S022.11.01.000:W056.33.35.000
+COORD:S022.13.27.000:W056.36.18.000
+COORD:S022.14.45.000:W056.39.06.000
+COORD:S022.13.27.000:W056.41.00.000
+COORD:S022.14.54.000:W056.42.38.000
+COORD:S022.14.27.000:W056.44.17.000
+COORD:S022.14.50.000:W056.47.00.000
+COORD:S022.16.16.000:W056.48.31.000
+COORD:S022.18.11.000:W056.50.05.000
+COORD:S022.17.34.000:W056.51.59.000
+COORD:S022.16.12.000:W056.53.08.000
+COORD:S022.15.08.000:W056.53.23.000
+COORD:S022.15.17.000:W056.55.27.000
+COORD:S022.14.36.000:W056.58.05.000
+COORD:S022.13.36.000:W057.00.18.000
+COORD:S022.14.22.000:W057.06.19.000
+COORD:S022.13.09.000:W057.07.04.000
+COORD:S022.13.55.000:W057.09.27.000
+COORD:S022.12.56.000:W057.12.03.000
+COORD:S022.14.19.000:W057.14.27.000
+COORD:S022.13.56.000:W057.18.58.000
+COORD:S022.13.42.000:W057.22.26.000
+COORD:S022.12.02.000:W057.24.25.000
+COORD:S022.11.00.000:W057.30.11.000
+COORD:S022.10.33.000:W057.32.49.000
+COORD:S022.10.06.000:W057.34.48.000
+COORD:S022.07.21.000:W057.36.42.000
+COORD:S022.05.53.000:W057.37.59.000
+COORD:S022.05.34.000:W057.41.52.000
+COORD:S022.07.24.000:W057.44.50.000
+COORD:S022.08.29.000:W057.48.42.000
+COORD:S022.07.02.000:W057.49.51.000
+COORD:S022.07.52.000:W057.52.10.000
+COORD:S022.07.15.000:W057.55.03.000
+COORD:S022.05.12.000:W057.57.11.000
+COORD:S022.05.26.000:W057.59.00.000
+COORD:S022.04.08.000:W057.59.30.000
+COORD:S022.02.00.000:W058.00.54.000
+COORD:S022.00.28.000:W057.58.16.000
+COORD:S021.56.48.000:W057.57.21.000
+COORD:S021.53.12.000:W057.55.28.000
+COORD:S021.51.59.000:W057.56.12.000
+COORD:S021.50.18.000:W057.58.26.000
+COORD:S021.48.37.000:W057.55.42.000
+COORD:S021.46.19.000:W057.54.58.000
+COORD:S021.45.11.000:W057.57.06.000
+COORD:S021.43.57.000:W057.56.42.000
+COORD:S021.41.58.000:W057.53.44.000
+COORD:S021.40.12.000:W057.54.43.000
+COORD:S021.37.56.000:W057.56.30.000
+COORD:S021.35.09.000:W057.55.33.000
+COORD:S021.33.56.000:W057.57.31.000
+COORD:S021.30.44.000:W057.58.05.000
+COORD:S021.27.35.000:W057.55.50.000
+COORD:S021.23.11.000:W057.54.02.000
+COORD:S021.19.11.000:W057.51.12.000
+COORD:S021.18.21.000:W057.53.35.000
+COORD:S021.16.15.000:W057.55.36.000
+COORD:S021.14.59.000:W057.52.13.000
+COORD:S021.11.50.000:W057.51.12.000
+COORD:S021.09.56.000:W057.51.40.000
+COORD:S021.08.09.000:W057.51.53.000
+COORD:S021.05.56.000:W057.51.12.000
+COORD:S021.04.30.000:W057.52.08.000
+COORD:S021.02.07.000:W057.52.13.000
+COORD:S020.58.49.000:W057.49.39.000
+COORD:S020.55.53.000:W057.49.39.000
+COORD:S020.56.38.000:W057.51.46.000
+COORD:S020.54.18.000:W057.53.41.000
+COORD:S020.53.13.000:W057.55.59.000
+COORD:S020.51.50.000:W057.53.31.000
+COORD:S020.50.27.000:W057.51.22.000
+COORD:S020.48.31.000:W057.52.27.000
+COORD:S020.47.22.000:W057.54.30.000
+COORD:S020.47.59.000:W057.56.44.000
+COORD:S020.46.59.000:W057.58.08.000
+COORD:S020.45.26.000:W057.57.28.000
+COORD:S020.45.09.000:W057.55.43.000
+COORD:S020.43.59.000:W057.52.27.000
+COORD:S020.41.04.000:W057.54.39.000
+COORD:S020.39.46.000:W057.56.27.000
+COORD:S020.42.09.000:W057.57.37.000
+COORD:S020.42.00.000:W057.59.06.000
+COORD:S020.41.09.000:W057.59.40.000
+COORD:S020.38.36.000:W057.58.31.000
+COORD:S020.37.45.000:W058.00.15.000
+COORD:S020.36.17.000:W058.01.14.000
+COORD:S020.33.40.000:W058.00.20.000
+COORD:S020.31.21.000:W058.01.14.000
+COORD:S020.28.54.000:W058.01.10.000
+COORD:S020.26.35.000:W058.00.11.000
+COORD:S020.25.30.000:W058.00.51.000
+COORD:S020.24.02.000:W058.03.14.000
+COORD:S020.22.44.000:W058.05.03.000
+COORD:S020.20.48.000:W058.05.52.000
+COORD:S020.18.43.000:W058.06.02.000
+COORD:S020.16.33.000:W058.05.08.000
+COORD:S020.15.19.000:W058.06.32.000
+COORD:S020.15.58.000:W058.08.48.000
+COORD:S020.15.31.000:W058.10.07.000
+COORD:S020.14.15.000:W058.09.57.000
+COORD:S020.11.33.000:W058.08.18.000
+COORD:S020.10.23.000:W058.10.32.000
+COORD:S020.08.09.000:W058.07.04.000
+COORD:S020.05.25.000:W058.02.45.000
+COORD:S020.03.18.000:W058.00.00.000
+COORD:S020.01.50.000:W057.57.36.000
+COORD:S020.00.53.000:W057.55.07.000
+COORD:S019.59.43.000:W057.53.32.000
+COORD:S019.58.01.000:W057.52.45.000
+COORD:S019.56.19.000:W057.55.34.000
+COORD:S019.53.15.000:W058.00.05.000
+COORD:S019.50.55.000:W058.02.34.000
+COORD:S019.49.57.000:W058.03.41.000
+COORD:S019.48.03.000:W058.05.57.000
+COORD:S019.46.21.000:W058.07.59.000
+COORD:S019.44.59.321:W058.08.28.203
+;SGFA 2018 (CONTORNOS)
+SECTORLINE:SGFA
+COORD:S019.44.59.321:W058.08.28.203
+COORD:S019.16.20.145:W059.05.42.169
+COORD:S019.37.34.779:W061.43.37.176
+COORD:S020.05.42.526:W061.55.42.617
+COORD:S020.35.07.830:W062.17.03.898
+COORD:S021.06.11.859:W062.15.39.221
+COORD:S022.16.06.824:W062.39.16.251
+COORD:S022.32.08.636:W062.14.47.324
+COORD:S022.43.24.920:W062.11.48.631
+COORD:S023.16.47.178:W061.39.19.973
+COORD:S023.25.15.955:W061.26.34.665
+COORD:S023.50.20.210:W060.57.35.337
+COORD:S024.01.32.731:W060.16.11.603
+COORD:S024.00.08.486:W060.01.20.694
+COORD:S024.31.58.322:W059.13.22.043
+COORD:S024.49.55.751:W058.32.52.691
+COORD:S024.58.34.801:W058.20.59.349
+COORD:S024.56.57.901:W058.11.53.699
+COORD:S025.16.07.318:W057.42.00.909
+COORD:S025.19.02.873:W057.39.30.780
+COORD:S025.26.55.670:W057.33.53.528
+COORD:S025.34.17.993:W057.34.42.691
+COORD:S025.43.36.771:W057.46.13.471
+COORD:S026.06.41.021:W057.59.42.792
+COORD:S026.13.47.263:W058.08.03.508
+COORD:S026.30.13.272:W058.10.15.756
+COORD:S026.49.57.406:W058.20.00.242
+COORD:S026.59.46.212:W058.28.55.743
+COORD:S027.08.11.329:W058.39.00.856
+COORD:S027.16.46.182:W058.31.00.232
+COORD:S027.14.32.760:W058.13.41.557
+COORD:S027.19.26.047:W057.34.13.797
+COORD:S027.27.08.551:W057.06.54.912
+COORD:S027.26.18.131:W056.47.39.466
+COORD:S027.28.52.695:W056.30.15.367
+COORD:S027.28.39.772:W056.19.37.885
+COORD:S027.19.51.069:W056.04.38.297
+COORD:S027.22.54.897:W055.40.35.517
+COORD:S027.13.49.220:W055.36.58.331
+COORD:S027.00.34.366:W055.26.51.886
+COORD:S026.56.09.953:W055.15.29.470
+COORD:S026.40.50.802:W054.48.33.999
+COORD:S026.28.10.232:W054.43.34.402
+COORD:S025.55.32.579:W054.36.18.822
+COORD:S025.42.09.876:W054.37.33.048
+COORD:S025.40.39.884:W054.39.06.075
+COORD:S025.39.24.662:W054.38.32.828
+COORD:S025.39.50.920:W054.36.43.280
+COORD:S025.39.56.468:W054.35.14.799
+COORD:S025.39.14.912:W054.35.02.549
+COORD:S025.37.23.641:W054.35.41.468
+COORD:S025.36.16.803:W054.35.46.893
+COORD:S025.34.39.000:W054.35.32.000
+SECTOR:SGFA:0:60000
+OWNER:FA
+BORDER:SBCW-SGFA:SGFA
+
+SECTORLINE:SBCW-SARR
+DISPLAY:SBCW:SBCW:SARR
+;COORD:S025.36.16.803:W054.35.46.893
+COORD:S025.34.39.000:W054.35.32.000
+COORD:S025.35.08.000:W054.32.32.000
+COORD:S025.37.04.000:W054.32.07.000
+COORD:S025.37.13.000:W054.31.08.000
+COORD:S025.36.55.000:W054.29.39.000 
+COORD:S025.37.44.000:W054.28.20.000
+COORD:S025.39.40.000:W054.26.56.000
+COORD:S025.41.22.000:W054.26.26.000
+COORD:S025.41.13.000:W054.25.33.000
+COORD:S025.39.22.000:W054.25.23.000
+COORD:S025.38.33.000:W054.24.24.000
+COORD:S025.38.07.000:W054.23.30.000
+COORD:S025.36.33.000:W054.23.20.000
+COORD:S025.35.26.000:W054.23.00.000
+COORD:S025.35.55.000:W054.21.15.000
+COORD:S025.35.08.000:W054.20.17.000
+COORD:S025.33.19.000:W054.19.13.000
+COORD:S025.32.52.000:W054.17.07.000
+COORD:S025.34.35.000:W054.15.40.000
+COORD:S025.35.10.000:W054.14.11.000
+COORD:S025.33.15.000:W054.14.01.000
+COORD:S025.34.08.000:W054.12.27.000
+COORD:S025.34.39.000:W054.10.43.000
+COORD:S025.33.41.000:W054.10.24.000
+COORD:S025.33.10.000:W054.12.21.000
+COORD:S025.32.12.000:W054.12.41.000
+COORD:S025.31.49.000:W054.11.21.000
+COORD:S025.31.54.000:W054.09.47.000
+COORD:S025.30.38.000:W054.08.14.000
+COORD:S025.28.58.000:W054.06.25.000
+COORD:S025.30.45.000:W054.06.00.000
+COORD:S025.32.03.000:W054.07.04.000
+COORD:S025.33.10.000:W054.07.44.000
+COORD:S025.36.37.000:W054.06.18.000
+COORD:S025.36.30.000:W054.04.35.000
+COORD:S025.33.41.000:W054.04.30.000
+COORD:S025.34.23.000:W054.02.48.000
+COORD:S025.33.12.000:W054.01.19.000
+COORD:S025.33.30.000:W053.59.05.000
+COORD:S025.35.44.000:W053.58.06.000
+COORD:S025.37.31.000:W053.57.16.000
+COORD:S025.37.35.000:W053.56.02.000
+COORD:S025.37.13.000:W053.54.18.000
+COORD:S025.38.37.000:W053.52.20.000
+COORD:S025.40.30.000:W053.50.47.000
+COORD:S025.41.45.000:W053.52.21.000
+COORD:S025.43.46.000:W053.51.46.000
+COORD:S025.44.19.000:W053.50.08.000
+COORD:S025.45.23.000:W053.51.10.000
+COORD:S025.46.40.000:W053.50.30.000
+COORD:S025.48.05.000:W053.49.26.000
+COORD:S025.49.25.000:W053.51.05.000
+COORD:S025.51.34.000:W053.49.18.000
+COORD:S025.53.03.000:W053.49.28.000
+COORD:S025.55.21.000:W053.50.12.000
+COORD:S025.57.30.000:W053.50.11.000
+COORD:S025.58.30.000:W053.48.19.000
+COORD:S025.59.42.000:W053.47.29.000
+COORD:S026.00.53.000:W053.46.05.000
+COORD:S026.01.59.000:W053.44.21.000
+COORD:S026.04.08.000:W053.42.42.000
+COORD:S026.06.38.000:W053.43.29.000
+COORD:S026.09.21.000:W053.40.33.000
+COORD:S026.11.29.000:W053.38.44.000
+COORD:S026.15.24.000:W053.35.21.000
+COORD:S026.16.19.000:W053.36.40.000
+COORD:S026.18.50.000:W053.36.50.000
+COORD:S026.21.13.000:W053.37.56.000
+COORD:S026.23.52.000:W053.38.41.000
+COORD:S026.25.03.000:W053.40.54.000
+COORD:S026.27.24.000:W053.42.40.000
+COORD:S026.29.37.000:W053.42.15.000
+COORD:S026.32.25.000:W053.43.54.000
+COORD:S026.35.06.000:W053.43.24.000
+COORD:S026.37.18.000:W053.43.49.000
+COORD:S026.38.00.000:W053.44.57.000
+COORD:S026.38.53.000:W053.43.58.000
+COORD:S026.40.08.000:W053.42.58.000
+COORD:S026.42.03.000:W053.43.58.000
+COORD:S026.44.52.000:W053.42.50.000
+COORD:S026.50.30.000:W053.41.24.000
+COORD:S026.53.20.000:W053.41.19.000
+COORD:S026.55.41.000:W053.40.50.000
+COORD:S026.57.53.000:W053.43.58.000
+COORD:S027.02.00.000:W053.46.16.000
+COORD:S027.05.23.000:W053.47.45.000
+COORD:S027.07.43.000:W053.48.44.000
+COORD:S027.08.54.000:W053.50.23.000
+COORD:S027.07.26.000:W053.51.36.000
+COORD:S027.07.52.000:W053.53.21.000
+COORD:S027.10.04.000:W053.54.11.000
+COORD:S027.08.45.000:W053.56.59.000
+COORD:S027.11.50.000:W053.57.31.000
+COORD:S027.11.50.000:W054.00.49.000
+COORD:S027.14.46.000:W054.01.09.000
+COORD:S027.15.29.000:W054.03.47.000
+COORD:S027.17.59.000:W054.05.06.000
+COORD:S027.17.33.000:W054.09.03.000
+COORD:S027.14.37.000:W054.10.13.000
+COORD:S027.22.22.000:W054.13.01.000
+COORD:S027.23.41.000:W054.15.49.000
+COORD:S027.26.28.000:W054.16.38.000
+COORD:S027.23.41.000:W054.20.26.000
+COORD:S027.27.03.000:W054.21.35.000
+COORD:S027.24.43.000:W054.23.34.000
+COORD:S027.25.06.000:W054.26.12.000
+COORD:S027.27.53.000:W054.26.51.000
+COORD:S027.30.04.000:W054.31.18.000
+COORD:S027.27.26.000:W054.35.25.000
+COORD:S027.32.42.000:W054.36.54.000
+COORD:S027.34.45.000:W054.46.08.000
+COORD:S027.32.07.000:W054.49.21.000
+COORD:S027.37.49.000:W054.54.18.000
+COORD:S027.45.07.000:W054.55.27.000
+COORD:S027.47.37.000:W055.01.23.000
+COORD:S027.47.02.000:W055.04.49.000
+COORD:S027.51.20.000:W055.07.18.000
+COORD:S027.53.13.000:W055.08.57.000
+COORD:S027.52.47.000:W055.13.14.000
+COORD:S027.55.55.000:W055.19.54.000
+COORD:S027.59.19.000:W055.22.59.000
+COORD:S028.02.05.000:W055.22.39.000
+COORD:S028.05.34.000:W055.27.16.000
+COORD:S028.04.42.000:W055.30.14.000
+COORD:S028.07.19.000:W055.32.22.000
+COORD:S028.09.30.000:W055.34.01.000
+COORD:S028.06.32.000:W055.35.32.000
+COORD:S028.09.26.000:W055.37.31.000
+COORD:S028.11.46.000:W055.40.19.000
+COORD:S028.13.30.000:W055.43.17.000
+COORD:S028.14.19.000:W055.46.17.000
+COORD:S028.16.17.000:W055.46.02.000
+COORD:S028.19.15.000:W055.40.01.000
+COORD:S028.22.02.000:W055.40.36.000
+COORD:S028.25.22.000:W055.41.10.000
+COORD:S028.25.13.000:W055.42.49.000
+COORD:S028.23.31.000:W055.43.09.000
+COORD:S028.22.21.000:W055.45.18.000
+COORD:S028.21.20.000:W055.49.59.000
+COORD:S028.21.25.000:W055.52.23.000
+COORD:S028.24.49.000:W055.54.07.000
+COORD:S028.28.31.000:W055.53.12.000
+COORD:S028.29.32.000:W055.57.24.000
+COORD:S028.30.43.000:W056.00.50.000
+COORD:S028.32.40.000:W056.01.49.000
+COORD:S028.34.28.000:W056.00.25.000
+COORD:S028.36.30.000:W056.00.15.000
+COORD:S028.37.35.000:W056.03.13.000
+COORD:S028.40.55.000:W056.06.41.000
+COORD:S028.43.26.000:W056.09.34.000
+COORD:S028.45.32.000:W056.10.04.000
+COORD:S028.46.50.000:W056.12.32.000
+COORD:S028.47.03.000:W056.14.51.000
+COORD:S028.47.20.000:W056.16.49.000
+COORD:S028.48.56.000:W056.17.49.000
+COORD:S028.50.27.000:W056.18.13.000
+COORD:S028.53.50.000:W056.18.14.000
+COORD:S028.55.42.000:W056.19.04.000
+COORD:S028.57.22.000:W056.23.06.000
+COORD:S028.58.48.000:W056.25.00.000
+COORD:S029.01.02.000:W056.23.56.000
+COORD:S029.04.47.000:W056.25.30.000
+COORD:S029.05.30.000:W056.29.47.000
+COORD:S029.06.57.000:W056.32.40.000
+COORD:S029.07.40.000:W056.35.52.000
+COORD:S029.09.32.000:W056.36.17.000
+COORD:S029.10.54.000:W056.38.01.000
+COORD:S029.12.46.000:W056.38.41.000
+COORD:S029.15.32.000:W056.39.08.000
+COORD:S029.17.50.000:W056.39.37.000
+COORD:S029.20.21.000:W056.40.56.000
+COORD:S029.22.04.000:W056.42.54.000
+COORD:S029.22.43.000:W056.45.17.000
+COORD:S029.24.05.000:W056.46.41.000
+COORD:S029.26.27.000:W056.46.51.000
+COORD:S029.26.57.000:W056.47.50.000
+COORD:S029.28.49.000:W056.48.35.000
+COORD:S029.29.45.000:W056.49.59.000
+COORD:S029.30.50.000:W056.52.42.000
+COORD:S029.32.50.000:W056.54.31.000
+COORD:S029.34.29.000:W056.56.19.000
+COORD:S029.36.08.000:W056.57.43.000
+COORD:S029.38.41.000:W056.58.00.000
+COORD:S029.39.11.000:W057.00.18.000
+COORD:S029.40.41.000:W057.01.47.000
+COORD:S029.45.29.000:W057.06.03.000
+COORD:S029.46.17.000:W057.08.06.000
+COORD:S029.47.08.000:W057.10.34.000
+COORD:S029.46.51.000:W057.12.33.000
+COORD:S029.47.17.000:W057.14.17.000
+COORD:S029.48.43.000:W057.15.46.000
+COORD:S029.50.25.000:W057.17.20.000
+COORD:S029.52.26.000:W057.19.23.000
+COORD:S029.56.12.000:W057.19.20.000
+COORD:S029.59.59.000:W057.20.10.000
+COORD:S030.01.08.000:W057.21.59.000
+COORD:S030.02.08.000:W057.24.07.000
+COORD:S030.04.03.000:W057.25.56.000
+COORD:S030.06.50.000:W057.27.35.000
+COORD:S030.08.20.000:W057.29.28.000
+COORD:S030.10.11.000:W057.33.16.000
+COORD:S030.11.00.000:W057.37.13.000
+SECTORLINE:SARR
+COORD:S030.11.00.000:W057.37.13.000 
+COORD:S030.41.29.000:W057.45.32.000
+COORD:S030.07.16.000:W060.37.08.000
+COORD:S026.48.08.000:W061.49.12.000
+COORD:S023.14.40.000:W062.00.05.000
+COORD:S022.14.30.000:W062.39.58.000
+COORD:S022.16.06.824:W062.39.16.251 
+COORD:S022.32.08.636:W062.14.47.324 
+COORD:S022.43.24.920:W062.11.48.631 
+COORD:S023.16.47.178:W061.39.19.973 
+COORD:S023.25.15.955:W061.26.34.665 
+COORD:S023.50.20.210:W060.57.35.337 
+COORD:S024.01.32.731:W060.16.11.603 
+COORD:S024.00.08.486:W060.01.20.694 
+COORD:S024.31.58.322:W059.13.22.043 
+COORD:S024.49.55.751:W058.32.52.691 
+COORD:S024.58.34.801:W058.20.59.349 
+COORD:S024.56.57.901:W058.11.53.699 
+COORD:S025.16.07.318:W057.42.00.909 
+COORD:S025.19.02.873:W057.39.30.780 
+COORD:S025.26.55.670:W057.33.53.528 
+COORD:S025.34.17.993:W057.34.42.691 
+COORD:S025.43.36.771:W057.46.13.471 
+COORD:S026.06.41.021:W057.59.42.792 
+COORD:S026.13.47.263:W058.08.03.508 
+COORD:S026.30.13.272:W058.10.15.756 
+COORD:S026.49.57.406:W058.20.00.242 
+COORD:S026.59.46.212:W058.28.55.743 
+COORD:S027.08.11.329:W058.39.00.856 
+COORD:S027.16.46.182:W058.31.00.232 
+COORD:S027.14.32.760:W058.13.41.557 
+COORD:S027.19.26.047:W057.34.13.797 
+COORD:S027.27.08.551:W057.06.54.912 
+COORD:S027.26.18.131:W056.47.39.466 
+COORD:S027.28.52.695:W056.30.15.367 
+COORD:S027.28.39.772:W056.19.37.885 
+COORD:S027.19.51.069:W056.04.38.297 
+COORD:S027.22.54.897:W055.40.35.517 
+COORD:S027.13.49.220:W055.36.58.331 
+COORD:S027.00.34.366:W055.26.51.886 
+COORD:S026.56.09.953:W055.15.29.470 
+COORD:S026.40.50.802:W054.48.33.999 
+COORD:S026.28.10.232:W054.43.34.402 
+COORD:S025.55.32.579:W054.36.18.822 
+COORD:S025.42.09.876:W054.37.33.048 
+COORD:S025.40.39.884:W054.39.06.075 
+COORD:S025.39.24.662:W054.38.32.828 
+COORD:S025.39.50.920:W054.36.43.280 
+COORD:S025.39.56.468:W054.35.14.799 
+COORD:S025.39.14.912:W054.35.02.549 
+COORD:S025.37.23.641:W054.35.41.468
+COORD:S025.36.16.918:W054.35.46.609
+COORD:S025.34.39.000:W054.35.32.000
+SECTOR:SARR:0:60000
+OWNER:REC
+BORDER:SBCW-SARR:SARR
+
+SECTORLINE:SBCW-SUEO
+DISPLAY:SBCW:SBCW:SUEO
+COORD:S030.11.00.000:W057.37.13.000
+COORD:S030.12.37.000:W057.33.41.000
+COORD:S030.15.02.000:W057.33.36.000
+COORD:S030.16.49.000:W057.32.07.000
+COORD:S030.17.06.000:W057.29.54.000
+COORD:S030.16.02.000:W057.28.35.000
+COORD:S030.16.32.000:W057.26.46.000
+COORD:S030.17.44.000:W057.25.17.000
+COORD:S030.18.14.000:W057.23.38.000
+COORD:S030.16.15.000:W057.22.29.000
+COORD:S030.17.01.000:W057.21.00.000
+COORD:S030.15.40.000:W057.18.41.000
+COORD:S030.17.19.000:W057.17.08.000
+COORD:S030.17.10.000:W057.14.59.000
+COORD:S030.17.10.000:W057.13.10.000
+COORD:S030.15.53.000:W057.11.41.000
+COORD:S030.13.58.000:W057.09.18.000
+COORD:S030.12.03.000:W057.09.57.000
+COORD:S030.08.33.000:W057.07.34.000
+COORD:S030.08.16.000:W057.06.25.000
+COORD:S030.06.55.000:W057.06.15.000
+COORD:S030.07.20.000:W057.04.56.000
+COORD:S030.06.08.000:W057.05.11.000
+COORD:S030.05.25.000:W057.03.57.000
+COORD:S030.06.03.000:W057.02.08.000
+COORD:S030.04.59.000:W056.59.25.000
+COORD:S030.05.49.000:W056.57.17.000
+COORD:S030.05.36.000:W056.54.55.000
+COORD:S030.06.32.000:W056.54.51.000
+COORD:S030.06.49.000:W056.53.41.000
+COORD:S030.05.15.000:W056.52.47.000
+COORD:S030.05.40.000:W056.51.33.000
+COORD:S030.05.36.000:W056.50.04.000
+COORD:S030.06.45.000:W056.48.59.000
+COORD:S030.06.49.000:W056.48.00.000
+COORD:S030.07.53.000:W056.47.45.000
+COORD:S030.08.10.000:W056.46.36.000
+COORD:S030.09.48.000:W056.46.56.000
+COORD:S030.10.18.000:W056.46.16.000
+COORD:S030.09.57.000:W056.45.32.000
+COORD:S030.10.18.000:W056.44.23.000
+COORD:S030.11.01.000:W056.43.04.000
+COORD:S030.11.05.000:W056.41.54.000
+COORD:S030.11.57.000:W056.42.09.000
+COORD:S030.12.35.000:W056.41.30.000
+COORD:S030.12.01.000:W056.40.30.000
+COORD:S030.12.05.000:W056.39.26.000
+COORD:S030.12.18.000:W056.38.32.000
+COORD:S030.12.52.000:W056.38.37.000
+COORD:S030.13.07.000:W056.40.06.000
+COORD:S030.13.50.000:W056.38.56.000
+COORD:S030.14.41.000:W056.37.22.000
+COORD:S030.15.40.000:W056.37.25.000
+COORD:S030.16.07.000:W056.38.17.000
+COORD:S030.16.14.000:W056.36.30.000
+COORD:S030.17.18.000:W056.36.16.000
+COORD:S030.17.47.000:W056.37.22.000
+COORD:S030.18.32.000:W056.37.03.000
+COORD:S030.17.49.000:W056.34.32.000
+COORD:S030.19.18.000:W056.33.23.000
+COORD:S030.18.53.000:W056.32.09.000
+COORD:S030.20.17.000:W056.32.13.000
+COORD:S030.20.43.000:W056.33.06.000
+COORD:S030.22.04.000:W056.32.46.000
+COORD:S030.21.38.000:W056.31.12.000
+COORD:S030.22.59.000:W056.30.27.000
+COORD:S030.23.50.000:W056.29.03.000
+COORD:S030.23.25.000:W056.27.25.000
+COORD:S030.25.16.000:W056.26.55.000
+COORD:S030.26.19.000:W056.25.51.000
+COORD:S030.25.54.000:W056.24.27.000
+COORD:S030.27.02.000:W056.24.12.000
+COORD:S030.27.58.000:W056.24.17.000
+COORD:S030.28.40.000:W056.23.47.000
+COORD:S030.29.57.000:W056.23.07.000
+COORD:S030.30.01.000:W056.21.48.000
+COORD:S030.30.18.000:W056.20.34.000
+COORD:S030.31.35.000:W056.20.00.000
+COORD:S030.31.56.000:W056.18.55.000
+COORD:S030.31.22.000:W056.17.31.000
+COORD:S030.32.41.000:W056.17.05.000
+COORD:S030.33.28.000:W056.15.36.000
+COORD:S030.34.49.000:W056.15.36.000
+COORD:S030.35.32.000:W056.15.26.000
+COORD:S030.34.19.000:W056.14.12.000
+COORD:S030.35.57.000:W056.13.27.000
+COORD:S030.36.18.000:W056.11.29.000
+COORD:S030.37.14.000:W056.10.29.000
+COORD:S030.38.26.000:W056.10.34.000
+COORD:S030.40.12.000:W056.09.55.000
+COORD:S030.40.51.000:W056.08.31.000
+COORD:S030.41.50.000:W056.09.00.000
+COORD:S030.42.41.000:W056.07.51.000
+COORD:S030.44.27.000:W056.07.41.000
+COORD:S030.43.58.000:W056.06.07.000
+COORD:S030.44.57.000:W056.05.28.000
+COORD:S030.44.40.000:W056.04.04.000
+COORD:S030.45.48.000:W056.03.59.000
+COORD:S030.46.35.000:W056.03.05.000
+COORD:S030.46.52.000:W056.01.50.000
+COORD:S030.48.16.000:W056.00.49.000
+COORD:S030.50.11.000:W055.59.54.000
+COORD:S030.50.49.000:W055.59.27.000
+COORD:S030.51.36.000:W055.59.18.000
+COORD:S030.52.27.000:W055.59.27.000
+COORD:S030.53.33.000:W056.00.24.000
+COORD:S030.54.29.000:W056.00.34.000
+COORD:S030.55.15.000:W056.00.05.000
+COORD:S030.56.35.000:W056.01.01.000
+COORD:S030.57.13.000:W056.00.22.000
+COORD:S030.57.55.000:W056.00.22.000
+COORD:S030.58.42.000:W056.00.42.000
+COORD:S030.59.20.000:W056.00.27.000
+COORD:S031.01.44.000:W056.00.47.000
+COORD:S031.03.38.000:W056.00.37.000
+COORD:S031.04.42.000:W055.58.38.000
+COORD:S031.05.24.000:W055.56.39.000
+COORD:S031.05.03.000:W055.53.52.000
+COORD:S031.04.59.000:W055.52.18.000
+COORD:S031.03.39.000:W055.50.44.000
+COORD:S031.03.18.000:W055.49.15.000
+COORD:S030.58.25.000:W055.42.34.000
+COORD:S030.57.26.000:W055.41.35.000
+COORD:S030.57.39.000:W055.40.06.000
+COORD:S030.57.09.000:W055.38.52.000
+COORD:S030.54.44.000:W055.37.57.000
+COORD:S030.52.58.000:W055.38.22.000
+COORD:S030.52.20.000:W055.38.12.000
+COORD:S030.50.55.000:W055.37.28.000
+COORD:S030.50.56.000:W055.35.34.000
+COORD:S030.51.54.000:W055.34.20.000
+COORD:S030.53.10.000:W055.34.10.000
+COORD:S030.53.27.000:W055.33.16.000
+COORD:S030.54.35.000:W055.31.07.000
+COORD:S030.56.51.000:W055.29.53.000
+COORD:S030.57.55.000:W055.27.10.000
+COORD:S031.00.03.000:W055.26.15.000
+COORD:S031.00.56.000:W055.25.14.000
+COORD:S031.01.45.000:W055.23.20.000
+COORD:S031.02.57.000:W055.21.56.000
+COORD:S031.05.59.000:W055.20.22.000
+COORD:S031.07.16.000:W055.20.42.000
+COORD:S031.08.23.000:W055.19.57.000
+COORD:S031.09.18.000:W055.18.38.000
+COORD:S031.10.01.000:W055.17.29.000
+COORD:S031.11.13.000:W055.17.10.000
+COORD:S031.12.04.000:W055.16.40.000
+COORD:S031.13.12.000:W055.15.46.000
+COORD:S031.14.11.000:W055.15.21.000
+COORD:S031.15.27.000:W055.14.46.000
+COORD:S031.16.05.000:W055.13.42.000
+COORD:S031.16.34.000:W055.11.29.000
+COORD:S031.17.42.000:W055.09.49.000
+COORD:S031.18.54.000:W055.08.10.000
+COORD:S031.19.28.000:W055.06.36.000
+COORD:S031.19.36.000:W055.04.03.000
+COORD:S031.19.03.000:W055.02.34.000
+COORD:S031.17.05.000:W055.01.09.000
+COORD:S031.19.23.000:W054.59.16.000
+COORD:S031.21.29.000:W054.57.17.000
+COORD:S031.23.02.000:W054.56.48.000
+COORD:S031.23.36.000:W054.56.08.000
+COORD:S031.24.01.000:W054.53.20.000
+COORD:S031.25.09.000:W054.52.30.000
+COORD:S031.26.16.000:W054.51.01.000
+COORD:S031.27.07.000:W054.50.42.000
+COORD:S031.26.25.000:W054.47.44.000
+COORD:S031.26.25.000:W054.44.46.000
+COORD:S031.26.37.000:W054.43.07.000
+COORD:S031.26.58.000:W054.41.43.000
+COORD:S031.26.46.000:W054.38.10.000
+COORD:S031.26.58.000:W054.35.37.000
+COORD:S031.28.31.000:W054.35.07.000
+COORD:S031.29.13.000:W054.34.18.000
+COORD:S031.29.47.000:W054.32.54.000
+COORD:S031.30.21.000:W054.31.25.000
+COORD:S031.31.11.000:W054.30.01.000
+COORD:S031.33.19.000:W054.29.22.000
+COORD:S031.35.22.000:W054.28.37.000
+COORD:S031.36.29.000:W054.27.58.000
+COORD:S031.39.49.000:W054.27.43.000
+COORD:S031.53.10.288:W054.07.23.010
+COORD:S031.54.14.000:W054.05.46.000
+COORD:S031.54.14.000:W054.03.48.000
+COORD:S031.52.50.000:W054.02.48.000
+COORD:S031.53.32.000:W054.00.50.000
+COORD:S031.55.13.000:W054.00.10.000
+COORD:S031.55.13.000:W053.57.32.000
+COORD:S031.57.10.000:W053.57.42.000
+COORD:S031.57.27.000:W053.55.33.000
+COORD:S031.58.17.000:W053.53.25.000
+COORD:S031.59.41.000:W053.52.35.000
+COORD:S031.59.50.000:W053.50.57.000
+COORD:S032.01.39.000:W053.51.06.000
+COORD:S032.01.47.000:W053.49.47.000
+COORD:S032.03.36.000:W053.49.37.000
+COORD:S032.04.01.000:W053.47.39.000
+COORD:S032.04.57.000:W053.44.21.000
+COORD:S032.06.12.000:W053.43.21.000
+COORD:S032.06.54.000:W053.43.41.000
+COORD:S032.08.01.000:W053.44.01.000
+COORD:S032.09.25.000:W053.43.11.000
+COORD:S032.12.04.000:W053.41.42.000
+COORD:S032.13.40.000:W053.40.33.000
+COORD:S032.15.37.000:W053.40.13.000
+COORD:S032.16.36.000:W053.39.04.000
+COORD:S032.17.47.000:W053.38.25.000
+COORD:S032.18.00.000:W053.38.00.000
+COORD:S032.18.46.000:W053.38.15.000
+COORD:S032.19.27.000:W053.38.15.000
+COORD:S032.20.01.000:W053.37.35.000
+COORD:S032.23.12.000:W053.37.35.000
+COORD:S032.23.42.000:W053.36.27.000
+COORD:S032.25.10.000:W053.36.08.000
+COORD:S032.26.06.000:W053.35.36.000
+COORD:S032.26.06.000:W053.34.46.000
+COORD:S032.27.25.000:W053.33.57.000
+COORD:S032.28.24.000:W053.32.23.000
+COORD:S032.29.14.000:W053.30.54.000
+COORD:S032.28.49.000:W053.29.45.000
+COORD:S032.28.49.000:W053.27.21.000
+COORD:S032.30.12.000:W053.27.02.000
+COORD:S032.31.10.000:W053.26.32.000
+COORD:S032.33.57.000:W053.25.18.000
+COORD:S032.33.49.000:W053.24.25.000
+COORD:S032.34.56.000:W053.23.31.000
+COORD:S032.34.50.000:W053.22.27.000
+COORD:S032.34.37.000:W053.21.33.000
+COORD:S032.35.10.000:W053.20.04.000
+COORD:S032.35.56.000:W053.18.11.000
+COORD:S032.37.02.000:W053.16.38.000
+COORD:S032.36.21.000:W053.15.33.000
+COORD:S032.36.21.000:W053.14.29.000
+COORD:S032.37.52.000:W053.13.49.000
+COORD:S032.38.20.000:W053.12.24.000
+COORD:S032.38.42.000:W053.11.05.000
+COORD:S032.40.27.000:W053.09.09.000
+COORD:S032.41.42.000:W053.07.35.000
+COORD:S032.42.32.000:W053.06.06.000
+COORD:S032.43.43.000:W053.04.52.000
+COORD:S032.44.49.000:W053.04.27.000
+COORD:S032.46.04.000:W053.04.47.000
+COORD:S032.47.02.000:W053.05.41.000
+COORD:S032.47.10.000:W053.08.20.000
+COORD:S032.48.04.000:W053.09.28.000
+COORD:S032.49.23.000:W053.09.48.000
+COORD:S032.50.56.000:W053.10.35.000
+COORD:S032.53.49.000:W053.16.43.000
+COORD:S032.54.55.000:W053.17.41.000
+COORD:S032.55.40.000:W053.17.06.000
+COORD:S032.56.12.000:W053.14.43.000
+COORD:S032.59.27.000:W053.20.01.000
+COORD:S033.02.01.000:W053.24.18.000
+COORD:S033.03.36.000:W053.26.31.000
+COORD:S033.06.05.000:W053.28.25.000
+COORD:S033.09.45.000:W053.30.53.000
+COORD:S033.13.36.000:W053.31.03.000
+COORD:S033.17.19.000:W053.31.03.000
+COORD:S033.21.05.000:W053.30.14.000
+COORD:S033.27.54.000:W053.30.24.000
+COORD:S033.35.11.000:W053.31.16.000
+COORD:S033.41.12.000:W053.31.23.000
+COORD:S033.41.48.000:W053.26.12.000
+COORD:S033.44.19.000:W053.25.18.000
+COORD:S033.44.44.000:W053.23.54.000
+COORD:S033.45.14.000:W053.22.10.000
+COORD:S033.53.11.000:W053.22.43.000
+COORD:S033.59.56.000:W052.59.19.000
+COORD:S033.59.52.224:W051.25.13.411
+COORD:S033.59.49.997:W050.23.37.049 
+SECTORLINE:SUEO
+COORD:S033.59.49.997:W050.23.37.049
+COORD:S033.59.52.224:W051.25.13.411
+COORD:S036.49.20.000:W053.01.44.000
+COORD:S036.43.50.000:W053.14.47.000
+COORD:S035.18.28.000:W056.15.04.000
+COORD:S034.53.56.000:W057.03.59.000
+COORD:S034.34.20.000:W057.50.45.000
+COORD:S034.02.27.000:W058.21.46.000
+COORD:S033.49.44.000:W058.31.19.000
+COORD:S033.02.45.000:W058.24.37.000
+COORD:S031.37.11.000:W058.02.51.000
+COORD:S031.24.21.000:W057.59.13.000
+COORD:S030.41.29.000:W057.45.32.000
+COORD:S030.11.00.000:W057.37.13.000
+SECTOR:SUEO:0:60000
+OWNER:MC
+BORDER:SBCW-SUEO:SUEO
+
+SECTORLINE:SBCW-SLLF
+DISPLAY:SBCW:SBCW:SLLF
+DISPLAY:SBAZ:SBAZ:SLLF
+COORD:S017.49.56.000:W057.42.51.000
+COORD:S017.58.45.000:W057.38.43.000
+COORD:S018.00.24.000:W057.37.49.000
+COORD:S018.02.07.000:W057.36.34.000
+COORD:S018.05.39.000:W057.35.25.000
+COORD:S018.08.14.000:W057.34.41.000
+COORD:S018.09.59.000:W057.33.04.000
+COORD:S018.12.10.000:W057.29.17.000
+COORD:S018.14.03.000:W057.27.53.000
+COORD:S018.14.50.000:W057.33.34.000
+COORD:S018.19.36.000:W057.34.54.000
+COORD:S018.21.14.000:W057.36.03.000
+COORD:S018.38.42.000:W057.41.53.000
+COORD:S018.49.23.821:W057.45.06.897
+COORD:S018.54.32.000:W057.46.40.000
+COORD:S018.54.47.000:W057.45.26.000
+COORD:S018.54.31.000:W057.43.28.000
+COORD:S018.57.42.000:W057.43.23.000
+COORD:S019.00.02.000:W057.42.19.000
+COORD:S019.02.41.000:W057.42.53.000
+COORD:S019.02.00.000:W057.47.21.000
+COORD:S019.08.39.382:W057.50.37.208
+COORD:S019.36.25.028:W058.04.15.498
+COORD:S019.44.59.321:W058.08.28.203
+SECTOR:SLLF:0:60000
+OWNER:LP
+
+;SBAZ-SBCW 2018
+SECTORLINE:SBAZ-SBCW
+DISPLAY:SBAZ:SBAZ:SBCW
+DISPLAY:SBCW:SBAZ:SBCW
+COORD:S017.49.56.000:W057.42.51.000
+COORD:S017.47.17.000:W056.58.49.000
+COORD:S017.39.20.000:W055.31.41.000
+COORD:S017.34.35.000:W054.41.34.000
+COORD:S017.22.19.000:W054.00.27.000
+COORD:S017.18.27.000:W053.54.42.000
+SECTOR:SBAZ:0:60000
+OWNER:AZ:GOL
+
+;SBBS-SBCW 2018
+SECTORLINE:SBBS-SBCW
+DISPLAY:SBBS:SBBS:SBCW
+DISPLAY:SBCW:SBBS:SBCW
+COORD:S017.18.27.000:W053.54.42.000
+COORD:S019.34.26.000:W051.33.03.000
+COORD:S020.31.18.432:W050.44.55.100
+COORD:S021.08.13.830:W050.03.22.863
+COORD:S021.32.38.000:W049.35.55.000
+COORD:S021.55.34.610:W048.32.15.544 
+COORD:S022.06.52.000:W048.00.56.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S023.13.40.000:W047.25.31.000
+COORD:S023.17.43.829:W047.17.34.377
+COORD:S023.29.25.000:W046.54.44.000
+COORD:S023.24.25.000:W046.22.25.000
+COORD:S023.14.17.000:W045.51.05.000
+COORD:S022.47.20.000:W045.45.38.000
+COORD:S021.26.24.005:W044.44.59.762 
+COORD:S020.31.08.000:W044.03.35.000 
+COORD:S020.31.17.000:W043.59.28.000
+COORD:S020.31.17.000:W043.50.05.000 
+COORD:S020.30.09.000:W043.44.40.000
+COORD:S020.28.02.000:W043.39.47.000 
+COORD:S020.22.29.000:W043.28.27.000
+COORD:S020.13.22.000:W043.21.22.000
+COORD:S020.27.48.000:W042.35.13.000
+SECTOR:SBBS:5000:60000
+OWNER:BS:ZEU
+
+;SBRE-SBCW 2018
+SECTORLINE:SBRE-SBCW
+DISPLAY:SBRE:SBRE:SBCW
+DISPLAY:SBCW:SBRE:SBCW
+COORD:S020.27.48.000:W042.35.13.000
+COORD:S020.33.20.000:W042.18.35.000
+COORD:S020.37.35.000:W042.00.08.000
+COORD:S020.24.51.000:W040.58.13.000
+COORD:S020.41.53.000:W040.49.01.000
+COORD:S020.54.01.000:W040.33.56.000
+COORD:S020.55.38.000:W040.23.21.000
+COORD:S020.57.02.000:W040.14.39.000
+COORD:S020.51.56.000:W039.59.25.000
+COORD:S020.45.00.000:W039.48.27.000
+COORD:S021.11.43.000:W039.22.25.000
+SECTOR:SBRE:5000:60000
+OWNER:RE:SAN
+
+;SBCW-SBAO 2018
+SECTORLINE:SBCW-SBAO
+DISPLAY:SBCW:SBCW:SBAO
+DISPLAY:SBAO:SBCW:SBAO
+COORD:S021.11.43.000:W039.22.25.000
+COORD:S022.26.13.000:W038.06.13.000
+COORD:S024.42.03.000:W040.56.40.000
+COORD:S026.45.34.000:W043.45.59.000
+COORD:S028.47.37.014:W045.24.37.742
+COORD:S029.32.17.000:W046.02.12.000
+COORD:S030.24.25.000:W046.51.20.000
+COORD:S033.59.49.997:W050.23.37.049
+SECTOR:SBAO:0:60000
+OWNER:AO:POS
+
+SECTOR:SBCW:5000:60000
+OWNER:CW:THOR
+BORDER:SBCW-SGFA:SBCW-SARR:SBCW-SUEO:SBCW-SBAO:SBRE-SBCW:SBBS-SBCW:SBAZ-SBCW:SBCW-SLLF
+;========================================SBCW 2020 (AIRSPACE)============================================================;
+;========================================FIR BRASILIA SBBS 2020 (AIRSPACE)===============================================;
+[AIRSPACE]
+;SBWH APP 2018 (BELO HORIZONTE)
+SECTORLINE:SBWH_APP
+DISPLAY:SBBS:SBWH_APP:SBBS
+DISPLAY:SBCW:SBWH_APP:SBCW
+DISPLAY:SBWH_APP:SBCW:SBWH_APP
+DISPLAY:SBWH_APP:SBBS:SBWH_APP
+COORD:S018.56.48.000:W043.41.10.000
+COORD:S019.06.25.000:W043.32.32.000
+COORD:S019.36.49.000:W043.06.30.000
+COORD:S020.00.17.000:W043.07.49.000
+COORD:S020.29.58.000:W043.26.43.000
+COORD:S020.34.17.000:W043.54.01.000
+COORD:S020.21.46.000:W044.29.26.000
+COORD:S019.34.18.000:W044.46.40.000
+COORD:S019.07.52.000:W044.36.26.000
+COORD:S018.58.41.000:W044.19.05.000
+COORD:S018.56.48.000:W043.41.10.000
+SECTOR:SBWH_APP:0:19500
+OWNER:WH
+BORDER:SBWH_APP
+
+;SBYS APP 2018 (ACADEMIA)
+SECTORLINE:SBXQ_APP
+DISPLAY:SBXQ_APP:SBXQ_APP:SBBS
+DISPLAY:SBBS:SBXQ_APP:SBBS
+DISPLAY:SBXQ_APP:SBXQ_APP:SBCW
+DISPLAY:SBCW:SBXQ_APP:SBCW
+DISPLAY:SBXP_APP:SBXQ_APP:SBXP_APP
+DISPLAY:SBXP_F_APP:SBXQ_APP:SBXP_F_APP
+DISPLAY:SBWU_APP:SBXQ_APP:SBWU_APP
+DISPLAY:SBKP_TWR:SBXQ_APP:SBKP_TWR
+DISPLAY:SBXU_APP:SBXQ_APP:SBXU_APP
+DISPLAY:SBPC_TWR:SBXQ_APP:SBPC_TWR
+COORD:S020.35.06.000:W048.34.59.000
+COORD:S021.39.39.000:W049.43.33.000
+COORD:S022.05.01.000:W048.38.28.000
+COORD:S022.12.39.000:W048.32.18.000
+COORD:S022.21.32.000:W048.35.20.000
+COORD:S022.28.53.000:W048.37.49.000
+COORD:S022.33.11.000:W048.40.17.000
+COORD:S022.59.07.000:W047.54.38.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S022.28.02.000:W046.58.37.000
+COORD:S022.28.50.495:W046.56.29.510
+COORD:S022.11.16.000:W046.44.51.000
+COORD:S022.00.08.000:W046.44.36.000
+COORD:S021.41.59.000:W046.48.58.000
+COORD:S020.56.26.000:W047.01.33.000
+COORD:S020.35.33.000:W047.22.14.000
+COORD:S020.32.52.000:W047.50.53.000
+COORD:S020.33.28.000:W048.01.05.000
+COORD:S020.35.06.000:W048.34.59.000
+SECTOR:SBXQ_APP:5500:19500
+OWNER:XQ:POL:ZEU
+BORDER:SBXQ_APP
+
+;SBYS TWR 2018 (ACADEMIA)
+SECTORLINE:SBYS_TWR
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBYS_TWR:SBXQ_APP
+DISPLAY:SBYS_TWR:SBYS_TWR:SBBS
+DISPLAY:SBBS:SBYS_TWR:SBBS
+DISPLAY:SBYS_TWR:SBYS_TWR:SBCW
+DISPLAY:SBCW:SBYS_TWR:SBCW
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBYS_TWR:SBXP_APP
+DISPLAY:SBYS_TWR:SBYS_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBYS_TWR:SBXP_F_APP
+DISPLAY:SBPC_TWR:SBYS_TWR:SBPC_TWR
+COORD:S021.38.48.000:W047.20.24.000
+COORD:S021.39.06.189:W047.24.08.195
+COORD:S021.40.00.205:W047.27.45.624
+COORD:S021.41.28.419:W047.31.09.722
+COORD:S021.43.28.168:W047.34.14.317
+COORD:S021.45.55.832:W047.36.53.816
+COORD:S021.48.46.947:W047.39.03.376
+COORD:S021.51.56.335:W047.40.39.042
+COORD:S021.55.18.257:W047.41.37.878
+COORD:S021.58.46.591:W047.41.58.057
+COORD:S022.02.15.010:W047.41.38.918
+COORD:S022.05.37.177:W047.40.40.995
+COORD:S022.08.46.940:W047.39.06.007
+COORD:S022.11.38.515:W047.36.56.809
+COORD:S022.14.06.668:W047.34.17.309
+COORD:S022.16.06.876:W047.31.12.353
+COORD:S022.17.35.465:W047.27.47.577
+COORD:S022.18.29.727:W047.24.09.234
+COORD:S022.18.48.000:W047.20.24.000
+COORD:S022.18.29.727:W047.16.38.766
+COORD:S022.17.35.465:W047.13.00.423
+COORD:S022.16.06.876:W047.09.35.647
+COORD:S022.14.06.668:W047.06.30.691
+COORD:S022.11.38.515:W047.03.51.191
+COORD:S022.08.46.940:W047.01.41.993
+COORD:S022.05.37.177:W047.00.07.005
+COORD:S022.02.15.010:W046.59.09.082
+COORD:S021.58.46.591:W046.58.49.943
+COORD:S021.55.18.257:W046.59.10.122
+COORD:S021.51.56.335:W047.00.08.958
+COORD:S021.48.46.947:W047.01.44.624
+COORD:S021.45.55.832:W047.03.54.184
+COORD:S021.43.28.168:W047.06.33.683
+COORD:S021.41.28.419:W047.09.38.278
+COORD:S021.40.00.205:W047.13.02.376
+COORD:S021.39.06.189:W047.16.39.805
+COORD:S021.38.48.000:W047.20.24.000
+SECTOR:SBYS_TWR:0:5500
+OWNER:TYS:CAP:ZEU
+BORDER:SBYS_TWR
+
+;SBGP TWR 2018 (GAVIAO PEIXOTO)
+SECTORLINE:SBGP_TWR
+DISPLAY:SBGP_TWR:SBGP_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBGP_TWR:SBXQ_APP
+DISPLAY:SBAQ_TWR:SBGP_TWR:SBAQ_TWR
+DISPLAY:SBBS:SBGP_TWR:SBBS
+DISPLAY:SBCW:SBGP_TWR:SBCW
+COORD:S021.35.51.984:W048.24.16.992
+COORD:S021.36.01.089:W048.26.09.050
+COORD:S021.36.28.128:W048.27.57.715
+COORD:S021.37.12.282:W048.29.39.695
+COORD:S021.38.12.214:W048.31.11.898
+COORD:S021.39.26.107:W048.32.31.529
+COORD:S021.40.51.723:W048.33.36.166
+COORD:S021.42.26.465:W048.34.23.842
+COORD:S021.44.07.457:W048.34.53.102
+COORD:S021.45.51.636:W048.35.03.045
+COORD:S021.47.35.835:W048.34.53.358
+COORD:S021.49.16.888:W048.34.24.325
+COORD:S021.50.51.722:W048.33.36.816
+COORD:S021.52.17.452:W048.32.32.268
+COORD:S021.53.31.466:W048.31.12.637
+COORD:S021.54.31.512:W048.29.40.344
+COORD:S021.55.15.759:W048.27.58.197
+COORD:S021.55.42.858:W048.26.09.307
+COORD:S021.55.51.984:W048.24.16.992
+COORD:S021.55.42.858:W048.22.24.677
+COORD:S021.55.15.759:W048.20.35.787
+COORD:S021.54.31.512:W048.18.53.640
+COORD:S021.53.31.466:W048.17.21.347
+COORD:S021.52.17.452:W048.16.01.716
+COORD:S021.50.51.722:W048.14.57.168
+COORD:S021.49.16.888:W048.14.09.659
+COORD:S021.47.35.835:W048.13.40.626
+COORD:S021.45.51.636:W048.13.30.939
+COORD:S021.44.07.457:W048.13.40.882
+COORD:S021.42.26.465:W048.14.10.142
+COORD:S021.40.51.723:W048.14.57.818
+COORD:S021.39.26.107:W048.16.02.455
+COORD:S021.38.12.214:W048.17.22.086
+COORD:S021.37.12.282:W048.18.54.289
+COORD:S021.36.28.128:W048.20.36.269
+COORD:S021.36.01.089:W048.22.24.934
+COORD:S021.35.51.984:W048.24.16.992
+SECTOR:SBGP_TWR:0:5500
+OWNER:TGP
+BORDER:SBGP_TWR
+
+;SBKP TWR 2018 (CAMPINAS)
+SECTORLINE:SBKP_TWR
+DISPLAY:SBKP_TWR:SBKP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBKP_TWR:SBXP_APP
+DISPLAY:SBKP_TWR:SBKP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBKP_TWR:SBXP_F_APP
+DISPLAY:SBKP_TWR:SBKP_TWR:SBBS
+DISPLAY:SBBS:SBKP_TWR:SBBS
+DISPLAY:SBKP_TWR:SBKP_TWR:SBCW
+DISPLAY:SBCW:SBKP_TWR:SBCW
+DISPLAY:SBXQ_APP:SBKP_TWR:SBXQ_APP
+COORD:S023.09.23.000:W047.03.30.000
+COORD:S023.01.50.000:W046.57.12.000
+COORD:S022.49.39.000:W047.14.13.000
+COORD:S022.59.05.000:W047.22.06.000
+COORD:S023.08.35.000:W047.08.52.000
+COORD:S023.09.23.000:W047.03.30.000
+SECTOR:SBKP_TWR:0:3600
+OWNER:TKP
+BORDER:SBKP_TWR
+
+;SBAQ 2018 (TWR ARARAQUARA)
+SECTORLINE:SBAQ_TWR
+DISPLAY:SBAQ_TWR:SBAQ_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBAQ_TWR:SBXQ_APP
+DISPLAY:SBBS:SBBS:SBAQ_TWR
+DISPLAY:SBAQ_TWR:SBBS:SBAQ_TWR
+DISPLAY:SBGP_TWR:SBAQ_TWR:SBGP_TWR
+COORD:S021.38.46.836:W048.08.22.128
+COORD:S021.38.55.941:W048.10.14.224
+COORD:S021.39.22.980:W048.12.02.925
+COORD:S021.40.07.134:W048.13.44.939
+COORD:S021.41.07.065:W048.15.17.174
+COORD:S021.42.20.959:W048.16.36.831
+COORD:S021.43.46.575:W048.17.41.491
+COORD:S021.45.21.316:W048.18.29.183
+COORD:S021.47.02.309:W048.18.58.453
+COORD:S021.48.46.487:W048.19.08.400
+COORD:S021.50.30.686:W048.18.58.710
+COORD:S021.52.11.739:W048.18.29.667
+COORD:S021.53.46.574:W048.17.42.142
+COORD:S021.55.12.303:W048.16.37.572
+COORD:S021.56.26.318:W048.15.17.915
+COORD:S021.57.26.364:W048.13.45.591
+COORD:S021.58.10.611:W048.12.03.409
+COORD:S021.58.37.710:W048.10.14.481
+COORD:S021.58.46.836:W048.08.22.128
+COORD:S021.58.37.710:W048.06.29.775
+COORD:S021.58.10.611:W048.04.40.847
+COORD:S021.57.26.364:W048.02.58.665
+COORD:S021.56.26.318:W048.01.26.341
+COORD:S021.55.12.303:W048.00.06.684
+COORD:S021.53.46.574:W047.59.02.114
+COORD:S021.52.11.739:W047.58.14.589
+COORD:S021.50.30.686:W047.57.45.546
+COORD:S021.48.46.487:W047.57.35.856
+COORD:S021.47.02.309:W047.57.45.803
+COORD:S021.45.21.316:W047.58.15.073
+COORD:S021.43.46.575:W047.59.02.765
+COORD:S021.42.20.959:W048.00.07.425
+COORD:S021.41.07.065:W048.01.27.082
+COORD:S021.40.07.134:W048.02.59.317
+COORD:S021.39.22.980:W048.04.41.331
+COORD:S021.38.55.941:W048.06.30.032
+COORD:S021.38.46.836:W048.08.22.128
+SECTOR:SBAQ_TWR:0:5500
+OWNER:TAQ
+BORDER:SBAQ_TWR
+;========================================FIR BRASILIA SBBS 2020 (AIRSPACE)===============================================;
+;========================================FIR RECIFE SBRE 2020 (AIRSPACE)=================================================;
+[AIRSPACE]
+;SBXR APP 2018 (VITORIA)
+SECTORLINE:SBXR_APP
+DISPLAY:SBVT_APP:SBRE:SBXR_APP
+DISPLAY:SBRE:SBRE:SBXR_APP
+DISPLAY:SBCW:SBXR_APP:SBCW
+DISPLAY:SBAO:SBXR_APP:SBAO
+COORD:S020.24.51.000:W040.58.13.000
+COORD:S020.41.53.000:W040.49.01.000
+COORD:S020.54.01.000:W040.33.56.000
+COORD:S020.55.38.000:W040.23.21.000
+COORD:S020.57.02.000:W040.14.39.000
+COORD:S020.51.56.000:W039.59.25.000
+COORD:S020.45.00.000:W039.48.27.000
+COORD:S020.36.05.000:W039.40.13.000
+COORD:S020.16.44.000:W039.34.05.000
+COORD:S020.02.26.000:W039.36.28.000
+COORD:S019.56.02.000:W039.39.21.000
+COORD:S019.48.34.000:W039.44.43.000
+COORD:S019.41.54.000:W039.52.47.000
+COORD:S019.37.46.000:W040.01.22.000
+COORD:S019.35.45.000:W040.19.20.000
+COORD:S019.38.48.000:W040.35.56.000
+COORD:S019.43.51.000:W040.43.46.000
+COORD:S019.55.47.000:W040.54.24.000
+COORD:S020.11.21.000:W040.59.22.000
+COORD:S020.24.51.000:W040.58.13.000
+SECTOR:SBXR_APP:3500:19500
+OWNER:XR
+BORDER:SBXR_APP
+;========================================FIR RECIFE SBRE 2020 (AIRSPACE)=================================================;
+;========================================FIR CURITIBA SBCW 2020 (AIRSPACE)===============================================;
+[AIRSPACE]
+;SBAF MILITAR TWR (AFONSOS)
+SECTORLINE:SBAF_M_TWR
+DISPLAY:SBAF_M_TWR:SBAF_M_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBAF_M_TWR:SBWJ_APP
+DISPLAY:SBAF_M_TWR:SBAF_M_TWR:SBCW
+DISPLAY:SBCW:SBAF_M_TWR:SBCW
+DISPLAY:SBGL_TWR:SBAF_M_TWR:SBGL_TWR
+DISPLAY:SBRJ_TWR:SBAF_M_TWR:SBRJ_TWR
+DISPLAY:SBAF_M_TWR:SBAF_M_TWR:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBAF_M_TWR:SBWJ_F_APP
+COORD:S022.52.00.000:W043.27.41.000
+COORD:S022.50.00.000:W043.21.58.000
+COORD:S022.50.17.000:W043.21.43.000
+COORD:S022.49.44.000:W043.20.23.000
+COORD:S022.51.00.000:W043.18.45.000
+COORD:S022.51.46.000:W043.20.12.000
+COORD:S022.52.41.000:W043.20.34.000
+COORD:S022.54.32.000:W043.25.51.000
+COORD:S022.52.00.000:W043.27.41.000
+SECTOR:SBAF_M_TWR:0:1500
+OWNER:BUT:THOR
+BORDER:SBAF_M_TWR
+
+;ALBACORA HELICOPTER REMOTE TOWER (SBLB)
+SECTORLINE:SBLB_H_TWR
+DISPLAY:SBLB_H_TWR:SBLB_H_TWR:SBWE_APP
+DISPLAY:SBWE_APP:SBLB_H_TWR:SBWE_APP
+DISPLAY:SBCW:SBLB_H_TWR:SBCW
+COORD:S022.18.38.400:W040.34.34.200
+COORD:S022.16.54.000:W039.32.03.000
+COORD:S021.35.49.800:W039.34.28.800
+COORD:S021.55.46.800:W040.33.00.600
+COORD:S022.18.38.400:W040.34.34.200
+SECTOR:SBLB_H_TWR:0:1500
+OWNER:TLB:WEH
+BORDER:SBLB_H_TWR
+
+;SBCP TWR 2018 (CAMPOS DOS GOITACAZES)
+SECTORLINE:SBCP_TWR
+DISPLAY:SBCP_TWR:SBCP_TWR:SBWE_APP
+DISPLAY:SBCP_TWR:SBCP_TWR:SBCW
+DISPLAY:SBWE_APP:SBCP_TWR:SBWE_APP
+DISPLAY:SBCW:SBCP_TWR:SBCW
+DISPLAY:SBFS_H_TWR:SBCP_TWR:SBFS_H_TWR
+COORD:S021.53.47.417:W041.10.25.365
+COORD:S021.54.52.398:W041.12.48.127
+COORD:S021.55.15.975:W041.14.03.551
+COORD:S021.55.33.353:W041.15.20.909
+COORD:S021.55.44.401:W041.16.39.609
+COORD:S021.55.47.215:W041.19.18.623
+COORD:S021.55.38.959:W041.20.37.721
+COORD:S021.55.24.330:W041.21.55.738
+COORD:S021.55.03.438:W041.23.12.078
+COORD:S021.54.36.444:W041.24.26.158
+COORD:S021.54.03.555:W041.25.37.410
+COORD:S021.53.25.021:W041.26.45.293
+COORD:S021.52.41.137:W041.27.49.286
+COORD:S021.50.00.926:W041.30.33.229
+COORD:S021.48.59.363:W041.31.17.144
+COORD:S021.47.54.478:W041.31.55.103
+COORD:S021.43.11.920:W041.33.22.354
+COORD:S021.41.58.220:W041.33.27.202
+COORD:S021.40.44.407:W041.33.25.119
+COORD:S021.39.31.044:W041.33.16.122
+COORD:S021.38.18.689:W041.33.00.283
+COORD:S021.37.07.891:W041.32.37.726
+COORD:S021.35.59.189:W041.32.08.624
+COORD:S021.34.53.104:W041.31.33.200
+COORD:S021.33.50.139:W041.30.51.728
+COORD:S021.32.50.772:W041.30.04.522
+COORD:S021.31.55.452:W041.29.11.944
+COORD:S021.31.04.601:W041.28.14.394
+COORD:S021.30.18.602:W041.27.12.310
+COORD:S021.29.02.521:W041.24.56.456
+COORD:S021.28.33.014:W041.23.43.718
+COORD:S021.27.52.186:W041.21.11.373
+COORD:S021.27.41.174:W041.19.52.921
+COORD:S021.27.36.557:W041.18.33.737
+COORD:S021.27.38.370:W041.17.14.423
+COORD:S021.28.22.008:W041.13.21.677
+COORD:S021.29.21.713:W041.10.56.692
+COORD:S021.30.43.909:W041.08.45.011
+COORD:S021.31.32.689:W041.07.45.427
+COORD:S021.32.26.108:W041.06.50.627
+COORD:S021.33.23.763:W041.06.01.031
+COORD:S021.34.25.215:W041.05.17.015
+COORD:S021.36.37.621:W041.04.07.025
+COORD:S021.37.47.570:W041.03.41.587
+COORD:S021.38.59.313:W041.03.22.798
+COORD:S021.40.12.305:W041.03.10.804
+COORD:S021.41.25.990:W041.03.05.698
+COORD:S021.42.39.808:W041.03.07.523
+COORD:S021.43.53.198:W041.03.16.267
+COORD:S021.46.16.464:W041.03.54.206
+COORD:S021.48.31.428:W041.04.58.385
+COORD:S021.49.34.500:W041.05.39.739
+COORD:S021.50.33.982:W041.06.26.868
+COORD:S021.53.47.417:W041.10.25.365
+SECTOR:SBCP_TWR:0:1500
+OWNER:TCP
+BORDER:SBCP_TWR
+
+;SBEC HELICOPTER REMOTE TWR 2018 (ENCHOVA)
+SECTORLINE:SBEC_H_TWR
+DISPLAY:SBEC_H_TWR:SBEC_H_TWR:SBWE_APP
+DISPLAY:SBWE_APP:SBWE_APP:SBEC_H_TWR
+DISPLAY:SBCW:SBEC_H_TWR:SBCW
+DISPLAY:SBEC_H_TWR:SBEC_H_TWR:SBCW
+COORD:S022.48.55.800:W041.03.49.200
+COORD:S023.24.39.600:W040.13.19.800
+COORD:S022.43.10.800:W039.38.20.400
+COORD:S022.32.20.400:W040.39.55.800
+COORD:S022.48.55.800:W041.03.49.200
+SECTOR:SBEC_H_TWR:0:1500
+OWNER:TEC:WEH
+BORDER:SBEC_H_TWR
+
+;SBFS HELICOPTER TOWER 2018 (FAROL SÃO TOMÉ HELICOPTER)
+SECTORLINE:SBFS_H_TWR
+DISPLAY:SBFS_H_TWR:SBFS_H_TWR:SBWE_APP
+DISPLAY:SBWE_APP:SBFS_H_TWR:SBWE_APP
+DISPLAY:SBCW:SBFS_H_TWR:SBCW
+DISPLAY:SBFS_H_TWR:SBFS_H_TWR:SBCW
+DISPLAY:SBCP_TWR:SBFS_H_TWR:SBCP_TWR
+COORD:S021.51.43.320:W041.04.09.120
+COORD:S021.51.52.425:W041.06.01.384
+COORD:S021.52.19.463:W041.07.50.249
+COORD:S021.53.03.617:W041.09.32.417
+COORD:S021.54.03.548:W041.11.04.791
+COORD:S021.55.17.441:W041.12.24.569
+COORD:S021.56.43.056:W041.13.29.327
+COORD:S021.58.17.797:W041.14.17.093
+COORD:S021.59.58.789:W041.14.46.408
+COORD:S022.01.42.967:W041.14.56.372
+COORD:S022.03.27.166:W041.14.46.669
+COORD:S022.05.08.220:W041.14.17.583
+COORD:S022.06.43.055:W041.13.29.987
+COORD:S022.08.08.785:W041.12.25.320
+COORD:S022.09.22.800:W041.11.05.542
+COORD:S022.10.22.847:W041.09.33.077
+COORD:S022.11.07.094:W041.07.50.739
+COORD:S022.11.34.194:W041.06.01.645
+COORD:S022.11.43.320:W041.04.09.120
+COORD:S022.11.34.194:W041.02.16.595
+COORD:S022.11.07.094:W041.00.27.501
+COORD:S022.10.22.847:W040.58.45.163
+COORD:S022.09.22.800:W040.57.12.698
+COORD:S022.08.08.785:W040.55.52.920
+COORD:S022.06.43.055:W040.54.48.253
+COORD:S022.05.08.220:W040.54.00.657
+COORD:S022.03.27.166:W040.53.31.571
+COORD:S022.01.42.967:W040.53.21.868
+COORD:S021.59.58.789:W040.53.31.832
+COORD:S021.58.17.797:W040.54.01.147
+COORD:S021.56.43.056:W040.54.48.913
+COORD:S021.55.17.441:W040.55.53.671
+COORD:S021.54.03.548:W040.57.13.449
+COORD:S021.53.03.617:W040.58.45.823
+COORD:S021.52.19.463:W041.00.27.991
+COORD:S021.51.52.425:W041.02.16.856
+COORD:S021.51.43.320:W041.04.09.120
+SECTOR:SBFS_H_TWR:0:1500
+OWNER:TFS:WEH
+BORDER:SBFS_H_TWR
+
+;SBWE APP 2018 (MACAE)
+SECTORLINE:SBWE_APP
+DISPLAY:SBWE_APP:SBWE_APP:SBCW
+DISPLAY:SBCW:SBWE_APP:SBCW
+DISPLAY:SBWJ_APP:SBWE_APP:SBWJ_APP
+DISPLAY:SBES_APP:SBWE_APP:SBES_APP
+COORD:S022.52.25.007:W041.56.00.607
+COORD:S022.40.30.000:W041.59.48.001
+COORD:S022.38.25.430:W042.01.34.636
+COORD:S022.26.22.976:W042.11.49.451
+COORD:S022.23.51.000:W042.14.00.204
+COORD:S021.30.49.010:W041.36.27.000
+COORD:S021.30.15.921:W041.36.00.758
+COORD:S021.29.42.656:W041.35.34.900
+COORD:S021.29.10.236:W041.35.07.845
+COORD:S021.28.38.700:W041.34.39.626
+COORD:S021.28.08.083:W041.34.10.274
+COORD:S021.27.38.422:W041.33.39.825 
+COORD:S021.27.09.751:W041.33.08.314
+COORD:S021.26.42.104:W041.32.35.777
+COORD:S021.26.15.512:W041.32.02.253
+COORD:S021.25.50.007:W041.31.27.781
+COORD:S021.25.25.618:W041.30.52.402
+COORD:S021.25.02.374:W041.30.16.156
+COORD:S021.24.40.301:W041.29.39.085
+COORD:S021.24.19.426:W041.29.01.233
+COORD:S021.23.59.772:W041.28.22.644
+COORD:S021.23.41.362:W041.27.43.363
+COORD:S021.23.24.219:W041.27.03.436
+COORD:S021.23.08.361:W041.26.22.908
+COORD:S021.22.53.807:W041.25.41.828
+COORD:S021.22.40.574:W041.25.00.243
+COORD:S021.22.28.677:W041.24.18.200
+COORD:S021.22.18.131:W041.23.35.750
+COORD:S021.22.08.947:W041.22.52.942
+COORD:S021.22.01.136:W041.22.09.824
+COORD:S021.21.54.708:W041.21.26.448
+COORD:S021.21.49.669:W041.20.42.863
+COORD:S021.21.46.026:W041.19.59.121
+COORD:S021.21.43.782:W041.19.15.271
+COORD:S021.21.42.941:W041.18.31.366
+COORD:S021.21.43.503:W041.17.47.456
+COORD:S021.21.45.468:W041.17.03.591
+COORD:S021.21.48.833:W041.16.19.823
+COORD:S021.21.53.595:W041.15.36.203
+COORD:S021.21.59.748:W041.14.52.781
+COORD:S021.22.07.284:W041.14.09.609
+COORD:S021.22.16.196:W041.13.26.734
+COORD:S021.22.26.472:W041.12.44.209
+COORD:S021.22.38.101:W041.12.02.082
+COORD:S021.22.51.070:W041.11.20.402
+COORD:S021.23.05.362:W041.10.39.217
+COORD:S021.23.20.963:W041.09.58.576
+COORD:S021.23.37.852:W041.09.18.526
+COORD:S021.23.56.012:W041.08.39.112
+COORD:S021.24.15.420:W041.08.00.382
+COORD:S021.24.36.054:W041.07.22.380
+COORD:S021.24.59.400:W041.06.46.199
+COORD:S021.27.46.008:W039.27.29.999
+COORD:S022.27.40.000:W039.22.40.001
+COORD:S022.58.48.007:W039.33.37.001
+COORD:S023.30.24.001:W040.14.30.001
+COORD:S022.55.15.192:W041.48.26.445
+COORD:S022.52.25.007:W041.56.00.607
+SECTOR:SBWE_APP:1500:14500
+OWNER:WE:WEH
+BORDER:SBWE_APP
+
+;SBME TWR 2018 (MACAE)
+SECTORLINE:SBME_TWR
+DISPLAY:SBME_TWR:SBME_TWR:SBWE_APP
+DISPLAY:SBME_TWR:SBME_TWR:SBCW
+DISPLAY:SBWE_APP:SBME_TWR:SBWE_APP
+DISPLAY:SBCW:SBME_TWR:SBCW
+COORD:S022.05.41.280:W041.46.07.680
+COORD:S022.05.54.929:W041.48.56.354
+COORD:S022.06.35.463:W041.51.39.930
+COORD:S022.07.41.656:W041.54.13.460
+COORD:S022.09.11.508:W041.56.32.298
+COORD:S022.11.02.299:W041.58.32.234
+COORD:S022.13.10.676:W042.00.09.624
+COORD:S022.15.32.750:W042.01.21.501
+COORD:S022.18.04.215:W042.02.05.663
+COORD:S022.20.40.473:W042.02.20.744
+COORD:S022.23.16.780:W042.02.06.259
+COORD:S022.25.48.384:W042.01.22.623
+COORD:S022.28.10.673:W042.00.11.136
+COORD:S022.30.19.314:W041.58.33.953
+COORD:S022.32.10.385:W041.56.34.017
+COORD:S022.33.40.500:W041.54.14.971
+COORD:S022.34.46.908:W041.51.41.051
+COORD:S022.35.27.583:W041.48.56.951
+COORD:S022.35.41.280:W041.46.07.680
+COORD:S022.35.27.583:W041.43.18.409
+COORD:S022.34.46.908:W041.40.34.309
+COORD:S022.33.40.500:W041.38.00.389
+COORD:S022.32.10.385:W041.35.41.343
+COORD:S022.30.19.314:W041.33.41.407
+COORD:S022.28.10.673:W041.32.04.224
+COORD:S022.25.48.384:W041.30.52.737
+COORD:S022.23.16.780:W041.30.09.101
+COORD:S022.20.40.473:W041.29.54.616
+COORD:S022.18.04.215:W041.30.09.697
+COORD:S022.15.32.750:W041.30.53.859
+COORD:S022.13.10.676:W041.32.05.736
+COORD:S022.11.02.299:W041.33.43.126
+COORD:S022.09.11.508:W041.35.43.062
+COORD:S022.07.41.656:W041.38.01.900
+COORD:S022.06.35.463:W041.40.35.430
+COORD:S022.05.54.929:W041.43.19.006
+COORD:S022.05.41.280:W041.46.07.680
+SECTOR:SBME_TWR:0:1500
+OWNER:TME
+BORDER:SBME_TWR
+
+;SBMM HELICOPTER REMOTE TWR 2018 (MARLIM)
+SECTORLINE:SBMM_H_TWR
+DISPLAY:SBMM_H_TWR:SBMM_H_TWR:SBWE_APP
+DISPLAY:SBWE_APP:SBWE_APP:SBMM_H_TWR
+DISPLAY:SBCW:SBMM_H_TWR:SBCW
+DISPLAY:SBMM_H_TWR:SBMM_H_TWR:SBCW
+COORD:S022.32.20.400:W040.39.55.800
+COORD:S022.43.10.800:W039.38.20.400
+COORD:S022.16.54.000:W039.32.03.000
+COORD:S022.18.38.400:W040.34.34.200
+COORD:S022.32.20.400:W040.39.55.800
+SECTOR:SBMM_H_TWR:0:1500
+OWNER:TMM:WEH
+BORDER:SBMM_H_TWR
+
+;SBES APP 2018 (SAO PEDRO DA ALDEIA)
+SECTORLINE:SBES_APP
+DISPLAY:SBES_APP:SBES_APP:SBCW
+DISPLAY:SBCW:SBES_APP:SBCW
+DISPLAY:SBWJ_APP:SBES_APP:SBWJ_APP
+DISPLAY:SBWE_APP:SBES_APP:SBWE_APP
+DISPLAY:SBES_APP:SBES_APP:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBES_APP:SBWJ_F_APP
+COORD:S022.24.10.785:W042.07.25.444
+COORD:S022.22.01.800:W042.07.37.800
+COORD:S022.26.22.976:W042.11.49.451
+COORD:S022.39.01.800:W042.24.00.600 
+COORD:S023.00.01.800:W042.30.01.800
+COORD:S023.06.25.400:W042.30.01.800
+COORD:S023.30.01.800:W042.30.01.800
+COORD:S023.30.01.800:W042.00.00.600
+COORD:S022.58.32.965:W041.39.39.665
+COORD:S022.47.31.800:W041.32.31.200
+COORD:S022.41.45.434:W041.47.12.841
+COORD:S022.39.14.444:W041.53.37.933
+COORD:S022.37.37.800:W041.57.43.200
+COORD:S022.36.02.457:W042.00.02.705
+COORD:S022.33.34.299:W042.02.42.620
+COORD:S022.30.42.720:W042.04.52.151
+COORD:S022.27.32.954:W042.06.27.379
+COORD:S022.24.10.785:W042.07.25.444
+SECTOR:SBES_APP:2000:6500
+OWNER:ALC
+BORDER:SBES_APP
+
+;SBES MILITAR TWR 2018 (SAO PEDRO DA ALDEIA)
+SECTORLINE:SBES_M_TWR
+DISPLAY:SBES_M_TWR:SBES_M_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBES_M_TWR:SBWJ_APP
+DISPLAY:SBES_M_TWR:SBES_M_TWR:SBCW
+DISPLAY:SBCW:SBES_M_TWR:SBCW
+COORD:S022.37.51.000:W042.07.06.000
+COORD:S022.38.25.430:W042.01.34.636
+COORD:S022.39.14.444:W041.53.37.933
+COORD:S022.41.45.434:W041.47.12.841
+COORD:S022.55.15.192:W041.48.26.445
+COORD:S023.00.27.000:W041.48.53.000
+COORD:S023.05.36.000:W042.14.28.000
+COORD:S023.02.33.969:W042.16.37.600
+COORD:S022.57.02.000:W042.20.29.000
+COORD:S022.50.03.000:W042.16.12.000
+COORD:S022.42.39.000:W042.11.23.000
+COORD:S022.37.51.000:W042.07.06.000
+SECTOR:SBES_M_TWR:0:2000
+OWNER:ALM:THOR
+BORDER:SBES_M_TWR
+
+;SBCB TWR 2018 (CABO FRIO)
+SECTORLINE:SBCB_TWR
+DISPLAY:SBCB_TWR:SBCB_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBCB_TWR:SBWJ_APP
+DISPLAY:SBCB_TWR:SBCB_TWR:SBCW
+DISPLAY:SBCW:SBCB_TWR:SBCW
+COORD:S022.37.51.000:W042.07.06.000
+COORD:S022.38.25.430:W042.01.34.636
+COORD:S022.39.14.444:W041.53.37.933
+COORD:S022.41.45.434:W041.47.12.841
+COORD:S022.55.15.192:W041.48.26.445
+COORD:S023.00.27.000:W041.48.53.000
+COORD:S023.05.36.000:W042.14.28.000
+COORD:S023.02.33.969:W042.16.37.600
+COORD:S022.57.02.000:W042.20.29.000
+COORD:S022.50.03.000:W042.16.12.000
+COORD:S022.42.39.000:W042.11.23.000
+COORD:S022.37.51.000:W042.07.06.000
+SECTOR:SBCB_TWR:0:2000
+OWNER:TCB
+BORDER:SBCB_TWR
+
+;SBWJ APP 2018 (RIO DE JANEIRO)
+SECTORLINE:SBWJ_APP
+DISPLAY:SBWJ_APP:SBWJ_APP:SBCW
+DISPLAY:SBCW:SBCW:SBWJ_APP
+DISPLAY:SBES_APP:SBWJ_APP:SBES_APP
+DISPLAY:SBWE_APP:SBWJ_APP:SBWE_APP
+DISPLAY:SBXP_APP:SBWJ_APP:SBXP_APP
+DISPLAY:SBSC_M_APP:SBWJ_APP:SBSC_M_APP
+COORD:S023.01.51.000:W044.40.35.400
+COORD:S023.38.53.735:W044.10.06.861
+COORD:S023.48.24.078:W044.02.10.195
+COORD:S023.33.57.879:W043.07.32.505
+COORD:S023.11.08.627:W042.47.23.503
+COORD:S023.06.25.400:W042.30.01.800
+COORD:S023.02.33.969:W042.16.37.600
+COORD:S022.56.52.712:W041.54.55.460
+COORD:S022.52.25.007:W041.56.00.607
+COORD:S022.40.30.000:W041.59.48.001
+COORD:S022.38.25.430:W042.01.34.636
+COORD:S022.26.22.976:W042.11.49.451
+COORD:S022.23.51.000:W042.14.00.204
+COORD:S022.02.13.007:W042.33.09.613
+COORD:S022.11.56.398:W043.20.14.355
+COORD:S021.56.56.306:W043.42.16.681
+COORD:S022.05.46.351:W044.06.51.021
+COORD:S022.27.12.730:W044.03.05.492
+COORD:S022.33.41.950:W044.10.05.477
+COORD:S022.41.01.405:W044.17.59.692
+COORD:S022.51.35.808:W044.29.27.640
+COORD:S023.01.51.000:W044.40.35.400
+SECTOR:SBWJ_APP:5500:19500
+OWNER:WJ:WJH:WJV
+BORDER:SBWJ_APP
+;SBWJ FINAL APP 2020 (RIO DE JANEIRO FINAL)
+SECTORLINE:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBWJ_F_APP:SBCW
+DISPLAY:SBCW:SBCW:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBWJ_F_APP:SBWJ_APP
+DISPLAY:SBWJ_APP:SBWJ_F_APP:SBWJ_APP
+DISPLAY:SBSC_M_APP:SBWJ_F_APP:SBSC_M_APP
+COORD:S022.55.12.601:W042.54.47.927 
+COORD:S022.46.19.860:W042.56.25.330
+COORD:S022.31.15.490:W043.03.35.700 
+COORD:S022.28.53.172:W043.23.13.503 
+COORD:S022.31.10.839:W043.34.17.605
+COORD:S022.48.19.003:W043.42.07.226 
+COORD:S023.03.10.694:W043.29.33.553
+COORD:S022.58.59.143:W043.10.24.470
+COORD:S023.03.58.340:W043.02.44.252
+COORD:S022.55.12.601:W042.54.47.927
+SECTOR:SBWJ_F_APP:2500:19500
+OWNER:WJF
+BORDER:SBWJ_F_APP
+
+
+;SBSC MILITAR APP (SANTA CRUZ)
+SECTORLINE:SBSC_M_APP
+DISPLAY:SBSC_M_APP:SBSC_M_APP:SBWJ_APP
+DISPLAY:SBWJ_APP:SBSC_M_APP:SBWJ_APP
+DISPLAY:SBSC_M_APP:SBSC_M_APP:SBCW
+DISPLAY:SBWJ_F_APP:SBSC_M_APP:SBWJ_F_APP
+COORD:S022.33.41.950:W044.10.05.477
+COORD:S022.41.40.000:W043.50.51.000
+COORD:S022.33.54.000:W043.39.09.000
+COORD:S023.14.49.000:W043.27.02.000
+COORD:S023.23.53.000:W044.07.22.000
+COORD:S023.01.31.000:W044.00.40.000
+COORD:S022.51.35.808:W044.29.27.640
+COORD:S022.41.01.405:W044.17.59.692
+COORD:S022.33.41.950:W044.10.05.477
+SECTOR:SBSC_M_APP:1500:11500
+OWNER:SCR:THOR
+BORDER:SBSC_M_APP
+
+;SBSC MILITAR TWR 2018 (SANTA CRUZ)
+SECTORLINE:SBSC_M_TWR
+DISPLAY:SBSC_M_TWR:SBSC_M_TWR:SBSC_M_APP
+DISPLAY:SBSC_M_APP:SBSC_M_APP:SBSC_M_TWR
+DISPLAY:SBSC_M_TWR:SBSC_M_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBWJ_APP:SBSC_M_TWR
+DISPLAY:SBCW:SBSC_M_TWR:SBCW
+COORD:S022.56.08.000:W043.53.41.000
+COORD:S023.05.21.000:W043.52.44.000
+COORD:S023.04.22.000:W043.34.31.000
+COORD:S022.48.19.000:W043.38.26.000
+COORD:S022.56.08.000:W043.53.41.000
+SECTOR:SBSC_M_TWR:0:2500
+OWNER:PRI:THOR
+BORDER:SBSC_M_TWR
+
+;SBGL TWR 2018 (GALEAO)
+SECTORLINE:SBGL_TWR
+DISPLAY:SBGL_TWR:SBGL_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBGL_TWR:SBWJ_APP
+DISPLAY:SBGL_TWR:SBGL_TWR:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBGL_TWR:SBWJ_F_APP
+DISPLAY:SBGL_TWR:SBGL_TWR:SBCW
+DISPLAY:SBCW:SBGL_TWR:SBCW
+DISPLAY:SBRJ_TWR:SBGL_TWR:SBRJ_TWR
+DISPLAY:SBAF_M_TWR:SBGL_TWR:SBAF_M_TWR
+DISPLAY:SBJR_TWR:SBGL_TWR:SBJR_TWR
+COORD:S022.48.23.000:W043.05.05.000
+COORD:S022.43.05.000:W043.06.31.000
+COORD:S022.45.19.000:W043.15.11.000
+COORD:S022.42.37.000:W043.20.34.000
+COORD:S022.45.12.000:W043.22.23.000
+COORD:S022.48.56.000:W043.23.05.000
+COORD:S022.50.00.000:W043.21.58.000
+COORD:S022.50.17.000:W043.21.43.000
+COORD:S022.51.46.000:W043.20.12.000
+COORD:S022.52.22.000:W043.19.39.000
+COORD:S022.51.28.000:W043.17.08.000
+COORD:S022.52.11.000:W043.14.39.000
+COORD:S022.53.03.000:W043.13.53.000
+COORD:S022.48.23.000:W043.05.05.000
+SECTOR:SBGL_TWR:0:1500
+OWNER:TGL
+BORDER:SBGL_TWR
+
+;SBRJ TWR 2018 (SANTOS DUMMONT)
+SECTORLINE:SBRJ_TWR
+DISPLAY:SBRJ_TWR:SBRJ_TWR:SBWJ_APP
+DISPLAY:SBRJ_TWR:SBWJ_APP:SBRJ_TWR
+DISPLAY:SBRJ_TWR:SBRJ_TWR:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBRJ_TWR:SBWJ_F_APP
+DISPLAY:SBRJ_TWR:SBRJ_TWR:SBCW
+DISPLAY:SBCW:SBRJ_TWR:SBCW
+DISPLAY:SBGL_TWR:SBRJ_TWR:SBGL_TWR
+DISPLAY:SBAF_M_TWR:SBRJ_TWR:SBAF_M_TWR
+DISPLAY:SBJR_TWR:SBRJ_TWR:SBJR_TWR
+COORD:S022.48.23.000:W043.05.05.000
+COORD:S022.50.29.000:W043.01.35.000
+COORD:S022.54.36.000:W042.59.44.000
+COORD:S023.00.55.000:W043.03.30.000
+COORD:S023.01.24.000:W043.06.40.000
+COORD:S022.56.22.000:W043.14.28.000
+COORD:S022.52.22.000:W043.19.39.000
+COORD:S022.51.28.000:W043.17.08.000
+COORD:S022.52.11.000:W043.14.39.000
+COORD:S022.53.03.000:W043.13.53.000
+COORD:S022.48.23.000:W043.05.05.000
+SECTOR:SBRJ_TWR:0:1500
+OWNER:TRJ
+BORDER:SBRJ_TWR
+
+;SBJR TWR 2018 (JACAREPAGUA)
+SECTORLINE:SBJR_TWR
+DISPLAY:SBJR_TWR:SBJR_TWR:SBWJ_APP
+DISPLAY:SBWJ_APP:SBJR_TWR:SBWJ_APP
+DISPLAY:SBJR_TWR:SBJR_TWR:SBWJ_F_APP
+DISPLAY:SBWJ_F_APP:SBJR_TWR:SBWJ_F_APP
+DISPLAY:SBCW:SBCW:SBJR_TWR
+DISPLAY:SBJR_TWR:SBJR_TWR:SBSC_M_APP
+DISPLAY:SBSC_M_APP:SBSC_M_APP:SBJR_TWR
+DISPLAY:SBRJ_TWR:SBJR_TWR:SBRJ_TWR
+DISPLAY:SBGL_TWR:SBJR_TWR:SBGL_TWR
+COORD:S022.56.02.000:W043.22.35.000
+COORD:S022.55.56.000:W043.21.45.000
+COORD:S022.56.09.000:W043.20.47.000
+COORD:S022.56.43.000:W043.19.50.000
+COORD:S022.57.18.000:W043.19.13.000
+COORD:S022.57.56.000:W043.18.50.000
+COORD:S022.58.48.000:W043.18.37.000
+COORD:S022.59.38.000:W043.18.37.000
+COORD:S023.00.52.000:W043.19.06.000
+COORD:S023.01.33.000:W043.19.34.000
+COORD:S023.02.13.000:W043.20.26.000
+COORD:S023.02.31.000:W043.21.22.000
+COORD:S023.02.33.000:W043.22.14.000
+COORD:S023.02.28.000:W043.23.02.000
+COORD:S022.56.02.000:W043.22.35.000
+SECTOR:SBJR_TWR:0:1500
+OWNER:TJR
+BORDER:SBJR_TWR
+
+;SBGW MILITARY APP 2018 (GUARA)
+SECTORLINE:SBGW_M_APP
+DISPLAY:SBGW_M_APP:SBGW_M_APP:SBCW
+DISPLAY:SBCW:SBGW_M_APP:SBCW
+DISPLAY:SBGW_APP:SBGW_APP:SBXP_APP
+DISPLAY:SBXP_APP:SBGW_M_APP:SBXP_APP
+COORD:S022.48.18.000:W045.22.59.000
+COORD:S022.36.20.000:W045.10.11.000
+COORD:S022.38.23.000:W045.01.02.000
+COORD:S022.42.02.000:W044.58.34.000
+COORD:S022.51.27.000:W045.03.06.000
+COORD:S022.53.25.000:W045.03.46.000
+COORD:S022.58.26.000:W045.14.09.000
+COORD:S023.09.44.000:W045.33.35.000
+COORD:S023.05.43.000:W045.34.24.000
+COORD:S023.03.26.000:W045.36.33.000
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S022.48.18.000:W045.22.59.000
+SECTOR:SBGW_M_APP:0:8500
+OWNER:AGW:THOR
+BORDER:SBGW_M_APP
+
+;SBGW MILITAR TWR 2018 (GUARATINGUETA)
+SECTORLINE:SBGW_M_TWR
+DISPLAY:SBGW_M_TWR:SBGW_M_TWR:SBCW
+DISPLAY:SBCW:SBGW_M_TWR:SBCW
+DISPLAY:SBGW_M_TWR:SBGW_M_TWR:SBGW_M_APP
+DISPLAY:SBGW_M_APP:SBGW_M_TWR:SBGW_M_APP
+COORD:S022.48.18.000:W045.22.59.000
+COORD:S022.36.20.000:W045.10.11.000
+COORD:S022.38.23.000:W045.01.02.000
+COORD:S022.42.02.000:W044.58.34.000
+COORD:S022.51.27.000:W045.03.06.000
+COORD:S022.53.25.000:W045.03.46.000
+COORD:S022.58.26.000:W045.14.09.000
+COORD:S022.56.23.000:W045.18.11.000
+COORD:S022.57.13.000:W045.20.15.000
+COORD:S022.55.33.000:W045.21.14.000
+COORD:S022.53.55.000:W045.21.55.000
+COORD:S022.48.18.000:W045.22.59.000
+SECTOR:SBGW_M_TWR:0:8500
+OWNER:TGW:THOR
+BORDER:SBGW_M_TWR
+
+;SBTA MILITARY APP 2018 (SBTA)
+SECTORLINE:SBTA_M_TWR
+DISPLAY:SBTA_M_TWR:SBTA_M_TWR:SBGW_M_APP
+DISPLAY:SBGW_M_APP:SBTA_M_TWR:SBGW_M_APP
+DISPLAY:SBGW_M_TWR:SBTA_M_TWR:SBGW_M_TWR
+DISPLAY:SBXP_APP:SBTA_M_TWR:SBXP_APP
+DISPLAY:SBCW:SBTA_M_TWR:SBCW
+COORD:S022.48.18.000:W045.22.59.000
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S023.03.26.000:W045.36.33.000
+COORD:S023.05.43.000:W045.34.24.000
+COORD:S023.09.44.000:W045.33.35.000
+COORD:S022.58.26.000:W045.14.09.000
+COORD:S022.56.23.000:W045.18.11.000
+COORD:S022.57.13.000:W045.20.15.000
+COORD:S022.55.33.000:W045.21.14.000
+COORD:S022.53.55.000:W045.21.55.000
+COORD:S022.48.18.000:W045.22.59.000800
+SECTOR:SBTA_M_TWR:0:7500
+OWNER:TTA:THOR
+BORDER:SBTA_M_TWR
+
+;SBXP APP 2018 (SAO PAULO)
+SECTORLINE:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_APP:SBCW
+DISPLAY:SBCW:SBXP_APP:SBCW
+DISPLAY:SBXP_APP:SBXP_APP:SBBS
+DISPLAY:SBBS:SBXP_APP:SBBS
+DISPLAY:SBWJ_APP:SBXP_APP:SBWJ_APP
+DISPLAY:SBGW_M_APP:SBXP_APP:SBGW_M_APP
+DISPLAY:SBXQ_APP:SBXP_APP:SBXQ_APP
+COORD:S022.41.01.405:W044.17.59.692
+COORD:S022.51.35.808:W044.29.27.640
+COORD:S023.01.51.000:W044.40.35.400
+COORD:S023.38.53.735:W044.10.06.862
+COORD:S023.55.05.000:W045.22.18.000
+COORD:S024.05.09.000:W046.04.10.000
+COORD:S024.20.47.000:W046.10.45.000
+COORD:S024.27.14.000:W046.55.02.000
+COORD:S024.10.29.201:W047.07.01.414
+COORD:S023.32.23.400:W047.34.18.000
+COORD:S023.03.18.000:W047.33.33.000
+COORD:S022.42.16.000:W047.33.47.000
+COORD:S022.28.02.000:W046.58.37.000
+COORD:S022.55.11.452:W045.47.13.340
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S022.41.01.405:W044.17.59.692
+SECTOR:SBXP_APP:5500:19500
+OWNER:XP:XPH:XPV
+BORDER:SBXP_APP
+;SBXP APP FINAL 2018 (SAO PAULO FINAL)
+SECTORLINE:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_F_APP:SBXP_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBCW
+DISPLAY:SBCW:SBXP_F_APP:SBCW
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBBS
+DISPLAY:SBBS:SBXP_F_APP:SBBS
+COORD:S023.14.42.000:W047.05.37.000
+COORD:S023.02.05.000:W047.23.10.000
+COORD:S022.57.26.000:W047.23.12.000
+COORD:S022.54.33.000:W047.22.07.000
+COORD:S022.51.38.000:W047.20.18.000
+COORD:S022.49.23.000:W047.18.05.000
+COORD:S022.46.57.000:W047.14.13.000
+COORD:S022.46.04.000:W047.09.59.000
+COORD:S022.59.44.000:W046.51.12.000
+COORD:S022.59.12.000:W046.44.26.000
+COORD:S023.09.24.000:W046.32.07.000
+COORD:S023.15.33.000:W046.12.17.000
+COORD:S023.23.02.000:W046.07.45.000
+COORD:S023.49.47.000:W046.26.02.000
+COORD:S023.51.13.000:W046.38.28.000
+COORD:S023.34.04.000:W047.03.43.000
+COORD:S023.14.42.000:W047.05.37.000
+SECTOR:SBXP_F_APP:3600:5500
+OWNER:XPF
+BORDER:SBXP_F_APP
+
+;SBSJ TWR 2018 (SAO JOSE DOS CAMPOS)
+SECTORLINE:SBSJ_TWR
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBSJ_TWR:SBXP_APP
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBSJ_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBSJ_TWR:SBBS
+DISPLAY:SBCW:SBSJ_TWR:SBCW
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBGW_M_APP
+DISPLAY:SBGW_M_APP:SBSJ_TWR:SBGW_M_APP
+DISPLAY:SBSJ_TWR:SBSJ_TWR:SBTA_M_TWR
+DISPLAY:SBTA_M_TWR:SBSJ_TWR:SBTA_M_TWR
+COORD:S023.09.58.000:W046.07.47.000
+COORD:S022.57.14.000:W045.53.29.000
+COORD:S022.58.40.000:W045.38.02.000
+COORD:S023.03.26.000:W045.36.33.000
+COORD:S023.04.54.000:W045.44.36.000
+COORD:S023.15.25.000:W045.33.09.000
+COORD:S023.23.13.000:W045.41.24.000
+COORD:S023.21.01.000:W045.57.13.000
+COORD:S023.14.35.000:W046.03.15.000
+COORD:S023.09.58.000:W046.07.47.000
+SECTOR:SBSJ_TWR:0:5500
+OWNER:TSJ
+BORDER:SBSJ_TWR
+
+;SBST MILITARY TWR 2018 (SANTOS)
+SECTORLINE:SBST_M_TWR
+DISPLAY:SBST_M_TWR:SBST_M_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBST_M_TWR:SBXP_APP
+DISPLAY:SBST_M_TWR:SBST_M_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBST_M_TWR:SBXP_F_APP
+DISPLAY:SBCW:SBCW:SBST_M_TWR
+COORD:S023.53.58.000:W046.29.22.000
+COORD:S024.07.12.000:W046.20.26.000
+COORD:S024.07.38.000:W046.18.29.000
+COORD:S024.07.34.000:W046.16.21.000
+COORD:S024.07.10.000:W046.14.08.000
+COORD:S024.06.06.000:W046.11.30.000
+COORD:S024.04.48.000:W046.09.29.000
+COORD:S024.02.45.000:W046.07.23.000
+COORD:S024.00.15.000:W046.05.50.000
+COORD:S023.44.08.000:W046.17.07.000
+COORD:S023.53.58.000:W046.29.22.000
+SECTOR:SBST_M_TWR:0:5500
+OWNER:TST
+BORDER:SBST_M_TWR
+
+;SBSP TWR 2018 (CONGONHAS)
+SECTORLINE:SBSP_TWR
+DISPLAY:SBSP_TWR:SBSP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBSP_TWR:SBXP_APP
+DISPLAY:SBSP_TWR:SBSP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBSP_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBSP_TWR:SBBS
+DISPLAY:SBCW:SBSP_TWR:SBCW
+COORD:S023.33.09.000:W046.45.38.000
+COORD:S023.31.32.000:W046.42.53.000
+COORD:S023.31.40.000:W046.40.13.000
+COORD:S023.42.06.000:W046.33.01.000
+COORD:S023.44.47.000:W046.37.36.000
+COORD:S023.33.09.000:W046.45.38.000
+SECTOR:SBSP_TWR:0:3600
+OWNER:TSP
+BORDER:SBSP_TWR
+
+;SBGR TWR 2018 (GUARULLHOS)
+SECTORLINE:SBGR_TWR
+DISPLAY:SBGR_TWR:SBGR_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBXP_APP:SBGR_TWR
+DISPLAY:SBGR_TWR:SBGR_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBGR_TWR
+DISPLAY:SBBS:SBGR_TWR:SBBS
+DISPLAY:SBCW:SBGR_TWR:SBCW
+COORD:S023.25.42.000:W046.37.21.000
+COORD:S023.21.07.000:W046.20.25.000
+COORD:S023.26.08.000:W046.18.49.000
+COORD:S023.29.50.000:W046.32.32.000
+COORD:S023.29.12.000:W046.36.15.000
+COORD:S023.25.42.000:W046.37.21.000
+SECTOR:SBGR_TWR:0:3600
+OWNER:TGR
+BORDER:SBGR_TWR
+
+;SBMT TWR 2018 (MARTE)
+SECTORLINE:SBMT_TWR
+DISPLAY:SBMT_TWR:SBMT_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBMT_TWR:SBXP_APP
+DISPLAY:SBMT_TWR:SBMT_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBMT_TWR:SBXP_F_APP
+DISPLAY:SBBS:SBMT_TWR:SBBS
+DISPLAY:SBCW:SBMT_TWR:SBCW
+COORD:S023.30.36.000:W046.34.42.000
+COORD:S023.29.24.000:W046.41.41.000
+COORD:S023.30.30.000:W046.41.55.000
+COORD:S023.30.53.277:W046.41.27.385
+COORD:S023.31.27.010:W046.40.34.890
+COORD:S023.31.51.866:W046.39.36.797
+COORD:S023.32.07.090:W046.38.34.875
+COORD:S023.32.12.216:W046.37.31.008
+COORD:S023.32.07.090:W046.36.27.141
+COORD:S023.31.51.866:W046.35.25.219
+COORD:S023.31.41.000:W046.34.55.000
+COORD:S023.30.36.000:W046.34.42.000
+SECTOR:SBMT_TWR:0:3600
+OWNER:TMT
+BORDER:SBMT_TWR
+
+;SBWU APP 2018 (BAURU)
+SECTORLINE:SBWU_APP
+DISPLAY:SBWU_APP:SBWU_APP:SBCW
+DISPLAY:SBCW:SBWU_APP:SBCW
+DISPLAY:SBXQ_APP:SBWU_APP:SBXQ_APP
+DISPLAY:SBBS:SBWU_APP:SBBS
+COORD:S021.39.39.000:W049.43.33.000
+COORD:S021.45.32.000:W049.59.50.000
+COORD:S021.55.58.000:W050.02.48.000
+COORD:S022.34.55.000:W050.13.55.000
+COORD:S022.57.57.000:W049.06.17.000
+COORD:S022.33.11.000:W048.40.17.000
+COORD:S022.28.53.000:W048.37.49.000
+COORD:S022.21.32.000:W048.35.20.000
+COORD:S022.12.39.000:W048.32.18.000
+COORD:S022.05.01.000:W048.38.28.000
+COORD:S021.39.39.000:W049.43.33.000
+SECTOR:SBWU_APP:4500:19500
+OWNER:WU
+BORDER:SBWU_APP
+
+;SBBU TWR 2018 (BAURU)
+SECTORLINE:SBBU_TWR
+DISPLAY:SBBU_TWR:SBBU_TWR:SBWU_APP
+DISPLAY:SBWU_APP:SBBU_TWR:SBWU_APP
+DISPLAY:SBBU_TWR:SBBU_TWR:SBBS
+DISPLAY:SBBU_TWR:SBBU_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBBU_TWR
+DISPLAY:SBBS:SBBS:SBBU_TWR
+DISPLAY:SBBU_TWR:SBBU_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBBU_TWR:SBXQ_APP
+DISPLAY:SBAE_R_TWR:SBBU_TWR:SBAE_R_TWR
+COORD:S021.58.51.000:W049.02.04.000
+COORD:S021.59.32.000:W048.56.29.000
+COORD:S022.01.31.000:W048.51.08.000
+COORD:S022.04.34.000:W048.46.16.000
+COORD:S022.08.51.000:W048.42.19.000
+COORD:S022.12.44.000:W048.40.15.000
+COORD:S022.17.06.000:W048.38.53.000
+COORD:S022.22.58.000:W048.38.43.000
+COORD:S022.28.13.000:W048.39.40.000
+COORD:S022.33.42.000:W048.42.38.000
+COORD:S022.37.53.000:W048.46.45.000
+COORD:S022.41.26.000:W048.53.22.000
+COORD:S022.42.48.000:W048.58.58.000
+COORD:S022.42.57.000:W049.05.14.000
+COORD:S022.42.05.000:W049.09.22.000
+COORD:S022.40.57.000:W049.12.39.000
+COORD:S022.37.59.000:W049.17.46.000
+COORD:S022.33.57.000:W049.21.48.000
+COORD:S022.28.37.000:W049.24.46.000
+COORD:S022.23.22.000:W049.26.05.000
+COORD:S022.18.11.000:W049.25.55.000
+COORD:S022.12.42.000:W049.24.26.000
+COORD:S022.07.42.000:W049.21.37.000
+COORD:S022.04.16.000:W049.17.55.000
+COORD:S022.01.17.000:W049.13.28.000
+COORD:S021.59.59.000:W049.09.45.000
+COORD:S021.59.17.000:W049.06.05.000
+COORD:S021.58.51.000:W049.02.04.000
+SECTOR:SBBU_TWR:0:4500
+OWNER:TBU
+BORDER:SBBU_TWR
+
+;SBAE TWR 2018 (BAURU AREALVA)
+SECTORLINE:SBAE_R_TWR
+DISPLAY:SBAE_R_TWR:SBAE_R_TWR:SBWU_APP
+DISPLAY:SBWU_APP:SBAE_R_TWR:SBWU_APP
+DISPLAY:SBAE_R_TWR:SBAE_R_TWR:SBBS
+DISPLAY:SBAE_R_TWR:SBAE_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBAE_R_TWR
+DISPLAY:SBBS:SBBS:SBAE_R_TWR
+DISPLAY:SBAE_R_TWR:SBAE_R_TWR:SBXQ_APP
+DISPLAY:SBXQ_APP:SBAE_R_TWR:SBXQ_APP
+DISPLAY:SBBU_TWR:SBAE_R_TWR:SBBU_TWR
+COORD:S021.58.51.000:W049.02.04.000
+COORD:S021.59.32.000:W048.56.29.000
+COORD:S022.01.31.000:W048.51.08.000
+COORD:S022.04.34.000:W048.46.16.000
+COORD:S022.08.51.000:W048.42.19.000
+COORD:S022.12.44.000:W048.40.15.000
+COORD:S022.17.06.000:W048.38.53.000
+COORD:S022.22.58.000:W048.38.43.000
+COORD:S022.28.13.000:W048.39.40.000
+COORD:S022.33.42.000:W048.42.38.000
+COORD:S022.37.53.000:W048.46.45.000
+COORD:S022.41.26.000:W048.53.22.000
+COORD:S022.42.48.000:W048.58.58.000
+COORD:S022.42.57.000:W049.05.14.000
+COORD:S022.42.05.000:W049.09.22.000
+COORD:S022.40.57.000:W049.12.39.000
+COORD:S022.37.59.000:W049.17.46.000
+COORD:S022.33.57.000:W049.21.48.000
+COORD:S022.28.37.000:W049.24.46.000
+COORD:S022.23.22.000:W049.26.05.000
+COORD:S022.18.11.000:W049.25.55.000
+COORD:S022.12.42.000:W049.24.26.000
+COORD:S022.07.42.000:W049.21.37.000
+COORD:S022.04.16.000:W049.17.55.000
+COORD:S022.01.17.000:W049.13.28.000
+COORD:S021.59.59.000:W049.09.45.000
+COORD:S021.59.17.000:W049.06.05.000
+COORD:S021.58.51.000:W049.02.04.000
+SECTOR:SBAE_R_TWR:0:4500
+OWNER:TAE
+BORDER:SBAE_R_TWR
+
+;SBML TWR 2018 (MARILIA)
+SECTORLINE:SBML_TWR
+DISPLAY:SBML_TWR:SBML_TWR:SBWU_APP
+DISPLAY:SBWU_APP:SBML_TWR:SBWU_APP
+DISPLAY:SBML_TWR:SBML_TWR:SBCW
+DISPLAY:SBCW:SBML_TWR:SBCW
+DISPLAY:SBXG_APP:SBML_TWR:SBXG_APP
+COORD:S022.01.41.388:W049.55.45.588
+COORD:S022.01.50.493:W049.57.37.984
+COORD:S022.02.17.531:W049.59.26.976
+COORD:S022.03.01.684:W050.01.09.263
+COORD:S022.04.01.615:W050.02.41.746
+COORD:S022.05.15.507:W050.04.01.618
+COORD:S022.06.41.121:W050.05.06.453
+COORD:S022.08.15.862:W050.05.54.276
+COORD:S022.09.56.854:W050.06.23.626
+COORD:S022.11.41.032:W050.06.33.603
+COORD:S022.13.25.231:W050.06.23.889
+COORD:S022.15.06.285:W050.05.54.770
+COORD:S022.16.41.120:W050.05.07.119
+COORD:S022.18.06.851:W050.04.02.376
+COORD:S022.19.20.867:W050.02.42.504
+COORD:S022.20.20.914:W050.01.09.929
+COORD:S022.21.05.162:W049.59.27.470
+COORD:S022.21.32.262:W049.57.38.247
+COORD:S022.21.41.388:W049.55.45.588
+COORD:S022.21.32.262:W049.53.52.929
+COORD:S022.21.05.162:W049.52.03.706
+COORD:S022.20.20.914:W049.50.21.247
+COORD:S022.19.20.867:W049.48.48.672
+COORD:S022.18.06.851:W049.47.28.800
+COORD:S022.16.41.120:W049.46.24.057
+COORD:S022.15.06.285:W049.45.36.406
+COORD:S022.13.25.231:W049.45.07.287
+COORD:S022.11.41.032:W049.44.57.573
+COORD:S022.09.56.854:W049.45.07.550
+COORD:S022.08.15.862:W049.45.36.900
+COORD:S022.06.41.121:W049.46.24.723
+COORD:S022.05.15.507:W049.47.29.558
+COORD:S022.04.01.615:W049.48.49.430
+COORD:S022.03.01.684:W049.50.21.913
+COORD:S022.02.17.531:W049.52.04.200
+COORD:S022.01.50.493:W049.53.53.192
+COORD:S022.01.41.388:W049.55.45.588
+SECTOR:SBML_TWR:0:4500
+OWNER:TML
+BORDER:SBML_TWR
+
+;SBXG APP 2018 (PRESIDENTE PRUDENTE)
+SECTORLINE:SBXG_APP
+DISPLAY:SBXG_APP:SBXG_APP:SBCW
+DISPLAY:SBCW:SBXG_APP:SBCW
+DISPLAY:SBXG_APP:SBXO_APP:SBXG_APP
+COORD:S022.47.29.232:W051.40.08.282
+COORD:S022.11.02.000:W052.16.39.000
+COORD:S021.46.07.000:W052.11.53.000
+COORD:S021.27.08.000:W051.53.05.000
+COORD:S021.22.22.000:W051.27.23.000
+COORD:S021.55.58.000:W050.02.48.000
+COORD:S022.34.55.000:W050.13.55.000
+COORD:S022.53.56.394:W050.34.49.643
+COORD:S022.47.42.189:W050.41.51.429
+COORD:S022.43.29.051:W050.51.29.881
+COORD:S022.40.21.949:W051.01.44.485
+COORD:S022.40.32.359:W051.13.14.824 
+COORD:S022.47.29.232:W051.40.08.282
+SECTOR:SBXG_APP:4500:14500
+OWNER:XG
+BORDER:SBXG_APP
+
+SECTORLINE:SBDN_TWR
+DISPLAY:SBDN_TWR:SBDN_TWR:SBXG_APP
+DISPLAY:SBDN_TWR:SBDN_TWR:SBXO_APP
+DISPLAY:SBXG_APP:SBDN_TWR:SBXG_APP
+DISPLAY:SBXO_APP:SBDN_TWR:SBXO_APP
+DISPLAY:SBCW:SBCW:SBDN_TWR
+DISPLAY:SBDN_TWR:SBCW:SBDN_TWR
+COORD:S021.52.32.520:W051.25.21.720
+COORD:S021.52.48.893:W051.28.43.817
+COORD:S021.53.37.518:W051.31.59.812
+COORD:S021.54.56.926:W051.35.03.782
+COORD:S021.56.44.718:W051.37.50.163
+COORD:S021.58.57.636:W051.40.13.912
+COORD:S022.01.31.658:W051.42.10.662
+COORD:S022.04.22.123:W051.43.36.854
+COORD:S022.07.23.864:W051.44.29.843
+COORD:S022.10.31.368:W051.44.47.986
+COORD:S022.13.38.941:W051.44.30.694
+COORD:S022.16.40.882:W051.43.38.454
+COORD:S022.19.31.653:W051.42.12.818
+COORD:S022.22.06.052:W051.40.16.363
+COORD:S022.24.19.369:W051.37.52.614
+COORD:S022.26.07.538:W051.35.05.938
+COORD:S022.27.27.252:W051.32.01.412
+COORD:S022.28.16.077:W051.28.44.669
+COORD:S022.28.32.520:W051.25.21.720
+COORD:S022.28.16.077:W051.21.58.771
+COORD:S022.27.27.252:W051.18.42.028
+COORD:S022.26.07.538:W051.15.37.502
+COORD:S022.24.19.369:W051.12.50.826
+COORD:S022.22.06.052:W051.10.27.077
+COORD:S022.19.31.653:W051.08.30.622
+COORD:S022.16.40.882:W051.07.04.986
+COORD:S022.13.38.941:W051.06.12.746
+COORD:S022.10.31.368:W051.05.55.454
+COORD:S022.07.23.864:W051.06.13.597
+COORD:S022.04.22.123:W051.07.06.586
+COORD:S022.01.31.658:W051.08.32.778
+COORD:S021.58.57.636:W051.10.29.528
+COORD:S021.56.44.718:W051.12.53.277
+COORD:S021.54.56.926:W051.15.39.658
+COORD:S021.53.37.518:W051.18.43.628
+COORD:S021.52.48.893:W051.21.59.623
+COORD:S021.52.32.520:W051.25.21.720
+SECTOR:SBDN_TWR:0:4500
+OWNER:TDN
+BORDER:SBDN_TWR
+
+;SBXO APP 2018 (LONDRINA)
+SECTORLINE:SBXO_APP
+DISPLAY:SBXO_APP:SBXO_APP:SBCW
+DISPLAY:SBCW:SBXO_APP:SBCW
+DISPLAY:SBXG_APP:SBXO_APP:SBXG_APP
+COORD:S022.47.29.194:W051.40.08.469
+COORD:S022.40.32.359:W051.13.14.824
+COORD:S022.40.21.949:W051.01.44.485
+COORD:S022.43.29.051:W050.51.29.881
+COORD:S022.47.42.189:W050.41.51.429
+COORD:S022.53.56.394:W050.34.49.643
+COORD:S022.59.59.591:W050.29.48.366
+COORD:S023.08.14.862:W050.25.47.345
+COORD:S023.16.41.138:W050.23.22.731
+COORD:S023.25.40.433:W050.23.34.783
+COORD:S023.33.55.703:W050.25.59.395
+COORD:S023.41.59.967:W050.30.00.416
+COORD:S023.47.41.153:W050.35.25.795
+COORD:S023.53.00.327:W050.42.03.481
+COORD:S023.56.18.436:W050.47.52.962
+COORD:S023.58.19.502:W050.54.54.749
+COORD:S023.59.36.543:W051.03.08.843
+COORD:S024.02.43.645:W052.04.24.417
+COORD:S024.00.53.585:W052.15.15.175
+COORD:S023.54.28.376:W052.25.53.882
+COORD:S023.44.34.051:W052.34.32.077
+COORD:S023.32.16.649:W052.38.21.048
+COORD:S023.20.43.271:W052.38.08.996
+COORD:S023.10.37.940:W052.32.55.669
+COORD:S023.01.16.634:W052.24.41.575
+COORD:S022.55.02.429:W052.11.26.205
+COORD:S022.47.29.194:W051.40.08.469
+SECTOR:SBXO_APP:4500:14500
+OWNER:XO
+BORDER:SBXO_APP
+
+;SBLO TWR 2018 (LONDRINA)
+SECTORLINE:SBLO_TWR
+DISPLAY:SBLO_TWR:SBLO_TWR:SBXO_APP
+DISPLAY:SBXO_APP:SBLO_TWR:SBXO_APP
+DISPLAY:SBLO_TWR:SBLO_TWR:SBXG_APP
+DISPLAY:SBXG_APP:SBLO_TWR:SBXG_APP
+DISPLAY:SBLO_TWR:SBCW:SBLO_TWR
+DISPLAY:SBCW:SBLO_TWR:SBCW
+DISPLAY:SBMG_TWR:SBLO_TWR:SBMG_TWR
+COORD:S023.04.59.520:W051.07.59.520
+COORD:S023.05.13.168:W051.10.49.409
+COORD:S023.05.53.698:W051.13.34.165
+COORD:S023.06.59.886:W051.16.08.805
+COORD:S023.08.29.731:W051.18.28.650
+COORD:S023.10.20.516:W051.20.29.461
+COORD:S023.12.28.886:W051.22.07.566
+COORD:S023.14.50.955:W051.23.19.977
+COORD:S023.17.22.416:W051.24.04.473
+COORD:S023.19.58.673:W051.24.19.679
+COORD:S023.22.34.981:W051.24.05.104
+COORD:S023.25.06.589:W051.23.21.163
+COORD:S023.27.28.883:W051.22.09.164
+COORD:S023.29.37.530:W051.20.31.277
+COORD:S023.31.28.609:W051.18.30.467
+COORD:S023.32.58.730:W051.16.10.403
+COORD:S023.34.05.144:W051.13.35.350
+COORD:S023.34.45.821:W051.10.50.040
+COORD:S023.34.59.520:W051.07.59.520
+COORD:S023.34.45.821:W051.05.09.000
+COORD:S023.34.05.144:W051.02.23.690
+COORD:S023.32.58.730:W050.59.48.637
+COORD:S023.31.28.609:W050.57.28.573
+COORD:S023.29.37.530:W050.55.27.763
+COORD:S023.27.28.883:W050.53.49.876
+COORD:S023.25.06.589:W050.52.37.877
+COORD:S023.22.34.981:W050.51.53.936
+COORD:S023.19.58.673:W050.51.39.361
+COORD:S023.17.22.416:W050.51.54.567
+COORD:S023.14.50.955:W050.52.39.063
+COORD:S023.12.28.886:W050.53.51.474
+COORD:S023.10.20.516:W050.55.29.579
+COORD:S023.08.29.731:W050.57.30.390
+COORD:S023.06.59.886:W050.59.50.235
+COORD:S023.05.53.698:W051.02.24.875
+COORD:S023.05.13.168:W051.05.09.631
+COORD:S023.04.59.520:W051.07.59.520
+SECTOR:SBLO_TWR:0:4500
+OWNER:TLO
+BORDER:SBLO_TWR
+
+;SBMG TWR 2018 (MARINGA)
+SECTORLINE:SBMG_TWR
+DISPLAY:SBMG_TWR:SBMG_TWR:SBXO_APP
+DISPLAY:SBMG_TWR:SBMG_TWR:SBXG_APP
+DISPLAY:SBMG_TWR:SBCW:SBMG_TWR
+DISPLAY:SBXO_APP:SBMG_TWR:SBXO_APP
+DISPLAY:SBXG_APP:SBMG_TWR:SBXG_APP
+DISPLAY:SBCW:SBMG_TWR:SBCW
+COORD:S023.13.32.880:W052.00.21.600
+COORD:S023.13.46.527:W052.03.11.670
+COORD:S023.14.27.057:W052.05.56.601
+COORD:S023.15.33.245:W052.08.31.407
+COORD:S023.17.03.089:W052.10.51.402
+COORD:S023.18.53.872:W052.12.52.343
+COORD:S023.21.02.242:W052.14.30.555
+COORD:S023.23.24.310:W052.15.43.045
+COORD:S023.25.55.770:W052.16.27.591
+COORD:S023.28.32.027:W052.16.42.816
+COORD:S023.31.08.336:W052.16.28.227
+COORD:S023.33.39.944:W052.15.44.240
+COORD:S023.36.02.239:W052.14.32.165
+COORD:S023.38.10.887:W052.12.54.174
+COORD:S023.40.01.966:W052.10.53.233
+COORD:S023.41.32.089:W052.08.33.017
+COORD:S023.42.38.503:W052.05.57.796
+COORD:S023.43.19.181:W052.03.12.306
+COORD:S023.43.32.880:W052.00.21.600
+COORD:S023.43.19.181:W051.57.30.894
+COORD:S023.42.38.503:W051.54.45.404
+COORD:S023.41.32.089:W051.52.10.183
+COORD:S023.40.01.966:W051.49.49.967
+COORD:S023.38.10.887:W051.47.49.026
+COORD:S023.36.02.239:W051.46.11.035
+COORD:S023.33.39.944:W051.44.58.960
+COORD:S023.31.08.336:W051.44.14.973
+COORD:S023.28.32.027:W051.44.00.384
+COORD:S023.25.55.770:W051.44.15.609
+COORD:S023.23.24.310:W051.45.00.155
+COORD:S023.21.02.242:W051.46.12.645
+COORD:S023.18.53.872:W051.47.50.857
+COORD:S023.17.03.089:W051.49.51.798
+COORD:S023.15.33.245:W051.52.11.793
+COORD:S023.14.27.057:W051.54.46.599
+COORD:S023.13.46.527:W051.57.31.530
+COORD:S023.13.32.880:W052.00.21.600
+SECTOR:SBMG_TWR:0:4500
+OWNER:TMG
+BORDER:SBMG_TWR
+
+;SBWT APP 2018 (CURITIBA)
+SECTORLINE:SBWT_APP
+DISPLAY:SBWT_APP:SBWT_APP:SBCW
+DISPLAY:SBCW:SBWT_APP:SBCW
+DISPLAY:SBWO_APP:SBWT_APP:SBWO_APP
+COORD:S024.52.32.204:W049.36.04.938
+COORD:S024.45.56.174:W049.16.20.337
+COORD:S024.45.40.299:W048.51.22.420
+COORD:S025.02.13.779:W048.35.22.709
+COORD:S025.18.01.961:W048.37.34.559
+COORD:S025.20.41.173:W048.15.44.879
+COORD:S025.50.29.665:W048.23.26.552
+COORD:S026.00.17.262:W048.16.53.282
+COORD:S026.09.51.036:W048.18.19.346
+COORD:S026.06.18.911:W048.27.42.615
+COORD:S026.29.19.069:W048.33.37.446
+COORD:S026.55.08.058:W049.15.48.573
+COORD:S026.19.42.973:W049.27.58.683
+COORD:S025.42.43.755:W050.02.15.626
+COORD:S025.11.07.034:W049.49.38.750
+COORD:S024.52.44.309:W049.37.05.294 
+COORD:S024.52.32.204:W049.36.04.938
+SECTOR:SBWT_APP:6500:19500
+OWNER:WT
+BORDER:SBWT_APP
+
+;SBCT TWR 2018 (CURITIBA)
+SECTORLINE:SBCT_TWR
+DISPLAY:SBCT_TWR:SBCT_TWR:SBWT_APP
+DISPLAY:SBWT_APP:SBCT_TWR:SBWT_APP
+DISPLAY:SBCW:SBCT_TWR:SBCW
+DISPLAY:SBCT_TWR:SBCW:SBCT_TWR
+COORD:S025.16.23.000:W049.13.12.000
+COORD:S025.17.44.000:W049.10.54.000
+COORD:S025.28.45.000:W049.09.29.000
+COORD:S025.28.45.000:W049.00.40.000
+COORD:S025.34.24.000:W049.00.45.000
+COORD:S025.38.42.000:W049.05.27.000
+COORD:S025.33.21.000:W049.11.18.000
+COORD:S025.33.08.000:W049.16.00.000
+COORD:S025.29.20.000:W049.16.05.000
+COORD:S025.27.15.000:W049.17.34.000
+COORD:S025.25.02.000:W049.15.06.000
+COORD:S025.18.28.000:W049.18.04.000
+COORD:S025.16.23.000:W049.13.12.000
+SECTOR:SBCT_TWR:0:6500
+OWNER:TCT
+BORDER:SBCT_TWR
+
+;SBBI TWR 2018 (BACACHERI)
+SECTORLINE:SBBI_TWR
+DISPLAY:SBBI_TWR:SBBI_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBBI_TWR
+DISPLAY:SBBI_TWR:SBBI_TWR:SBWT_APP
+DISPLAY:SBWT_APP:SBBI_TWR:SBWT_APP
+COORD:S025.16.23.000:W049.13.12.000
+COORD:S025.17.44.000:W049.10.54.000
+COORD:S025.28.45.000:W049.09.29.000
+COORD:S025.28.45.000:W049.00.40.000
+COORD:S025.34.24.000:W049.00.45.000
+COORD:S025.38.42.000:W049.05.27.000
+COORD:S025.33.21.000:W049.11.18.000
+COORD:S025.33.08.000:W049.16.00.000
+COORD:S025.29.20.000:W049.16.05.000
+COORD:S025.27.15.000:W049.17.34.000
+COORD:S025.25.02.000:W049.15.06.000
+COORD:S025.18.28.000:W049.18.04.000
+COORD:S025.16.23.000:W049.13.12.000
+SECTOR:SBUF_TWR:0:3500
+OWNER:TBI
+BORDER:SBBI_TWR
+
+;SBJV TWR 2018 (JOINVILLE)
+SECTORLINE:SBJV_TWR
+DISPLAY:SBJV_TWR:SBJV_TWR:SBWT_APP
+DISPLAY:SBWT_APP:SBJV_TWR:SBWT_APP
+DISPLAY:SBCW:SBJV_TWR:SBCW
+DISPLAY:SBJV_TWR:SBJV_TWR:SBCW
+COORD:S026.05.51.177:W048.49.42.019
+COORD:S026.16.37.874:W048.34.50.093
+COORD:S026.24.31.282:W048.41.34.212
+COORD:S026.13.27.241:W048.56.49.483
+COORD:S026.05.51.177:W048.49.42.019
+SECTOR:SBJV_TWR:0:2500
+OWNER:TJV
+BORDER:SBJV_TWR
+
+;SBXF APP 2018 (FLORIANOPOLIS)
+SECTORLINE:SBXF_APP
+DISPLAY:SBXF_APP:SBXF_APP:SBCW
+DISPLAY:SBCW:SBXF_APP:SBCW
+DISPLAY:SBWT_APP:SBXF_APP:SBWT_APP
+DISPLAY:SBCM_R_TWR:SBXF_APP:SBCM_R_TWR
+DISPLAY:SBLJ_R_TWR:SBXF_APP:SBLJ_R_TWR
+COORD:S026.06.18.911:W048.27.42.615
+COORD:S026.29.19.069:W048.33.37.446
+COORD:S026.55.08.058:W049.15.48.573
+COORD:S027.24.43.978:W049.31.10.600
+COORD:S027.43.14.730:W049.34.40.892
+COORD:S027.58.50.051:W049.31.10.065
+COORD:S028.10.39.630:W049.12.47.134
+COORD:S028.15.05.053:W048.55.55.595
+COORD:S028.03.00.642:W048.47.23.426
+COORD:S028.17.52.471:W048.19.36.113
+COORD:S027.40.01.405:W047.52.42.826
+COORD:S027.17.52.849:W047.26.13.750
+COORD:S027.03.14.416:W047.41.10.564
+COORD:S026.27.19.139:W047.46.16.478
+COORD:S026.18.45.000:W047.57.47.134
+COORD:S026.15.51.779:W048.03.02.949
+COORD:S026.09.51.036:W048.18.19.346
+COORD:S026.06.18.911:W048.27.42.615
+SECTOR:SBXF_APP:6500:19500
+OWNER:XF:MXF:THOR
+BORDER:SBXF_APP
+
+;SBFL TWR 2018 (FLORIANOPOLIS)
+SECTORLINE:SBFL_TWR
+DISPLAY:SBFL_TWR:SBCW:SBFL_TWR
+DISPLAY:SBFL_TWR:SBFL_TWR:SBCW
+DISPLAY:SBXF_APP:SBFL_TWR:SBXF_APP
+COORD:S027.40.21.000:W048.22.56.000
+COORD:S027.32.01.000:W048.38.45.000
+COORD:S027.38.36.000:W048.43.32.000
+COORD:S027.47.38.000:W048.27.03.000
+COORD:S027.40.38.000:W048.22.27.000
+COORD:S027.40.21.000:W048.22.56.000
+SECTOR:SBFL_TWR:0:6500
+OWNER:TFL:MFL:THOR
+BORDER:SBFL_TWR
+
+;SBNF TWR 2018 (NAVEGANTES)
+SECTORLINE:SBNF_TWR
+DISPLAY:SBNF_TWR:SBNF_TWR:SBWO_APP
+DISPLAY:SBWO_APP:SBNF_TWR:SBWO_APP
+DISPLAY:SBCW:SBNF_TWR:SBCW
+DISPLAY:SBNF_TWR:SBNF_TWR:SBCW
+COORD:S026.44.42.373:W048.33.53.802
+COORD:S026.51.19.090:W048.28.50.895
+COORD:S027.00.47.721:W048.44.29.128
+COORD:S026.54.14.747:W048.49.34.795
+COORD:S026.44.42.373:W048.33.53.802
+SECTOR:SBNF_TWR:0:2500
+OWNER:TNF
+BORDER:SBNF_TWR
+
+;SBWP APP 2018 (PORTO ALEGRE)
+SECTORLINE:SBWP_APP
+DISPLAY:SBWP_APP:SBCW:SBWP_APP
+DISPLAY:SBCW:SBWP_APP:SBCW
+COORD:S029.01.55.000:W051.35.50.000
+COORD:S028.54.17.000:W051.36.34.000
+COORD:S028.49.18.000:W051.17.47.000
+COORD:S028.47.08.000:W050.57.16.000
+COORD:S028.54.12.000:W050.48.37.000
+COORD:S029.05.49.000:W050.42.16.000
+COORD:S029.07.50.000:W050.27.46.000
+COORD:S029.14.57.000:W050.29.25.000
+COORD:S029.26.22.000:W050.32.13.000
+COORD:S029.33.15.000:W050.24.09.000
+COORD:S029.52.09.000:W050.36.40.000
+COORD:S030.10.21.000:W050.37.39.000
+COORD:S030.25.08.000:W050.52.29.000
+COORD:S030.29.11.000:W051.11.36.000
+COORD:S030.20.47.000:W051.29.24.000
+COORD:S030.26.21.000:W051.45.33.000
+COORD:S030.18.10.000:W051.51.39.000
+COORD:S030.08.34.000:W051.49.55.000
+COORD:S030.02.30.000:W051.50.27.000
+COORD:S029.40.22.000:W051.49.09.000
+COORD:S029.32.54.000:W051.43.49.000
+COORD:S029.16.19.000:W051.52.53.000
+COORD:S029.01.55.000:W051.35.50.000
+SECTOR:SBWP_APP:5500:19500
+OWNER:WP:TABA:THOR
+BORDER:SBWP_APP
+
+;SBCX TWR 2018 (CAXIAS)
+SECTORLINE:SBCX_TWR
+DISPLAY:SBCX_TWR:SBCW:SBCX_TWR
+DISPLAY:SBCX_TWR:SBWP_APP:SBCX_TWR
+DISPLAY:SBWP_APP:SBCX_TWR:SBWP_APP
+DISPLAY:SBCW:SBCX_TWR:SBCW
+COORD:S028.49.18.000:W051.17.47.000
+COORD:S028.57.01.000:W051.02.27.000
+COORD:S029.11.08.000:W050.52.10.000
+COORD:S029.21.03.000:W050.48.12.000
+COORD:S029.24.00.000:W051.05.50.000
+COORD:S029.22.29.000:W051.21.59.000
+COORD:S029.16.19.000:W051.33.31.000
+COORD:S029.01.55.000:W051.35.50.000
+COORD:S028.54.17.000:W051.36.34.000
+COORD:S028.49.18.000:W051.17.47.000
+SECTOR:SBCX_TWR:0:5500
+OWNER:TCX
+BORDER:SBCX_TWR
+
+;SBCO MILITAR TWR (CANOAS)
+SECTORLINE:SBCO_TWR
+DISPLAY:SBCO_TWR:SBCW:SBCO_TWR
+DISPLAY:SBCO_TWR:SBWP_APP:SBCO_TWR
+DISPLAY:SBWP_APP:SBCO_TWR:SBWP_APP
+DISPLAY:SBCW:SBCO_TWR:SBCW
+COORD:S029.52.22.000:W050.49.56.000
+COORD:S029.47.17.000:W050.58.30.000
+COORD:S029.46.30.000:W051.05.01.000
+COORD:S029.45.38.000:W051.21.25.000
+COORD:S029.53.04.000:W051.25.17.000
+COORD:S030.03.38.000:W051.24.23.000
+COORD:S030.05.55.000:W051.18.51.000
+COORD:S030.05.00.000:W051.01.03.000
+COORD:S030.06.17.000:W050.56.51.000
+COORD:S030.05.51.000:W050.46.43.000
+COORD:S029.52.22.000:W050.49.56.000
+COORD:S029.52.22.000:W050.49.56.000
+SECTOR:SBCO_TWR:0:1500
+OWNER:TCO:COR
+BORDER:SBCO_TWR
+
+;SBPA TWR 2018 (PORTO ALEGRE)
+SECTORLINE:SBPA_TWR
+DISPLAY:SBPA_TWR:SBCW:SBPA_TWR
+DISPLAY:SBPA_TWR:SBWP_APP:SBPA_TWR
+DISPLAY:SBWP_APP:SBPA_TWR:SBWP_APP
+DISPLAY:SBCW:SBPA_TWR:SBCW
+COORD:S029.57.24.000:W051.39.43.000
+COORD:S029.47.32.000:W051.31.15.000
+COORD:S029.45.53.000:W051.21.07.000
+COORD:S029.47.20.000:W050.46.12.000
+COORD:S030.07.31.000:W050.42.48.000
+COORD:S030.09.14.000:W051.29.21.000
+COORD:S030.04.41.000:W051.29.35.000
+COORD:S029.57.24.000:W051.39.43.000
+SECTOR:SBPA_TWR:0:3500
+OWNER:TPA
+BORDER:SBPA_TWR
+
+;SBWM APP 2018 (SANTA MARIA)
+SECTORLINE:SBWM_APP
+DISPLAY:SBCW:SBCW:SBWM_APP
+DISPLAY:SBWM_APP:SBWM_APP:SBCW
+COORD:S030.06.39.832:W054.49.12.167
+COORD:S029.36.48.418:W054.49.3.571
+COORD:S029.36.54.606:W054.26.57.087
+COORD:S029.31.8.630:W054.25.22.636
+COORD:S029.25.5.232:W054.22.52.955
+COORD:S029.20.15.799:W054.19.31.361
+COORD:S029.15.14.019:W054.15.1.983
+COORD:S029.11.5.175:W054.09.59.948
+COORD:S029.07.15.892:W054.03.36.727
+COORD:S029.04.11.539:W053.54.49.545
+COORD:S029.02.41.475:W053.46.14.884
+COORD:S029.02.35.521:W053.36.23.200
+COORD:S029.04.39.401:W053.27.10.806
+COORD:S029.07.39.883:W053.20.0.580
+COORD:S029.12.19.726:W053.12.50.319
+COORD:S029.18.9.222:W053.07.26.321
+COORD:S029.24.37.900:W053.03.9.262
+COORD:S029.30.44.846:W053.00.35.148
+COORD:S029.39.1.625:W052.58.40.324
+COORD:S029.45.44.146:W052.58.27.634
+COORD:S029.52.25.962:W052.59.38.633
+COORD:S029.58.4.695:W053.01.47.400
+COORD:S030.04.26.246:W053.05.43.275
+COORD:S030.09.46.884:W053.10.15.158
+COORD:S030.14.29.103:W053.16.5.721
+COORD:S030.18.47.420:W053.24.0.991
+COORD:S030.21.35.085:W053.32.23.909
+COORD:S030.22.23.094:W053.41.37.081
+COORD:S030.22.11.627:W053.50.33.536
+COORD:S030.19.32.936:W053.59.50.126
+COORD:S030.16.10.693:W054.06.48.644
+COORD:S030.12.22.319:W054.12.24.317
+COORD:S030.08.18.695:W054.16.43.001
+COORD:S030.02.41.517:W054.21.20.129
+COORD:S029.58.13.228:W054.25.17.899
+COORD:S030.06.39.832:W054.49.12.167
+SECTOR:SBWM_APP:4500:14500
+OWNER:WM
+BORDER:SBWM_APP
+
+;SBSM TWR 2018 (SANTA MARIA)
+SECTORLINE:SBSM_TWR
+DISPLAY:SBSM_TWR:SBSM_TWR:SBSM_APP
+DISPLAY:SBWM_APP:SBSM_TWR:SBWM_APP
+DISPLAY:SBCW:SBSM_TWR:SBCW
+DISPLAY:SBSM_TWR:SBSM_TWR:SBCW
+COORD:S029.37.24.286:W053.59.5.036
+COORD:S029.32.49.758:W053.56.6.460
+COORD:S029.29.29.547:W053.51.23.325
+COORD:S029.27.40.908:W053.45.50.219
+COORD:S029.27.46.202:W053.39.44.814
+COORD:S029.29.28.208:W053.34.20.011
+COORD:S029.32.53.930:W053.29.36.738
+COORD:S029.37.11.129:W053.26.43.255
+COORD:S029.42.30.577:W053.25.31.183
+COORD:S029.47.40.091:W053.26.26.912
+COORD:S029.52.20.817:W053.29.34.481
+COORD:S029.55.29.711:W053.34.3.041
+COORD:S029.57.25.899:W053.40.0.029
+COORD:S029.57.23.295:W053.45.52.716
+COORD:S029.55.35.636:W053.51.31.479
+COORD:S029.52.11.798:W053.56.10.098
+COORD:S029.47.38.708:W053.59.6.378
+COORD:S029.42.24.106:W054.00.12.556
+COORD:S029.37.24.286:W053.59.5.036
+SECTOR:SBSM_TWR:0:4500
+OWNER:MSM:TSM:THOR
+BORDER:SBSM_TWR
+
+;SBWI APP 2018 (FOZ DO IGUAÇU)
+SECTORLINE:SBWI_APP
+DISPLAY:SBWI_APP:SBWI_APP:SBCW
+DISPLAY:SBCW:SBWI_APP:SBCW
+DISPLAY:SBCA_R_TWR:SBWI_APP:SBCA_R_TWR
+DISPLAY:SBTD_R_TWR:SBWI_APP:SBTD_R_TWR
+COORD:S026.15.00.000:W054.30.12.600
+COORD:S026.14.23.539:W054.37.55.662
+COORD:S026.12.35.261:W054.45.24.653
+COORD:S026.09.38.460:W054.52.25.931
+COORD:S026.05.38.506:W054.58.46.699
+COORD:S026.00.42.689:W055.04.15.385
+COORD:S025.55.00.000:W055.08.42.000
+COORD:S025.48.40.847:W055.11.58.447
+COORD:S025.41.56.756:W055.13.58.752
+COORD:S025.34.59.999:W055.14.39.267
+COORD:S025.28.03.243:W055.13.58.752
+COORD:S025.21.19.151:W055.11.58.447
+COORD:S025.15.00.000:W055.08.42.000
+COORD:S025.09.17.309:W055.04.15.385
+COORD:S025.04.21.492:W054.58.46.699
+COORD:S025.00.21.539:W054.52.25.931
+COORD:S024.57.24.738:W054.45.24.653
+COORD:S024.55.36.461:W054.37.55.662
+COORD:S024.55.00.000:W054.30.12.600
+COORD:S024.55.36.461:W054.22.29.537
+COORD:S024.57.24.738:W054.15.00.546
+COORD:S025.00.21.539:W054.07.59.265
+COORD:S025.04.21.492:W054.01.38.500
+COORD:S025.09.17.309:W053.56.09.815
+COORD:S025.15.00.000:W053.51.43.199
+COORD:S025.21.19.151:W053.48.26.752
+COORD:S025.28.03.243:W053.46.26.444
+COORD:S025.34.59.999:W053.45.45.933
+COORD:S025.41.56.756:W053.46.26.444
+COORD:S025.48.40.847:W053.48.26.752
+COORD:S025.55.00.000:W053.51.43.199
+COORD:S026.00.42.689:W053.56.09.815
+COORD:S026.05.38.506:W054.01.38.500
+COORD:S026.09.38.460:W054.07.59.265
+COORD:S026.12.35.261:W054.15.00.546
+COORD:S026.14.23.539:W054.22.29.537
+COORD:S026.15.00.000:W054.30.12.600
+SECTOR:SBWI_APP:3500:19500
+OWNER:WI
+BORDER:SBWI_APP
+
+;FOZ DO IGUAÇU TOWER (SBFI)
+SECTORLINE:SBFI_TWR
+DISPLAY:SBFI_TWR:SBFI_TWR:SBWI_APP
+DISPLAY:SBFI_TWR:SBFI_TWR:SBCW
+DISPLAY:SBCW:SBFI_TWR:SBCW
+DISPLAY:SBWI_APP:SBFI_TWR:SBWI_APP
+DISPLAY:SARI_TWR:SBFI_TWR:SARI_TWR
+DISPLAY:SGES_TWR:SBFI_TWR:SGES_TWR
+COORD:S025.35.53.000:W054.41.10.000
+COORD:S025.29.00.000:W054.43.53.000
+COORD:S025.20.27.000:W054.40.25.000
+COORD:S025.17.01.000:W054.31.12.000
+COORD:S025.39.03.000:W054.04.20.000
+COORD:S025.48.10.000:W054.09.46.000
+COORD:S025.41.07.000:W054.26.40.000
+COORD:S025.36.13.000:W054.30.07.000
+COORD:S025.37.02.000:W054.32.06.000
+COORD:S025.34.26.000:W054.33.40.000
+COORD:S025.34.35.000:W054.36.28.000
+COORD:S025.37.13.000:W054.37.37.000
+COORD:S025.35.53.000:W054.41.10.000
+SECTOR:SBFI_TWR:0:3500
+OWNER:TFI
+BORDER:SBFI_TWR
+SECTORLINE:SARI_TWR
+COORD:S025.35.53.000:W054.41.10.000
+COORD:S025.46.32.000:W054.36.53.000
+COORD:S025.55.49.000:W054.36.48.000
+COORD:S025.56.51.000:W054.39.01.000
+COORD:S025.57.00.000:W054.08.57.000
+COORD:S025.48.10.000:W054.09.46.000
+COORD:S025.41.07.000:W054.26.40.000
+COORD:S025.36.13.000:W054.30.07.000
+COORD:S025.37.02.000:W054.32.06.000
+COORD:S025.34.26.000:W054.33.40.000
+COORD:S025.34.35.000:W054.36.28.000
+COORD:S025.37.13.000:W054.37.37.000
+COORD:S025.35.53.000:W054.41.10.000
+
+;SBXL APP 2018 (PASSO DE LOS LIBRES)
+SECTORLINE:SBXL_APP
+DISPLAY:SBXL_APP:SBXL_APP:SBUG_TWR
+DISPLAY:SBUG_TWR:SBUG_TWR:SBXL_APP
+DISPLAY:SBCW:SBUG_TWR:SBCW
+DISPLAY:SARL_TWR:SBXL_APP:SARL_TWR
+COORD:S029.16.36.862:W057.08.53.401
+COORD:S029.16.37.136:W057.08.20.547
+COORD:S029.16.37.961:W057.07.47.704
+COORD:S029.16.39.334:W057.07.14.886
+COORD:S029.16.41.256:W057.06.42.103
+COORD:S029.16.43.726:W057.06.09.368
+COORD:S029.16.46.743:W057.05.36.692
+COORD:S029.16.50.306:W057.05.04.088
+COORD:S029.16.54.413:W057.04.31.567
+COORD:S029.16.59.064:W057.03.59.140
+COORD:S029.17.04.257:W057.03.26.820
+COORD:S029.17.09.988:W057.02.54.619
+COORD:S029.17.16.258:W057.02.22.548
+COORD:S029.17.23.063:W057.01.50.618
+COORD:S029.17.30.400:W057.01.18.842
+COORD:S029.17.38.268:W057.00.47.231
+COORD:S029.17.46.662:W057.00.15.796
+COORD:S029.17.55.582:W056.59.44.548
+COORD:S029.18.05.022:W056.59.13.500
+COORD:S029.18.14.979:W056.58.42.662
+COORD:S029.18.25.451:W056.58.12.046
+COORD:S029.18.36.433:W056.57.41.662
+COORD:S029.18.47.921:W056.57.11.522
+COORD:S029.18.59.910:W056.56.41.636
+COORD:S029.19.12.398:W056.56.12.017
+COORD:S029.19.25.379:W056.55.42.673
+COORD:S029.19.38.848:W056.55.13.616
+COORD:S029.19.52.800:W056.54.44.858
+COORD:S029.20.07.231:W056.54.16.407
+COORD:S029.20.22.136:W056.53.48.274
+COORD:S029.20.37.508:W056.53.20.470
+COORD:S029.20.53.342:W056.52.53.005
+COORD:S029.21.09.633:W056.52.25.889
+COORD:S029.21.26.374:W056.51.59.132
+COORD:S029.21.43.560:W056.51.32.743
+COORD:S029.22.01.184:W056.51.06.732
+COORD:S029.22.19.239:W056.50.41.109
+COORD:S029.22.37.720:W056.50.15.882
+COORD:S029.22.56.620:W056.49.51.062
+COORD:S029.23.15.931:W056.49.26.658
+COORD:S029.23.35.647:W056.49.02.677
+COORD:S029.23.55.760:W056.48.39.130
+COORD:S029.24.16.264:W056.48.16.024
+COORD:S029.24.37.150:W056.47.53.369
+COORD:S029.24.58.411:W056.47.31.172
+COORD:S029.25.20.039:W056.47.09.441
+COORD:S029.25.42.027:W056.46.48.186
+COORD:S029.26.04.367:W056.46.27.412
+COORD:S029.26.27.049:W056.46.07.129
+COORD:S029.26.50.067:W056.45.47.344
+COORD:S029.27.13.412:W056.45.28.063
+COORD:S029.27.37.075:W056.45.09.294
+COORD:S029.28.01.047:W056.44.51.044
+COORD:S029.28.25.320:W056.44.33.320
+COORD:S029.28.49.885:W056.44.16.128
+COORD:S029.29.14.733:W056.43.59.475
+COORD:S029.29.39.855:W056.43.43.367
+COORD:S029.30.05.242:W056.43.27.809
+COORD:S029.30.30.884:W056.43.12.808
+COORD:S029.30.56.773:W056.42.58.370
+COORD:S029.31.22.898:W056.42.44.498
+COORD:S029.31.49.250:W056.42.31.200
+COORD:S029.32.15.820:W056.42.18.479
+COORD:S029.32.42.598:W056.42.06.341
+COORD:S029.33.09.574:W056.41.54.790
+COORD:S029.33.36.738:W056.41.43.830
+COORD:S029.34.04.081:W056.41.33.466
+COORD:S029.34.31.592:W056.41.23.701
+COORD:S029.34.59.261:W056.41.14.540
+COORD:S029.35.27.078:W056.41.05.985
+COORD:S029.35.55.033:W056.40.58.040
+COORD:S029.36.23.116:W056.40.50.708
+COORD:S029.36.51.316:W056.40.43.992
+COORD:S029.37.19.623:W056.40.37.894
+COORD:S029.37.48.027:W056.40.32.417
+COORD:S029.38.16.518:W056.40.27.563
+COORD:S029.38.45.084:W056.40.23.334
+COORD:S029.39.13.716:W056.40.19.731
+COORD:S029.39.42.403:W056.40.16.757
+COORD:S029.40.11.134:W056.40.14.411
+COORD:S029.40.39.899:W056.40.12.696
+COORD:S029.41.08.688:W056.40.11.612
+COORD:S029.41.37.489:W056.40.11.160
+COORD:S029.42.06.293:W056.40.11.340
+COORD:S029.42.35.088:W056.40.12.151
+COORD:S029.43.03.865:W056.40.13.595
+COORD:S029.43.32.612:W056.40.15.669
+COORD:S029.44.01.318:W056.40.18.375
+COORD:S029.44.29.975:W056.40.21.711
+COORD:S029.44.58.570:W056.40.25.675
+COORD:S029.45.27.094:W056.40.30.268
+COORD:S029.45.55.536:W056.40.35.486
+COORD:S029.46.23.885:W056.40.41.329
+COORD:S029.46.52.131:W056.40.47.794
+COORD:S029.47.20.264:W056.40.54.879
+COORD:S029.47.48.273:W056.41.02.582
+COORD:S029.48.16.148:W056.41.10.899
+COORD:S029.48.43.879:W056.41.19.829
+COORD:S029.49.11.455:W056.41.29.368
+COORD:S029.49.38.867:W056.41.39.512
+COORD:S029.50.06.104:W056.41.50.257
+COORD:S029.50.33.156:W056.42.01.601
+COORD:S029.51.00.014:W056.42.13.539
+COORD:S029.51.26.667:W056.42.26.067
+COORD:S029.51.53.105:W056.42.39.180
+COORD:S029.52.19.320:W056.42.52.874
+COORD:S029.52.45.300:W056.43.07.143
+COORD:S029.53.11.037:W056.43.21.983
+COORD:S029.53.36.521:W056.43.37.388
+COORD:S029.54.01.743:W056.43.53.352
+COORD:S029.54.26.693:W056.44.09.870
+COORD:S029.54.51.362:W056.44.26.936
+COORD:S029.55.15.741:W056.44.44.544
+COORD:S029.55.39.821:W056.45.02.687
+COORD:S029.56.03.594:W056.45.21.359
+COORD:S029.56.27.049:W056.45.40.552
+COORD:S029.56.50.180:W056.46.00.260
+COORD:S029.57.12.976:W056.46.20.476
+COORD:S029.57.35.430:W056.46.41.192
+COORD:S029.57.57.534:W056.47.02.401
+COORD:S029.58.19.279:W056.47.24.095
+COORD:S029.58.40.657:W056.47.46.266
+COORD:S029.59.01.660:W056.48.08.906
+COORD:S029.59.22.281:W056.48.32.006
+COORD:S029.59.42.511:W056.48.55.559
+COORD:S030.00.02.344:W056.49.19.555
+COORD:S030.00.21.772:W056.49.43.986
+COORD:S030.00.40.788:W056.50.08.842
+COORD:S030.00.59.384:W056.50.34.115
+COORD:S030.01.17.555:W056.50.59.795
+COORD:S030.01.35.292:W056.51.25.874
+COORD:S030.01.52.591:W056.51.52.340
+COORD:S030.02.09.443:W056.52.19.185
+COORD:S030.02.25.843:W056.52.46.398
+COORD:S030.02.41.786:W056.53.13.970
+COORD:S030.02.57.264:W056.53.41.890
+COORD:S030.03.12.272:W056.54.10.148
+COORD:S030.03.26.805:W056.54.38.734
+COORD:S030.03.40.857:W056.55.07.637
+COORD:S030.03.54.424:W056.55.36.846
+COORD:S030.04.07.499:W056.56.06.351
+COORD:S030.04.20.079:W056.56.36.140
+COORD:S030.04.32.158:W056.57.06.203
+COORD:S030.04.43.732:W056.57.36.529
+COORD:S030.04.54.796:W056.58.07.106
+COORD:S030.05.05.348:W056.58.37.922
+COORD:S030.05.15.382:W056.59.08.967
+COORD:S030.05.24.895:W056.59.40.230
+COORD:S030.05.33.883:W057.00.11.697
+COORD:S030.05.42.344:W057.00.43.358
+COORD:S030.05.50.273:W057.01.15.202
+COORD:S030.05.57.669:W057.01.47.215
+COORD:S030.06.04.527:W057.02.19.387
+COORD:S030.06.10.847:W057.02.51.705
+COORD:S030.06.16.625:W057.03.24.157
+COORD:S030.06.21.859:W057.03.56.732
+COORD:S030.06.26.547:W057.04.29.417
+COORD:S030.06.30.688:W057.05.02.200
+COORD:S030.06.34.280:W057.05.35.069
+COORD:S030.06.37.321:W057.06.08.012
+COORD:S030.06.39.811:W057.06.41.016
+COORD:S030.06.41.749:W057.07.14.069
+COORD:S030.06.43.134:W057.07.47.159
+COORD:S030.06.43.964:W057.08.20.274
+COORD:S030.06.44.241:W057.08.53.401
+COORD:S030.06.43.964:W057.09.26.528
+COORD:S030.06.43.134:W057.09.59.643
+COORD:S030.06.41.749:W057.10.32.733
+COORD:S030.06.39.811:W057.11.05.786
+COORD:S030.06.37.321:W057.11.38.790
+COORD:S030.06.34.280:W057.12.11.733
+COORD:S030.06.30.688:W057.12.44.602
+COORD:S030.06.26.547:W057.13.17.385
+COORD:S030.06.21.859:W057.13.50.070
+COORD:S030.06.16.625:W057.14.22.645
+COORD:S030.06.10.847:W057.14.55.097
+COORD:S030.06.04.527:W057.15.27.415
+COORD:S030.05.57.669:W057.15.59.587
+COORD:S030.05.50.273:W057.16.31.600
+COORD:S030.05.42.344:W057.17.03.444
+COORD:S030.05.33.883:W057.17.35.105
+COORD:S030.05.24.895:W057.18.06.572
+COORD:S030.05.15.382:W057.18.37.835
+COORD:S030.05.05.348:W057.19.08.880
+COORD:S030.04.54.796:W057.19.39.696
+COORD:S030.04.43.732:W057.20.10.273
+COORD:S030.04.32.158:W057.20.40.599
+COORD:S030.04.20.079:W057.21.10.662
+COORD:S030.04.07.499:W057.21.40.451
+COORD:S030.03.54.424:W057.22.09.956
+COORD:S030.03.40.857:W057.22.39.165
+COORD:S030.03.26.805:W057.23.08.068
+COORD:S030.03.12.272:W057.23.36.654
+COORD:S030.02.57.264:W057.24.04.912
+COORD:S030.02.41.786:W057.24.32.832
+COORD:S030.02.25.843:W057.25.00.404
+COORD:S030.02.09.443:W057.25.27.617
+COORD:S030.01.52.591:W057.25.54.462
+COORD:S030.01.35.292:W057.26.20.928
+COORD:S030.01.17.555:W057.26.47.007
+COORD:S030.00.59.384:W057.27.12.687
+COORD:S030.00.40.788:W057.27.37.960
+COORD:S030.00.21.772:W057.28.02.816
+COORD:S030.00.02.344:W057.28.27.247
+COORD:S029.59.42.511:W057.28.51.243
+COORD:S029.59.22.281:W057.29.14.796
+COORD:S029.59.01.660:W057.29.37.896
+COORD:S029.58.40.657:W057.30.00.536
+COORD:S029.58.19.279:W057.30.22.707
+COORD:S029.57.57.534:W057.30.44.401
+COORD:S029.57.35.430:W057.31.05.610
+COORD:S029.57.12.976:W057.31.26.326
+COORD:S029.56.50.180:W057.31.46.542
+COORD:S029.56.27.049:W057.32.06.250
+COORD:S029.56.03.594:W057.32.25.443
+COORD:S029.55.39.821:W057.32.44.115
+COORD:S029.55.15.741:W057.33.02.258
+COORD:S029.54.51.362:W057.33.19.866
+COORD:S029.54.26.693:W057.33.36.932
+COORD:S029.54.01.743:W057.33.53.450
+COORD:S029.53.36.521:W057.34.09.414
+COORD:S029.53.11.037:W057.34.24.819
+COORD:S029.52.45.300:W057.34.39.659
+COORD:S029.52.19.320:W057.34.53.928
+COORD:S029.51.53.105:W057.35.07.622
+COORD:S029.51.26.667:W057.35.20.735
+COORD:S029.51.00.014:W057.35.33.263
+COORD:S029.50.33.156:W057.35.45.201
+COORD:S029.50.06.104:W057.35.56.545
+COORD:S029.49.38.867:W057.36.07.290
+COORD:S029.49.11.455:W057.36.17.434
+COORD:S029.48.43.879:W057.36.26.973
+COORD:S029.48.16.148:W057.36.35.903
+COORD:S029.47.48.273:W057.36.44.220
+COORD:S029.47.20.264:W057.36.51.923
+COORD:S029.46.52.131:W057.36.59.008
+COORD:S029.46.23.885:W057.37.05.473
+COORD:S029.45.55.536:W057.37.11.316
+COORD:S029.45.27.094:W057.37.16.534
+COORD:S029.44.58.570:W057.37.21.127
+COORD:S029.44.29.975:W057.37.25.091
+COORD:S029.44.01.318:W057.37.28.427
+COORD:S029.43.32.612:W057.37.31.133
+COORD:S029.43.03.865:W057.37.33.207
+COORD:S029.42.35.088:W057.37.34.651
+COORD:S029.42.06.293:W057.37.35.462
+COORD:S029.41.37.489:W057.37.35.642
+COORD:S029.41.08.688:W057.37.35.190
+COORD:S029.40.39.899:W057.37.34.106
+COORD:S029.40.11.134:W057.37.32.391
+COORD:S029.39.42.403:W057.37.30.045
+COORD:S029.39.13.716:W057.37.27.071
+COORD:S029.38.45.084:W057.37.23.468
+COORD:S029.38.16.518:W057.37.19.239
+COORD:S029.37.48.027:W057.37.14.385
+COORD:S029.37.19.623:W057.37.08.908
+COORD:S029.36.51.316:W057.37.02.810
+COORD:S029.36.23.116:W057.36.56.094
+COORD:S029.35.55.033:W057.36.48.762
+COORD:S029.35.27.078:W057.36.40.817
+COORD:S029.34.59.261:W057.36.32.262
+COORD:S029.34.31.592:W057.36.23.101
+COORD:S029.34.04.081:W057.36.13.336
+COORD:S029.33.36.738:W057.36.02.972
+COORD:S029.33.09.574:W057.35.52.012
+COORD:S029.32.42.598:W057.35.40.461
+COORD:S029.32.15.820:W057.35.28.323
+COORD:S029.31.49.250:W057.35.15.602
+COORD:S029.31.22.898:W057.35.02.304
+COORD:S029.30.56.773:W057.34.48.432
+COORD:S029.30.30.884:W057.34.33.994
+COORD:S029.30.05.242:W057.34.18.993
+COORD:S029.29.39.855:W057.34.03.435
+COORD:S029.29.14.733:W057.33.47.327
+COORD:S029.28.49.885:W057.33.30.674
+COORD:S029.28.25.320:W057.33.13.482
+COORD:S029.28.01.047:W057.32.55.758
+COORD:S029.27.37.075:W057.32.37.508
+COORD:S029.27.13.412:W057.32.18.739
+COORD:S029.26.50.067:W057.31.59.458
+COORD:S029.26.27.049:W057.31.39.673
+COORD:S029.26.04.367:W057.31.19.390
+COORD:S029.25.42.027:W057.30.58.616
+COORD:S029.25.20.039:W057.30.37.361
+COORD:S029.24.58.411:W057.30.15.630
+COORD:S029.24.37.150:W057.29.53.433
+COORD:S029.24.16.264:W057.29.30.778
+COORD:S029.23.55.760:W057.29.07.672
+COORD:S029.23.35.647:W057.28.44.125
+COORD:S029.23.15.931:W057.28.20.144
+COORD:S029.22.56.620:W057.27.55.740
+COORD:S029.22.37.720:W057.27.30.920
+COORD:S029.22.19.239:W057.27.05.693
+COORD:S029.22.01.184:W057.26.40.070
+COORD:S029.21.43.560:W057.26.14.059
+COORD:S029.21.26.374:W057.25.47.670
+COORD:S029.21.09.633:W057.25.20.913
+COORD:S029.20.53.342:W057.24.53.797
+COORD:S029.20.37.508:W057.24.26.332
+COORD:S029.20.22.136:W057.23.58.528
+COORD:S029.20.07.231:W057.23.30.395
+COORD:S029.19.52.800:W057.23.01.944
+COORD:S029.19.38.848:W057.22.33.186
+COORD:S029.19.25.379:W057.22.04.129
+COORD:S029.19.12.398:W057.21.34.785
+COORD:S029.18.59.910:W057.21.05.166
+COORD:S029.18.47.921:W057.20.35.280
+COORD:S029.18.36.433:W057.20.05.140
+COORD:S029.18.25.451:W057.19.34.756
+COORD:S029.18.14.979:W057.19.04.140
+COORD:S029.18.05.022:W057.18.33.302
+COORD:S029.17.55.582:W057.18.02.254
+COORD:S029.17.46.662:W057.17.31.006
+COORD:S029.17.38.268:W057.16.59.571
+COORD:S029.17.30.400:W057.16.27.960
+COORD:S029.17.23.063:W057.15.56.184
+COORD:S029.17.16.258:W057.15.24.254
+COORD:S029.17.09.988:W057.14.52.183
+COORD:S029.17.04.257:W057.14.19.982
+COORD:S029.16.59.064:W057.13.47.662
+COORD:S029.16.54.413:W057.13.15.235
+COORD:S029.16.50.306:W057.12.42.714
+COORD:S029.16.46.743:W057.12.10.110
+COORD:S029.16.43.726:W057.11.37.434
+COORD:S029.16.41.256:W057.11.04.699
+COORD:S029.16.39.334:W057.10.31.916
+COORD:S029.16.37.961:W057.09.59.098
+COORD:S029.16.37.136:W057.09.26.255
+COORD:S029.16.36.862:W057.08.53.401
+SECTOR:SBXL_APP:3500:9500
+OWNER:XL
+BORDER:SBXL_APP
+
+;SBUG TWR 2018 (URUGUAIANA)
+SECTORLINE:SBUG_TWR
+DISPLAY:SBXL_APP:SBXL_APP:SBUG_TWR
+DISPLAY:SBUG_TWR:SBUG_TWR:SBXL_APP
+DISPLAY:SBCW:SBUG_TWR:SBCW
+DISPLAY:SARL_TWR:SBUG_TWR:SARL_TWR
+COORD:S029.36.59.901:W056.57.48.901
+COORD:S029.39.56.400:W056.54.13.200
+COORD:S029.39.57.756:W056.54.11.733
+COORD:S029.41.16.603:W056.52.52.645
+COORD:S029.42.46.174:W056.51.50.486
+COORD:S029.44.23.756:W056.51.07.152
+COORD:S029.46.06.389:W056.50.43.973
+COORD:S029.47.50.957:W056.50.41.670
+COORD:S029.49.34.282:W056.51.00.331
+COORD:S029.51.13.225:W056.51.39.407
+COORD:S029.52.44.772:W056.52.37.724
+COORD:S029.54.06.136:W056.53.53.519
+COORD:S029.55.14.837:W056.55.24.495
+COORD:S029.56.08.780:W056.57.07.884
+COORD:S029.56.46.319:W056.59.00.536
+COORD:S029.57.06.308:W057.00.59.016
+COORD:S029.57.08.136:W057.02.59.705
+COORD:S029.56.51.748:W057.04.58.920
+COORD:S029.56.17.644:W057.06.53.020
+COORD:S029.55.26.866:W057.08.38.524
+COORD:S029.54.28.800:W057.10.02.400
+COORD:S029.49.19.501:W057.16.19.873
+COORD:S029.47.16.497:W057.14.18.135
+COORD:S029.46.50.559:W057.12.34.345
+COORD:S029.47.08.224:W057.10.35.471
+COORD:S029.45.28.622:W057.06.03.384
+COORD:S029.39.11.013:W057.00.18.040
+COORD:S029.38.41.038:W056.57.59.723
+COORD:S029.36.59.901:W056.57.48.901
+SECTOR:SBUG_TWR:0:3500
+OWNER:TUG
+BORDER:SBXL_APP
+SECTORLINE:SARL_TWR
+COORD:S029.36.59.901:W056.57.48.901
+COORD:S029.38.41.038:W056.57.59.723
+COORD:S029.39.11.013:W057.00.18.040
+COORD:S029.45.28.622:W057.06.03.384
+COORD:S029.47.08.224:W057.10.35.471
+COORD:S029.46.50.559:W057.12.34.345
+COORD:S029.47.16.497:W057.14.18.135
+COORD:S029.49.19.501:W057.16.19.873
+COORD:S029.48.52.163:W057.16.53.178
+COORD:S029.47.33.145:W057.18.12.138
+COORD:S029.46.03.420:W057.19.14.053
+COORD:S029.44.25.722:W057.19.57.052
+COORD:S029.42.43.025:W057.20.19.840
+COORD:S029.40.58.451:W057.20.21.742
+COORD:S029.39.15.179:W057.20.02.719
+COORD:S029.37.36.343:W057.19.23.365
+COORD:S029.36.04.943:W057.18.24.890
+COORD:S029.34.43.748:W057.17.09.080
+COORD:S029.33.35.218:W057.15.38.243
+COORD:S029.32.41.428:W057.13.55.135
+COORD:S029.32.04.005:W057.12.02.881
+COORD:S029.31.44.081:W057.10.04.880
+COORD:S029.31.42.259:W057.08.04.698
+COORD:S029.31.58.594:W057.06.05.971
+COORD:S029.32.32.591:W057.04.12.289
+COORD:S029.33.23.222:W057.02.27.092
+COORD:S029.34.28.957:W057.00.53.567
+COORD:S029.34.27.600:W057.00.54.600
+COORD:S029.36.59.901:W056.57.48.901
+
+;CORUMBA APPROACH (SBWC)
+SECTORLINE:SBWC_APP
+DISPLAY:SBWC_APP:SBWC_APP:SBCW
+DISPLAY:SBCW:SBWC_APP:SBCW
+COORD:S019.36.25.028:W058.04.15.498
+COORD:S019.08.39.382:W057.50.37.208
+COORD:S019.02.00.000:W057.47.21.000
+COORD:S019.02.41.000:W057.42.53.000
+COORD:S019.00.02.000:W057.42.19.000
+COORD:S018.57.42.000:W057.43.23.000
+COORD:S018.54.31.000:W057.43.28.000
+COORD:S018.54.47.000:W057.45.26.000
+COORD:S018.54.32.000:W057.46.40.000
+COORD:S018.49.23.821:W057.45.06.897
+COORD:S018.38.42.000:W057.41.53.000
+COORD:S018.21.14.000:W057.36.03.000
+COORD:S018.21.34.660:W057.32.09.136
+COORD:S018.23.22.937:W057.24.40.146
+COORD:S018.26.19.738:W057.17.38.867
+COORD:S018.30.19.693:W057.11.18.100
+COORD:S018.35.15.509:W057.05.49.414
+COORD:S018.40.58.200:W057.01.22.799
+COORD:S018.47.17.352:W056.58.06.351
+COORD:S018.54.01.444:W056.56.06.046
+COORD:S019.00.58.200:W056.55.25.533
+COORD:S019.07.54.955:W056.56.06.046
+COORD:S019.14.39.048:W056.58.06.351
+COORD:S019.20.58.199:W057.01.22.799
+COORD:S019.26.40.890:W057.05.49.414
+COORD:S019.31.36.706:W057.11.18.100
+COORD:S019.35.36.661:W057.17.38.867
+COORD:S019.38.33.462:W057.24.40.146
+COORD:S019.40.21.738:W057.32.09.136
+COORD:S019.40.58.200:W057.39.52.199
+COORD:S019.38.07.338:W057.56.50.862
+COORD:S019.36.31.566:W058.03.28.150 
+COORD:S019.36.25.028:W058.04.15.498
+SECTOR:SBWC_APP:4500:19500
+OWNER:WC
+BORDER:SBWC_APP
+
+;CORUMBA TOWER (SBCR)
+SECTORLINE:SBCR_TWR
+DISPLAY:SBCR_TWR:SBCR_TWR:SBWC_APP
+DISPLAY:SBWC_APP:SBWC_APP:SBCR_TWR
+DISPLAY:SBCR_TWR:SBCW:SBCR_TWR
+DISPLAY:SBCW:SBCW:SBCR_TWR
+COORD:S018.49.23.821:W057.45.06.897
+COORD:S018.51.20.109:W057.37.23.716
+COORD:S018.52.23.878:W057.34.37.639
+COORD:S018.54.36.587:W057.31.49.602
+COORD:S018.57.19.594:W057.30.11.614
+COORD:S019.00.51.292:W057.29.21.611
+COORD:S019.04.32.332:W057.30.04.694
+COORD:S019.07.28.440:W057.31.50.092
+COORD:S019.09.40.310:W057.34.31.503
+COORD:S019.10.51.407:W057.38.03.113
+COORD:S019.10.58.922:W057.41.43.713
+COORD:S019.08.39.382:W057.50.37.208
+COORD:S019.02.00.000:W057.47.21.000
+COORD:S019.02.41.000:W057.42.53.000
+COORD:S019.00.02.000:W057.42.19.000
+COORD:S018.57.42.000:W057.43.23.000
+COORD:S018.54.31.000:W057.43.28.000
+COORD:S018.54.47.000:W057.45.26.000
+COORD:S018.54.32.000:W057.46.40.000
+COORD:S018.49.23.821:W057.45.06.897
+SECTOR:SBCR_TWR:0:4500
+OWNER:TCR
+BORDER:SBCR_TWR
+
+;SBWG APP 2018 (CAMPO GRANDE)
+SECTORLINE:SBWG_APP
+DISPLAY:SBWG_APP:SBCW:SBWG_APP
+DISPLAY:SBCW:SBWG_APP:SBCW
+COORD:S020.28.07.799:W053.57.35.055
+COORD:S020.21.11.043:W053.58.13.976
+COORD:S020.17.46.632:W053.59.02.345
+COORD:S020.14.26.949:W054.00.09.549
+COORD:S020.11.13.515:W054.01.35.070
+COORD:S020.08.07.798:W054.03.18.265
+COORD:S020.05.11.215:W054.05.18.343
+COORD:S020.02.25.109:W054.07.34.391
+COORD:S019.59.50.743:W054.10.05.373
+COORD:S019.57.29.292:W054.12.50.142
+COORD:S019.55.21.834:W054.15.47.442
+COORD:S019.53.29.338:W054.18.55.928
+COORD:S019.51.52.659:W054.22.14.160
+COORD:S019.50.32.537:W054.25.40.629
+COORD:S019.49.29.577:W054.29.13.771
+COORD:S019.48.44.259:W054.32.51.957
+COORD:S019.48.16.931:W054.36.33.526
+COORD:S019.48.07.798:W054.40.16.799
+COORD:S019.48.16.931:W054.44.00.069
+COORD:S019.48.44.259:W054.47.41.641
+COORD:S019.49.29.577:W054.51.19.824
+COORD:S019.50.32.537:W054.54.52.966
+COORD:S019.51.52.659:W054.58.19.438
+COORD:S019.53.29.338:W055.01.37.670
+COORD:S019.55.21.834:W055.04.46.153
+COORD:S019.57.29.292:W055.07.43.453
+COORD:S019.59.50.743:W055.10.28.222
+COORD:S020.02.25.109:W055.12.59.207
+COORD:S020.05.11.215:W055.15.15.255
+COORD:S020.08.07.798:W055.17.15.332
+COORD:S020.11.13.515:W055.18.58.525
+COORD:S020.14.26.949:W055.20.24.047
+COORD:S020.17.46.632:W055.21.31.250
+COORD:S020.21.11.043:W055.22.19.620
+COORD:S020.24.38.624:W055.22.48.792
+COORD:S020.28.07.799:W055.22.58.540
+COORD:S020.31.36.972:W055.22.48.792
+COORD:S020.35.04.553:W055.22.19.620
+COORD:S020.38.28.965:W055.21.31.250
+COORD:S020.41.48.647:W055.20.24.047
+COORD:S020.45.02.083:W055.18.58.525
+COORD:S020.48.07.798:W055.17.15.332
+COORD:S020.51.04.381:W055.15.15.255
+COORD:S020.53.50.489:W055.12.59.207
+COORD:S020.56.24.854:W055.10.28.222
+COORD:S020.58.46.304:W055.07.43.453
+COORD:S021.00.53.764:W055.04.46.153
+COORD:S021.02.46.259:W055.01.37.670
+COORD:S021.04.22.937:W054.58.19.438
+COORD:S021.05.43.060:W054.54.52.966
+COORD:S021.06.46.021:W054.51.19.824
+COORD:S021.07.31.337:W054.47.41.641
+COORD:S021.07.58.665:W054.44.00.069
+COORD:S021.08.07.798:W054.40.16.799
+COORD:S021.07.58.665:W054.36.33.526
+COORD:S021.07.31.337:W054.32.51.957
+COORD:S021.06.46.021:W054.29.13.771
+COORD:S021.05.43.060:W054.25.40.629
+COORD:S021.04.22.937:W054.22.14.160
+COORD:S021.02.46.259:W054.18.55.928
+COORD:S021.00.53.764:W054.15.47.442
+COORD:S020.58.46.304:W054.12.50.142
+COORD:S020.56.24.854:W054.10.05.373
+COORD:S020.53.50.489:W054.07.34.391
+COORD:S020.51.04.381:W054.05.18.343
+COORD:S020.48.07.798:W054.03.18.265
+COORD:S020.45.02.083:W054.01.35.070
+COORD:S020.41.48.647:W054.00.09.549
+COORD:S020.38.28.965:W053.59.02.345
+COORD:S020.35.04.553:W053.58.13.976
+COORD:S020.31.36.972:W053.57.44.805
+COORD:S020.28.07.799:W053.57.35.055
+SECTOR:SBWG_APP:4500:19500
+OWNER:WG:BAN:THOR
+BORDER:SBWG_APP
+
+;CAMPO GRANDE TOWER (SBCR)
+SECTORLINE:SBCG_TWR
+DISPLAY:SBCG_TWR:SBCG_TWR:SBWG_APP
+DISPLAY:SBWG_APP:SBCG_TWR:SBWG_APP
+DISPLAY:SBCG_TWR:SBCW:SBCG_TWR
+DISPLAY:SBCW:SBCG_TWR:SBCW
+COORD:S020.14.02.400:W054.41.20.400
+COORD:S020.14.16.051:W054.44.06.966
+COORD:S020.14.56.591:W054.46.48.494
+COORD:S020.16.02.795:W054.49.20.099
+COORD:S020.17.32.658:W054.51.37.189
+COORD:S020.19.23.462:W054.53.35.607
+COORD:S020.21.31.851:W054.55.11.756
+COORD:S020.23.53.935:W054.56.22.705
+COORD:S020.26.25.406:W054.57.06.284
+COORD:S020.29.01.667:W054.57.21.147
+COORD:S020.31.37.971:W054.57.06.819
+COORD:S020.34.09.569:W054.56.23.711
+COORD:S020.36.31.848:W054.55.13.112
+COORD:S020.38.40.477:W054.53.37.149
+COORD:S020.40.31.536:W054.51.38.731
+COORD:S020.42.01.639:W054.49.21.455
+COORD:S020.43.08.037:W054.46.49.501
+COORD:S020.43.48.705:W054.44.07.501
+COORD:S020.44.02.400:W054.41.20.400
+COORD:S020.43.48.705:W054.38.33.299
+COORD:S020.43.08.037:W054.35.51.299
+COORD:S020.42.01.639:W054.33.19.345
+COORD:S020.40.31.536:W054.31.02.069
+COORD:S020.38.40.477:W054.29.03.651
+COORD:S020.36.31.848:W054.27.27.688
+COORD:S020.34.09.569:W054.26.17.089
+COORD:S020.31.37.971:W054.25.33.981
+COORD:S020.29.01.667:W054.25.19.653
+COORD:S020.26.25.406:W054.25.34.516
+COORD:S020.23.53.935:W054.26.18.095
+COORD:S020.21.31.851:W054.27.29.044
+COORD:S020.19.23.462:W054.29.05.193
+COORD:S020.17.32.658:W054.31.03.611
+COORD:S020.16.02.795:W054.33.20.701
+COORD:S020.14.56.591:W054.35.52.306
+COORD:S020.14.16.051:W054.38.33.834
+COORD:S020.14.02.400:W054.41.20.400
+SECTOR:SBCG_TWR:0:4500
+OWNER:TCG:MCG:THOR
+BORDER:SBCG_TWR
+;========================================FIR CURITIBA SBCW 2020 (AIRSPACE)===============================================;
+;========================================FIR BRASILIA SBBS 2020 LOW======================================================;
+;SBJD TWR 2018 (JUNDIAI)
+SECTORLINE:SBJD_TWR
+DISPLAY:SBJD_TWR:SBJD_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBJD_TWR:SBXP_APP
+DISPLAY:SBJD_TWR:SBJD_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBJD_TWR
+DISPLAY:SBBS:SBJD_TWR:SBBS
+DISPLAY:SBCW:SBJD_TWR:SBCW
+COORD:S023.07.02.000:W047.00.04.000
+COORD:S023.06.18.000:W046.58.52.000
+COORD:S023.05.57.000:W046.57.30.000
+COORD:S023.05.51.000:W046.56.21.000
+COORD:S023.05.58.000:W046.55.13.000
+COORD:S023.06.29.000:W046.53.53.000
+COORD:S023.07.22.000:W046.52.51.000
+COORD:S023.08.22.000:W046.51.56.000
+COORD:S023.09.45.000:W046.51.18.000
+COORD:S023.11.16.000:W046.51.15.000
+COORD:S023.12.41.000:W046.51.35.000
+COORD:S023.13.40.000:W046.52.17.000
+COORD:S023.14.44.000:W046.53.17.000
+COORD:S023.15.34.000:W046.54.33.000
+COORD:S023.15.51.000:W046.56.02.000
+COORD:S023.07.02.000:W047.00.04.000
+SECTOR:SBJD_TWR:0:5500
+OWNER:TJD
+BORDER:SBJD_TWR
+
+;SBBP TWR 2018 (BRAGANCA)
+SECTORLINE:SBBP_TWR
+DISPLAY:SBBP_TWR:SBBP_TWR:SBXP_APP
+DISPLAY:SBXP_APP:SBBP_TWR:SBXP_APP
+DISPLAY:SBBP_TWR:SBBP_TWR:SBXP_F_APP
+DISPLAY:SBXP_F_APP:SBXP_F_APP:SBBP_TWR
+DISPLAY:SBBS:SBBP_TWR:SBBS
+COORD:S022.53.45.012:W046.32.15.000
+COORD:S022.53.49.567:W046.33.11.550
+COORD:S022.54.03.093:W046.34.06.385
+COORD:S022.54.25.181:W046.34.57.842
+COORD:S022.54.55.160:W046.35.44.359
+COORD:S022.55.32.121:W046.36.24.523
+COORD:S022.56.14.943:W046.36.57.114
+COORD:S022.57.02.324:W046.37.21.142
+COORD:S022.57.52.828:W046.37.35.873
+COORD:S022.58.44.919:W046.37.40.858
+COORD:S022.59.37.017:W046.37.35.942
+COORD:S023.00.27.536:W046.37.21.271
+COORD:S023.01.14.943:W046.36.57.288
+COORD:S023.01.57.794:W046.36.24.721
+COORD:S023.02.34.787:W046.35.44.556
+COORD:S023.03.04.796:W046.34.58.016
+COORD:S023.03.26.909:W046.34.06.515
+COORD:S023.03.40.452:W046.33.11.619
+COORD:S023.03.45.012:W046.32.15.000
+COORD:S023.03.40.452:W046.31.18.381
+COORD:S023.03.26.909:W046.30.23.485
+COORD:S023.03.04.796:W046.29.31.984
+COORD:S023.02.34.787:W046.28.45.444
+COORD:S023.01.57.794:W046.28.05.279
+COORD:S023.01.14.943:W046.27.32.712
+COORD:S023.00.27.536:W046.27.08.729
+COORD:S022.59.37.017:W046.26.54.058
+COORD:S022.58.44.919:W046.26.49.142
+COORD:S022.57.52.828:W046.26.54.127
+COORD:S022.57.02.324:W046.27.08.858
+COORD:S022.56.14.943:W046.27.32.886
+COORD:S022.55.32.121:W046.28.05.477
+COORD:S022.54.55.160:W046.28.45.641
+COORD:S022.54.25.181:W046.29.32.158
+COORD:S022.54.03.093:W046.30.23.615
+COORD:S022.53.49.567:W046.31.18.450
+COORD:S022.53.45.012:W046.32.15.000
+SECTOR:SBBP_TWR:0:5500
+OWNER:TBP
+BORDER:SBBP_TWR
+;========================================FIR BRASILIA SBBS 2020 LOW======================================================;
+;========================================FIR CURITIBA SBCW 2020 REMOTAS==================================================;
+;SBAU R-TWR (ARACATUBA)
+SECTORLINE:SBAU_R_TWR
+DISPLAY:SBAU_R_TWR:SBAU_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBAU_R_TWR
+COORD:S021.18.01.111:W049.58.14.644
+COORD:S021.26.03.510:W050.03.15.784
+COORD:S021.32.01.475:W050.10.55.961
+COORD:S021.35.13.353:W050.20.24.505
+COORD:S021.35.18.610:W050.30.36.350
+COORD:S021.32.06.916:W050.40.10.882
+COORD:S021.25.59.246:W050.47.54.340
+COORD:S021.17.59.470:W050.52.57.646
+COORD:S021.08.37.684:W050.54.40.044
+COORD:S020.59.23.587:W050.52.55.530
+COORD:S020.51.25.230:W050.47.58.376
+COORD:S020.45.23.224:W050.40.14.213
+COORD:S020.42.05.893:W050.30.45.096
+COORD:S020.42.05.395:W050.20.17.134
+COORD:S020.45.16.904:W050.10.56.826
+COORD:S020.51.20.532:W050.03.09.383
+COORD:S020.59.23.820:W049.58.15.942
+COORD:S021.08.47.014:W049.56.30.130
+COORD:S021.18.01.111:W049.58.14.644
+SECTOR:SBAU_R_TWR:0:14500
+OWNER:TAU
+BORDER:SBAU_R_TWR
+
+;SBBQ R-TWR (BARBACENA)
+SECTORLINE:SBBQ_R_TWR
+DISPLAY:SBBQ_R_TWR:SBBQ_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBBQ_R_TWR
+DISPLAY:SBJF_R_TWR:SBBQ_R_TWR:SBJF_R_TWR
+DISPLAY:SBZM_R_TWR:SBBQ_R_TWR:SBZM_R_TWR
+COORD:S020.58.39.479:W044.07.59.082
+COORD:S020.52.43.801:W044.00.17.959
+COORD:S020.49.27.002:W043.50.42.963
+COORD:S020.49.26.320:W043.40.29.225
+COORD:S020.52.42.056:W043.30.58.678
+COORD:S020.58.44.274:W043.23.14.648
+COORD:S021.06.52.136:W043.18.19.314
+COORD:S021.16.02.140:W043.16.33.303
+COORD:S021.25.13.072:W043.18.16.298
+COORD:S021.33.18.105:W043.23.24.837
+COORD:S021.39.17.479:W043.31.01.600
+COORD:S021.42.37.096:W043.40.29.771
+COORD:S021.42.41.474:W043.50.39.149
+COORD:S021.39.23.451:W044.00.10.643
+COORD:S021.33.19.824:W044.07.58.086
+COORD:S021.25.16.883:W044.12.59.872
+COORD:S021.15.56.853:W044.14.47.203
+COORD:S021.06.40.469:W044.13.03.636
+COORD:S020.58.39.479:W044.07.59.082
+SECTOR:SBBQ_R_TWR:0:14500
+OWNER:TBQ
+BORDER:SBBQ_R_TWR
+
+;SBBG R-TWR 2018 (BAGE)
+SECTORLINE:SBBG_R_TWR
+DISPLAY:SBBG_R_TWR:SBBG_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBBG_R_TWR
+COORD:S031.23.46.231:W053.37.29.455
+COORD:S031.32.29.137:W053.39.10.766
+COORD:S031.40.27.269:W053.44.10.225
+COORD:S031.46.37.969:W053.51.37.779
+COORD:S031.49.51.251:W054.01.34.768
+COORD:S031.50.04.178:W054.12.04.968
+COORD:S031.39.38.879:W054.27.47.730
+COORD:S031.36.27.880:W054.28.00.128
+COORD:S031.35.26.853:W054.28.36.256
+COORD:S031.31.11.863:W054.30.01.893
+COORD:S031.30.15.302:W054.31.37.745
+COORD:S031.29.13.863:W054.34.15.377
+COORD:S031.23.25.791:W054.35.44.951
+COORD:S031.13.59.517:W054.34.07.776
+COORD:S031.06.10.409:W054.28.57.675
+COORD:S031.00.30.614:W054.21.44.960
+COORD:S030.56.48.120:W054.12.13.880
+COORD:S030.56.51.491:W054.02.11.473
+COORD:S031.00.01.645:W053.51.53.918
+COORD:S031.06.36.520:W053.43.59.586
+COORD:S031.14.21.274:W053.39.03.571
+COORD:S031.23.46.231:W053.37.29.455
+SECTOR:SBBG_R_TWR:0:14500
+OWNER:TBG
+BORDER:SBBG_R_TWR
+
+;SBDB R-TWR 2018 (BONITO)
+SECTORLINE:SBDB_R_TWR
+DISPLAY:SBDB_R_TWR:SBDB_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBDB_R_TWR
+COORD:S020.47.08.620:W056.32.13.991
+COORD:S020.46.59.528:W056.22.30.560
+COORD:S020.50.25.982:W056.12.40.799
+COORD:S020.56.23.918:W056.05.08.666
+COORD:S021.04.33.147:W056.00.09.428
+COORD:S021.13.46.671:W055.58.10.818
+COORD:S021.22.58.339:W056.00.00.947
+COORD:S021.31.02.054:W056.04.58.095
+COORD:S021.36.53.862:W056.12.26.561
+COORD:S021.40.33.762:W056.22.26.347
+COORD:S021.40.28.248:W056.32.22.733
+COORD:S021.37.15.104:W056.42.13.893
+COORD:S021.31.15.024:W056.49.40.005
+COORD:S021.31.03.858:W056.49.44.627
+COORD:S021.22.51.189:W056.54.52.198
+COORD:S021.13.46.688:W056.56.40.164
+COORD:S021.04.27.293:W056.54.46.325
+COORD:S020.56.53.187:W056.50.18.370
+COORD:S020.50.36.508:W056.41.58.026
+COORD:S020.47.08.620:W056.32.13.991
+SECTOR:SBDB_R_TWR:0:14500
+OWNER:TDB
+BORDER:SBDB_R_TWR
+
+;SBCD R-TWR 2018 (CACADOR)
+SECTORLINE:SBCD_R_TWR
+DISPLAY:SBCD_R_TWR:SBCD_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBCD_R_TWR
+COORD:S026.47.25.640:W051.25.31.576
+COORD:S026.38.07.092:W051.23.58.112
+COORD:S026.29.51.364:W051.18.45.213
+COORD:S026.24.10.723:W051.11.12.124
+COORD:S026.20.44.978:W051.01.34.110
+COORD:S026.20.49.647:W050.51.17.351
+COORD:S026.24.09.220:W050.41.44.254
+COORD:S026.29.59.430:W050.34.08.411
+COORD:S026.38.12.099:W050.29.00.840
+COORD:S026.47.18.743:W050.27.18.895
+COORD:S026.56.35.995:W050.29.06.713
+COORD:S027.04.41.852:W050.34.09.881
+COORD:S027.10.43.530:W050.41.48.079
+COORD:S027.13.52.525:W050.51.33.026
+COORD:S027.14.00.320:W051.01.30.810
+COORD:S027.10.48.473:W051.11.07.617
+COORD:S027.04.41.513:W051.18.50.393
+COORD:S026.56.37.867:W051.23.47.320
+COORD:S026.47.25.640:W051.25.31.576
+SECTOR:SBCD_R_TWR:0:14500
+OWNER:TCD
+BORDER:SBCD_R_TWR
+
+;SBCA R-TWR 2018 (CASCAVEL)
+SECTORLINE:SBCA_R_TWR
+DISPLAY:SBCA_R_TWR:SBCA_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBCA_R_TWR
+DISPLAY:SBTD_R_TWR:SBCA_R_TWR:SBTD_R_TWR
+DISPLAY:SBWI_APP:SBCA_R_TWR:SBWI_APP
+COORD:S024.43.00.762:W053.07.39.671
+COORD:S024.51.00.968:W053.02.51.076
+COORD:S025.00.03.326:W053.00.57.089
+COORD:S025.09.26.161:W053.02.42.596
+COORD:S025.17.14.423:W053.07.32.324
+COORD:S025.23.31.553:W053.15.17.940
+COORD:S025.26.51.714:W053.24.58.265
+COORD:S025.26.43.606:W053.35.23.357
+COORD:S025.23.34.352:W053.44.31.457
+COORD:S025.17.29.536:W053.52.20.255
+COORD:S025.09.28.880:W053.57.43.577
+COORD:S024.59.50.033:W053.59.25.036
+COORD:S024.50.59.401:W053.57.40.016
+COORD:S024.42.47.960:W053.52.39.159
+COORD:S024.36.46.283:W053.45.00.961
+COORD:S024.33.18.395:W053.35.16.927
+COORD:S024.33.25.206:W053.25.06.188
+COORD:S024.36.43.483:W053.15.47.444
+COORD:S024.43.00.762:W053.07.39.671
+SECTOR:SBCA_R_TWR:0:14500
+OWNER:TCA
+BORDER:SBCA_R_TWR
+
+;SBTD R-TWR 2018 (TOLEDO)
+SECTORLINE:SBTD_R_TWR
+DISPLAY:SBTD_R_TWR:SBTD_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBTD_R_TWR
+DISPLAY:SBCA_R_TWR:SBTD_R_TWR:SBCA_R_TWR
+DISPLAY:SBWI_APP:SBTD_R_TWR:SBWI_APP
+COORD:S024.58.40.052:W054.03.59.937
+COORD:S024.49.51.740:W054.09.15.354
+COORD:S024.41.06.132:W054.11.02.407
+COORD:S024.31.58.750:W054.09.24.320
+COORD:S024.23.41.726:W054.04.25.775
+COORD:S024.17.55.501:W053.56.54.997
+COORD:S024.14.22.031:W053.47.13.274
+COORD:S024.14.31.435:W053.36.33.828
+COORD:S024.17.32.963:W053.27.22.018
+COORD:S024.23.41.219:W053.19.24.889
+COORD:S024.31.50.448:W053.14.25.650
+COORD:S024.41.12.545:W053.12.51.125
+COORD:S024.50.23.367:W053.14.20.880
+COORD:S024.58.15.915:W053.19.22.649
+COORD:S025.04.02.139:W053.26.53.427
+COORD:S025.07.46.326:W053.37.05.255
+COORD:S025.07.31.789:W053.47.12.285
+COORD:S025.04.22.535:W053.56.20.385
+COORD:S024.58.40.052:W054.03.59.937
+SECTOR:SBTD_R_TWR:0:14500
+OWNER:TTD
+BORDER:SBTD_R_TWR
+
+;SBCH R-TWR 2018 (CHAPECO)
+SECTORLINE:SBCH_R_TWR
+DISPLAY:SBCH_R_TWR:SBCH_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBCH_R_TWR
+COORD:S026.58.50.711:W053.07.24.087
+COORD:S026.50.42.710:W053.02.14.897
+COORD:S026.44.29.866:W052.54.41.323
+COORD:S026.41.15.288:W052.44.58.687
+COORD:S026.41.27.683:W052.34.45.636
+COORD:S026.44.24.924:W052.25.21.785
+COORD:S026.50.37.466:W052.17.36.697
+COORD:S026.58.34.682:W052.12.21.707
+COORD:S027.08.13.529:W052.10.40.248
+COORD:S027.17.18.767:W052.12.12.314
+COORD:S027.25.10.019:W052.17.28.437
+COORD:S027.30.49.814:W052.24.41.151
+COORD:S027.34.51.597:W052.35.06.420
+COORD:S027.34.56.402:W052.44.37.809
+COORD:S027.31.33.389:W052.54.19.238
+COORD:S027.25.26.429:W053.02.02.014
+COORD:S027.17.00.451:W053.07.08.187
+COORD:S027.08.01.533:W053.08.53.841
+COORD:S026.58.50.711:W053.07.24.087
+SECTOR:SBCH_R_TWR:0:14500
+OWNER:TCH
+BORDER:SBCH_R_TWR
+
+;SBCM R-TWR 2018 (CRICIUMA)
+SECTORLINE:SBCM_R_TWR
+DISPLAY:SBCM_R_TWR:SBCM_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBCM_R_TWR
+DISPLAY:SBTR_R_TWR:SBCM_R_TWR:SBTR_R_TWR
+DISPLAY:SBXF_APP:SBCM_R_TWR:SBXF_APP
+COORD:S028.52.44.161:W049.52.50.225
+COORD:S028.43.37.517:W049.54.32.170
+COORD:S028.33.59.230:W049.52.39.244
+COORD:S028.26.29.860:W049.47.48.604
+COORD:S028.20.26.040:W049.40.04.385
+COORD:S028.16.55.559:W049.30.49.057
+COORD:S028.16.53.797:W049.20.14.234
+COORD:S028.19.55.325:W049.11.02.424
+COORD:S028.25.52.414:W049.03.09.917
+COORD:S028.34.16.250:W048.57.57.724
+COORD:S028.43.47.370:W048.56.12.555
+COORD:S028.52.53.455:W048.58.04.996
+COORD:S029.00.47.300:W049.02.52.412
+COORD:S029.06.44.691:W049.10.18.567
+COORD:S029.10.03.555:W049.20.13.245
+COORD:S029.10.01.031:W049.30.36.026
+COORD:S029.06.53.920:W049.39.50.147
+COORD:S029.00.43.521:W049.47.41.256
+COORD:S028.52.44.161:W049.52.50.225
+SECTOR:SBCM_R_TWR:0:14500
+OWNER:TCM
+BORDER:SBCM_R_TWR
+
+;SBDO R-TWR 2018 (DOURADOS)
+SECTORLINE:SBDO_R_TWR
+DISPLAY:SBDO_R_TWR:SBDO_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBDO_R_TWR
+DISPLAY:SBPP_R_TWR:SBDO_R_TWR:SBPP_R_TWR
+COORD:S022.11.43.453:W055.24.43.190
+COORD:S022.02.54.964:W055.23.04.191
+COORD:S021.55.03.262:W055.18.22.795
+COORD:S021.48.59.442:W055.10.38.577
+COORD:S021.45.21.685:W055.00.44.812
+COORD:S021.45.27.650:W054.50.13.699
+COORD:S021.48.36.903:W054.41.05.598
+COORD:S021.54.48.599:W054.33.00.137
+COORD:S022.02.24.329:W054.28.14.766
+COORD:S022.12.17.782:W054.26.20.352
+COORD:S022.21.22.570:W054.28.27.145
+COORD:S022.29.16.416:W054.33.14.562
+COORD:S022.35.08.223:W054.40.43.028
+COORD:S022.38.43.837:W054.50.30.772
+COORD:S022.38.42.609:W055.00.39.200
+COORD:S022.35.23.882:W055.10.32.671
+COORD:S022.29.27.243:W055.17.50.451
+COORD:S022.21.16.717:W055.23.04.043
+COORD:S022.11.43.453:W055.24.43.190
+SECTOR:SBDO_R_TWR:0:14500
+OWNER:TDO
+BORDER:SBDO_R_TWR
+
+;SBGU R-TWR 2018 (GUARAPUAVA)
+SECTORLINE:SBGU_R_TWR
+DISPLAY:SBGU_R_TWR:SBGU_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBGU_R_TWR
+COORD:S024.56.37.607:W051.36.41.285
+COORD:S024.56.28.966:W051.26.23.126
+COORD:S024.59.46.396:W051.16.44.008
+COORD:S025.05.52.059:W051.09.15.585
+COORD:S025.13.57.001:W051.04.04.305
+COORD:S025.23.16.955:W051.02.23.758
+COORD:S025.32.26.480:W051.04.07.866
+COORD:S025.40.24.612:W051.09.07.325
+COORD:S025.46.19.859:W051.16.27.459
+COORD:S025.49.46.450:W051.26.25.847
+COORD:S025.50.02.818:W051.36.47.715
+COORD:S025.46.46.684:W051.46.12.480
+COORD:S025.40.41.868:W051.54.01.277
+COORD:S025.32.38.222:W051.58.58.204
+COORD:S025.22.59.376:W052.00.39.663
+COORD:S025.13.49.851:W051.58.55.555
+COORD:S025.06.07.172:W051.54.03.516
+COORD:S024.59.53.482:W051.46.09.567
+COORD:S024.56.37.607:W051.36.41.285
+SECTOR:SBGU_R_TWR:0:14500
+OWNER:TGU
+BORDER:SBGU_R_TWR
+
+;SBJF R-TWR 2018 (JUIZ DE FORA)
+SECTORLINE:SBJF_R_TWR
+DISPLAY:SBJF_R_TWR:SBJF_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBJF_R_TWR
+DISPLAY:SBZM_R_TWR:SBJF_R_TWR:SBZM_R_TWR
+DISPLAY:SBBQ_R_TWR:SBJF_R_TWR:SBBQ_R_TWR
+DISPLAY:SBWJ_APP:SBJF_R_TWR:SBWJ_APP
+COORD:S021.56.54.641:W043.50.39.833
+COORD:S021.47.29.104:W043.52.22.691
+COORD:S021.38.04.127:W043.50.31.164
+COORD:S021.30.11.578:W043.45.29.394
+COORD:S021.24.21.914:W043.38.06.948
+COORD:S021.21.04.742:W043.28.53.019
+COORD:S021.20.52.265:W043.17.48.091
+COORD:S021.23.59.375:W043.08.33.970
+COORD:S021.29.52.741:W043.01.12.935
+COORD:S021.38.28.873:W042.55.53.354
+COORD:S021.47.15.213:W042.54.19.542
+COORD:S021.56.54.065:W042.55.44.873
+COORD:S022.04.58.627:W043.01.02.394
+COORD:S022.10.29.898:W043.09.02.289
+COORD:S022.14.09.299:W043.18.25.539
+COORD:S022.14.12.807:W043.28.11.281
+COORD:S022.10.55.377:W043.37.50.399
+COORD:S022.04.42.835:W043.45.35.487
+COORD:S021.56.54.641:W043.50.39.833
+SECTOR:SBJF_R_TWR:0:14500
+OWNER:TJF
+BORDER:SBJF_R_TWR
+
+;SBZM R-TWR 2018 (GOIANA)
+SECTORLINE:SBZM_R_TWR
+DISPLAY:SBZM_R_TWR:SBZM_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBZM_R_TWR
+DISPLAY:SBBQ_R_TWR:SBZM_R_TWR:SBBQ_R_TWR
+DISPLAY:SBJF_R_TWR:SBZM_R_TWR:SBJF_R_TWR
+COORD:S021.21.40.903:W043.38.04.519
+COORD:S021.13.31.605:W043.33.09.683
+COORD:S021.07.45.381:W043.25.38.906
+COORD:S021.04.09.767:W043.15.51.161
+COORD:S021.04.17.875:W043.05.26.069
+COORD:S021.07.21.996:W042.55.45.553
+COORD:S021.13.25.515:W042.48.11.109
+COORD:S021.21.32.601:W042.43.05.849
+COORD:S021.30.19.938:W042.41.29.410
+COORD:S021.39.59.420:W042.43.05.538
+COORD:S021.48.01.779:W042.48.01.036
+COORD:S021.54.00.377:W042.55.47.140
+COORD:S021.57.21.642:W043.05.20.307
+COORD:S021.57.19.117:W043.15.43.087
+COORD:S021.54.14.150:W043.25.03.230
+COORD:S021.48.21.261:W043.32.31.546
+COORD:S021.39.58.709:W043.37.51.843
+COORD:S021.30.49.061:W043.39.29.850
+COORD:S021.21.40.903:W043.38.04.519
+SECTOR:SBZM_R_TWR:0:14500
+OWNER:TZM
+BORDER:SBZM_R_TWR
+
+;SBLJ R-TWR 2018 (LAJES)
+SECTORLINE:SBLJ_R_TWR
+DISPLAY:SBLJ_R_TWR:SBLJ_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBLJ_R_TWR
+COORD:S028.13.27.234:W050.21.54.664
+COORD:S028.10.20.645:W050.31.32.748
+COORD:S028.04.37.415:W050.39.05.701
+COORD:S027.56.05.204:W050.44.21.361
+COORD:S027.46.58.236:W050.46.06.894
+COORD:S027.37.40.125:W050.44.21.160
+COORD:S027.29.35.113:W050.39.38.366
+COORD:S027.23.56.879:W050.32.50.012
+COORD:S027.20.01.473:W050.22.09.185
+COORD:S027.20.10.977:W050.11.43.516
+COORD:S027.23.20.244:W050.02.12.958
+COORD:S027.29.34.070:W049.54.35.975
+COORD:S027.37.41.043:W049.49.39.397
+COORD:S027.47.11.628:W049.47.52.723
+COORD:S027.56.13.102:W049.49.36.709
+COORD:S028.04.13.814:W049.54.29.919
+COORD:S028.09.52.199:W050.02.05.669
+COORD:S028.13.32.437:W050.11.39.409
+COORD:S028.13.27.234:W050.21.54.664
+SECTOR:SBLJ_R_TWR:0:14500
+OWNER:TLJ
+BORDER:SBLJ_R_TWR
+
+;SBNM R-TWR 2018 (SANTO ANGELO)
+SECTORLINE:SBNM_R_TWR
+DISPLAY:SBNM_R_TWR:SBNM_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBNM_R_TWR
+COORD:S028.16.33.469:W054.39.16.653
+COORD:S028.07.33.813:W054.37.42.276
+COORD:S027.59.43.408:W054.32.46.527
+COORD:S027.50.50.315:W054.14.54.326
+COORD:S027.53.33.158:W054.24.44.246
+COORD:S027.50.21.951:W054.04.59.203
+COORD:S027.53.33.799:W053.55.22.396
+COORD:S027.59.42.901:W053.47.45.641
+COORD:S028.07.38.821:W053.42.45.004
+COORD:S028.17.12.084:W053.41.05.856
+COORD:S028.26.13.882:W053.42.46.254
+COORD:S028.34.04.288:W053.47.42.003
+COORD:S028.39.53.952:W053.55.04.449
+COORD:S028.43.21.389:W054.05.23.210
+COORD:S028.43.24.898:W054.15.08.953
+COORD:S028.40.35.384:W054.24.36.514
+COORD:S028.34.27.128:W054.32.33.644
+COORD:S028.26.29.065:W054.37.28.260
+COORD:S028.16.33.469:W054.39.16.653
+SECTOR:SBNM_R_TWR:0:14500
+OWNER:TNM
+BORDER:SBNM_R_TWR
+
+;SBPF R-TWR 2018 (PASSO FUNDO)
+SECTORLINE:SBPF_R_TWR
+DISPLAY:SBPF_R_TWR:SBPF_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBPF_R_TWR
+COORD:S027.47.50.649:W052.24.42.370
+COORD:S027.47.58.307:W052.14.52.005
+COORD:S027.51.05.868:W052.05.03.157
+COORD:S027.57.14.124:W051.57.06.027
+COORD:S028.05.32.016:W051.52.20.370
+COORD:S028.14.33.077:W051.50.40.736
+COORD:S028.23.46.888:W051.52.36.886
+COORD:S028.32.01.769:W051.57.29.411
+COORD:S028.37.53.577:W052.04.57.877
+COORD:S028.41.20.168:W052.14.56.265
+COORD:S028.41.11.214:W052.25.00.983
+COORD:S028.38.07.543:W052.34.06.772
+COORD:S028.31.53.704:W052.42.06.213
+COORD:S028.23.43.178:W052.47.19.804
+COORD:S028.14.42.117:W052.48.59.438
+COORD:S028.05.21.425:W052.47.19.953
+COORD:S027.57.26.734:W052.42.12.162
+COORD:S027.51.28.497:W052.34.25.632
+COORD:S027.47.50.649:W052.24.42.370
+SECTOR:SBPF_R_TWR:0:14500
+OWNER:TPF
+BORDER:SBPF_R_TWR
+
+;SBPK R-TWR 2018 (PELOTAS)
+SECTORLINE:SBPK_R_TWR
+DISPLAY:SBPK_R_TWR:SBPK_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBPK_R_TWR
+COORD:S031.19.58.020:W052.34.35.774
+COORD:S031.16.26.692:W052.25.00.071
+COORD:S031.16.34.800:W052.14.34.979
+COORD:S031.19.39.767:W052.05.14.837
+COORD:S031.25.51.463:W051.57.09.375
+COORD:S031.33.51.669:W051.52.20.780
+COORD:S031.42.52.730:W051.50.41.147
+COORD:S031.52.12.125:W051.52.34.985
+COORD:S032.00.39.018:W051.57.43.262
+COORD:S032.06.14.527:W052.04.43.935
+COORD:S032.08.49.696:W052.15.07.000
+COORD:S032.09.43.330:W052.24.42.418
+COORD:S032.06.37.066:W052.34.16.913
+COORD:S032.00.35.690:W052.41.57.378
+COORD:S031.52.13.997:W052.47.15.592
+COORD:S031.42.54.044:W052.48.56.139
+COORD:S031.33.48.805:W052.47.24.073
+COORD:S031.25.44.244:W052.42.06.551
+COORD:S031.19.58.020:W052.34.35.774
+SECTOR:SBPK_R_TWR:0:14500
+OWNER:TPK
+BORDER:SBPK_R_TWR
+
+;SBPP R-TWR 2018 (PONTA PORA)
+SECTORLINE:SBPP_R_TWR
+DISPLAY:SBPP_R_TWR:SBPP_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBPP_R_TWR
+DISPLAY:SBDO_R_TWR:SBPP_R_TWR:SBDO_R_TWR
+COORD:S022.15.46.351:W056.04.49.433
+COORD:S022.09.50.258:W055.57.08.925
+COORD:S022.06.09.060:W055.47.23.492
+COORD:S022.06.22.751:W055.36.56.088
+COORD:S022.09.37.588:W055.27.45.677
+COORD:S022.15.42.404:W055.19.56.879
+COORD:S022.24.18.468:W055.14.33.035
+COORD:S022.33.20.610:W055.13.06.451
+COORD:S022.42.05.660:W055.14.53.783
+COORD:S022.50.18.463:W055.19.48.289
+COORD:S022.56.16.635:W055.27.26.816
+COORD:S022.59.33.356:W055.37.15.473
+COORD:S022.59.34.271:W055.47.29.922
+COORD:S022.56.23.721:W055.56.52.375
+COORD:S022.50.18.905:W056.04.41.173
+COORD:S022.42.13.115:W056.09.32.079
+COORD:S022.32.38.555:W056.11.25.580
+COORD:S022.23.47.923:W056.09.40.559
+COORD:S022.15.46.351:W056.04.49.433
+SECTOR:SBPP_R_TWR:0:14500
+OWNER:TPP
+BORDER:SBPP_R_TWR
+
+;SBTR R-TWR 2018 (TORRES)
+SECTORLINE:SBTR_R_TWR
+DISPLAY:SBTR_R_TWR:SBTR_R_TWR:SBCW
+DISPLAY:SBCW:SBCW:SBTR_R_TWR
+DISPLAY:SBCM_R_TWR:SBTR_R_TWR:SBCM_R_TWR
+DISPLAY:SBCM_R_TWR:SBTR_R_TWR:SBCM_R_TWR
+COORD:S029.15.25.592:W049.21.15.751
+COORD:S029.24.45.546:W049.19.35.205
+COORD:S029.33.43.905:W049.21.23.935
+COORD:S029.41.57.489:W049.26.30.813
+COORD:S029.48.03.452:W049.34.21.053
+COORD:S029.51.12.447:W049.44.06.000
+COORD:S029.51.19.396:W049.53.43.410
+COORD:S029.48.03.262:W050.03.08.175
+COORD:S029.42.04.030:W050.10.54.661
+COORD:S029.33.45.777:W050.16.04.543
+COORD:S029.33.42.337:W050.16.12.875
+COORD:S029.24.27.967:W050.17.51.110
+COORD:S029.15.20.585:W050.16.13.023
+COORD:S029.06.57.131:W050.10.56.414
+COORD:S029.01.28.503:W050.03.39.077
+COORD:S028.58.09.298:W049.52.45.991
+COORD:S028.58.00.996:W049.43.26.241
+COORD:S029.01.20.570:W049.33.53.144
+COORD:S029.07.24.089:W049.26.18.700
+COORD:S029.15.25.592:W049.21.15.751
+SECTOR:SBTR_R_TWR:0:14500
+OWNER:TTR
+BORDER:SBTR_R_TWR
+;========================================FIR CURITIBA SBCW 2020 REMOTAS==================================================;
+;========================================SBCW FREETEXT===================================================================;
+[FREETEXT]
+;ALTITUDE MINIMA DE AREA - AMA
+;AMA SBCW 2018
+;CW-20S
+S018.17.58.000:W054.01.35.000:AMA-SBCW:37
+;CW-24S
+S022.02.46.000:W058.41.31.000:AMA-SBCW:31
+S022.15.05.000:W053.47.14.000:AMA-SBCW:29
+;CW-24S
+S021.02.56.000:W041.23.15.000:AMA-SBCW:98
+;CW-28S
+S026.50.15.000:W054.20.15.000:AMA-SBCW:42
+S027.05.32.000:W051.23.55.000:AMA-SBCW:66
+S024.11.50.000:W050.49.48.000:AMA-SBCW:66
+S024.34.51.000:W049.19.16.000:AMA-SBCW:66
+S026.00.00.000:W045.32.22.000:AMA-SBCW:50
+;CW-32S
+S030.20.53.000:W058.11.41.000:AMA-SBCW:42
+S029.55.14.000:W055.17.00.000:AMA-SBCW:31
+S030.06.56.000:W048.43.54.000:AMA-SBCW:63
+;CW-36S
+S033.22.30.000:W057.45.27.000:AMA-SBCW:12
+S034.08.39.000:W054.35.13.000:AMA-SBCW:42
+S033.10.30.000:W050.19.27.000:AMA-SBCW:10
+;
+;SETORES ESPAÇO BRASILEIRO
+;CURITIBA SBCW 2018
+S031.40.11.000:W050.41.42.000:SETORES-SBCW:S-01
+S028.54.12.000:W054.29.19.000:SETORES-SBCW:S-02
+S026.45.39.000:W049.31.14.000:SETORES-SBCW:S-03
+S028.53.04.000:W047.40.08.000:SETORES-SBCW:S-04
+S025.34.28.000:W047.34.24.000:SETORES-SBCW:S-05
+S025.39.45.000:W044.58.09.000:SETORES-SBCW:S-06
+S023.25.45.000:W040.44.51.000:SETORES-SBCW:S-07
+S022.05.27.000:W044.29.55.000:SETORES-SBCW:S-08
+S024.31.53.000:W047.39.23.000:SETORES-SBCW:S-09
+S023.37.13.000:W048.46.30.000:SETORES-SBCW:S-10
+S022.27.23.000:W049.44.34.000:SETORES-SBCW:S-11
+S021.32.50.000:W052.16.04.000:SETORES-SBCW:S-12
+S019.03.49.000:W053.32.48.000:SETORES-SBCW:S-13
+S019.50.49.000:W056.20.07.000:SETORES-SBCW:S-14
+S022.42.02.000:W054.01.55.000:SETORES-SBCW:S-15
+S024.22.23.000:W053.07.52.000:SETORES-SBCW:S-16
+S025.10.48.000:W050.32.57.000:SETORES-SBCW:S-17
+;BRASIL ESTADOS 
+S020.03.29.363:W055.31.25.756:ESTADOS-SBCW:MATO GROSSO DO SUL
+S021.25.39.712:W049.52.32.435:ESTADOS-SBCW:SÃO PAULO
+S022.27.45.911:W042.51.16.430:ESTADOS-SBCW:RIO DE JANEIRO
+S019.06.00.155:W040.22.42.203:ESTADOS-SBCW:ESPIRITO SANTO
+S018.09.48.589:W045.27.30.704:ESTADOS-SBCW:MINAS GERAIS
+S029.25.39.208:W053.19.40.059:ESTADOS-SBCW:RIO GRANDE DO SUL
+S027.01.51.223:W050.35.39.298:ESTADOS-SBCW:SANTA CATARINA
+S024.26.29.919:W052.10.52.308:ESTADOS-SBCW:PARANÁ
+;-PAISES 
+S029.52.58.814:W064.31.46.396:PAISES:ARGENTINA
+S016.13.10.418:W065.17.36.244:PAISES:BOLIVIA
+S014.31.50.975:W054.50.46.671:PAISES:BRASIL
+S035.03.30.472:W072.11.10.023:PAISES:CHILE
+S024.06.58.470:W058.53.44.455:PAISES:PARAGUAI
+S032.51.34.915:W056.28.28.396:PAISES:URUGUAI
+N008.35.20.829:W068.17.32.939:PAISES:VENEZUELA
+;FIR-FSS
+S024.34.20.190:W057.46.09.035:FIR-FSS:ASSUNCION SGAS
+N001.42.51.034:W034.49.49.889:FIR-FSS:ATLANTIC-WEST
+S021.50.39.222:W030.32.37.457:FIR-FSS:ATLANTIC-EAST
+S006.20.53.433:W064.54.16.113:FIR-FSS:AMAZONIC-WEST
+S008.42.08.100:W054.51.44.286:FIR-FSS:AMAZONIC-EAST
+S015.37.15.916:W050.17.27.106:FIR-FSS:BRASILIA-NORTH
+S020.31.27.140:W046.57.35.536:FIR-FSS:BRASILIA-SOUTH
+S025.17.30.755:W046.05.06.604:FIR-FSS:CURITIBA-NORTH
+S030.28.58.243:W052.24.22.751:FIR-FSS:CURITIBA-SOUTH
+S017.50.18.607:W066.02.08.395:FIR-FSS:LA PAZ SLLF
+S033.38.09.704:W056.55.33.842:FIR-FSS:MONTEVIDEO SUEO
+S036.08.17.764:W032.48.18.240:FIR-FSS:MONTEVIDEO-FSS SUEO
+S006.54.06.815:W040.56.58.104:FIR-FSS:RECIFE-NORTH
+S014.30.37.410:W041.44.02.565:FIR-FSS:RECIFE-SOUTH
+S028.52.30.578:W059.24.26.113:FIR-FSS:RESISTENCIA SARR
+;========================================SBCW FREETEXT===================================================================;
+;========================================SBWI FREETEXT===================================================================;
+[FREETEXT]
+S025.35.54.843:W054.29.16.966:FI Pátio:PASSAGEIROS
+S025.35.49.327:W054.29.23.617:FI Pátio:CARGAS
+S025.35.44.838:W054.29.27.844:FI Pátio:HANGARES
+S025.35.45.437:W054.29.23.569:FI Gate:1
+S025.35.46.414:W054.29.22.426:FI Gate:2
+S025.35.47.590:W054.29.20.908:FI Gate:2A
+S025.35.48.508:W054.29.19.851:FI Gate:3
+S025.35.49.367:W054.29.18.681:FI Gate:4
+S025.35.50.591:W054.29.17.229:FI Gate:5
+S025.35.51.791:W054.29.15.546:FI Gate:5A
+S025.35.52.451:W054.29.14.297:FI Gate:6
+S025.35.53.251:W054.29.13.397:FI Gate:6A
+S025.35.54.091:W054.29.12.000:FI Gate:7
+S025.35.55.491:W054.29.10.300:FI Gate:8
+;
+S025.35.42.080:W054.29.23.133:FI Taxi:A
+S025.35.48.043:W054.29.14.930:FI Taxi:B
+S025.35.52.937:W054.29.8.252:FI Taxi:C
+;========================================SBWI FREETEXT===================================================================;
+;========================================RADAR FIR CURITIBA SBCW 2018====================================================;
+[RADAR]
+;========================================RADAR FIR CURITIBA SBCW 2018====================================================;
+;========================================SIDSSTARS FIR CURITIBA SBCW 2018================================================;
+
+[SIDSSTARS]
+SID:SBFI:15:ALDOS:SBFI IGU ALDOS
+SID:SBFI:15:ALDOS1:SBFI FI386 ALDOS
+SID:SBFI:15:ALGE1A:SBFI FOZ ALGEL
+SID:SBFI:15:ALGEL1:SBFI FI386 FI004 ALGEL
+SID:SBFI:15:ANBUK:SBFI ANBUK
+SID:SBFI:15:ANBUKxLADER:SBFI ANBUK LADER GEBUN
+SID:SBFI:15:COST1A:SBFI FOZ COSTA
+SID:SBFI:15:COSTA1:SBFI FI386 FI004 COSTA
+SID:SBFI:15:DAGOL1:SBFI DAGOL UDENO
+SID:SBFI:15:DIDO1A:SBFI FI003 KAMIL DIDOM
+SID:SBFI:15:GEBUN1:SBFI FI386 LADER GEBUN
+SID:SBFI:15:KAMI1A:SBFI FI003 KAMIL
+SID:SBFI:15:KAMI1C:SBFI KAMIL
+SID:SBFI:15:LADER1:SBFI LADER GEBUN
+SID:SBFI:15:LOGA:SBFI LOGA
+SID:SBFI:15:LOGAxALDOS:SBFI LOGA ALDOS
+SID:SBFI:15:LOGAxUDENO:SBFI LOGA UDENO
+SID:SBFI:15:MATE1A:SBFI FI003 MATEL
+SID:SBFI:15:MATE1C:SBFI MATEL
+SID:SBFI:15:NELU1C:SBFI NELUP
+SID:SBFI:15:TOL1A:SBFI FI003 TOL
+SID:SBFI:15:UDENO1:SBFI FI386 FI004 UDENO
+SID:SBFI:33:ALDOS:SBFI IGU ALDOS
+SID:SBFI:33:ALDOS1:SBFI FI001 FI006 ALDOS
+SID:SBFI:33:ALGE1B:SBFI ALGEL
+SID:SBFI:33:ALGEL1:SBFI FI001 ALGEL
+SID:SBFI:33:ANBUK:SBFI ANBUK
+SID:SBFI:33:ANBUKxLADER:SBFI ANBUK LADER GEBUN
+SID:SBFI:33:COST1B:SBFI COSTA
+SID:SBFI:33:COSTA1:SBFI FI001 COSTA
+SID:SBFI:33:CRAN1A:SBFI FI001 FI002 CRANE
+SID:SBFI:33:DAGOL1:SBFI DAGOL UDENO
+SID:SBFI:33:GEBUN1:SBFI FI001 FI006 LADER GEBUN
+SID:SBFI:33:KAMI1A:SBFI FI001 FI002 KAMIL
+SID:SBFI:33:KAMI1D:SBFI FOZ KAMIL
+SID:SBFI:33:LADER1:SBFI LADER GEBUN
+SID:SBFI:33:LOGA:SBFI LOGA
+SID:SBFI:33:LOGAxALDOS:SBFI LOGA ALDOS
+SID:SBFI:33:LOGAxUDENO:SBFI LOGA UDENO
+SID:SBFI:33:MATE1A:SBFI FI001 FI002 MATEL
+SID:SBFI:33:MATE1D:SBFI MATEL
+SID:SBFI:33:NELU1D:SBFI FOZ NELUP
+SID:SBFI:33:UDENO1:SBFI FI001 FI006 UDENO
+STAR:SBFI:15:ANBA1A:ANBAVSTAR:SBFI:15:ANBA1AxDIDOM:DIDOM ANBAV
+STAR:SBFI:15:ANBA1AxILMIS:ILMIS ANBAV
+STAR:SBFI:15:ANBA1AxMATEL:MATEL ANBAV
+STAR:SBFI:15:ANBA1AxNELUP:NELUP ANBAV
+STAR:SBFI:15:ANBA1AxVUGLA:VUGLA ANBAV
+STAR:SBFI:33:DORG1A:KOVSO DORGU
+STAR:SBFI:33:DORG1AxDIDOM:DIDOM CRANE KOVSO DORGU
+STAR:SBFI:33:DORG1AxILMIS:ILMIS OBMIX KOVSO DORGU
+STAR:SBFI:33:DORG1AxMATEL:MATEL KOVSO DORGU
+STAR:SBFI:33:EDRE1A:EDREPSTAR:SBFI:33:EDRE1AxNELUP:NELUP EDREP
+STAR:SBFI:33:EDRE1AxVUGLA:VUGLA EDREP

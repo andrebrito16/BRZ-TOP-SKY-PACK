@@ -1,0 +1,30 @@
+Settings	SettingsfilePLUGINS	\..\..\..\Data\Settings\Local\SBRE\Controle Fortaleza\SBWZ_APP_Plugins.txt
+Settings	SettingsfilePROFILE	\..\..\..\Data\Settings\Local\SBRE\Controle Fortaleza\SBWZ_APP_Profiles.txt
+Settings	SettingsfileSCREEN	\..\..\..\Data\Settings\AC\AC_Screen.txt
+Settings	SettingsfileVOICE	\..\..\..\Data\Settings\GAVC - POF VATBRZ.txt
+Settings	Settingsfile	\..\..\..\Data\Settings\AC\AC_General.txt
+Settings	SettingsfileARR	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileCONFLICT	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileDEP	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSIL	\..\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\..\..\Data\Settings\AC\Sagitario_Symbology.txt
+Settings	SettingsfileTAGS	\..\..\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\..\..\Data\Settings\VCCS.txt
+Settings	sector	C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBRE\SBRE - FIR Recife\SBRE.sct
+Settings	AtisFolder	\..\..\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+Plugins	Plugin0	\..\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin1	\..\..\..\Data\Plugin\TopSky\TopSky.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\..\..\..\Data\Plugin\DiscordEuroscope.dll
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+RecentFiles	Recent1	C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\ASR\FIR Recife\Centro Recife\RE_1.asr
+Settings	SettingsfilePILOTING	\..\..\..\Data\Settings\AC\AC_General.txt
+RecentFiles	Recent2	\..\..\..\Data\ASR\FIR Recife\Controle Fortaleza\WZ_1.asr
+ASRFastKeys	1	\..\..\..\Data\ASR\FIR Recife\Controle Fortaleza\WZ_1.asr
+ASRFastKeys	2	\..\..\..\Data\ASR\FIR Recife\Controle Fortaleza\WZG_1.asr
+RecentFiles	Recent3	\..\..\..\Data\ASR\FIR Recife\Controle Fortaleza\WZG_1.asr
+Settings	alias	C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Settings\alias.txt

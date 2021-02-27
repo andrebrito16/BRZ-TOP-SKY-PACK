@@ -1,0 +1,6 @@
+PROFILE
+PROFILE:SBBS_CTR:500:6
+ATIS2:Brasília Center / Centro Brasília
+ATIS3:
+ATIS4:
+END

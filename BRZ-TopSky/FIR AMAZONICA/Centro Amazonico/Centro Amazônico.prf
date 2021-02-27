@@ -1,0 +1,39 @@
+Settings	sector	C:\Users\felip\Documents\EuroScope\BRZ-TopSky\Data\Sector Files\SBAZ\SBAZ - FIR Amazonica\SBAZ.sct
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\Sagitario_Symbology.txt
+Settings	SettingsfileVOICE	\..\..\Data\Settings\GAVC - POF VATBRZ.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\SBAZ\Centro Amazonico\SBAZ_CTR_Profiles.txt
+Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\SBAZ\Centro Amazonico\SBAZ_CTR_Plugins.txt
+Settings	Settingsfile	\..\..\Data\Settings\AC\AC_General.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\AC\AC_Screen.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\..\..\Data\Settings\Lists.txt
+LastSession	connecttype	0
+LastSession	callsign	FBR_OBS
+LastSession	realname	Felipe Brito
+LastSession	certificate	1347733
+LastSession	password	J8biU9Jk8uKg
+LastSession	facility	0
+LastSession	rating	4
+LastSession	server	USA-EAST
+LastSession	tovatsim	1
+LastSession	range	140
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
+RecentFiles	Recent1	\..\..\Data\ASR\FIR Amazonica\Centro Amazonico\AZ_1.asr
+Plugins	Plugin0	\..\..\Data\Plugin\ukcontrollerplugin.dll
+Plugins	Plugin1	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin2	\..\..\Data\Plugin\TopSky\TopSky.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin3	\..\..\Data\Plugin\vSMR_1.4.0\vSMR.dll
+Plugins	Plugin3Display0	SMR radar display
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+ASRFastKeys	1	\..\..\Data\ASR\FIR Amazonica\Centro Amazonico\AZ_1.asr
+RecentFiles	Recent2	\..\..\Data\ASR\FIR Amazonica\Centro Amazonico\AZG_3.asr

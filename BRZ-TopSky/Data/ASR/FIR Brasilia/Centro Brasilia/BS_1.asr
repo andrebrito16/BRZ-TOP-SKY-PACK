@@ -1,0 +1,268 @@
+DisplayTypeName:
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORTITLE:SBBS.sct
+Airports:SBAN:name
+Airports:SBAN:symbol
+Airports:SBAQ:name
+Airports:SBAQ:symbol
+Airports:SBAX:name
+Airports:SBAX:symbol
+Airports:SBBH:name
+Airports:SBBH:symbol
+Airports:SBBP:name
+Airports:SBBP:symbol
+Airports:SBBR:name
+Airports:SBBR:symbol
+Airports:SBBW:name
+Airports:SBBW:symbol
+Airports:SBCF:name
+Airports:SBCF:symbol
+Airports:SBCN:name
+Airports:SBCN:symbol
+Airports:SBFT:name
+Airports:SBFT:symbol
+Airports:SBGL:name
+Airports:SBGL:symbol
+Airports:SBGO:name
+Airports:SBGO:symbol
+Airports:SBGP:name
+Airports:SBGP:symbol
+Airports:SBGR:name
+Airports:SBGR:symbol
+Airports:SBIP:name
+Airports:SBIP:symbol
+Airports:SBIT:name
+Airports:SBIT:symbol
+Airports:SBJD:name
+Airports:SBJD:symbol
+Airports:SBJF:name
+Airports:SBJF:symbol
+Airports:SBJH:name
+Airports:SBJH:symbol
+Airports:SBKP:name
+Airports:SBKP:symbol
+Airports:SBLS:name
+Airports:SBLS:symbol
+Airports:SBMK:name
+Airports:SBMK:symbol
+Airports:SBPC:name
+Airports:SBPC:symbol
+Airports:SBPJ:name
+Airports:SBPJ:symbol
+Airports:SBPR:name
+Airports:SBPR:symbol
+Airports:SBRJ:name
+Airports:SBRJ:symbol
+Airports:SBRP:name
+Airports:SBRP:symbol
+Airports:SBSJ:name
+Airports:SBSJ:symbol
+Airports:SBSP:name
+Airports:SBSP:symbol
+Airports:SBSR:name
+Airports:SBSR:symbol
+Airports:SBUL:name
+Airports:SBUL:symbol
+Airports:SBUR:name
+Airports:SBUR:symbol
+Airports:SBVG:name
+Airports:SBVG:symbol
+Airports:SBYS:name
+Airports:SBYS:symbol
+Airports:SDJA:name
+Airports:SDJA:symbol
+Airports:SDMJ:name
+Airports:SDMJ:symbol
+Airports:SDMY:name
+Airports:SDMY:symbol
+Airports:SDOV:name
+Airports:SDOV:symbol
+Airports:SDPE:name
+Airports:SDPE:symbol
+Airports:SDSC:name
+Airports:SDSC:symbol
+Airports:SDVG:name
+Airports:SDVG:symbol
+Airports:SIMK:name
+Airports:SIMK:symbol
+Airports:SJCA:name
+Airports:SJCA:symbol
+Airports:SNAG:name
+Airports:SNAG:symbol
+Airports:SNAM:name
+Airports:SNAM:symbol
+Airports:SNAS:name
+Airports:SNAS:symbol
+Airports:SNBA:name
+Airports:SNBA:symbol
+Airports:SNDT:name
+Airports:SNDT:symbol
+Airports:SNDV:name
+Airports:SNDV:symbol
+Airports:SNFE:name
+Airports:SNFE:symbol
+Airports:SNGX:name
+Airports:SNGX:symbol
+Airports:SNOS:name
+Airports:SNOS:symbol
+Airports:SNPD:name
+Airports:SNPD:symbol
+Airports:SNPX:name
+Airports:SNPX:symbol
+Airports:SNPY:name
+Airports:SNPY:symbol
+Airports:SNVI:name
+Airports:SNVI:symbol
+Airports:SNYB:name
+Airports:SNYB:symbol
+Airports:SNZR:name
+Airports:SNZR:symbol
+Airports:SWFR:name
+Airports:SWFR:symbol
+Airports:SWFX:name
+Airports:SWFX:symbol
+Airports:SWGI:name
+Airports:SWGI:symbol
+Airports:SWIA:name
+Airports:SWIA:symbol
+Airports:SWIY:name
+Airports:SWIY:symbol
+Airports:SWJW:name
+Airports:SWJW:symbol
+Airports:SWKT:name
+Airports:SWKT:symbol
+Airports:SWLC:name
+Airports:SWLC:symbol
+Airports:SWNQ:name
+Airports:SWNQ:symbol
+Airports:SWNS:name
+Airports:SWNS:symbol
+Airports:SWPR:name
+Airports:SWPR:symbol
+Airports:SWPZ:name
+Airports:SWPZ:symbol
+Airports:SWRA:name
+Airports:SWRA:symbol
+Airports:SWST:name
+Airports:SWST:symbol
+Airports:SWUA:name
+Airports:SWUA:symbol
+Airports:SWWA:name
+Airports:SWWA:symbol
+Airports:SWWU:name
+Airports:SWWU:symbol
+Airports:SWXV:name
+Airports:SWXV:symbol
+ARTCC boundary:SBWH_APP:
+ARTCC boundary:SBWJ_APP:
+ARTCC boundary:SBWJ_F_APP:
+ARTCC boundary:SBWR_APP:
+ARTCC boundary:SBXD_APP:
+ARTCC boundary:SBXN_APP:
+ARTCC boundary:SBXP_APP:
+ARTCC boundary:SBXP_F_APP:
+ARTCC boundary:SBXQ_APP:
+ARTCC boundary:SBXU_APP:
+ARTCC boundary:SBXW_APP:
+ARTCC high boundary:SBBS01:
+ARTCC high boundary:SBBS02:
+ARTCC high boundary:SBBS03:
+ARTCC high boundary:SBBS04:
+ARTCC high boundary:SBBS05:
+ARTCC high boundary:SBBS06:
+ARTCC high boundary:SBBS07:
+ARTCC high boundary:SBBS08:
+ARTCC high boundary:SBBS09:
+ARTCC high boundary:SBBS10:
+ARTCC high boundary:SBBS11:
+ARTCC high boundary:SBBS12:
+ARTCC high boundary:SBBS13:
+ARTCC high boundary:SBBS14:
+ARTCC high boundary:SBBS15:
+ARTCC high boundary:SBBS16:
+ARTCC high boundary:SBBS_CTR:
+ARTCC low boundary:SBAN_TWR:
+ARTCC low boundary:SBAQ_TWR:
+ARTCC low boundary:SBAX_R_TWR:
+ARTCC low boundary:SBBH_TWR:
+ARTCC low boundary:SBBP_TWR:
+ARTCC low boundary:SBBR_TWR:
+ARTCC low boundary:SBBW_R_TWR:
+ARTCC low boundary:SBCF_TWR:
+ARTCC low boundary:SBCN_R_TWR:
+ARTCC low boundary:SBGO_TWR:
+ARTCC low boundary:SBGP_TWR:
+ARTCC low boundary:SBGR_TWR:
+ARTCC low boundary:SBIP_R_TWR:
+ARTCC low boundary:SBIT_R_TWR:
+ARTCC low boundary:SBJD_TWR:
+ARTCC low boundary:SBKP_TWR:
+ARTCC low boundary:SBMK_R_TWR:
+ARTCC low boundary:SBMT_TWR:
+ARTCC low boundary:SBPC_TWR:
+ARTCC low boundary:SBPJ_TWR:
+ARTCC low boundary:SBRP_TWR:
+ARTCC low boundary:SBSJ_TWR:
+ARTCC low boundary:SBSP_TWR:
+ARTCC low boundary:SBSR_R_TWR:
+ARTCC low boundary:SBUL_TWR:
+ARTCC low boundary:SBUR_TWR:
+ARTCC low boundary:SBVG_R_TWR:
+ARTCC low boundary:SBYS_TWR:
+Geo:ESTADOS_SBBS:
+Geo:GEO:
+Geo:SBCN_GND:
+VORs:ADA:symbol
+VORs:APO:symbol
+VORs:ARX:symbol
+VORs:BAG:symbol
+VORs:BCO:symbol
+VORs:BGC:symbol
+VORs:BHZ:symbol
+VORs:BRR:symbol
+VORs:BSI:symbol
+VORs:CBO:symbol
+VORs:CGO:symbol
+VORs:CNF:symbol
+VORs:CPN:symbol
+VORs:CXI:symbol
+VORs:FSA:symbol
+VORs:GNV:symbol
+VORs:GOI:symbol
+VORs:GRD:symbol
+VORs:LAP:symbol
+VORs:LON:symbol
+VORs:LUZ:symbol
+VORs:MCA:symbol
+VORs:MIA:symbol
+VORs:PAI:symbol
+VORs:PCX:symbol
+VORs:PIR:symbol
+VORs:PMS:symbol
+VORs:PNC:symbol
+VORs:PRR:symbol
+VORs:RDE:symbol
+VORs:RPR:symbol
+VORs:SCB:symbol
+VORs:SCP:symbol
+VORs:SCR:symbol
+VORs:STN:symbol
+VORs:TAU:symbol
+VORs:ULD:symbol
+VORs:URP:symbol
+VORs:VJK:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-22.957355:-59.492859:-9.394320:-33.892906

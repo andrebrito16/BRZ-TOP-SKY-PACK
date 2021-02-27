@@ -1,0 +1,24 @@
+Settings	sector	\..\..\Data\Sector Files\SBBS\SBBS - FIR Brasilia\SBBS.sct
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\Sagitario_Symbology.txt
+Settings	SettingsfileVOICE	\..\..\Data\Settings\GAVC - POF VATBRZ.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\SBBS\Centro Brasilia\SBBS_CTR_Profiles.txt
+Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\SBBS\Centro Brasilia\SBBS_CTR_Plugins.txt
+Settings	Settingsfile	\..\..\Data\Settings\AC\AC_General.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\AC\AC_Screen.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\..\..\Data\Settings\Lists.txt
+RecentFiles	Recent1	\..\..\Data\ASR\FIR Brasilia\Centro Brasilia\BS_1.asr
+RecentFiles	Recent2	\..\..\Data\ASR\FIR Curitiba\Controle Sao Paulo\XP_1.asr
+Plugins	Plugin0	\..\..\Data\Plugin\TopSky\TopSky.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin1	\..\..\Data\Plugin\vSMR_1.4.0\vSMR.dll
+Plugins	Plugin1Display0	SMR radar display
+Plugins	Plugin2	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin3	\..\..\Data\Plugin\DiscordEuroscope.dll
