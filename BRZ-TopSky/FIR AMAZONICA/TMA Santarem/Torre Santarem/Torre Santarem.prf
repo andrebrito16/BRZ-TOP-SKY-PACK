@@ -15,10 +15,6 @@ Settings	SettingsfileCONFLICT	\..\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileVCCS	\..\..\..\Data\Settings\VCCS.txt
 Settings	SettingsfilePILOTING	\..\..\..\Data\Settings\Lists.txt
 LastSession	connecttype	0
-LastSession	callsign	FBR_OBS
-LastSession	realname	Felipe Brito
-LastSession	certificate	1347733
-LastSession	password	J8biU9Jk8uKg
 LastSession	facility	0
 LastSession	rating	4
 LastSession	server	USA-EAST
