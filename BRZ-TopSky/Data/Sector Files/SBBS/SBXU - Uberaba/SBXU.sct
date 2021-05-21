@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBUR#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXU APP by MATRIX AIRAC2102
+SBXU APP by MATRIX AIRAC2105
 SBXU_APP
 SBUR
 S019.45.52.001
@@ -2554,7 +2554,7 @@ ETAXI S020.22.10.200 W046.37.55.200
 EVNOL S021.08.18.600 W047.59.45.600
 EVNUG S021.09.20.999 W046.50.51.000
 EVPES S021.15.00.011 W047.57.37.199
-FALSE S021.14.54.391 W047.29.14.539
+FALSE S021.14.54.600 W047.29.14.399
 FF04 S018.57.13.489 W048.15.26.618
 FF16 S019.27.24.700 W047.04.27.908
 FF17 S019.42.11.812 W048.01.21.569
@@ -2723,11 +2723,6 @@ Z73 PABAV PABAV IVSUT IVSUT
 Z82 SAKRU SAKRU XOPAX XOPAX
 Z82 XOPAX XOPAX TENEM TENEM
 Z82 TENEM TENEM KOMTO KOMTO
-Z84 NITBU NITBU ISRIK ISRIK
-Z84 ISRIK ISRIK ARX ARX
-Z84 ARX ARX GERBO GERBO
-Z84 GERBO GERBO EGBAL EGBAL
-Z84 EGBAL EGBAL EVNUG EVNUG
 
 
 [HIGH AIRWAY]
@@ -2753,7 +2748,7 @@ UM654 EDPEL EDPEL KOMLU KOMLU
 UM654 KOMLU KOMLU UMKEX UMKEX
 UM654 UMKEX UMKEX ISRIK ISRIK
 UM654 ISRIK ISRIK MOMKO MOMKO
-UN741 MUMDI MUMDI MUKLO MUKLO
+UN741 ETAXI ETAXI MUKLO MUKLO
 UN741 MUKLO MUKLO KOTRA KOTRA
 UZ2 NITBU NITBU ISRIK ISRIK
 UZ2 ISRIK ISRIK ARX ARX

@@ -30,7 +30,7 @@ m_ShowTitleMetar:1
 m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
-m_ScreenNumber:2
+m_ScreenNumber:0
 m_ScreenPosition:0
 m_ScreenMaximized:0
 m_ShowTitleSelectedAc:1
@@ -49,7 +49,7 @@ m_PlaneRangeRingsDistance2:2.5
 m_PlaneRangeRingsDistance3:5.0
 m_PlaneRangeRingsDistance4:0.0
 m_ShowTooltips:0
-m_OnTheGroundAltitude:5000
+m_OnTheGroundAltitude:2000
 m_OnTheGroundSpeed:50
 m_ShowCdtOnCflCheck:0
 m_ShowTsVccsMiniControl:0

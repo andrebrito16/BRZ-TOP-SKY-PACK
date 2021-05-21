@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBRF#####SBJP#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBWF APP by MATRIX AIRAC2102
+SBWF APP by MATRIX AIRAC2105
 SBWF_APP
 SBRF
 S008.07.35.000
@@ -3386,7 +3386,6 @@ IMC 109.700 S009.30.47.401 W035.46.45.001
 IRF 110.300 S008.08.29.400 W034.55.07.799
 JPS 114.000 S007.08.47.389 W034.56.52.361
 JPS-JOAO 320.000 S007.08.25.800 W034.57.09.000
-OLD 380.000 S008.02.18.600 W034.57.07.200
 VSA 113.700 S008.06.24.091 W035.17.14.111
 YGA 112.900 S007.50.42.878 W034.53.35.160
 
@@ -3894,12 +3893,12 @@ UB623 REC REC ESGUM ESGUM
 UM791 OPNED OPNED KOGDA KOGDA
 UM791 KOGDA KOGDA REC REC
 UN857 KIBEG KIBEG AMBET AMBET
+UP527 EVPAB EVPAB ILNOT ILNOT
+UP527 ILNOT ILNOT ANBAK ANBAK
+UP527 ANBAK ANBAK REC REC
 UZ10 ILNOT ILNOT NEUMA NEUMA
 UZ10 NEUMA NEUMA KOGDA KOGDA
 UZ10 KOGDA KOGDA RUMBA RUMBA
-UZ11 EVPAB EVPAB ILNOT ILNOT
-UZ11 ILNOT ILNOT ANBAK ANBAK
-UZ11 ANBAK ANBAK REC REC
 UZ14 IMBOS IMBOS EVPAB EVPAB
 UZ14 EVPAB EVPAB VACAR VACAR
 UZ14 VACAR VACAR OPNED OPNED

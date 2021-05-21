@@ -12,7 +12,7 @@
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;DEC/2020 ICAO Airports and Rwy Update by Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -23,7 +23,7 @@
 ;#####SBPJ#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXD APP by MATRIX AIRAC2102
+SBXD APP by MATRIX AIRAC2105
 SBXD_APP
 SBPJ
 S010.17.16.800
@@ -2537,8 +2537,8 @@ Z84 EGDOD EGDOD LIBEC LIBEC
 UL462 TOBKO TOBKO MUMER MUMER
 UL462 MUMER MUMER ILRIP ILRIP
 UL576 ISOBI ISOBI OPNUP OPNUP
-UL576 OPNUP OPNUP DENOB DENOB
-UL576 DENOB DENOB PMS PMS
+UL576 OPNUP OPNUP SADOR SADOR
+UL576 SADOR SADOR PMS PMS
 UL576 PMS PMS LODEK LODEK
 UL576 LODEK LODEK ISURO ISURO
 UM799 ILRIP ILRIP ISOBI ISOBI

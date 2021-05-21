@@ -1,6 +1,7 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky-Controller-Pack\BRZ-TopSky\FIR CURITIBA\TMA Sao Paulo NEO\Controle São Paulo\..\..\..\Data\Sector Files\SBCW\SBXP - Sao Paulo\SBXP.sct
 SECTORTITLE:SBXP.sct
 Airports:SBBP:name
 Airports:SBBP:symbol
@@ -509,9 +510,9 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:BRZ-TOP SKY
-WINDOWAREA:-23.966527:-47.317821:-23.039129:-45.484471
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1696
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:789
+WINDOWAREA:-24.732230:-48.984427:-21.902036:-43.389484
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1684
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:957
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0

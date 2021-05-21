@@ -18,7 +18,7 @@
 ;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
 ;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES=========================================================================;
 ;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
 ;========================================DATA STRUCTURE==================================================================;
@@ -367,7 +367,7 @@ Vitoria Approach:Vitoria Approach:119.850:XR::SBXR:APP:::5640:5677:
 Vitoria ATIS:Vitoria ATIS:127.575:AVT::SBVT:ATIS:::::
 Vitoria Ground:Vitoria Ground:121.950:GVT::SBVT:GND:::5640:5677:
 Vitoria Tower:Vitoria Tower:118.100:TVT::SBVT:TWR:::5640:5677:
-Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TQV:R:SBQV:TWR:::5701:5777:
+Vitoria da Conquista Radio:Vitoria da Conquista Radio:130.300:TVC:R:SBVC:TWR:::5701:5777:
 ;INTERNACIONAIS
 Assuncion Center:Assuncion Center:128.400:AC::SGFA:CTR:::::
 Bogota Center:Bogota Center:128.600:ED::SKED:CTR:::::
@@ -1703,10 +1703,10 @@ SECTOR:SBPL_R_TWR:0:14500
 OWNER:TPL
 BORDER:SBPL_R_TWR
 
-;SBQV R-TWR 2018 (VITORIA DA CONQUISTA)
-SECTORLINE:SBQV_R_TWR
-DISPLAY:SBQV_R_TWR:SBQV_R_TWR:SBRE
-DISPLAY:SBRE:SBRE:SBQV_R_TWR
+;SBVC R-TWR 2018 (VITORIA DA CONQUISTA)
+SECTORLINE:SBVC_R_TWR
+DISPLAY:SBVC_R_TWR:SBVC_R_TWR:SBRE
+DISPLAY:SBRE:SBRE:SBVC_R_TWR
 COORD:S014.25.13.691:W040.56.33.423
 COORD:S014.25.13.263:W040.47.01.585
 COORD:S014.28.26.013:W040.38.04.091
@@ -1726,9 +1726,9 @@ COORD:S014.42.35.856:W041.17.32.885
 COORD:S014.34.27.153:W041.12.48.279
 COORD:S014.28.26.443:W041.05.30.840
 COORD:S014.25.13.691:W040.56.33.423
-SECTOR:SBQV_R_TWR:0:14500
-OWNER:TQV
-BORDER:SBQV_R_TWR
+SECTOR:SBVC_R_TWR:0:14500
+OWNER:TVC
+BORDER:SBVC_R_TWR
 ;========================================AIRSPACE LOW REMOTAS FIR RECIFE SBRE 2020=======================================;
 ;========================================FREETEXT FIR RECIFE SBRE 2018===================================================;
 [FREETEXT]
@@ -1892,6 +1892,7 @@ S020.22.37.317:W040.21.08.259:ATCMAC-XR:2500'
 ;========================================RADAR FIR RECIFE SBRE===========================================================;
 [RADAR]
 ;========================================RADAR FIR RECIFE SBRE===========================================================;
+
 
 
 [SIDSSTARS]

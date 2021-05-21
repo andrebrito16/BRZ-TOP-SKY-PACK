@@ -22,7 +22,7 @@ Plugins	Plugin1	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\..\..\Data\Plugin\DiscordEuroscope.dll
 Plugins	Plugin3	\..\..\Data\Plugin\vSMR_1.4.0\vSMR.dll
 Plugins	Plugin3Display0	SMR radar display
-Plugins	Plugin4	\..\..\Data\Plugin\UKControllerPlugin2.5.2.dll
+Plugins	Plugin4	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin4Display0	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480

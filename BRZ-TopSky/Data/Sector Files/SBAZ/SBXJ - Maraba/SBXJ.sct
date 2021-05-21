@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBRB#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXJ APP by MATRIX AIRAC2102
+SBXJ APP by MATRIX AIRAC2105
 SBXJ_APP
 SBMA
 S005.22.04.000
@@ -4191,9 +4191,9 @@ UL540 ATOGU ATOGU NUXOD NUXOD
 UL540 NUXOD NUXOD BITIG BITIG
 UL540 BITIG BITIG ORIRO ORIRO
 UL540 ORIRO ORIRO ARVIB ARVIB
-UZ11 LODAM LODAM MRB MRB
-UZ11 MRB MRB BITIG BITIG
-UZ11 BITIG BITIG KOVTI KOVTI
+UP527 LODAM LODAM MRB MRB
+UP527 MRB MRB BITIG BITIG
+UP527 BITIG BITIG KOVTI KOVTI
 UZ26 ESNER ESNER KOVTI KOVTI
 UZ26 KOVTI KOVTI ORIRO ORIRO
 UZ26 ORIRO ORIRO LEMIS LEMIS

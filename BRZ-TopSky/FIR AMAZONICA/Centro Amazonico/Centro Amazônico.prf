@@ -27,7 +27,7 @@ LastSession	range	140
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 RecentFiles	Recent1	\..\..\Data\ASR\FIR Amazonica\Centro Amazonico\AZ_1.asr
-Plugins	Plugin0	\..\..\Data\Plugin\ukcontrollerplugin.dll
+Plugins	Plugin0	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin2	\..\..\Data\Plugin\TopSky\TopSky.dll
 Plugins	Plugin2Display0	Standard ES radar screen

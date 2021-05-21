@@ -1,6 +1,7 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky-Controller-Pack\BRZ-TopSky\FIR CURITIBA\TMA Sao Paulo NEO\Controle São Paulo\..\..\..\Data\Sector Files\SBCW\SBXP - Sao Paulo\SBXP.sct
 SECTORTITLE:SBXP.sct
 Airports:SBBP:name
 Airports:SBBP:symbol
@@ -1695,7 +1696,29 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Matias (built in)
-WINDOWAREA:-23.444041:-46.499257:-23.418212:-46.448197
+WINDOWAREA:-23.448101:-46.510259:-23.407743:-46.430477
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1685
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:956
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1629
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:677
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1723
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:703
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:vSMR:ActiveProfile:Default
 PLUGIN:vSMR:Afterglow:1
 PLUGIN:vSMR:Airport:SBGR

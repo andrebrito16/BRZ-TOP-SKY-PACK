@@ -18,7 +18,7 @@
 ;Updated FEB/2020 by Otávio França (1086430);
 ;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
 ;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES / ATUALIZAÇÕES==========================================================;
 ;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br;
@@ -262,6 +262,7 @@ Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
 Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
 Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
 Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
 Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
 Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
 Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
@@ -302,7 +303,7 @@ Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:A
 Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
 Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
 Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
-Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.950:GSP::SBSP:GND:::3701:3777:
 Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
 Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
 Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
@@ -4548,8 +4549,6 @@ SID:SBES:07:MCA1C:SBES MCA
 SID:SBES:07:MCA2A:SBES MCA
 SID:SBES:07:MIA1C:SBES ES012 MIA
 SID:SBES:07:MIA2A:SBES MIA
-SID:SBES:07:VAMI1C:SBES ES012 MIA VAMIX
-SID:SBES:07:VAMI2A:SBES VAMIX
 SID:SBES:25:BITA1D:SBES BITAK
 SID:SBES:25:BITA2B:SBES BITAK
 SID:SBES:25:KOVG1D:SBES KOVGO
@@ -4558,18 +4557,14 @@ SID:SBES:25:MCA1D:SBES ES012 MCA
 SID:SBES:25:MCA2B:SBES MCA
 SID:SBES:25:MIA1D:SBES MIA
 SID:SBES:25:MIA2B:SBES MIA
-SID:SBES:25:VAMI1D:SBES VAMIX
-SID:SBES:25:VAMI2B:SBES VAMIX
 SID:SBCB:10:ERVA1B:SBCB ERVAT
 SID:SBCB:10:ERVA1BxBITAK:SBCB ERVAT BITAK
 SID:SBCB:10:ERVA1BxKOVGO:SBCB ERVAT KOVGO
 SID:SBCB:10:ERVA1BxMIA:SBCB ERVAT MIA
-SID:SBCB:10:ERVA1BxVAMIX:SBCB ERVAT VAMIX
 SID:SBCB:10:MCA2B:SBCB OSESO MCA
-SID:SBCB:10:OMNI:SBCBSID:SBCB:28:ERVA1A:SBCB ERVAT
-SID:SBCB:28:ERVA1AxBITAK:SBCB ERVAT BITAK
-SID:SBCB:28:ERVA1AxKOVGO:SBCB ERVAT KOVGO
-SID:SBCB:28:ERVA1AxMCA:SBCB ERVAT OSESO MCA
-SID:SBCB:28:ERVA1AxMIA:SBCB ERVAT MIA
-SID:SBCB:28:ERVA1AxVAMIX:SBCB ERVAT VAMIX
+SID:SBCB:10:OMNI:SBCBSID:SBCB:28:ERVA2A:SBCB ERVAT
+SID:SBCB:28:ERVA2AxBITAK:SBCB ERVAT BITAK
+SID:SBCB:28:ERVA2AxKOVGO:SBCB ERVAT KOVGO
+SID:SBCB:28:ERVA2AxMCA:SBCB ERVAT OSESO MCA
+SID:SBCB:28:ERVA2AxMIA:SBCB ERVAT MIA
 SID:SBCB:28:OMNI:SBCB

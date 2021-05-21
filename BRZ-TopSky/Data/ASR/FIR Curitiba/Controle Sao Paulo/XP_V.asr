@@ -1,0 +1,119 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\felip\Documents\EuroScope\BRZ-TopSky-Controller-Pack\BRZ-TopSky\FIR CURITIBA\TMA Sao Paulo NEO\Controle São Paulo\..\..\..\Data\Sector Files\SBCW\SBXP - Sao Paulo\SBXP.sct
+SECTORTITLE:SBXP.sct
+Airports:SBBP:name
+Airports:SBBP:symbol
+Airports:SBGR:name
+Airports:SBGR:symbol
+Airports:SBGW:name
+Airports:SBGW:symbol
+Airports:SBJD:name
+Airports:SBJD:symbol
+Airports:SBJH:name
+Airports:SBJH:symbol
+Airports:SBKP:name
+Airports:SBKP:symbol
+Airports:SBMT:name
+Airports:SBMT:symbol
+Airports:SBSJ:name
+Airports:SBSJ:symbol
+Airports:SBSP:name
+Airports:SBSP:symbol
+Airports:SBST:name
+Airports:SBST:symbol
+Airports:SBTA:name
+Airports:SBTA:symbol
+Airports:SDAG:name
+Airports:SDAG:symbol
+Airports:SDAI:name
+Airports:SDAI:symbol
+Airports:SDAM:name
+Airports:SDAM:symbol
+Airports:SDCO:name
+Airports:SDCO:symbol
+Airports:SDIM:name
+Airports:SDIM:symbol
+Airports:SDMJ:name
+Airports:SDMJ:symbol
+Airports:SDOI:name
+Airports:SDOI:symbol
+Airports:SDPW:name
+Airports:SDPW:symbol
+Airports:SDRS:name
+Airports:SDRS:symbol
+Airports:SDTB:name
+Airports:SDTB:symbol
+Airports:SDTK:name
+Airports:SDTK:symbol
+Airports:SDUB:name
+Airports:SDUB:symbol
+ARTCC boundary:ATCMAC:
+ARTCC boundary:REA_XP:
+ARTCC boundary:REH_XP:
+ARTCC boundary:SBWJ_APP:
+ARTCC boundary:SBXP_APP:
+VORs:BCO:frequency
+VORs:BCO:name
+VORs:BCO:symbol
+VORs:BGC:frequency
+VORs:BGC:name
+VORs:BGC:symbol
+VORs:CGO:frequency
+VORs:CGO:name
+VORs:CGO:symbol
+VORs:CPN:frequency
+VORs:CPN:name
+VORs:CPN:symbol
+VORs:RDE:frequency
+VORs:RDE:name
+VORs:RDE:symbol
+VORs:SCB:frequency
+VORs:SCB:name
+VORs:SCB:symbol
+VORs:SCP:frequency
+VORs:SCP:name
+VORs:SCP:symbol
+VORs:STN:frequency
+VORs:STN:name
+VORs:STN:symbol
+VORs:TAU:frequency
+VORs:TAU:name
+VORs:TAU:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-24.467540:-48.368105:-22.240326:-43.965179
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1684
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:957
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

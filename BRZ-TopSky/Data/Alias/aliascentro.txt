@@ -18,6 +18,8 @@
 .F .FIND
 
 ----PLANO DE VOO----------
+.APVP .msg $aircraft (ESTA É UMA APROVAÇÃO "DATA LINK" AUTOMÁTICA. Não reponda a essa mensagem.) **D-CL START** Autorizado PV IFR para $arr $cruise, conforme rota, saída $sid Pista $deprwy($dep), Transponder $squawk. Chame após decolagem. **D-CL END**
+.APVPE .msg $aircraft (THIS IS AN AUTOMATED "DATA LINK" CLEARENCE. Do not answer this message.) **D-CL START** Cleared IFR to $arr at $cruise as filed, Runway $deprwy($dep), departure $sid , squawk $squawk. Call after departure **D-CL END**
 .PC PRONTO PARA CÓPIA?
 .RC READY TO COPY?
 .PVR PLANO DE VOO RECEBIDO, AGUARDE!

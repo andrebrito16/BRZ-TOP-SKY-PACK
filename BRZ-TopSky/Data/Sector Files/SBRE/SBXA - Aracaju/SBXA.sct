@@ -12,7 +12,7 @@
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;DEC/2020 ICAO Airports and Rwy Update by Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -23,7 +23,7 @@
 ;#####SBAR#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXA APP by MATRIX AIRAC2102
+SBXA APP by MATRIX AIRAC2105
 SBXA_APP
 SBAR
 S010.59.07.000
@@ -2349,7 +2349,6 @@ MO014 S009.38.35.660 W035.35.52.091
 MO016 S009.27.27.691 W035.33.45.270
 MOSMU S011.11.11.299 W038.21.53.708
 MOXOD S009.31.00.599 W037.08.51.601
-NICAR S011.49.00.001 W037.36.36.601
 NIGVI S011.02.44.401 W036.42.46.199
 OPRAP S010.33.09.000 W037.53.57.599
 ORAGO S010.18.52.801 W036.33.47.401

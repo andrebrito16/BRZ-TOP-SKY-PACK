@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBRB#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXB APP by MATRIX AIRAC2102
+SBXB APP by MATRIX AIRAC2105
 SBXB_APP
 SBRB
 S009.52.08.000
@@ -4260,7 +4260,7 @@ BIVEL S009.54.42.660 W067.57.38.560
 BUVNO S011.02.26.002 W068.47.01.000
 CITRA S010.41.22.801 W067.42.44.399
 D056J S009.45.44.161 W067.46.03.371
-DADED S010.08.58.200 W066.53.58.200
+DADED S010.08.58.200 W066.53.34.800
 DER06 S009.51.49.450 W067.53.08.380
 DER24 S009.52.27.592 W067.54.07.891
 DUBVO S009.47.08.498 W067.45.47.509
@@ -4401,10 +4401,10 @@ UL309 GRAFO GRAFO RCO RCO
 UL309 RCO RCO ASKAB ASKAB
 UL417 ISARA ISARA RCO RCO
 UL417 RCO RCO ESBUK ESBUK
-UL542 ERODO ERODO RCO RCO
 UM775 RCO RCO FLOTE FLOTE
 UN420 VILUX VILUX RCO RCO
 UN420 RCO RCO EGBAK EGBAK
 UN525 RCO RCO CITRA CITRA
+UP525 ERODO ERODO RCO RCO
 UZ74 BIGOD BIGOD RCO RCO
 UZ76 DADED DADED RCO RCO

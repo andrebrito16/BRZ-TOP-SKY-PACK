@@ -11,7 +11,7 @@
 ;FEB/2020 AIRPORTS REGIONS Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -21,7 +21,7 @@
 ;#####SBAN#####SBGO#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXN APP by MATRIX AIRAC2102
+SBXN APP by MATRIX AIRAC2105
 SBXN_APP
 SBGO
 S016.37.47.571 
@@ -4112,7 +4112,6 @@ BR056 S015.46.22.001 W047.59.08.902
 BR077 S015.56.03.710 W048.11.12.480
 BR079 S015.51.23.670 W047.49.10.290
 BR081 S015.51.30.190 W047.50.50.611
-BSI05 S015.40.24.668 W048.02.02.119
 BUVAV S015.52.09.959 W048.08.37.129
 CAL02 S017.43.13.519 W048.35.51.569
 CF06L S016.20.38.828 W049.03.43.520
@@ -4566,7 +4565,6 @@ G678 MILIX MILIX EDNAR EDNAR
 G678 EDNAR EDNAR BSI BSI
 W29 GNV GNV POVOX POVOX
 W29 POVOX POVOX UBSUS UBSUS
-Z10 SELMU SELMU GNV GNV
 Z15 NIMVA NIMVA GAVUV GAVUV
 Z15 GAVUV GAVUV GNV GNV
 Z15 GNV GNV LODUV LODUV
@@ -4577,6 +4575,7 @@ Z41 OPRAX OPRAX BSI BSI
 Z48 GNV GNV SATNA SATNA
 Z48 SATNA SATNA ISMEL ISMEL
 Z64 KEVOP KEVOP BSI BSI
+Z65 SELMU SELMU GNV GNV
 Z7 KEVOP KEVOP ILSEL ILSEL
 Z7 ILSEL ILSEL BSI BSI
 Z82 GNV GNV KETUL KETUL

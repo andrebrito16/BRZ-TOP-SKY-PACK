@@ -18,9 +18,9 @@
 ;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
 ;Updated MAY/2020 SECTOR OWNER by Otávio França (1086430);
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES=========================================================================;
-;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
+;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; paulo.silvestre@vatsim.com.br;
 ;========================================DATA STRUCTURE==================================================================;
 ; 1- POF - NAME|RNAME|FREQ|SECID|ARTSTAG|CALLPREFIX|CALLSUFFIX|LINE1|LINE2|LSQUAWK|HSQUAWK|<optional VISIBILITY>
 ; 2- AIRSPACE; 5- FREE TEXT; 6-SIDSSTARS; 
@@ -261,6 +261,7 @@ Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
 Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
 Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
 Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
 Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
 Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
 Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
@@ -301,7 +302,7 @@ Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:A
 Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
 Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
 Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
-Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.950:GSP::SBSP:GND:::3701:3777:
 Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
 Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
 Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
@@ -4499,21 +4500,29 @@ S018.47.55.707:W047.29.45.098:MILITARY-FIR:ZEUS ZEU
 ;========================================SBWB FREETEXT===================================================================;
 [FREETEXT]
 ;SBBE BELEM (PATIO)
-S001.22.53.852:W048.28.51.075:SBBE:P1
-S001.23.04.307:W048.29.02.861:SBBE:P2
-S001.23.13.600:W048.28.49.000:SBBE:P3
-S001.23.19.855:W048.28.42.579:SBBE:P4
-S001.23.02.661:W048.28.30.307:SBBE:P5
-S001.23.02.014:W048.29.19.891:SBBE:
+S001.22.55.852:W048.28.52.075:SBBE:PATIO 1
+S001.23.05.307:W048.29.02.061:SBBE:PATIO 2
+S001.23.13.600:W048.28.49.000:SBBE:PATIO 3
+S001.23.19.855:W048.28.42.579:SBBE:PATIO 4
+S001.23.02.861:W048.28.29.307:SBBE:PATIO 5
+S001.23.04.000:W048.29.14.972:SBBE:PATIO 6
 S001.23.23.700:W048.28.46.500:SBBE:TERMINAL
+S001.23.16.600:W048.28.47.800:SBBE:CARGAS
+S001.22.46.000:W048.28.46.754:SBBE:RFFS
+S001.22.58.307:W048.29.02.061:SBBE:HANGARES
+S001.23.10.861:W048.28.27.307:SBBE:HANGARES
 ;SBBE TAXI
 S001.23.11.231:W048.28.39.494:SBBE:A
-S001.23.25.021:W048.28.40.353:SBBE:B
-S001.23.12.337:W048.28.58.708:SBBE:C
+S001.23.26.721:W048.28.40.253:SBBE:B
+S001.23.11.437:W048.28.57.808:SBBE:C
 S001.23.16.705:W048.29.02.530:SBBE:D
 S001.23.12.000:W048.29.05.972:SBBE:E
-S001.22.59.030:W048.28.52.494:SBBE:G
+S001.23.05.000:W048.29.07.372:SBBE:F
+S001.22.59.800:W048.28.54.494:SBBE:G
 S001.23.03.623:W048.28.33.870:SBBE:H
+S001.22.58.700:W048.28.51.554:SBBE:J
+S001.22.55.700:W048.28.47.754:SBBE:K
+S001.23.10.861:W048.28.32.907:SBBE:I
 ;SBBE GATES
 S001.23.27.100:W048.28.44.740:SBBE:1
 S001.23.25.400:W048.28.44.800:SBBE:2
@@ -4537,6 +4546,7 @@ S001.40.12.542:W048.14.47.015:ATCMAC:1700'
 ;========================================RADAR FIR AMAZÔNICA SBAZ 2018===================================================;
 [RADAR]
 ;========================================RADAR FIR AMAZÔNICA SBAZ 2018===================================================;
+
 
 
 [SIDSSTARS]

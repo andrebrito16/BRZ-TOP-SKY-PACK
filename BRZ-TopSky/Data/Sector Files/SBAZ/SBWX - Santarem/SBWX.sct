@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBSN#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBWX APP by MATRIX AIRAC2102
+SBWX APP by MATRIX AIRAC2105
 SBWX_APP
 SBSN
 S002.25.17.400
@@ -5018,14 +5018,14 @@ UL576 KOKDI KOKDI MASVU MASVU
 UL776 NUVUG NUVUG OPVID OPVID
 UL776 OPVID OPVID KOGRI KOGRI
 UL776 KOGRI KOGRI VUROX VUROX
+UP527 UTMID UTMID NILNU NILNU
+UP527 NILNU NILNU ASIBI ASIBI
+UP527 ASIBI ASIBI SIPIS SIPIS
+UP527 SIPIS SIPIS VUROX VUROX
 UP535 AKPAN AKPAN BUVEB BUVEB
 UP535 BUVEB BUVEB DOGBA DOGBA
 UP535 DOGBA DOGBA ASIBI ASIBI
 UP535 ASIBI ASIBI ANRUS ANRUS
-UZ11 UTMID UTMID NILNU NILNU
-UZ11 NILNU NILNU ASIBI ASIBI
-UZ11 ASIBI ASIBI SIPIS SIPIS
-UZ11 SIPIS SIPIS VUROX VUROX
 UZ12 ISOMI ISOMI OBDEP OBDEP
 UZ12 OBDEP OBDEP DOGBA DOGBA
 UZ12 DOGBA DOGBA DABVO DABVO

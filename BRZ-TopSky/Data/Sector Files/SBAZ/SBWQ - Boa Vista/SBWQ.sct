@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBBV#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBWQ APP by MATRIX AIRAC2102
+SBWQ APP by MATRIX AIRAC2105
 SBWQ_APP
 SBBV
 N002.51.07.800 
@@ -4998,6 +4998,7 @@ DEXIV N002.52.10.650 W060.53.09.668
 DIVRA N003.39.38.401 W060.59.17.999
 DOBDA N004.32.18.589 W060.07.49.868
 EDNOS S000.23.30.599 W059.04.33.600
+EDPET N000.05.57.599 W058.19.29.399
 EDPID S000.00.24.001 W058.29.13.200
 ELAGU N004.55.07.230 W059.18.28.192
 ELNOV N000.47.59.399 W059.20.31.200
@@ -5088,6 +5089,8 @@ UB681 GEMOL GEMOL PICOM PICOM
 UB681 PICOM PICOM BVI BVI
 UL304 POVLA POVLA POXUM POXUM
 UL304 POXUM POXUM ARVUM ARVUM
+UL306 EDNOS EDNOS EDPID EDPID
+UL306 EDPID EDPID EDPET EDPET
 UL322 ISOSU ISOSU ELNOV ELNOV
 UL322 ELNOV ELNOV BUVIP BUVIP
 UL322 BUVIP BUVIP ETATA ETATA

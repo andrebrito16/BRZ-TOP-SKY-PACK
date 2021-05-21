@@ -11,7 +11,7 @@
 ;DEZ/2018 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Sector File Update by Otávio França (1086430),
 ;FEB/2020 Ground File Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES/ATUALIZAÇÕES===============================================================;
 ;Suggestions and updates contact Vatsim Brasil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br,
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br,
@@ -22,7 +22,7 @@
 ;#####SBUL#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXW APP by MATRIX AIRAC2102
+SBXW APP by MATRIX AIRAC2105
 SBXW_APP
 SBUL
 S018.53.00.999
@@ -2579,7 +2579,6 @@ SBUL_22_URB1B SBUL SBUL URB URB
 W31 TEGUK TEGUK ARX ARX
 W31 ARX ARX KOMLU KOMLU
 W31 KOMLU KOMLU URB URB
-Z10 GIDVO GIDVO SELMU SELMU
 Z41 URB URB KIGUB KIGUB
 Z41 KIGUB KIGUB ULD ULD
 Z41 ULD ULD MULUX MULUX
@@ -2598,6 +2597,7 @@ Z64 PANOP PANOP SAKRU SAKRU
 Z64 SAKRU SAKRU ULD ULD
 Z64 ULD ULD UBSUT UBSUT
 Z64 UBSUT UBSUT TODLI TODLI
+Z65 GIDVO GIDVO SELMU SELMU
 Z7 KOMLU KOMLU SAMGA SAMGA
 Z7 SAMGA SAMGA GELIB GELIB
 Z7 GELIB GELIB VULPA VULPA
@@ -2605,9 +2605,6 @@ Z82 ILPAV ILPAV PAGAB PAGAB
 Z82 PAGAB PAGAB PUMLA PUMLA
 Z82 PUMLA PUMLA MAPVI MAPVI
 Z82 MAPVI MAPVI SAKRU SAKRU
-Z84 MAVNI MAVNI NITBU NITBU
-Z84 NITBU NITBU ISRIK ISRIK
-Z84 ISRIK ISRIK ARX ARX
 
 
 [HIGH AIRWAY]

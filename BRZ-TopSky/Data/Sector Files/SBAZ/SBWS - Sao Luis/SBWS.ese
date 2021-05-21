@@ -18,7 +18,7 @@
 ;Updated FEB/2020 by Otávio França (1086430);
 ;Updated FEB/2020 FREE TEXT Update by Bruno Veiga (1347354), Cleber Amaral (1416637) and Paulo Silvestre (1412379);
 ;Updated MAY/2020 SECTOR OWNER by Otavo França (1086430);
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES / ATUALIZAÇÕES==========================================================;
 ;Suggestions and updates contact Vatsim Brazil official channels https://www.vatsim.net.br ; diretor@vatsim.net.br;
 ;Sugestões e atualizações entre em contato através dos canais oficiais da Vatsim Brasil https://www.vatsim.net.br ; diretor@vatsim.net.br;
@@ -262,6 +262,7 @@ Macae Tower:Macae Tower:118.450:TME::SBME:TWR:::3440:3477:
 Marilia Tower:Marilia Tower:130.450:TML::SBML:TWR:::3101:3137:
 Maringa Tower:Maringa Tower:118.750:TMG::SBMG:TWR:::3401:3437:
 Marlim Helicopter Radio:Marlim Helicopter Radio:130.850:TMM:H:SBMM:TWR:::0201:0237:
+Marte ATIS:Marte ATIS:127.725:AMT::SBMT:ATIS:::::
 Marte Clearence Delivery:Marte Clearence Delivery:118.700:DMT::SBMT:DEL:::0201:0237:
 Marte Ground:Marte Ground:121.600:GMT::SBMT:GND:::0201:0237:
 Marte Tower:Marte Tower:133.350:TMT::SBMT:TWR:::0201:0237:
@@ -302,7 +303,7 @@ Sao Paulo Helicopter Approach:Sao Paulo Helicopter Approach:127.350:XPH:H:SBXP:A
 Sao Paulo Visual Approach:Sao Paulo Visual Approach:129.500:XPV:V:SBXP:APP:::0201:0237:
 Sao Paulo Congonhas ATIS:Sao Paulo Congonhas ATIS:127.650:ASP::SBSP:ATIS:::::
 Sao Paulo Congonhas Clearence Delivery:Sao Paulo Congonhas Clearance Delivery:120.600:CSP::SBSP:DEL:::3701:3777:
-Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.900:GSP::SBSP:GND:::3701:3777:
+Sao Paulo Congonhas Ground:Sao Paulo Congonhas Ground:121.950:GSP::SBSP:GND:::3701:3777:
 Sao Paulo Congonhas Tower:Sao Paulo Congonhas Tower:127.150:TSP::SBSP:TWR:::3701:3777:
 Taubate Military Ground:Taubate Military Ground:121.700:GTA:M:SBTA:GND:::0101:0117:
 Taubate Military Tower:Taubate Military Tower:119.900:TTA:M:SBTA:TWR:::0120:0137:
@@ -4500,15 +4501,47 @@ S018.47.55.707:W047.29.45.098:MILITARY-FIR:ZEUS ZEU
 ;========================================SBWS FREETEXT===================================================================;
 [FREETEXT]
 ;SBSL SAO LUIZ
-S002.35.03.463:W044.14.03.632:SBSL-Taxi:A
+S002.35.03.493:W044.14.03.032:SBSL-Taxi:A
 S002.35.16.597:W044.14.31.724:SBSL-Taxi:B
-S002.35.09.188:W044.14.17.391:SBSL-Patio:1
-S002.35.00.755:W044.14.03.492:SBSL-Patio:2
-S002.35.01.975:W044.14.15.091:SBSL-PAX:PAX
+S002.35.06.809:W044.14.13.759:SBSL-Patio:Patio 1
+S002.35.00.755:W044.14.02.492:SBSL-Patio:Patio 2
+S002.34.58.575:W044.14.12.091:SBSL-Patio:Terminal PAX
+S002.34.58.575:W044.14.20.091:SBSL-Patio:CARGAS
+S002.35.03.975:W044.14.26.001:SBSL-Patio:RFFS
+S002.35.04.975:W044.14.30.001:SBSL-Patio:HANGARES
+S002.35.02.863:W044.14.06.632:SBSL-Gate:1A
+S002.35.03.300:W044.14.07.792:SBSL-Gate:1
+S002.35.03.999:W044.14.09.722:SBSL-Gate:2
+S002.35.04.499:W044.14.11.222:SBSL-Gate:3
+S002.35.04.999:W044.14.12.452:SBSL-Gate:4
+S002.35.05.499:W044.14.13.699:SBSL-Gate:5
+S002.35.05.999:W044.14.14.969:SBSL-Gate:6
+S002.35.06.459:W044.14.16.299:SBSL-Gate:7
+S002.35.06.909:W044.14.17.759:SBSL-Gate:8
+S002.35.07.509:W044.14.19.459:SBSL-Gate:9
+S002.35.00.955:W044.14.03.952:SBSL-Gate:A
+S002.35.00.055:W044.14.03.292:SBSL-Gate:B
+S002.35.00.105:W044.14.05.692:SBSL-Gate:C
+S002.34.59.595:W044.14.06.102:SBSL-Gate:D
+S002.34.58.255:W044.14.05.292:SBSL-Gate:S
+S002.34.58.855:W044.14.05.392:SBSL-Gate:R
+S002.34.58.535:W044.14.04.950:SBSL-Gate:Q
+S002.34.59.125:W044.14.05.059:SBSL-Gate:P
+S002.34.58.895:W044.14.04.609:SBSL-Gate:O
+S002.34.57.435:W044.14.04.739:SBSL-Gate:N
+S002.34.57.805:W044.14.04.359:SBSL-Gate:M
+S002.34.58.605:W044.14.03.809:SBSL-Gate:L
+S002.34.58.385:W044.14.03.359:SBSL-Gate:J
+S002.34.58.905:W044.14.03.459:SBSL-Gate:I
+S002.34.58.725:W044.14.03.029:SBSL-Gate:H
+S002.34.59.209:W044.14.03.129:SBSL-Gate:G
+S002.34.59.009:W044.14.02.629:SBSL-Gate:F
+S002.34.59.519:W044.14.02.809:SBSL-Gate:E
 ;========================================SBWS FREETEXT===================================================================;
 ;========================================RADAR FIR AMAZÔNICA SBAZ 2018===================================================;
 [RADAR]
 ;========================================RADAR FIR AMAZÔNICA SBAZ 2018===================================================;
+
 
 
 [SIDSSTARS]

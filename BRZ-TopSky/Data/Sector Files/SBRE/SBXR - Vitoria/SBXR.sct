@@ -12,7 +12,7 @@
 ;JUL/2020 ATCMAC and Air Space Conditined by Cleber Amaral (1416637) and Paulo Silvestre (1412379),
 ;AUG/2020 Sector File Structure Update by Otávio França (1086430),
 ;DEC/2020 ICAO Airports and Rwy Update by Paulo Silvestre (1412379),
-; Updated by Sectorgraph to AIRAC 2102
+; Updated by Sectorgraph to AIRAC 2105
 ;========================================UPDATES============================================================================;
 ;Suggestions contact Vatsim Brazil official channels https://www.vatsim.net.br; diretor@vatsim.net.br;  https://discord.gg/PqQhdQg
 ;========================================DATA STRUCTURE=====================================================================;
@@ -22,7 +22,7 @@
 ;#####SBVT#####
 ;========================================INFO===============================================================================;
 [INFO]
-SBXR APP by MATRIX AIRAC2102
+SBXR APP by MATRIX AIRAC2105
 SBXR_APP
 SBVT
 S020.15.29.001
