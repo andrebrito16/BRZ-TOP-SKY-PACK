@@ -144,18 +144,20 @@ Window_HoldList_MaxListItems=20
 FlightLeg_AutoShow=1
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
-//WX Radar for UK
-WXR_Latitude=54.5
-WXR_Latitude_Max=61
-WXR_Latitude_Min=48
-WXR_Longitude=-2.5
-WXR_Longitude_Max=5
-WXR_Longitude_Min=-10
-WXR_Brightness=20
-WXR_Gain=85
-WXR_Echo_dBZ_Hi=20
-WXR_Echo_dBZ_Med=15
-WXR_Echo_dBZ_Lo=12 
+//WX Radar for Brazil
+WXR_Latitude=-16
+WXR_Latitude_Max=5
+WXR_Latitude_Min=-36
+WXR_Longitude=-53
+WXR_Longitude_Max=-30
+WXR_Longitude_Min=-79
+WXR_Brightness=50
+WXR_Gain=105
+WXR_ImageSize=512
+WXR_Zoom=3
+WXR_Echo_dBZ_Hi=45
+WXR_Echo_dBZ_Med=35
+WXR_Echo_dBZ_Lo=20
 
 [_CTR]
 Window_CPDLC_Current=1,0,40
