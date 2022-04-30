@@ -14,7 +14,6 @@ def removeCredentials():
               "LastSession	certificate" in line or \
               "LastSession	callsign" in line:
                 lines.remove(line)
-                break
             
         prfWrite = open(os.path.join(root, file), "w")
         for line in lines:
