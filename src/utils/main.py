@@ -26,7 +26,6 @@ def removeCredentials():
           hadCredentials = True
 
         prf.close()
-  print("Done! ✅")
 
   print("Done!")
   return hadCredentials;
