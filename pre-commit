@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+printf "Executando script de remoção de credenciais da VATSIM.\n"
+
+python src/utils/main.py
+
+printf "Execução do script finalizada."
