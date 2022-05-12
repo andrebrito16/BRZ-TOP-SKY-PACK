@@ -1,6 +1,8 @@
-import os
+import os, sys
 
 def removeCredentials():
+  hadCredentials = False;
+
   for root, _, files in os.walk("."):
     for file in files:
       if file.endswith(".prf"):
@@ -20,8 +22,14 @@ def removeCredentials():
         for line in newLines:
           prfWrite.write(line)
 
+        if (len(newLines) != len(lines)):
+          hadCredentials = True
+
         prf.close()
   print("Done! ✅")
 
+  print("Done!")
+  return hadCredentials;
+
 if __name__ == "__main__":
-  removeCredentials()
+  sys.exit(1) if removeCredentials() is True else sys.exit(0) 
