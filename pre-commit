@@ -3,5 +3,11 @@
 printf "Executando script de remoção de credenciais da VATSIM.\n"
 
 python src/utils/main.py
+status=$?
 
-printf "Execução do script finalizada."
+if [ $status -eq 1 ]; then
+    printf "\n${yellow}Foram encontradas credenciais em um ou mais arquivos. Cheque-os e tente novamente.${reset}\n"
+    exit 1
+fi
+
+printf "Execução do script finalizada. Nenhuma credencial encontrada :)"
