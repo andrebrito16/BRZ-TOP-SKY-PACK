@@ -7,16 +7,17 @@ def removeCredentials():
         print(f"Found - {file}")
         prf = open(os.path.join(root, file), "r")
         lines = prf.readlines()
+        newLines = []
 
         for line in lines:
-          if "LastSession	realname" in line or \
+          if not ("LastSession	realname" in line or \
               "LastSession	password" in line or \
               "LastSession	certificate" in line or \
-              "LastSession	callsign" in line:
-                lines.remove(line)
-            
+              "LastSession	callsign" in line):
+                newLines.append(line);
+               
         prfWrite = open(os.path.join(root, file), "w")
-        for line in lines:
+        for line in newLines:
           prfWrite.write(line)
 
         prf.close()
